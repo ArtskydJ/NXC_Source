@@ -1,0 +1,20 @@
+//BlueTooth Controller
+//Use with "BTReceiver.nxc"
+int speedA,speedC;
+
+TextOut(0,LCD_LINE1,"Reset your",DRAW_OPT_NORMAL);
+TextOut(0,LCD_LINE2,"Motors...", DRAW_OPT_NORMAL);
+TextOut(45,LCD_LINE8,"OK", DRAW_OPT_NORMAL);
+until (!BTNCENTER)
+until (BTNCENTER)
+until (!BTNCENTER)
+ResetTachoCount(OUT_AC);
+task main()
+    {
+    while (true)
+        {
+        //Check Rotation Sensors
+        //Send BT Messages
+        Wait(MS_10)
+        }
+    }

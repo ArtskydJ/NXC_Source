@@ -1,0 +1,68 @@
+//Calculator
+
+int SetNum()
+    {
+    bool reloop=true;
+    int temp=0;
+    while (reloop)
+        {
+        ResetTachoCount(OUT_A);
+        if (ButtonState(BTNLEFT))
+            {temp-=1;}
+        if (ButtonState(BTNRIGHT))
+            {temp+=1;}
+        ClearLine(LCD_LINE1);
+        TextOut(0,LCD_LINE1,NumToStr(temp),DRAW_OPT_NORMAL);
+        Wait(100);
+        if (ButtonState(BTNLEFT)||ButtonState(BTNRIGHT))
+            {Wait(100);}
+        temp+=MotorTachoCount(OUT_A);
+        reloop=!ButtonState(BTNCENTER);
+        }
+    until (ButtonState(BTNCENTER)==false) {}
+    return temp;
+    }
+    
+int SetOp()
+    {
+    bool reloop=true;
+    int temp=0;
+    while (reloop)
+        {
+        if (ButtonState(BTNRIGHT)) {temp+=1;}
+        until(ButtonState(BTNRIGHT)==false)
+        if (temp>=4) {temp-=4;}
+        ClearLine(LCD_LINE2);
+        if (temp==0) {TextOut(0,LCD_LINE2,"+",DRAW_OPT_NORMAL);}
+        if (temp==1) {TextOut(0,LCD_LINE2,"-",DRAW_OPT_NORMAL);}
+        if (temp==2) {TextOut(0,LCD_LINE2,"*",DRAW_OPT_NORMAL);}
+        if (temp==3) {TextOut(0,LCD_LINE2,"/",DRAW_OPT_NORMAL);}
+        Wait(100);
+        reloop=!(ButtonState(BTNCENTER));
+        }
+    until (ButtonState(BTNCENTER)==false) {}
+    return temp;
+    }
+
+task main()
+    {
+    int Num1, Num2, operation;
+    TextOut(45,LCD_LINE8,"OK",DRAW_OPT_NORMAL);
+    Num1=SetNum();
+    while(true)
+        {
+        ClearLine(LCD_LINE8);
+        TextOut(45,LCD_LINE8,"OK",DRAW_OPT_NORMAL);
+        operation=SetOp();
+        Num2=SetNum();
+        ClearLine(LCD_LINE2);
+        if (operation==0) {Num1+=Num2;}
+        if (operation==1) {Num1-=Num2;}
+        if (operation==2) {Num1*=Num2;}
+        if (operation==3) {Num1/=Num2;}
+        TextOut(0,LCD_LINE1,NumToStr(Num1),DRAW_OPT_NORMAL);
+        TextOut(40,LCD_LINE8,"Next",DRAW_OPT_NORMAL);
+        until (ButtonState(BTNCENTER)){}
+        until (ButtonState(BTNCENTER)==false){}
+        }
+    }

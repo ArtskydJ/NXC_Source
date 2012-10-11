@@ -1,0 +1,189 @@
+/* ParaTrooper
+By Joseph Dykstra*/
+#define x   0
+#define y    1
+#define dirx  2
+#define diry   3
+#define chute   2
+#define angle    2
+#define onground  3
+#define maxheli    6
+#define maxpara     10
+#define maxbull      20
+#define maxlanded     5
+
+//IMPORT GRAPHICS
+
+short cannon[3], b[maxbull][2], h[maxheli][2], p[maxpara][4];
+int score=0, i, j, paralanded=0;
+int paraspeed,parachance,helispeed,helichance,refreshwait,gametype;
+bool alive=true;
+string accesshigh="";
+int result, fsize, handle;
+
+int readHighscore()
+  {
+  int ARead = 0;
+  result = OpenFileRead("High.dat", fsize, handle);
+  if (result == LDR_SUCCESS)
+    {
+    result = Read(handle, ARead);
+    result = CloseFile(handle);
+    }
+  else
+    {ARead = -1;}
+  return ARead;
+  }
+
+void overwriteHighscore(int NewHighscore)
+  {
+  result = DeleteFile("High.dat");
+  result = CreateFile("High.dat", 10, handle);
+  result = Write(handle, NewHighscore);
+  result = CloseFile(handle);
+  }
+
+void Init()
+  {
+  helispeed=3;
+  refreshwait=50;
+  for (j=0;j<maxbull;j++)
+    { //BULLETS
+    for (i=0;i<2;i++)
+      {b[j][i]=0;}
+    }
+  for (j=0;j<maxpara;j++)
+    { //PARATROOPERS
+    for (i=0;i<2;i++)
+      {p[j][i]=0;}
+    }
+  for (j=0;j<maxheli;j++)
+    { //HELICOPTORS
+    for (i=0;i<2;i++)
+      {h[j][i]=0;}
+    }
+  }
+  
+void selectGame()
+  {
+  while (ButtonPressed(BTNCENTER)==false)
+    {
+    if (ButtonPressed(BTNLEFT))  {gametype--;}
+    until (ButtonPressed(BTNLEFT)==false)  {}
+    if (ButtonPressed(BTNRIGHT)) {gametype++;}
+    until (ButtonPressed(BTNRIGHT)==false) {}
+    if (gametype<0) {gametype=3;}
+    if (gametype>3) {gametype=0;}
+    ClearScreen();
+    TextOut(40,LCD_LINE1,"HELI",  0);
+    TextOut(1, LCD_LINE2,"Choose:",0);
+    TextOut(1, LCD_LINE3,"Easy",   0);
+    TextOut(1, LCD_LINE4,"Medium", 0);
+    TextOut(1, LCD_LINE5,"Hard",   0);
+    TextOut(1, LCD_LINE6,"Death",  0);
+    RectOut(0,40-(gametype*8),99,8,0);
+    Wait(50);
+    }
+  if (gametype==0)
+    {
+    accesshigh="ParaEasy.dat";
+    paraspeed=3;
+    parachance=25;
+    helichance=50;
+    }
+  else if (gametype==1)
+    {
+    accesshigh="ParaMedium.dat";
+    paraspeed=3;
+    parachance=20;
+    helichance=50;
+    }
+  else if (gametype==2)
+    {
+    accesshigh="ParaHard.dat";
+    paraspeed=2;
+    parachance=15;
+    helichance=50;
+    }
+  else if (gametype==3)
+    {
+    accesshigh="ParaDeath.dat";
+    paraspeed=2;
+    parachance=10;
+    helichance=50;
+    }
+  }
+
+void heliMove()
+  {
+  //randomly create   (with _helichance_) if not maxed out
+  j=0;
+  for (i=0;i<maxheli-1;i++)
+    {
+    j+=h[i][y]!=0;
+    }
+  if (j!=i)
+    {
+    if (Random(helichance))
+      {
+      for (i=0;j==0;i++)
+        {
+        if (h[i][y]!=0)
+          {
+          
+          j=1;
+          }
+        }
+      }
+    }
+  //move              (with _helispeed_)
+  //make paratroopers (with _parachance_)
+  }
+
+void paraMove()
+  {
+  //move paratroopers (with _paraspeed_)
+  }
+
+void cannMove()
+  {
+  //move cannon
+  //make bullets
+  }
+
+void bullMove()
+  {
+  //move bullets
+  //check for collision
+  }
+
+void draw()
+  {
+  //draw heli
+  //draw para
+  //draw cann
+  Wait(refreshwait);
+  }
+
+void endGame()
+  {
+  if (score>readHighscore())
+    {overwriteHighscore(score);}
+  TextOut(25,LCD_LINE4,"GAME OVER", 1);
+  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(score),", HS: ",NumToStr( readHighscore() )),0);
+  Wait(1000);
+  }
+    
+task main()
+  {
+  Init();
+  while (alive)
+    {
+    heliMove();
+    paraMove();
+    cannMove();
+    bullMove();
+    alive=(paralanded<maxlanded);
+    }
+  endGame();
+  }

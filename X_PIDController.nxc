@@ -1,0 +1,28 @@
+//PID Controller
+#define p      10
+#define i      1
+#define d      100
+#define offset 50
+#define tp     50
+int integral=0, lastError, derivative, LightValue, error, Turn;
+task main()
+    {
+    SetSensor(SENSOR_3,SENSOR_LIGHT);
+    SetSensorMode(SENSOR_3,SENSOR_MODE_PERCENT);
+    integral = 0;
+    lastError = 0;
+    derivative = 0;
+    while (true)
+        {
+        LightValue=SENSOR_3;
+        error=LightValue-offset;
+        integral+=error;
+        derivative=error-lastError;
+        Turn = ((p*error)+(i*integral)+(d*derivative));
+        OnFwd("B",tp + Turn);
+        OnFwd("C",tp - Turn);
+        lastError=error;
+        }
+    }
+//RotateMotorExPID("ports", "pwr", "angle", "turnpct", "bsync", "bstop", "p", "i", "d");
+//RotateMotorPID("ports", "pwr", "angle", "p", "i", "d");

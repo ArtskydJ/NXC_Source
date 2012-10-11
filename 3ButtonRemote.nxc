@@ -1,0 +1,25 @@
+//3 Button Remote
+task main()
+    {
+    while (1)
+        {
+        if ButtonPressed(BTNCENTER)  //use 3 if doesnt work
+            {
+            OnFwd(OUT_BC,100);
+            }
+        else if ButtonPressed(BTNLEFT)
+            {
+            Coast(OUT_C);
+            OnFwd(OUT_B,100);
+            }
+        else if ButtonPressed(BTNRIGHT)
+            {
+            Coast(OUT_B);
+            OnFwd(OUT_C,100);
+            }
+        else
+            {
+            Coast(OUT_BC)
+            }
+        }
+    }

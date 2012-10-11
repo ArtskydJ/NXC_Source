@@ -1,0 +1,47 @@
+//High Score Template
+//convert into #include file sometime?
+
+int score=0, result, fsize, handle;
+
+int readHighscore()
+  {
+  int ARead = 0;
+  result = OpenFileRead("High.dat", fsize, handle);
+  if (result == LDR_SUCCESS)
+    {
+    result = Read(handle, ARead);
+    result = CloseFile(handle);
+    }
+  else
+    {ARead = -1;}
+  return ARead;
+  }
+
+void overwriteHighscore(int NewHighscore)
+  {
+  result = DeleteFile("High.dat");
+  result = CreateFile("High.dat", 10, handle);
+  result = Write(handle, NewHighscore);
+  result = CloseFile(handle);
+  }
+
+void endGame()
+  {
+  if (score>readHighscore())
+    {overwriteHighscore(score);}
+  TextOut(25,LCD_LINE4,"GAME OVER", 1);
+  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(score),", HS: ",NumToStr( readHighscore() )),0);
+  Wait(1000);
+  }
+/*
+void deleteHighscore()
+  {
+  DeleteFile("high.dat");
+  }
+
+task main()
+  {
+  score=Random(100);
+  endGame();
+  }
+*/

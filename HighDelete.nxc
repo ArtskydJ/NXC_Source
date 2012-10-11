@@ -1,0 +1,74 @@
+//High Score Delete
+#define  defaulthigh  0
+int result, fsize, handle, selection=0;
+bool reset=0;
+
+void deleteHigh(string deleteme)
+    {
+    ClearLine(LCD_LINE6); ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
+    TextOut(0, LCD_LINE7,"Are you sure?",0);
+    TextOut(0,LCD_LINE8,"Reset",4096);
+    TextOut(64,LCD_LINE8,"Delete",4096);
+    for (int a=3;a>0;a--) {NumOut(47,LCD_LINE8,a,0);Wait(1000);}
+    if (ButtonPressed(BTNLEFT)||ButtonPressed(BTNRIGHT))
+        {
+        reset=ButtonPressed(BTNLEFT);
+        result = DeleteFile(deleteme);
+        if (result==LDR_SUCCESS)
+            {
+            if (reset)
+              {
+              CreateFile(deleteme, 10, handle); //result = Crea...
+              Write(handle, defaulthigh);       //result = Writ...
+              CloseFile(handle);                //result = Clos...
+              TextOut(0,LCD_LINE8,StrCat("Reset to ",NumToStr(defaulthigh)),4096);
+              }
+            else
+              {
+              ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
+              TextOut(0,LCD_LINE8,"Deleted",4096);
+              }
+
+            Wait(2000);
+            }
+        }
+    else
+        {
+        ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
+        TextOut(0,LCD_LINE8,"Not",4096);
+        TextOut(22,LCD_LINE8,"Reset/Deleted",4096);
+        Wait(2000);
+        }
+    until (ButtonPressed(BTNCENTER)==false)
+    }
+
+task main()
+  {
+  while (true)
+    {
+    int i,j,nof; //nof = number of files
+    ListFilesType dathighs;
+    dathighs.Pattern = "*.dat";
+    SysListFiles(dathighs);
+    nof=ArrayLen(dathighs.FileList);
+    j=0;
+    selection=0;
+    while (ButtonPressed(BTNCENTER)==false)
+      {
+        {
+        ClearScreen();
+        for (i=0; i<8; i++)
+          {if (nof > j+i)
+            {TextOut(2,56-i*8, dathighs.FileList[j+i]);}}
+        RectOut(0,56,99,7,0);
+        Wait(50);
+        if (ButtonState(BTNLEFT))  {if (j>0) {j--;}}
+        until (ButtonState(BTNLEFT)==false)  {}
+        if (ButtonState(BTNRIGHT)) {if (j<nof-1) {j++;}}
+        until (ButtonState(BTNRIGHT)==false) {}
+        }
+      }
+    until (ButtonPressed(BTNCENTER)==false)
+    deleteHigh(dathighs.FileList[j]);
+    }
+  }

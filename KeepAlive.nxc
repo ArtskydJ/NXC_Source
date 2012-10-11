@@ -1,0 +1,9 @@
+task main()
+    {
+    for (int a=0; true; a+=0.1)
+        {
+        ResetSleepTimer();
+        Wait(MS_100);
+        TextOut(0,LCD_LINE1,NumToStr(a));
+        }
+    }

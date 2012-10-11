@@ -1,0 +1,99 @@
+//PacMan
+#define x        0
+#define y        1
+#define d        2
+#define w        12
+#define h        8
+#define right    12
+#define up       8
+#define left     12
+#define down     8
+#define enemynum 3
+int score=0, a, b, bab;
+bool alive=true;
+int e[enemynum][2],me[3],go[2]={1,0};
+//0=empty, 1=food
+//2=me, 3=wall
+//4=e1, 5=e1&food
+//6=e2, 7=e2&food
+int board [w][h]=
+    {
+    {3,3,3,3,3,3,3,3,3,3,3,3}
+    {3,1,0,1,0,1,0,1,0,1,0,3}
+    {3,0,1,0,1,0,1,0,1,0,1,3}
+    {3,1,0,0,3,3,0,3,3,1,0,3}
+    {3,0,1,1,3,4,0,6,3,0,1,3}
+    {3,1,0,0,3,3,3,3,3,1,0,3}
+    {3,0,1,0,1,2,1,0,1,0,1,3}
+    {3,3,3,3,3,3,3,3,3,3,3,3}
+    };
+
+void drawBoard()
+  {
+  for (int j=0;j<h;j++)
+    {
+    for (int i=0;i<w;i++)
+      {
+      if (board[j][i]==1) { PointOut(i*8+4,j*8+4,0);}                            //food
+      if (board[j][i]==2) {CircleOut(i*8+4,j*8+4,4,0);}                          //me
+      if (board[j][i]==3) {  RectOut(i*8  ,j*8  ,8,8,32);}                       //wall
+      if (board[j][i]==4) {CircleOut(i*8+4,j*8+4,3,0);}                          //e1
+      if (board[j][i]==5) {CircleOut(i*8+4,j*8+4,3,0);PointOut(i*8+4,j*8+4,0);}  //e1+food
+      if (board[j][i]==6) {CircleOut(i*8+4,j*8+4,3,0);}                          //e2
+      if (board[j][i]==7) {CircleOut(i*8+4,j*8+4,3,0);PointOut(i*8+4,j*8+4,0);}  //e2+food
+      }
+    }
+  }
+    
+task main()
+  {
+  for (score=0; alive==true; score++)
+    {
+    //RectOut(0,0,99,63,DRAW_OPT_NORMAL);     //Outline
+    if (ButtonPressed(BTNLEFT,BTNSTATE_PRESSED_STATE))   {go[x]=-1;go[y]=0;}  //check sensors
+    if (ButtonPressed(BTNRIGHT,BTNSTATE_PRESSED_STATE))  {go[x]=1; go[y]=0;}
+    if (ButtonPressed(BTNCENTER,BTNSTATE_PRESSED_STATE))
+      {
+      if (abs(go[y])==1) {go[y]*=-1;} //toggle up/down
+      else {go[x]=1; go[y]=0;}
+      }
+    //scan board
+    alive=false;
+    for (int j=0;j<h;j++)
+      {
+      for (int i=0;i<w;i++)
+        {
+        if (board[j][i]==1) {alive=true;}
+        if (board[j][i]==2) {me[x]=i; me[y]=j;}
+        if (board[j][i]==4) {e[1][x]=i; e[1][y]=j;}
+        if (board[j][i]==5) {e[1][x]=i; e[1][y]=j;}
+        if (board[j][i]==6) {e[2][x]=i; e[2][y]=j;}
+        if (board[j][i]==7) {e[2][x]=i; e[2][y]=j;}
+        }
+      }
+    //define temporary variables
+    a=me[x]+go[x];
+    b=me[y]+go[y];
+    bab=board[b][a];
+    if ((e[0][x]!=a)&&(e[0][y]!=b)&&(e[1][x]!=a)&&(e[1][y]!=b))
+      {
+      if (bab<2)
+        {me[x]=a; me[y]=b; score+=bab;}
+      else
+        {
+        if (bab>2)
+          {
+          alive=false;
+      } } }
+    else {alive=false;}
+    e[d][1]=Random(4);                        //move enemy, if can, check if on me
+    if (e[d][1]==right)     {}
+    else if (e[d][1]==up)   {}
+    else if (e[d][1]==left) {}
+    else if (e[d][1]==down) {}
+    else {}//PlayTone(4000,10000);} ///////////////////////////////////////////////////
+    drawBoard();
+    }
+  TextOut(0,LCD_LINE1,"Game Over",0);
+  TextOut(0,LCD_LINE2,"Score="+NumToStr(score),0);
+  }

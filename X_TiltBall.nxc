@@ -1,0 +1,16 @@
+int x=50, y=32, z=0;
+SetSensorLight(IN_1);
+SetSensorLight(IN_2);
+int main()
+    {
+    while (1)
+        {
+        x-=((SENSOR_1-50)/20);
+        y-=((SENSOR_2-50)/20);
+        if (x<0)  {x=0;}
+        if (x>99) {x=99;}
+        if (y<0)  {y=0;}
+        if (y>99) {y=99;}
+        CircleOut(x,y,3,DRAW_OPT_NORMAL);
+        }
+    }

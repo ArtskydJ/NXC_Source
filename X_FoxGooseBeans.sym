@@ -1,0 +1,1360 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001draw	6	1	0	4	40
+1	__signed_stack_002draw	6	1	4	4	28
+2	__signed_stack_003draw	6	1	8	4	2
+3	__D0howto	6	1	12	4	91
+4	__D0main	6	1	16	4	6
+5	__DU0main	5	1	20	4	2
+6	__signed_stack_002howto	6	1	24	4	46
+7	__unsigned_stack_001main	5	1	28	4	2
+8	__Wait_7qG2_ms_7qG2_000_inline_draw	5	1	32	4	2
+9	__unsigned_stack_001draw	5	1	36	4	2
+10	__unsigned_stack_002draw	5	1	40	4	2
+11	__signed_stack_001howto	6	1	44	4	58
+12	__SPTArgsMutex	9	0	48	4	2
+13	__D0draw	6	1	52	4	59
+14	__constVal200	4	0	56	2	8
+15	__draw_7qG2_transx_7qG2_000	4	1	58	2	2
+16	__draw_7qG2_boaty_7qG2_000	4	1	60	2	3
+17	__draw_7qG2_intrans_7qG2_000	4	1	62	2	6
+18	__main_7qG2_intransport_7qG2_000	4	1	64	2	3
+19	__howto_return	1	1	66	1	3
+20	boatr	1	1	67	1	2
+21	____initialize_global_data_return	1	1	68	1	3
+22	__draw_return	1	1	69	1	4
+23	__constVal1	2	0	70	1	4
+24	__constVal0	2	1	71	1	7
+25	__main_7qG2_win_7qG2_000	1	1	72	1	2
+26	__constVal16	2	0	73	1	1
+27	__main_7qG2_alive_7qG2_000	1	1	74	1	2
+28	__RBtnArgs	8	0	5	8	30
+29	__RBtnArgs.Result	2	1	76	1	30
+30	__RBtnArgs.Index	1	1	77	1	30
+31	__RBtnArgs.Pressed	1	1	78	1	30
+32	__RBtnArgs.Count	1	1	79	1	30
+33	__RBtnArgs.Reset	1	1	80	1	30
+34	__TextOutArgs	8	0	4	16	118
+35	__TextOutArgs.Result	2	1	84	1	118
+36	__TextOutArgs.Location	8	0	2	4	118
+37	__TextOutArgs.Location.X	4	1	88	2	118
+38	__TextOutArgs.Location.Y	4	1	90	2	118
+39	__TextOutArgs.Text	7	0	92	4	118
+40	__TextOutArgs.Text.Text_type	1	0	0	1	0
+41	__TextOutArgs.Options	5	1	96	4	118
+42	__PointOutArgs	8	0	3	12	16
+43	__PointOutArgs.Result	2	1	100	1	16
+44	__PointOutArgs.Location	8	0	2	4	16
+45	__PointOutArgs.Location.X	4	1	104	2	16
+46	__PointOutArgs.Location.Y	4	1	106	2	16
+47	__PointOutArgs.Options	5	1	108	4	16
+48	__GraphicOutArgs	8	0	5	20	76
+49	__GraphicOutArgs.Result	2	1	112	1	76
+50	__GraphicOutArgs.Location	8	0	2	4	76
+51	__GraphicOutArgs.Location.X	4	1	116	2	76
+52	__GraphicOutArgs.Location.Y	4	1	118	2	76
+53	__GraphicOutArgs.Filename	7	0	120	4	76
+54	__GraphicOutArgs.Filename.Filename_type	1	0	0	1	0
+55	__GraphicOutArgs.Variables	7	0	122	4	76
+56	__GraphicOutArgs.Variables.Variables_type	6	0	0	4	0
+57	__GraphicOutArgs.Options	5	1	124	4	76
+58	__SPTArgs	8	0	5	8	6
+59	__SPTArgs.Result	2	1	128	1	6
+60	__SPTArgs.Frequency	3	1	130	2	6
+61	__SPTArgs.Duration	3	1	132	2	6
+62	__SPTArgs.Loop	1	1	134	1	6
+63	__SPTArgs.Volume	1	1	135	1	6
+64	__constStr0030	7	0	136	4	1
+65	__constStr0030.__constStr0030_type	1	1	0	1	0
+66	__constStr0027	7	0	138	4	1
+67	__constStr0027.__constStr0027_type	1	1	0	1	0
+68	__constStr0026	7	0	140	4	1
+69	__constStr0026.__constStr0026_type	1	1	0	1	0
+70	__constStr0029	7	0	142	4	1
+71	__constStr0029.__constStr0029_type	1	1	0	1	0
+72	__constStr0028	7	0	144	4	1
+73	__constStr0028.__constStr0028_type	1	1	0	1	0
+74	__constStr0034	7	0	146	4	3
+75	__constStr0034.__constStr0034_type	1	1	0	1	0
+76	__constStr0035	7	0	148	4	3
+77	__constStr0035.__constStr0035_type	1	1	0	1	0
+78	__constStr0036	7	0	150	4	3
+79	__constStr0036.__constStr0036_type	1	1	0	1	0
+80	__constStr0031	7	0	152	4	1
+81	__constStr0031.__constStr0031_type	1	1	0	1	0
+82	__constStr0032	7	0	154	4	1
+83	__constStr0032.__constStr0032_type	1	1	0	1	0
+84	__constStr0033	7	0	156	4	1
+85	__constStr0033.__constStr0033_type	1	1	0	1	0
+86	__constStr0012	7	0	158	4	1
+87	__constStr0012.__constStr0012_type	1	1	0	1	0
+88	__constStr0011	7	0	160	4	1
+89	__constStr0011.__constStr0011_type	1	1	0	1	0
+90	__constStr0013	7	0	162	4	1
+91	__constStr0013.__constStr0013_type	1	1	0	1	0
+92	__constStr0015	7	0	164	4	1
+93	__constStr0015.__constStr0015_type	1	1	0	1	0
+94	__constStr0014	7	0	166	4	1
+95	__constStr0014.__constStr0014_type	1	1	0	1	0
+96	__strbufdraw	7	0	168	4	24
+97	__strbufdraw.__strbufdraw_type	1	0	0	1	0
+98	__GraphicOutEmptyVars	7	0	170	4	13
+99	__GraphicOutEmptyVars.__GraphicOutEmptyVars_type	6	0	0	4	0
+100	__strbufhowto	7	0	172	4	46
+101	__strbufhowto.__strbufhowto_type	1	0	0	1	0
+102	__constStr0010	7	0	174	4	1
+103	__constStr0010.__constStr0010_type	1	1	0	1	0
+104	__constStr0009	7	0	176	4	1
+105	__constStr0009.__constStr0009_type	1	1	0	1	0
+106	__constStr0022	7	0	178	4	1
+107	__constStr0022.__constStr0022_type	1	1	0	1	0
+108	__constStr0021	7	0	180	4	1
+109	__constStr0021.__constStr0021_type	1	1	0	1	0
+110	__constStr0023	7	0	182	4	1
+111	__constStr0023.__constStr0023_type	1	1	0	1	0
+112	__constStr0025	7	0	184	4	1
+113	__constStr0025.__constStr0025_type	1	1	0	1	0
+114	__constStr0024	7	0	186	4	1
+115	__constStr0024.__constStr0024_type	1	1	0	1	0
+116	__constStr0017	7	0	188	4	1
+117	__constStr0017.__constStr0017_type	1	1	0	1	0
+118	__constStr0016	7	0	190	4	2
+119	__constStr0016.__constStr0016_type	1	1	0	1	0
+120	__constStr0018	7	0	192	4	1
+121	__constStr0018.__constStr0018_type	1	1	0	1	0
+122	__constStr0020	7	0	194	4	1
+123	__constStr0020.__constStr0020_type	1	1	0	1	0
+124	__constStr0019	7	0	196	4	1
+125	__constStr0019.__constStr0019_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	100	0	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	101	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	100	2	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	101	2		arrinit __GraphicOutEmptyVars, __constVal0, __constVal16
+0	100	6	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	101	6		set __main_7qG2_intransport_7qG2_000, 0
+0	100	9	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	101	9	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	102	9		set __main_7qG2_alive_7qG2_000, 1
+0	101	12	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	101	12	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	102	12		set __main_7qG2_win_7qG2_000, 0
+0	101	15	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	102	15	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	103	15		mov __draw_7qG2_intrans_7qG2_000, __main_7qG2_intransport_7qG2_000
+0	102	17	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	102	17	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	103	17		subcall draw, __draw_return
+0	102	19	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	103	19	#line 103 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	104	19		subcall howto, __howto_return
+0	103	21	#line 103 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	104	21	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	105	21		mov __DU0main, __main_7qG2_alive_7qG2_000
+0	104	23	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	105	23		tst 5, __D0main, __DU0main
+0	104	26	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	105	26		brtst 4, __ASM_Label_901, __D0main
+0	104	29	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	105	29		mov __unsigned_stack_001main, __main_7qG2_win_7qG2_000
+0	104	31	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	105	31	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	106	31		set __D0main, 0
+0	105	34	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	106	34		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	108	38	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	109	38		brtst 4, __ASM_Label_899, __D0main
+0	108	41	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	109	41		mov __draw_7qG2_intrans_7qG2_000, __main_7qG2_intransport_7qG2_000
+0	108	43	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	108	43	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	109	43		subcall draw, __draw_return
+0	108	45	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	113	45	#line 113 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	114	45		jmp __ASM_Label_898
+0	113	47	#line 113 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	114	47		exit -1, -1
+1	6848	0	#line 6848 "NXCDefs.h"
+1	6849	0	#pragma macro 6
+1	6849	0		mov __PointOutArgs.Location.X, __constVal200
+1	6849	2		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	4		mov __PointOutArgs.Options, __constVal1
+1	6849	6		syscall 14, __PointOutArgs
+1	6059	9	#line 6059 "NXCDefs.h"
+1	6848	9	#line 6848 "NXCDefs.h"
+1	27	9	#line 27 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	28	9	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	9		set __signed_stack_001howto, 0
+1	28	12	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	28	12	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	12		set __signed_stack_002howto, 56
+1	28	15	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	28	15	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	15		strcat __strbufhowto, __constStr0009
+1	28	19	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	19		set __D0howto, 0
+1	28	22	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	28	22	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	22		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	28	24	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	24		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	28	26	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	26		mov __TextOutArgs.Options, __D0howto
+1	28	28	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	28		mov __TextOutArgs.Text, __strbufhowto
+1	28	30	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	30		syscall 13, __TextOutArgs
+1	28	33	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	28	33	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	28	33	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	33	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	33		set __signed_stack_001howto, 0
+1	29	36	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	36	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	36		set __signed_stack_002howto, 48
+1	29	39	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	39	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	39		strcat __strbufhowto, __constStr0010
+1	29	43	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	43		set __D0howto, 0
+1	29	46	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	46	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	46		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	29	48	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	48		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	29	50	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	50		mov __TextOutArgs.Options, __D0howto
+1	29	52	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	52		mov __TextOutArgs.Text, __strbufhowto
+1	29	54	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	54		syscall 13, __TextOutArgs
+1	29	57	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	57	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	29	57	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	57	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	57		set __signed_stack_001howto, 0
+1	30	60	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	60	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	60		set __signed_stack_002howto, 40
+1	30	63	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	63	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	63		strcat __strbufhowto, __constStr0011
+1	30	67	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	67		set __D0howto, 0
+1	30	70	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	70	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	70		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	30	72	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	72		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	30	74	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	74		mov __TextOutArgs.Options, __D0howto
+1	30	76	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	76		mov __TextOutArgs.Text, __strbufhowto
+1	30	78	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	78		syscall 13, __TextOutArgs
+1	30	81	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	81	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	30	81	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	81	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	81		set __signed_stack_001howto, 0
+1	31	84	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	84	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	84		set __signed_stack_002howto, 32
+1	31	87	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	87	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	87		strcat __strbufhowto, __constStr0012
+1	31	91	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	91		set __D0howto, 0
+1	31	94	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	94	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	94		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	31	96	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	96		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	31	98	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	98		mov __TextOutArgs.Options, __D0howto
+1	31	100	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	100		mov __TextOutArgs.Text, __strbufhowto
+1	31	102	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	102		syscall 13, __TextOutArgs
+1	31	105	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	105	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	31	105	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	105	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	105		set __signed_stack_001howto, 0
+1	32	108	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	108	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	108		set __signed_stack_002howto, 24
+1	32	111	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	111	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	111		strcat __strbufhowto, __constStr0013
+1	32	115	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	115		set __D0howto, 0
+1	32	118	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	118	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	118		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	32	120	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	120		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	32	122	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	122		mov __TextOutArgs.Options, __D0howto
+1	32	124	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	124		mov __TextOutArgs.Text, __strbufhowto
+1	32	126	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	126		syscall 13, __TextOutArgs
+1	32	129	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	129	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	32	129	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	129	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	129		set __signed_stack_001howto, 0
+1	33	132	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	132	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	132		set __signed_stack_002howto, 16
+1	33	135	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	135	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	135		strcat __strbufhowto, __constStr0014
+1	33	139	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	139		set __D0howto, 0
+1	33	142	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	142	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	142		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	33	144	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	144		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	33	146	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	146		mov __TextOutArgs.Options, __D0howto
+1	33	148	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	148		mov __TextOutArgs.Text, __strbufhowto
+1	33	150	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	150		syscall 13, __TextOutArgs
+1	33	153	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	153	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	33	153	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	153	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	153		set __signed_stack_001howto, 0
+1	34	156	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	156	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	156		set __signed_stack_002howto, 8
+1	34	159	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	159	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	159		strcat __strbufhowto, __constStr0015
+1	34	163	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	163		set __D0howto, 0
+1	34	166	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	166	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	166		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	34	168	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	168		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	34	170	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	170		mov __TextOutArgs.Options, __D0howto
+1	34	172	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	172		mov __TextOutArgs.Text, __strbufhowto
+1	34	174	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	174		syscall 13, __TextOutArgs
+1	34	177	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	177	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	34	177	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	177	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	177		set __signed_stack_001howto, 42
+1	35	180	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	180	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	180		set __signed_stack_002howto, 0
+1	35	183	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	183	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	183		strcat __strbufhowto, __constStr0016
+1	35	187	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	187		set __D0howto, 0
+1	35	190	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	190	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	190		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	35	192	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	192		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	35	194	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	194		mov __TextOutArgs.Options, __D0howto
+1	35	196	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	196		mov __TextOutArgs.Text, __strbufhowto
+1	35	198	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	198		syscall 13, __TextOutArgs
+1	35	201	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	201		mov __D0howto, __TextOutArgs.Result
+1	35	203	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	35	203	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	203	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	203		set __signed_stack_001howto, 3
+1	36	206	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	206	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	206		mov __D0howto, __constVal0
+1	36	208	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	208	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	208		mov __RBtnArgs.Index, __signed_stack_001howto
+1	36	210	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	210		mov __RBtnArgs.Reset, __D0howto
+1	36	212	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	212		syscall 20, __RBtnArgs
+1	36	215	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	215	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	36	215	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	215		not __D0howto, __RBtnArgs.Pressed
+1	36	218	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	218		tst 5, __D0howto, __D0howto
+1	36	221	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	221		brtst 4, __ASM_Label_653, __D0howto
+1	37	224	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	224		jmp __ASM_Label_652
+1	37	226	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	226	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	226		set __signed_stack_001howto, 3
+1	37	229	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	229	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	229		mov __D0howto, __constVal0
+1	37	231	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	231	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	231		mov __RBtnArgs.Index, __signed_stack_001howto
+1	37	233	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	233		mov __RBtnArgs.Reset, __D0howto
+1	37	235	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	235		syscall 20, __RBtnArgs
+1	37	238	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	238	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	37	238	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	238		not __D0howto, __RBtnArgs.Pressed
+1	37	241	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	241		not __D0howto, __D0howto
+1	37	244	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	244		tst 5, __D0howto, __D0howto
+1	37	247	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	38	247		brtst 4, __ASM_Label_659, __D0howto
+1	38	250	#line 38 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	250		jmp __ASM_Label_658
+1	38	252	#line 38 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	6848	252	#line 6848 "NXCDefs.h"
+1	6849	252	#pragma macro 6
+1	6849	252		mov __PointOutArgs.Location.X, __constVal200
+1	6849	254		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	256		mov __PointOutArgs.Options, __constVal1
+1	6849	258		syscall 14, __PointOutArgs
+1	6397	261	#line 6397 "NXCDefs.h"
+1	6848	261	#line 6848 "NXCDefs.h"
+1	38	261	#line 38 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	261	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	261		set __signed_stack_001howto, 0
+1	39	264	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	264	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	264		set __signed_stack_002howto, 56
+1	39	267	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	267	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	267		strcat __strbufhowto, __constStr0017
+1	39	271	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	271		set __D0howto, 0
+1	39	274	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	274	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	274		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	39	276	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	276		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	39	278	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	278		mov __TextOutArgs.Options, __D0howto
+1	39	280	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	280		mov __TextOutArgs.Text, __strbufhowto
+1	39	282	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	282		syscall 13, __TextOutArgs
+1	39	285	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	285	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	39	285	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	285	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	285		set __signed_stack_001howto, 0
+1	40	288	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	288	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	288		set __signed_stack_002howto, 48
+1	40	291	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	291	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	291		strcat __strbufhowto, __constStr0018
+1	40	295	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	295		set __D0howto, 0
+1	40	298	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	298	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	298		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	40	300	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	300		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	40	302	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	302		mov __TextOutArgs.Options, __D0howto
+1	40	304	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	304		mov __TextOutArgs.Text, __strbufhowto
+1	40	306	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	306		syscall 13, __TextOutArgs
+1	40	309	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	309	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	40	309	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	309	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	309		set __signed_stack_001howto, 0
+1	41	312	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	312	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	312		set __signed_stack_002howto, 40
+1	41	315	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	315	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	315		strcat __strbufhowto, __constStr0019
+1	41	319	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	319		set __D0howto, 0
+1	41	322	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	322	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	322		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	41	324	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	324		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	41	326	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	326		mov __TextOutArgs.Options, __D0howto
+1	41	328	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	328		mov __TextOutArgs.Text, __strbufhowto
+1	41	330	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	330		syscall 13, __TextOutArgs
+1	41	333	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	333	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	41	333	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	333	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	333		set __signed_stack_001howto, 0
+1	42	336	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	336	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	336		set __signed_stack_002howto, 32
+1	42	339	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	339	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	339		strcat __strbufhowto, __constStr0020
+1	42	343	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	343		set __D0howto, 0
+1	42	346	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	346	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	346		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	42	348	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	348		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	42	350	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	350		mov __TextOutArgs.Options, __D0howto
+1	42	352	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	352		mov __TextOutArgs.Text, __strbufhowto
+1	42	354	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	354		syscall 13, __TextOutArgs
+1	42	357	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	357	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	42	357	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	357	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	357		set __signed_stack_001howto, 0
+1	43	360	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	360	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	360		set __signed_stack_002howto, 24
+1	43	363	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	363	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	363		strcat __strbufhowto, __constStr0021
+1	43	367	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	367		set __D0howto, 0
+1	43	370	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	370	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	370		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	43	372	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	372		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	43	374	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	374		mov __TextOutArgs.Options, __D0howto
+1	43	376	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	376		mov __TextOutArgs.Text, __strbufhowto
+1	43	378	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	378		syscall 13, __TextOutArgs
+1	43	381	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	381	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	43	381	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	381	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	381		set __signed_stack_001howto, 0
+1	44	384	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	384	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	384		set __signed_stack_002howto, 16
+1	44	387	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	387	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	387		strcat __strbufhowto, __constStr0022
+1	44	391	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	391		set __D0howto, 0
+1	44	394	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	394	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	394		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	44	396	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	396		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	44	398	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	398		mov __TextOutArgs.Options, __D0howto
+1	44	400	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	400		mov __TextOutArgs.Text, __strbufhowto
+1	44	402	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	402		syscall 13, __TextOutArgs
+1	44	405	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	405	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	44	405	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	405	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	405		set __signed_stack_001howto, 0
+1	45	408	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	408	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	408		set __signed_stack_002howto, 8
+1	45	411	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	411	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	411		strcat __strbufhowto, __constStr0023
+1	45	415	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	415		set __D0howto, 0
+1	45	418	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	418	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	418		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	45	420	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	420		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	45	422	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	422		mov __TextOutArgs.Options, __D0howto
+1	45	424	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	424		mov __TextOutArgs.Text, __strbufhowto
+1	45	426	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	426		syscall 13, __TextOutArgs
+1	45	429	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	429	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	45	429	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	429	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	429		set __signed_stack_001howto, 42
+1	46	432	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	432	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	432		set __signed_stack_002howto, 0
+1	46	435	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	435	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	435		strcat __strbufhowto, __constStr0016
+1	46	439	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	439		set __D0howto, 0
+1	46	442	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	442	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	442		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	46	444	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	444		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	46	446	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	446		mov __TextOutArgs.Options, __D0howto
+1	46	448	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	448		mov __TextOutArgs.Text, __strbufhowto
+1	46	450	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	450		syscall 13, __TextOutArgs
+1	46	453	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	453		mov __D0howto, __TextOutArgs.Result
+1	46	455	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	46	455	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	455	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	455		set __signed_stack_001howto, 3
+1	47	458	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	458	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	458		mov __D0howto, __constVal0
+1	47	460	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	460	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	460		mov __RBtnArgs.Index, __signed_stack_001howto
+1	47	462	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	462		mov __RBtnArgs.Reset, __D0howto
+1	47	464	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	464		syscall 20, __RBtnArgs
+1	47	467	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	467	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	47	467	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	467		not __D0howto, __RBtnArgs.Pressed
+1	47	470	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	470		tst 5, __D0howto, __D0howto
+1	47	473	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	473		brtst 4, __ASM_Label_715, __D0howto
+1	48	476	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	476		jmp __ASM_Label_714
+1	48	478	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	478	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	478		set __signed_stack_001howto, 3
+1	48	481	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	481	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	481		mov __D0howto, __constVal0
+1	48	483	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	483	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	483		mov __RBtnArgs.Index, __signed_stack_001howto
+1	48	485	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	485		mov __RBtnArgs.Reset, __D0howto
+1	48	487	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	487		syscall 20, __RBtnArgs
+1	48	490	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	490	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	48	490	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	490		not __D0howto, __RBtnArgs.Pressed
+1	48	493	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	493		not __D0howto, __D0howto
+1	48	496	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	496		tst 5, __D0howto, __D0howto
+1	48	499	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	49	499		brtst 4, __ASM_Label_721, __D0howto
+1	49	502	#line 49 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	502		jmp __ASM_Label_720
+1	49	504	#line 49 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	6848	504	#line 6848 "NXCDefs.h"
+1	6849	504	#pragma macro 6
+1	6849	504		mov __PointOutArgs.Location.X, __constVal200
+1	6849	506		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	508		mov __PointOutArgs.Options, __constVal1
+1	6849	510		syscall 14, __PointOutArgs
+1	6735	513	#line 6735 "NXCDefs.h"
+1	6848	513	#line 6848 "NXCDefs.h"
+1	49	513	#line 49 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	513	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	513		set __signed_stack_001howto, 0
+1	50	516	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	516	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	516		set __signed_stack_002howto, 56
+1	50	519	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	519	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	519		strcat __strbufhowto, __constStr0024
+1	50	523	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	523		set __D0howto, 0
+1	50	526	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	526	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	526		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	50	528	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	528		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	50	530	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	530		mov __TextOutArgs.Options, __D0howto
+1	50	532	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	532		mov __TextOutArgs.Text, __strbufhowto
+1	50	534	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	534		syscall 13, __TextOutArgs
+1	50	537	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	537	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	50	537	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	537	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	537		set __signed_stack_001howto, 0
+1	51	540	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	540	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	540		set __signed_stack_002howto, 48
+1	51	543	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	543	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	543		strcat __strbufhowto, __constStr0025
+1	51	547	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	547		set __D0howto, 0
+1	51	550	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	550	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	550		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	51	552	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	552		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	51	554	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	554		mov __TextOutArgs.Options, __D0howto
+1	51	556	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	556		mov __TextOutArgs.Text, __strbufhowto
+1	51	558	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	558		syscall 13, __TextOutArgs
+1	51	561	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	561	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	51	561	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	561	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	561		set __signed_stack_001howto, 0
+1	52	564	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	564	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	564		set __signed_stack_002howto, 40
+1	52	567	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	567	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	567		strcat __strbufhowto, __constStr0026
+1	52	571	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	571		set __D0howto, 0
+1	52	574	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	574	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	574		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	52	576	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	576		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	52	578	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	578		mov __TextOutArgs.Options, __D0howto
+1	52	580	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	580		mov __TextOutArgs.Text, __strbufhowto
+1	52	582	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	582		syscall 13, __TextOutArgs
+1	52	585	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	585	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	52	585	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	585	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	585		set __signed_stack_001howto, 0
+1	53	588	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	588	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	588		set __signed_stack_002howto, 32
+1	53	591	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	591	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	591		strcat __strbufhowto, __constStr0027
+1	53	595	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	595		set __D0howto, 0
+1	53	598	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	598	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	598		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	53	600	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	600		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	53	602	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	602		mov __TextOutArgs.Options, __D0howto
+1	53	604	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	604		mov __TextOutArgs.Text, __strbufhowto
+1	53	606	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	606		syscall 13, __TextOutArgs
+1	53	609	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	609	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	53	609	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	609	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	609		set __signed_stack_001howto, 0
+1	54	612	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	612	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	612		set __signed_stack_002howto, 24
+1	54	615	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	615	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	615		strcat __strbufhowto, __constStr0028
+1	54	619	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	619		set __D0howto, 0
+1	54	622	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	622	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	622		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	54	624	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	624		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	54	626	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	626		mov __TextOutArgs.Options, __D0howto
+1	54	628	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	628		mov __TextOutArgs.Text, __strbufhowto
+1	54	630	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	630		syscall 13, __TextOutArgs
+1	54	633	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	633	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	54	633	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	633	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	633		set __signed_stack_001howto, 0
+1	55	636	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	636	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	636		set __signed_stack_002howto, 16
+1	55	639	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	639	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	639		strcat __strbufhowto, __constStr0029
+1	55	643	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	643		set __D0howto, 0
+1	55	646	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	646	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	646		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	55	648	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	648		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	55	650	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	650		mov __TextOutArgs.Options, __D0howto
+1	55	652	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	652		mov __TextOutArgs.Text, __strbufhowto
+1	55	654	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	56	654		syscall 13, __TextOutArgs
+1	55	657	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	657	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	55	657	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	57	657	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	657		set __signed_stack_001howto, 45
+1	57	660	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	57	660	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	660		set __signed_stack_002howto, 0
+1	57	663	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	57	663	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	663		strcat __strbufhowto, __constStr0030
+1	57	667	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	667		set __D0howto, 0
+1	57	670	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	57	670	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	670		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	57	672	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	672		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	57	674	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	674		mov __TextOutArgs.Options, __D0howto
+1	57	676	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	676		mov __TextOutArgs.Text, __strbufhowto
+1	57	678	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	678		syscall 13, __TextOutArgs
+1	57	681	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	681		mov __D0howto, __TextOutArgs.Result
+1	57	683	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	57	683	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	683	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	683		set __signed_stack_001howto, 3
+1	58	686	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	686	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	686		mov __D0howto, __constVal0
+1	58	688	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	688	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	688		mov __RBtnArgs.Index, __signed_stack_001howto
+1	58	690	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	690		mov __RBtnArgs.Reset, __D0howto
+1	58	692	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	692		syscall 20, __RBtnArgs
+1	58	695	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	695	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	58	695	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	695		not __D0howto, __RBtnArgs.Pressed
+1	58	698	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	698		tst 5, __D0howto, __D0howto
+1	58	701	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	701		brtst 4, __ASM_Label_771, __D0howto
+1	59	704	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	704		jmp __ASM_Label_770
+1	59	706	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	706	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	706		set __signed_stack_001howto, 3
+1	59	709	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	709	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	709		mov __D0howto, __constVal0
+1	59	711	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	711	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	711		mov __RBtnArgs.Index, __signed_stack_001howto
+1	59	713	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	713		mov __RBtnArgs.Reset, __D0howto
+1	59	715	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	715		syscall 20, __RBtnArgs
+1	59	718	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	718	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	59	718	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	718		not __D0howto, __RBtnArgs.Pressed
+1	59	721	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	721		not __D0howto, __D0howto
+1	59	724	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	724		tst 5, __D0howto, __D0howto
+1	59	727	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	60	727		brtst 4, __ASM_Label_777, __D0howto
+1	60	730	#line 60 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	61	730		jmp __ASM_Label_776
+1	60	732	#line 60 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	6848	732	#line 6848 "NXCDefs.h"
+1	6849	732	#pragma macro 6
+1	6849	732		mov __PointOutArgs.Location.X, __constVal200
+1	6849	734		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	736		mov __PointOutArgs.Options, __constVal1
+1	6849	738		syscall 14, __PointOutArgs
+1	7040	741	#line 7040 "NXCDefs.h"
+1	6848	741	#line 6848 "NXCDefs.h"
+1	60	741	#line 60 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	63	741	#line 63 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+1	64	741		subret __howto_return
+2	65	0	#line 65 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	0		set __draw_7qG2_transx_7qG2_000, 0
+2	65	3	#line 65 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	3	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	3		set __signed_stack_001draw, 30
+2	66	6	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	6	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	6		mov __signed_stack_002draw, __draw_7qG2_boaty_7qG2_000
+2	66	8	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	8	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	8		strcat __strbufdraw, __constStr0031
+2	66	12	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	12		set __D0draw, 0
+2	66	15	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	15	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	15		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	66	17	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	17		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	66	19	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	19		mov __GraphicOutArgs.Options, __D0draw
+2	66	21	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	21		mov __GraphicOutArgs.Filename, __strbufdraw
+2	66	23	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	23		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	66	25	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	67	25		syscall 18, __GraphicOutArgs
+2	66	28	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	28	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	66	28	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	68	28	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	69	28		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
+2	68	30	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	69	30	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	30		set __D0draw, 0
+2	69	33	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	33		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
+2	70	37	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	37		brtst 4, __ASM_Label_794, __D0draw
+2	70	40	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	40		mov __unsigned_stack_001draw, boatr
+2	70	42	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	42	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	42		set __D0draw, 40
+2	70	45	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	45		mul __signed_stack_001draw, __unsigned_stack_001draw, __D0draw
+2	70	49	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	49	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	49	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	49		add __signed_stack_001draw, __signed_stack_001draw, __draw_7qG2_transx_7qG2_000
+2	70	53	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	53	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	53		mov __signed_stack_002draw, __draw_7qG2_boaty_7qG2_000
+2	70	55	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	55	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	55		strcat __strbufdraw, __constStr0032
+2	70	59	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	59		set __D0draw, 0
+2	70	62	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	62	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	62		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	70	64	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	64		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	70	66	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	66		mov __GraphicOutArgs.Options, __D0draw
+2	70	68	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	68		mov __GraphicOutArgs.Filename, __strbufdraw
+2	70	70	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	70		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	70	72	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	72		syscall 18, __GraphicOutArgs
+2	70	75	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	75	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	75	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	75	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	75		set __signed_stack_001draw, 4
+2	71	78	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	78	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	78		set __D0draw, 30
+2	71	81	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	81		add __signed_stack_001draw, __signed_stack_001draw, __D0draw
+2	71	85	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	85	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	85		mov __unsigned_stack_002draw, boatr
+2	71	87	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	87	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	87		set __D0draw, 40
+2	71	90	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	90		mul __D0draw, __unsigned_stack_002draw, __D0draw
+2	71	94	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	94		add __signed_stack_001draw, __signed_stack_001draw, __D0draw
+2	71	98	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	98	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	98		mov __signed_stack_002draw, __draw_7qG2_boaty_7qG2_000
+2	71	100	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	100	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	100		set __D0draw, 12
+2	71	103	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	103		sub __signed_stack_002draw, __signed_stack_002draw, __D0draw
+2	71	107	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	107	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	107		strcat __strbufdraw, __constStr0033
+2	71	111	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	111		set __D0draw, 0
+2	71	114	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	114	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	114		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	71	116	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	116		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	71	118	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	118		mov __GraphicOutArgs.Options, __D0draw
+2	71	120	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	120		mov __GraphicOutArgs.Filename, __strbufdraw
+2	71	122	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	122		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	71	124	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	124		syscall 18, __GraphicOutArgs
+2	71	127	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	127	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	127	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	127	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	127		set __signed_stack_001draw, 0
+2	73	130	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	130	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	130		set __signed_stack_002draw, 14
+2	73	133	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	133	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	133		strcat __strbufdraw, __constStr0034
+2	73	137	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	137		set __D0draw, 0
+2	73	140	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	140	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	140		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	73	142	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	142		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	73	144	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	144		mov __GraphicOutArgs.Options, __D0draw
+2	73	146	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	146		mov __GraphicOutArgs.Filename, __strbufdraw
+2	73	148	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	148		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	73	150	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	150		syscall 18, __GraphicOutArgs
+2	73	153	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	153	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	153	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	153	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	153		set __signed_stack_001draw, 0
+2	74	156	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	156	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	156		set __signed_stack_002draw, 30
+2	74	159	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	159	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	159		strcat __strbufdraw, __constStr0035
+2	74	163	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	163		set __D0draw, 0
+2	74	166	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	166	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	166		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	74	168	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	168		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	74	170	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	170		mov __GraphicOutArgs.Options, __D0draw
+2	74	172	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	172		mov __GraphicOutArgs.Filename, __strbufdraw
+2	74	174	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	174		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	74	176	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	176		syscall 18, __GraphicOutArgs
+2	74	179	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	179	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	179	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	179	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	179		set __signed_stack_001draw, 0
+2	75	182	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	182	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	182		set __signed_stack_002draw, 52
+2	75	185	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	185	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	185		strcat __strbufdraw, __constStr0036
+2	75	189	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	189		set __D0draw, 0
+2	75	192	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	192	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	192		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	75	194	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	194		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	75	196	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	196		mov __GraphicOutArgs.Options, __D0draw
+2	75	198	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	198		mov __GraphicOutArgs.Filename, __strbufdraw
+2	75	200	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	200		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	75	202	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	202		syscall 18, __GraphicOutArgs
+2	75	205	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	205		mov __D0draw, __GraphicOutArgs.Result
+2	75	207	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	207	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	207	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	207		jmp __ASM_Label_829
+2	77	209	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	209		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
+2	77	211	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	211	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	211		set __D0draw, 1
+2	78	214	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	214		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
+2	80	218	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	218		brtst 4, __ASM_Label_832, __D0draw
+2	80	221	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	221		set __signed_stack_001draw, 0
+2	80	224	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	224	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	224		set __signed_stack_002draw, 30
+2	80	227	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	227	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	227		strcat __strbufdraw, __constStr0035
+2	80	231	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	231		set __D0draw, 0
+2	80	234	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	234	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	234		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	80	236	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	236		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	80	238	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	238		mov __GraphicOutArgs.Options, __D0draw
+2	80	240	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	240		mov __GraphicOutArgs.Filename, __strbufdraw
+2	80	242	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	242		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	80	244	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	244		syscall 18, __GraphicOutArgs
+2	80	247	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	247	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	247	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	247	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	247		set __signed_stack_001draw, 0
+2	81	250	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	250	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	250		set __signed_stack_002draw, 52
+2	81	253	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	253	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	253		strcat __strbufdraw, __constStr0036
+2	81	257	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	257		set __D0draw, 0
+2	81	260	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	260	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	260		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	81	262	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	262		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	81	264	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	264		mov __GraphicOutArgs.Options, __D0draw
+2	81	266	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	266		mov __GraphicOutArgs.Filename, __strbufdraw
+2	81	268	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	268		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	81	270	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	270		syscall 18, __GraphicOutArgs
+2	81	273	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	273		mov __D0draw, __GraphicOutArgs.Result
+2	81	275	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	275	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	275	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	275		jmp __ASM_Label_845
+2	83	277	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	277		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
+2	83	279	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	279	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	279		set __D0draw, 2
+2	84	282	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	282		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
+2	85	286	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	286		brtst 4, __ASM_Label_848, __D0draw
+2	85	289	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	289		set __signed_stack_001draw, 0
+2	85	292	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	292	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	292		set __signed_stack_002draw, 14
+2	85	295	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	295	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	295		strcat __strbufdraw, __constStr0034
+2	85	299	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	299		set __D0draw, 0
+2	85	302	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	302	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	302		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	85	304	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	304		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	85	306	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	306		mov __GraphicOutArgs.Options, __D0draw
+2	85	308	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	308		mov __GraphicOutArgs.Filename, __strbufdraw
+2	85	310	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	310		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	85	312	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	312		syscall 18, __GraphicOutArgs
+2	85	315	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	315	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	315	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	315	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	315		set __signed_stack_001draw, 0
+2	87	318	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	318	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	318		set __signed_stack_002draw, 52
+2	87	321	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	321	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	321		strcat __strbufdraw, __constStr0036
+2	87	325	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	325		set __D0draw, 0
+2	87	328	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	328	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	328		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	87	330	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	330		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	87	332	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	332		mov __GraphicOutArgs.Options, __D0draw
+2	87	334	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	334		mov __GraphicOutArgs.Filename, __strbufdraw
+2	87	336	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	336		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	87	338	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	338		syscall 18, __GraphicOutArgs
+2	87	341	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	341		mov __D0draw, __GraphicOutArgs.Result
+2	87	343	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	343	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	343	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	343		jmp __ASM_Label_861
+2	89	345	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	345		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
+2	89	347	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	347	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	347		set __D0draw, 3
+2	90	350	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	350		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
+2	91	354	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	354		brtst 4, __ASM_Label_864, __D0draw
+2	91	357	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	357		set __signed_stack_001draw, 0
+2	91	360	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	360	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	360		set __signed_stack_002draw, 14
+2	91	363	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	363	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	363		strcat __strbufdraw, __constStr0034
+2	91	367	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	367		set __D0draw, 0
+2	91	370	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	370	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	370		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	91	372	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	372		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	91	374	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	374		mov __GraphicOutArgs.Options, __D0draw
+2	91	376	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	376		mov __GraphicOutArgs.Filename, __strbufdraw
+2	91	378	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	378		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	91	380	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	380		syscall 18, __GraphicOutArgs
+2	91	383	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	383	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	383	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	383	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	383		set __signed_stack_001draw, 0
+2	92	386	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	386	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	386		set __signed_stack_002draw, 30
+2	92	389	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	389	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	389		strcat __strbufdraw, __constStr0035
+2	92	393	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	393		set __D0draw, 0
+2	92	396	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	396	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	396		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
+2	92	398	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	398		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
+2	92	400	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	400		mov __GraphicOutArgs.Options, __D0draw
+2	92	402	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	402		mov __GraphicOutArgs.Filename, __strbufdraw
+2	92	404	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	404		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+2	92	406	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	406		syscall 18, __GraphicOutArgs
+2	92	409	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	409		mov __D0draw, __GraphicOutArgs.Result
+2	92	411	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	411	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	411	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	411		jmp __ASM_Label_877
+2	95	413	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	413		set __signed_stack_001draw, 4000
+2	95	416	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	416	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	416		set __signed_stack_002draw, 10000
+2	95	419	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	419	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	419		set __signed_stack_003draw, 4
+2	95	422	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	422	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	422		set __D0draw, 0
+2	95	425	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	425		acquire __SPTArgsMutex
+2	95	426	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	426		mov __SPTArgs.Frequency, __signed_stack_001draw
+2	95	428	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	428		mov __SPTArgs.Duration, __signed_stack_002draw
+2	95	430	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	430		mov __SPTArgs.Volume, __signed_stack_003draw
+2	95	432	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	432		mov __SPTArgs.Loop, __D0draw
+2	95	434	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	434		syscall 10, __SPTArgs
+2	95	437	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	437		mov __D0draw, __SPTArgs.Result
+2	95	439	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	439		release __SPTArgsMutex
+2	95	440	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	440	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	440		set __Wait_7qG2_ms_7qG2_000_inline_draw, 10000
+2	95	443	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	8721	443	#line 8721 "NXCDefs.h"
+2	8722	443		waitv __Wait_7qG2_ms_7qG2_000_inline_draw
+2	8721	445	#line 8721 "NXCDefs.h"
+2	95	445	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	445	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	445		set __D0draw, 1
+2	95	448	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	448		stop __D0draw
+2	95	450	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	450		subret __draw_return
+3	114	0	#line 114 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	115	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+1	howto	50	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+2	draw	793	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+3	__initialize_global_data	1245	C:\Users\Michael\AppData\Local\Temp\temp.nxc

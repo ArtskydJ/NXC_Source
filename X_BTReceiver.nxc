@@ -1,0 +1,21 @@
+//BlueTooth Reciever
+//Use with "BTController.nxc"
+int SpeedA=0, SpeedC=0;
+bool FwdA=true, FwdC=true;
+task main()
+{
+    while (true)
+        {
+        //SpeedA=(ReceiveMessage("queue", "clear", "msg"));
+        //SpeedC=(ReceiveMessage("queue", "clear", "msg"));
+        if (SpeedA<0) {FwdA=false;}
+        else {FwdA=true;}
+        if (SpeedC<0) {FwdC=false;}
+        else {FwdC=true;}
+        SpeedA=abs(SpeedA)
+        SpeedC=abs(SpeedC)
+        if (FwdA) {OnFwd(OUT_A,SpeedA);}
+        else {OnRev(OUT_A,SpeedA)}
+        if (FwdC) {OnFwd(OUT_C,SpeedC);}
+        else {OnRev(OUT_C,SpeedC)}
+    }   }
