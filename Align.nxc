@@ -1,0 +1,22 @@
+//Perpendicular Alignment
+task main()
+  {
+  float p=0.5;
+  const float psubtract=p/100;
+  const int target=50,fwd=1; //fwd=1, rev=-1
+  int lerr, rerr; //l=left, r=right, err=error
+  bool notaligned=1;
+  SetSensorLight(S2,1);
+  SetSensorLight(S3,1);
+  while(notaligned)
+    {
+    lerr=SensorValue(S2)-target;
+    rerr=SensorValue(S3)-target;
+    if (p*lerr>0) {OnFwd(OUT_B,abs(p*lerr));}
+    else          {OnRev(OUT_B,abs(p*lerr));}
+    if (p*rerr>0) {OnFwd(OUT_C,abs(p*rerr));}
+    else          {OnRev(OUT_C,abs(p*rerr));}
+    if (lerr<10&&lerr>-10&&rerr<10&&rerr>-10)
+      {p-=psubtract; notaligned=!(p<1);}
+    }
+  }

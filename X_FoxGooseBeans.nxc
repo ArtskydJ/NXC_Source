@@ -26,36 +26,36 @@ bool foxr=false,gooser=false,sackr=false,boatr=false;
 void howto()
     {
     ClearScreen();
-    TextOut(0,LCD_LINE1,"A farmer owns a ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE2,"Fox, a Goose and",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE3,"and Sack of     ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE4,"Beans. They need",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE5,"to be brought to",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE6,"other side of   ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE7,"the river. If   ",DRAW_OPT_NORMAL);
-    TextOut(42,LCD_LINE8,      "..."      ,DRAW_OPT_NORMAL);
+    TextOut(0,LCD_LINE1,"A farmer owns a ",0);
+    TextOut(0,LCD_LINE2,"Fox, a Goose and",0);
+    TextOut(0,LCD_LINE3,"and Sack of     ",0);
+    TextOut(0,LCD_LINE4,"Beans. They need",0);
+    TextOut(0,LCD_LINE5,"to be brought to",0);
+    TextOut(0,LCD_LINE6,"other side of   ",0);
+    TextOut(0,LCD_LINE7,"the river. If   ",0);
+    TextOut(42,LCD_LINE8,      "..."      ,0);
     while (!ButtonPressed(BTNCENTER)) {}
     until (!ButtonPressed(BTNCENTER)) {}
     ClearScreen();
-    TextOut(0,LCD_LINE1,"the Fox and     ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE2,"Goose are left  ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE3,"alone, the goose",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE4," will be eaten. ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE5,"If the Goose and",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE6,"sack are left   ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE7,"alone, the Sack ",DRAW_OPT_NORMAL);
-    TextOut(42,LCD_LINE8,      "..."      ,DRAW_OPT_NORMAL);
+    TextOut(0,LCD_LINE1,"the Fox and     ",0);
+    TextOut(0,LCD_LINE2,"Goose are left  ",0);
+    TextOut(0,LCD_LINE3,"alone, the goose",0);
+    TextOut(0,LCD_LINE4," will be eaten. ",0);
+    TextOut(0,LCD_LINE5,"If the Goose and",0);
+    TextOut(0,LCD_LINE6,"sack are left   ",0);
+    TextOut(0,LCD_LINE7,"alone, the Sack ",0);
+    TextOut(42,LCD_LINE8,      "..."      ,0);
     while (!ButtonPressed(BTNCENTER)) {}
     until (!ButtonPressed(BTNCENTER)) {}
     ClearScreen();
-    TextOut(0,LCD_LINE1,"of beans will be",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE2,"eaten. The      ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE3,"Farmer's boat   ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE4,"can only hold   ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE5,"himself and one ",DRAW_OPT_NORMAL);
-    TextOut(0,LCD_LINE6,"other object.   ",DRAW_OPT_NORMAL);
+    TextOut(0,LCD_LINE1,"of beans will be",0);
+    TextOut(0,LCD_LINE2,"eaten. The      ",0);
+    TextOut(0,LCD_LINE3,"Farmer's boat   ",0);
+    TextOut(0,LCD_LINE4,"can only hold   ",0);
+    TextOut(0,LCD_LINE5,"himself and one ",0);
+    TextOut(0,LCD_LINE6,"other object.   ",0);
     //TextOut(0,LCD_LINE7,"",DRAW_OPT_NORMAL);
-    TextOut(45,LCD_LINE8,      "OK"       ,DRAW_OPT_NORMAL);
+    TextOut(45,LCD_LINE8,      "OK"       ,0);
     while (!ButtonPressed(BTNCENTER)) {}
     until (!ButtonPressed(BTNCENTER)) {}
     ClearScreen();
@@ -64,34 +64,69 @@ void howto()
 void draw(int intrans)
     {
     int boaty,transx=0;
-    GraphicOut(boatx1,boaty,"FGB-river.ric",DRAW_OPT_NORMAL);
+    GraphicOut(boatx1,boaty,"FGB-river.ric",0);
 
     if (intrans==0)
         {
-        GraphicOut((boatr*40)+transx,boaty,"FGB-boat.ric",DRAW_OPT_NORMAL);
-        GraphicOut(4+boatx1+(boatr*40),boaty-12,"FGB-farmer.ric",DRAW_OPT_NORMAL);
+        GraphicOut((boatr*40)+transx,boaty,"FGB-boat.ric",0);
+        GraphicOut(4+boatx1+(boatr*40),boaty-12,"FGB-farmer.ric",0);
         
-        GraphicOut(0,foxy,"FGB-fox.ric",DRAW_OPT_NORMAL);
-        GraphicOut(0,goosey,"FGB-goose.ric",DRAW_OPT_NORMAL);
-        GraphicOut(0,sacky,"FGB-sack.ric",DRAW_OPT_NORMAL);
+        GraphicOut(0,foxy,"FGB-fox.ric",0);
+        GraphicOut(0,goosey,"FGB-goose.ric",0);
+        GraphicOut(0,sacky,"FGB-sack.ric",0);
         }
     else if (intrans==fox)
         {
-        //GraphicOut(foxx+transx,foxy,"FGB-fox.ric",DRAW_OPT_NORMAL);
-        GraphicOut(0,goosey,"FGB-goose.ric",DRAW_OPT_NORMAL);
-        GraphicOut(0,sacky,"FGB-sack.ric",DRAW_OPT_NORMAL);
+        //GraphicOut(foxx+transx,foxy,"FGB-fox.ric",0);
+        GraphicOut(0,goosey,"FGB-goose.ric",0);
+        GraphicOut(0,sacky,"FGB-sack.ric",0);
         }
     else if (intrans==goose)
         {
-        GraphicOut(0,foxy,"FGB-fox.ric",DRAW_OPT_NORMAL);
-        //GraphicOut(0,goosey,"FGB-goose.ric",DRAW_OPT_NORMAL);
-        GraphicOut(0,sacky,"FGB-sack.ric",DRAW_OPT_NORMAL);
+        GraphicOut(0,foxy,"FGB-fox.ric",0);
+        //GraphicOut(0,goosey,"FGB-goose.ric",0);
+        GraphicOut(0,sacky,"FGB-sack.ric",0);
         }
     else if (intrans==sack)
         {
-        GraphicOut(0,foxy,"FGB-fox.ric",DRAW_OPT_NORMAL);
-        GraphicOut(0,goosey,"FGB-goose.ric",DRAW_OPT_NORMAL);
-        //GraphicOut(0,sacky,"FGB-sack.ric",DRAW_OPT_NORMAL);
+        GraphicOut(0,foxy,"FGB-fox.ric",0);
+        GraphicOut(0,goosey,"FGB-goose.ric",0);
+        //GraphicOut(0,sacky,"FGB-sack.ric",0);
+        }
+    else {PlayTone(4000,10000);Wait(10000);Stop(true);}
+    }
+
+void drawdebug(int intrans)
+    {
+    int boaty,transx=0;
+    RectOut(boatx1,boaty,"FGB-river.ric",0);
+
+    if (intrans==0)
+        {
+        GraphicOut((boatr*40)+transx,boaty,"FGB-boat.ric",0);
+        GraphicOut(4+boatx1+(boatr*40),boaty-12,"FGB-farmer.ric",0);
+
+        GraphicOut(0,foxy,"FGB-fox.ric",0);
+        GraphicOut(0,goosey,"FGB-goose.ric",0);
+        GraphicOut(0,sacky,"FGB-sack.ric",0);
+        }
+    else if (intrans==fox)
+        {
+        //GraphicOut(foxx+transx,foxy,"FGB-fox.ric",0);
+        GraphicOut(0,goosey,"FGB-goose.ric",0);
+        GraphicOut(0,sacky,"FGB-sack.ric",0);
+        }
+    else if (intrans==goose)
+        {
+        GraphicOut(0,foxy,"FGB-fox.ric",0);
+        //GraphicOut(0,goosey,"FGB-goose.ric",0);
+        GraphicOut(0,sacky,"FGB-sack.ric",0);
+        }
+    else if (intrans==sack)
+        {
+        GraphicOut(0,foxy,"FGB-fox.ric",0);
+        GraphicOut(0,goosey,"FGB-goose.ric",0);
+        //GraphicOut(0,sacky,"FGB-sack.ric",0);
         }
     else {PlayTone(4000,10000);Wait(10000);Stop(true);}
     }
@@ -106,7 +141,7 @@ task main()
         {
         
         
-        draw(intransport);
+        //draw(intransport);
         }
     
     }
