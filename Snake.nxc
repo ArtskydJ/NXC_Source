@@ -4,6 +4,9 @@
 //Snake.cpp, ported from Snake.bas by Joseph Dykstra,  finished on 07-13-2012.
 //Snake.nxc, ported from Snake.cpp by Joseph Dykstra,  finished on 10-02-2012.
 
+#include "+Button+-.nxc"
+#include "+HighScore.nxc"
+
 #define  b       4  //block size
 #define  height  16 //height of field
 #define  width   16 //width  of field
@@ -38,39 +41,51 @@ void intro()
 
 
 void customGame()
+  {
+  until (ButtonState(BTNLEFT)==false&&ButtonState(BTNRIGHT)==false) {}
+  int addtoz=1;
+  for (x=0;x<4;x++)
     {
-    until (ButtonState(BTNLEFT)==false&&ButtonState(BTNRIGHT)==false) {}
-    int addtoz=1;
-    for (x=0;x<4;x++)
-        {
-        int l=limits[PLUS][x];
-        ClearScreen();
-        TextOut(SX,LCD_LINE1,"SNAKE",0);
-        if (x==ST) {TextOut(0,LCD_LINE4,"Start Length=",0);addtoz=1;}
-        if (x==GR) {TextOut(0,LCD_LINE4," Grow Length=",0);addtoz=1;}
-        if (x==SP) {TextOut(0,LCD_LINE4,"  Speed Up=",0);  addtoz=10;}
-        if (x==DE) {TextOut(0,LCD_LINE4,"  Delay Time=",0);addtoz=10;}
-        TextOut(45,LCD_LINE8,"OK",0);
-        z=0;
-        until (ButtonState(BTNCENTER)==false) {}
-        while (ButtonState(BTNCENTER)==false)
-            {
-            if (ButtonState(BTNLEFT))  {z-=addtoz;}
-            until (ButtonState(BTNLEFT)==false)  {}
-            if (ButtonState(BTNRIGHT)) {z+=addtoz;}
-            until (ButtonState(BTNRIGHT)==false) {}
-            if (z<0) {z=limits[RAND][x];}
-            if (z>limits[RAND][x]) {z=0;}
-            if (x==SP) TextOut(70,LCD_LINE4,StrCat(".",NumToStr(l+z),"    "),0);///////////////////
-            else       TextOut(80,LCD_LINE4,StrCat(NumToStr(z+l-1),"    "),0);
-            }
-        if (x==ST) {startlength=(z+l-1);}
-        if (x==GR) {grow=       (z+l-1);}
-        if (x==SP) {speedup=((l*10)+z);speedup/=100;}//////////////////////////////////////////////
-        if (x==DE) {delaytime=  (z+l-1);}
-        until (ButtonState(BTNCENTER)==false) {}
-        }
+    int l=limits[PLUS][x];
+    ClearScreen();
+    TextOut(SX,LCD_LINE1,"SNAKE",0);
+    if (x==ST) {TextOut(0,LCD_LINE4,"Start Length=",0);addtoz=1;}
+    if (x==GR) {TextOut(0,LCD_LINE4," Grow Length=",0);addtoz=1;}
+    if (x==SP) {TextOut(0,LCD_LINE4,"  Speed Up=",0);  addtoz=10;}
+    if (x==DE) {TextOut(0,LCD_LINE4,"  Delay Time=",0);addtoz=10;}
+    TextOut(45,LCD_LINE8,"OK",0);
+    z=0;
+    until (ButtonState(BTNCENTER)==false) {}
+    while (ButtonState(BTNCENTER)==false)
+      {
+      z=SenseButton(z,true,addtoz,limits[RAND][x],false)   //REplAce
+      if (x==SP) TextOut(70,LCD_LINE4,StrCat(".",NumToStr(l+z),"    "),0);///////////////////
+      else       TextOut(80,LCD_LINE4,StrCat(NumToStr(z+l-1),"    "),0);
+      }
+    if (x==ST) {startlength=(z+l-1);}
+    if (x==GR) {grow=       (z+l-1);}
+    if (x==SP) {speedup=((l*10)+z);speedup/=100;}//////////////////////////////////////////////
+    if (x==DE) {delaytime=  (z+l-1);}
+    until (ButtonState(BTNCENTER)==false) {}
     }
+  }
+
+//REplAce
+/*if (ButtonState(BTNLEFT))  {z-=addtoz;}
+until (ButtonState(BTNLEFT)==false)  {}
+if (ButtonState(BTNRIGHT)) {z+=addtoz;}
+until (ButtonState(BTNRIGHT)==false) {}
+if (z<0) {z=limits[RAND][x];}
+if (z>limits[RAND][x]) {z=0;}*/
+
+//repLACE
+/*if (ButtonPressed(BTNLEFT))  {gametype--;}
+until (ButtonPressed(BTNLEFT)==false)  {}
+if (ButtonPressed(BTNRIGHT)) {gametype++;}
+until (ButtonPressed(BTNRIGHT)==false) {}
+if (gametype<0) {gametype=5;}
+if (gametype>5) {gametype=0;}*/
+
 
 
 void selectGame()
@@ -78,12 +93,8 @@ void selectGame()
   accesshigh="Snake";
   while (ButtonPressed(BTNCENTER)==false)
     {
-    if (ButtonPressed(BTNLEFT))  {gametype--;}
-    until (ButtonPressed(BTNLEFT)==false)  {}
-    if (ButtonPressed(BTNRIGHT)) {gametype++;}
-    until (ButtonPressed(BTNRIGHT)==false) {}
-    if (gametype<0) {gametype=5;}
-    if (gametype>5) {gametype=0;}
+    gametype=SenseButton(gametype,true,addtoz,5,false)
+    //repLACE
     ClearScreen();
     TextOut(SX,LCD_LINE1,"SNAKE",  0);
     TextOut(1, LCD_LINE2,"Choose:",0);
@@ -177,7 +188,7 @@ void boardInit()
   SetLongAbort(true);
   }
 
-
+/*
 int readHighscore()
   {
   int ARead = 0;
@@ -195,7 +206,7 @@ void overwriteHighscore(int NewHighscore)
   result = Write(handle, NewHighscore);
   result = CloseFile(handle);
   }
-
+*/
     
     
 void snakeMove()

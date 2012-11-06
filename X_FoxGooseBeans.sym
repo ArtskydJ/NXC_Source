@@ -1,1360 +1,1389 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001draw	6	1	0	4	40
-1	__signed_stack_002draw	6	1	4	4	28
-2	__signed_stack_003draw	6	1	8	4	2
-3	__D0howto	6	1	12	4	91
-4	__D0main	6	1	16	4	6
-5	__DU0main	5	1	20	4	2
-6	__signed_stack_002howto	6	1	24	4	46
-7	__unsigned_stack_001main	5	1	28	4	2
-8	__Wait_7qG2_ms_7qG2_000_inline_draw	5	1	32	4	2
-9	__unsigned_stack_001draw	5	1	36	4	2
-10	__unsigned_stack_002draw	5	1	40	4	2
-11	__signed_stack_001howto	6	1	44	4	58
-12	__SPTArgsMutex	9	0	48	4	2
-13	__D0draw	6	1	52	4	59
-14	__constVal200	4	0	56	2	8
-15	__draw_7qG2_transx_7qG2_000	4	1	58	2	2
-16	__draw_7qG2_boaty_7qG2_000	4	1	60	2	3
-17	__draw_7qG2_intrans_7qG2_000	4	1	62	2	6
-18	__main_7qG2_intransport_7qG2_000	4	1	64	2	3
-19	__howto_return	1	1	66	1	3
-20	boatr	1	1	67	1	2
-21	____initialize_global_data_return	1	1	68	1	3
-22	__draw_return	1	1	69	1	4
-23	__constVal1	2	0	70	1	4
-24	__constVal0	2	1	71	1	7
-25	__main_7qG2_win_7qG2_000	1	1	72	1	2
-26	__constVal16	2	0	73	1	1
-27	__main_7qG2_alive_7qG2_000	1	1	74	1	2
-28	__RBtnArgs	8	0	5	8	30
-29	__RBtnArgs.Result	2	1	76	1	30
-30	__RBtnArgs.Index	1	1	77	1	30
-31	__RBtnArgs.Pressed	1	1	78	1	30
-32	__RBtnArgs.Count	1	1	79	1	30
-33	__RBtnArgs.Reset	1	1	80	1	30
-34	__TextOutArgs	8	0	4	16	118
-35	__TextOutArgs.Result	2	1	84	1	118
-36	__TextOutArgs.Location	8	0	2	4	118
-37	__TextOutArgs.Location.X	4	1	88	2	118
-38	__TextOutArgs.Location.Y	4	1	90	2	118
-39	__TextOutArgs.Text	7	0	92	4	118
-40	__TextOutArgs.Text.Text_type	1	0	0	1	0
-41	__TextOutArgs.Options	5	1	96	4	118
-42	__PointOutArgs	8	0	3	12	16
-43	__PointOutArgs.Result	2	1	100	1	16
-44	__PointOutArgs.Location	8	0	2	4	16
-45	__PointOutArgs.Location.X	4	1	104	2	16
-46	__PointOutArgs.Location.Y	4	1	106	2	16
-47	__PointOutArgs.Options	5	1	108	4	16
-48	__GraphicOutArgs	8	0	5	20	76
-49	__GraphicOutArgs.Result	2	1	112	1	76
-50	__GraphicOutArgs.Location	8	0	2	4	76
-51	__GraphicOutArgs.Location.X	4	1	116	2	76
-52	__GraphicOutArgs.Location.Y	4	1	118	2	76
-53	__GraphicOutArgs.Filename	7	0	120	4	76
-54	__GraphicOutArgs.Filename.Filename_type	1	0	0	1	0
-55	__GraphicOutArgs.Variables	7	0	122	4	76
-56	__GraphicOutArgs.Variables.Variables_type	6	0	0	4	0
-57	__GraphicOutArgs.Options	5	1	124	4	76
+0	__DU0moveObject	5	1	0	4	2
+1	__D0moveObject	6	1	4	4	38
+2	__signed_stack_001chooseObject	6	1	8	4	24
+3	__signed_stack_001drawdebug	6	1	12	4	66
+4	__signed_stack_002chooseObject	6	1	16	4	6
+5	__D0dbg	6	1	20	4	5
+6	__DU0chooseObject	5	1	24	4	2
+7	__D0drawdebug	6	1	28	4	79
+8	__DU0main	5	1	32	4	2
+9	__D0main	6	1	36	4	21
+10	__Wait_7qG2_ms_7qG2_000_inline_drawdebug	5	1	40	4	2
+11	__signed_stack_001moveObject	6	1	44	4	12
+12	__constVal262145	6	0	48	4	6
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	2
+14	__Wait_7qG2_ms_7qG2_000_inline_chooseObject	5	1	56	4	2
+15	__signed_stack_003drawdebug	6	1	60	4	40
+16	__signed_stack_002drawdebug	6	1	64	4	42
+17	__signed_stack_004drawdebug	6	1	68	4	22
+18	__unsigned_stack_001main	5	1	72	4	2
+19	__signed_stack_001main	6	1	76	4	4
+20	__D0chooseObject	6	1	80	4	77
+21	__PointOutMutex	9	0	84	4	2
+22	__SPTArgsMutex	9	0	88	4	2
+23	intransport	4	1	92	2	8
+24	transx	4	1	94	2	8
+25	foxx	4	0	96	2	9
+26	goosex	4	0	98	2	13
+27	sackx	4	0	100	2	9
+28	__drawdebug_7qG2_boaty_7qG2_000	4	1	102	2	3
+29	__main_7qG2_loop1_7qG2_001	4	1	104	2	4
+30	__main_7qG2_loop2_7qG2_003	4	1	106	2	4
+31	z	4	1	108	2	18
+32	bl	4	1	110	2	7
+33	transportx	4	1	112	2	6
+34	__constVal200	4	0	114	2	2
+35	__chooseObject_7qG2_override_7qG2_000	1	1	116	1	5
+36	__constVal35	2	0	117	1	2
+37	__chooseObject_return	1	1	118	1	3
+38	__drawdebug_return	1	1	119	1	5
+39	__moveObject_7qG2_dir_7qG2_000	1	1	120	1	3
+40	__moveObject_return	1	1	121	1	4
+41	__main_7qG2_won_7qG2_000	1	1	122	1	2
+42	__tmpsbytechooseObject	2	1	123	1	18
+43	__constVal1	2	0	124	1	5
+44	__main_7qG2_alive_7qG2_000	1	1	125	1	2
+45	__constVal34	2	0	126	1	2
+46	__constVal33	2	0	127	1	2
+47	____initialize_global_data_return	1	1	128	1	3
+48	__dbg_return	1	1	129	1	4
+49	__IOMRUnflattenErr	1	1	130	1	6
+50	__constVal10	2	0	131	1	1
+51	__constVal9	2	0	132	1	1
+52	__PointOutArgs	8	0	3	12	4
+53	__PointOutArgs.Result	2	1	136	1	4
+54	__PointOutArgs.Location	8	0	2	4	4
+55	__PointOutArgs.Location.X	4	1	140	2	4
+56	__PointOutArgs.Location.Y	4	1	142	2	4
+57	__PointOutArgs.Options	5	1	144	4	4
 58	__SPTArgs	8	0	5	8	6
-59	__SPTArgs.Result	2	1	128	1	6
-60	__SPTArgs.Frequency	3	1	130	2	6
-61	__SPTArgs.Duration	3	1	132	2	6
-62	__SPTArgs.Loop	1	1	134	1	6
-63	__SPTArgs.Volume	1	1	135	1	6
-64	__constStr0030	7	0	136	4	1
-65	__constStr0030.__constStr0030_type	1	1	0	1	0
-66	__constStr0027	7	0	138	4	1
-67	__constStr0027.__constStr0027_type	1	1	0	1	0
-68	__constStr0026	7	0	140	4	1
-69	__constStr0026.__constStr0026_type	1	1	0	1	0
-70	__constStr0029	7	0	142	4	1
-71	__constStr0029.__constStr0029_type	1	1	0	1	0
-72	__constStr0028	7	0	144	4	1
-73	__constStr0028.__constStr0028_type	1	1	0	1	0
-74	__constStr0034	7	0	146	4	3
-75	__constStr0034.__constStr0034_type	1	1	0	1	0
-76	__constStr0035	7	0	148	4	3
-77	__constStr0035.__constStr0035_type	1	1	0	1	0
-78	__constStr0036	7	0	150	4	3
-79	__constStr0036.__constStr0036_type	1	1	0	1	0
-80	__constStr0031	7	0	152	4	1
-81	__constStr0031.__constStr0031_type	1	1	0	1	0
-82	__constStr0032	7	0	154	4	1
-83	__constStr0032.__constStr0032_type	1	1	0	1	0
-84	__constStr0033	7	0	156	4	1
-85	__constStr0033.__constStr0033_type	1	1	0	1	0
-86	__constStr0012	7	0	158	4	1
-87	__constStr0012.__constStr0012_type	1	1	0	1	0
-88	__constStr0011	7	0	160	4	1
-89	__constStr0011.__constStr0011_type	1	1	0	1	0
-90	__constStr0013	7	0	162	4	1
-91	__constStr0013.__constStr0013_type	1	1	0	1	0
-92	__constStr0015	7	0	164	4	1
-93	__constStr0015.__constStr0015_type	1	1	0	1	0
-94	__constStr0014	7	0	166	4	1
-95	__constStr0014.__constStr0014_type	1	1	0	1	0
-96	__strbufdraw	7	0	168	4	24
-97	__strbufdraw.__strbufdraw_type	1	0	0	1	0
-98	__GraphicOutEmptyVars	7	0	170	4	13
-99	__GraphicOutEmptyVars.__GraphicOutEmptyVars_type	6	0	0	4	0
-100	__strbufhowto	7	0	172	4	46
-101	__strbufhowto.__strbufhowto_type	1	0	0	1	0
-102	__constStr0010	7	0	174	4	1
-103	__constStr0010.__constStr0010_type	1	1	0	1	0
-104	__constStr0009	7	0	176	4	1
-105	__constStr0009.__constStr0009_type	1	1	0	1	0
-106	__constStr0022	7	0	178	4	1
-107	__constStr0022.__constStr0022_type	1	1	0	1	0
-108	__constStr0021	7	0	180	4	1
-109	__constStr0021.__constStr0021_type	1	1	0	1	0
-110	__constStr0023	7	0	182	4	1
-111	__constStr0023.__constStr0023_type	1	1	0	1	0
-112	__constStr0025	7	0	184	4	1
-113	__constStr0025.__constStr0025_type	1	1	0	1	0
-114	__constStr0024	7	0	186	4	1
-115	__constStr0024.__constStr0024_type	1	1	0	1	0
-116	__constStr0017	7	0	188	4	1
-117	__constStr0017.__constStr0017_type	1	1	0	1	0
-118	__constStr0016	7	0	190	4	2
-119	__constStr0016.__constStr0016_type	1	1	0	1	0
-120	__constStr0018	7	0	192	4	1
-121	__constStr0018.__constStr0018_type	1	1	0	1	0
-122	__constStr0020	7	0	194	4	1
-123	__constStr0020.__constStr0020_type	1	1	0	1	0
-124	__constStr0019	7	0	196	4	1
-125	__constStr0019.__constStr0019_type	1	1	0	1	0
+59	__SPTArgs.Result	2	1	148	1	6
+60	__SPTArgs.Frequency	3	1	150	2	6
+61	__SPTArgs.Duration	3	1	152	2	6
+62	__SPTArgs.Loop	1	1	154	1	6
+63	__SPTArgs.Volume	1	1	155	1	6
+64	__MWArgs	8	0	3	8	4
+65	__MWArgs.Result	2	1	156	1	4
+66	__MWArgs.QueueID	1	1	157	1	4
+67	__MWArgs.Message	7	0	158	4	4
+68	__MWArgs.Message.Message_type	1	0	0	1	0
+69	__CircleOutArgs	8	0	4	16	44
+70	__CircleOutArgs.Result	2	1	160	1	44
+71	__CircleOutArgs.Center	8	0	2	4	44
+72	__CircleOutArgs.Center.X	4	1	164	2	44
+73	__CircleOutArgs.Center.Y	4	1	166	2	44
+74	__CircleOutArgs.Size	1	1	168	1	44
+75	__CircleOutArgs.Options	5	1	172	4	44
+76	__IOMRBIArgs	8	0	5	16	30
+77	__IOMRBIArgs.Result	2	1	176	1	30
+78	__IOMRBIArgs.ModuleID	5	1	180	4	30
+79	__IOMRBIArgs.Offset	3	1	184	2	30
+80	__IOMRBIArgs.Count	3	1	186	2	30
+81	__IOMRBIArgs.Buffer	7	0	188	4	30
+82	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
+83	__RectOutArgs	8	0	4	16	12
+84	__RectOutArgs.Result	2	1	192	1	12
+85	__RectOutArgs.Location	8	0	2	4	12
+86	__RectOutArgs.Location.X	4	1	196	2	12
+87	__RectOutArgs.Location.Y	4	1	198	2	12
+88	__RectOutArgs.Size	8	0	2	4	12
+89	__RectOutArgs.Size.Width	4	1	200	2	12
+90	__RectOutArgs.Size.Height	4	1	202	2	12
+91	__RectOutArgs.Options	5	1	204	4	12
+92	__EllipseOutArgs	8	0	5	16	54
+93	__EllipseOutArgs.Result	2	1	208	1	54
+94	__EllipseOutArgs.Center	8	0	2	4	54
+95	__EllipseOutArgs.Center.X	4	1	212	2	54
+96	__EllipseOutArgs.Center.Y	4	1	214	2	54
+97	__EllipseOutArgs.SizeX	1	1	216	1	54
+98	__EllipseOutArgs.SizeY	1	1	217	1	54
+99	__EllipseOutArgs.Options	5	1	220	4	54
+100	__IOMRUnflattenBuf	7	0	224	4	12
+101	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+102	__ArrHelper__dbg_244_3	7	0	226	4	2
+103	__ArrHelper__dbg_244_3.__ArrHelper__dbg_244_3_type	1	0	0	1	0
+104	__constStr0032	7	0	228	4	1
+105	__constStr0032.__constStr0032_type	1	1	0	1	0
+106	__strretvaldbg	7	0	230	4	6
+107	__strretvaldbg.__strretvaldbg_type	1	0	0	1	0
+108	__dbg_7qG2_msg_7qG2_000	7	0	232	4	2
+109	__dbg_7qG2_msg_7qG2_000.__dbg_7qG2_msg_7qG2_000_type	1	0	0	1	0
+110	__constStr0031	7	0	234	4	1
+111	__constStr0031.__constStr0031_type	1	1	0	1	0
+112	__ArrHelper__dbg_244_0	7	0	236	4	2
+113	__ArrHelper__dbg_244_0.__ArrHelper__dbg_244_0_type	1	0	0	1	0
+114	__strbufdbg	7	0	238	4	10
+115	__strbufdbg.__strbufdbg_type	1	0	0	1	0
+116	__ArrHelper__dbg_244_2	7	0	240	4	2
+117	__ArrHelper__dbg_244_2.__ArrHelper__dbg_244_2_type	1	0	0	1	0
+118	__ArrHelper__dbg_244_1	7	0	242	4	2
+119	__ArrHelper__dbg_244_1.__ArrHelper__dbg_244_1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	100	0	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	101	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	100	2	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	101	2		arrinit __GraphicOutEmptyVars, __constVal0, __constVal16
-0	100	6	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	101	6		set __main_7qG2_intransport_7qG2_000, 0
-0	100	9	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	101	9	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	102	9		set __main_7qG2_alive_7qG2_000, 1
-0	101	12	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	101	12	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	102	12		set __main_7qG2_win_7qG2_000, 0
-0	101	15	#line 101 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	102	15	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	103	15		mov __draw_7qG2_intrans_7qG2_000, __main_7qG2_intransport_7qG2_000
-0	102	17	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	102	17	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	103	17		subcall draw, __draw_return
-0	102	19	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	103	19	#line 103 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	104	19		subcall howto, __howto_return
-0	103	21	#line 103 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	104	21	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	105	21		mov __DU0main, __main_7qG2_alive_7qG2_000
-0	104	23	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	105	23		tst 5, __D0main, __DU0main
-0	104	26	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	105	26		brtst 4, __ASM_Label_901, __D0main
-0	104	29	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	105	29		mov __unsigned_stack_001main, __main_7qG2_win_7qG2_000
-0	104	31	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	105	31	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	106	31		set __D0main, 0
-0	105	34	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	106	34		cmp 4, __D0main, __unsigned_stack_001main, __D0main
-0	108	38	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	109	38		brtst 4, __ASM_Label_899, __D0main
-0	108	41	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	109	41		mov __draw_7qG2_intrans_7qG2_000, __main_7qG2_intransport_7qG2_000
-0	108	43	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	108	43	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	109	43		subcall draw, __draw_return
-0	108	45	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	113	45	#line 113 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	114	45		jmp __ASM_Label_898
-0	113	47	#line 113 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-0	114	47		exit -1, -1
-1	6848	0	#line 6848 "NXCDefs.h"
-1	6849	0	#pragma macro 6
-1	6849	0		mov __PointOutArgs.Location.X, __constVal200
-1	6849	2		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	4		mov __PointOutArgs.Options, __constVal1
-1	6849	6		syscall 14, __PointOutArgs
-1	6059	9	#line 6059 "NXCDefs.h"
-1	6848	9	#line 6848 "NXCDefs.h"
-1	27	9	#line 27 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	28	9	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	9		set __signed_stack_001howto, 0
-1	28	12	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	28	12	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	12		set __signed_stack_002howto, 56
-1	28	15	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	28	15	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	15		strcat __strbufhowto, __constStr0009
-1	28	19	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	19		set __D0howto, 0
-1	28	22	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	28	22	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	22		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	28	24	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	24		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	28	26	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	26		mov __TextOutArgs.Options, __D0howto
-1	28	28	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	28		mov __TextOutArgs.Text, __strbufhowto
-1	28	30	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	30		syscall 13, __TextOutArgs
-1	28	33	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	28	33	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	28	33	#line 28 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	33	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	33		set __signed_stack_001howto, 0
-1	29	36	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	36	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	36		set __signed_stack_002howto, 48
-1	29	39	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	39	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	39		strcat __strbufhowto, __constStr0010
-1	29	43	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	43		set __D0howto, 0
-1	29	46	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	46	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	46		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	29	48	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	48		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	29	50	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	50		mov __TextOutArgs.Options, __D0howto
-1	29	52	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	52		mov __TextOutArgs.Text, __strbufhowto
-1	29	54	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	54		syscall 13, __TextOutArgs
-1	29	57	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	57	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	29	57	#line 29 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	57	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	57		set __signed_stack_001howto, 0
-1	30	60	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	60	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	60		set __signed_stack_002howto, 40
-1	30	63	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	63	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	63		strcat __strbufhowto, __constStr0011
-1	30	67	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	67		set __D0howto, 0
-1	30	70	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	70	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	70		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	30	72	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	72		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	30	74	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	74		mov __TextOutArgs.Options, __D0howto
-1	30	76	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	76		mov __TextOutArgs.Text, __strbufhowto
-1	30	78	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	78		syscall 13, __TextOutArgs
-1	30	81	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	81	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	30	81	#line 30 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	81	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	81		set __signed_stack_001howto, 0
-1	31	84	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	84	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	84		set __signed_stack_002howto, 32
-1	31	87	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	87	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	87		strcat __strbufhowto, __constStr0012
-1	31	91	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	91		set __D0howto, 0
-1	31	94	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	94	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	94		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	31	96	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	96		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	31	98	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	98		mov __TextOutArgs.Options, __D0howto
-1	31	100	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	100		mov __TextOutArgs.Text, __strbufhowto
-1	31	102	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	102		syscall 13, __TextOutArgs
-1	31	105	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	105	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	31	105	#line 31 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	105	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	105		set __signed_stack_001howto, 0
-1	32	108	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	108	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	108		set __signed_stack_002howto, 24
-1	32	111	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	111	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	111		strcat __strbufhowto, __constStr0013
-1	32	115	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	115		set __D0howto, 0
-1	32	118	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	118	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	118		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	32	120	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	120		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	32	122	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	122		mov __TextOutArgs.Options, __D0howto
-1	32	124	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	124		mov __TextOutArgs.Text, __strbufhowto
-1	32	126	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	126		syscall 13, __TextOutArgs
-1	32	129	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	129	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	32	129	#line 32 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	129	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	129		set __signed_stack_001howto, 0
-1	33	132	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	132	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	132		set __signed_stack_002howto, 16
-1	33	135	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	135	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	135		strcat __strbufhowto, __constStr0014
-1	33	139	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	139		set __D0howto, 0
-1	33	142	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	142	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	142		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	33	144	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	144		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	33	146	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	146		mov __TextOutArgs.Options, __D0howto
-1	33	148	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	148		mov __TextOutArgs.Text, __strbufhowto
-1	33	150	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	150		syscall 13, __TextOutArgs
-1	33	153	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	153	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	33	153	#line 33 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	153	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	153		set __signed_stack_001howto, 0
-1	34	156	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	156	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	156		set __signed_stack_002howto, 8
-1	34	159	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	159	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	159		strcat __strbufhowto, __constStr0015
-1	34	163	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	163		set __D0howto, 0
-1	34	166	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	166	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	166		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	34	168	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	168		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	34	170	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	170		mov __TextOutArgs.Options, __D0howto
-1	34	172	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	172		mov __TextOutArgs.Text, __strbufhowto
-1	34	174	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	174		syscall 13, __TextOutArgs
-1	34	177	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	177	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	34	177	#line 34 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	177	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	177		set __signed_stack_001howto, 42
-1	35	180	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	180	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	180		set __signed_stack_002howto, 0
-1	35	183	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	183	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	183		strcat __strbufhowto, __constStr0016
-1	35	187	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	187		set __D0howto, 0
-1	35	190	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	190	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	190		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	35	192	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	192		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	35	194	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	194		mov __TextOutArgs.Options, __D0howto
-1	35	196	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	196		mov __TextOutArgs.Text, __strbufhowto
-1	35	198	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	198		syscall 13, __TextOutArgs
-1	35	201	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	201		mov __D0howto, __TextOutArgs.Result
-1	35	203	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	35	203	#line 35 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	203	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	203		set __signed_stack_001howto, 3
-1	36	206	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	206	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	206		mov __D0howto, __constVal0
-1	36	208	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	208	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	208		mov __RBtnArgs.Index, __signed_stack_001howto
-1	36	210	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	210		mov __RBtnArgs.Reset, __D0howto
-1	36	212	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	212		syscall 20, __RBtnArgs
-1	36	215	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	215	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	36	215	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	215		not __D0howto, __RBtnArgs.Pressed
-1	36	218	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	218		tst 5, __D0howto, __D0howto
-1	36	221	#line 36 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	221		brtst 4, __ASM_Label_653, __D0howto
-1	37	224	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	224		jmp __ASM_Label_652
-1	37	226	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	226	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	226		set __signed_stack_001howto, 3
-1	37	229	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	229	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	229		mov __D0howto, __constVal0
-1	37	231	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	231	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	231		mov __RBtnArgs.Index, __signed_stack_001howto
-1	37	233	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	233		mov __RBtnArgs.Reset, __D0howto
-1	37	235	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	235		syscall 20, __RBtnArgs
-1	37	238	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	238	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	37	238	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	238		not __D0howto, __RBtnArgs.Pressed
-1	37	241	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	241		not __D0howto, __D0howto
-1	37	244	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	244		tst 5, __D0howto, __D0howto
-1	37	247	#line 37 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	38	247		brtst 4, __ASM_Label_659, __D0howto
-1	38	250	#line 38 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	250		jmp __ASM_Label_658
-1	38	252	#line 38 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	6848	252	#line 6848 "NXCDefs.h"
-1	6849	252	#pragma macro 6
-1	6849	252		mov __PointOutArgs.Location.X, __constVal200
-1	6849	254		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	256		mov __PointOutArgs.Options, __constVal1
-1	6849	258		syscall 14, __PointOutArgs
-1	6397	261	#line 6397 "NXCDefs.h"
-1	6848	261	#line 6848 "NXCDefs.h"
-1	38	261	#line 38 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	261	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	261		set __signed_stack_001howto, 0
-1	39	264	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	264	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	264		set __signed_stack_002howto, 56
-1	39	267	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	267	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	267		strcat __strbufhowto, __constStr0017
-1	39	271	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	271		set __D0howto, 0
-1	39	274	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	274	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	274		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	39	276	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	276		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	39	278	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	278		mov __TextOutArgs.Options, __D0howto
-1	39	280	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	280		mov __TextOutArgs.Text, __strbufhowto
-1	39	282	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	282		syscall 13, __TextOutArgs
-1	39	285	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	285	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	39	285	#line 39 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	285	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	285		set __signed_stack_001howto, 0
-1	40	288	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	288	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	288		set __signed_stack_002howto, 48
-1	40	291	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	291	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	291		strcat __strbufhowto, __constStr0018
-1	40	295	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	295		set __D0howto, 0
-1	40	298	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	298	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	298		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	40	300	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	300		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	40	302	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	302		mov __TextOutArgs.Options, __D0howto
-1	40	304	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	304		mov __TextOutArgs.Text, __strbufhowto
-1	40	306	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	306		syscall 13, __TextOutArgs
-1	40	309	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	309	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	40	309	#line 40 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	309	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	309		set __signed_stack_001howto, 0
-1	41	312	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	312	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	312		set __signed_stack_002howto, 40
-1	41	315	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	315	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	315		strcat __strbufhowto, __constStr0019
-1	41	319	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	319		set __D0howto, 0
-1	41	322	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	322	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	322		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	41	324	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	324		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	41	326	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	326		mov __TextOutArgs.Options, __D0howto
-1	41	328	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	328		mov __TextOutArgs.Text, __strbufhowto
-1	41	330	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	330		syscall 13, __TextOutArgs
-1	41	333	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	333	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	41	333	#line 41 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	333	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	333		set __signed_stack_001howto, 0
-1	42	336	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	336	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	336		set __signed_stack_002howto, 32
-1	42	339	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	339	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	339		strcat __strbufhowto, __constStr0020
-1	42	343	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	343		set __D0howto, 0
-1	42	346	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	346	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	346		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	42	348	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	348		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	42	350	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	350		mov __TextOutArgs.Options, __D0howto
-1	42	352	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	352		mov __TextOutArgs.Text, __strbufhowto
-1	42	354	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	354		syscall 13, __TextOutArgs
-1	42	357	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	357	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	42	357	#line 42 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	357	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	357		set __signed_stack_001howto, 0
-1	43	360	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	360	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	360		set __signed_stack_002howto, 24
-1	43	363	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	363	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	363		strcat __strbufhowto, __constStr0021
-1	43	367	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	367		set __D0howto, 0
-1	43	370	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	370	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	370		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	43	372	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	372		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	43	374	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	374		mov __TextOutArgs.Options, __D0howto
-1	43	376	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	376		mov __TextOutArgs.Text, __strbufhowto
-1	43	378	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	378		syscall 13, __TextOutArgs
-1	43	381	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	381	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	43	381	#line 43 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	381	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	381		set __signed_stack_001howto, 0
-1	44	384	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	384	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	384		set __signed_stack_002howto, 16
-1	44	387	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	387	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	387		strcat __strbufhowto, __constStr0022
-1	44	391	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	391		set __D0howto, 0
-1	44	394	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	394	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	394		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	44	396	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	396		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	44	398	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	398		mov __TextOutArgs.Options, __D0howto
-1	44	400	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	400		mov __TextOutArgs.Text, __strbufhowto
-1	44	402	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	402		syscall 13, __TextOutArgs
-1	44	405	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	405	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	44	405	#line 44 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	405	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	405		set __signed_stack_001howto, 0
-1	45	408	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	408	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	408		set __signed_stack_002howto, 8
-1	45	411	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	411	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	411		strcat __strbufhowto, __constStr0023
-1	45	415	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	415		set __D0howto, 0
-1	45	418	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	418	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	418		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	45	420	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	420		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	45	422	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	422		mov __TextOutArgs.Options, __D0howto
-1	45	424	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	424		mov __TextOutArgs.Text, __strbufhowto
-1	45	426	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	426		syscall 13, __TextOutArgs
-1	45	429	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	429	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	45	429	#line 45 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	429	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	429		set __signed_stack_001howto, 42
-1	46	432	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	432	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	432		set __signed_stack_002howto, 0
-1	46	435	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	435	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	435		strcat __strbufhowto, __constStr0016
-1	46	439	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	439		set __D0howto, 0
-1	46	442	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	442	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	442		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	46	444	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	444		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	46	446	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	446		mov __TextOutArgs.Options, __D0howto
-1	46	448	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	448		mov __TextOutArgs.Text, __strbufhowto
-1	46	450	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	450		syscall 13, __TextOutArgs
-1	46	453	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	453		mov __D0howto, __TextOutArgs.Result
-1	46	455	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	46	455	#line 46 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	455	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	455		set __signed_stack_001howto, 3
-1	47	458	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	458	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	458		mov __D0howto, __constVal0
-1	47	460	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	460	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	460		mov __RBtnArgs.Index, __signed_stack_001howto
-1	47	462	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	462		mov __RBtnArgs.Reset, __D0howto
-1	47	464	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	464		syscall 20, __RBtnArgs
-1	47	467	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	467	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	47	467	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	467		not __D0howto, __RBtnArgs.Pressed
-1	47	470	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	470		tst 5, __D0howto, __D0howto
-1	47	473	#line 47 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	473		brtst 4, __ASM_Label_715, __D0howto
-1	48	476	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	476		jmp __ASM_Label_714
-1	48	478	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	478	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	478		set __signed_stack_001howto, 3
-1	48	481	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	481	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	481		mov __D0howto, __constVal0
-1	48	483	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	483	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	483		mov __RBtnArgs.Index, __signed_stack_001howto
-1	48	485	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	485		mov __RBtnArgs.Reset, __D0howto
-1	48	487	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	487		syscall 20, __RBtnArgs
-1	48	490	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	490	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	48	490	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	490		not __D0howto, __RBtnArgs.Pressed
-1	48	493	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	493		not __D0howto, __D0howto
-1	48	496	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	496		tst 5, __D0howto, __D0howto
-1	48	499	#line 48 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	49	499		brtst 4, __ASM_Label_721, __D0howto
-1	49	502	#line 49 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	502		jmp __ASM_Label_720
-1	49	504	#line 49 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	6848	504	#line 6848 "NXCDefs.h"
-1	6849	504	#pragma macro 6
-1	6849	504		mov __PointOutArgs.Location.X, __constVal200
-1	6849	506		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	508		mov __PointOutArgs.Options, __constVal1
-1	6849	510		syscall 14, __PointOutArgs
-1	6735	513	#line 6735 "NXCDefs.h"
-1	6848	513	#line 6848 "NXCDefs.h"
-1	49	513	#line 49 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	513	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	513		set __signed_stack_001howto, 0
-1	50	516	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	516	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	516		set __signed_stack_002howto, 56
-1	50	519	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	519	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	519		strcat __strbufhowto, __constStr0024
-1	50	523	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	523		set __D0howto, 0
-1	50	526	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	526	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	526		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	50	528	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	528		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	50	530	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	530		mov __TextOutArgs.Options, __D0howto
-1	50	532	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	532		mov __TextOutArgs.Text, __strbufhowto
-1	50	534	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	534		syscall 13, __TextOutArgs
-1	50	537	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	537	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	50	537	#line 50 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	537	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	537		set __signed_stack_001howto, 0
-1	51	540	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	540	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	540		set __signed_stack_002howto, 48
-1	51	543	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	543	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	543		strcat __strbufhowto, __constStr0025
-1	51	547	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	547		set __D0howto, 0
-1	51	550	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	550	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	550		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	51	552	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	552		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	51	554	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	554		mov __TextOutArgs.Options, __D0howto
-1	51	556	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	556		mov __TextOutArgs.Text, __strbufhowto
-1	51	558	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	558		syscall 13, __TextOutArgs
-1	51	561	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	561	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	51	561	#line 51 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	561	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	561		set __signed_stack_001howto, 0
-1	52	564	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	564	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	564		set __signed_stack_002howto, 40
-1	52	567	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	567	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	567		strcat __strbufhowto, __constStr0026
-1	52	571	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	571		set __D0howto, 0
-1	52	574	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	574	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	574		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	52	576	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	576		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	52	578	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	578		mov __TextOutArgs.Options, __D0howto
-1	52	580	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	580		mov __TextOutArgs.Text, __strbufhowto
-1	52	582	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	582		syscall 13, __TextOutArgs
-1	52	585	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	585	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	52	585	#line 52 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	585	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	585		set __signed_stack_001howto, 0
-1	53	588	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	588	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	588		set __signed_stack_002howto, 32
-1	53	591	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	591	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	591		strcat __strbufhowto, __constStr0027
-1	53	595	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	595		set __D0howto, 0
-1	53	598	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	598	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	598		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	53	600	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	600		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	53	602	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	602		mov __TextOutArgs.Options, __D0howto
-1	53	604	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	604		mov __TextOutArgs.Text, __strbufhowto
-1	53	606	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	606		syscall 13, __TextOutArgs
-1	53	609	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	609	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	53	609	#line 53 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	609	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	609		set __signed_stack_001howto, 0
-1	54	612	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	612	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	612		set __signed_stack_002howto, 24
-1	54	615	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	615	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	615		strcat __strbufhowto, __constStr0028
-1	54	619	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	619		set __D0howto, 0
-1	54	622	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	622	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	622		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	54	624	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	624		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	54	626	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	626		mov __TextOutArgs.Options, __D0howto
-1	54	628	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	628		mov __TextOutArgs.Text, __strbufhowto
-1	54	630	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	630		syscall 13, __TextOutArgs
-1	54	633	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	633	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	54	633	#line 54 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	633	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	633		set __signed_stack_001howto, 0
-1	55	636	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	636	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	636		set __signed_stack_002howto, 16
-1	55	639	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	639	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	639		strcat __strbufhowto, __constStr0029
-1	55	643	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	643		set __D0howto, 0
-1	55	646	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	646	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	646		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	55	648	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	648		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	55	650	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	650		mov __TextOutArgs.Options, __D0howto
-1	55	652	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	652		mov __TextOutArgs.Text, __strbufhowto
-1	55	654	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	56	654		syscall 13, __TextOutArgs
-1	55	657	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	657	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	55	657	#line 55 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	57	657	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	657		set __signed_stack_001howto, 45
-1	57	660	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	57	660	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	660		set __signed_stack_002howto, 0
-1	57	663	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	57	663	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	663		strcat __strbufhowto, __constStr0030
-1	57	667	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	667		set __D0howto, 0
-1	57	670	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	57	670	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	670		mov __TextOutArgs.Location.X, __signed_stack_001howto
-1	57	672	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	672		mov __TextOutArgs.Location.Y, __signed_stack_002howto
-1	57	674	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	674		mov __TextOutArgs.Options, __D0howto
-1	57	676	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	676		mov __TextOutArgs.Text, __strbufhowto
-1	57	678	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	678		syscall 13, __TextOutArgs
-1	57	681	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	681		mov __D0howto, __TextOutArgs.Result
-1	57	683	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	57	683	#line 57 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	683	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	683		set __signed_stack_001howto, 3
-1	58	686	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	686	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	686		mov __D0howto, __constVal0
-1	58	688	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	688	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	688		mov __RBtnArgs.Index, __signed_stack_001howto
-1	58	690	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	690		mov __RBtnArgs.Reset, __D0howto
-1	58	692	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	692		syscall 20, __RBtnArgs
-1	58	695	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	695	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	58	695	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	695		not __D0howto, __RBtnArgs.Pressed
-1	58	698	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	698		tst 5, __D0howto, __D0howto
-1	58	701	#line 58 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	701		brtst 4, __ASM_Label_771, __D0howto
-1	59	704	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	704		jmp __ASM_Label_770
-1	59	706	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	706	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	706		set __signed_stack_001howto, 3
-1	59	709	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	709	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	709		mov __D0howto, __constVal0
-1	59	711	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	711	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	711		mov __RBtnArgs.Index, __signed_stack_001howto
-1	59	713	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	713		mov __RBtnArgs.Reset, __D0howto
-1	59	715	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	715		syscall 20, __RBtnArgs
-1	59	718	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	718	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	59	718	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	718		not __D0howto, __RBtnArgs.Pressed
-1	59	721	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	721		not __D0howto, __D0howto
-1	59	724	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	724		tst 5, __D0howto, __D0howto
-1	59	727	#line 59 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	60	727		brtst 4, __ASM_Label_777, __D0howto
-1	60	730	#line 60 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	61	730		jmp __ASM_Label_776
-1	60	732	#line 60 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	6848	732	#line 6848 "NXCDefs.h"
-1	6849	732	#pragma macro 6
-1	6849	732		mov __PointOutArgs.Location.X, __constVal200
-1	6849	734		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	736		mov __PointOutArgs.Options, __constVal1
-1	6849	738		syscall 14, __PointOutArgs
-1	7040	741	#line 7040 "NXCDefs.h"
-1	6848	741	#line 6848 "NXCDefs.h"
-1	60	741	#line 60 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	63	741	#line 63 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-1	64	741		subret __howto_return
-2	65	0	#line 65 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	0		set __draw_7qG2_transx_7qG2_000, 0
-2	65	3	#line 65 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	3	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	3		set __signed_stack_001draw, 30
-2	66	6	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	6	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	6		mov __signed_stack_002draw, __draw_7qG2_boaty_7qG2_000
-2	66	8	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	8	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	8		strcat __strbufdraw, __constStr0031
-2	66	12	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	12		set __D0draw, 0
-2	66	15	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	15	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	15		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	66	17	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	17		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	66	19	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	19		mov __GraphicOutArgs.Options, __D0draw
-2	66	21	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	21		mov __GraphicOutArgs.Filename, __strbufdraw
-2	66	23	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	23		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	66	25	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	67	25		syscall 18, __GraphicOutArgs
-2	66	28	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	28	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	66	28	#line 66 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	68	28	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	69	28		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
-2	68	30	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	69	30	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	30		set __D0draw, 0
-2	69	33	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	33		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
-2	70	37	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	37		brtst 4, __ASM_Label_794, __D0draw
-2	70	40	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	40		mov __unsigned_stack_001draw, boatr
-2	70	42	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	42	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	42		set __D0draw, 40
-2	70	45	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	45		mul __signed_stack_001draw, __unsigned_stack_001draw, __D0draw
-2	70	49	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	49	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	49	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	49		add __signed_stack_001draw, __signed_stack_001draw, __draw_7qG2_transx_7qG2_000
-2	70	53	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	53	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	53		mov __signed_stack_002draw, __draw_7qG2_boaty_7qG2_000
-2	70	55	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	55	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	55		strcat __strbufdraw, __constStr0032
-2	70	59	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	59		set __D0draw, 0
-2	70	62	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	62	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	62		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	70	64	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	64		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	70	66	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	66		mov __GraphicOutArgs.Options, __D0draw
-2	70	68	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	68		mov __GraphicOutArgs.Filename, __strbufdraw
-2	70	70	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	70		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	70	72	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	72		syscall 18, __GraphicOutArgs
-2	70	75	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	75	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	70	75	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	75	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	75		set __signed_stack_001draw, 4
-2	71	78	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	78	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	78		set __D0draw, 30
-2	71	81	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	81		add __signed_stack_001draw, __signed_stack_001draw, __D0draw
-2	71	85	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	85	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	85		mov __unsigned_stack_002draw, boatr
-2	71	87	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	87	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	87		set __D0draw, 40
-2	71	90	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	90		mul __D0draw, __unsigned_stack_002draw, __D0draw
-2	71	94	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	94		add __signed_stack_001draw, __signed_stack_001draw, __D0draw
-2	71	98	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	98	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	98		mov __signed_stack_002draw, __draw_7qG2_boaty_7qG2_000
-2	71	100	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	100	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	100		set __D0draw, 12
-2	71	103	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	103		sub __signed_stack_002draw, __signed_stack_002draw, __D0draw
-2	71	107	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	107	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	107		strcat __strbufdraw, __constStr0033
-2	71	111	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	111		set __D0draw, 0
-2	71	114	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	114	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	114		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	71	116	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	116		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	71	118	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	118		mov __GraphicOutArgs.Options, __D0draw
-2	71	120	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	120		mov __GraphicOutArgs.Filename, __strbufdraw
-2	71	122	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	122		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	71	124	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	72	124		syscall 18, __GraphicOutArgs
-2	71	127	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	127	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	71	127	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	73	127	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	127		set __signed_stack_001draw, 0
-2	73	130	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	73	130	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	130		set __signed_stack_002draw, 14
-2	73	133	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	73	133	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	133		strcat __strbufdraw, __constStr0034
-2	73	137	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	137		set __D0draw, 0
-2	73	140	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	73	140	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	140		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	73	142	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	142		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	73	144	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	144		mov __GraphicOutArgs.Options, __D0draw
-2	73	146	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	146		mov __GraphicOutArgs.Filename, __strbufdraw
-2	73	148	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	148		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	73	150	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	150		syscall 18, __GraphicOutArgs
-2	73	153	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	73	153	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	73	153	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	153	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	153		set __signed_stack_001draw, 0
-2	74	156	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	156	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	156		set __signed_stack_002draw, 30
-2	74	159	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	159	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	159		strcat __strbufdraw, __constStr0035
-2	74	163	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	163		set __D0draw, 0
-2	74	166	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	166	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	166		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	74	168	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	168		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	74	170	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	170		mov __GraphicOutArgs.Options, __D0draw
-2	74	172	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	172		mov __GraphicOutArgs.Filename, __strbufdraw
-2	74	174	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	174		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	74	176	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	176		syscall 18, __GraphicOutArgs
-2	74	179	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	179	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	74	179	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	179	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	179		set __signed_stack_001draw, 0
-2	75	182	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	182	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	182		set __signed_stack_002draw, 52
-2	75	185	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	185	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	185		strcat __strbufdraw, __constStr0036
-2	75	189	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	189		set __D0draw, 0
-2	75	192	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	192	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	192		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	75	194	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	194		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	75	196	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	196		mov __GraphicOutArgs.Options, __D0draw
-2	75	198	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	198		mov __GraphicOutArgs.Filename, __strbufdraw
-2	75	200	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	200		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	75	202	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	202		syscall 18, __GraphicOutArgs
-2	75	205	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	76	205		mov __D0draw, __GraphicOutArgs.Result
-2	75	207	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	75	207	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	77	207	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	78	207		jmp __ASM_Label_829
-2	77	209	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	78	209		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
-2	77	211	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	78	211	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	79	211		set __D0draw, 1
-2	78	214	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	79	214		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
-2	80	218	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	218		brtst 4, __ASM_Label_832, __D0draw
-2	80	221	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	221		set __signed_stack_001draw, 0
-2	80	224	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	80	224	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	224		set __signed_stack_002draw, 30
-2	80	227	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	80	227	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	227		strcat __strbufdraw, __constStr0035
-2	80	231	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	231		set __D0draw, 0
-2	80	234	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	80	234	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	234		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	80	236	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	236		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	80	238	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	238		mov __GraphicOutArgs.Options, __D0draw
-2	80	240	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	240		mov __GraphicOutArgs.Filename, __strbufdraw
-2	80	242	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	242		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	80	244	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	244		syscall 18, __GraphicOutArgs
-2	80	247	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	80	247	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	80	247	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	247	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	247		set __signed_stack_001draw, 0
-2	81	250	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	250	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	250		set __signed_stack_002draw, 52
-2	81	253	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	253	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	253		strcat __strbufdraw, __constStr0036
-2	81	257	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	257		set __D0draw, 0
-2	81	260	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	260	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	260		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	81	262	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	262		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	81	264	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	264		mov __GraphicOutArgs.Options, __D0draw
-2	81	266	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	266		mov __GraphicOutArgs.Filename, __strbufdraw
-2	81	268	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	268		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	81	270	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	270		syscall 18, __GraphicOutArgs
-2	81	273	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	82	273		mov __D0draw, __GraphicOutArgs.Result
-2	81	275	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	81	275	#line 81 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	83	275	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	84	275		jmp __ASM_Label_845
-2	83	277	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	84	277		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
-2	83	279	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	84	279	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	279		set __D0draw, 2
-2	84	282	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	282		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
-2	85	286	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	286		brtst 4, __ASM_Label_848, __D0draw
-2	85	289	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	289		set __signed_stack_001draw, 0
-2	85	292	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	292	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	292		set __signed_stack_002draw, 14
-2	85	295	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	295	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	295		strcat __strbufdraw, __constStr0034
-2	85	299	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	299		set __D0draw, 0
-2	85	302	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	302	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	302		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	85	304	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	304		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	85	306	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	306		mov __GraphicOutArgs.Options, __D0draw
-2	85	308	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	308		mov __GraphicOutArgs.Filename, __strbufdraw
-2	85	310	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	310		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	85	312	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	86	312		syscall 18, __GraphicOutArgs
-2	85	315	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	315	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	85	315	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	87	315	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	315		set __signed_stack_001draw, 0
-2	87	318	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	87	318	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	318		set __signed_stack_002draw, 52
-2	87	321	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	87	321	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	321		strcat __strbufdraw, __constStr0036
-2	87	325	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	325		set __D0draw, 0
-2	87	328	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	87	328	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	328		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	87	330	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	330		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	87	332	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	332		mov __GraphicOutArgs.Options, __D0draw
-2	87	334	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	334		mov __GraphicOutArgs.Filename, __strbufdraw
-2	87	336	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	336		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	87	338	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	338		syscall 18, __GraphicOutArgs
-2	87	341	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	88	341		mov __D0draw, __GraphicOutArgs.Result
-2	87	343	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	87	343	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	89	343	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	90	343		jmp __ASM_Label_861
-2	89	345	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	90	345		mov __signed_stack_001draw, __draw_7qG2_intrans_7qG2_000
-2	89	347	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	90	347	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	347		set __D0draw, 3
-2	90	350	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	350		cmp 4, __D0draw, __signed_stack_001draw, __D0draw
-2	91	354	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	354		brtst 4, __ASM_Label_864, __D0draw
-2	91	357	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	357		set __signed_stack_001draw, 0
-2	91	360	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	360	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	360		set __signed_stack_002draw, 14
-2	91	363	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	363	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	363		strcat __strbufdraw, __constStr0034
-2	91	367	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	367		set __D0draw, 0
-2	91	370	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	370	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	370		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	91	372	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	372		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	91	374	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	374		mov __GraphicOutArgs.Options, __D0draw
-2	91	376	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	376		mov __GraphicOutArgs.Filename, __strbufdraw
-2	91	378	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	378		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	91	380	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	380		syscall 18, __GraphicOutArgs
-2	91	383	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	383	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	91	383	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	383	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	383		set __signed_stack_001draw, 0
-2	92	386	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	386	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	386		set __signed_stack_002draw, 30
-2	92	389	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	389	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	389		strcat __strbufdraw, __constStr0035
-2	92	393	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	393		set __D0draw, 0
-2	92	396	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	396	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	396		mov __GraphicOutArgs.Location.X, __signed_stack_001draw
-2	92	398	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	398		mov __GraphicOutArgs.Location.Y, __signed_stack_002draw
-2	92	400	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	400		mov __GraphicOutArgs.Options, __D0draw
-2	92	402	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	402		mov __GraphicOutArgs.Filename, __strbufdraw
-2	92	404	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	404		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
-2	92	406	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	406		syscall 18, __GraphicOutArgs
-2	92	409	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	93	409		mov __D0draw, __GraphicOutArgs.Result
-2	92	411	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	92	411	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	95	411	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	411		jmp __ASM_Label_877
-2	95	413	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	413		set __signed_stack_001draw, 4000
-2	95	416	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	95	416	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	416		set __signed_stack_002draw, 10000
-2	95	419	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	95	419	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	419		set __signed_stack_003draw, 4
-2	95	422	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	95	422	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	422		set __D0draw, 0
-2	95	425	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	425		acquire __SPTArgsMutex
-2	95	426	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	426		mov __SPTArgs.Frequency, __signed_stack_001draw
-2	95	428	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	428		mov __SPTArgs.Duration, __signed_stack_002draw
-2	95	430	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	430		mov __SPTArgs.Volume, __signed_stack_003draw
-2	95	432	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	432		mov __SPTArgs.Loop, __D0draw
-2	95	434	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	434		syscall 10, __SPTArgs
-2	95	437	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	437		mov __D0draw, __SPTArgs.Result
-2	95	439	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	439		release __SPTArgsMutex
-2	95	440	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	95	440	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	440		set __Wait_7qG2_ms_7qG2_000_inline_draw, 10000
-2	95	443	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	8721	443	#line 8721 "NXCDefs.h"
-2	8722	443		waitv __Wait_7qG2_ms_7qG2_000_inline_draw
-2	8721	445	#line 8721 "NXCDefs.h"
-2	95	445	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	95	445	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	445		set __D0draw, 1
-2	95	448	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	96	448		stop __D0draw
-2	95	450	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	98	450	#line 98 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-2	99	450		subret __draw_return
-3	114	0	#line 114 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
-3	115	0		subret ____initialize_global_data_return
+0	189	0	#line 189 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	190	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	189	2	#line 189 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	190	2	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	191	2		set __main_7qG2_alive_7qG2_000, 1
+0	190	5	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	190	5	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	191	5		set __main_7qG2_won_7qG2_000, 0
+0	190	8	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	191	8	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	192	8		subcall drawdebug, __drawdebug_return
+0	191	10	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	193	10	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	10		set __main_7qG2_loop1_7qG2_001, 1
+0	193	13	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	193	13	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	13		mov __DU0main, __main_7qG2_alive_7qG2_000
+0	193	15	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	15		tst 5, __D0main, __DU0main
+0	193	18	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	18		brtst 4, __ASM_Label_1112, __D0main
+0	193	21	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	21		mov __unsigned_stack_001main, __main_7qG2_won_7qG2_000
+0	193	23	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	193	23	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	23		set __D0main, 0
+0	193	26	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	26		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	193	30	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	30		brtst 4, __ASM_Label_1106, __D0main
+0	193	33	#line 193 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	194	33		jmp __ASM_Label_1107
+0	194	35	#line 194 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	195	35		add __main_7qG2_loop1_7qG2_001, __main_7qG2_loop1_7qG2_001, __constVal1
+0	195	39	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	196	39		jmp __ASM_Label_1105
+0	195	41	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	196	41		mov __signed_stack_001main, __main_7qG2_loop1_7qG2_001
+0	195	43	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	195	43	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	196	43		set __D0main, 2
+0	195	46	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	196	46		mod bl, __signed_stack_001main, __D0main
+0	195	50	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	195	50	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	196	50	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	197	50		subcall chooseObject, __chooseObject_return
+0	196	52	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	197	52		mov __D0main, __D0chooseObject
+0	196	54	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	197	54	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	198	54		subcall dbg, __dbg_return
+0	197	56	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	198	56	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	199	56		mov __moveObject_7qG2_dir_7qG2_000, bl
+0	198	58	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	198	58	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	199	58		subcall moveObject, __moveObject_return
+0	198	60	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	199	60	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	200	60		set __main_7qG2_loop2_7qG2_003, 0
+0	199	63	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	199	63	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	200	63		mov __signed_stack_001main, __main_7qG2_loop2_7qG2_003
+0	199	65	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	199	65	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	200	65		set __D0main, 10
+0	199	68	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	200	68		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	199	72	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	200	72		brtst 4, __ASM_Label_1118, __D0main
+0	199	75	#line 199 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	200	75		jmp __ASM_Label_1119
+0	200	77	#line 200 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	201	77		add __main_7qG2_loop2_7qG2_003, __main_7qG2_loop2_7qG2_003, __constVal1
+0	201	81	#line 201 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	202	81		jmp __ASM_Label_1117
+0	201	83	#line 201 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	202	83		subcall drawdebug, __drawdebug_return
+0	201	85	#line 201 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	202	85	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	203	85		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	202	88	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	8721	88	#line 8721 "NXCDefs.h"
+0	8722	88		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8721	90	#line 8721 "NXCDefs.h"
+0	202	90	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	203	90	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	204	90		mov __D0main, bl
+0	203	92	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	204	92		tst 5, __D0main, __D0main
+0	203	95	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	204	95		brtst 4, __ASM_Label_1129, __D0main
+0	203	98	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	204	98		set __D0main, 2
+0	203	101	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	204	101		add transx, transx, __D0main
+0	203	105	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	204	105	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	205	105		jmp __ASM_Label_1132
+0	204	107	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	205	107		set __D0main, 2
+0	204	110	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	205	110		sub transx, transx, __D0main
+0	204	114	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	205	114	#line 205 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	205	114	#line 205 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	206	114		mov transportx, transx
+0	205	116	#line 205 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	205	116	#line 205 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	206	116	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	207	116		subcall dbg, __dbg_return
+0	206	118	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	208	118	#line 208 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	209	118		jmp __ASM_Label_1120
+0	208	120	#line 208 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	208	120	#line 208 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	209	120		mov __moveObject_7qG2_dir_7qG2_000, bl
+0	208	122	#line 208 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	208	122	#line 208 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	209	122		subcall moveObject, __moveObject_return
+0	208	124	#line 208 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	209	124	#line 209 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	210	124		set transportx, 0
+0	209	127	#line 209 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	209	127	#line 209 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	227	127	#line 227 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	228	127		jmp __ASM_Label_1108
+0	227	129	#line 227 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+0	228	129		exit -1, -1
+1	103	0	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	0		strcat __strbufdbg, __constStr0031
+1	103	4	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	4		mov __ArrHelper__dbg_244_0, __strbufdbg
+1	103	6	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	6		mov __D0dbg, transx
+1	103	8	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	8		numtostr __strretvaldbg, __D0dbg
+1	103	11	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	11		strcat __strbufdbg, __strretvaldbg
+1	103	15	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	15		mov __ArrHelper__dbg_244_1, __strbufdbg
+1	103	17	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	17		strcat __strbufdbg, __constStr0032
+1	103	21	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	21		mov __ArrHelper__dbg_244_2, __strbufdbg
+1	103	23	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	23		mov __D0dbg, intransport
+1	103	25	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	25		numtostr __strretvaldbg, __D0dbg
+1	103	28	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	28		strcat __strbufdbg, __strretvaldbg
+1	103	32	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	32		mov __ArrHelper__dbg_244_3, __strbufdbg
+1	103	34	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	34		strcat __strretvaldbg, __ArrHelper__dbg_244_0, __ArrHelper__dbg_244_1, __ArrHelper__dbg_244_2, __ArrHelper__dbg_244_3
+1	103	41	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	41		strcat __strbufdbg, __strretvaldbg
+1	103	45	#line 103 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	45		mov __dbg_7qG2_msg_7qG2_000, __strbufdbg
+1	104	47	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	105	47	#pragma macro 6
+1	105	47		add __MWArgs.QueueID, __constVal9, __constVal10
+1	105	51		mov __MWArgs.Message, __dbg_7qG2_msg_7qG2_000
+1	105	53		syscall 26, __MWArgs
+1	105	56		mov __D0dbg, __MWArgs.Result
+1	7587	58	#line 7587 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	58	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	104	58	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	108	58	#line 108 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+1	109	58		subret __dbg_return
+2	110	0	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	111	0		mov __signed_stack_001drawdebug, intransport
+2	110	2	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	110	2	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	111	2		set __D0drawdebug, 1
+2	110	5	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	111	5		sub __signed_stack_001drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	110	9	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	110	9	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	111	9		set __D0drawdebug, 24
+2	110	12	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	111	12		mul __drawdebug_7qG2_boaty_7qG2_000, __signed_stack_001drawdebug, __D0drawdebug
+2	110	16	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	6848	16	#line 6848 "NXCDefs.h"
+2	6849	16	#pragma macro 6
+2	6849	16		acquire __PointOutMutex
+2	6849	17		mov __PointOutArgs.Location.X, __constVal200
+2	6849	19		mov __PointOutArgs.Location.Y, __constVal200
+2	6849	21		mov __PointOutArgs.Options, __constVal1
+2	6849	23		syscall 14, __PointOutArgs
+2	6849	26		release __PointOutMutex
+2	7624	27	#line 7624 "NXCDefs.h"
+2	6848	27	#line 6848 "NXCDefs.h"
+2	111	27	#line 111 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	27	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	27		set __signed_stack_001drawdebug, 30
+2	112	30	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	30	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	30	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	30		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, transx
+2	112	34	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	34	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	34		mov __signed_stack_002drawdebug, __drawdebug_7qG2_boaty_7qG2_000
+2	112	36	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	36	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	36		set __signed_stack_003drawdebug, 20
+2	112	39	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	39	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	39		set __signed_stack_004drawdebug, 16
+2	112	42	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	42	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	42		set __D0drawdebug, 0
+2	112	45	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	45	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	45		mov __RectOutArgs.Location.X, __signed_stack_001drawdebug
+2	112	47	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	47		mov __RectOutArgs.Location.Y, __signed_stack_002drawdebug
+2	112	49	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	49		mov __RectOutArgs.Size.Width, __signed_stack_003drawdebug
+2	112	51	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	51		mov __RectOutArgs.Size.Height, __signed_stack_004drawdebug
+2	112	53	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	53		mov __RectOutArgs.Options, __D0drawdebug
+2	112	55	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	55		syscall 17, __RectOutArgs
+2	112	58	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	58	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	112	58	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	58	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	58		set __signed_stack_001drawdebug, 30
+2	113	61	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	61	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	61		set __signed_stack_002drawdebug, 0
+2	113	64	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	64	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	64		set __signed_stack_003drawdebug, 40
+2	113	67	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	67	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	67		set __signed_stack_004drawdebug, 64
+2	113	70	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	70	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	70		set __D0drawdebug, 0
+2	113	73	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	73	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	73		mov __RectOutArgs.Location.X, __signed_stack_001drawdebug
+2	113	75	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	75		mov __RectOutArgs.Location.Y, __signed_stack_002drawdebug
+2	113	77	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	77		mov __RectOutArgs.Size.Width, __signed_stack_003drawdebug
+2	113	79	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	79		mov __RectOutArgs.Size.Height, __signed_stack_004drawdebug
+2	113	81	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	81		mov __RectOutArgs.Options, __D0drawdebug
+2	113	83	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	83		syscall 17, __RectOutArgs
+2	113	86	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	86	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	113	86	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	86	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	86		set __signed_stack_001drawdebug, 30
+2	114	89	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	89	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	89	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	89		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, transx
+2	114	93	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	93	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	93		set __D0drawdebug, 8
+2	114	96	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	96		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	114	100	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	100	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	100		mov __signed_stack_002drawdebug, __drawdebug_7qG2_boaty_7qG2_000
+2	114	102	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	102	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	102		set __D0drawdebug, 4
+2	114	105	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	105		add __signed_stack_002drawdebug, __signed_stack_002drawdebug, __D0drawdebug
+2	114	109	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	109	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	109		set __signed_stack_003drawdebug, 5
+2	114	112	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	112	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	112		set __signed_stack_004drawdebug, 1
+2	114	115	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	115	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	115		set __D0drawdebug, 0
+2	114	118	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	118	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	118		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	114	120	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	120		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	114	122	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	122		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	114	124	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	124		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	114	126	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	126		mov __EllipseOutArgs.Options, __D0drawdebug
+2	114	128	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	128		syscall 94, __EllipseOutArgs
+2	114	131	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	131	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	114	131	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	115	131	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	116	131		mov __signed_stack_001drawdebug, intransport
+2	115	133	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	116	133	#line 116 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	133		set __D0drawdebug, 0
+2	116	136	#line 116 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	136		cmp 4, __D0drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	117	140	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	140		brtst 4, __ASM_Label_824, __D0drawdebug
+2	117	143	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	143		mov __signed_stack_001drawdebug, foxx
+2	117	145	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	145	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	145		set __signed_stack_002drawdebug, 14
+2	117	148	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	148	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	148		set __signed_stack_003drawdebug, 16
+2	117	151	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	151	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	151		set __signed_stack_004drawdebug, 8
+2	117	154	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	154	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	154		set __D0drawdebug, 32
+2	117	157	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	157	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	157		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	117	159	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	159		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	117	161	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	161		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	117	163	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	163		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	117	165	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	165		mov __EllipseOutArgs.Options, __D0drawdebug
+2	117	167	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	167		syscall 94, __EllipseOutArgs
+2	117	170	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	170	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	117	170	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	170	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	170		mov __signed_stack_001drawdebug, goosex
+2	118	172	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	172	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	172		set __signed_stack_002drawdebug, 30
+2	118	175	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	175	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	175		set __signed_stack_003drawdebug, 8
+2	118	178	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	178	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	178		set __signed_stack_004drawdebug, 4
+2	118	181	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	181	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	181		set __D0drawdebug, 0
+2	118	184	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	184	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	184		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	118	186	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	186		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	118	188	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	188		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	118	190	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	190		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	118	192	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	192		mov __EllipseOutArgs.Options, __D0drawdebug
+2	118	194	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	194		syscall 94, __EllipseOutArgs
+2	118	197	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	197	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	197	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	197	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	197		mov __signed_stack_001drawdebug, goosex
+2	118	199	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	199	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	199		set __D0drawdebug, 8
+2	118	202	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	202		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	118	206	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	206	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	206		set __signed_stack_002drawdebug, 34
+2	118	209	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	209	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	209		set __signed_stack_003drawdebug, 2
+2	118	212	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	212	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	212		set __D0drawdebug, 0
+2	118	215	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	215	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	215		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	118	217	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	217		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	118	219	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	219		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	118	221	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	221		mov __CircleOutArgs.Options, __D0drawdebug
+2	118	223	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	223		syscall 16, __CircleOutArgs
+2	118	226	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	226	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	118	226	#line 118 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	226	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	226		mov __signed_stack_001drawdebug, sackx
+2	119	228	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	228	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	228		set __signed_stack_002drawdebug, 52
+2	119	231	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	231	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	231		set __signed_stack_003drawdebug, 5
+2	119	234	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	234	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	234		set __D0drawdebug, 0
+2	119	237	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	237	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	237		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	119	239	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	239		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	119	241	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	241		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	119	243	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	243		mov __CircleOutArgs.Options, __D0drawdebug
+2	119	245	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	245		syscall 16, __CircleOutArgs
+2	119	248	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	120	248		mov __D0drawdebug, __CircleOutArgs.Result
+2	119	250	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	119	250	#line 119 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	121	250	#line 121 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	122	250		jmp __ASM_Label_861
+2	121	252	#line 121 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	122	252		mov __signed_stack_001drawdebug, intransport
+2	121	254	#line 121 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	122	254	#line 122 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	254		set __D0drawdebug, 1
+2	122	257	#line 122 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	257		cmp 4, __D0drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	123	261	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	261		brtst 4, __ASM_Label_864, __D0drawdebug
+2	123	264	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	264	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	264	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	264	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	264		add __signed_stack_001drawdebug, foxx, transportx
+2	123	268	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	268	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	268		set __signed_stack_002drawdebug, 14
+2	123	271	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	271	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	271		set __signed_stack_003drawdebug, 16
+2	123	274	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	274	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	274		set __signed_stack_004drawdebug, 8
+2	123	277	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	277	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	277		set __D0drawdebug, 32
+2	123	280	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	280	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	280		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	123	282	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	282		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	123	284	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	284		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	123	286	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	286		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	123	288	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	288		mov __EllipseOutArgs.Options, __D0drawdebug
+2	123	290	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	290		syscall 94, __EllipseOutArgs
+2	123	293	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	293	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	123	293	#line 123 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	293	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	293		mov __signed_stack_001drawdebug, goosex
+2	124	295	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	295	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	295		set __signed_stack_002drawdebug, 30
+2	124	298	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	298	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	298		set __signed_stack_003drawdebug, 8
+2	124	301	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	301	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	301		set __signed_stack_004drawdebug, 4
+2	124	304	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	304	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	304		set __D0drawdebug, 0
+2	124	307	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	307	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	307		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	124	309	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	309		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	124	311	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	311		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	124	313	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	313		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	124	315	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	315		mov __EllipseOutArgs.Options, __D0drawdebug
+2	124	317	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	317		syscall 94, __EllipseOutArgs
+2	124	320	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	320	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	320	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	320	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	320		mov __signed_stack_001drawdebug, goosex
+2	124	322	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	322	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	322		set __D0drawdebug, 8
+2	124	325	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	325		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	124	329	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	329	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	329		set __signed_stack_002drawdebug, 34
+2	124	332	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	332	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	332		set __signed_stack_003drawdebug, 2
+2	124	335	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	335	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	335		set __D0drawdebug, 0
+2	124	338	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	338	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	338		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	124	340	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	340		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	124	342	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	342		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	124	344	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	344		mov __CircleOutArgs.Options, __D0drawdebug
+2	124	346	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	346		syscall 16, __CircleOutArgs
+2	124	349	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	349	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	124	349	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	349	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	349		mov __signed_stack_001drawdebug, sackx
+2	125	351	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	351	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	351		set __signed_stack_002drawdebug, 52
+2	125	354	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	354	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	354		set __signed_stack_003drawdebug, 5
+2	125	357	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	357	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	357		set __D0drawdebug, 0
+2	125	360	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	360	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	360		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	125	362	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	362		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	125	364	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	364		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	125	366	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	366		mov __CircleOutArgs.Options, __D0drawdebug
+2	125	368	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	368		syscall 16, __CircleOutArgs
+2	125	371	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	126	371		mov __D0drawdebug, __CircleOutArgs.Result
+2	125	373	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	125	373	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	127	373	#line 127 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	128	373		jmp __ASM_Label_901
+2	127	375	#line 127 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	128	375		mov __signed_stack_001drawdebug, intransport
+2	127	377	#line 127 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	128	377	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	377		set __D0drawdebug, 2
+2	128	380	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	380		cmp 4, __D0drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	129	384	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	384		brtst 4, __ASM_Label_904, __D0drawdebug
+2	129	387	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	387		mov __signed_stack_001drawdebug, foxx
+2	129	389	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	389	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	389		set __signed_stack_002drawdebug, 14
+2	129	392	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	392	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	392		set __signed_stack_003drawdebug, 16
+2	129	395	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	395	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	395		set __signed_stack_004drawdebug, 8
+2	129	398	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	398	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	398		set __D0drawdebug, 32
+2	129	401	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	401	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	401		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	129	403	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	403		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	129	405	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	405		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	129	407	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	407		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	129	409	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	409		mov __EllipseOutArgs.Options, __D0drawdebug
+2	129	411	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	411		syscall 94, __EllipseOutArgs
+2	129	414	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	414	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	129	414	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	414	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	414	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	414	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	414	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	414		add __signed_stack_001drawdebug, goosex, transportx
+2	130	418	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	418	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	418		set __signed_stack_002drawdebug, 30
+2	130	421	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	421	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	421		set __signed_stack_003drawdebug, 8
+2	130	424	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	424	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	424		set __signed_stack_004drawdebug, 4
+2	130	427	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	427	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	427		set __D0drawdebug, 0
+2	130	430	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	430	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	430		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	130	432	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	432		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	130	434	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	434		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	130	436	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	436		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	130	438	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	438		mov __EllipseOutArgs.Options, __D0drawdebug
+2	130	440	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	440		syscall 94, __EllipseOutArgs
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	443	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	443		add __signed_stack_001drawdebug, goosex, transportx
+2	130	447	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	447	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	447		set __D0drawdebug, 8
+2	130	450	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	450		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	130	454	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	454	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	454		set __signed_stack_002drawdebug, 34
+2	130	457	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	457	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	457		set __signed_stack_003drawdebug, 2
+2	130	460	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	460	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	460		set __D0drawdebug, 0
+2	130	463	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	463	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	463		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	130	465	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	465		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	130	467	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	467		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	130	469	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	469		mov __CircleOutArgs.Options, __D0drawdebug
+2	130	471	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	471		syscall 16, __CircleOutArgs
+2	130	474	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	474	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	130	474	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	474	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	474		mov __signed_stack_001drawdebug, sackx
+2	131	476	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	476	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	476		set __signed_stack_002drawdebug, 52
+2	131	479	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	479	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	479		set __signed_stack_003drawdebug, 5
+2	131	482	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	482	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	482		set __D0drawdebug, 0
+2	131	485	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	485	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	485		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	131	487	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	487		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	131	489	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	489		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	131	491	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	491		mov __CircleOutArgs.Options, __D0drawdebug
+2	131	493	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	493		syscall 16, __CircleOutArgs
+2	131	496	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	132	496		mov __D0drawdebug, __CircleOutArgs.Result
+2	131	498	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	131	498	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	133	498	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	134	498		jmp __ASM_Label_941
+2	133	500	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	134	500		mov __signed_stack_001drawdebug, intransport
+2	133	502	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	134	502	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	502		set __D0drawdebug, 3
+2	134	505	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	505		cmp 4, __D0drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	135	509	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	509		brtst 4, __ASM_Label_944, __D0drawdebug
+2	135	512	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	512		mov __signed_stack_001drawdebug, foxx
+2	135	514	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	514	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	514		set __signed_stack_002drawdebug, 14
+2	135	517	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	517	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	517		set __signed_stack_003drawdebug, 16
+2	135	520	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	520	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	520		set __signed_stack_004drawdebug, 8
+2	135	523	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	523	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	523		set __D0drawdebug, 32
+2	135	526	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	526	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	526		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	135	528	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	528		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	135	530	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	530		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	135	532	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	532		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	135	534	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	534		mov __EllipseOutArgs.Options, __D0drawdebug
+2	135	536	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	536		syscall 94, __EllipseOutArgs
+2	135	539	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	539	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	135	539	#line 135 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	539	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	539		mov __signed_stack_001drawdebug, goosex
+2	136	541	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	541	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	541		set __signed_stack_002drawdebug, 30
+2	136	544	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	544	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	544		set __signed_stack_003drawdebug, 8
+2	136	547	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	547	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	547		set __signed_stack_004drawdebug, 4
+2	136	550	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	550	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	550		set __D0drawdebug, 0
+2	136	553	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	553	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	553		mov __EllipseOutArgs.Center.X, __signed_stack_001drawdebug
+2	136	555	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	555		mov __EllipseOutArgs.Center.Y, __signed_stack_002drawdebug
+2	136	557	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	557		mov __EllipseOutArgs.SizeX, __signed_stack_003drawdebug
+2	136	559	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	559		mov __EllipseOutArgs.SizeY, __signed_stack_004drawdebug
+2	136	561	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	561		mov __EllipseOutArgs.Options, __D0drawdebug
+2	136	563	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	563		syscall 94, __EllipseOutArgs
+2	136	566	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	566	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	566	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	566	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	566		mov __signed_stack_001drawdebug, goosex
+2	136	568	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	568	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	568		set __D0drawdebug, 8
+2	136	571	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	571		add __signed_stack_001drawdebug, __signed_stack_001drawdebug, __D0drawdebug
+2	136	575	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	575	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	575		set __signed_stack_002drawdebug, 34
+2	136	578	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	578	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	578		set __signed_stack_003drawdebug, 2
+2	136	581	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	581	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	581		set __D0drawdebug, 0
+2	136	584	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	584	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	584		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	136	586	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	586		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	136	588	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	588		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	136	590	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	590		mov __CircleOutArgs.Options, __D0drawdebug
+2	136	592	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	592		syscall 16, __CircleOutArgs
+2	136	595	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	595	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	136	595	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	595	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	595	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	595	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	595	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	595		add __signed_stack_001drawdebug, sackx, transportx
+2	137	599	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	599	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	599		set __signed_stack_002drawdebug, 52
+2	137	602	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	602	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	602		set __signed_stack_003drawdebug, 5
+2	137	605	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	605	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	605		set __D0drawdebug, 0
+2	137	608	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	608	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	608		mov __CircleOutArgs.Center.X, __signed_stack_001drawdebug
+2	137	610	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	610		mov __CircleOutArgs.Center.Y, __signed_stack_002drawdebug
+2	137	612	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	612		mov __CircleOutArgs.Size, __signed_stack_003drawdebug
+2	137	614	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	614		mov __CircleOutArgs.Options, __D0drawdebug
+2	137	616	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	616		syscall 16, __CircleOutArgs
+2	137	619	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	138	619		mov __D0drawdebug, __CircleOutArgs.Result
+2	137	621	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	137	621	#line 137 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	139	621	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	621		jmp __ASM_Label_981
+2	139	623	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	623		set __signed_stack_001drawdebug, 4000
+2	139	626	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	139	626	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	626		set __signed_stack_002drawdebug, 10000
+2	139	629	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	139	629	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	629		set __signed_stack_003drawdebug, 4
+2	139	632	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	139	632	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	632		set __D0drawdebug, 0
+2	139	635	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	635		acquire __SPTArgsMutex
+2	139	636	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	636		mov __SPTArgs.Frequency, __signed_stack_001drawdebug
+2	139	638	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	638		mov __SPTArgs.Duration, __signed_stack_002drawdebug
+2	139	640	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	640		mov __SPTArgs.Volume, __signed_stack_003drawdebug
+2	139	642	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	642		mov __SPTArgs.Loop, __D0drawdebug
+2	139	644	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	644		syscall 10, __SPTArgs
+2	139	647	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	647		mov __D0drawdebug, __SPTArgs.Result
+2	139	649	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	649		release __SPTArgsMutex
+2	139	650	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	139	650	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	650		set __Wait_7qG2_ms_7qG2_000_inline_drawdebug, 10000
+2	139	653	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	8721	653	#line 8721 "NXCDefs.h"
+2	8722	653		waitv __Wait_7qG2_ms_7qG2_000_inline_drawdebug
+2	8721	655	#line 8721 "NXCDefs.h"
+2	139	655	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	139	655	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	655		set __D0drawdebug, 1
+2	139	658	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	140	658		stop __D0drawdebug
+2	139	660	#line 139 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	143	660	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	143	660	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	143	660	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	143	660	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	143	660	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+2	144	660		subret __drawdebug_return
+3	146	0	#line 146 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	147	0		mov __DU0moveObject, __moveObject_7qG2_dir_7qG2_000
+3	147	2	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	2		tst 5, __D0moveObject, __DU0moveObject
+3	147	5	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	5		brtst 4, __ASM_Label_996, __D0moveObject
+3	147	8	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	8		mov __signed_stack_001moveObject, z
+3	147	10	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	147	10	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	10		set __D0moveObject, 1
+3	147	13	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	13		cmp 4, __D0moveObject, __signed_stack_001moveObject, __D0moveObject
+3	147	17	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	17		brtst 4, __ASM_Label_999, __D0moveObject
+3	147	20	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	20		set __D0moveObject, 15
+3	147	23	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	23		add foxx, foxx, __D0moveObject
+3	147	27	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	27	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	27	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	27		mov __signed_stack_001moveObject, z
+3	148	29	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	148	29	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	29		set __D0moveObject, 2
+3	148	32	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	32		cmp 4, __D0moveObject, __signed_stack_001moveObject, __D0moveObject
+3	148	36	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	36		brtst 4, __ASM_Label_1004, __D0moveObject
+3	148	39	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	39		set __D0moveObject, 15
+3	148	42	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	42		add goosex, goosex, __D0moveObject
+3	148	46	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	46	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	46	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	150	46		mov __signed_stack_001moveObject, z
+3	149	48	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	149	48	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	150	48		set __D0moveObject, 3
+3	149	51	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	150	51		cmp 4, __D0moveObject, __signed_stack_001moveObject, __D0moveObject
+3	149	55	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	150	55		brtst 4, __ASM_Label_1009, __D0moveObject
+3	149	58	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	150	58		set __D0moveObject, 15
+3	149	61	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	150	61		add sackx, sackx, __D0moveObject
+3	149	65	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	151	65	#line 151 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	153	65	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	65		jmp __ASM_Label_1012
+3	153	67	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	67		mov __signed_stack_001moveObject, z
+3	153	69	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	153	69	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	69		set __D0moveObject, 1
+3	153	72	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	72		cmp 4, __D0moveObject, __signed_stack_001moveObject, __D0moveObject
+3	153	76	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	76		brtst 4, __ASM_Label_1015, __D0moveObject
+3	153	79	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	79		set __D0moveObject, 15
+3	153	82	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	82		sub foxx, foxx, __D0moveObject
+3	153	86	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	86	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	86	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	86		mov __signed_stack_001moveObject, z
+3	154	88	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	154	88	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	88		set __D0moveObject, 2
+3	154	91	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	91		cmp 4, __D0moveObject, __signed_stack_001moveObject, __D0moveObject
+3	154	95	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	95		brtst 4, __ASM_Label_1020, __D0moveObject
+3	154	98	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	98		set __D0moveObject, 15
+3	154	101	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	101		sub goosex, goosex, __D0moveObject
+3	154	105	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	105	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	105	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	156	105		mov __signed_stack_001moveObject, z
+3	155	107	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	155	107	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	156	107		set __D0moveObject, 3
+3	155	110	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	156	110		cmp 4, __D0moveObject, __signed_stack_001moveObject, __D0moveObject
+3	155	114	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	156	114		brtst 4, __ASM_Label_1025, __D0moveObject
+3	155	117	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	156	117		set __D0moveObject, 15
+3	155	120	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	156	120		sub sackx, sackx, __D0moveObject
+3	155	124	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	157	124	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	160	124	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	160	124	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+3	161	124		subret __moveObject_return
+4	162	0	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	163	0		set __chooseObject_7qG2_override_7qG2_000, 0
+4	162	3	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	163	3	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	3	#pragma macro 2
+4	164	3	#pragma macro 25
+4	164	3		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	164	5		mov __IOMRBIArgs.Offset, __constVal35
+4	164	7		set __IOMRBIArgs.Count, 1
+4	164	10		syscall 78, __IOMRBIArgs
+4	164	13		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	164	16		unflatten __tmpsbytechooseObject, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytechooseObject
+4	8848	21	#line 8848 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8849	21		mov __signed_stack_001chooseObject, __tmpsbytechooseObject
+4	163	23	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	163	23	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	163	23	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	23		set __D0chooseObject, 0
+4	163	26	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	26		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	163	30	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	30		not __D0chooseObject, __D0chooseObject
+4	163	33	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	33		tst 5, __D0chooseObject, __D0chooseObject
+4	163	36	#line 163 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	36		brtst 4, __ASM_Label_1031, __D0chooseObject
+4	164	39	#line 164 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	165	39		jmp __ASM_Label_1030
+4	164	41	#line 164 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	41	#line 164 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	165	41	#pragma macro 2
+4	165	41	#pragma macro 25
+4	165	41		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	165	43		mov __IOMRBIArgs.Offset, __constVal35
+4	165	45		set __IOMRBIArgs.Count, 1
+4	165	48		syscall 78, __IOMRBIArgs
+4	165	51		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	165	54		unflatten __tmpsbytechooseObject, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytechooseObject
+4	8876	59	#line 8876 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8877	59		mov __signed_stack_001chooseObject, __tmpsbytechooseObject
+4	164	61	#line 164 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	164	61	#line 164 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	165	61	#line 165 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	166	61		set __D0chooseObject, 0
+4	165	64	#line 165 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	166	64		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	166	68	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	68		brtst 4, __ASM_Label_1037, __D0chooseObject
+4	166	71	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	71	#pragma macro 2
+4	167	71	#pragma macro 25
+4	167	71		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	167	73		mov __IOMRBIArgs.Offset, __constVal34
+4	167	75		set __IOMRBIArgs.Count, 1
+4	167	78		syscall 78, __IOMRBIArgs
+4	167	81		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	167	84		unflatten __tmpsbytechooseObject, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytechooseObject
+4	8893	89	#line 8893 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8894	89		mov __D0chooseObject, __tmpsbytechooseObject
+4	166	91	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	166	91	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	91		tst 5, __D0chooseObject, __D0chooseObject
+4	166	94	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	94		brtst 4, __ASM_Label_1042, __D0chooseObject
+4	166	97	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	97		add z, z, __constVal1
+4	166	101	#line 166 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	101	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	101	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	101	#pragma macro 2
+4	168	101	#pragma macro 25
+4	168	101		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	168	103		mov __IOMRBIArgs.Offset, __constVal34
+4	168	105		set __IOMRBIArgs.Count, 1
+4	168	108		syscall 78, __IOMRBIArgs
+4	168	111		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	168	114		unflatten __tmpsbytechooseObject, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytechooseObject
+4	8910	119	#line 8910 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8911	119		mov __signed_stack_001chooseObject, __tmpsbytechooseObject
+4	167	121	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	121	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	167	121	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	121		set __D0chooseObject, 0
+4	167	124	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	124		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	167	128	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	128		not __D0chooseObject, __D0chooseObject
+4	167	131	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	131		tst 5, __D0chooseObject, __D0chooseObject
+4	167	134	#line 167 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	134		brtst 4, __ASM_Label_1044, __D0chooseObject
+4	168	137	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	137		jmp __ASM_Label_1043
+4	168	139	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	139	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	139	#pragma macro 2
+4	169	139	#pragma macro 25
+4	169	139		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	169	141		mov __IOMRBIArgs.Offset, __constVal33
+4	169	143		set __IOMRBIArgs.Count, 1
+4	169	146		syscall 78, __IOMRBIArgs
+4	169	149		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	169	152		unflatten __tmpsbytechooseObject, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytechooseObject
+4	8937	157	#line 8937 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8938	157		mov __D0chooseObject, __tmpsbytechooseObject
+4	168	159	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	168	159	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	159		tst 5, __D0chooseObject, __D0chooseObject
+4	168	162	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	162		brtst 4, __ASM_Label_1051, __D0chooseObject
+4	168	165	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	165		sub z, z, __constVal1
+4	168	169	#line 168 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	169	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	169	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	169	#pragma macro 2
+4	170	169	#pragma macro 25
+4	170	169		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	170	171		mov __IOMRBIArgs.Offset, __constVal33
+4	170	173		set __IOMRBIArgs.Count, 1
+4	170	176		syscall 78, __IOMRBIArgs
+4	170	179		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	170	182		unflatten __tmpsbytechooseObject, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytechooseObject
+4	8954	187	#line 8954 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8955	187		mov __signed_stack_001chooseObject, __tmpsbytechooseObject
+4	169	189	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	189	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	169	189	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	189		set __D0chooseObject, 0
+4	169	192	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	192		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	169	196	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	196		not __D0chooseObject, __D0chooseObject
+4	169	199	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	199		tst 5, __D0chooseObject, __D0chooseObject
+4	169	202	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	202		brtst 4, __ASM_Label_1053, __D0chooseObject
+4	170	205	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	205		jmp __ASM_Label_1052
+4	170	207	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	207	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	207		mov __signed_stack_001chooseObject, z
+4	170	209	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	209	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	209		set __D0chooseObject, 1
+4	170	212	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	212		cmp 0, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	170	216	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	216		brtst 4, __ASM_Label_1060, __D0chooseObject
+4	170	219	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	219		set z, 3
+4	170	222	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	170	222	#line 170 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	222	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	222	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	222		mov __signed_stack_001chooseObject, z
+4	171	224	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	224	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	224		set __D0chooseObject, 3
+4	171	227	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	227		cmp 1, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	171	231	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	231		brtst 4, __ASM_Label_1065, __D0chooseObject
+4	171	234	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	234		set z, 1
+4	171	237	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	171	237	#line 171 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	237	#line 172 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	172	237	#line 172 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	173	237		set __Wait_7qG2_ms_7qG2_000_inline_chooseObject, 100
+4	172	240	#line 172 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	8721	240	#line 8721 "NXCDefs.h"
+4	8722	240		waitv __Wait_7qG2_ms_7qG2_000_inline_chooseObject
+4	8721	242	#line 8721 "NXCDefs.h"
+4	172	242	#line 172 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	173	242	#line 173 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	174	242		mov intransport, z
+4	173	244	#line 173 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	173	244	#line 173 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	174	244	#line 174 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	175	244		subcall drawdebug, __drawdebug_return
+4	174	246	#line 174 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	176	246	#line 176 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	177	246		mov __signed_stack_001chooseObject, z
+4	176	248	#line 176 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	177	248	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	248		set __D0chooseObject, 1
+4	177	251	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	251		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	177	255	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	255		brtst 4, __ASM_Label_1074, __D0chooseObject
+4	177	258	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	258		mov __signed_stack_001chooseObject, bl
+4	177	260	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	177	260	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	260		mov __signed_stack_002chooseObject, foxx
+4	177	262	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	177	262	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	262		set __D0chooseObject, 50
+4	177	265	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	265		cmp 1, __D0chooseObject, __signed_stack_002chooseObject, __D0chooseObject
+4	177	269	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	269		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	177	273	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	273		brtst 4, __ASM_Label_1077, __D0chooseObject
+4	177	276	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	276		set __chooseObject_7qG2_override_7qG2_000, 1
+4	177	279	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	177	279	#line 177 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	279	#line 178 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	279	#line 178 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	178	279	#line 178 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	179	279		mov __signed_stack_001chooseObject, z
+4	178	281	#line 178 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	179	281	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	281		set __D0chooseObject, 2
+4	179	284	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	284		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	179	288	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	288		brtst 4, __ASM_Label_1082, __D0chooseObject
+4	179	291	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	291		mov __signed_stack_001chooseObject, bl
+4	179	293	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	179	293	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	293		mov __signed_stack_002chooseObject, goosex
+4	179	295	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	179	295	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	295		set __D0chooseObject, 50
+4	179	298	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	298		cmp 1, __D0chooseObject, __signed_stack_002chooseObject, __D0chooseObject
+4	179	302	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	302		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	179	306	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	306		brtst 4, __ASM_Label_1085, __D0chooseObject
+4	179	309	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	309		set __chooseObject_7qG2_override_7qG2_000, 1
+4	179	312	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	179	312	#line 179 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	312	#line 180 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	312	#line 180 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	180	312	#line 180 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	181	312		mov __signed_stack_001chooseObject, z
+4	180	314	#line 180 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	181	314	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	314		set __D0chooseObject, 3
+4	181	317	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	317		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	181	321	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	321		brtst 4, __ASM_Label_1090, __D0chooseObject
+4	181	324	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	324		mov __signed_stack_001chooseObject, bl
+4	181	326	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	181	326	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	326		mov __signed_stack_002chooseObject, sackx
+4	181	328	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	181	328	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	328		set __D0chooseObject, 50
+4	181	331	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	331		cmp 1, __D0chooseObject, __signed_stack_002chooseObject, __D0chooseObject
+4	181	335	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	335		cmp 4, __D0chooseObject, __signed_stack_001chooseObject, __D0chooseObject
+4	181	339	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	339		brtst 4, __ASM_Label_1093, __D0chooseObject
+4	181	342	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	342		set __chooseObject_7qG2_override_7qG2_000, 1
+4	181	345	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	181	345	#line 181 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	182	345	#line 182 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	183	345	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	183	345	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	184	345		jmp __ASM_Label_1036
+4	183	347	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	183	347	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	184	347		mov __DU0chooseObject, __chooseObject_7qG2_override_7qG2_000
+4	183	349	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	184	349		tst 5, __D0chooseObject, __DU0chooseObject
+4	183	352	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	184	352		brtst 4, __ASM_Label_1098, __D0chooseObject
+4	183	355	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	184	355		set intransport, 0
+4	183	358	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	183	358	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	187	358	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	187	358	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+4	188	358		subret __chooseObject_return
+5	228	0	#line 228 "C:\Github\NXC_Source\X_FoxGooseBeans.nxc"
+5	229	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Michael\AppData\Local\Temp\temp.nxc
-1	howto	50	C:\Users\Michael\AppData\Local\Temp\temp.nxc
-2	draw	793	C:\Users\Michael\AppData\Local\Temp\temp.nxc
-3	__initialize_global_data	1245	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Github\NXC_Source\X_FoxGooseBeans.nxc
+1	dbg	132	C:\Github\NXC_Source\X_FoxGooseBeans.nxc
+2	drawdebug	192	C:\Github\NXC_Source\X_FoxGooseBeans.nxc
+3	moveObject	854	C:\Github\NXC_Source\X_FoxGooseBeans.nxc
+4	chooseObject	980	C:\Github\NXC_Source\X_FoxGooseBeans.nxc
+5	__initialize_global_data	1340	C:\Github\NXC_Source\X_FoxGooseBeans.nxc

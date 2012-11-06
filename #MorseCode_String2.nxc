@@ -1,0 +1,109 @@
+//Morse Code Reader/Decoder
+#define longpress    50
+#define mediumwait   100
+#define longwait     250
+#download "Morse-Splash.ric"
+#download "Morse-Splash2.ric"
+
+
+string decodeInternational(int in)
+  {
+  string out="";
+  //LETTERS
+       if (in==12)    out="a";
+  else if (in==2111)  out="b";
+  else if (in==2121)  out="c";
+  else if (in==211)   out="d";
+  else if (in==1)     out="e";
+  else if (in==1121)  out="f";
+  else if (in==221)   out="g";
+  else if (in==1111)  out="h";
+  else if (in==11)    out="i";
+  else if (in==1222)  out="j";
+  else if (in==212)   out="k";
+  else if (in==1211)  out="l";
+  else if (in==22)    out="m";
+  else if (in==21)    out="n";
+  else if (in==222)   out="o";
+  else if (in==1221)  out="p";
+  else if (in==2212)  out="q";
+  else if (in==121)   out="r";
+  else if (in==111)   out="s";
+  else if (in==2)     out="t";
+  else if (in==112)   out="u";
+  else if (in==1112)  out="v";
+  else if (in==122)   out="w";
+  else if (in==2112)  out="x";
+  else if (in==2122)  out="y";
+  else if (in==2211)  out="z";
+  //NUMBERS
+  else if (in==12222) out="1";
+  else if (in==11222) out="2";
+  else if (in==11122) out="3";
+  else if (in==11112) out="4";
+  else if (in==11111) out="5";
+  else if (in==21111) out="6";
+  else if (in==22111) out="7";
+  else if (in==22211) out="8";
+  else if (in==22221) out="9";
+  else if (in==22222) out="0";
+  //PUNCTUATION
+  else                out=".";
+  return out;
+  }
+
+
+task main()
+  {
+  int i, j;
+  string rawData;
+  while (ButtonState(BTNRIGHT)==false)
+    {
+    //GraphicOut(50,32,"Morse-Splash2.ric",0);
+    //GraphicOut(50,32,"FGB-Fox.ric",0);
+    //TextOut(10,10,"fox out",0);
+    //WAIT
+    for (j=0; (ButtonPressed(BTNCENTER)==false)
+           && (ButtonPressed(BTNRIGHT)==false); j++) {Wait(10);}
+    if (j<longwait) {rawData=StrCat(rawData,"1");} //dot
+    else            {rawData=StrCat(rawData,"2");} //dash
+    //PRESSED
+    if (ButtonPressed(BTNRIGHT)==false)
+      {
+      until (ButtonPressed(BTNCENTER)) {}
+      for (j=0; ButtonPressed(BTNCENTER); j++)
+        {PlayTone(2000,11); Wait(10);}
+      if (j<mediumwait)    {rawData=StrCat(rawData,"3");}  //short wait,  same letter
+      else if (j<longwait) {rawData=StrCat(rawData,"4");}  //medium wait, same word
+      else                 {rawData=StrCat(rawData,"5");}  //long wait,   space
+      }
+    }
+  PlayTone(1000,1000); Wait(1000);
+  rawData=StrCat(rawData,"0"); //null terminator
+  ClearScreen();
+  TextOut(0,LCD_LINE7,StrCat("length",NumToStr(StrLen(rawData))),0);
+  string output;
+  int temp,currentChar;
+  while (i<=StrLen(rawData))
+    {
+    TextOut(0,LCD_LINE6,StrCat("i",NumToStr(i)),0);
+    temp=StrToNum(MidStr(rawData,i,1));
+    TextOut(0,LCD_LINE5,StrCat("temp",NumToStr(temp)),0);
+    while ((temp!=0)&&(temp<4))
+      {
+      currentChar=currentChar*10+temp;
+      i++;
+      temp=StrToNum(MidStr(rawData,i,1)); //temp=StrIndex(rawData,i);
+      }
+    output=StrCat(output,decodeInternational(currentChar));
+    if (temp==5) output=StrCat(output," ");
+    }
+  PlayTone(1500,100); Wait(100);
+  PlayTone(500,100); Wait(100);
+  PlayTone(2500,100); Wait(100);
+  PlayTone(1500,100); Wait(100);
+  TextOut(0,LCD_LINE1,StrCat("output",output),0);
+  Wait(2000);
+  }
+
+

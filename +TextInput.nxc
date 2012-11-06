@@ -1,0 +1,170 @@
+#define ctd           100 //current tick divide
+#define maxms         2000/ctd
+#define divideshow    maxms/3
+#define rows          4
+#define cols          10
+#define arraylength   40//rows*cols
+unsigned long ms;
+bool debugTiming,snd=true;
+
+/*
+const byte layout[arraylength]={ //QWERTY
+  '1','2','3','4','5','6','7','8','9','0',
+  'q','w','e','r','t','y','u','i','o','p',
+  'a','s','d','f','g','h','j','k','l',' ',
+  'z','x','c','v','b','n','m',',','.','?'
+  };
+*/
+
+//*
+const byte layout[arraylength]={ //Standard
+  'a','b','c','d','e','f','g','h','i','j',
+  'k','l','m','n','o','p','q','r','s','t',
+  'u','v','w','x','y','z',' ',',','.','?',
+  '0','1','2','3','4','5','6','7','8','9'
+  };
+//*/
+
+string display(int rectx, int recty)
+  {
+//Initiation
+  int outX,outY;
+  byte layouta;
+  string out="";
+  debugTiming=false;
+  ClearScreen();
+//Text
+  for (int a=0;a<arraylength;a++)
+    {
+    layouta=layout[a]; //FlattenVar is fussy...
+    outX=(a%cols)*10+2;
+    outY=56-(a-(a%cols))/10*8;
+    TextOut(outX,outY,FlattenVar(layouta),0); //StrCat(FlattenVar(layouta),"|")
+    //Wait(100); //debugging
+    }
+  TextOut(1, 56-rows*8,"Done",0);
+  TextOut(26,56-rows*8,StrCat("Snd",NumToStr(snd)),0);
+  TextOut(51,56-rows*8,"Bksc",0);
+  TextOut(76,56-rows*8,StrCat("Lck",NumToStr((ms+maxms-CurrentTick()/ctd)/divideshow+1)),0);
+//Rectangle
+  outY=56-recty*8;
+  if (recty<rows)
+    {
+    outX=(rectx%cols)*10;
+    RectOut(outX,outY,8,8,0);
+    }    //changed cols to rows
+  else
+    {
+    if      (rectx<3)           outX=0;
+    else if (rectx<5)           outX=25;
+    else if (rectx<8)           outX=50;
+    else {ms=CurrentTick()/ctd; outX=75;} //lock
+    RectOut(outX,outY,24,8,0);
+    }
+//ENDOFKB
+  LineOut(0,56-rows*8,99,56-rows*8,0);
+  LineOut(25,57-rows*8,25,55-rows*8,0);
+  LineOut(50,57-rows*8,50,55-rows*8,0);
+  LineOut(75,57-rows*8,75,55-rows*8,0);
+//Timing
+  if (ms+maxms<=CurrentTick()/ctd)
+    {
+    if (recty==rows)
+      {
+      if (rectx<3)      out="`";
+      else if (rectx<5) snd=!snd;
+      else if (rectx<8) out="~";
+      }
+    else
+      {
+      layouta=layout[recty*10+rectx];
+      out=FlattenVar(layouta);
+      }
+    debugTiming=true;
+    ms=CurrentTick()/ctd;
+    }
+  return out;
+  }
+
+
+void debugOut(string tmp)
+  {
+  string msg="";
+  msg=StrCat("ms ",NumToStr(ms)," | max ",NumToStr(maxms)," | cur ",
+  NumToStr(CurrentTick()/ctd)," | out ",NumToStr(debugTiming)," | tmp ",tmp," | ");
+  SendResponseString(MAILBOX10,msg);
+  }
+
+
+int senseButtonModded(int val, int val2, bool lr_ud)
+  {
+  int lu,rd,colrow,add;
+  if (lr_ud)
+    {lu=BTNLEFT;
+    rd=BTNRIGHT;
+    colrow=cols;
+    if (val2==rows)
+     {if (add==3) add=2;
+     else         add=3;}
+    else add=1;}
+  else
+    {lu=BTNCENTER;
+    rd=BTNEXIT;
+    colrow=rows;
+    add=1;}
+  if (ButtonPressed(lu))   {val-=add;ms=CurrentTick()/ctd;}
+  until (ButtonPressed(lu)==false)  {}
+  if (ButtonPressed(rd))  {val+=add;ms=CurrentTick()/ctd;}
+  until (ButtonPressed(rd)==false) {}
+  if (val<0)  {val=colrow;}
+  if (val>colrow)  {val=0;}
+  //if (val<0)  {val+=(colrow+1-lr_ud);}
+  //if (val>colrow)  {val-=(colrow+1-lr_ud);}
+  return val;
+  }
+
+
+string keyboard()
+  {
+  int i, j, x=0, y=0;
+  bool oknotpressed=true;
+  string output="",temp;
+  ms=(CurrentTick()/ctd);
+  SetLongAbort(true);
+  while (oknotpressed)
+    {
+    x=senseButtonModded(x,y,true);
+    y=senseButtonModded(y,false,false);
+    temp=display(x,y);
+    temp=SubStr(temp,0,1); //Delete Null Terminator
+    //debugOut(temp);
+    if (temp=="`")
+      {
+      oknotpressed=false;
+      if (snd) PlayTone(1000,100);
+      } //FINISHED
+    else if (temp=="~")
+      {
+      output=SubStr(output,0,StrLen(output)-1);
+      if (snd) PlayTone(3000,100);
+      } //Backspace
+    else if (temp!="")
+      {
+      output=StrCat(output,temp);
+      if (snd) PlayTone(2000,100);
+      } //Append
+    TextOut(0,LCD_LINE8,output,0);
+    Wait(100);
+    }
+  }
+  
+/*
+task main()
+  {
+  string view="";
+  view=keyboard();
+  //Wait(1000);
+  SendResponseString(MAILBOX10, view);
+  //Wait(1000);
+  }
+*/

@@ -1,8 +1,14 @@
 //Simon
+#include "+HighScore.nxc"
+#include "+Button+-.nxc"
+
 
 const int initnum=50;
-int highscore, result, fsize, handle;
+int highscore;
+//int result, fsize, handle;
 
+
+/*
 int readHighscore()
   {
   int ARead = 0;
@@ -24,6 +30,8 @@ void overwriteHighscore(int NewHighscore)
   result = Write(handle, NewHighscore);
   result = CloseFile(handle);
   }
+*/
+
 
 bool correctbutton(int b)
     {

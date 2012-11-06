@@ -1,0 +1,43 @@
+//Morse Code Reader/Decoder
+#define array1length 100
+#define array2length 50
+#define longpress    50
+#define mediumwait   100
+#define longwait     250
+#download "Morse-Splash.ric"
+#download "Morse-Splash2.ric"
+
+task main()
+  {
+  int morsecache[array1length], i, j;
+  for (i=0; ButtonPressed(BTNRIGHT)==false&&i<array1length; i++)
+    {
+    //GraphicOut(50,32,"Morse-Splash2.ric",0);
+    //GraphicOut(50,32,"FGB-Fox.ric",0);
+    //TextOut(10,10,"fox out",0);
+    //WAIT
+    for (j=0; (ButtonPressed(BTNCENTER)==false)
+           && (ButtonPressed(BTNRIGHT)==false); j++) {Wait(10);}
+    if (j<longwait) {morsecache[i]=1;} //dot
+    else            {morsecache[i]=2;} //dash
+    //PRESSED
+    if (ButtonPressed(BTNRIGHT)==false)
+      {
+      until (ButtonPressed(BTNCENTER)) {}
+      for (j=0; ButtonPressed(BTNCENTER); j++)
+        {PlayTone(2000,10); Wait(10);}
+      if (j<mediumwait)    {morsecache[i]=3;}  //short wait    same letter
+      else if (j<longwait) {morsecache[i]=4;}  //medium wait   same word
+      else                 {morsecache[i]=5;}  //long wait     space
+      }
+    }
+  for (;i<array1length;i++) {morsecache[i]=0;}
+  char output[array2length];
+  int chardone=true;
+  for (i=0; i<array1length&&morsecache[i]!=0; i++)
+    {
+    for (int j=0;morsecache[i]!=3
+
+    }
+  Wait(2000);
+  }

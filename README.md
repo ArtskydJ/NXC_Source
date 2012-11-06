@@ -23,7 +23,7 @@ Unfinished, not planning on finishing anytime soon. Large bug(s) / unfinished fr
 
 ●Acronyms allowed.
 
-●Symbols (not including the prefix) are not allowed.
+●Symbols (not including the prefix) are frowned on.
 
 
 

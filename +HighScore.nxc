@@ -1,16 +1,15 @@
 //High Score Template
-//convert into #include file sometime?
-
-int score=0, result, fsize, handle;
+#include "+TextInput.nxc"
+int fsize, handle;
 
 int readHighscore()
   {
   int ARead = 0;
-  result = OpenFileRead("High.dat", fsize, handle);
+  int result = OpenFileRead("High.dat", fsize, handle);
   if (result == LDR_SUCCESS)
     {
-    result = Read(handle, ARead);
-    result = CloseFile(handle);
+    Read(handle, ARead);
+    CloseFile(handle);
     }
   else
     {ARead = -1;}
@@ -19,21 +18,45 @@ int readHighscore()
 
 void overwriteHighscore(int NewHighscore)
   {
-  result = DeleteFile("High.dat");
-  result = CreateFile("High.dat", 10, handle);
-  result = Write(handle, NewHighscore);
-  result = CloseFile(handle);
+  DeleteFile("High.dat");
+  CreateFile("High.dat", 10, handle);
+  Write(handle, NewHighscore);
+  CloseFile(handle);
   }
 
-void endGame()
+int readHighscoreName()
+  {
+  int ARead = 0;
+  int result = OpenFileRead("High.dat", fsize, handle);
+  if (result == LDR_SUCCESS)
+    {
+    Read(handle, ARead);
+    CloseFile(handle);
+    }
+  else
+    {ARead = -1;}
+  return ARead;
+  }
+
+void overwriteHighscoreName(int NewHighscore)
+  {
+  DeleteFile("High.dat");
+  CreateFile("High.dat", 10, handle);
+  Write(handle, NewHighscore);
+  Write(handle, keyboard());
+  CloseFile(handle);
+  }
+  
+/*
+void endGame(int myscore)
   {
   if (score>readHighscore())
-    {overwriteHighscore(score);}
+    {overwriteHighscore(myscore);}
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
-  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(score),", HS: ",NumToStr( readHighscore() )),0);
+  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(myscore),", HS: ",NumToStr( readHighscore() )),0);
   Wait(1000);
   }
-/*
+  
 void deleteHighscore()
   {
   DeleteFile("high.dat");
@@ -41,7 +64,9 @@ void deleteHighscore()
 
 task main()
   {
+  score=0;
   score=Random(100);
-  endGame();
+  endGame(score);
   }
 */
+task main(){}

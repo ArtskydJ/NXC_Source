@@ -1,0 +1,250 @@
+//Fox, Goose and Beans Puzzle
+//By Joseph Dykstra
+//10-25-2012 to  1_-__-2012
+
+///////////////---PREPROCESSOR---///////////////
+#define    fox             0 //Objects
+#define    goose           1
+#define    beans           2
+#define    boat            3
+#define    left            0 //Locations
+#define    right           1
+#define    moving          2
+#define    boatSteps       20 //performance
+#define    boatSpeed       2
+#define    frameDuration   100
+#define    boatWidth       20 //sizes [drawShapes only]
+#define    riverWidth      boatWidth+(boatSteps*boatSpeed)
+#define    riverStart      (100-riverWidth)/2
+//#download "FGB-river.ric"  //Images
+//#download "FGB-boat.ric"
+//#download "FGB-farmer.ric"
+//#download "FGB-fox.ric"
+//#download "FGB-goose.ric"
+//#download "FGB-sack.ric"
+
+///////////////------ARRAYS------///////////////
+//objectWhatever(What+Where)
+const int xpos[2][3]={{8,8,8}{88,84,88}};
+const int ypos[3]={56,30,6};
+int objectStatus[4]={left,left,left,left};
+//int objectDrawPosition[3]={foxStart,gooseStart,beansStart}
+
+
+//////////////-----VARIABLES-----///////////////
+int movingX=riverStart, movingStep=0, movingObject=fox,boatStepsTaken=0;
+int i,j;
+bool movingLeft=false;
+
+
+void howto()
+  {
+  ClearScreen();
+  TextOut(0,LCD_LINE1,"A farmer owns a ",0);
+  TextOut(0,LCD_LINE2,"Fox, a Goose and",0);
+  TextOut(0,LCD_LINE3,"and Sack of     ",0);
+  TextOut(0,LCD_LINE4,"Beans. They need",0);
+  TextOut(0,LCD_LINE5,"to be brought to",0);
+  TextOut(0,LCD_LINE6,"other side of   ",0);
+  TextOut(0,LCD_LINE7,"the river. If   ",0);
+  TextOut(42,LCD_LINE8,      "..."      ,0);
+  while (!ButtonPressed(BTNCENTER)) {}
+  until (!ButtonPressed(BTNCENTER)) {}
+  ClearScreen();
+  TextOut(0,LCD_LINE1,"the Fox and     ",0);
+  TextOut(0,LCD_LINE2,"Goose are left  ",0);
+  TextOut(0,LCD_LINE3,"alone, the goose",0);
+  TextOut(0,LCD_LINE4,"will be eaten.  ",0);
+  TextOut(0,LCD_LINE5,"If the Goose and",0);
+  TextOut(0,LCD_LINE6,"sack are left   ",0);
+  TextOut(0,LCD_LINE7,"alone, the Sack ",0);
+  TextOut(42,LCD_LINE8,      "..."      ,0);
+  while (!ButtonPressed(BTNCENTER)) {}
+  until (!ButtonPressed(BTNCENTER)) {}
+  ClearScreen();
+  TextOut(0,LCD_LINE1,"of beans will be",0);
+  TextOut(0,LCD_LINE2,"eaten. The      ",0);
+  TextOut(0,LCD_LINE3,"Farmer's boat   ",0);
+  TextOut(0,LCD_LINE4,"can only hold   ",0);
+  TextOut(0,LCD_LINE5,"himself and one ",0);
+  TextOut(0,LCD_LINE6,"other object.   ",0);
+  //TextOut(0,LCD_LINE7,"",4096); //clear line
+  TextOut(45,LCD_LINE8,      "OK"       ,0);
+  while (!ButtonPressed(BTNCENTER)) {}
+  until (!ButtonPressed(BTNCENTER)) {}
+  ClearScreen();
+  }
+  
+
+void inputOutput()
+  {
+  if (objectStatus[boat]<moving) //if still, select object
+    {
+    if (ButtonPressed(BTNLEFT))  {movingObject--;}
+    until (ButtonPressed(BTNLEFT)==false)  {}
+    if (ButtonPressed(BTNRIGHT)) {movingObject++;}
+    until (ButtonPressed(BTNRIGHT)==false) {}
+    if (movingObject<0) {movingObject=2;}
+    if (movingObject>2) {movingObject=0;}
+    if (ButtonPressed(BTNCENTER)) // or allow to move
+      {
+      if (objectStatus[boat]==objectStatus[movingObject])
+        {objectStatus[movingObject]=moving;}
+      objectStatus[boat]=moving;  //NumOut(0,56,movingObject,0);
+      }
+    }
+  if (objectStatus[boat]==moving)
+    {
+    if (movingLeft)
+      {movingX-=boatSpeed;}
+    else
+      {movingX+=boatSpeed;}
+    boatStepsTaken++;
+    }
+  if (boatStepsTaken>=boatSteps)
+    {
+    objectStatus[boat]=!movingLeft;
+    objectStatus[movingObject]=!movingLeft;
+    movingLeft=!movingLeft;
+    boatStepsTaken=0;
+    }
+  }
+  
+
+void drawShapes()
+  {
+  ClearScreen();
+  for (int k=0;k<3;k++)
+    {
+  //DRAW OBJECTS
+    j=ypos[k];
+    if (objectStatus[k]==moving)  //if object is moving
+      {i=movingX+xpos[left][k];}
+    else if ((movingObject==k)&&(objectStatus[boat]==objectStatus[k]))     //if object is not moving, but in boat
+      {
+      if (objectStatus[boat]) {i=xpos[objectStatus[k]][k]-15;} //right
+      else                    {i=xpos[objectStatus[k]][k]+20;} //left
+      }
+    else
+      {
+      i=xpos[objectStatus[k]][k];   //if object is not moving, not in boat
+      }
+    if (k==fox)
+      {
+      EllipseOut(i,j,6,3,32);//BODY
+      LineOut(i-5,j-3,i-5,j-6,0);//BACK LEG
+      LineOut(i+5,j-3,i+6,j-6,0);//FRONT LEG
+      EllipseOut(i+7,j+4,3,1,32);//HEAD
+      }
+    if (k==goose)
+      {
+      EllipseOut(i,j,4,2,0); //BODY
+      CircleOut(i+4,j+2,1,0);//HEAD
+      }
+    if (k==beans)
+      {
+      CircleOut(i,j,3,32);
+      LineOut(i+0,j+4,i+0,j+4,0);//SACK TOP
+      LineOut(i-1,j+5,i+1,j+5,0);//SACK TOP
+      LineOut(i-2,j+6,i+2,j+6,0);//SACK TOP
+      }
+    }
+  //DRAW BOAT
+  RectOut(movingX,movingObject*-25+50,boatWidth,15,0);
+  //DRAW RIVER
+  RectOut(riverStart,0,riverWidth,99,0);
+
+  }
+
+
+void drawGraphics()
+  {
+  ClearScreen();
+  for (int k=0;k<3;k++)
+    {
+    j=ypos[k];
+    if (objectStatus[k]==moving)  //if object is moving
+      {i=movingX+xpos[left][k];}
+    else if ((movingObject==k)&&(objectStatus[boat]==objectStatus[k]))     //if object is not moving, but in boat
+      {
+      if (objectStatus[boat]) {i=xpos[objectStatus[k]][k]-15;} //right
+      else                    {i=xpos[objectStatus[k]][k]+20;} //left
+      }
+    else
+      {
+      i=xpos[objectStatus[k]][k];   //if object is not moving, not in boat
+      }
+    if (k==fox)
+      {
+      GraphicOut(i,j,"FGB-fox.ric",0);
+      }
+    if (k==goose)
+      {
+      GraphicOut(i,j,"FGB-goose.ric",0);
+      }
+    if (k==beans)
+      {
+      GraphicOut(i,j,"FGB-beans.ric",0);
+      }
+    }
+  GraphicOut(i,j,"FGB-boat.ric",0);
+  GraphicOut(i,j,"FGB-river.ric",0);
+  GraphicOut(i,j,"FGB-farmer.ric",0);
+  }
+
+
+void debugStreamOut()
+  {
+  string msg="";
+  msg=StrCat("fox=",NumToStr(objectStatus[fox])," goose=",NumToStr(objectStatus[goose]));
+  SendResponseString(MAILBOX10,msg);
+  Wait(60);
+  msg=StrCat("beans=",NumToStr(objectStatus[beans])," boat=",NumToStr(objectStatus[boat]));
+  SendResponseString(MAILBOX10,msg);
+  Wait(60);
+  }
+
+
+int checkGame()
+  {
+  int returngame=1;
+  if ((objectStatus[fox])&&(objectStatus[goose])&&(objectStatus[beans])&&(objectStatus[boat]))
+    {returngame=0;PlayTone(500,2000);}
+  if ((objectStatus[fox]  ==objectStatus[goose])&&(objectStatus[goose]!=objectStatus[boat])) {returngame=2;}
+  if ((objectStatus[goose]==objectStatus[beans])&&(objectStatus[goose]!=objectStatus[boat])) {returngame=3;}
+  if (returngame==0)
+    {
+    TextOut(20,LCD_LINE4," Success! ",0);
+    TextOut(20,LCD_LINE4,"You Pwned!",0);
+    Wait(1000);
+    }
+  else if (returngame==2)
+    {
+    TextOut(10,LCD_LINE4,"   Failure!   ",0);
+    TextOut(10,LCD_LINE5,"Fox ate Goose!",0);
+    Wait(1000);
+    }
+  else if (returngame==3)
+    {
+    TextOut(5,LCD_LINE4,"    Failure!    ",0);
+    TextOut(5,LCD_LINE5,"Goose ate Beans!",0);
+    Wait(1000);
+    }
+  return returngame;
+  }
+  
+  
+task main()
+  {
+  howto();
+  int game=1;
+  while (game)
+    {
+    inputOutput();
+    //drawGraphics();
+    drawShapes();
+    Wait(100);
+    //debugStreamOut();
+    game=checkGame();
+    }
+  }

@@ -1,0 +1,85 @@
+//Morse Code Reader/Decoder
+#define longpress    50
+#define mediumwait   100
+#define longwait     250
+#download "Morse-Splash.ric"
+#download "Morse-Splash2.ric"
+
+task main()
+  {
+  int i, j;
+  string rawData;
+  while (ButtonState(BTNRIGHT)==false)
+    {
+    //GraphicOut(50,32,"Morse-Splash2.ric",0);
+    //GraphicOut(50,32,"FGB-Fox.ric",0);
+    //TextOut(10,10,"fox out",0);
+    //WAIT
+    for (j=0; (ButtonPressed(BTNCENTER)==false)
+           && (ButtonPressed(BTNRIGHT)==false); j++) {Wait(10);}
+    if (j<longwait) {rawData=StrCat(rawData,"1");} //dot
+    else            {rawData=StrCat(rawData,"2");} //dash
+    //PRESSED
+    if (ButtonPressed(BTNRIGHT)==false)
+      {
+      until (ButtonPressed(BTNCENTER)) {}
+      for (j=0; ButtonPressed(BTNCENTER); j++)
+        {PlayTone(2000,100); Wait(100);}
+      if (j<mediumwait)    {rawData=StrCat(rawData,"3");}  //short wait,  same letter
+      else if (j<longwait) {rawData=StrCat(rawData,"4");}  //medium wait, same word
+      else                 {rawData=StrCat(rawData,"5");}  //long wait,   space
+      }
+    }
+  PlayTone(1000,1000);
+  rawData=StrCat(rawData,"0"); //null terminator
+  string output;
+  int temp,currentChar;
+  while (i<=StrLen(rawData))
+    {
+    temp=StrIndex(rawData,i);
+    while ((temp!=0)&&(temp<3))
+      {
+      temp=StrIndex(rawData,i);
+      currentChar=currentChar*10+temp
+      i++;
+      }
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    if (currentChar==1)    output=StrCat(output,"e");
+    
+    if (currentChar==12222)    output=StrCat(output,"1");
+    if (currentChar==11222)    output=StrCat(output,"2");
+    if (currentChar==11122)    output=StrCat(output,"3");
+    if (currentChar==11112)    output=StrCat(output,"4");
+    if (currentChar==11111)    output=StrCat(output,"5");
+    if (currentChar==21111)    output=StrCat(output,"6");
+    if (currentChar==22111)    output=StrCat(output,"7");
+    if (currentChar==22211)    output=StrCat(output,"8");
+    if (currentChar==22221)    output=StrCat(output,"9");
+    if (currentChar==22222)    output=StrCat(output,"0");
+    }
+  Wait(2000);
+  }

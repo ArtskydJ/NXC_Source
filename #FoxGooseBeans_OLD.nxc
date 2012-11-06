@@ -1,0 +1,227 @@
+//Fox, Goose, and Beans Puzzle
+#define fox     1
+#define foxx1   3
+#define foxx2   73
+#define foxy    14
+
+#define goose   2
+#define goosex1 7
+#define goosex2 77
+#define goosey  30
+
+#define sack    3
+#define sackx1  8
+#define sackx2  78
+#define sacky   52
+
+#define boatx1  30
+#define boatx2  70
+
+#download "FGB-river.ric"
+#download "FGB-boat.ric"
+#download "FGB-farmer.ric"
+#download "FGB-fox.ric"
+#download "FGB-goose.ric"
+#download "FGB-sack.ric"
+
+int foxx=foxx1, goosex=goosex1, sackx=sackx1, intransport=0, transx=0, z=0, bl, transportx=0;
+
+void howto()
+  {
+  ClearScreen();
+  TextOut(0,LCD_LINE1,"A farmer owns a ",0);
+  TextOut(0,LCD_LINE2,"Fox, a Goose and",0);
+  TextOut(0,LCD_LINE3,"and Sack of     ",0);
+  TextOut(0,LCD_LINE4,"Beans. They need",0);
+  TextOut(0,LCD_LINE5,"to be brought to",0);
+  TextOut(0,LCD_LINE6,"other side of   ",0);
+  TextOut(0,LCD_LINE7,"the river. If   ",0);
+  TextOut(42,LCD_LINE8,      "..."      ,0);
+  while (!ButtonPressed(BTNCENTER)) {}
+  until (!ButtonPressed(BTNCENTER)) {}
+  ClearScreen();
+  TextOut(0,LCD_LINE1,"the Fox and     ",0);
+  TextOut(0,LCD_LINE2,"Goose are left  ",0);
+  TextOut(0,LCD_LINE3,"alone, the goose",0);
+  TextOut(0,LCD_LINE4," will be eaten. ",0);
+  TextOut(0,LCD_LINE5,"If the Goose and",0);
+  TextOut(0,LCD_LINE6,"sack are left   ",0);
+  TextOut(0,LCD_LINE7,"alone, the Sack ",0);
+  TextOut(42,LCD_LINE8,      "..."      ,0);
+  while (!ButtonPressed(BTNCENTER)) {}
+  until (!ButtonPressed(BTNCENTER)) {}
+  ClearScreen();
+  TextOut(0,LCD_LINE1,"of beans will be",0);
+  TextOut(0,LCD_LINE2,"eaten. The      ",0);
+  TextOut(0,LCD_LINE3,"Farmer's boat   ",0);
+  TextOut(0,LCD_LINE4,"can only hold   ",0);
+  TextOut(0,LCD_LINE5,"himself and one ",0);
+  TextOut(0,LCD_LINE6,"other object.   ",0);
+  //TextOut(0,LCD_LINE7,"",4096); //clear line
+  TextOut(45,LCD_LINE8,      "OK"       ,0);
+  while (!ButtonPressed(BTNCENTER)) {}
+  until (!ButtonPressed(BTNCENTER)) {}
+  ClearScreen();
+  }
+/*
+void draw(int intrans)
+  {
+  int boaty,transx=0;
+  GraphicOut(boatx1,boaty,"FGB-river.ric",0);
+  GraphicOut((boatr*40)+transx,boaty,"FGB-boat.ric",0);
+  GraphicOut(4+boatx1+(boatr*40),boaty-12,"FGB-farmer.ric",0);
+  if (intrans==0)
+    {
+    GraphicOut(0,foxy,"FGB-fox.ric",0);
+    GraphicOut(0,goosey,"FGB-goose.ric",0);
+    GraphicOut(0,sacky,"FGB-sack.ric",0);
+    }
+  else if (intrans==fox)
+    {
+    //GraphicOut(foxx+transx,foxy,"FGB-fox.ric",0);
+    GraphicOut(0,goosey,"FGB-goose.ric",0);
+    GraphicOut(0,sacky,"FGB-sack.ric",0);
+    }
+  else if (intrans==goose)
+    {
+    GraphicOut(0,foxy,"FGB-fox.ric",0);
+    //GraphicOut(0,goosey,"FGB-goose.ric",0);
+    GraphicOut(0,sacky,"FGB-sack.ric",0);
+    }
+  else if (intrans==sack)
+    {
+    GraphicOut(0,foxy,"FGB-fox.ric",0);
+    GraphicOut(0,goosey,"FGB-goose.ric",0);
+    //GraphicOut(0,sacky,"FGB-sack.ric",0);
+    }
+  else {PlayTone(4000,10000);Wait(10000);Stop(true);}
+  }
+*/
+
+
+void dbg()
+  {
+  string msg=StrCat("transx=",NumToStr(transx)," intransport=",NumToStr(intransport));
+  SendResponseString(MAILBOX10,msg);
+  }
+
+
+void drawdebug()  //////  if intransport = 0, then boat can't cross, even when no animal by it. test...
+  {               //////  duplicate program, and start over?
+  int boaty=(intransport-1)*24;
+  ClearScreen();
+  RectOut(boatx1+transx,boaty,20,16,0); //river
+  RectOut(30,0,40,64,0); //river
+  EllipseOut(boatx1+transx+8,boaty+4,5,1,0); //farmer
+  if (intransport==0)
+    {
+    EllipseOut(foxx,foxy,16,8,32);
+    EllipseOut(goosex,goosey,8,4,0); CircleOut(goosex+8,goosey+4,2,0);
+    CircleOut(sackx,sacky,5,0);
+    }
+  else if (intransport==fox)
+    {
+    EllipseOut(foxx+transportx,foxy,16,8,32);
+    EllipseOut(goosex,goosey,8,4,0); CircleOut(goosex+8,goosey+4,2,0);
+    CircleOut(sackx,sacky,5,0);
+    }
+  else if (intransport==goose)
+    {
+    EllipseOut(foxx,foxy,16,8,32);
+    EllipseOut(goosex+transportx,goosey,8,4,0); CircleOut(goosex+transportx+8,goosey+4,2,0);
+    CircleOut(sackx,sacky,5,0);
+    }
+   else if (intransport==sack)
+    {
+    EllipseOut(foxx,foxy,16,8,32);
+    EllipseOut(goosex,goosey,8,4,0); CircleOut(goosex+8,goosey+4,2,0);
+    CircleOut(sackx+transportx,sacky,5,0);
+    }
+  else {PlayTone(4000,10000);Wait(10000);Stop(true);}
+  }
+
+
+void moveObject(bool dir)
+  {
+  if (dir)
+    {
+    if (z==fox)  {foxx+=15;}
+    if (z==goose){goosex+=15;}
+    if (z==sack) {sackx+=15;}
+    }
+  else
+    {
+    if (z==fox)  {foxx-=15;}
+    if (z==goose){goosex-=15;}
+    if (z==sack) {sackx-=15;}
+    }
+  }
+
+
+int chooseObject() //boat left
+  {
+  bool override=0;
+  until (ButtonState(BTNCENTER)==false) {}
+  while (ButtonState(BTNCENTER)==false)
+    {
+    if (ButtonState(BTNLEFT))  {z++;}
+    until (ButtonState(BTNLEFT)==false)  {}
+    if (ButtonState(BTNRIGHT)) {z--;}
+    until (ButtonState(BTNRIGHT)==false) {}
+    if (z<1) {z=3;}
+    if (z>3) {z=1;}
+    Wait(100);
+    intransport=z;
+    drawdebug(); //draw();
+    //NumOut(0,0,z,0);
+    if (z==fox)
+      {if (bl==foxx>50)  {override=1;}}
+    if (z==goose)
+      {if (bl==goosex>50){override=1;}}
+    if (z==sack)
+      {if (bl==sackx>50) {override=1;}}
+    }
+  if (override) intransport=0;
+  }
+
+
+task main()
+  {
+  int choosingchar, move;
+  bool alive=true, won=false;
+  drawdebug(); //draw();
+  //howto();
+  for (int loop1=1; alive&&won==false; loop1++) //start with odd number
+    {
+    bl=loop1%2;
+    chooseObject();
+    dbg();
+    moveObject(bl);
+    for (int loop2=0; loop2<10; loop2++)
+      {
+      drawdebug(); //draw();
+      Wait(200);
+      if (bl) {transx+=2;}
+      else    {transx-=2;}
+      transportx=transx;
+      dbg();
+      }
+    moveObject(bl);
+    transportx=0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

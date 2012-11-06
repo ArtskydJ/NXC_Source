@@ -1,0 +1,2419 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002inputOutput	6	1	0	4	2
+1	__D0inputOutput	6	1	4	4	76
+2	__DU0inputOutput	5	1	8	4	6
+3	__D0howto	6	1	12	4	123
+4	__signed_stack_002redraw	6	1	16	4	50
+5	__D0checkGame	6	1	20	4	67
+6	__signed_stack_001redraw	6	1	24	4	78
+7	__D0main	6	1	28	4	4
+8	__signed_stack_001howto	6	1	32	4	58
+9	__signed_stack_002howto	6	1	36	4	46
+10	__signed_stack_001inputOutput	6	1	40	4	40
+11	__signed_stack_003checkGame	6	1	44	4	2
+12	__D0redraw	6	1	48	4	116
+13	__signed_stack_001checkGame	6	1	52	4	44
+14	__signed_stack_002checkGame	6	1	56	4	22
+15	__SPTArgsMutex	9	0	60	4	2
+16	__PointOutMutex	9	0	64	4	10
+17	__Wait_7qG2_ms_7qG2_000_inline_checkGame	5	1	68	4	6
+18	__TextOutMutex	9	0	72	4	58
+19	__RBtnMutex	9	0	76	4	22
+20	__signed_stack_003redraw	6	1	80	4	36
+21	__signed_stack_004redraw	6	1	84	4	30
+22	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	88	4	2
+23	__checkGame_7qG2_returngame_7qG2_000	4	1	92	2	8
+24	__main_7qG2_game_7qG2_000	4	1	94	2	3
+25	__redraw_7qG2_k_7qG2_001	4	1	96	2	18
+26	movingObject	4	1	98	2	13
+27	movingX	4	0	100	2	6
+28	boatStepsTaken	4	1	102	2	4
+29	j	4	1	104	2	16
+30	i	4	1	106	2	19
+31	__constVal200	4	0	108	2	10
+32	__redraw_return	1	1	110	1	3
+33	__constVal6	2	0	111	1	1
+34	__inputOutput_return	1	1	112	1	3
+35	__howto_return	1	1	113	1	3
+36	movingLeft	1	1	114	1	8
+37	____initialize_global_data_return	1	1	115	1	3
+38	__constVal0	2	1	116	1	15
+39	__constVal56	2	0	117	1	1
+40	__checkGame_return	1	1	118	1	4
+41	__constValNeg25	2	0	119	1	1
+42	__constVal30	2	0	120	1	1
+43	__constVal1	2	0	121	1	9
+44	__PointOutArgs	8	0	3	12	20
+45	__PointOutArgs.Result	2	1	124	1	20
+46	__PointOutArgs.Location	8	0	2	4	20
+47	__PointOutArgs.Location.X	4	1	128	2	20
+48	__PointOutArgs.Location.Y	4	1	130	2	20
+49	__PointOutArgs.Options	5	1	132	4	20
+50	__TextOutArgs	8	0	4	16	174
+51	__TextOutArgs.Result	2	1	136	1	174
+52	__TextOutArgs.Location	8	0	2	4	174
+53	__TextOutArgs.Location.X	4	1	140	2	174
+54	__TextOutArgs.Location.Y	4	1	142	2	174
+55	__TextOutArgs.Text	7	0	144	4	174
+56	__TextOutArgs.Text.Text_type	1	0	0	1	0
+57	__TextOutArgs.Options	5	1	148	4	174
+58	__EllipseOutArgs	8	0	5	16	19
+59	__EllipseOutArgs.Result	2	1	152	1	19
+60	__EllipseOutArgs.Center	8	0	2	4	19
+61	__EllipseOutArgs.Center.X	4	1	156	2	19
+62	__EllipseOutArgs.Center.Y	4	1	158	2	19
+63	__EllipseOutArgs.SizeX	1	1	160	1	19
+64	__EllipseOutArgs.SizeY	1	1	161	1	19
+65	__EllipseOutArgs.Options	5	1	164	4	19
+66	__CircleOutArgs	8	0	4	16	11
+67	__CircleOutArgs.Result	2	1	168	1	11
+68	__CircleOutArgs.Center	8	0	2	4	11
+69	__CircleOutArgs.Center.X	4	1	172	2	11
+70	__CircleOutArgs.Center.Y	4	1	174	2	11
+71	__CircleOutArgs.Size	1	1	176	1	11
+72	__CircleOutArgs.Options	5	1	180	4	11
+73	__SPTArgs	8	0	5	8	6
+74	__SPTArgs.Result	2	1	184	1	6
+75	__SPTArgs.Frequency	3	1	186	2	6
+76	__SPTArgs.Duration	3	1	188	2	6
+77	__SPTArgs.Loop	1	1	190	1	6
+78	__SPTArgs.Volume	1	1	191	1	6
+79	__RBtnArgs	8	0	5	8	44
+80	__RBtnArgs.Result	2	1	192	1	44
+81	__RBtnArgs.Index	1	1	193	1	44
+82	__RBtnArgs.Pressed	1	1	194	1	44
+83	__RBtnArgs.Count	1	1	195	1	44
+84	__RBtnArgs.Reset	1	1	196	1	44
+85	__LineOutArgs	8	0	4	16	31
+86	__LineOutArgs.Result	2	1	200	1	31
+87	__LineOutArgs.StartLoc	8	0	2	4	31
+88	__LineOutArgs.StartLoc.X	4	1	204	2	31
+89	__LineOutArgs.StartLoc.Y	4	1	206	2	31
+90	__LineOutArgs.EndLoc	8	0	2	4	31
+91	__LineOutArgs.EndLoc.X	4	1	208	2	31
+92	__LineOutArgs.EndLoc.Y	4	1	210	2	31
+93	__LineOutArgs.Options	5	1	212	4	31
+94	__RectOutArgs	8	0	4	16	13
+95	__RectOutArgs.Result	2	1	216	1	13
+96	__RectOutArgs.Location	8	0	2	4	13
+97	__RectOutArgs.Location.X	4	1	220	2	13
+98	__RectOutArgs.Location.Y	4	1	222	2	13
+99	__RectOutArgs.Size	8	0	2	4	13
+100	__RectOutArgs.Size.Width	4	1	224	2	13
+101	__RectOutArgs.Size.Height	4	1	226	2	13
+102	__RectOutArgs.Options	5	1	228	4	13
+103	__constStr0027	7	0	232	4	1
+104	__constStr0027.__constStr0027_type	1	1	0	1	0
+105	__constStr0028	7	0	234	4	1
+106	__constStr0028.__constStr0028_type	1	1	0	1	0
+107	__constStr0030	7	0	236	4	1
+108	__constStr0030.__constStr0030_type	1	1	0	1	0
+109	__constStr0029	7	0	238	4	1
+110	__constStr0029.__constStr0029_type	1	1	0	1	0
+111	__constStr0041	7	0	240	4	1
+112	__constStr0041.__constStr0041_type	1	1	0	1	0
+113	__constStr0040	7	0	242	4	1
+114	__constStr0040.__constStr0040_type	1	1	0	1	0
+115	__constStr0043	7	0	244	4	1
+116	__constStr0043.__constStr0043_type	2	1	0	1	0
+117	__constStr0042	7	0	246	4	1
+118	__constStr0042.__constStr0042_type	2	1	0	1	0
+119	__constStr0037	7	0	248	4	1
+120	__constStr0037.__constStr0037_type	1	1	0	1	0
+121	__constStr0036	7	0	250	4	1
+122	__constStr0036.__constStr0036_type	1	1	0	1	0
+123	__constStr0039	7	0	252	4	1
+124	__constStr0039.__constStr0039_type	1	1	0	1	0
+125	__constStr0038	7	0	254	4	1
+126	__constStr0038.__constStr0038_type	1	1	0	1	0
+127	__constStr0011	7	0	256	4	1
+128	__constStr0011.__constStr0011_type	1	1	0	1	0
+129	__constStr0010	7	0	258	4	1
+130	__constStr0010.__constStr0010_type	1	1	0	1	0
+131	__constStr0009	7	0	260	4	1
+132	__constStr0009.__constStr0009_type	1	1	0	1	0
+133	__constStr0014	7	0	262	4	1
+134	__constStr0014.__constStr0014_type	1	1	0	1	0
+135	__constStr0013	7	0	264	4	1
+136	__constStr0013.__constStr0013_type	1	1	0	1	0
+137	__constStr0012	7	0	266	4	1
+138	__constStr0012.__constStr0012_type	1	1	0	1	0
+139	__ArrHelper__redraw_236_0	7	0	268	4	8
+140	__ArrHelper__redraw_236_0.__ArrHelper__redraw_236_0_type	4	0	0	2	0
+141	__strbufcheckGame	7	0	270	4	12
+142	__strbufcheckGame.__strbufcheckGame_type	1	0	0	1	0
+143	__strbufhowto	7	0	272	4	46
+144	__strbufhowto.__strbufhowto_type	1	0	0	1	0
+145	objectStatus	7	0	274	4	32
+146	objectStatus.objectStatus_type	4	0	0	2	0
+147	ypos	7	0	276	4	2
+148	ypos.ypos_type	4	0	0	2	0
+149	xpos	7	0	278	4	5
+150	xpos.xpos_type	7	0	0	4	0
+151	xpos.xpos_type.xpos_type_type	4	0	0	2	0
+152	__constStr0023	7	0	280	4	1
+153	__constStr0023.__constStr0023_type	1	1	0	1	0
+154	__constStr0022	7	0	282	4	1
+155	__constStr0022.__constStr0022_type	1	1	0	1	0
+156	__constStr0021	7	0	284	4	1
+157	__constStr0021.__constStr0021_type	1	1	0	1	0
+158	__constStr0026	7	0	286	4	1
+159	__constStr0026.__constStr0026_type	1	1	0	1	0
+160	__constStr0025	7	0	288	4	1
+161	__constStr0025.__constStr0025_type	1	1	0	1	0
+162	__constStr0024	7	0	290	4	1
+163	__constStr0024.__constStr0024_type	1	1	0	1	0
+164	__constStr0017	7	0	292	4	1
+165	__constStr0017.__constStr0017_type	1	1	0	1	0
+166	__constStr0016	7	0	294	4	2
+167	__constStr0016.__constStr0016_type	1	1	0	1	0
+168	__constStr0015	7	0	296	4	1
+169	__constStr0015.__constStr0015_type	1	1	0	1	0
+170	__constStr0020	7	0	298	4	1
+171	__constStr0020.__constStr0020_type	1	1	0	1	0
+172	__constStr0019	7	0	300	4	1
+173	__constStr0019.__constStr0019_type	1	1	0	1	0
+174	__constStr0018	7	0	302	4	1
+175	__constStr0018.__constStr0018_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	212	0	#line 212 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	213	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	212	2	#line 212 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	212	2	#line 212 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	213	2		subcall howto, __howto_return
+0	212	4	#line 212 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	213	4	#line 213 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	214	4		set __main_7qG2_game_7qG2_000, 1
+0	213	7	#line 213 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	215	7	#line 215 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	216	7		mov __D0main, __main_7qG2_game_7qG2_000
+0	216	9	#line 216 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	217	9		tst 5, __D0main, __D0main
+0	216	12	#line 216 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	217	12		brtst 4, __ASM_Label_1207, __D0main
+0	216	15	#line 216 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	217	15		subcall inputOutput, __inputOutput_return
+0	216	17	#line 216 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	217	17	#line 217 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	218	17		subcall redraw, __redraw_return
+0	217	19	#line 217 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	218	19	#line 218 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	219	19		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	218	22	#line 218 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	8721	22	#line 8721 "NXCDefs.h"
+0	8722	22		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8721	24	#line 8721 "NXCDefs.h"
+0	218	24	#line 218 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	220	24	#line 220 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	221	24		subcall checkGame, __checkGame_return
+0	220	26	#line 220 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	221	26		mov __main_7qG2_game_7qG2_000, __D0checkGame
+0	220	28	#line 220 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	220	28	#line 220 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	224	28	#line 224 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	225	28		jmp __ASM_Label_1206
+0	224	30	#line 224 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+0	225	30		exit -1, -1
+1	6848	0	#line 6848 "NXCDefs.h"
+1	6849	0	#pragma macro 6
+1	6849	0		acquire __PointOutMutex
+1	6849	1		mov __PointOutArgs.Location.X, __constVal200
+1	6849	3		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	5		mov __PointOutArgs.Options, __constVal1
+1	6849	7		syscall 14, __PointOutArgs
+1	6849	10		release __PointOutMutex
+1	6557	11	#line 6557 "NXCDefs.h"
+1	6848	11	#line 6848 "NXCDefs.h"
+1	50	11	#line 50 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	51	11	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	11		set __signed_stack_001howto, 0
+1	51	14	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	51	14	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	14		set __signed_stack_002howto, 56
+1	51	17	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	51	17	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	17		strcat __strbufhowto, __constStr0009
+1	51	21	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	21		set __D0howto, 0
+1	51	24	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	24		acquire __TextOutMutex
+1	51	25	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	25		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	51	27	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	27		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	51	29	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	29		mov __TextOutArgs.Options, __D0howto
+1	51	31	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	31		mov __TextOutArgs.Text, __strbufhowto
+1	51	33	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	33		syscall 13, __TextOutArgs
+1	51	36	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	36		mov __D0howto, __TextOutArgs.Result
+1	51	38	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	38		release __TextOutMutex
+1	51	39	#line 51 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	39	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	39		set __signed_stack_001howto, 0
+1	52	42	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	42	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	42		set __signed_stack_002howto, 48
+1	52	45	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	52	45	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	45		strcat __strbufhowto, __constStr0010
+1	52	49	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	49		set __D0howto, 0
+1	52	52	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	52		acquire __TextOutMutex
+1	52	53	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	53		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	52	55	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	55		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	52	57	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	57		mov __TextOutArgs.Options, __D0howto
+1	52	59	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	59		mov __TextOutArgs.Text, __strbufhowto
+1	52	61	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	61		syscall 13, __TextOutArgs
+1	52	64	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	64		mov __D0howto, __TextOutArgs.Result
+1	52	66	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	66		release __TextOutMutex
+1	52	67	#line 52 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	67	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	67		set __signed_stack_001howto, 0
+1	53	70	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	70	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	70		set __signed_stack_002howto, 40
+1	53	73	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	53	73	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	73		strcat __strbufhowto, __constStr0011
+1	53	77	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	77		set __D0howto, 0
+1	53	80	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	80		acquire __TextOutMutex
+1	53	81	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	81		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	53	83	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	83		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	53	85	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	85		mov __TextOutArgs.Options, __D0howto
+1	53	87	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	87		mov __TextOutArgs.Text, __strbufhowto
+1	53	89	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	89		syscall 13, __TextOutArgs
+1	53	92	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	92		mov __D0howto, __TextOutArgs.Result
+1	53	94	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	94		release __TextOutMutex
+1	53	95	#line 53 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	95	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	95		set __signed_stack_001howto, 0
+1	54	98	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	98	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	98		set __signed_stack_002howto, 32
+1	54	101	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	54	101	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	101		strcat __strbufhowto, __constStr0012
+1	54	105	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	105		set __D0howto, 0
+1	54	108	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	108		acquire __TextOutMutex
+1	54	109	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	109		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	54	111	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	111		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	54	113	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	113		mov __TextOutArgs.Options, __D0howto
+1	54	115	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	115		mov __TextOutArgs.Text, __strbufhowto
+1	54	117	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	117		syscall 13, __TextOutArgs
+1	54	120	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	120		mov __D0howto, __TextOutArgs.Result
+1	54	122	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	122		release __TextOutMutex
+1	54	123	#line 54 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	123	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	123		set __signed_stack_001howto, 0
+1	55	126	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	126	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	126		set __signed_stack_002howto, 24
+1	55	129	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	55	129	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	129		strcat __strbufhowto, __constStr0013
+1	55	133	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	133		set __D0howto, 0
+1	55	136	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	136		acquire __TextOutMutex
+1	55	137	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	137		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	55	139	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	139		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	55	141	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	141		mov __TextOutArgs.Options, __D0howto
+1	55	143	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	143		mov __TextOutArgs.Text, __strbufhowto
+1	55	145	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	145		syscall 13, __TextOutArgs
+1	55	148	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	148		mov __D0howto, __TextOutArgs.Result
+1	55	150	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	150		release __TextOutMutex
+1	55	151	#line 55 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	151	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	151		set __signed_stack_001howto, 0
+1	56	154	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	154	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	154		set __signed_stack_002howto, 16
+1	56	157	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	56	157	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	157		strcat __strbufhowto, __constStr0014
+1	56	161	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	161		set __D0howto, 0
+1	56	164	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	164		acquire __TextOutMutex
+1	56	165	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	165		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	56	167	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	167		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	56	169	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	169		mov __TextOutArgs.Options, __D0howto
+1	56	171	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	171		mov __TextOutArgs.Text, __strbufhowto
+1	56	173	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	173		syscall 13, __TextOutArgs
+1	56	176	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	176		mov __D0howto, __TextOutArgs.Result
+1	56	178	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	178		release __TextOutMutex
+1	56	179	#line 56 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	179	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	179		set __signed_stack_001howto, 0
+1	57	182	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	182	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	182		set __signed_stack_002howto, 8
+1	57	185	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	57	185	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	185		strcat __strbufhowto, __constStr0015
+1	57	189	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	189		set __D0howto, 0
+1	57	192	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	192		acquire __TextOutMutex
+1	57	193	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	193		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	57	195	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	195		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	57	197	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	197		mov __TextOutArgs.Options, __D0howto
+1	57	199	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	199		mov __TextOutArgs.Text, __strbufhowto
+1	57	201	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	201		syscall 13, __TextOutArgs
+1	57	204	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	204		mov __D0howto, __TextOutArgs.Result
+1	57	206	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	206		release __TextOutMutex
+1	57	207	#line 57 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	207	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	207		set __signed_stack_001howto, 42
+1	58	210	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	210	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	210		set __signed_stack_002howto, 0
+1	58	213	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	58	213	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	213		strcat __strbufhowto, __constStr0016
+1	58	217	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	217		set __D0howto, 0
+1	58	220	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	220		acquire __TextOutMutex
+1	58	221	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	221		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	58	223	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	223		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	58	225	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	225		mov __TextOutArgs.Options, __D0howto
+1	58	227	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	227		mov __TextOutArgs.Text, __strbufhowto
+1	58	229	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	229		syscall 13, __TextOutArgs
+1	58	232	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	232		mov __D0howto, __TextOutArgs.Result
+1	58	234	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	234		release __TextOutMutex
+1	58	235	#line 58 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	235	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	235		set __signed_stack_001howto, 3
+1	59	238	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	59	238	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	238		mov __D0howto, __constVal0
+1	59	240	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	240		acquire __RBtnMutex
+1	59	241	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	241		mov __RBtnArgs.Index, __signed_stack_001howto
+1	59	243	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	243		mov __RBtnArgs.Reset, __D0howto
+1	59	245	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	245		syscall 20, __RBtnArgs
+1	59	248	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	248		mov __D0howto, __RBtnArgs.Pressed
+1	59	250	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	250		release __RBtnMutex
+1	59	251	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	251		not __D0howto, __D0howto
+1	59	254	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	254		tst 5, __D0howto, __D0howto
+1	59	257	#line 59 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	257		brtst 4, __ASM_Label_653, __D0howto
+1	60	260	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	260		jmp __ASM_Label_652
+1	60	262	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	262	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	262		set __signed_stack_001howto, 3
+1	60	265	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	60	265	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	265		mov __D0howto, __constVal0
+1	60	267	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	267		acquire __RBtnMutex
+1	60	268	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	268		mov __RBtnArgs.Index, __signed_stack_001howto
+1	60	270	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	270		mov __RBtnArgs.Reset, __D0howto
+1	60	272	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	272		syscall 20, __RBtnArgs
+1	60	275	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	275		mov __D0howto, __RBtnArgs.Pressed
+1	60	277	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	277		release __RBtnMutex
+1	60	278	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	278		not __D0howto, __D0howto
+1	60	281	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	281		not __D0howto, __D0howto
+1	60	284	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	284		tst 5, __D0howto, __D0howto
+1	60	287	#line 60 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	61	287		brtst 4, __ASM_Label_659, __D0howto
+1	61	290	#line 61 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	62	290		jmp __ASM_Label_658
+1	61	292	#line 61 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	6848	292	#line 6848 "NXCDefs.h"
+1	6849	292	#pragma macro 6
+1	6849	292		acquire __PointOutMutex
+1	6849	293		mov __PointOutArgs.Location.X, __constVal200
+1	6849	295		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	297		mov __PointOutArgs.Options, __constVal1
+1	6849	299		syscall 14, __PointOutArgs
+1	6849	302		release __PointOutMutex
+1	6895	303	#line 6895 "NXCDefs.h"
+1	6848	303	#line 6848 "NXCDefs.h"
+1	61	303	#line 61 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	62	303	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	303		set __signed_stack_001howto, 0
+1	62	306	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	62	306	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	306		set __signed_stack_002howto, 56
+1	62	309	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	62	309	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	309		strcat __strbufhowto, __constStr0017
+1	62	313	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	313		set __D0howto, 0
+1	62	316	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	316		acquire __TextOutMutex
+1	62	317	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	317		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	62	319	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	319		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	62	321	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	321		mov __TextOutArgs.Options, __D0howto
+1	62	323	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	323		mov __TextOutArgs.Text, __strbufhowto
+1	62	325	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	325		syscall 13, __TextOutArgs
+1	62	328	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	328		mov __D0howto, __TextOutArgs.Result
+1	62	330	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	330		release __TextOutMutex
+1	62	331	#line 62 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	331	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	331		set __signed_stack_001howto, 0
+1	63	334	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	334	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	334		set __signed_stack_002howto, 48
+1	63	337	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	63	337	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	337		strcat __strbufhowto, __constStr0018
+1	63	341	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	341		set __D0howto, 0
+1	63	344	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	344		acquire __TextOutMutex
+1	63	345	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	345		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	63	347	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	347		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	63	349	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	349		mov __TextOutArgs.Options, __D0howto
+1	63	351	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	351		mov __TextOutArgs.Text, __strbufhowto
+1	63	353	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	353		syscall 13, __TextOutArgs
+1	63	356	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	356		mov __D0howto, __TextOutArgs.Result
+1	63	358	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	358		release __TextOutMutex
+1	63	359	#line 63 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	359	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	359		set __signed_stack_001howto, 0
+1	64	362	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	362	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	362		set __signed_stack_002howto, 40
+1	64	365	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	64	365	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	365		strcat __strbufhowto, __constStr0019
+1	64	369	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	369		set __D0howto, 0
+1	64	372	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	372		acquire __TextOutMutex
+1	64	373	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	373		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	64	375	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	375		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	64	377	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	377		mov __TextOutArgs.Options, __D0howto
+1	64	379	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	379		mov __TextOutArgs.Text, __strbufhowto
+1	64	381	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	381		syscall 13, __TextOutArgs
+1	64	384	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	384		mov __D0howto, __TextOutArgs.Result
+1	64	386	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	386		release __TextOutMutex
+1	64	387	#line 64 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	387	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	387		set __signed_stack_001howto, 0
+1	65	390	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	390	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	390		set __signed_stack_002howto, 32
+1	65	393	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	65	393	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	393		strcat __strbufhowto, __constStr0020
+1	65	397	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	397		set __D0howto, 0
+1	65	400	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	400		acquire __TextOutMutex
+1	65	401	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	401		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	65	403	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	403		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	65	405	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	405		mov __TextOutArgs.Options, __D0howto
+1	65	407	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	407		mov __TextOutArgs.Text, __strbufhowto
+1	65	409	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	409		syscall 13, __TextOutArgs
+1	65	412	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	412		mov __D0howto, __TextOutArgs.Result
+1	65	414	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	414		release __TextOutMutex
+1	65	415	#line 65 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	415	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	415		set __signed_stack_001howto, 0
+1	66	418	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	418	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	418		set __signed_stack_002howto, 24
+1	66	421	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	66	421	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	421		strcat __strbufhowto, __constStr0021
+1	66	425	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	425		set __D0howto, 0
+1	66	428	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	428		acquire __TextOutMutex
+1	66	429	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	429		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	66	431	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	431		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	66	433	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	433		mov __TextOutArgs.Options, __D0howto
+1	66	435	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	435		mov __TextOutArgs.Text, __strbufhowto
+1	66	437	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	437		syscall 13, __TextOutArgs
+1	66	440	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	440		mov __D0howto, __TextOutArgs.Result
+1	66	442	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	442		release __TextOutMutex
+1	66	443	#line 66 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	443	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	443		set __signed_stack_001howto, 0
+1	67	446	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	446	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	446		set __signed_stack_002howto, 16
+1	67	449	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	67	449	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	449		strcat __strbufhowto, __constStr0022
+1	67	453	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	453		set __D0howto, 0
+1	67	456	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	456		acquire __TextOutMutex
+1	67	457	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	457		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	67	459	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	459		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	67	461	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	461		mov __TextOutArgs.Options, __D0howto
+1	67	463	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	463		mov __TextOutArgs.Text, __strbufhowto
+1	67	465	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	465		syscall 13, __TextOutArgs
+1	67	468	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	468		mov __D0howto, __TextOutArgs.Result
+1	67	470	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	470		release __TextOutMutex
+1	67	471	#line 67 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	471	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	471		set __signed_stack_001howto, 0
+1	68	474	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	474	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	474		set __signed_stack_002howto, 8
+1	68	477	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	68	477	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	477		strcat __strbufhowto, __constStr0023
+1	68	481	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	481		set __D0howto, 0
+1	68	484	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	484		acquire __TextOutMutex
+1	68	485	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	485		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	68	487	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	487		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	68	489	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	489		mov __TextOutArgs.Options, __D0howto
+1	68	491	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	491		mov __TextOutArgs.Text, __strbufhowto
+1	68	493	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	493		syscall 13, __TextOutArgs
+1	68	496	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	496		mov __D0howto, __TextOutArgs.Result
+1	68	498	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	498		release __TextOutMutex
+1	68	499	#line 68 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	499	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	499		set __signed_stack_001howto, 42
+1	69	502	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	502	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	502		set __signed_stack_002howto, 0
+1	69	505	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	69	505	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	505		strcat __strbufhowto, __constStr0016
+1	69	509	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	509		set __D0howto, 0
+1	69	512	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	512		acquire __TextOutMutex
+1	69	513	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	513		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	69	515	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	515		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	69	517	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	517		mov __TextOutArgs.Options, __D0howto
+1	69	519	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	519		mov __TextOutArgs.Text, __strbufhowto
+1	69	521	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	521		syscall 13, __TextOutArgs
+1	69	524	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	524		mov __D0howto, __TextOutArgs.Result
+1	69	526	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	526		release __TextOutMutex
+1	69	527	#line 69 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	527	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	527		set __signed_stack_001howto, 3
+1	70	530	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	70	530	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	530		mov __D0howto, __constVal0
+1	70	532	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	532		acquire __RBtnMutex
+1	70	533	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	533		mov __RBtnArgs.Index, __signed_stack_001howto
+1	70	535	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	535		mov __RBtnArgs.Reset, __D0howto
+1	70	537	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	537		syscall 20, __RBtnArgs
+1	70	540	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	540		mov __D0howto, __RBtnArgs.Pressed
+1	70	542	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	542		release __RBtnMutex
+1	70	543	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	543		not __D0howto, __D0howto
+1	70	546	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	546		tst 5, __D0howto, __D0howto
+1	70	549	#line 70 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	549		brtst 4, __ASM_Label_715, __D0howto
+1	71	552	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	552		jmp __ASM_Label_714
+1	71	554	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	554	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	554		set __signed_stack_001howto, 3
+1	71	557	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	71	557	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	557		mov __D0howto, __constVal0
+1	71	559	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	559		acquire __RBtnMutex
+1	71	560	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	560		mov __RBtnArgs.Index, __signed_stack_001howto
+1	71	562	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	562		mov __RBtnArgs.Reset, __D0howto
+1	71	564	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	564		syscall 20, __RBtnArgs
+1	71	567	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	567		mov __D0howto, __RBtnArgs.Pressed
+1	71	569	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	569		release __RBtnMutex
+1	71	570	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	570		not __D0howto, __D0howto
+1	71	573	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	573		not __D0howto, __D0howto
+1	71	576	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	576		tst 5, __D0howto, __D0howto
+1	71	579	#line 71 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	72	579		brtst 4, __ASM_Label_721, __D0howto
+1	72	582	#line 72 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	73	582		jmp __ASM_Label_720
+1	72	584	#line 72 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	6848	584	#line 6848 "NXCDefs.h"
+1	6849	584	#pragma macro 6
+1	6849	584		acquire __PointOutMutex
+1	6849	585		mov __PointOutArgs.Location.X, __constVal200
+1	6849	587		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	589		mov __PointOutArgs.Options, __constVal1
+1	6849	591		syscall 14, __PointOutArgs
+1	6849	594		release __PointOutMutex
+1	7233	595	#line 7233 "NXCDefs.h"
+1	6848	595	#line 6848 "NXCDefs.h"
+1	72	595	#line 72 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	73	595	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	595		set __signed_stack_001howto, 0
+1	73	598	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	73	598	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	598		set __signed_stack_002howto, 56
+1	73	601	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	73	601	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	601		strcat __strbufhowto, __constStr0024
+1	73	605	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	605		set __D0howto, 0
+1	73	608	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	608		acquire __TextOutMutex
+1	73	609	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	609		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	73	611	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	611		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	73	613	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	613		mov __TextOutArgs.Options, __D0howto
+1	73	615	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	615		mov __TextOutArgs.Text, __strbufhowto
+1	73	617	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	617		syscall 13, __TextOutArgs
+1	73	620	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	620		mov __D0howto, __TextOutArgs.Result
+1	73	622	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	622		release __TextOutMutex
+1	73	623	#line 73 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	623	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	623		set __signed_stack_001howto, 0
+1	74	626	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	626	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	626		set __signed_stack_002howto, 48
+1	74	629	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	74	629	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	629		strcat __strbufhowto, __constStr0025
+1	74	633	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	633		set __D0howto, 0
+1	74	636	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	636		acquire __TextOutMutex
+1	74	637	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	637		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	74	639	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	639		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	74	641	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	641		mov __TextOutArgs.Options, __D0howto
+1	74	643	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	643		mov __TextOutArgs.Text, __strbufhowto
+1	74	645	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	645		syscall 13, __TextOutArgs
+1	74	648	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	648		mov __D0howto, __TextOutArgs.Result
+1	74	650	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	650		release __TextOutMutex
+1	74	651	#line 74 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	651	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	651		set __signed_stack_001howto, 0
+1	75	654	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	654	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	654		set __signed_stack_002howto, 40
+1	75	657	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	75	657	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	657		strcat __strbufhowto, __constStr0026
+1	75	661	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	661		set __D0howto, 0
+1	75	664	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	664		acquire __TextOutMutex
+1	75	665	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	665		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	75	667	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	667		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	75	669	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	669		mov __TextOutArgs.Options, __D0howto
+1	75	671	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	671		mov __TextOutArgs.Text, __strbufhowto
+1	75	673	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	673		syscall 13, __TextOutArgs
+1	75	676	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	676		mov __D0howto, __TextOutArgs.Result
+1	75	678	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	678		release __TextOutMutex
+1	75	679	#line 75 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	679	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	679		set __signed_stack_001howto, 0
+1	76	682	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	682	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	682		set __signed_stack_002howto, 32
+1	76	685	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	76	685	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	685		strcat __strbufhowto, __constStr0027
+1	76	689	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	689		set __D0howto, 0
+1	76	692	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	692		acquire __TextOutMutex
+1	76	693	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	693		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	76	695	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	695		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	76	697	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	697		mov __TextOutArgs.Options, __D0howto
+1	76	699	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	699		mov __TextOutArgs.Text, __strbufhowto
+1	76	701	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	701		syscall 13, __TextOutArgs
+1	76	704	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	704		mov __D0howto, __TextOutArgs.Result
+1	76	706	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	706		release __TextOutMutex
+1	76	707	#line 76 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	707	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	707		set __signed_stack_001howto, 0
+1	77	710	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	710	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	710		set __signed_stack_002howto, 24
+1	77	713	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	77	713	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	713		strcat __strbufhowto, __constStr0028
+1	77	717	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	717		set __D0howto, 0
+1	77	720	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	720		acquire __TextOutMutex
+1	77	721	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	721		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	77	723	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	723		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	77	725	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	725		mov __TextOutArgs.Options, __D0howto
+1	77	727	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	727		mov __TextOutArgs.Text, __strbufhowto
+1	77	729	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	729		syscall 13, __TextOutArgs
+1	77	732	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	732		mov __D0howto, __TextOutArgs.Result
+1	77	734	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	734		release __TextOutMutex
+1	77	735	#line 77 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	735	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	735		set __signed_stack_001howto, 0
+1	78	738	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	738	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	738		set __signed_stack_002howto, 16
+1	78	741	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	78	741	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	741		strcat __strbufhowto, __constStr0029
+1	78	745	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	745		set __D0howto, 0
+1	78	748	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	748		acquire __TextOutMutex
+1	78	749	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	749		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	78	751	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	751		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	78	753	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	753		mov __TextOutArgs.Options, __D0howto
+1	78	755	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	755		mov __TextOutArgs.Text, __strbufhowto
+1	78	757	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	757		syscall 13, __TextOutArgs
+1	78	760	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	760		mov __D0howto, __TextOutArgs.Result
+1	78	762	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	79	762		release __TextOutMutex
+1	78	763	#line 78 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	80	763	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	763		set __signed_stack_001howto, 45
+1	80	766	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	80	766	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	766		set __signed_stack_002howto, 0
+1	80	769	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	80	769	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	769		strcat __strbufhowto, __constStr0030
+1	80	773	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	773		set __D0howto, 0
+1	80	776	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	776		acquire __TextOutMutex
+1	80	777	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	777		mov __TextOutArgs.Location.X, __signed_stack_001howto
+1	80	779	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	779		mov __TextOutArgs.Location.Y, __signed_stack_002howto
+1	80	781	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	781		mov __TextOutArgs.Options, __D0howto
+1	80	783	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	783		mov __TextOutArgs.Text, __strbufhowto
+1	80	785	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	785		syscall 13, __TextOutArgs
+1	80	788	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	788		mov __D0howto, __TextOutArgs.Result
+1	80	790	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	790		release __TextOutMutex
+1	80	791	#line 80 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	791	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	791		set __signed_stack_001howto, 3
+1	81	794	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	81	794	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	794		mov __D0howto, __constVal0
+1	81	796	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	796		acquire __RBtnMutex
+1	81	797	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	797		mov __RBtnArgs.Index, __signed_stack_001howto
+1	81	799	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	799		mov __RBtnArgs.Reset, __D0howto
+1	81	801	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	801		syscall 20, __RBtnArgs
+1	81	804	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	804		mov __D0howto, __RBtnArgs.Pressed
+1	81	806	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	806		release __RBtnMutex
+1	81	807	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	807		not __D0howto, __D0howto
+1	81	810	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	810		tst 5, __D0howto, __D0howto
+1	81	813	#line 81 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	813		brtst 4, __ASM_Label_771, __D0howto
+1	82	816	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	816		jmp __ASM_Label_770
+1	82	818	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	818	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	818		set __signed_stack_001howto, 3
+1	82	821	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	82	821	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	821		mov __D0howto, __constVal0
+1	82	823	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	823		acquire __RBtnMutex
+1	82	824	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	824		mov __RBtnArgs.Index, __signed_stack_001howto
+1	82	826	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	826		mov __RBtnArgs.Reset, __D0howto
+1	82	828	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	828		syscall 20, __RBtnArgs
+1	82	831	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	831		mov __D0howto, __RBtnArgs.Pressed
+1	82	833	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	833		release __RBtnMutex
+1	82	834	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	834		not __D0howto, __D0howto
+1	82	837	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	837		not __D0howto, __D0howto
+1	82	840	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	840		tst 5, __D0howto, __D0howto
+1	82	843	#line 82 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	83	843		brtst 4, __ASM_Label_777, __D0howto
+1	83	846	#line 83 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	84	846		jmp __ASM_Label_776
+1	83	848	#line 83 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	6848	848	#line 6848 "NXCDefs.h"
+1	6849	848	#pragma macro 6
+1	6849	848		acquire __PointOutMutex
+1	6849	849		mov __PointOutArgs.Location.X, __constVal200
+1	6849	851		mov __PointOutArgs.Location.Y, __constVal200
+1	6849	853		mov __PointOutArgs.Options, __constVal1
+1	6849	855		syscall 14, __PointOutArgs
+1	6849	858		release __PointOutMutex
+1	7538	859	#line 7538 "NXCDefs.h"
+1	6848	859	#line 6848 "NXCDefs.h"
+1	83	859	#line 83 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	87	859	#line 87 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+1	88	859		subret __howto_return
+2	89	0	#line 89 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	90	0		set __signed_stack_001inputOutput, 3
+2	89	3	#line 89 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	89	3	#line 89 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	90	3		index __signed_stack_001inputOutput, objectStatus, __signed_stack_001inputOutput
+2	89	7	#line 89 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	89	7	#line 89 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	90	7	#line 90 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	91	7		set __D0inputOutput, 2
+2	90	10	#line 90 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	91	10		cmp 0, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	91	14	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	14		brtst 4, __ASM_Label_788, __D0inputOutput
+2	91	17	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	17		set __signed_stack_001inputOutput, 2
+2	91	20	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	91	20	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	20		mov __D0inputOutput, __constVal0
+2	91	22	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	22		acquire __RBtnMutex
+2	91	23	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	23		mov __RBtnArgs.Index, __signed_stack_001inputOutput
+2	91	25	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	25		mov __RBtnArgs.Reset, __D0inputOutput
+2	91	27	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	27		syscall 20, __RBtnArgs
+2	91	30	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	30		mov __D0inputOutput, __RBtnArgs.Pressed
+2	91	32	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	32		release __RBtnMutex
+2	91	33	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	33		tst 5, __D0inputOutput, __D0inputOutput
+2	91	36	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	36		brtst 4, __ASM_Label_793, __D0inputOutput
+2	91	39	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	39		sub movingObject, movingObject, __constVal1
+2	91	43	#line 91 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	43	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	43	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	43		set __signed_stack_001inputOutput, 2
+2	92	46	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	92	46	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	46		mov __D0inputOutput, __constVal0
+2	92	48	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	48		acquire __RBtnMutex
+2	92	49	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	49		mov __RBtnArgs.Index, __signed_stack_001inputOutput
+2	92	51	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	51		mov __RBtnArgs.Reset, __D0inputOutput
+2	92	53	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	53		syscall 20, __RBtnArgs
+2	92	56	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	56		mov __D0inputOutput, __RBtnArgs.Pressed
+2	92	58	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	58		release __RBtnMutex
+2	92	59	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	59		mov __signed_stack_001inputOutput, __D0inputOutput
+2	92	61	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	61		set __D0inputOutput, 0
+2	92	64	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	64		cmp 4, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	92	68	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	68		not __D0inputOutput, __D0inputOutput
+2	92	71	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	71		tst 5, __D0inputOutput, __D0inputOutput
+2	92	74	#line 92 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	74		brtst 4, __ASM_Label_795, __D0inputOutput
+2	93	77	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	77		jmp __ASM_Label_794
+2	93	79	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	79	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	79		set __signed_stack_001inputOutput, 1
+2	93	82	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	93	82	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	82		mov __D0inputOutput, __constVal0
+2	93	84	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	84		acquire __RBtnMutex
+2	93	85	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	85		mov __RBtnArgs.Index, __signed_stack_001inputOutput
+2	93	87	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	87		mov __RBtnArgs.Reset, __D0inputOutput
+2	93	89	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	89		syscall 20, __RBtnArgs
+2	93	92	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	92		mov __D0inputOutput, __RBtnArgs.Pressed
+2	93	94	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	94		release __RBtnMutex
+2	93	95	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	95		tst 5, __D0inputOutput, __D0inputOutput
+2	93	98	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	98		brtst 4, __ASM_Label_806, __D0inputOutput
+2	93	101	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	101		add movingObject, movingObject, __constVal1
+2	93	105	#line 93 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	105	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	105	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	105		set __signed_stack_001inputOutput, 1
+2	94	108	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	94	108	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	108		mov __D0inputOutput, __constVal0
+2	94	110	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	110		acquire __RBtnMutex
+2	94	111	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	111		mov __RBtnArgs.Index, __signed_stack_001inputOutput
+2	94	113	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	113		mov __RBtnArgs.Reset, __D0inputOutput
+2	94	115	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	115		syscall 20, __RBtnArgs
+2	94	118	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	118		mov __D0inputOutput, __RBtnArgs.Pressed
+2	94	120	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	120		release __RBtnMutex
+2	94	121	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	121		mov __signed_stack_001inputOutput, __D0inputOutput
+2	94	123	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	123		set __D0inputOutput, 0
+2	94	126	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	126		cmp 4, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	94	130	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	130		not __D0inputOutput, __D0inputOutput
+2	94	133	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	133		tst 5, __D0inputOutput, __D0inputOutput
+2	94	136	#line 94 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	136		brtst 4, __ASM_Label_808, __D0inputOutput
+2	95	139	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	139		jmp __ASM_Label_807
+2	95	141	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	141	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	141		mov __signed_stack_001inputOutput, movingObject
+2	95	143	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	143	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	143		set __D0inputOutput, 0
+2	95	146	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	146		cmp 0, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	95	150	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	150		brtst 4, __ASM_Label_817, __D0inputOutput
+2	95	153	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	153		set movingObject, 2
+2	95	156	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	95	156	#line 95 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	156	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	156	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	156		mov __signed_stack_001inputOutput, movingObject
+2	96	158	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	158	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	158		set __D0inputOutput, 2
+2	96	161	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	161		cmp 1, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	96	165	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	165		brtst 4, __ASM_Label_822, __D0inputOutput
+2	96	168	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	168		set movingObject, 0
+2	96	171	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	96	171	#line 96 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	171	#line 97 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	171	#line 97 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	98	171		set __signed_stack_001inputOutput, 3
+2	97	174	#line 97 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	97	174	#line 97 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	98	174		mov __D0inputOutput, __constVal0
+2	98	176	#line 98 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	176		acquire __RBtnMutex
+2	98	177	#line 98 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	177		mov __RBtnArgs.Index, __signed_stack_001inputOutput
+2	98	179	#line 98 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	179		mov __RBtnArgs.Reset, __D0inputOutput
+2	98	181	#line 98 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	181		syscall 20, __RBtnArgs
+2	98	184	#line 98 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	184		mov __D0inputOutput, __RBtnArgs.Pressed
+2	98	186	#line 98 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	186		release __RBtnMutex
+2	99	187	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	187		tst 5, __D0inputOutput, __D0inputOutput
+2	99	190	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	190		brtst 4, __ASM_Label_829, __D0inputOutput
+2	99	193	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	193		set __signed_stack_001inputOutput, 3
+2	99	196	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	196	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	196		index __signed_stack_001inputOutput, objectStatus, __signed_stack_001inputOutput
+2	99	200	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	200	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	200	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	200		mov __signed_stack_002inputOutput, movingObject
+2	99	202	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	99	202	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	202		index __D0inputOutput, objectStatus, __signed_stack_002inputOutput
+2	99	206	#line 99 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	206	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	206		cmp 4, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	100	210	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	210		brtst 4, __ASM_Label_836, __D0inputOutput
+2	100	213	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	213		mov __signed_stack_001inputOutput, movingObject
+2	100	215	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	100	215	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	215		set __D0inputOutput, 2
+2	100	218	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	218		replace objectStatus, objectStatus, __signed_stack_001inputOutput, __D0inputOutput
+2	100	223	#line 100 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	223	#line 101 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	223	#line 101 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	102	223		set __signed_stack_001inputOutput, 3
+2	101	226	#line 101 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	101	226	#line 101 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	102	226		set __D0inputOutput, 2
+2	101	229	#line 101 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	102	229		replace objectStatus, objectStatus, __signed_stack_001inputOutput, __D0inputOutput
+2	101	234	#line 101 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	104	234	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	104	234	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	104	234	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	105	234		set __signed_stack_001inputOutput, 3
+2	104	237	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	104	237	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	105	237		index __signed_stack_001inputOutput, objectStatus, __signed_stack_001inputOutput
+2	104	241	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	104	241	#line 104 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	105	241	#line 105 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	106	241		set __D0inputOutput, 2
+2	105	244	#line 105 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	106	244		cmp 4, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	106	248	#line 106 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	107	248		brtst 4, __ASM_Label_849, __D0inputOutput
+2	107	251	#line 107 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	108	251		mov __DU0inputOutput, movingLeft
+2	107	253	#line 107 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	108	253		tst 5, __D0inputOutput, __DU0inputOutput
+2	107	256	#line 107 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	108	256		brtst 4, __ASM_Label_852, __D0inputOutput
+2	107	259	#line 107 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	108	259		set __D0inputOutput, 2
+2	107	262	#line 107 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	108	262		sub movingX, movingX, __D0inputOutput
+2	107	266	#line 107 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	109	266	#line 109 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	110	266		jmp __ASM_Label_855
+2	109	268	#line 109 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	110	268		set __D0inputOutput, 2
+2	109	271	#line 109 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	110	271		add movingX, movingX, __D0inputOutput
+2	109	275	#line 109 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	110	275	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	110	275	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	111	275		add boatStepsTaken, boatStepsTaken, __constVal1
+2	110	279	#line 110 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	112	279	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	112	279	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	113	279		mov __signed_stack_001inputOutput, boatStepsTaken
+2	112	281	#line 112 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	113	281	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	114	281		set __D0inputOutput, 20
+2	113	284	#line 113 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	114	284		cmp 3, __D0inputOutput, __signed_stack_001inputOutput, __D0inputOutput
+2	114	288	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	288		brtst 4, __ASM_Label_860, __D0inputOutput
+2	114	291	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	291		set __signed_stack_001inputOutput, 3
+2	114	294	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	114	294	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	114	294	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	294		not __DU0inputOutput, movingLeft
+2	114	297	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	297		replace objectStatus, objectStatus, __signed_stack_001inputOutput, __DU0inputOutput
+2	114	302	#line 114 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	302	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	116	302		mov __signed_stack_001inputOutput, movingObject
+2	115	304	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	304	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	115	304	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	116	304		not __DU0inputOutput, movingLeft
+2	115	307	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	116	307		replace objectStatus, objectStatus, __signed_stack_001inputOutput, __DU0inputOutput
+2	115	312	#line 115 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	116	312	#line 116 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	116	312	#line 116 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	117	312		not movingLeft, movingLeft
+2	116	315	#line 116 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	116	315	#line 116 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	117	315	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	118	315		set boatStepsTaken, 0
+2	117	318	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	117	318	#line 117 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	122	318	#line 122 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	122	318	#line 122 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+2	123	318		subret __inputOutput_return
+3	6848	0	#line 6848 "NXCDefs.h"
+3	6849	0	#pragma macro 6
+3	6849	0		acquire __PointOutMutex
+3	6849	1		mov __PointOutArgs.Location.X, __constVal200
+3	6849	3		mov __PointOutArgs.Location.Y, __constVal200
+3	6849	5		mov __PointOutArgs.Options, __constVal1
+3	6849	7		syscall 14, __PointOutArgs
+3	6849	10		release __PointOutMutex
+3	7972	11	#line 7972 "NXCDefs.h"
+3	6848	11	#line 6848 "NXCDefs.h"
+3	124	11	#line 124 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	125	11	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	126	11		set __redraw_7qG2_k_7qG2_001, 0
+3	125	14	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	125	14	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	126	14		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	125	16	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	125	16	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	126	16		set __D0redraw, 3
+3	125	19	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	126	19		cmp 0, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	125	23	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	126	23		brtst 4, __ASM_Label_874, __D0redraw
+3	125	26	#line 125 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	126	26		jmp __ASM_Label_875
+3	126	28	#line 126 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	127	28		add __redraw_7qG2_k_7qG2_001, __redraw_7qG2_k_7qG2_001, __constVal1
+3	128	32	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	129	32		jmp __ASM_Label_873
+3	128	34	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	129	34		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	128	36	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	128	36	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	129	36		index j, ypos, __signed_stack_001redraw
+3	128	40	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	128	40	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	128	40	#line 128 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	129	40	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	40		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	129	42	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	129	42	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	42		index __signed_stack_001redraw, objectStatus, __signed_stack_001redraw
+3	129	46	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	129	46	#line 129 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	46	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	46		set __D0redraw, 2
+3	130	49	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	49		cmp 4, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	130	53	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	53		brtst 4, __ASM_Label_889, __D0redraw
+3	130	56	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	56		mov __signed_stack_001redraw, movingX
+3	130	58	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	58	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	58		set __signed_stack_002redraw, 0
+3	130	61	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	61	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	61		index __ArrHelper__redraw_236_0, xpos, __signed_stack_002redraw
+3	130	65	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	65		mov __signed_stack_003redraw, __redraw_7qG2_k_7qG2_001
+3	130	67	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	67	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	67		index __D0redraw, __ArrHelper__redraw_236_0, __signed_stack_003redraw
+3	130	71	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	71	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	71		add i, __signed_stack_001redraw, __D0redraw
+3	130	75	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	130	75	#line 130 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	75	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	75		jmp __ASM_Label_896
+3	131	77	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	77		mov __signed_stack_001redraw, movingObject
+3	131	79	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	79	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	79		mov __D0redraw, __redraw_7qG2_k_7qG2_001
+3	131	81	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	81		cmp 4, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	131	85	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	85		brtst 4, __ASM_Label_898, __D0redraw
+3	131	88	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	88		set __signed_stack_001redraw, 3
+3	131	91	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	91	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	91		index __signed_stack_001redraw, objectStatus, __signed_stack_001redraw
+3	131	95	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	95	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	95	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	95		mov __signed_stack_002redraw, __redraw_7qG2_k_7qG2_001
+3	131	97	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	97	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	97		index __D0redraw, objectStatus, __signed_stack_002redraw
+3	131	101	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	131	101	#line 131 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	132	101		cmp 4, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	133	105	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	105		brtst 4, __ASM_Label_907, __D0redraw
+3	133	108	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	108		set __signed_stack_001redraw, 3
+3	133	111	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	111	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	111		index __D0redraw, objectStatus, __signed_stack_001redraw
+3	133	115	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	115	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	115		tst 5, __D0redraw, __D0redraw
+3	133	118	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	118		brtst 4, __ASM_Label_912, __D0redraw
+3	133	121	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	121		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	133	123	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	123	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	123		index __signed_stack_001redraw, objectStatus, __signed_stack_001redraw
+3	133	127	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	127	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	127	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	127		index __ArrHelper__redraw_236_0, xpos, __signed_stack_001redraw
+3	133	131	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	131		mov __signed_stack_002redraw, __redraw_7qG2_k_7qG2_001
+3	133	133	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	133	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	133		index __signed_stack_001redraw, __ArrHelper__redraw_236_0, __signed_stack_002redraw
+3	133	137	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	137	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	137	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	137		set __D0redraw, 15
+3	133	140	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	140		sub i, __signed_stack_001redraw, __D0redraw
+3	133	144	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	133	144	#line 133 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	144	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	144		jmp __ASM_Label_921
+3	134	146	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	146		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	134	148	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	148	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	148		index __signed_stack_001redraw, objectStatus, __signed_stack_001redraw
+3	134	152	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	152	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	152	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	152		index __ArrHelper__redraw_236_0, xpos, __signed_stack_001redraw
+3	134	156	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	156		mov __signed_stack_002redraw, __redraw_7qG2_k_7qG2_001
+3	134	158	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	158	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	158		index __signed_stack_001redraw, __ArrHelper__redraw_236_0, __signed_stack_002redraw
+3	134	162	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	162	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	162	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	162		set __D0redraw, 20
+3	134	165	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	135	165		add i, __signed_stack_001redraw, __D0redraw
+3	134	169	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	134	169	#line 134 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	136	169	#line 136 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	169	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	139	169		jmp __ASM_Label_930
+3	138	171	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	139	171		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	138	173	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	173	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	139	173		index __signed_stack_001redraw, objectStatus, __signed_stack_001redraw
+3	138	177	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	177	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	177	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	139	177		index __ArrHelper__redraw_236_0, xpos, __signed_stack_001redraw
+3	138	181	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	139	181		mov __signed_stack_002redraw, __redraw_7qG2_k_7qG2_001
+3	138	183	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	183	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	139	183		index i, __ArrHelper__redraw_236_0, __signed_stack_002redraw
+3	138	187	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	187	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	138	187	#line 138 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	140	187	#line 140 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	140	187	#line 140 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	140	187	#line 140 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	141	187		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	140	189	#line 140 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	141	189	#line 141 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	189		set __D0redraw, 0
+3	141	192	#line 141 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	192		cmp 4, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	142	196	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	196		brtst 4, __ASM_Label_941, __D0redraw
+3	142	199	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	199		mov __signed_stack_001redraw, i
+3	142	201	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	201	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	201		mov __signed_stack_002redraw, j
+3	142	203	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	203	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	203		set __signed_stack_003redraw, 6
+3	142	206	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	206	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	206		set __signed_stack_004redraw, 3
+3	142	209	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	209	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	209		set __D0redraw, 32
+3	142	212	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	212	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	212		mov __EllipseOutArgs.Center.X, __signed_stack_001redraw
+3	142	214	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	214		mov __EllipseOutArgs.Center.Y, __signed_stack_002redraw
+3	142	216	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	216		mov __EllipseOutArgs.SizeX, __signed_stack_003redraw
+3	142	218	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	218		mov __EllipseOutArgs.SizeY, __signed_stack_004redraw
+3	142	220	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	220		mov __EllipseOutArgs.Options, __D0redraw
+3	142	222	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	222		syscall 94, __EllipseOutArgs
+3	142	225	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	225	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	142	225	#line 142 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	225	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	225		mov __signed_stack_001redraw, i
+3	143	227	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	227	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	227		set __D0redraw, 5
+3	143	230	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	230		sub __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	143	234	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	234	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	234		mov __signed_stack_002redraw, j
+3	143	236	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	236	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	236		set __D0redraw, 3
+3	143	239	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	239		sub __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	143	243	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	243	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	243		mov __signed_stack_003redraw, i
+3	143	245	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	245	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	245		set __D0redraw, 5
+3	143	248	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	248		sub __signed_stack_003redraw, __signed_stack_003redraw, __D0redraw
+3	143	252	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	252	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	252		mov __signed_stack_004redraw, j
+3	143	254	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	254	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	254		set __D0redraw, 6
+3	143	257	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	257		sub __signed_stack_004redraw, __signed_stack_004redraw, __D0redraw
+3	143	261	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	261	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	261		set __D0redraw, 0
+3	143	264	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	264	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	264		mov __LineOutArgs.StartLoc.X, __signed_stack_001redraw
+3	143	266	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	266		mov __LineOutArgs.StartLoc.Y, __signed_stack_002redraw
+3	143	268	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	268		mov __LineOutArgs.EndLoc.X, __signed_stack_003redraw
+3	143	270	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	270		mov __LineOutArgs.EndLoc.Y, __signed_stack_004redraw
+3	143	272	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	272		mov __LineOutArgs.Options, __D0redraw
+3	143	274	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	274		syscall 15, __LineOutArgs
+3	143	277	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	277	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	143	277	#line 143 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	277	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	277		mov __signed_stack_001redraw, i
+3	144	279	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	279	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	279		set __D0redraw, 5
+3	144	282	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	282		add __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	144	286	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	286	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	286		mov __signed_stack_002redraw, j
+3	144	288	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	288	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	288		set __D0redraw, 3
+3	144	291	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	291		sub __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	144	295	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	295	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	295		mov __signed_stack_003redraw, i
+3	144	297	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	297	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	297		set __D0redraw, 6
+3	144	300	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	300		add __signed_stack_003redraw, __signed_stack_003redraw, __D0redraw
+3	144	304	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	304	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	304		mov __signed_stack_004redraw, j
+3	144	306	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	306	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	306		set __D0redraw, 6
+3	144	309	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	309		sub __signed_stack_004redraw, __signed_stack_004redraw, __D0redraw
+3	144	313	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	313	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	313		set __D0redraw, 0
+3	144	316	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	316	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	316		mov __LineOutArgs.StartLoc.X, __signed_stack_001redraw
+3	144	318	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	318		mov __LineOutArgs.StartLoc.Y, __signed_stack_002redraw
+3	144	320	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	320		mov __LineOutArgs.EndLoc.X, __signed_stack_003redraw
+3	144	322	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	322		mov __LineOutArgs.EndLoc.Y, __signed_stack_004redraw
+3	144	324	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	324		mov __LineOutArgs.Options, __D0redraw
+3	144	326	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	326		syscall 15, __LineOutArgs
+3	144	329	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	329	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	144	329	#line 144 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	329	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	329		mov __signed_stack_001redraw, i
+3	145	331	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	331	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	331		set __D0redraw, 7
+3	145	334	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	334		add __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	145	338	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	338	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	338		mov __signed_stack_002redraw, j
+3	145	340	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	340	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	340		set __D0redraw, 4
+3	145	343	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	343		add __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	145	347	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	347	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	347		set __signed_stack_003redraw, 3
+3	145	350	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	350	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	350		set __signed_stack_004redraw, 1
+3	145	353	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	353	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	353		set __D0redraw, 32
+3	145	356	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	356	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	356		mov __EllipseOutArgs.Center.X, __signed_stack_001redraw
+3	145	358	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	358		mov __EllipseOutArgs.Center.Y, __signed_stack_002redraw
+3	145	360	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	360		mov __EllipseOutArgs.SizeX, __signed_stack_003redraw
+3	145	362	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	362		mov __EllipseOutArgs.SizeY, __signed_stack_004redraw
+3	145	364	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	364		mov __EllipseOutArgs.Options, __D0redraw
+3	145	366	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	366		syscall 94, __EllipseOutArgs
+3	145	369	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	146	369		mov __D0redraw, __EllipseOutArgs.Result
+3	145	371	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	145	371	#line 145 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	147	371	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	147	371	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	148	371		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	147	373	#line 147 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	148	373	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	373		set __D0redraw, 1
+3	148	376	#line 148 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	376		cmp 4, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	149	380	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	380		brtst 4, __ASM_Label_984, __D0redraw
+3	149	383	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	383		mov __signed_stack_001redraw, i
+3	149	385	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	385	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	385		mov __signed_stack_002redraw, j
+3	149	387	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	387	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	387		set __signed_stack_003redraw, 4
+3	149	390	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	390	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	390		set __signed_stack_004redraw, 2
+3	149	393	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	393	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	393		set __D0redraw, 0
+3	149	396	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	396	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	396		mov __EllipseOutArgs.Center.X, __signed_stack_001redraw
+3	149	398	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	398		mov __EllipseOutArgs.Center.Y, __signed_stack_002redraw
+3	149	400	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	400		mov __EllipseOutArgs.SizeX, __signed_stack_003redraw
+3	149	402	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	402		mov __EllipseOutArgs.SizeY, __signed_stack_004redraw
+3	149	404	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	404		mov __EllipseOutArgs.Options, __D0redraw
+3	149	406	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	406		syscall 94, __EllipseOutArgs
+3	149	409	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	409	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	149	409	#line 149 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	409	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	409		mov __signed_stack_001redraw, i
+3	150	411	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	411	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	411		set __D0redraw, 4
+3	150	414	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	414		add __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	150	418	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	418	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	418		mov __signed_stack_002redraw, j
+3	150	420	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	420	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	420		set __D0redraw, 2
+3	150	423	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	423		add __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	150	427	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	427	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	427		set __signed_stack_003redraw, 1
+3	150	430	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	430	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	430		set __D0redraw, 0
+3	150	433	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	433	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	433		mov __CircleOutArgs.Center.X, __signed_stack_001redraw
+3	150	435	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	435		mov __CircleOutArgs.Center.Y, __signed_stack_002redraw
+3	150	437	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	437		mov __CircleOutArgs.Size, __signed_stack_003redraw
+3	150	439	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	439		mov __CircleOutArgs.Options, __D0redraw
+3	150	441	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	441		syscall 16, __CircleOutArgs
+3	150	444	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	151	444		mov __D0redraw, __CircleOutArgs.Result
+3	150	446	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	150	446	#line 150 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	152	446	#line 152 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	152	446	#line 152 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	153	446		mov __signed_stack_001redraw, __redraw_7qG2_k_7qG2_001
+3	152	448	#line 152 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	153	448	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	448		set __D0redraw, 2
+3	153	451	#line 153 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	451		cmp 4, __D0redraw, __signed_stack_001redraw, __D0redraw
+3	154	455	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	455		brtst 4, __ASM_Label_1005, __D0redraw
+3	154	458	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	458		mov __signed_stack_001redraw, i
+3	154	460	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	460	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	460		mov __signed_stack_002redraw, j
+3	154	462	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	462	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	462		set __signed_stack_003redraw, 3
+3	154	465	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	465	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	465		set __D0redraw, 32
+3	154	468	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	468	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	468		mov __CircleOutArgs.Center.X, __signed_stack_001redraw
+3	154	470	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	470		mov __CircleOutArgs.Center.Y, __signed_stack_002redraw
+3	154	472	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	472		mov __CircleOutArgs.Size, __signed_stack_003redraw
+3	154	474	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	474		mov __CircleOutArgs.Options, __D0redraw
+3	154	476	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	476		syscall 16, __CircleOutArgs
+3	154	479	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	479	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	154	479	#line 154 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	479	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	479		mov __signed_stack_001redraw, i
+3	155	481	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	481	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	481		set __D0redraw, 0
+3	155	484	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	484		add __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	155	488	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	488	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	488		mov __signed_stack_002redraw, j
+3	155	490	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	490	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	490		set __D0redraw, 4
+3	155	493	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	493		add __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	155	497	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	497	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	497		mov __signed_stack_003redraw, i
+3	155	499	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	499	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	499		set __D0redraw, 0
+3	155	502	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	502		add __signed_stack_003redraw, __signed_stack_003redraw, __D0redraw
+3	155	506	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	506	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	506		mov __signed_stack_004redraw, j
+3	155	508	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	508	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	508		set __D0redraw, 4
+3	155	511	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	511		add __signed_stack_004redraw, __signed_stack_004redraw, __D0redraw
+3	155	515	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	515	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	515		set __D0redraw, 0
+3	155	518	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	518	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	518		mov __LineOutArgs.StartLoc.X, __signed_stack_001redraw
+3	155	520	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	520		mov __LineOutArgs.StartLoc.Y, __signed_stack_002redraw
+3	155	522	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	522		mov __LineOutArgs.EndLoc.X, __signed_stack_003redraw
+3	155	524	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	524		mov __LineOutArgs.EndLoc.Y, __signed_stack_004redraw
+3	155	526	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	526		mov __LineOutArgs.Options, __D0redraw
+3	155	528	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	528		syscall 15, __LineOutArgs
+3	155	531	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	531	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	155	531	#line 155 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	531	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	531		mov __signed_stack_001redraw, i
+3	156	533	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	533	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	533		set __D0redraw, 1
+3	156	536	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	536		sub __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	156	540	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	540	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	540		mov __signed_stack_002redraw, j
+3	156	542	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	542	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	542		set __D0redraw, 5
+3	156	545	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	545		add __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	156	549	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	549	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	549		mov __signed_stack_003redraw, i
+3	156	551	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	551	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	551		set __D0redraw, 1
+3	156	554	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	554		add __signed_stack_003redraw, __signed_stack_003redraw, __D0redraw
+3	156	558	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	558	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	558		mov __signed_stack_004redraw, j
+3	156	560	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	560	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	560		set __D0redraw, 5
+3	156	563	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	563		add __signed_stack_004redraw, __signed_stack_004redraw, __D0redraw
+3	156	567	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	567	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	567		set __D0redraw, 0
+3	156	570	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	570	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	570		mov __LineOutArgs.StartLoc.X, __signed_stack_001redraw
+3	156	572	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	572		mov __LineOutArgs.StartLoc.Y, __signed_stack_002redraw
+3	156	574	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	574		mov __LineOutArgs.EndLoc.X, __signed_stack_003redraw
+3	156	576	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	576		mov __LineOutArgs.EndLoc.Y, __signed_stack_004redraw
+3	156	578	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	578		mov __LineOutArgs.Options, __D0redraw
+3	156	580	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	580		syscall 15, __LineOutArgs
+3	156	583	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	583	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	156	583	#line 156 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	583	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	583		mov __signed_stack_001redraw, i
+3	157	585	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	585	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	585		set __D0redraw, 2
+3	157	588	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	588		sub __signed_stack_001redraw, __signed_stack_001redraw, __D0redraw
+3	157	592	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	592	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	592		mov __signed_stack_002redraw, j
+3	157	594	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	594	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	594		set __D0redraw, 6
+3	157	597	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	597		add __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	157	601	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	601	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	601		mov __signed_stack_003redraw, i
+3	157	603	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	603	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	603		set __D0redraw, 2
+3	157	606	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	606		add __signed_stack_003redraw, __signed_stack_003redraw, __D0redraw
+3	157	610	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	610	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	610		mov __signed_stack_004redraw, j
+3	157	612	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	612	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	612		set __D0redraw, 6
+3	157	615	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	615		add __signed_stack_004redraw, __signed_stack_004redraw, __D0redraw
+3	157	619	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	619	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	619		set __D0redraw, 0
+3	157	622	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	622	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	622		mov __LineOutArgs.StartLoc.X, __signed_stack_001redraw
+3	157	624	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	624		mov __LineOutArgs.StartLoc.Y, __signed_stack_002redraw
+3	157	626	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	626		mov __LineOutArgs.EndLoc.X, __signed_stack_003redraw
+3	157	628	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	628		mov __LineOutArgs.EndLoc.Y, __signed_stack_004redraw
+3	157	630	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	630		mov __LineOutArgs.Options, __D0redraw
+3	157	632	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	632		syscall 15, __LineOutArgs
+3	157	635	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	158	635		mov __D0redraw, __LineOutArgs.Result
+3	157	637	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	157	637	#line 157 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	637	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	637	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	637		mov __signed_stack_001redraw, movingX
+3	160	639	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	639	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	639	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	639	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	639	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	639		mul __signed_stack_002redraw, movingObject, __constValNeg25
+3	160	643	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	643	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	643		set __D0redraw, 50
+3	160	646	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	646		add __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+3	160	650	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	650	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	650		set __signed_stack_003redraw, 20
+3	160	653	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	653	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	653		set __signed_stack_004redraw, 15
+3	160	656	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	656	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	656		set __D0redraw, 0
+3	160	659	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	659	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	659		mov __RectOutArgs.Location.X, __signed_stack_001redraw
+3	160	661	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	661		mov __RectOutArgs.Location.Y, __signed_stack_002redraw
+3	160	663	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	663		mov __RectOutArgs.Size.Width, __signed_stack_003redraw
+3	160	665	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	665		mov __RectOutArgs.Size.Height, __signed_stack_004redraw
+3	160	667	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	667		mov __RectOutArgs.Options, __D0redraw
+3	160	669	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	161	669		syscall 17, __RectOutArgs
+3	160	672	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	672	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	160	672	#line 160 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	672	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	672		set __signed_stack_001redraw, 20
+3	162	675	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	675	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	675		set __signed_stack_002redraw, 0
+3	162	678	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	678	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	678		set __signed_stack_003redraw, 60
+3	162	681	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	681	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	681		set __signed_stack_004redraw, 99
+3	162	684	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	684	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	684		set __D0redraw, 0
+3	162	687	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	687	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	687		mov __RectOutArgs.Location.X, __signed_stack_001redraw
+3	162	689	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	689		mov __RectOutArgs.Location.Y, __signed_stack_002redraw
+3	162	691	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	691		mov __RectOutArgs.Size.Width, __signed_stack_003redraw
+3	162	693	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	693		mov __RectOutArgs.Size.Height, __signed_stack_004redraw
+3	162	695	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	695		mov __RectOutArgs.Options, __D0redraw
+3	162	697	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	697		syscall 17, __RectOutArgs
+3	162	700	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	163	700		mov __D0redraw, __RectOutArgs.Result
+3	162	702	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	162	702	#line 162 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	169	702	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	170	702		jmp __ASM_Label_876
+3	169	704	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	169	704	#line 169 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+3	170	704		subret __redraw_return
+4	183	0	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	0		set __checkGame_7qG2_returngame_7qG2_000, 1
+4	183	3	#line 183 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	3	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	3		set __signed_stack_001checkGame, 0
+4	184	6	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	6	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	6		index __D0checkGame, objectStatus, __signed_stack_001checkGame
+4	184	10	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	10	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	10		tst 5, __D0checkGame, __D0checkGame
+4	184	13	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	13		brtst 4, __ASM_Label_1087, __D0checkGame
+4	184	16	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	16		set __signed_stack_001checkGame, 1
+4	184	19	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	19	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	19		index __D0checkGame, objectStatus, __signed_stack_001checkGame
+4	184	23	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	23	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	23		tst 5, __D0checkGame, __D0checkGame
+4	184	26	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	26		brtst 4, __ASM_Label_1087, __D0checkGame
+4	184	29	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	29		set __signed_stack_001checkGame, 2
+4	184	32	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	32	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	32		index __D0checkGame, objectStatus, __signed_stack_001checkGame
+4	184	36	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	36	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	36		tst 5, __D0checkGame, __D0checkGame
+4	184	39	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	39		brtst 4, __ASM_Label_1087, __D0checkGame
+4	184	42	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	42		set __signed_stack_001checkGame, 3
+4	184	45	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	184	45	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	45		index __D0checkGame, objectStatus, __signed_stack_001checkGame
+4	184	49	#line 184 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	49	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	49		tst 5, __D0checkGame, __D0checkGame
+4	185	52	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	52		brtst 4, __ASM_Label_1104, __D0checkGame
+4	185	55	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	55		set __checkGame_7qG2_returngame_7qG2_000, 0
+4	185	58	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	58	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	58	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	58		set __signed_stack_001checkGame, 500
+4	185	61	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	61	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	61		set __signed_stack_002checkGame, 2000
+4	185	64	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	64	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	64		set __signed_stack_003checkGame, 4
+4	185	67	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	185	67	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	67		set __D0checkGame, 0
+4	185	70	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	70		acquire __SPTArgsMutex
+4	185	71	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	71		mov __SPTArgs.Frequency, __signed_stack_001checkGame
+4	185	73	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	73		mov __SPTArgs.Duration, __signed_stack_002checkGame
+4	185	75	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	75		mov __SPTArgs.Volume, __signed_stack_003checkGame
+4	185	77	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	77		mov __SPTArgs.Loop, __D0checkGame
+4	185	79	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	79		syscall 10, __SPTArgs
+4	185	82	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	82		mov __D0checkGame, __SPTArgs.Result
+4	185	84	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	84		release __SPTArgsMutex
+4	185	85	#line 185 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	85	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	85	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	85		set __signed_stack_001checkGame, 0
+4	186	88	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	88	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	88		index __signed_stack_001checkGame, objectStatus, __signed_stack_001checkGame
+4	186	92	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	92	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	92	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	92		set __signed_stack_002checkGame, 1
+4	186	95	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	95	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	95		index __D0checkGame, objectStatus, __signed_stack_002checkGame
+4	186	99	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	99	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	99		cmp 4, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	186	103	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	103		brtst 4, __ASM_Label_1116, __D0checkGame
+4	186	106	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	106		set __signed_stack_001checkGame, 1
+4	186	109	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	109	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	109		index __signed_stack_001checkGame, objectStatus, __signed_stack_001checkGame
+4	186	113	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	113	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	113	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	113		set __signed_stack_002checkGame, 3
+4	186	116	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	116	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	116		index __D0checkGame, objectStatus, __signed_stack_002checkGame
+4	186	120	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	120	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	120		cmp 5, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	186	124	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	124		brtst 4, __ASM_Label_1129, __D0checkGame
+4	186	127	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	127		set __checkGame_7qG2_returngame_7qG2_000, 2
+4	186	130	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	186	130	#line 186 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	130	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	130	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	130		set __signed_stack_001checkGame, 1
+4	187	133	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	133	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	133		index __signed_stack_001checkGame, objectStatus, __signed_stack_001checkGame
+4	187	137	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	137	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	137	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	137		set __signed_stack_002checkGame, 2
+4	187	140	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	140	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	140		index __D0checkGame, objectStatus, __signed_stack_002checkGame
+4	187	144	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	144	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	144		cmp 4, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	187	148	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	148		brtst 4, __ASM_Label_1133, __D0checkGame
+4	187	151	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	151		set __signed_stack_001checkGame, 1
+4	187	154	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	154	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	154		index __signed_stack_001checkGame, objectStatus, __signed_stack_001checkGame
+4	187	158	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	158	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	158	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	158		set __signed_stack_002checkGame, 3
+4	187	161	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	161	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	161		index __D0checkGame, objectStatus, __signed_stack_002checkGame
+4	187	165	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	165	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	165		cmp 5, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	187	169	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	169		brtst 4, __ASM_Label_1146, __D0checkGame
+4	187	172	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	172		set __checkGame_7qG2_returngame_7qG2_000, 3
+4	187	175	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	187	175	#line 187 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	175	#line 188 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	188	175	#line 188 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	189	175		mov __signed_stack_001checkGame, __checkGame_7qG2_returngame_7qG2_000
+4	188	177	#line 188 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	189	177	#line 189 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	190	177		set __D0checkGame, 0
+4	189	180	#line 189 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	190	180		cmp 4, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	190	184	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	184		brtst 4, __ASM_Label_1151, __D0checkGame
+4	190	187	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	187		set __signed_stack_001checkGame, 20
+4	190	190	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	190	190	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	190		set __signed_stack_002checkGame, 32
+4	190	193	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	190	193	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	193		strcat __strbufcheckGame, __constStr0036
+4	190	197	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	197		set __D0checkGame, 0
+4	190	200	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	200		acquire __TextOutMutex
+4	190	201	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	201		mov __TextOutArgs.Location.X, __signed_stack_001checkGame
+4	190	203	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	203		mov __TextOutArgs.Location.Y, __signed_stack_002checkGame
+4	190	205	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	205		mov __TextOutArgs.Options, __D0checkGame
+4	190	207	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	207		mov __TextOutArgs.Text, __strbufcheckGame
+4	190	209	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	209		syscall 13, __TextOutArgs
+4	190	212	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	212		mov __D0checkGame, __TextOutArgs.Result
+4	190	214	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	214		release __TextOutMutex
+4	190	215	#line 190 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	215	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	215		set __signed_stack_001checkGame, 20
+4	191	218	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	218	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	218		set __signed_stack_002checkGame, 32
+4	191	221	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	191	221	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	221		strcat __strbufcheckGame, __constStr0037
+4	191	225	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	225		set __D0checkGame, 0
+4	191	228	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	228		acquire __TextOutMutex
+4	191	229	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	229		mov __TextOutArgs.Location.X, __signed_stack_001checkGame
+4	191	231	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	231		mov __TextOutArgs.Location.Y, __signed_stack_002checkGame
+4	191	233	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	233		mov __TextOutArgs.Options, __D0checkGame
+4	191	235	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	235		mov __TextOutArgs.Text, __strbufcheckGame
+4	191	237	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	237		syscall 13, __TextOutArgs
+4	191	240	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	240		mov __D0checkGame, __TextOutArgs.Result
+4	191	242	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	242		release __TextOutMutex
+4	191	243	#line 191 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	192	243	#line 192 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	193	243		set __Wait_7qG2_ms_7qG2_000_inline_checkGame, 1000
+4	192	246	#line 192 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	8721	246	#line 8721 "NXCDefs.h"
+4	8722	246		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
+4	8721	248	#line 8721 "NXCDefs.h"
+4	192	248	#line 192 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	194	248	#line 194 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	195	248		jmp __ASM_Label_1166
+4	194	250	#line 194 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	195	250		mov __signed_stack_001checkGame, __checkGame_7qG2_returngame_7qG2_000
+4	194	252	#line 194 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	195	252	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	196	252		set __D0checkGame, 2
+4	195	255	#line 195 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	196	255		cmp 4, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	196	259	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	259		brtst 4, __ASM_Label_1169, __D0checkGame
+4	196	262	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	262		set __signed_stack_001checkGame, 10
+4	196	265	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	196	265	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	265		set __signed_stack_002checkGame, 32
+4	196	268	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	196	268	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	268		strcat __strbufcheckGame, __constStr0038
+4	196	272	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	272		set __D0checkGame, 0
+4	196	275	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	275		acquire __TextOutMutex
+4	196	276	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	276		mov __TextOutArgs.Location.X, __signed_stack_001checkGame
+4	196	278	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	278		mov __TextOutArgs.Location.Y, __signed_stack_002checkGame
+4	196	280	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	280		mov __TextOutArgs.Options, __D0checkGame
+4	196	282	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	282		mov __TextOutArgs.Text, __strbufcheckGame
+4	196	284	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	284		syscall 13, __TextOutArgs
+4	196	287	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	287		mov __D0checkGame, __TextOutArgs.Result
+4	196	289	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	289		release __TextOutMutex
+4	196	290	#line 196 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	290	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	290		set __signed_stack_001checkGame, 10
+4	197	293	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	293	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	293		set __signed_stack_002checkGame, 24
+4	197	296	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	197	296	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	296		strcat __strbufcheckGame, __constStr0039
+4	197	300	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	300		set __D0checkGame, 0
+4	197	303	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	303		acquire __TextOutMutex
+4	197	304	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	304		mov __TextOutArgs.Location.X, __signed_stack_001checkGame
+4	197	306	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	306		mov __TextOutArgs.Location.Y, __signed_stack_002checkGame
+4	197	308	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	308		mov __TextOutArgs.Options, __D0checkGame
+4	197	310	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	310		mov __TextOutArgs.Text, __strbufcheckGame
+4	197	312	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	312		syscall 13, __TextOutArgs
+4	197	315	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	315		mov __D0checkGame, __TextOutArgs.Result
+4	197	317	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	317		release __TextOutMutex
+4	197	318	#line 197 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	198	318	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	199	318		set __Wait_7qG2_ms_7qG2_000_inline_checkGame, 1000
+4	198	321	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	8721	321	#line 8721 "NXCDefs.h"
+4	8722	321		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
+4	8721	323	#line 8721 "NXCDefs.h"
+4	198	323	#line 198 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	200	323	#line 200 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	201	323		jmp __ASM_Label_1184
+4	200	325	#line 200 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	201	325		mov __signed_stack_001checkGame, __checkGame_7qG2_returngame_7qG2_000
+4	200	327	#line 200 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	201	327	#line 201 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	202	327		set __D0checkGame, 3
+4	201	330	#line 201 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	202	330		cmp 4, __D0checkGame, __signed_stack_001checkGame, __D0checkGame
+4	202	334	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	334		brtst 4, __ASM_Label_1187, __D0checkGame
+4	202	337	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	337		set __signed_stack_001checkGame, 5
+4	202	340	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	202	340	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	340		set __signed_stack_002checkGame, 32
+4	202	343	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	202	343	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	343		strcat __strbufcheckGame, __constStr0040
+4	202	347	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	347		set __D0checkGame, 0
+4	202	350	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	350		acquire __TextOutMutex
+4	202	351	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	351		mov __TextOutArgs.Location.X, __signed_stack_001checkGame
+4	202	353	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	353		mov __TextOutArgs.Location.Y, __signed_stack_002checkGame
+4	202	355	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	355		mov __TextOutArgs.Options, __D0checkGame
+4	202	357	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	357		mov __TextOutArgs.Text, __strbufcheckGame
+4	202	359	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	359		syscall 13, __TextOutArgs
+4	202	362	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	362		mov __D0checkGame, __TextOutArgs.Result
+4	202	364	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	364		release __TextOutMutex
+4	202	365	#line 202 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	365	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	365		set __signed_stack_001checkGame, 5
+4	203	368	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	368	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	368		set __signed_stack_002checkGame, 24
+4	203	371	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	203	371	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	371		strcat __strbufcheckGame, __constStr0041
+4	203	375	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	375		set __D0checkGame, 0
+4	203	378	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	378		acquire __TextOutMutex
+4	203	379	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	379		mov __TextOutArgs.Location.X, __signed_stack_001checkGame
+4	203	381	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	381		mov __TextOutArgs.Location.Y, __signed_stack_002checkGame
+4	203	383	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	383		mov __TextOutArgs.Options, __D0checkGame
+4	203	385	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	385		mov __TextOutArgs.Text, __strbufcheckGame
+4	203	387	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	387		syscall 13, __TextOutArgs
+4	203	390	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	390		mov __D0checkGame, __TextOutArgs.Result
+4	203	392	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	392		release __TextOutMutex
+4	203	393	#line 203 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	204	393	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	205	393		set __Wait_7qG2_ms_7qG2_000_inline_checkGame, 1000
+4	204	396	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	8721	396	#line 8721 "NXCDefs.h"
+4	8722	396		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
+4	8721	398	#line 8721 "NXCDefs.h"
+4	204	398	#line 204 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	206	398	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	206	398	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	206	398	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	206	398	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	207	398		mov __D0checkGame, __checkGame_7qG2_returngame_7qG2_000
+4	206	400	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	207	400		subret __checkGame_return
+4	206	402	#line 206 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	210	402	#line 210 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+4	211	402		subret __checkGame_return
+5	225	0	#line 225 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+5	226	0		arrbuild xpos, __constStr0042, __constStr0043
+5	225	5	#line 225 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+5	226	5		arrbuild ypos, __constVal56, __constVal30, __constVal6
+5	225	11	#line 225 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+5	226	11		arrbuild objectStatus, __constVal0, __constVal0, __constVal0, __constVal0
+5	225	18	#line 225 "C:\Github\NXC_Source\X_FoxGooseBeans2.nxc"
+5	226	18		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\X_FoxGooseBeans2.nxc
+1	howto	33	C:\Github\NXC_Source\X_FoxGooseBeans2.nxc
+2	inputOutput	894	C:\Github\NXC_Source\X_FoxGooseBeans2.nxc
+3	redraw	1214	C:\Github\NXC_Source\X_FoxGooseBeans2.nxc
+4	checkGame	1920	C:\Github\NXC_Source\X_FoxGooseBeans2.nxc
+5	__initialize_global_data	2324	C:\Github\NXC_Source\X_FoxGooseBeans2.nxc
