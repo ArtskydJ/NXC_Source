@@ -76,7 +76,7 @@ void selectGame()
   accesshigh="Snake";
   while (ButtonPressed(BTNCENTER)==false)
     {
-    gametype=senseButton(gametype,true,1,5,false); //changed "addtoz" to "1"
+    gametype=senseButton(gametype,false,1,5,false); //changed "addtoz" to "1"
     ClearScreen();
     TextOut(SX,LCD_LINE1,"SNAKE",  0);
     TextOut(1, LCD_LINE2,"Choose:",0);
@@ -244,7 +244,7 @@ void snakeDraw()
         {CircleOut(x*b+2,61-y*b,(b-1)/2,32);}
       }
     }
-  if (score> (readHighscore()) &&gametype<4) {overwriteHighscore(score);}
+  if (score>readHighscore()&&gametype<4) {overwriteHighscore(score);}
   TextOut(65, LCD_LINE1,StrCat(" S=",NumToStr(score)),0);
   if (gametype<4)
     TextOut(65, LCD_LINE2,StrCat("HS=",NumToStr( readHighscore() )),0);

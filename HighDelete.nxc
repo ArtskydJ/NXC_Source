@@ -1,12 +1,13 @@
 //High Score Delete
 #include "+Button+-.nxc"
-int result, fsize, handle;
+#include "+HighScore.nxc"
 
 
 void deleteHigh(string deleteme)
   {
-  ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
-  TextOut(0, LCD_LINE7,"Are you sure?",0);
+  int result, fsize, handle;
+  ClearLine(LCD_LINE8);
+  TextOut(0, LCD_LINE8,"Delete?",0);
   TextOut(82,LCD_LINE8,"Yes",4096);
   for (int a=3;a>0;a--) {NumOut(76,LCD_LINE8,a,0);Wait(1000);}
   if (ButtonPressed(BTNRIGHT))
@@ -41,17 +42,25 @@ task main()
     int j=0;
     while (ButtonPressed(BTNLEFT)==false)
       {
-        ClearScreen();
-        TextOut(0,0,"Delete",0);
-        for (int i=0; i<7; i++)
-          {if (nof > j+i)
-            {TextOut(2,56-i*8, dathighs.FileList[j+i]);}}
-        RectOut(0,56,99,7,0);
-        Wait(50);
-        j=senseButton(j,0,1,100,1);
+      ClearScreen();
+      TextOut(0,0,"Delete",0);
+      TextOut(0,0,"Delete",0);
+      for (int i=0; i<7; i++)
+        {if (nof > j+i)
+          {TextOut(2,56-i*8, dathighs.FileList[j+i]);}}
+      RectOut(0,56,99,7,0);
+      Wait(50);
+      j=senseButton(j,0,1,nof-1,1);
       }
     until (ButtonPressed(BTNLEFT)==false) {}
     deleteHigh(dathighs.FileList[j]);
     }
   }
-
+  
+  
+  
+  
+  
+  
+  
+  

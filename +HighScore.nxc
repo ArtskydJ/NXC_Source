@@ -63,7 +63,7 @@ void overwriteHighscoreName(int NewHighscore)
   CloseFile(handle);
   }
   
-//*
+/*
 void endGame(int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
