@@ -1,0 +1,2855 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0senseButtonModded	6	1	0	4	53
+1	__DU0senseButtonModded	5	1	4	4	2
+2	__D0readHighscoreName	6	1	8	4	9
+3	__D0overwriteHighscoreName	6	1	12	4	5
+4	__D0readHighscore	6	1	16	4	11
+5	__unsigned_stack_001debugOut	5	1	20	4	2
+6	__signed_stack_004display	6	1	24	4	8
+7	__unsigned_stack_001display	5	1	28	4	6
+8	__signed_stack_003display	6	1	32	4	56
+9	__signed_stack_001display	6	1	36	4	34
+10	__signed_stack_002display	6	1	40	4	28
+11	__DF0display	10	1	44	4	4
+12	__D0endGame	6	1	48	4	17
+13	__DU0display	5	1	52	4	4
+14	__DU0debugOut	5	1	56	4	4
+15	__D0display	6	1	60	4	150
+16	__D0keyboard	6	1	64	4	78
+17	__D0output	6	1	68	4	54
+18	__D0overwriteHighscore	6	1	72	4	4
+19	__DU0main	5	1	76	4	2
+20	__DU0keyboard	5	1	80	4	12
+21	__D0main	6	1	84	4	4
+22	__unsigned_stack_003display	5	1	88	4	2
+23	__unsigned_stack_001senseButtonModded	5	1	92	4	4
+24	ms	5	1	96	4	8
+25	__signed_stack_001senseButtonModded	6	1	100	4	18
+26	__signed_stack_001readHighscore	6	1	104	4	2
+27	__signed_stack_001readHighscoreName	6	1	108	4	2
+28	__constValf6P6666666667	10	0	112	4	1
+29	__constVal786433	6	0	116	4	2
+30	__Wait_7qG2_ms_7qG2_000_inline_keyboard	5	1	120	4	2
+31	__Wait_7qG2_ms_7qG2_000_inline_debugOut	5	1	124	4	4
+32	__constVal65536	6	0	128	4	1
+33	__Wait_7qG2_ms_7qG2_000_inline_endGame	5	1	132	4	4
+34	__signed_stack_002endGame	6	1	136	4	6
+35	__signed_stack_001keyboard	6	1	140	4	24
+36	__signed_stack_001endGame	6	1	144	4	8
+37	__unsigned_stack_004display	5	1	148	4	2
+38	__float_stack_003display	10	1	152	4	4
+39	__signed_stack_002keyboard	6	1	156	4	14
+40	__unsigned_stack_001output	5	1	160	4	12
+41	__unsigned_stack_002output	5	1	164	4	2
+42	__signed_stack_001output	6	1	168	4	22
+43	__signed_stack_003keyboard	6	1	172	4	10
+44	__unsigned_stack_001keyboard	5	1	176	4	2
+45	__RandomTmp	5	1	180	4	6
+46	__FWriteMutex	9	0	184	4	6
+47	__TextOutMutex	9	0	188	4	38
+48	__constVal32768	6	0	192	4	1
+49	__SPTArgsMutex	9	0	196	4	10
+50	__D0debugOut	6	1	200	4	16
+51	__FDMutex	9	0	204	4	4
+52	__FReadMutex	9	0	208	4	6
+53	__FOMutex	9	0	212	4	8
+54	__FCMutex	9	0	216	4	8
+55	__output_7qG2_y_7qG2_000	4	1	220	2	4
+56	__debugOut_7qG2_oknotpressed_7qG2_000	4	1	222	2	2
+57	__main_7qG2_score_7qG2_000	4	1	224	2	3
+58	__output_7qG2_x_7qG2_000	4	1	226	2	7
+59	__display_7qG2_y_7qG2_000	4	1	228	2	9
+60	__display_7qG2_x_7qG2_000	4	1	230	2	9
+61	__display_7qG2_outx_7qG2_000	4	1	232	2	2
+62	__display_7qG2_a_7qG2_001	4	1	234	2	9
+63	__display_7qG2_outy_7qG2_000	4	1	236	2	2
+64	__senseButtonModded_7qG2_colrow_7qG2_000	4	1	238	2	5
+65	__keyboard_7qG2_x_7qG2_000	4	1	240	2	10
+66	__senseButtonModded_7qG2_lu_7qG2_000	4	1	242	2	4
+67	__senseButtonModded_7qG2_rd_7qG2_000	4	1	244	2	4
+68	__keyboard_7qG2_y_7qG2_000	4	1	246	2	11
+69	fsize	4	1	248	2	2
+70	handle	4	1	250	2	14
+71	__keyboard_7qG2_lasty_7qG2_000	4	1	252	2	5
+72	__readHighscore_7qG2_ARead_7qG2_000	4	1	254	2	5
+73	__debugOut_7qG2_y_7qG2_000	4	1	256	2	2
+74	__debugOut_7qG2_lasty_7qG2_000	4	1	258	2	2
+75	__debugOut_7qG2_snd_7qG2_000	4	1	260	2	2
+76	__debugOut_7qG2_x_7qG2_000	4	1	262	2	2
+77	__endGame_7qG2_myscore_7qG2_000	4	1	264	2	4
+78	__senseButtonModded_7qG2_val_7qG2_000	4	1	266	2	11
+79	__senseButtonModded_7qG2_currentrow_7qG2_000	4	1	268	2	3
+80	__overwriteHighscoreName_7qG2_NewHighscore_7qG2_000	4	1	270	2	2
+81	__overwriteHighscore_7qG2_NewHighscore_7qG2_000	4	1	272	2	2
+82	__constVal0	2	1	274	1	17
+83	__constVal114	2	0	275	1	1
+84	__overwriteHighscoreName_return	1	1	276	1	3
+85	__endGame_return	1	1	277	1	3
+86	__constVal113	2	0	278	1	1
+87	__constVal63	2	0	279	1	1
+88	__constVal115	2	0	280	1	1
+89	__constVal48	2	0	281	1	1
+90	__readHighscoreName_return	1	1	282	1	4
+91	__overwriteHighscore_return	1	1	283	1	3
+92	__constVal111	2	0	284	1	1
+93	__constVal52	2	0	285	1	1
+94	__output_7qG2_layoutn_7qG2_002	1	1	286	1	6
+95	__constVal110	2	0	287	1	1
+96	____initialize_global_data_return	1	1	288	1	3
+97	__debugOut_return	1	1	289	1	3
+98	__constVal4	2	0	290	1	1
+99	__constVal112	2	0	291	1	1
+100	__constVal51	2	0	292	1	1
+101	__constVal49	2	0	293	1	1
+102	__senseButtonModded_7qG2_lr_ud_7qG2_000	1	1	294	1	5
+103	__constVal1	2	0	295	1	8
+104	__constVal40	2	0	296	1	2
+105	__constValNeg1	2	0	297	1	1
+106	__keyboard_7qG2_snd_7qG2_000	1	1	298	1	12
+107	__keyboard_7qG2_cptl_7qG2_000	1	1	299	1	6
+108	__constVal120	2	0	300	1	1
+109	__readHighscore_return	1	1	301	1	5
+110	__constVal119	2	0	302	1	1
+111	__constVal121	2	0	303	1	1
+112	__constVal32	2	0	304	1	1
+113	__constVal44	2	0	305	1	1
+114	__keyboard_return	1	1	306	1	5
+115	__constVal46	2	0	307	1	1
+116	__senseButtonModded_return	1	1	308	1	5
+117	__constVal116	2	0	309	1	1
+118	__constVal122	2	0	310	1	1
+119	__keyboard_7qG2_loop_7qG2_000	1	1	311	1	4
+120	__constVal118	2	0	312	1	1
+121	__ClearLine_7qG2_line_7qG2_000_inline_keyboard	1	1	313	1	12
+122	__constVal117	2	0	314	1	1
+123	__main_7qG2_playing_7qG2_000	1	1	315	1	3
+124	__display_7qG2_cptl_7qG2_000	1	1	316	1	3
+125	__display_return	1	1	317	1	3
+126	__constVal50	2	0	318	1	1
+127	__display_7qG2_snd_7qG2_000	1	1	319	1	2
+128	__constVal9	2	0	320	1	2
+129	__constVal105	2	0	321	1	1
+130	__constVal104	2	0	322	1	1
+131	__constVal107	2	0	323	1	1
+132	__display_7qG2_layouta_7qG2_000	1	1	324	1	6
+133	__constVal10	2	0	325	1	4
+134	__constVal54	2	0	326	1	1
+135	__constVal55	2	0	327	1	1
+136	__FReadTmpByte	1	1	328	1	3
+137	__constVal56	2	0	329	1	1
+138	__constVal106	2	0	330	1	1
+139	__constVal100	2	0	331	1	1
+140	__constVal57	2	0	332	1	1
+141	debugTiming	1	1	333	1	3
+142	__constVal108	2	0	334	1	1
+143	__constVal98	2	0	335	1	1
+144	__constVal99	2	0	336	1	1
+145	__output_return	1	1	337	1	4
+146	__output_7qG2_cptl_7qG2_000	1	1	338	1	2
+147	__constVal109	2	0	339	1	1
+148	__constVal101	2	0	340	1	1
+149	__constVal102	2	0	341	1	1
+150	__constVal103	2	0	342	1	1
+151	__constVal97	2	0	343	1	1
+152	__constVal53	2	0	344	1	1
+153	__RBtnArgs	8	0	5	8	16
+154	__RBtnArgs.Result	2	1	348	1	16
+155	__RBtnArgs.Index	1	1	349	1	16
+156	__RBtnArgs.Pressed	1	1	350	1	16
+157	__RBtnArgs.Count	1	1	351	1	16
+158	__RBtnArgs.Reset	1	1	352	1	16
+159	__IOMWBIArgs	8	0	4	16	8
+160	__IOMWBIArgs.Result	2	1	356	1	8
+161	__IOMWBIArgs.ModuleID	5	1	360	4	8
+162	__IOMWBIArgs.Offset	3	1	364	2	8
+163	__IOMWBIArgs.Buffer	7	0	366	4	8
+164	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+165	__FDArgs	8	0	2	8	6
+166	__FDArgs.Result	3	1	368	2	6
+167	__FDArgs.Filename	7	0	370	4	6
+168	__FDArgs.Filename.Filename_type	1	0	0	1	0
+169	__FCArgs	8	0	2	4	12
+170	__FCArgs.Result	3	1	372	2	12
+171	__FCArgs.FileHandle	1	1	374	1	12
+172	__FWriteArgs	8	0	4	12	18
+173	__FWriteArgs.Result	3	1	376	2	18
+174	__FWriteArgs.FileHandle	1	1	378	1	18
+175	__FWriteArgs.Buffer	7	0	380	4	18
+176	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+177	__FWriteArgs.Length	5	1	384	4	18
+178	__FReadArgs	8	0	4	12	19
+179	__FReadArgs.Result	3	1	388	2	19
+180	__FReadArgs.FileHandle	1	1	390	1	19
+181	__FReadArgs.Buffer	7	0	392	4	19
+182	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+183	__FReadArgs.Length	5	1	396	4	19
+184	__FOArgs	8	0	4	12	20
+185	__FOArgs.Result	3	1	400	2	20
+186	__FOArgs.FileHandle	1	1	402	1	20
+187	__FOArgs.Filename	7	0	404	4	20
+188	__FOArgs.Filename.Filename_type	1	0	0	1	0
+189	__FOArgs.Length	5	1	408	4	20
+190	__LineOutArgs	8	0	4	16	13
+191	__LineOutArgs.Result	2	1	412	1	13
+192	__LineOutArgs.StartLoc	8	0	2	4	13
+193	__LineOutArgs.StartLoc.X	4	1	416	2	13
+194	__LineOutArgs.StartLoc.Y	4	1	418	2	13
+195	__LineOutArgs.EndLoc	8	0	2	4	13
+196	__LineOutArgs.EndLoc.X	4	1	420	2	13
+197	__LineOutArgs.EndLoc.Y	4	1	422	2	13
+198	__LineOutArgs.Options	5	1	424	4	13
+199	__TextOutArgs	8	0	4	16	108
+200	__TextOutArgs.Result	2	1	428	1	108
+201	__TextOutArgs.Location	8	0	2	4	108
+202	__TextOutArgs.Location.X	4	1	432	2	108
+203	__TextOutArgs.Location.Y	4	1	434	2	108
+204	__TextOutArgs.Text	7	0	436	4	108
+205	__TextOutArgs.Text.Text_type	1	0	0	1	0
+206	__TextOutArgs.Options	5	1	440	4	108
+207	__SPTArgs	8	0	5	8	30
+208	__SPTArgs.Result	2	1	444	1	30
+209	__SPTArgs.Frequency	3	1	446	2	30
+210	__SPTArgs.Duration	3	1	448	2	30
+211	__SPTArgs.Loop	1	1	450	1	30
+212	__SPTArgs.Volume	1	1	451	1	30
+213	__RandomArgs	8	0	1	4	2
+214	__RandomArgs.Result	4	1	452	2	2
+215	__MWArgs	8	0	3	8	6
+216	__MWArgs.Result	2	1	456	1	6
+217	__MWArgs.QueueID	1	1	457	1	6
+218	__MWArgs.Message	7	0	458	4	6
+219	__MWArgs.Message.Message_type	1	0	0	1	0
+220	__constStr0034	7	0	460	4	1
+221	__constStr0034.__constStr0034_type	1	1	0	1	0
+222	__readHighscoreName_7qG2_ARead_7qG2_000	7	0	462	4	9
+223	__readHighscoreName_7qG2_ARead_7qG2_000.__readHighscoreName_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+224	__overwriteHighscoreName_7qG2_temp_7qG2_000	7	0	464	4	2
+225	__overwriteHighscoreName_7qG2_temp_7qG2_000.__overwriteHighscoreName_7qG2_temp_7qG2_000_type	1	0	0	1	0
+226	__constStr0037	7	0	466	4	1
+227	__constStr0037.__constStr0037_type	1	1	0	1	0
+228	__constStr0033	7	0	468	4	6
+229	__constStr0033.__constStr0033_type	1	1	0	1	0
+230	__constStr0036	7	0	470	4	1
+231	__constStr0036.__constStr0036_type	1	1	0	1	0
+232	__endGame_7qG2_temp_7qG2_001	7	0	472	4	2
+233	__endGame_7qG2_temp_7qG2_001.__endGame_7qG2_temp_7qG2_001_type	1	0	0	1	0
+234	__constStr0035	7	0	474	4	1
+235	__constStr0035.__constStr0035_type	1	1	0	1	0
+236	__strretvalendGame	7	0	476	4	12
+237	__strretvalendGame.__strretvalendGame_type	1	0	0	1	0
+238	__strtmpbufkeyboard	7	0	478	4	10
+239	__strtmpbufkeyboard.__strtmpbufkeyboard_type	1	0	0	1	0
+240	__strbufkeyboard	7	0	480	4	53
+241	__strbufkeyboard.__strbufkeyboard_type	1	0	0	1	0
+242	__strbufendGame	7	0	482	4	21
+243	__strbufendGame.__strbufendGame_type	1	0	0	1	0
+244	__strretvaldebugOut	7	0	484	4	40
+245	__strretvaldebugOut.__strretvaldebugOut_type	1	0	0	1	0
+246	__strbufdisplay	7	0	486	4	16
+247	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
+248	__strretvaldisplay	7	0	488	4	2
+249	__strretvaldisplay.__strretvaldisplay_type	1	0	0	1	0
+250	__strretvaloverwriteHighscoreName	7	0	490	4	2
+251	__strretvaloverwriteHighscoreName.__strretvaloverwriteHighscoreName_type	1	0	0	1	0
+252	__strbufreadHighscoreName	7	0	492	4	6
+253	__strbufreadHighscoreName.__strbufreadHighscoreName_type	1	0	0	1	0
+254	layout	7	0	494	4	3
+255	layout.layout_type	1	0	0	1	0
+256	__strbufoverwriteHighscoreName	7	0	496	4	2
+257	__strbufoverwriteHighscoreName.__strbufoverwriteHighscoreName_type	1	0	0	1	0
+258	__strretvalkeyboard	7	0	498	4	10
+259	__strretvalkeyboard.__strretvalkeyboard_type	1	0	0	1	0
+260	__strbufoutput	7	0	500	4	14
+261	__strbufoutput.__strbufoutput_type	1	0	0	1	0
+262	__strretvaloutput	7	0	502	4	2
+263	__strretvaloutput.__strretvaloutput_type	1	0	0	1	0
+264	__strbufdebugOut	7	0	504	4	94
+265	__strbufdebugOut.__strbufdebugOut_type	1	0	0	1	0
+266	__ArrHelper__debugOut_244_0	7	0	506	4	22
+267	__ArrHelper__debugOut_244_0.__ArrHelper__debugOut_244_0_type	1	0	0	1	0
+268	__ArrHelper__debugOut_244_1	7	0	508	4	22
+269	__ArrHelper__debugOut_244_1.__ArrHelper__debugOut_244_1_type	1	0	0	1	0
+270	__ArrHelper__debugOut_244_2	7	0	510	4	22
+271	__ArrHelper__debugOut_244_2.__ArrHelper__debugOut_244_2_type	1	0	0	1	0
+272	__FWriteFlattenBuf	7	0	512	4	6
+273	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+274	__BlankLine	7	0	514	4	6
+275	__BlankLine.__BlankLine_type	1	0	0	1	0
+276	__IOMWFlattenBuf	7	0	516	4	4
+277	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+278	__soTmpBuf	7	0	518	4	4
+279	__soTmpBuf.__soTmpBuf_type	1	0	0	1	0
+280	__ArrHelper__endGame_244_1	7	0	520	4	4
+281	__ArrHelper__endGame_244_1.__ArrHelper__endGame_244_1_type	1	0	0	1	0
+282	__ArrHelper__endGame_244_2	7	0	522	4	2
+283	__ArrHelper__endGame_244_2.__ArrHelper__endGame_244_2_type	1	0	0	1	0
+284	__ArrHelper__endGame_244_3	7	0	524	4	2
+285	__ArrHelper__endGame_244_3.__ArrHelper__endGame_244_3_type	1	0	0	1	0
+286	__ArrHelper__endGame_244_0	7	0	526	4	4
+287	__ArrHelper__endGame_244_0.__ArrHelper__endGame_244_0_type	1	0	0	1	0
+288	__ArrHelper__debugOut_244_3	7	0	528	4	2
+289	__ArrHelper__debugOut_244_3.__ArrHelper__debugOut_244_3_type	1	0	0	1	0
+290	__ArrHelper__keyboard_244_0	7	0	530	4	8
+291	__ArrHelper__keyboard_244_0.__ArrHelper__keyboard_244_0_type	1	0	0	1	0
+292	__ArrHelper__keyboard_244_1	7	0	532	4	4
+293	__ArrHelper__keyboard_244_1.__ArrHelper__keyboard_244_1_type	1	0	0	1	0
+294	__constStr0009	7	0	534	4	1
+295	__constStr0009.__constStr0009_type	1	1	0	1	0
+296	__constStr0025	7	0	536	4	1
+297	__constStr0025.__constStr0025_type	1	1	0	1	0
+298	__constStr0026	7	0	538	4	1
+299	__constStr0026.__constStr0026_type	1	1	0	1	0
+300	__constStr0027	7	0	540	4	1
+301	__constStr0027.__constStr0027_type	1	1	0	1	0
+302	__constStr0024	7	0	542	4	2
+303	__constStr0024.__constStr0024_type	1	1	0	1	0
+304	__constStr0021	7	0	544	4	1
+305	__constStr0021.__constStr0021_type	1	1	0	1	0
+306	__constStr0022	7	0	546	4	1
+307	__constStr0022.__constStr0022_type	1	1	0	1	0
+308	__constStr0023	7	0	548	4	1
+309	__constStr0023.__constStr0023_type	1	1	0	1	0
+310	__keyboard_7qG2_outstring_7qG2_000	7	0	550	4	9
+311	__keyboard_7qG2_outstring_7qG2_000.__keyboard_7qG2_outstring_7qG2_000_type	1	0	0	1	0
+312	__keyboard_7qG2_temp_7qG2_000	7	0	552	4	10
+313	__keyboard_7qG2_temp_7qG2_000.__keyboard_7qG2_temp_7qG2_000_type	1	0	0	1	0
+314	__constStr0032	7	0	554	4	1
+315	__constStr0032.__constStr0032_type	1	1	0	1	0
+316	__constStr0031	7	0	556	4	1
+317	__constStr0031.__constStr0031_type	1	1	0	1	0
+318	__constStr0028	7	0	558	4	1
+319	__constStr0028.__constStr0028_type	1	1	0	1	0
+320	__constStr0029	7	0	560	4	1
+321	__constStr0029.__constStr0029_type	1	1	0	1	0
+322	__constStr0030	7	0	562	4	1
+323	__constStr0030.__constStr0030_type	1	1	0	1	0
+324	__debugOut_7qG2_msg_7qG2_000	7	0	564	4	26
+325	__debugOut_7qG2_msg_7qG2_000.__debugOut_7qG2_msg_7qG2_000_type	1	0	0	1	0
+326	__constStr0014	7	0	566	4	1
+327	__constStr0014.__constStr0014_type	1	1	0	1	0
+328	__constStr0015	7	0	568	4	1
+329	__constStr0015.__constStr0015_type	1	1	0	1	0
+330	__output_7qG2_out_7qG2_000	7	0	570	4	7
+331	__output_7qG2_out_7qG2_000.__output_7qG2_out_7qG2_000_type	1	0	0	1	0
+332	__constStr0013	7	0	572	4	1
+333	__constStr0013.__constStr0013_type	1	1	0	1	0
+334	__constStr0010	7	0	574	4	1
+335	__constStr0010.__constStr0010_type	1	1	0	1	0
+336	__constStr0011	7	0	576	4	1
+337	__constStr0011.__constStr0011_type	1	1	0	1	0
+338	__constStr0012	7	0	578	4	1
+339	__constStr0012.__constStr0012_type	1	1	0	1	0
+340	__constStr0020	7	0	580	4	2
+341	__constStr0020.__constStr0020_type	1	1	0	1	0
+342	__debugOut_7qG2_tmp_7qG2_000	7	0	582	4	2
+343	__debugOut_7qG2_tmp_7qG2_000.__debugOut_7qG2_tmp_7qG2_000_type	1	0	0	1	0
+344	__debugOut_7qG2_out_7qG2_000	7	0	584	4	2
+345	__debugOut_7qG2_out_7qG2_000.__debugOut_7qG2_out_7qG2_000_type	1	0	0	1	0
+346	__constStr0019	7	0	586	4	2
+347	__constStr0019.__constStr0019_type	1	1	0	1	0
+348	__constStr0016	7	0	588	4	7
+349	__constStr0016.__constStr0016_type	1	1	0	1	0
+350	__constStr0017	7	0	590	4	2
+351	__constStr0017.__constStr0017_type	1	1	0	1	0
+352	__constStr0018	7	0	592	4	2
+353	__constStr0018.__constStr0018_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	84	0	#line 84 "C:\Github\NXC_Source\+HighScore.nxc"
+0	85	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	84	2	#line 84 "C:\Github\NXC_Source\+HighScore.nxc"
+0	84	2	#line 84 "C:\Github\NXC_Source\+HighScore.nxc"
+0	85	2		set __main_7qG2_score_7qG2_000, 0
+0	84	5	#line 84 "C:\Github\NXC_Source\+HighScore.nxc"
+0	85	5	#line 85 "C:\Github\NXC_Source\+HighScore.nxc"
+0	86	5		set __main_7qG2_playing_7qG2_000, 1
+0	85	8	#line 85 "C:\Github\NXC_Source\+HighScore.nxc"
+0	87	8	#line 87 "C:\Github\NXC_Source\+HighScore.nxc"
+0	88	8		mov __DU0main, __main_7qG2_playing_7qG2_000
+0	88	10	#line 88 "C:\Github\NXC_Source\+HighScore.nxc"
+0	89	10		tst 5, __D0main, __DU0main
+0	88	13	#line 88 "C:\Github\NXC_Source\+HighScore.nxc"
+0	89	13		brtst 4, __ASM_Label_1117, __D0main
+0	88	16	#line 88 "C:\Github\NXC_Source\+HighScore.nxc"
+0	89	16		set __D0main, 100
+0	88	19	#line 88 "C:\Github\NXC_Source\+HighScore.nxc"
+0	89	19	#pragma macro 7
+0	89	19		syscall 24, __RandomArgs
+0	89	22		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	89	26		mul __RandomTmp, __RandomTmp, __D0main
+0	89	30		div __RandomTmp, __RandomTmp, __constVal65536
+0	89	34		mov __main_7qG2_score_7qG2_000, __RandomTmp
+0	10355	36	#line 10355 "C:\Github\NXC_Source\+HighScore.nxc"
+0	88	36	#line 88 "C:\Github\NXC_Source\+HighScore.nxc"
+0	88	36	#line 88 "C:\Github\NXC_Source\+HighScore.nxc"
+0	89	36	#line 89 "C:\Github\NXC_Source\+HighScore.nxc"
+0	90	36		set __main_7qG2_playing_7qG2_000, 0
+0	89	39	#line 89 "C:\Github\NXC_Source\+HighScore.nxc"
+0	89	39	#line 89 "C:\Github\NXC_Source\+HighScore.nxc"
+0	91	39	#line 91 "C:\Github\NXC_Source\+HighScore.nxc"
+0	92	39		jmp __ASM_Label_1116
+0	91	41	#line 91 "C:\Github\NXC_Source\+HighScore.nxc"
+0	91	41	#line 91 "C:\Github\NXC_Source\+HighScore.nxc"
+0	92	41		mov __endGame_7qG2_myscore_7qG2_000, __main_7qG2_score_7qG2_000
+0	91	43	#line 91 "C:\Github\NXC_Source\+HighScore.nxc"
+0	91	43	#line 91 "C:\Github\NXC_Source\+HighScore.nxc"
+0	92	43		subcall endGame, __endGame_return
+0	91	45	#line 91 "C:\Github\NXC_Source\+HighScore.nxc"
+0	92	45		exit -1, -1
+1	32	0	#line 32 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	33	0		set debugTiming, 0
+1	32	3	#line 32 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	32	3	#line 32 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	34	3	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	35	3		set __display_7qG2_a_7qG2_001, 0
+1	34	6	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	34	6	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	35	6		mov __signed_stack_001display, __display_7qG2_a_7qG2_001
+1	34	8	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	34	8	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	35	8		set __D0display, 40
+1	34	11	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	35	11		cmp 0, __D0display, __signed_stack_001display, __D0display
+1	34	15	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	35	15		brtst 4, __ASM_Label_607, __D0display
+1	34	18	#line 34 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	35	18		jmp __ASM_Label_608
+1	35	20	#line 35 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	36	20		add __display_7qG2_a_7qG2_001, __display_7qG2_a_7qG2_001, __constVal1
+1	36	24	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	24		jmp __ASM_Label_606
+1	36	26	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	26		mov __signed_stack_001display, __display_7qG2_a_7qG2_001
+1	36	28	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	36	28	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	28		index __display_7qG2_layouta_7qG2_000, layout, __signed_stack_001display
+1	36	32	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	36	32	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	36	32	#line 36 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	32	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	32		mov __unsigned_stack_001display, __display_7qG2_layouta_7qG2_000
+1	37	34	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	34	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	34		set __D0display, 97
+1	37	37	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	37		cmp 3, __D0display, __unsigned_stack_001display, __D0display
+1	37	41	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	41		brtst 4, __ASM_Label_619, __D0display
+1	37	44	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	44		mov __unsigned_stack_001display, __display_7qG2_layouta_7qG2_000
+1	37	46	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	46	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	46		set __D0display, 122
+1	37	49	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	49		cmp 2, __D0display, __unsigned_stack_001display, __D0display
+1	37	53	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	53		brtst 4, __ASM_Label_620, __D0display
+1	37	56	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	56		mov __unsigned_stack_001display, __display_7qG2_cptl_7qG2_000
+1	37	58	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	37	58	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	58		set __D0display, 32
+1	37	61	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	61		mul __D0display, __unsigned_stack_001display, __D0display
+1	37	65	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	65		sub __display_7qG2_layouta_7qG2_000, __display_7qG2_layouta_7qG2_000, __D0display
+1	37	69	#line 37 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	69	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	69	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	69		mov __signed_stack_001display, __display_7qG2_a_7qG2_001
+1	38	71	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	71	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	71		set __D0display, 10
+1	38	74	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	74		mod __signed_stack_001display, __signed_stack_001display, __D0display
+1	38	78	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	78	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	78		set __D0display, 10
+1	38	81	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	81		mul __signed_stack_001display, __signed_stack_001display, __D0display
+1	38	85	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	85	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	85		set __D0display, 2
+1	38	88	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	88		add __display_7qG2_outx_7qG2_000, __signed_stack_001display, __D0display
+1	38	92	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	38	92	#line 38 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	92	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	92		set __signed_stack_001display, 56
+1	39	95	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	95	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	95		mov __signed_stack_002display, __display_7qG2_a_7qG2_001
+1	39	97	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	97	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	97		mov __signed_stack_003display, __display_7qG2_a_7qG2_001
+1	39	99	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	99	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	99		set __D0display, 10
+1	39	102	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	102		mod __D0display, __signed_stack_003display, __D0display
+1	39	106	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	106		sub __signed_stack_002display, __signed_stack_002display, __D0display
+1	39	110	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	110	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	110		set __D0display, 10
+1	39	113	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	113		div __signed_stack_002display, __signed_stack_002display, __D0display
+1	39	117	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	117	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	117		set __D0display, 8
+1	39	120	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	120		mul __D0display, __signed_stack_002display, __D0display
+1	39	124	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	124		sub __display_7qG2_outy_7qG2_000, __signed_stack_001display, __D0display
+1	39	128	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	39	128	#line 39 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	128	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	128		mov __signed_stack_001display, __display_7qG2_outx_7qG2_000
+1	40	130	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	130	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	130		mov __signed_stack_002display, __display_7qG2_outy_7qG2_000
+1	40	132	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	132	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	132		flatten __strretvaldisplay, __display_7qG2_layouta_7qG2_000
+1	40	135	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	135		strcat __strbufdisplay, __strretvaldisplay
+1	40	139	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	139		mov __signed_stack_003display, __display_7qG2_a_7qG2_001
+1	40	141	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	141	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	141		mov __signed_stack_004display, __display_7qG2_y_7qG2_000
+1	40	143	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	143	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	143		set __D0display, 10
+1	40	146	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	146		mul __signed_stack_004display, __signed_stack_004display, __D0display
+1	40	150	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	150	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	40	150	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	150		add __D0display, __signed_stack_004display, __display_7qG2_x_7qG2_000
+1	40	154	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	154		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	40	158	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	158		mov __signed_stack_003display, __D0display
+1	40	160	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	160		set __D0display, 4
+1	40	163	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	163		mul __D0display, __signed_stack_003display, __D0display
+1	40	167	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	167		acquire __TextOutMutex
+1	40	168	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	168		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	40	171	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	171		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	40	174	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	174		mov __TextOutArgs.Options, __D0display
+1	40	177	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	177		mov __TextOutArgs.Text, __strbufdisplay
+1	40	179	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	179		syscall 13, __TextOutArgs
+1	40	182	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	182		mov __D0display, __TextOutArgs.Result
+1	40	185	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	41	185		release __TextOutMutex
+1	40	186	#line 40 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	43	186	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	186		jmp __ASM_Label_609
+1	43	188	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	43	188	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	188		set __signed_stack_001display, 4
+1	43	191	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	43	191	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	191		set __signed_stack_002display, 24
+1	43	194	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	43	194	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	194		strcat __strbufdisplay, __constStr0009
+1	43	198	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	198		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	43	200	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	43	200	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	200		set __D0display, 4
+1	43	203	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	203		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	43	207	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	207		brtst 4, __ASM_Label_650, __D0display
+1	43	210	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	210		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	43	212	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	43	212	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	212		set __D0display, 0
+1	43	215	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	215		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	43	219	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	219		mov __signed_stack_003display, __D0display
+1	43	221	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	221		set __D0display, 4
+1	43	224	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	224		mul __D0display, __signed_stack_003display, __D0display
+1	43	228	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	228		acquire __TextOutMutex
+1	43	229	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	229		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	43	232	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	232		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	43	235	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	235		mov __TextOutArgs.Options, __D0display
+1	43	238	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	238		mov __TextOutArgs.Text, __strbufdisplay
+1	43	240	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	240		syscall 13, __TextOutArgs
+1	43	243	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	243		mov __D0display, __TextOutArgs.Result
+1	43	246	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	246		release __TextOutMutex
+1	43	247	#line 43 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	247	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	247		mov __DU0display, __display_7qG2_cptl_7qG2_000
+1	44	249	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	249		tst 5, __D0display, __DU0display
+1	44	252	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	252		brtst 4, __ASM_Label_653, __D0display
+1	44	255	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	255		set __signed_stack_001display, 24
+1	44	258	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	258	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	258		set __signed_stack_002display, 24
+1	44	261	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	261	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	261		strcat __strbufdisplay, __constStr0010
+1	44	265	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	265		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	44	267	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	267	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	267		set __D0display, 4
+1	44	270	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	270		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	44	274	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	274		brtst 4, __ASM_Label_661, __D0display
+1	44	277	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	277		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	44	279	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	44	279	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	279		set __D0display, 1
+1	44	282	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	282		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	44	286	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	286		mov __signed_stack_003display, __D0display
+1	44	288	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	288		set __D0display, 4
+1	44	291	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	291		mul __D0display, __signed_stack_003display, __D0display
+1	44	295	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	295		acquire __TextOutMutex
+1	44	296	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	296		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	44	299	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	299		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	44	302	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	302		mov __TextOutArgs.Options, __D0display
+1	44	305	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	305		mov __TextOutArgs.Text, __strbufdisplay
+1	44	307	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	307		syscall 13, __TextOutArgs
+1	44	310	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	310		mov __D0display, __TextOutArgs.Result
+1	44	313	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	313		release __TextOutMutex
+1	44	314	#line 44 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	314	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	314		jmp __ASM_Label_662
+1	45	316	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	316		set __signed_stack_001display, 24
+1	45	319	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	319	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	319		set __signed_stack_002display, 24
+1	45	322	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	322	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	322		strcat __strbufdisplay, __constStr0011
+1	45	326	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	326		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	45	328	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	328	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	328		set __D0display, 4
+1	45	331	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	331		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	45	335	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	335		brtst 4, __ASM_Label_670, __D0display
+1	45	338	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	338		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	45	340	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	340	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	340		set __D0display, 1
+1	45	343	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	343		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	45	347	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	347		mov __signed_stack_003display, __D0display
+1	45	349	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	349		set __D0display, 4
+1	45	352	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	352		mul __D0display, __signed_stack_003display, __D0display
+1	45	356	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	356		acquire __TextOutMutex
+1	45	357	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	357		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	45	360	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	360		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	45	363	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	363		mov __TextOutArgs.Options, __D0display
+1	45	366	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	366		mov __TextOutArgs.Text, __strbufdisplay
+1	45	368	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	368		syscall 13, __TextOutArgs
+1	45	371	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	371		mov __D0display, __TextOutArgs.Result
+1	45	374	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	374		release __TextOutMutex
+1	45	375	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	45	375	#line 45 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	375	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	375		set __signed_stack_001display, 44
+1	46	378	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	378	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	378		set __signed_stack_002display, 24
+1	46	381	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	381	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	381		strcat __strbufdisplay, __constStr0012
+1	46	385	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	385		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	46	387	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	387	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	387		set __D0display, 4
+1	46	390	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	390		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	46	394	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	394		brtst 4, __ASM_Label_678, __D0display
+1	46	397	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	397		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	46	399	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	46	399	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	399		set __D0display, 2
+1	46	402	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	402		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	46	406	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	406		mov __signed_stack_003display, __D0display
+1	46	408	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	408		set __D0display, 4
+1	46	411	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	411		mul __D0display, __signed_stack_003display, __D0display
+1	46	415	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	415		acquire __TextOutMutex
+1	46	416	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	416		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	46	419	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	419		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	46	422	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	422		mov __TextOutArgs.Options, __D0display
+1	46	425	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	425		mov __TextOutArgs.Text, __strbufdisplay
+1	46	427	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	427		syscall 13, __TextOutArgs
+1	46	430	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	430		mov __D0display, __TextOutArgs.Result
+1	46	433	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	433		release __TextOutMutex
+1	46	434	#line 46 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	434	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	434		mov __DU0display, __display_7qG2_snd_7qG2_000
+1	47	436	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	436		tst 5, __D0display, __DU0display
+1	47	439	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	439		brtst 4, __ASM_Label_681, __D0display
+1	47	442	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	442		set __signed_stack_001display, 64
+1	47	445	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	445	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	445		set __signed_stack_002display, 24
+1	47	448	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	448	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	448		strcat __strbufdisplay, __constStr0013
+1	47	452	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	452		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	47	454	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	454	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	454		set __D0display, 4
+1	47	457	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	457		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	47	461	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	461		brtst 4, __ASM_Label_689, __D0display
+1	47	464	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	464		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	47	466	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	47	466	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	466		set __D0display, 3
+1	47	469	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	469		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	47	473	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	473		mov __signed_stack_003display, __D0display
+1	47	475	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	475		set __D0display, 4
+1	47	478	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	478		mul __D0display, __signed_stack_003display, __D0display
+1	47	482	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	482		acquire __TextOutMutex
+1	47	483	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	483		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	47	486	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	486		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	47	489	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	489		mov __TextOutArgs.Options, __D0display
+1	47	492	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	492		mov __TextOutArgs.Text, __strbufdisplay
+1	47	494	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	494		syscall 13, __TextOutArgs
+1	47	497	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	497		mov __D0display, __TextOutArgs.Result
+1	47	500	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	500		release __TextOutMutex
+1	47	501	#line 47 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	501	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	501		jmp __ASM_Label_690
+1	48	503	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	503		set __signed_stack_001display, 64
+1	48	506	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	506	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	506		set __signed_stack_002display, 24
+1	48	509	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	509	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	509		strcat __strbufdisplay, __constStr0014
+1	48	513	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	513		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	48	515	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	515	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	515		set __D0display, 4
+1	48	518	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	518		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	48	522	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	522		brtst 4, __ASM_Label_698, __D0display
+1	48	525	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	525		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	48	527	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	527	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	527		set __D0display, 3
+1	48	530	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	530		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	48	534	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	534		mov __signed_stack_003display, __D0display
+1	48	536	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	536		set __D0display, 4
+1	48	539	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	539		mul __D0display, __signed_stack_003display, __D0display
+1	48	543	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	543		acquire __TextOutMutex
+1	48	544	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	544		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	48	547	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	547		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	48	550	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	550		mov __TextOutArgs.Options, __D0display
+1	48	553	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	553		mov __TextOutArgs.Text, __strbufdisplay
+1	48	555	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	555		syscall 13, __TextOutArgs
+1	48	558	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	558		mov __D0display, __TextOutArgs.Result
+1	48	561	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	561		release __TextOutMutex
+1	48	562	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	48	562	#line 48 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	562	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	562		set __signed_stack_001display, 80
+1	49	565	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	565	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	565		set __signed_stack_002display, 24
+1	49	568	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	568	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	568		strcat __strbufdisplay, __constStr0015
+1	49	572	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	572		mov __signed_stack_003display, __display_7qG2_y_7qG2_000
+1	49	574	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	574	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	574		set __D0display, 4
+1	49	577	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	577		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	49	581	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	581		brtst 4, __ASM_Label_706, __D0display
+1	49	584	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	584		mov __signed_stack_003display, __display_7qG2_x_7qG2_000
+1	49	586	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	49	586	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	586		set __D0display, 4
+1	49	589	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	589		cmp 4, __D0display, __signed_stack_003display, __D0display
+1	49	593	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	593		mov __signed_stack_003display, __D0display
+1	49	595	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	595		set __D0display, 4
+1	49	598	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	598		mul __D0display, __signed_stack_003display, __D0display
+1	49	602	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	602		acquire __TextOutMutex
+1	49	603	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	603		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	49	606	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	606		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	49	609	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	609		mov __TextOutArgs.Options, __D0display
+1	49	612	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	612		mov __TextOutArgs.Text, __strbufdisplay
+1	49	614	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	614		syscall 13, __TextOutArgs
+1	49	617	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	617		mov __D0display, __TextOutArgs.Result
+1	49	620	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	620		release __TextOutMutex
+1	49	621	#line 49 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	621	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	621		set __signed_stack_001display, 94
+1	50	624	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	624	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	624		set __signed_stack_002display, 24
+1	50	627	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	627	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	627		mov __unsigned_stack_003display, ms
+1	50	629	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	629	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	629		set __D0display, 20
+1	50	632	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	632		add __signed_stack_003display, __unsigned_stack_003display, __D0display
+1	50	636	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	636	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	636		gettick __unsigned_stack_004display
+1	50	638	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	638	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	638		set __D0display, 100
+1	50	641	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	641		div __D0display, __unsigned_stack_004display, __D0display
+1	50	645	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	645		sub __signed_stack_003display, __signed_stack_003display, __D0display
+1	50	649	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	649	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	649	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	649		div __float_stack_003display, __signed_stack_003display, __constValf6P6666666667
+1	50	653	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	653	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	653		mov __DF0display, __constVal1
+1	50	655	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	655		add __float_stack_003display, __float_stack_003display, __DF0display
+1	50	659	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	659	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	659		mov __DF0display, __constVal0
+1	50	661	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	661		acquire __TextOutMutex
+1	50	662	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	662		mov __TextOutArgs.Location.X, __signed_stack_001display
+1	50	665	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	665		mov __TextOutArgs.Location.Y, __signed_stack_002display
+1	50	668	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	668		mov __TextOutArgs.Options, __DF0display
+1	50	671	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	671		numtostr __TextOutArgs.Text, __float_stack_003display
+1	50	674	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	674		syscall 13, __TextOutArgs
+1	50	677	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	677		mov __D0display, __TextOutArgs.Result
+1	50	680	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	51	680		release __TextOutMutex
+1	50	681	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	50	681	#line 50 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	681	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	681		set __signed_stack_001display, 0
+1	52	684	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	684	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	684		set __signed_stack_002display, 24
+1	52	687	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	687	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	687		set __signed_stack_003display, 99
+1	52	690	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	690	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	690		set __signed_stack_004display, 24
+1	52	693	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	693	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	693		set __D0display, 0
+1	52	696	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	696	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	696		mov __LineOutArgs.StartLoc.X, __signed_stack_001display
+1	52	699	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	699		mov __LineOutArgs.StartLoc.Y, __signed_stack_002display
+1	52	702	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	702		mov __LineOutArgs.EndLoc.X, __signed_stack_003display
+1	52	705	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	705		mov __LineOutArgs.EndLoc.Y, __signed_stack_004display
+1	52	708	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	708		mov __LineOutArgs.Options, __D0display
+1	52	711	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	711		syscall 15, __LineOutArgs
+1	52	714	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	714	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	52	714	#line 52 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	714	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	714		set __signed_stack_001display, 0
+1	53	717	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	717	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	717		set __signed_stack_002display, 15
+1	53	720	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	720	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	720		set __signed_stack_003display, 99
+1	53	723	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	723	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	723		set __signed_stack_004display, 15
+1	53	726	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	726	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	726		set __D0display, 0
+1	53	729	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	729	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	729		mov __LineOutArgs.StartLoc.X, __signed_stack_001display
+1	53	732	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	732		mov __LineOutArgs.StartLoc.Y, __signed_stack_002display
+1	53	735	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	735		mov __LineOutArgs.EndLoc.X, __signed_stack_003display
+1	53	738	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	738		mov __LineOutArgs.EndLoc.Y, __signed_stack_004display
+1	53	741	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	741		mov __LineOutArgs.Options, __D0display
+1	53	744	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	744		syscall 15, __LineOutArgs
+1	53	747	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	54	747		mov __D0display, __LineOutArgs.Result
+1	53	750	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	53	750	#line 53 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	57	750	#line 57 "C:\Github\NXC_Source\.\+TextInput.nxc"
+1	58	750		subret __display_return
+2	59	0	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	0		mov __signed_stack_001output, __output_7qG2_y_7qG2_000
+2	59	2	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	59	2	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	2		set __D0output, 4
+2	59	5	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	5		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	59	9	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	9		brtst 4, __ASM_Label_738, __D0output
+2	59	12	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	12		mov __signed_stack_001output, __output_7qG2_x_7qG2_000
+2	59	14	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	59	14	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	14		set __D0output, 4
+2	59	17	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	17		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	59	21	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	21		brtst 4, __ASM_Label_739, __D0output
+2	59	24	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	24		gettick __unsigned_stack_001output
+2	59	26	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	59	26	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	26		set __D0output, 100
+2	59	29	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	29		div ms, __unsigned_stack_001output, __D0output
+2	59	33	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	59	33	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	59	33	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	59	33	#line 59 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	60	33	#line 60 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	61	33		strcat __strbufoutput, __constStr0016
+2	60	37	#line 60 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	61	37		mov __output_7qG2_out_7qG2_000, __strbufoutput
+2	61	39	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	62	39		mov __unsigned_stack_001output, ms
+2	61	41	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	61	41	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	62	41		set __D0output, 20
+2	61	44	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	62	44		add __signed_stack_001output, __unsigned_stack_001output, __D0output
+2	61	48	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	61	48	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	62	48		gettick __unsigned_stack_002output
+2	61	50	#line 61 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	62	50	#line 62 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	63	50		set __D0output, 100
+2	62	53	#line 62 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	63	53		div __D0output, __unsigned_stack_002output, __D0output
+2	62	57	#line 62 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	63	57		cmp 2, __D0output, __signed_stack_001output, __D0output
+2	63	61	#line 63 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	64	61		brtst 4, __ASM_Label_744, __D0output
+2	63	64	#line 63 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	64	64		mov __signed_stack_001output, __output_7qG2_y_7qG2_000
+2	63	66	#line 63 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	64	66	#line 64 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	65	66		set __D0output, 4
+2	64	69	#line 64 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	65	69		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	65	73	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	73		brtst 4, __ASM_Label_747, __D0output
+2	65	76	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	76		mov __signed_stack_001output, __output_7qG2_x_7qG2_000
+2	65	78	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	65	78	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	78		set __D0output, 0
+2	65	81	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	81		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	65	85	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	85		brtst 4, __ASM_Label_750, __D0output
+2	65	88	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	88		strcat __strbufoutput, __constStr0017
+2	65	92	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	92		mov __output_7qG2_out_7qG2_000, __strbufoutput
+2	65	94	#line 65 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	94	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	94		jmp __ASM_Label_751
+2	66	96	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	96		mov __signed_stack_001output, __output_7qG2_x_7qG2_000
+2	66	98	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	66	98	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	98		set __D0output, 1
+2	66	101	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	101		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	66	105	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	105		brtst 4, __ASM_Label_754, __D0output
+2	66	108	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	108		strcat __strbufoutput, __constStr0018
+2	66	112	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	112		mov __output_7qG2_out_7qG2_000, __strbufoutput
+2	66	114	#line 66 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	114	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	114		jmp __ASM_Label_755
+2	67	116	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	116		mov __signed_stack_001output, __output_7qG2_x_7qG2_000
+2	67	118	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	67	118	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	118		set __D0output, 2
+2	67	121	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	121		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	67	125	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	125		brtst 4, __ASM_Label_758, __D0output
+2	67	128	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	128		strcat __strbufoutput, __constStr0019
+2	67	132	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	132		mov __output_7qG2_out_7qG2_000, __strbufoutput
+2	67	134	#line 67 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	134	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	134		jmp __ASM_Label_759
+2	68	136	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	136		mov __signed_stack_001output, __output_7qG2_x_7qG2_000
+2	68	138	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	68	138	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	138		set __D0output, 3
+2	68	141	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	141		cmp 4, __D0output, __signed_stack_001output, __D0output
+2	68	145	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	145		brtst 4, __ASM_Label_762, __D0output
+2	68	148	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	148		strcat __strbufoutput, __constStr0020
+2	68	152	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	69	152		mov __output_7qG2_out_7qG2_000, __strbufoutput
+2	68	154	#line 68 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	70	154	#line 70 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	70	154	#line 70 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	70	154	#line 70 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	70	154	#line 70 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	72	154	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	154		jmp __ASM_Label_763
+2	72	156	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	156		mov __signed_stack_001output, __output_7qG2_y_7qG2_000
+2	72	158	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	72	158	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	158		set __D0output, 10
+2	72	161	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	161		mul __signed_stack_001output, __signed_stack_001output, __D0output
+2	72	165	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	72	165	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	72	165	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	165		add __signed_stack_001output, __signed_stack_001output, __output_7qG2_x_7qG2_000
+2	72	169	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	72	169	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	169		index __output_7qG2_layoutn_7qG2_002, layout, __signed_stack_001output
+2	72	173	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	72	173	#line 72 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	173	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	173		mov __unsigned_stack_001output, __output_7qG2_layoutn_7qG2_002
+2	73	175	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	175	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	175		set __D0output, 97
+2	73	178	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	178		cmp 3, __D0output, __unsigned_stack_001output, __D0output
+2	73	182	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	182		brtst 4, __ASM_Label_769, __D0output
+2	73	185	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	185		mov __unsigned_stack_001output, __output_7qG2_layoutn_7qG2_002
+2	73	187	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	187	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	187		set __D0output, 122
+2	73	190	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	190		cmp 2, __D0output, __unsigned_stack_001output, __D0output
+2	73	194	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	194		brtst 4, __ASM_Label_770, __D0output
+2	73	197	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	197		mov __unsigned_stack_001output, __output_7qG2_cptl_7qG2_000
+2	73	199	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	73	199	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	199		set __D0output, 32
+2	73	202	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	202		mul __D0output, __unsigned_stack_001output, __D0output
+2	73	206	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	206		sub __output_7qG2_layoutn_7qG2_002, __output_7qG2_layoutn_7qG2_002, __D0output
+2	73	210	#line 73 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	210	#line 74 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	74	210	#line 74 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	75	210		flatten __strretvaloutput, __output_7qG2_layoutn_7qG2_002
+2	74	213	#line 74 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	75	213		strcat __strbufoutput, __strretvaloutput
+2	74	217	#line 74 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	75	217		mov __output_7qG2_out_7qG2_000, __strbufoutput
+2	74	219	#line 74 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	76	219	#line 76 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	76	219	#line 76 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	77	219		set debugTiming, 1
+2	76	222	#line 76 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	76	222	#line 76 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	77	222	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	78	222		gettick __unsigned_stack_001output
+2	77	224	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	77	224	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	78	224		set __D0output, 100
+2	77	227	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	78	227		div ms, __unsigned_stack_001output, __D0output
+2	77	231	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	77	231	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	77	231	#line 77 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	79	231	#line 79 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	79	231	#line 79 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	80	231		strcat __strbufoutput, __output_7qG2_out_7qG2_000
+2	79	235	#line 79 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	80	235		subret __output_return
+2	79	237	#line 79 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	82	237	#line 82 "C:\Github\NXC_Source\.\+TextInput.nxc"
+2	83	237		subret __output_return
+3	84	0	#line 84 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	85	0		strcat __strbufdebugOut, __constStr0016
+3	84	4	#line 84 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	85	4		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	85	6	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	6		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	85	10	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	10		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	85	12	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	12		strcat __strbufdebugOut, __constStr0021
+3	85	16	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	16		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	85	18	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	18		mov __DU0debugOut, ms
+3	85	20	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	20		numtostr __strretvaldebugOut, __DU0debugOut
+3	85	23	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	23		strcat __strbufdebugOut, __strretvaldebugOut
+3	85	27	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	27		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	85	29	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	29		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	85	35	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	35		strcat __strbufdebugOut, __strretvaldebugOut
+3	85	39	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	39		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	85	41	#line 85 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	86	41	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	41		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	86	45	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	45		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	86	47	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	47		strcat __strbufdebugOut, __constStr0022
+3	86	51	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	51		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	86	53	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	53		set __D0debugOut, 20
+3	86	56	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	56		numtostr __strretvaldebugOut, __D0debugOut
+3	86	59	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	59		strcat __strbufdebugOut, __strretvaldebugOut
+3	86	63	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	63		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	86	65	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	65		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	86	71	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	71		strcat __strbufdebugOut, __strretvaldebugOut
+3	86	75	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	75		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	86	77	#line 86 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	77	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	77		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	87	81	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	81		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	87	83	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	83		strcat __strbufdebugOut, __constStr0023
+3	87	87	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	87		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	87	89	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	89		gettick __unsigned_stack_001debugOut
+3	87	91	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	91	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	91		set __D0debugOut, 100
+3	87	94	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	94		div __D0debugOut, __unsigned_stack_001debugOut, __D0debugOut
+3	87	98	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	98		numtostr __strretvaldebugOut, __D0debugOut
+3	87	101	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	101		strcat __strbufdebugOut, __strretvaldebugOut
+3	87	105	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	105		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	87	107	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	107		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	87	113	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	113		strcat __strbufdebugOut, __strretvaldebugOut
+3	87	117	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	117		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	87	119	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	87	119	#line 87 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	88	119	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	119		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	88	123	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	123		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	88	125	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	125		strcat __strbufdebugOut, __constStr0024
+3	88	129	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	129		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	88	131	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	131		mov __DU0debugOut, debugTiming
+3	88	133	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	133		numtostr __strretvaldebugOut, __DU0debugOut
+3	88	136	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	136		strcat __strbufdebugOut, __strretvaldebugOut
+3	88	140	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	140		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	88	142	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	142		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	88	148	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	148		strcat __strbufdebugOut, __strretvaldebugOut
+3	88	152	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	152		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	88	154	#line 88 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	89	154	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	154		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	89	158	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	158		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	89	160	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	160		strcat __strbufdebugOut, __constStr0025
+3	89	164	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	164		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	89	166	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	166		strcat __strbufdebugOut, __debugOut_7qG2_tmp_7qG2_000
+3	89	170	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	170		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	89	172	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	172		strcat __strbufdebugOut, __constStr0026
+3	89	176	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	176		mov __ArrHelper__debugOut_244_3, __strbufdebugOut
+3	89	178	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	178		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2, __ArrHelper__debugOut_244_3
+3	89	185	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	185		strcat __strbufdebugOut, __strretvaldebugOut
+3	89	189	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	189		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	89	191	#line 89 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	191	#line 90 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	91	191	#pragma macro 6
+3	91	191		add __MWArgs.QueueID, __constVal9, __constVal10
+3	91	195		mov __MWArgs.Message, __debugOut_7qG2_msg_7qG2_000
+3	91	197		syscall 26, __MWArgs
+3	8418	200	#line 8418 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	200	#line 90 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	90	200	#line 90 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	91	200	#line 91 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	92	200		set __Wait_7qG2_ms_7qG2_000_inline_debugOut, 60
+3	91	203	#line 91 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	8771	203	#line 8771 "NXCDefs.h"
+3	8772	203		waitv __Wait_7qG2_ms_7qG2_000_inline_debugOut
+3	8771	205	#line 8771 "NXCDefs.h"
+3	91	205	#line 91 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	92	205	#line 92 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	93	205		strcat __strbufdebugOut, __constStr0016
+3	92	209	#line 92 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	93	209		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	92	211	#line 92 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	93	211	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	211		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	93	215	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	215		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	93	217	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	217		strcat __strbufdebugOut, __constStr0027
+3	93	221	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	221		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	93	223	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	223		mov __D0debugOut, __debugOut_7qG2_oknotpressed_7qG2_000
+3	93	225	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	225		numtostr __strretvaldebugOut, __D0debugOut
+3	93	228	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	228		strcat __strbufdebugOut, __strretvaldebugOut
+3	93	232	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	232		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	93	234	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	234		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	93	240	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	240		strcat __strbufdebugOut, __strretvaldebugOut
+3	93	244	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	244		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	93	246	#line 93 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	94	246	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	246		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	94	250	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	250		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	94	252	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	252		strcat __strbufdebugOut, __constStr0028
+3	94	256	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	256		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	94	258	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	258		mov __D0debugOut, __debugOut_7qG2_snd_7qG2_000
+3	94	260	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	260		numtostr __strretvaldebugOut, __D0debugOut
+3	94	263	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	263		strcat __strbufdebugOut, __strretvaldebugOut
+3	94	267	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	267		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	94	269	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	269		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	94	275	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	275		strcat __strbufdebugOut, __strretvaldebugOut
+3	94	279	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	279		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	94	281	#line 94 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	95	281	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	281		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	95	285	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	285		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	95	287	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	287		strcat __strbufdebugOut, __constStr0029
+3	95	291	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	291		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	95	293	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	293		mov __D0debugOut, __debugOut_7qG2_x_7qG2_000
+3	95	295	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	295		numtostr __strretvaldebugOut, __D0debugOut
+3	95	298	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	298		strcat __strbufdebugOut, __strretvaldebugOut
+3	95	302	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	302		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	95	304	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	304		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	95	310	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	310		strcat __strbufdebugOut, __strretvaldebugOut
+3	95	314	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	314		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	95	316	#line 95 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	96	316	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	316		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	96	320	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	320		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	96	322	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	322		strcat __strbufdebugOut, __constStr0030
+3	96	326	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	326		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	96	328	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	328		mov __D0debugOut, __debugOut_7qG2_y_7qG2_000
+3	96	330	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	330		numtostr __strretvaldebugOut, __D0debugOut
+3	96	333	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	333		strcat __strbufdebugOut, __strretvaldebugOut
+3	96	337	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	337		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	96	339	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	339		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	96	345	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	345		strcat __strbufdebugOut, __strretvaldebugOut
+3	96	349	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	349		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	96	351	#line 96 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	97	351	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	351		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	97	355	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	355		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	97	357	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	357		strcat __strbufdebugOut, __constStr0031
+3	97	361	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	361		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	97	363	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	363		mov __D0debugOut, __debugOut_7qG2_lasty_7qG2_000
+3	97	365	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	365		numtostr __strretvaldebugOut, __D0debugOut
+3	97	368	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	368		strcat __strbufdebugOut, __strretvaldebugOut
+3	97	372	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	372		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	97	374	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	374		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	97	380	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	380		strcat __strbufdebugOut, __strretvaldebugOut
+3	97	384	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	384		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	97	386	#line 97 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	98	386	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	386		strcat __strbufdebugOut, __debugOut_7qG2_msg_7qG2_000
+3	98	390	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	390		mov __ArrHelper__debugOut_244_0, __strbufdebugOut
+3	98	392	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	392		strcat __strbufdebugOut, __constStr0024
+3	98	396	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	396		mov __ArrHelper__debugOut_244_1, __strbufdebugOut
+3	98	398	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	398		strcat __strbufdebugOut, __debugOut_7qG2_out_7qG2_000
+3	98	402	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	402		mov __ArrHelper__debugOut_244_2, __strbufdebugOut
+3	98	404	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	404		strcat __strretvaldebugOut, __ArrHelper__debugOut_244_0, __ArrHelper__debugOut_244_1, __ArrHelper__debugOut_244_2
+3	98	410	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	410		strcat __strbufdebugOut, __strretvaldebugOut
+3	98	414	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	414		mov __debugOut_7qG2_msg_7qG2_000, __strbufdebugOut
+3	98	416	#line 98 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	416	#line 99 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	100	416	#pragma macro 6
+3	100	416		add __MWArgs.QueueID, __constVal9, __constVal10
+3	100	420		mov __MWArgs.Message, __debugOut_7qG2_msg_7qG2_000
+3	100	422		syscall 26, __MWArgs
+3	8619	425	#line 8619 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	425	#line 99 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	99	425	#line 99 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	100	425	#line 100 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	101	425		set __Wait_7qG2_ms_7qG2_000_inline_debugOut, 60
+3	100	428	#line 100 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	8771	428	#line 8771 "NXCDefs.h"
+3	8772	428		waitv __Wait_7qG2_ms_7qG2_000_inline_debugOut
+3	8771	430	#line 8771 "NXCDefs.h"
+3	100	430	#line 100 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	104	430	#line 104 "C:\Github\NXC_Source\.\+TextInput.nxc"
+3	105	430		subret __debugOut_return
+4	108	0	#line 108 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	109	0		mov __DU0senseButtonModded, __senseButtonModded_7qG2_lr_ud_7qG2_000
+4	109	2	#line 109 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	110	2		tst 5, __D0senseButtonModded, __DU0senseButtonModded
+4	109	5	#line 109 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	110	5		brtst 4, __ASM_Label_801, __D0senseButtonModded
+4	109	8	#line 109 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	110	8		set __senseButtonModded_7qG2_lu_7qG2_000, 2
+4	109	11	#line 109 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	109	11	#line 109 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	110	11	#line 110 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	111	11		set __senseButtonModded_7qG2_rd_7qG2_000, 1
+4	110	14	#line 110 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	110	14	#line 110 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	111	14	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	14		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_currentrow_7qG2_000
+4	111	16	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	111	16	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	16		set __D0senseButtonModded, 4
+4	111	19	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	19		cmp 4, __D0senseButtonModded, __signed_stack_001senseButtonModded, __D0senseButtonModded
+4	111	23	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	23		brtst 4, __ASM_Label_808, __D0senseButtonModded
+4	111	26	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	26		set __senseButtonModded_7qG2_colrow_7qG2_000, 5
+4	111	29	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	111	29	#line 111 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	29	#line 112 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	113	29		jmp __ASM_Label_811
+4	112	31	#line 112 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	113	31		set __senseButtonModded_7qG2_colrow_7qG2_000, 10
+4	112	34	#line 112 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	34	#line 112 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	112	34	#line 112 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	116	34	#line 116 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	117	34		jmp __ASM_Label_814
+4	116	36	#line 116 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	117	36		set __senseButtonModded_7qG2_lu_7qG2_000, 3
+4	116	39	#line 116 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	116	39	#line 116 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	117	39	#line 117 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	118	39		set __senseButtonModded_7qG2_rd_7qG2_000, 0
+4	117	42	#line 117 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	117	42	#line 117 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	118	42	#line 118 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	119	42		set __senseButtonModded_7qG2_colrow_7qG2_000, 4
+4	118	45	#line 118 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	118	45	#line 118 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	45	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	45	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	45		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_lu_7qG2_000
+4	120	47	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	47	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	47		mov __D0senseButtonModded, __constVal0
+4	120	49	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	49	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	49		mov __RBtnArgs.Index, __signed_stack_001senseButtonModded
+4	120	52	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	52		mov __RBtnArgs.Reset, __D0senseButtonModded
+4	120	55	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	55		syscall 20, __RBtnArgs
+4	120	58	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	58		mov __D0senseButtonModded, __RBtnArgs.Pressed
+4	120	61	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	61	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	61		tst 5, __D0senseButtonModded, __D0senseButtonModded
+4	120	64	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	64		brtst 4, __ASM_Label_825, __D0senseButtonModded
+4	120	67	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	67		sub __senseButtonModded_7qG2_val_7qG2_000, __senseButtonModded_7qG2_val_7qG2_000, __constVal1
+4	120	71	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	71	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	71		gettick __unsigned_stack_001senseButtonModded
+4	120	73	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	73	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	73		set __D0senseButtonModded, 100
+4	120	76	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	76		div ms, __unsigned_stack_001senseButtonModded, __D0senseButtonModded
+4	120	80	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	80	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	120	80	#line 120 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	80	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	80	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	80		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_lu_7qG2_000
+4	121	82	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	82	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	82		mov __D0senseButtonModded, __constVal0
+4	121	84	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	84	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	84		mov __RBtnArgs.Index, __signed_stack_001senseButtonModded
+4	121	87	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	87		mov __RBtnArgs.Reset, __D0senseButtonModded
+4	121	90	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	90		syscall 20, __RBtnArgs
+4	121	93	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	93		mov __signed_stack_001senseButtonModded, __RBtnArgs.Pressed
+4	121	96	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	96	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	121	96	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	96		set __D0senseButtonModded, 0
+4	121	99	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	99		cmp 4, __D0senseButtonModded, __signed_stack_001senseButtonModded, __D0senseButtonModded
+4	121	103	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	103		not __D0senseButtonModded, __D0senseButtonModded
+4	121	106	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	106		tst 5, __D0senseButtonModded, __D0senseButtonModded
+4	121	109	#line 121 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	109		brtst 4, __ASM_Label_829, __D0senseButtonModded
+4	122	112	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	112		jmp __ASM_Label_828
+4	122	114	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	114	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	114		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_rd_7qG2_000
+4	122	116	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	116	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	116		mov __D0senseButtonModded, __constVal0
+4	122	118	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	118	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	118		mov __RBtnArgs.Index, __signed_stack_001senseButtonModded
+4	122	121	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	121		mov __RBtnArgs.Reset, __D0senseButtonModded
+4	122	124	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	124		syscall 20, __RBtnArgs
+4	122	127	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	127		mov __D0senseButtonModded, __RBtnArgs.Pressed
+4	122	130	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	130	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	130		tst 5, __D0senseButtonModded, __D0senseButtonModded
+4	122	133	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	133		brtst 4, __ASM_Label_840, __D0senseButtonModded
+4	122	136	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	136		add __senseButtonModded_7qG2_val_7qG2_000, __senseButtonModded_7qG2_val_7qG2_000, __constVal1
+4	122	140	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	140	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	140		gettick __unsigned_stack_001senseButtonModded
+4	122	142	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	142	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	142		set __D0senseButtonModded, 100
+4	122	145	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	145		div ms, __unsigned_stack_001senseButtonModded, __D0senseButtonModded
+4	122	149	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	149	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	122	149	#line 122 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	149	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	149	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	149		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_rd_7qG2_000
+4	123	151	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	151	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	151		mov __D0senseButtonModded, __constVal0
+4	123	153	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	153	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	153		mov __RBtnArgs.Index, __signed_stack_001senseButtonModded
+4	123	156	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	156		mov __RBtnArgs.Reset, __D0senseButtonModded
+4	123	159	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	159		syscall 20, __RBtnArgs
+4	123	162	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	162		mov __signed_stack_001senseButtonModded, __RBtnArgs.Pressed
+4	123	165	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	165	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	123	165	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	165		set __D0senseButtonModded, 0
+4	123	168	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	168		cmp 4, __D0senseButtonModded, __signed_stack_001senseButtonModded, __D0senseButtonModded
+4	123	172	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	172		not __D0senseButtonModded, __D0senseButtonModded
+4	123	175	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	175		tst 5, __D0senseButtonModded, __D0senseButtonModded
+4	123	178	#line 123 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	178		brtst 4, __ASM_Label_844, __D0senseButtonModded
+4	124	181	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	181		jmp __ASM_Label_843
+4	124	183	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	183	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	183		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_val_7qG2_000
+4	124	185	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	185	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	185		set __D0senseButtonModded, 0
+4	124	188	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	188		cmp 0, __D0senseButtonModded, __signed_stack_001senseButtonModded, __D0senseButtonModded
+4	124	192	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	192		brtst 4, __ASM_Label_853, __D0senseButtonModded
+4	124	195	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	195	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	195	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	195	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	195		sub __senseButtonModded_7qG2_val_7qG2_000, __senseButtonModded_7qG2_colrow_7qG2_000, __senseButtonModded_7qG2_lr_ud_7qG2_000
+4	124	199	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	124	199	#line 124 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	199	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	199	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	199		mov __signed_stack_001senseButtonModded, __senseButtonModded_7qG2_val_7qG2_000
+4	125	201	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	201	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	201	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	201	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	201	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	201		sub __D0senseButtonModded, __senseButtonModded_7qG2_colrow_7qG2_000, __senseButtonModded_7qG2_lr_ud_7qG2_000
+4	125	205	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	205		cmp 1, __D0senseButtonModded, __signed_stack_001senseButtonModded, __D0senseButtonModded
+4	125	209	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	209		brtst 4, __ASM_Label_858, __D0senseButtonModded
+4	125	212	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	212		set __senseButtonModded_7qG2_val_7qG2_000, 0
+4	125	215	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	125	215	#line 125 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	215	#line 126 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	126	215	#line 126 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	127	215		mov __D0senseButtonModded, __senseButtonModded_7qG2_val_7qG2_000
+4	126	217	#line 126 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	127	217		subret __senseButtonModded_return
+4	126	219	#line 126 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	130	219	#line 130 "C:\Github\NXC_Source\.\+TextInput.nxc"
+4	131	219		subret __senseButtonModded_return
+5	132	0	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	133	0		set __ClearLine_7qG2_line_7qG2_000_inline_keyboard, 56
+5	132	3	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	6903	3	#line 6903 "NXCDefs.h"
+5	6904	3	#pragma macro 7
+5	6904	3		acquire __TextOutMutex
+5	6904	4		mov __TextOutArgs.Location.X, __constVal0
+5	6904	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_keyboard
+5	6904	8		mov __TextOutArgs.Options, __constVal0
+5	6904	10		mov __TextOutArgs.Text, __BlankLine
+5	6904	12		syscall 13, __TextOutArgs
+5	6904	15		release __TextOutMutex
+5	8995	16	#line 8995 "NXCDefs.h"
+5	6903	16	#line 6903 "NXCDefs.h"
+5	132	16	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	132	16	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	133	16		set __ClearLine_7qG2_line_7qG2_000_inline_keyboard, 48
+5	132	19	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	6903	19	#line 6903 "NXCDefs.h"
+5	6904	19	#pragma macro 7
+5	6904	19		acquire __TextOutMutex
+5	6904	20		mov __TextOutArgs.Location.X, __constVal0
+5	6904	22		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_keyboard
+5	6904	24		mov __TextOutArgs.Options, __constVal0
+5	6904	26		mov __TextOutArgs.Text, __BlankLine
+5	6904	28		syscall 13, __TextOutArgs
+5	6904	31		release __TextOutMutex
+5	9003	32	#line 9003 "NXCDefs.h"
+5	6903	32	#line 6903 "NXCDefs.h"
+5	132	32	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	132	32	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	133	32		set __ClearLine_7qG2_line_7qG2_000_inline_keyboard, 40
+5	132	35	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	6903	35	#line 6903 "NXCDefs.h"
+5	6904	35	#pragma macro 7
+5	6904	35		acquire __TextOutMutex
+5	6904	36		mov __TextOutArgs.Location.X, __constVal0
+5	6904	38		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_keyboard
+5	6904	40		mov __TextOutArgs.Options, __constVal0
+5	6904	42		mov __TextOutArgs.Text, __BlankLine
+5	6904	44		syscall 13, __TextOutArgs
+5	6904	47		release __TextOutMutex
+5	9011	48	#line 9011 "NXCDefs.h"
+5	6903	48	#line 6903 "NXCDefs.h"
+5	132	48	#line 132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	133	48	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	134	48		set __ClearLine_7qG2_line_7qG2_000_inline_keyboard, 32
+5	133	51	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	6903	51	#line 6903 "NXCDefs.h"
+5	6904	51	#pragma macro 7
+5	6904	51		acquire __TextOutMutex
+5	6904	52		mov __TextOutArgs.Location.X, __constVal0
+5	6904	54		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_keyboard
+5	6904	56		mov __TextOutArgs.Options, __constVal0
+5	6904	58		mov __TextOutArgs.Text, __BlankLine
+5	6904	60		syscall 13, __TextOutArgs
+5	6904	63		release __TextOutMutex
+5	9019	64	#line 9019 "NXCDefs.h"
+5	6903	64	#line 6903 "NXCDefs.h"
+5	133	64	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	133	64	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	134	64		set __ClearLine_7qG2_line_7qG2_000_inline_keyboard, 24
+5	133	67	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	6903	67	#line 6903 "NXCDefs.h"
+5	6904	67	#pragma macro 7
+5	6904	67		acquire __TextOutMutex
+5	6904	68		mov __TextOutArgs.Location.X, __constVal0
+5	6904	70		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_keyboard
+5	6904	72		mov __TextOutArgs.Options, __constVal0
+5	6904	74		mov __TextOutArgs.Text, __BlankLine
+5	6904	76		syscall 13, __TextOutArgs
+5	6904	79		release __TextOutMutex
+5	9027	80	#line 9027 "NXCDefs.h"
+5	6903	80	#line 6903 "NXCDefs.h"
+5	133	80	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	133	80	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	134	80		set __ClearLine_7qG2_line_7qG2_000_inline_keyboard, 16
+5	133	83	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	6903	83	#line 6903 "NXCDefs.h"
+5	6904	83	#pragma macro 7
+5	6904	83		acquire __TextOutMutex
+5	6904	84		mov __TextOutArgs.Location.X, __constVal0
+5	6904	86		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_keyboard
+5	6904	88		mov __TextOutArgs.Options, __constVal0
+5	6904	90		mov __TextOutArgs.Text, __BlankLine
+5	6904	92		syscall 13, __TextOutArgs
+5	6904	95		release __TextOutMutex
+5	9035	96	#line 9035 "NXCDefs.h"
+5	6903	96	#line 6903 "NXCDefs.h"
+5	133	96	#line 133 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	134	96	#line 134 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	135	96		set __keyboard_7qG2_x_7qG2_000, 0
+5	134	99	#line 134 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	134	99	#line 134 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	135	99		set __keyboard_7qG2_y_7qG2_000, 0
+5	134	102	#line 134 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	134	102	#line 134 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	135	102		set __keyboard_7qG2_lasty_7qG2_000, 0
+5	134	105	#line 134 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	135	105	#line 135 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	136	105		set __keyboard_7qG2_loop_7qG2_000, 1
+5	135	108	#line 135 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	135	108	#line 135 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	136	108		set __keyboard_7qG2_snd_7qG2_000, 1
+5	135	111	#line 135 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	135	111	#line 135 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	136	111		set __keyboard_7qG2_cptl_7qG2_000, 0
+5	135	114	#line 135 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	136	114	#line 136 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	137	114		strcat __strbufkeyboard, __constStr0016
+5	136	118	#line 136 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	137	118		mov __keyboard_7qG2_outstring_7qG2_000, __strbufkeyboard
+5	137	120	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	138	120		gettick __unsigned_stack_001keyboard
+5	137	122	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	137	122	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	138	122		set __D0keyboard, 100
+5	137	125	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	138	125		div ms, __unsigned_stack_001keyboard, __D0keyboard
+5	137	129	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	137	129	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	137	129	#line 137 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	139	129	#line 139 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	140	129	#pragma macro 7
+5	140	129	#line 140 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	140	129		set __D0keyboard, 1
+5	141	132	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	132		tst 5, __D0keyboard, __D0keyboard
+5	141	135	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	135		brtst 4, __ASM_Label_895, __D0keyboard
+5	141	138	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	138	#pragma macro 8
+5	142	138		mov __IOMWBIArgs.ModuleID, __constVal786433
+5	142	141		mov __IOMWBIArgs.Offset, __constVal40
+5	142	143		flatten __IOMWFlattenBuf, __constVal4
+5	142	146		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+5	142	149		syscall 79, __IOMWBIArgs
+5	9126	152	#line 9126 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	152	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	152	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	152		jmp __ASM_Label_896
+5	143	154	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	154	#pragma macro 8
+5	144	154		mov __IOMWBIArgs.ModuleID, __constVal786433
+5	144	157		mov __IOMWBIArgs.Offset, __constVal40
+5	144	159		flatten __IOMWFlattenBuf, __constVal1
+5	144	162		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+5	144	165		syscall 79, __IOMWBIArgs
+5	9132	168	#line 9132 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	168	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	168	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	168	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	168		set __D0keyboard, 0
+5	138	171	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	138	171	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	138	171	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	139	171		tst 5, __D0keyboard, __D0keyboard
+5	138	174	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	139	174		brtst 4, __ASM_Label_892, __D0keyboard
+5	138	177	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	139	177		jmp __ASM_Label_891
+5	138	179	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	138	179	#line 138 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	139	179	#line 139 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	139	179	#line 139 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	140	179	#line 140 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	179		mov __DU0keyboard, __keyboard_7qG2_loop_7qG2_000
+5	141	181	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	181		tst 5, __D0keyboard, __DU0keyboard
+5	141	184	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	184		brtst 4, __ASM_Label_900, __D0keyboard
+5	141	187	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	187		mov __senseButtonModded_7qG2_val_7qG2_000, __keyboard_7qG2_x_7qG2_000
+5	141	189	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	189	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	189		mov __senseButtonModded_7qG2_currentrow_7qG2_000, __keyboard_7qG2_y_7qG2_000
+5	141	191	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	191	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	191		set __senseButtonModded_7qG2_lr_ud_7qG2_000, 1
+5	141	194	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	194	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	194		subcall senseButtonModded, __senseButtonModded_return
+5	141	196	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	196		mov __keyboard_7qG2_x_7qG2_000, __D0senseButtonModded
+5	141	198	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	141	198	#line 141 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	198	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	198		mov __senseButtonModded_7qG2_val_7qG2_000, __keyboard_7qG2_y_7qG2_000
+5	142	200	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	200	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	200		set __senseButtonModded_7qG2_currentrow_7qG2_000, 0
+5	142	203	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	203	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	203		set __senseButtonModded_7qG2_lr_ud_7qG2_000, 0
+5	142	206	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	206	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	206		subcall senseButtonModded, __senseButtonModded_return
+5	142	208	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	208		mov __keyboard_7qG2_y_7qG2_000, __D0senseButtonModded
+5	142	210	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	142	210	#line 142 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	210	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	210		mov __signed_stack_001keyboard, __keyboard_7qG2_lasty_7qG2_000
+5	143	212	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	212	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	212		mov __D0keyboard, __keyboard_7qG2_y_7qG2_000
+5	143	214	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	214		cmp 5, __D0keyboard, __signed_stack_001keyboard, __D0keyboard
+5	143	218	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	218		brtst 4, __ASM_Label_920, __D0keyboard
+5	143	221	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	221		mov __signed_stack_001keyboard, __keyboard_7qG2_lasty_7qG2_000
+5	143	223	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	223	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	223		set __D0keyboard, 4
+5	143	226	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	226		cmp 4, __D0keyboard, __signed_stack_001keyboard, __D0keyboard
+5	143	230	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	230		brtst 5, __ASM_Label_921, __D0keyboard
+5	143	233	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	233		mov __signed_stack_001keyboard, __keyboard_7qG2_y_7qG2_000
+5	143	235	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	235	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	235		set __D0keyboard, 4
+5	143	238	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	238		cmp 4, __D0keyboard, __signed_stack_001keyboard, __D0keyboard
+5	143	242	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	242		brtst 4, __ASM_Label_924, __D0keyboard
+5	143	245	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	245		mov __signed_stack_001keyboard, __keyboard_7qG2_y_7qG2_000
+5	143	247	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	247	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	247		set __D0keyboard, 4
+5	143	250	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	250		cmp 4, __D0keyboard, __signed_stack_001keyboard, __D0keyboard
+5	143	254	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	254		brtst 4, __ASM_Label_927, __D0keyboard
+5	143	257	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	257		set __D0keyboard, 2
+5	143	260	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	260		div __keyboard_7qG2_x_7qG2_000, __keyboard_7qG2_x_7qG2_000, __D0keyboard
+5	143	264	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	264	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	264		jmp __ASM_Label_932
+5	143	266	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	266		set __D0keyboard, 2
+5	143	269	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	269		mul __keyboard_7qG2_x_7qG2_000, __keyboard_7qG2_x_7qG2_000, __D0keyboard
+5	143	273	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	143	273	#line 143 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	273	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	273	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	273		mov __display_7qG2_x_7qG2_000, __keyboard_7qG2_x_7qG2_000
+5	144	275	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	275	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	275		mov __display_7qG2_y_7qG2_000, __keyboard_7qG2_y_7qG2_000
+5	144	277	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	277	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	277	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	277	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	277		mov __display_7qG2_snd_7qG2_000, __keyboard_7qG2_snd_7qG2_000
+5	144	279	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	279	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	279		mov __display_7qG2_cptl_7qG2_000, __keyboard_7qG2_cptl_7qG2_000
+5	144	281	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	144	281	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	281		subcall display, __display_return
+5	144	283	#line 144 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	283	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	283		mov __output_7qG2_x_7qG2_000, __keyboard_7qG2_x_7qG2_000
+5	145	285	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	285	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	285		mov __output_7qG2_y_7qG2_000, __keyboard_7qG2_y_7qG2_000
+5	145	287	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	287	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	287		mov __output_7qG2_cptl_7qG2_000, __keyboard_7qG2_cptl_7qG2_000
+5	145	289	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	145	289	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	289		subcall output, __output_return
+5	145	292	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	292		mov __strretvalkeyboard, __strbufoutput
+5	145	294	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	294		strcat __strbufkeyboard, __strretvalkeyboard
+5	145	298	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	298		mov __keyboard_7qG2_temp_7qG2_000, __strbufkeyboard
+5	145	300	#line 145 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	300	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	300		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	146	304	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	304		mov __ArrHelper__keyboard_244_0, __strbufkeyboard
+5	146	306	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	306		set __signed_stack_001keyboard, 0
+5	146	309	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	146	309	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	309		set __D0keyboard, 1
+5	146	312	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	312		strsubset __strretvalkeyboard, __ArrHelper__keyboard_244_0, __signed_stack_001keyboard, __D0keyboard
+5	146	317	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	317		strcat __strbufkeyboard, __strretvalkeyboard
+5	146	321	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	321		mov __keyboard_7qG2_temp_7qG2_000, __strbufkeyboard
+5	146	323	#line 146 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	323	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	323		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	147	327	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	327		mov __strtmpbufkeyboard, __strbufkeyboard
+5	147	329	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	329		strcat __strbufkeyboard, __constStr0017
+5	147	333	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	333		cmp 4, __D0keyboard, __strtmpbufkeyboard, __strbufkeyboard
+5	147	337	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	337		brtst 4, __ASM_Label_959, __D0keyboard
+5	147	340	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	340		mov __DU0keyboard, __keyboard_7qG2_snd_7qG2_000
+5	147	342	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	342		tst 5, __D0keyboard, __DU0keyboard
+5	147	345	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	345		brtst 4, __ASM_Label_962, __D0keyboard
+5	147	348	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	348		set __signed_stack_001keyboard, 1000
+5	147	351	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	351	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	351		set __signed_stack_002keyboard, 100
+5	147	354	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	354	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	354		set __signed_stack_003keyboard, 4
+5	147	357	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	357	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	357		set __D0keyboard, 0
+5	147	360	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	360		acquire __SPTArgsMutex
+5	147	361	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	361		mov __SPTArgs.Frequency, __signed_stack_001keyboard
+5	147	364	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	364		mov __SPTArgs.Duration, __signed_stack_002keyboard
+5	147	367	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	367		mov __SPTArgs.Volume, __signed_stack_003keyboard
+5	147	370	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	370		mov __SPTArgs.Loop, __D0keyboard
+5	147	373	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	373		syscall 10, __SPTArgs
+5	147	376	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	376		mov __D0keyboard, __SPTArgs.Result
+5	147	379	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	379		release __SPTArgsMutex
+5	147	380	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	380	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	380	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	380		set __keyboard_7qG2_loop_7qG2_000, 0
+5	147	383	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	147	383	#line 147 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	383	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	383		jmp __ASM_Label_973
+5	148	385	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	385		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	148	389	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	389		mov __strtmpbufkeyboard, __strbufkeyboard
+5	148	391	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	391		strcat __strbufkeyboard, __constStr0018
+5	148	395	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	395		cmp 4, __D0keyboard, __strtmpbufkeyboard, __strbufkeyboard
+5	148	399	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	399		brtst 4, __ASM_Label_976, __D0keyboard
+5	148	402	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	402		mov __DU0keyboard, __keyboard_7qG2_snd_7qG2_000
+5	148	404	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	404		tst 5, __D0keyboard, __DU0keyboard
+5	148	407	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	407		brtst 4, __ASM_Label_979, __D0keyboard
+5	148	410	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	410		set __signed_stack_001keyboard, 1000
+5	148	413	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	413	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	413		set __signed_stack_002keyboard, 100
+5	148	416	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	416	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	416		set __signed_stack_003keyboard, 4
+5	148	419	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	419	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	419		set __D0keyboard, 0
+5	148	422	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	422		acquire __SPTArgsMutex
+5	148	423	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	423		mov __SPTArgs.Frequency, __signed_stack_001keyboard
+5	148	426	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	426		mov __SPTArgs.Duration, __signed_stack_002keyboard
+5	148	429	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	429		mov __SPTArgs.Volume, __signed_stack_003keyboard
+5	148	432	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	432		mov __SPTArgs.Loop, __D0keyboard
+5	148	435	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	435		syscall 10, __SPTArgs
+5	148	438	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	438		mov __D0keyboard, __SPTArgs.Result
+5	148	441	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	441		release __SPTArgsMutex
+5	148	442	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	442	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	442	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	442	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	442		not __keyboard_7qG2_cptl_7qG2_000, __keyboard_7qG2_cptl_7qG2_000
+5	148	445	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	148	445	#line 148 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	445	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	445		jmp __ASM_Label_990
+5	149	447	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	447		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	149	451	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	451		mov __strtmpbufkeyboard, __strbufkeyboard
+5	149	453	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	453		strcat __strbufkeyboard, __constStr0019
+5	149	457	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	457		cmp 4, __D0keyboard, __strtmpbufkeyboard, __strbufkeyboard
+5	149	461	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	461		brtst 4, __ASM_Label_993, __D0keyboard
+5	149	464	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	464		mov __DU0keyboard, __keyboard_7qG2_snd_7qG2_000
+5	149	466	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	466		tst 5, __D0keyboard, __DU0keyboard
+5	149	469	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	469		brtst 4, __ASM_Label_996, __D0keyboard
+5	149	472	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	472		set __signed_stack_001keyboard, 3000
+5	149	475	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	475	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	475		set __signed_stack_002keyboard, 100
+5	149	478	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	478	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	478		set __signed_stack_003keyboard, 4
+5	149	481	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	481	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	481		set __D0keyboard, 0
+5	149	484	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	484		acquire __SPTArgsMutex
+5	149	485	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	485		mov __SPTArgs.Frequency, __signed_stack_001keyboard
+5	149	488	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	488		mov __SPTArgs.Duration, __signed_stack_002keyboard
+5	149	491	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	491		mov __SPTArgs.Volume, __signed_stack_003keyboard
+5	149	494	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	494		mov __SPTArgs.Loop, __D0keyboard
+5	149	497	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	497		syscall 10, __SPTArgs
+5	149	500	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	500		mov __D0keyboard, __SPTArgs.Result
+5	149	503	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	503		release __SPTArgsMutex
+5	149	504	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	504	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	504	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	504		strcat __strbufkeyboard, __keyboard_7qG2_outstring_7qG2_000
+5	149	508	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	508		mov __ArrHelper__keyboard_244_0, __strbufkeyboard
+5	149	510	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	510		set __signed_stack_001keyboard, 0
+5	149	513	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	513	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	513		strcat __strbufkeyboard, __keyboard_7qG2_outstring_7qG2_000
+5	149	517	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	517		arrsize __D0keyboard, __strbufkeyboard
+5	150	520		sub __signed_stack_002keyboard, __D0keyboard, __constVal1
+5	149	524	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	149	524	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	524		set __D0keyboard, 1
+5	149	527	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	527		sub __D0keyboard, __signed_stack_002keyboard, __D0keyboard
+5	149	531	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	531		strsubset __strretvalkeyboard, __ArrHelper__keyboard_244_0, __signed_stack_001keyboard, __D0keyboard
+5	149	536	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	536		strcat __strbufkeyboard, __strretvalkeyboard
+5	149	540	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	540		mov __keyboard_7qG2_outstring_7qG2_000, __strbufkeyboard
+5	149	542	#line 149 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	542	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	542		jmp __ASM_Label_1009
+5	150	544	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	544		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	150	548	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	548		mov __strtmpbufkeyboard, __strbufkeyboard
+5	150	550	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	550		strcat __strbufkeyboard, __constStr0020
+5	150	554	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	554		cmp 4, __D0keyboard, __strtmpbufkeyboard, __strbufkeyboard
+5	150	558	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	558		brtst 4, __ASM_Label_1012, __D0keyboard
+5	150	561	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	561	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	561		not __DU0keyboard, __keyboard_7qG2_snd_7qG2_000
+5	150	564	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	564		tst 5, __D0keyboard, __DU0keyboard
+5	150	567	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	567		brtst 4, __ASM_Label_1015, __D0keyboard
+5	150	570	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	570		set __signed_stack_001keyboard, 1000
+5	150	573	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	573	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	573		set __signed_stack_002keyboard, 100
+5	150	576	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	576	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	576		set __signed_stack_003keyboard, 4
+5	150	579	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	579	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	579		set __D0keyboard, 0
+5	150	582	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	582		acquire __SPTArgsMutex
+5	150	583	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	583		mov __SPTArgs.Frequency, __signed_stack_001keyboard
+5	150	586	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	586		mov __SPTArgs.Duration, __signed_stack_002keyboard
+5	150	589	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	589		mov __SPTArgs.Volume, __signed_stack_003keyboard
+5	150	592	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	592		mov __SPTArgs.Loop, __D0keyboard
+5	150	595	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	595		syscall 10, __SPTArgs
+5	150	598	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	598		mov __D0keyboard, __SPTArgs.Result
+5	150	601	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	601		release __SPTArgsMutex
+5	150	602	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	602	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	602	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	602	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	602		not __keyboard_7qG2_snd_7qG2_000, __keyboard_7qG2_snd_7qG2_000
+5	150	605	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	150	605	#line 150 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	605	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	605		jmp __ASM_Label_1026
+5	151	607	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	607		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	151	611	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	611		mov __strtmpbufkeyboard, __strbufkeyboard
+5	151	613	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	613		strcat __strbufkeyboard, __constStr0016
+5	151	617	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	617		cmp 5, __D0keyboard, __strtmpbufkeyboard, __strbufkeyboard
+5	151	621	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	621		brtst 4, __ASM_Label_1029, __D0keyboard
+5	151	624	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	624		mov __DU0keyboard, __keyboard_7qG2_snd_7qG2_000
+5	151	626	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	626		tst 5, __D0keyboard, __DU0keyboard
+5	151	629	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	629		brtst 4, __ASM_Label_1032, __D0keyboard
+5	151	632	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	632		set __signed_stack_001keyboard, 2000
+5	151	635	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	635	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	635		set __signed_stack_002keyboard, 100
+5	151	638	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	638	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	638		set __signed_stack_003keyboard, 4
+5	151	641	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	641	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	641		set __D0keyboard, 0
+5	151	644	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	644		acquire __SPTArgsMutex
+5	151	645	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	645		mov __SPTArgs.Frequency, __signed_stack_001keyboard
+5	151	648	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	648		mov __SPTArgs.Duration, __signed_stack_002keyboard
+5	151	651	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	651		mov __SPTArgs.Volume, __signed_stack_003keyboard
+5	151	654	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	654		mov __SPTArgs.Loop, __D0keyboard
+5	151	657	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	657		syscall 10, __SPTArgs
+5	151	660	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	660		mov __D0keyboard, __SPTArgs.Result
+5	151	663	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	663		release __SPTArgsMutex
+5	151	664	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	664	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	151	664	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	664		strcat __strbufkeyboard, __keyboard_7qG2_outstring_7qG2_000
+5	151	668	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	668		mov __ArrHelper__keyboard_244_0, __strbufkeyboard
+5	151	670	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	670		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	151	674	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	674		mov __ArrHelper__keyboard_244_1, __strbufkeyboard
+5	151	676	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	676		strcat __strretvalkeyboard, __ArrHelper__keyboard_244_0, __ArrHelper__keyboard_244_1
+5	151	681	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	681		strcat __strbufkeyboard, __strretvalkeyboard
+5	151	685	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	685		mov __keyboard_7qG2_outstring_7qG2_000, __strbufkeyboard
+5	151	687	#line 151 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	687	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	687	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	687	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	687	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	687	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	687	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	687		set __signed_stack_001keyboard, 0
+5	152	690	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	690	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	690		set __signed_stack_002keyboard, 16
+5	152	693	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	152	693	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	693		strcat __strbufkeyboard, __keyboard_7qG2_outstring_7qG2_000
+5	152	697	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	697		mov __ArrHelper__keyboard_244_0, __strbufkeyboard
+5	152	699	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	699		strcat __strbufkeyboard, __constStr0032
+5	152	703	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	703		mov __ArrHelper__keyboard_244_1, __strbufkeyboard
+5	152	705	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	705		strcat __strretvalkeyboard, __ArrHelper__keyboard_244_0, __ArrHelper__keyboard_244_1
+5	152	710	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	710		strcat __strbufkeyboard, __strretvalkeyboard
+5	152	714	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	714		set __D0keyboard, 0
+5	152	717	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	717		acquire __TextOutMutex
+5	152	718	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	718		mov __TextOutArgs.Location.X, __signed_stack_001keyboard
+5	152	721	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	721		mov __TextOutArgs.Location.Y, __signed_stack_002keyboard
+5	152	724	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	724		mov __TextOutArgs.Options, __D0keyboard
+5	152	727	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	727		mov __TextOutArgs.Text, __strbufkeyboard
+5	152	729	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	729		syscall 13, __TextOutArgs
+5	152	732	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	732		mov __D0keyboard, __TextOutArgs.Result
+5	152	735	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	735		release __TextOutMutex
+5	152	736	#line 152 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	736	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	736		strcat __strbufkeyboard, __keyboard_7qG2_temp_7qG2_000
+5	153	740	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	740		mov __debugOut_7qG2_tmp_7qG2_000, __strbufkeyboard
+5	153	742	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	742		mov __debugOut_7qG2_oknotpressed_7qG2_000, __keyboard_7qG2_loop_7qG2_000
+5	153	744	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	744	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	744		mov __debugOut_7qG2_snd_7qG2_000, __keyboard_7qG2_snd_7qG2_000
+5	153	746	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	746	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	746		mov __debugOut_7qG2_x_7qG2_000, __keyboard_7qG2_x_7qG2_000
+5	153	748	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	748	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	748		mov __debugOut_7qG2_y_7qG2_000, __keyboard_7qG2_y_7qG2_000
+5	153	750	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	750	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	750		mov __debugOut_7qG2_lasty_7qG2_000, __keyboard_7qG2_lasty_7qG2_000
+5	153	752	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	153	752	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	752		strcat __strbufkeyboard, __keyboard_7qG2_outstring_7qG2_000
+5	153	756	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	756		mov __debugOut_7qG2_out_7qG2_000, __strbufkeyboard
+5	153	758	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	758		subcall debugOut, __debugOut_return
+5	153	760	#line 153 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	760	#line 154 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	155	760		mov __keyboard_7qG2_lasty_7qG2_000, __keyboard_7qG2_y_7qG2_000
+5	154	762	#line 154 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	154	762	#line 154 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	155	762	#line 155 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	156	762		set __Wait_7qG2_ms_7qG2_000_inline_keyboard, 100
+5	155	765	#line 155 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	8771	765	#line 8771 "NXCDefs.h"
+5	8772	765		waitv __Wait_7qG2_ms_7qG2_000_inline_keyboard
+5	8771	767	#line 8771 "NXCDefs.h"
+5	155	767	#line 155 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	157	767	#line 157 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	158	767		jmp __ASM_Label_899
+5	157	769	#line 157 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	157	769	#line 157 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	158	769		strcat __strbufkeyboard, __keyboard_7qG2_outstring_7qG2_000
+5	157	773	#line 157 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	158	773		subret __keyboard_return
+5	157	775	#line 157 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	170	775	#line 170 "C:\Github\NXC_Source\.\+TextInput.nxc"
+5	171	775		subret __keyboard_return
+6	6	0	#line 6 "C:\Github\NXC_Source\+HighScore.nxc"
+6	7	0		set __readHighscore_7qG2_ARead_7qG2_000, 0
+6	6	3	#line 6 "C:\Github\NXC_Source\+HighScore.nxc"
+6	7	3	#line 7 "C:\Github\NXC_Source\+HighScore.nxc"
+6	8	3	#pragma macro 7
+6	8	3		acquire __FOMutex
+6	8	4		mov __FOArgs.Filename, __constStr0033
+6	8	6		syscall 0, __FOArgs
+6	8	9		mov fsize, __FOArgs.Length
+6	8	11		mov handle, __FOArgs.FileHandle
+6	8	13		mov __D0readHighscore, __FOArgs.Result
+6	8	16		release __FOMutex
+6	9899	17	#line 9899 "C:\Github\NXC_Source\+HighScore.nxc"
+6	7	17	#line 7 "C:\Github\NXC_Source\+HighScore.nxc"
+6	8	17	#line 8 "C:\Github\NXC_Source\+HighScore.nxc"
+6	8	17	#line 8 "C:\Github\NXC_Source\+HighScore.nxc"
+6	9	17		mov __signed_stack_001readHighscore, __D0readHighscore
+6	9	19	#line 9 "C:\Github\NXC_Source\+HighScore.nxc"
+6	10	19		set __D0readHighscore, 0
+6	9	22	#line 9 "C:\Github\NXC_Source\+HighScore.nxc"
+6	10	22		cmp 4, __D0readHighscore, __signed_stack_001readHighscore, __D0readHighscore
+6	10	26	#line 10 "C:\Github\NXC_Source\+HighScore.nxc"
+6	11	26		brtst 4, __ASM_Label_1067, __D0readHighscore
+6	10	29	#line 10 "C:\Github\NXC_Source\+HighScore.nxc"
+6	11	29	#pragma macro 15
+6	11	29		acquire __FReadMutex
+6	11	30		mov __FReadArgs.FileHandle, handle
+6	11	32		set __FReadArgs.Length, 2
+6	11	35		syscall 3, __FReadArgs
+6	11	38		mov __D0readHighscore, __FReadArgs.Result
+6	11	41		unflatten __readHighscore_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighscore_7qG2_ARead_7qG2_000
+6	11	46		release __FReadMutex
+6	9919	47	#line 9919 "C:\Github\NXC_Source\+HighScore.nxc"
+6	10	47	#line 10 "C:\Github\NXC_Source\+HighScore.nxc"
+6	10	47	#line 10 "C:\Github\NXC_Source\+HighScore.nxc"
+6	11	47	#line 11 "C:\Github\NXC_Source\+HighScore.nxc"
+6	12	47	#pragma macro 5
+6	12	47		acquire __FCMutex
+6	12	48		mov __FCArgs.FileHandle, handle
+6	12	50		syscall 5, __FCArgs
+6	12	53		mov __D0readHighscore, __FCArgs.Result
+6	12	56		release __FCMutex
+6	9923	57	#line 9923 "C:\Github\NXC_Source\+HighScore.nxc"
+6	11	57	#line 11 "C:\Github\NXC_Source\+HighScore.nxc"
+6	11	57	#line 11 "C:\Github\NXC_Source\+HighScore.nxc"
+6	14	57	#line 14 "C:\Github\NXC_Source\+HighScore.nxc"
+6	15	57		jmp __ASM_Label_1068
+6	14	59	#line 14 "C:\Github\NXC_Source\+HighScore.nxc"
+6	15	59		mov __readHighscore_7qG2_ARead_7qG2_000, __constValNeg1
+6	14	61	#line 14 "C:\Github\NXC_Source\+HighScore.nxc"
+6	14	61	#line 14 "C:\Github\NXC_Source\+HighScore.nxc"
+6	15	61	#line 15 "C:\Github\NXC_Source\+HighScore.nxc"
+6	15	61	#line 15 "C:\Github\NXC_Source\+HighScore.nxc"
+6	16	61		mov __D0readHighscore, __readHighscore_7qG2_ARead_7qG2_000
+6	15	63	#line 15 "C:\Github\NXC_Source\+HighScore.nxc"
+6	16	63		subret __readHighscore_return
+6	15	65	#line 15 "C:\Github\NXC_Source\+HighScore.nxc"
+6	18	65	#line 18 "C:\Github\NXC_Source\+HighScore.nxc"
+6	19	65		subret __readHighscore_return
+7	20	0	#line 20 "C:\Github\NXC_Source\+HighScore.nxc"
+7	21	0	#pragma macro 5
+7	21	0		acquire __FDMutex
+7	21	1		mov __FDArgs.Filename, __constStr0033
+7	21	3		syscall 8, __FDArgs
+7	21	6		mov __D0overwriteHighscore, __FDArgs.Result
+7	21	9		release __FDMutex
+7	9953	10	#line 9953 "C:\Github\NXC_Source\+HighScore.nxc"
+7	20	10	#line 20 "C:\Github\NXC_Source\+HighScore.nxc"
+7	20	10	#line 20 "C:\Github\NXC_Source\+HighScore.nxc"
+7	21	10	#line 21 "C:\Github\NXC_Source\+HighScore.nxc"
+7	22	10	#pragma macro 7
+7	22	10		acquire __FOMutex
+7	22	11		mov __FOArgs.Filename, __constStr0033
+7	22	13		mov __FOArgs.Length, __constVal10
+7	22	15		syscall 1, __FOArgs
+7	22	18		mov handle, __FOArgs.FileHandle
+7	22	20		mov __D0overwriteHighscore, __FOArgs.Result
+7	22	23		release __FOMutex
+7	9957	24	#line 9957 "C:\Github\NXC_Source\+HighScore.nxc"
+7	21	24	#line 21 "C:\Github\NXC_Source\+HighScore.nxc"
+7	21	24	#line 21 "C:\Github\NXC_Source\+HighScore.nxc"
+7	22	24	#line 22 "C:\Github\NXC_Source\+HighScore.nxc"
+7	23	24	#pragma macro 8
+7	23	24		acquire __FWriteMutex
+7	23	25		mov __FWriteArgs.FileHandle, handle
+7	23	27		flatten __FWriteFlattenBuf, __overwriteHighscore_7qG2_NewHighscore_7qG2_000
+7	23	30		strtoarr __FWriteArgs.Buffer, __FWriteFlattenBuf
+7	23	33		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+7	23	36		syscall 4, __FWriteArgs
+7	23	39		mov __D0overwriteHighscore, __FWriteArgs.Result
+7	23	42		release __FWriteMutex
+7	9961	43	#line 9961 "C:\Github\NXC_Source\+HighScore.nxc"
+7	22	43	#line 22 "C:\Github\NXC_Source\+HighScore.nxc"
+7	22	43	#line 22 "C:\Github\NXC_Source\+HighScore.nxc"
+7	23	43	#line 23 "C:\Github\NXC_Source\+HighScore.nxc"
+7	24	43	#pragma macro 5
+7	24	43		acquire __FCMutex
+7	24	44		mov __FCArgs.FileHandle, handle
+7	24	46		syscall 5, __FCArgs
+7	24	49		mov __D0overwriteHighscore, __FCArgs.Result
+7	24	52		release __FCMutex
+7	9965	53	#line 9965 "C:\Github\NXC_Source\+HighScore.nxc"
+7	23	53	#line 23 "C:\Github\NXC_Source\+HighScore.nxc"
+7	23	53	#line 23 "C:\Github\NXC_Source\+HighScore.nxc"
+7	40	53	#line 40 "C:\Github\NXC_Source\+HighScore.nxc"
+7	41	53		subret __overwriteHighscore_return
+8	42	0	#line 42 "C:\Github\NXC_Source\+HighScore.nxc"
+8	43	0		strcat __strbufreadHighscoreName, __constStr0016
+8	42	4	#line 42 "C:\Github\NXC_Source\+HighScore.nxc"
+8	43	4		mov __readHighscoreName_7qG2_ARead_7qG2_000, __strbufreadHighscoreName
+8	43	6	#line 43 "C:\Github\NXC_Source\+HighScore.nxc"
+8	44	6	#pragma macro 7
+8	44	6		acquire __FOMutex
+8	44	7		mov __FOArgs.Filename, __constStr0033
+8	44	9		syscall 0, __FOArgs
+8	44	12		mov fsize, __FOArgs.Length
+8	44	14		mov handle, __FOArgs.FileHandle
+8	44	16		mov __D0readHighscoreName, __FOArgs.Result
+8	44	19		release __FOMutex
+8	9986	20	#line 9986 "C:\Github\NXC_Source\+HighScore.nxc"
+8	43	20	#line 43 "C:\Github\NXC_Source\+HighScore.nxc"
+8	44	20	#line 44 "C:\Github\NXC_Source\+HighScore.nxc"
+8	44	20	#line 44 "C:\Github\NXC_Source\+HighScore.nxc"
+8	45	20		mov __signed_stack_001readHighscoreName, __D0readHighscoreName
+8	45	22	#line 45 "C:\Github\NXC_Source\+HighScore.nxc"
+8	46	22		set __D0readHighscoreName, 0
+8	45	25	#line 45 "C:\Github\NXC_Source\+HighScore.nxc"
+8	46	25		cmp 4, __D0readHighscoreName, __signed_stack_001readHighscoreName, __D0readHighscoreName
+8	46	29	#line 46 "C:\Github\NXC_Source\+HighScore.nxc"
+8	47	29		brtst 4, __ASM_Label_1077, __D0readHighscoreName
+8	46	32	#line 46 "C:\Github\NXC_Source\+HighScore.nxc"
+8	47	32	#pragma macro 15
+8	47	32		acquire __FReadMutex
+8	47	33		mov __FReadArgs.FileHandle, handle
+8	47	35		flatten __soTmpBuf, __readHighscoreName_7qG2_ARead_7qG2_000
+8	47	38		arrsize __FReadArgs.Length, __soTmpBuf
+8	47	41		sub __FReadArgs.Length, __FReadArgs.Length, __constVal1
+8	47	45		syscall 3, __FReadArgs
+8	47	48		mov __D0readHighscoreName, __FReadArgs.Result
+8	47	51		unflatten __readHighscoreName_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighscoreName_7qG2_ARead_7qG2_000
+8	47	56		release __FReadMutex
+8	10006	57	#line 10006 "C:\Github\NXC_Source\+HighScore.nxc"
+8	46	57	#line 46 "C:\Github\NXC_Source\+HighScore.nxc"
+8	46	57	#line 46 "C:\Github\NXC_Source\+HighScore.nxc"
+8	47	57	#line 47 "C:\Github\NXC_Source\+HighScore.nxc"
+8	48	57	#pragma macro 15
+8	48	57		acquire __FReadMutex
+8	48	58		mov __FReadArgs.FileHandle, handle
+8	48	60		flatten __soTmpBuf, __readHighscoreName_7qG2_ARead_7qG2_000
+8	48	63		arrsize __FReadArgs.Length, __soTmpBuf
+8	48	66		sub __FReadArgs.Length, __FReadArgs.Length, __constVal1
+8	48	70		syscall 3, __FReadArgs
+8	48	73		mov __D0readHighscoreName, __FReadArgs.Result
+8	48	76		unflatten __readHighscoreName_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighscoreName_7qG2_ARead_7qG2_000
+8	48	81		release __FReadMutex
+8	10010	82	#line 10010 "C:\Github\NXC_Source\+HighScore.nxc"
+8	47	82	#line 47 "C:\Github\NXC_Source\+HighScore.nxc"
+8	47	82	#line 47 "C:\Github\NXC_Source\+HighScore.nxc"
+8	48	82	#line 48 "C:\Github\NXC_Source\+HighScore.nxc"
+8	49	82	#pragma macro 5
+8	49	82		acquire __FCMutex
+8	49	83		mov __FCArgs.FileHandle, handle
+8	49	85		syscall 5, __FCArgs
+8	49	88		mov __D0readHighscoreName, __FCArgs.Result
+8	49	91		release __FCMutex
+8	10014	92	#line 10014 "C:\Github\NXC_Source\+HighScore.nxc"
+8	48	92	#line 48 "C:\Github\NXC_Source\+HighScore.nxc"
+8	48	92	#line 48 "C:\Github\NXC_Source\+HighScore.nxc"
+8	51	92	#line 51 "C:\Github\NXC_Source\+HighScore.nxc"
+8	52	92		jmp __ASM_Label_1078
+8	51	94	#line 51 "C:\Github\NXC_Source\+HighScore.nxc"
+8	52	94		strcat __strbufreadHighscoreName, __constStr0016
+8	51	98	#line 51 "C:\Github\NXC_Source\+HighScore.nxc"
+8	52	98		mov __readHighscoreName_7qG2_ARead_7qG2_000, __strbufreadHighscoreName
+8	51	100	#line 51 "C:\Github\NXC_Source\+HighScore.nxc"
+8	52	100	#line 52 "C:\Github\NXC_Source\+HighScore.nxc"
+8	52	100	#line 52 "C:\Github\NXC_Source\+HighScore.nxc"
+8	53	100		strcat __strbufreadHighscoreName, __readHighscoreName_7qG2_ARead_7qG2_000
+8	52	104	#line 52 "C:\Github\NXC_Source\+HighScore.nxc"
+8	53	104		subret __readHighscoreName_return
+8	52	106	#line 52 "C:\Github\NXC_Source\+HighScore.nxc"
+8	55	106	#line 55 "C:\Github\NXC_Source\+HighScore.nxc"
+8	56	106		subret __readHighscoreName_return
+9	57	0	#line 57 "C:\Github\NXC_Source\+HighScore.nxc"
+9	58	0	#pragma macro 5
+9	58	0		acquire __FDMutex
+9	58	1		mov __FDArgs.Filename, __constStr0033
+9	58	3		syscall 8, __FDArgs
+9	58	6		mov __D0overwriteHighscoreName, __FDArgs.Result
+9	58	9		release __FDMutex
+9	10042	10	#line 10042 "C:\Github\NXC_Source\+HighScore.nxc"
+9	57	10	#line 57 "C:\Github\NXC_Source\+HighScore.nxc"
+9	57	10	#line 57 "C:\Github\NXC_Source\+HighScore.nxc"
+9	58	10	#line 58 "C:\Github\NXC_Source\+HighScore.nxc"
+9	59	10	#pragma macro 7
+9	59	10		acquire __FOMutex
+9	59	11		mov __FOArgs.Filename, __constStr0033
+9	59	13		mov __FOArgs.Length, __constVal10
+9	59	15		syscall 1, __FOArgs
+9	59	18		mov handle, __FOArgs.FileHandle
+9	59	20		mov __D0overwriteHighscoreName, __FOArgs.Result
+9	59	23		release __FOMutex
+9	10046	24	#line 10046 "C:\Github\NXC_Source\+HighScore.nxc"
+9	58	24	#line 58 "C:\Github\NXC_Source\+HighScore.nxc"
+9	58	24	#line 58 "C:\Github\NXC_Source\+HighScore.nxc"
+9	59	24	#line 59 "C:\Github\NXC_Source\+HighScore.nxc"
+9	60	24	#pragma macro 8
+9	60	24		acquire __FWriteMutex
+9	60	25		mov __FWriteArgs.FileHandle, handle
+9	60	27		flatten __FWriteFlattenBuf, __overwriteHighscoreName_7qG2_NewHighscore_7qG2_000
+9	60	30		strtoarr __FWriteArgs.Buffer, __FWriteFlattenBuf
+9	60	33		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+9	60	36		syscall 4, __FWriteArgs
+9	60	39		mov __D0overwriteHighscoreName, __FWriteArgs.Result
+9	60	42		release __FWriteMutex
+9	10050	43	#line 10050 "C:\Github\NXC_Source\+HighScore.nxc"
+9	59	43	#line 59 "C:\Github\NXC_Source\+HighScore.nxc"
+9	59	43	#line 59 "C:\Github\NXC_Source\+HighScore.nxc"
+9	60	43	#line 60 "C:\Github\NXC_Source\+HighScore.nxc"
+9	61	43		subcall keyboard, __keyboard_return
+9	60	45	#line 60 "C:\Github\NXC_Source\+HighScore.nxc"
+9	61	45		mov __strretvaloverwriteHighscoreName, __strbufkeyboard
+9	60	47	#line 60 "C:\Github\NXC_Source\+HighScore.nxc"
+9	61	47		strcat __strbufoverwriteHighscoreName, __strretvaloverwriteHighscoreName
+9	60	51	#line 60 "C:\Github\NXC_Source\+HighScore.nxc"
+9	61	51		mov __overwriteHighscoreName_7qG2_temp_7qG2_000, __strbufoverwriteHighscoreName
+9	61	53	#line 61 "C:\Github\NXC_Source\+HighScore.nxc"
+9	62	53	#pragma macro 8
+9	62	53		acquire __FWriteMutex
+9	62	54		mov __FWriteArgs.FileHandle, handle
+9	62	56		flatten __FWriteFlattenBuf, __overwriteHighscoreName_7qG2_temp_7qG2_000
+9	62	59		strtoarr __FWriteArgs.Buffer, __FWriteFlattenBuf
+9	62	62		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+9	62	65		syscall 4, __FWriteArgs
+9	62	68		mov __D0overwriteHighscoreName, __FWriteArgs.Result
+9	62	71		release __FWriteMutex
+9	10066	72	#line 10066 "C:\Github\NXC_Source\+HighScore.nxc"
+9	61	72	#line 61 "C:\Github\NXC_Source\+HighScore.nxc"
+9	61	72	#line 61 "C:\Github\NXC_Source\+HighScore.nxc"
+9	62	72	#line 62 "C:\Github\NXC_Source\+HighScore.nxc"
+9	63	72	#pragma macro 5
+9	63	72		acquire __FCMutex
+9	63	73		mov __FCArgs.FileHandle, handle
+9	63	75		syscall 5, __FCArgs
+9	63	78		mov __D0overwriteHighscoreName, __FCArgs.Result
+9	63	81		release __FCMutex
+9	10070	82	#line 10070 "C:\Github\NXC_Source\+HighScore.nxc"
+9	62	82	#line 62 "C:\Github\NXC_Source\+HighScore.nxc"
+9	62	82	#line 62 "C:\Github\NXC_Source\+HighScore.nxc"
+9	66	82	#line 66 "C:\Github\NXC_Source\+HighScore.nxc"
+9	67	82		subret __overwriteHighscoreName_return
+10	68	0	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	0		set __signed_stack_001endGame, 25
+10	68	3	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	68	3	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	3		set __signed_stack_002endGame, 32
+10	68	6	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	68	6	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	6		strcat __strbufendGame, __constStr0034
+10	68	10	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	10		set __D0endGame, 1
+10	68	13	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	13		acquire __TextOutMutex
+10	68	14	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	14		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+10	68	17	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	17		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+10	68	20	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	20		mov __TextOutArgs.Options, __D0endGame
+10	68	23	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	23		mov __TextOutArgs.Text, __strbufendGame
+10	68	25	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	25		syscall 13, __TextOutArgs
+10	68	28	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	28		mov __D0endGame, __TextOutArgs.Result
+10	68	31	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	31		release __TextOutMutex
+10	68	32	#line 68 "C:\Github\NXC_Source\+HighScore.nxc"
+10	69	32	#line 69 "C:\Github\NXC_Source\+HighScore.nxc"
+10	70	32		set __Wait_7qG2_ms_7qG2_000_inline_endGame, 1000
+10	69	35	#line 69 "C:\Github\NXC_Source\+HighScore.nxc"
+10	8771	35	#line 8771 "NXCDefs.h"
+10	8772	35		waitv __Wait_7qG2_ms_7qG2_000_inline_endGame
+10	8771	37	#line 8771 "NXCDefs.h"
+10	69	37	#line 69 "C:\Github\NXC_Source\+HighScore.nxc"
+10	70	37	#line 70 "C:\Github\NXC_Source\+HighScore.nxc"
+10	71	37		mov __signed_stack_001endGame, __endGame_7qG2_myscore_7qG2_000
+10	70	39	#line 70 "C:\Github\NXC_Source\+HighScore.nxc"
+10	71	39	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	39		subcall readHighscore, __readHighscore_return
+10	71	41	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	41		mov __D0endGame, __D0readHighscore
+10	71	43	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	43		cmp 1, __D0endGame, __signed_stack_001endGame, __D0endGame
+10	71	47	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	47		brtst 4, __ASM_Label_1089, __D0endGame
+10	71	50	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	50		mov __overwriteHighscore_7qG2_NewHighscore_7qG2_000, __endGame_7qG2_myscore_7qG2_000
+10	71	52	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	71	52	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	52		subcall overwriteHighscore, __overwriteHighscore_return
+10	71	54	#line 71 "C:\Github\NXC_Source\+HighScore.nxc"
+10	72	54	#line 72 "C:\Github\NXC_Source\+HighScore.nxc"
+10	73	54		subcall keyboard, __keyboard_return
+10	72	56	#line 72 "C:\Github\NXC_Source\+HighScore.nxc"
+10	73	56		mov __strretvalendGame, __strbufkeyboard
+10	72	58	#line 72 "C:\Github\NXC_Source\+HighScore.nxc"
+10	73	58		strcat __strbufendGame, __strretvalendGame
+10	72	62	#line 72 "C:\Github\NXC_Source\+HighScore.nxc"
+10	73	62		mov __endGame_7qG2_temp_7qG2_001, __strbufendGame
+10	73	64	#line 73 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	64		strcat __strbufendGame, __endGame_7qG2_temp_7qG2_001
+10	73	68	#line 73 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	68		set __overwriteHighscoreName_7qG2_NewHighscore_7qG2_000, 1
+10	73	71	#line 73 "C:\Github\NXC_Source\+HighScore.nxc"
+10	73	71	#line 73 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	71		subcall overwriteHighscoreName, __overwriteHighscoreName_return
+10	73	73	#line 73 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	73	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	73	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	73		set __signed_stack_001endGame, 0
+10	74	76	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	76	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	76		set __signed_stack_002endGame, 16
+10	74	79	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	74	79	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	79		strcat __strbufendGame, __constStr0035
+10	74	83	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	83		mov __ArrHelper__endGame_244_0, __strbufendGame
+10	74	85	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	85		mov __D0endGame, __endGame_7qG2_myscore_7qG2_000
+10	74	87	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	87		numtostr __strretvalendGame, __D0endGame
+10	74	90	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	90		strcat __strbufendGame, __strretvalendGame
+10	74	94	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	94		mov __ArrHelper__endGame_244_1, __strbufendGame
+10	74	96	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	96		strcat __strbufendGame, __constStr0036
+10	74	100	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	100		mov __ArrHelper__endGame_244_2, __strbufendGame
+10	74	102	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	102		subcall readHighscore, __readHighscore_return
+10	74	104	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	104		mov __D0endGame, __D0readHighscore
+10	74	106	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	106		numtostr __strretvalendGame, __D0endGame
+10	74	109	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	109		strcat __strbufendGame, __strretvalendGame
+10	74	113	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	113		mov __ArrHelper__endGame_244_3, __strbufendGame
+10	74	115	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	115		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1, __ArrHelper__endGame_244_2, __ArrHelper__endGame_244_3
+10	74	122	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	122		strcat __strbufendGame, __strretvalendGame
+10	74	126	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	126		set __D0endGame, 0
+10	74	129	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	129		acquire __TextOutMutex
+10	74	130	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	130		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+10	74	133	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	133		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+10	74	136	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	136		mov __TextOutArgs.Options, __D0endGame
+10	74	139	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	139		mov __TextOutArgs.Text, __strbufendGame
+10	74	141	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	141		syscall 13, __TextOutArgs
+10	74	144	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	144		mov __D0endGame, __TextOutArgs.Result
+10	74	147	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	147		release __TextOutMutex
+10	74	148	#line 74 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	148	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	148		set __signed_stack_001endGame, 0
+10	75	151	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	151	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	151		set __signed_stack_002endGame, 8
+10	75	154	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	75	154	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	154		strcat __strbufendGame, __constStr0037
+10	75	158	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	158		mov __ArrHelper__endGame_244_0, __strbufendGame
+10	75	160	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	160		subcall readHighscoreName, __readHighscoreName_return
+10	75	162	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	162		mov __strretvalendGame, __strbufreadHighscoreName
+10	75	164	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	164		strcat __strbufendGame, __strretvalendGame
+10	75	168	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	168		mov __ArrHelper__endGame_244_1, __strbufendGame
+10	75	170	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	170		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
+10	75	175	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	175		strcat __strbufendGame, __strretvalendGame
+10	75	179	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	179		set __D0endGame, 0
+10	75	182	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	182		acquire __TextOutMutex
+10	75	183	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	183		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+10	75	186	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	186		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+10	75	189	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	189		mov __TextOutArgs.Options, __D0endGame
+10	75	192	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	192		mov __TextOutArgs.Text, __strbufendGame
+10	75	194	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	194		syscall 13, __TextOutArgs
+10	75	197	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	197		mov __D0endGame, __TextOutArgs.Result
+10	75	200	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	200		release __TextOutMutex
+10	75	201	#line 75 "C:\Github\NXC_Source\+HighScore.nxc"
+10	76	201	#line 76 "C:\Github\NXC_Source\+HighScore.nxc"
+10	77	201		set __Wait_7qG2_ms_7qG2_000_inline_endGame, 1000
+10	76	204	#line 76 "C:\Github\NXC_Source\+HighScore.nxc"
+10	8771	204	#line 8771 "NXCDefs.h"
+10	8772	204		waitv __Wait_7qG2_ms_7qG2_000_inline_endGame
+10	8771	206	#line 8771 "NXCDefs.h"
+10	76	206	#line 76 "C:\Github\NXC_Source\+HighScore.nxc"
+10	79	206	#line 79 "C:\Github\NXC_Source\+HighScore.nxc"
+10	80	206		subret __endGame_return
+11	95	0	#line 95 "C:\Github\NXC_Source\+HighScore.nxc"
+11	96	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+11	95	43	#line 95 "C:\Github\NXC_Source\+HighScore.nxc"
+11	96	43		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\+HighScore.nxc
+1	display	48	C:\Github\NXC_Source\.\+TextInput.nxc
+2	output	800	C:\Github\NXC_Source\.\+TextInput.nxc
+3	debugOut	1039	C:\Github\NXC_Source\.\+TextInput.nxc
+4	senseButtonModded	1471	C:\Github\NXC_Source\.\+TextInput.nxc
+5	keyboard	1692	C:\Github\NXC_Source\.\+TextInput.nxc
+6	readHighscore	2469	C:\Github\NXC_Source\+HighScore.nxc
+7	overwriteHighscore	2536	C:\Github\NXC_Source\+HighScore.nxc
+8	readHighscoreName	2591	C:\Github\NXC_Source\+HighScore.nxc
+9	overwriteHighscoreName	2699	C:\Github\NXC_Source\+HighScore.nxc
+10	endGame	2783	C:\Github\NXC_Source\+HighScore.nxc
+11	__initialize_global_data	2991	C:\Github\NXC_Source\+HighScore.nxc

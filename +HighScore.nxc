@@ -23,8 +23,8 @@ void overwriteHighscore(int NewHighscore)
   Write(handle, NewHighscore);
   CloseFile(handle);
   }
-
-int readHighscoreName()
+/*
+int readHighscoreHigh()
   {
   int ARead = 0;
   int result = OpenFileRead("High.dat", fsize, handle);
@@ -37,36 +37,58 @@ int readHighscoreName()
     {ARead = -1;}
   return ARead;
   }
+*/
+string readHighscoreName()
+  {
+  string ARead = "";
+  int result = OpenFileRead("High.dat", fsize, handle);
+  if (result == LDR_SUCCESS)
+    {
+    Read(handle,ARead);
+    Read(handle,ARead);
+    CloseFile(handle);
+    }
+  else
+    {ARead = "";}
+  return ARead;
+  }
 
 void overwriteHighscoreName(int NewHighscore)
   {
   DeleteFile("High.dat");
   CreateFile("High.dat", 10, handle);
   Write(handle, NewHighscore);
-  Write(handle, keyboard());
+  string temp=keyboard();
+  Write(handle, temp);
   CloseFile(handle);
   }
   
-/*
+//*
 void endGame(int myscore)
   {
-  if (score>readHighscore())
-    {overwriteHighscore(myscore);}
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
+  Wait(1000);
+  if (myscore>readHighscore())
+    {overwriteHighscore(myscore);
+    string temp=keyboard();
+    overwriteHighscoreName(temp);}
   TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(myscore),", HS: ",NumToStr( readHighscore() )),0);
+  TextOut(0, LCD_LINE7,StrCat("N: ",readHighscoreName()),0);
   Wait(1000);
   }
   
 void deleteHighscore()
-  {
-  DeleteFile("high.dat");
-  }
+  {DeleteFile("high.dat");}
 
 task main()
   {
-  score=0;
-  score=Random(100);
+  int score=0;
+  bool playing=true;
+  while (playing)
+    {
+    score=Random(100);
+    playing=false;
+    }
   endGame(score);
   }
-*/
-task main(){}
+//*/

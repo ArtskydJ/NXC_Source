@@ -5,7 +5,7 @@
 
 const int initnum=50;
 int highscore;
-//int result, fsize, handle;
+//int fsize, handle;
 
 
 /*

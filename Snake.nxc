@@ -3,6 +3,7 @@
 //Snake.bas, developed by Joseph Dykstra and Josiah K, finished on 04-30-2012.
 //Snake.cpp, ported from Snake.bas by Joseph Dykstra,  finished on 07-13-2012.
 //Snake.nxc, ported from Snake.cpp by Joseph Dykstra,  finished on 10-02-2012.
+//Many modifications since, though
 
 #include "+Button+-.nxc"
 #include "+HighScore.nxc"
@@ -15,8 +16,8 @@
 #define  GR   1   //GRow
 #define  SP   2   //SPeedup
 #define  DE   3   //DElaytime
-#define  RAND  0  //RANDom
-#define  PLUS  1  //PLUS
+#define  RAND   0 //RANDom
+#define  PLUS   1 //PLUS
 
 //startup limits, random, & custom settings in selectGame()
 const int limits[4][2]={{8,5,100,100},{3,1,9,151}};
@@ -24,7 +25,6 @@ const int limits[4][2]={{8,5,100,100},{3,1,9,151}};
 
 int n, x, y, z, fx, fy, lx, ly, gametype, dir=1, cdir=1, score=0;
 int length,grow,startlength,delaytime,board[width+1][height+1];
-int result, fsize, handle;
 float speedup;
 bool foodate=0,dead=0,wrap=0,playagain=1,newsettings=0;
 string msg="", accesshigh="";
@@ -58,34 +58,17 @@ void customGame()
     until (ButtonState(BTNCENTER)==false) {}
     while (ButtonState(BTNCENTER)==false)
       {
-      z=SenseButton(z,true,addtoz,limits[RAND][x],false)   //REplAce
-      if (x==SP) TextOut(70,LCD_LINE4,StrCat(".",NumToStr(l+z),"    "),0);///////////////////
+      z=senseButton(z,true,addtoz,limits[RAND][x],false);
+      if (x==SP) TextOut(70,LCD_LINE4,StrCat(".",NumToStr(l+z),"    "),0);///////////////
       else       TextOut(80,LCD_LINE4,StrCat(NumToStr(z+l-1),"    "),0);
       }
     if (x==ST) {startlength=(z+l-1);}
     if (x==GR) {grow=       (z+l-1);}
-    if (x==SP) {speedup=((l*10)+z);speedup/=100;}//////////////////////////////////////////////
+    if (x==SP) {speedup=((l*10)+z);speedup/=100;}////////////////////////////////////////
     if (x==DE) {delaytime=  (z+l-1);}
     until (ButtonState(BTNCENTER)==false) {}
     }
   }
-
-//REplAce
-/*if (ButtonState(BTNLEFT))  {z-=addtoz;}
-until (ButtonState(BTNLEFT)==false)  {}
-if (ButtonState(BTNRIGHT)) {z+=addtoz;}
-until (ButtonState(BTNRIGHT)==false) {}
-if (z<0) {z=limits[RAND][x];}
-if (z>limits[RAND][x]) {z=0;}*/
-
-//repLACE
-/*if (ButtonPressed(BTNLEFT))  {gametype--;}
-until (ButtonPressed(BTNLEFT)==false)  {}
-if (ButtonPressed(BTNRIGHT)) {gametype++;}
-until (ButtonPressed(BTNRIGHT)==false) {}
-if (gametype<0) {gametype=5;}
-if (gametype>5) {gametype=0;}*/
-
 
 
 void selectGame()
@@ -93,8 +76,7 @@ void selectGame()
   accesshigh="Snake";
   while (ButtonPressed(BTNCENTER)==false)
     {
-    gametype=SenseButton(gametype,true,addtoz,5,false)
-    //repLACE
+    gametype=senseButton(gametype,true,1,5,false); //changed "addtoz" to "1"
     ClearScreen();
     TextOut(SX,LCD_LINE1,"SNAKE",  0);
     TextOut(1, LCD_LINE2,"Choose:",0);
@@ -187,36 +169,16 @@ void boardInit()
   fy=0; lx=0; ly=0;
   SetLongAbort(true);
   }
-
-/*
-int readHighscore()
-  {
-  int ARead = 0;
-  result = OpenFileRead(accesshigh, fsize, handle);
-  if (result==LDR_SUCCESS) {result=Read(handle,ARead); result=CloseFile(handle);}
-  else {ARead = -1;}
-  return ARead;
-  }
-
-
-void overwriteHighscore(int NewHighscore)
-  {
-  result = DeleteFile(accesshigh);
-  result = CreateFile(accesshigh, 10, handle);
-  result = Write(handle, NewHighscore);
-  result = CloseFile(handle);
-  }
-*/
     
     
 void snakeMove()
   {
   for (x=0;x<delaytime/5;x++)
     {
-    if (ButtonPressed(0)&&cdir!=(3)) {dir=0;}
-    if (ButtonPressed(1)&&cdir!=(2)) {dir=1;}
-    if (ButtonPressed(2)&&cdir!=(1)) {dir=2;}
-    if (ButtonPressed(3)&&cdir!=(0)) {dir=3;}
+    if (ButtonPressed(0)&&cdir!=(3)) {dir=0;}//D
+    if (ButtonPressed(1)&&cdir!=(2)) {dir=1;}//R
+    if (ButtonPressed(2)&&cdir!=(1)) {dir=2;}//L
+    if (ButtonPressed(3)&&cdir!=(0)) {dir=3;}//U
     Wait(5);
     }
   if (dir==2) //LEFT
@@ -366,6 +328,7 @@ void gameOver()
 
 task main()
   {
+  string temp=keyboard();
   intro();
   selectGame();
   while (playagain)
