@@ -8,7 +8,7 @@ void deleteHigh(string deleteme)
   ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
   TextOut(0, LCD_LINE7,"Are you sure?",0);
   TextOut(82,LCD_LINE8,"Yes",4096);
-  for (int a=3;a>0;a--) {NumOut(47,LCD_LINE8,a,0);Wait(1000);}
+  for (int a=3;a>0;a--) {NumOut(76,LCD_LINE8,a,0);Wait(1000);}
   if (ButtonPressed(BTNRIGHT))
     {
     result = DeleteFile(deleteme);
