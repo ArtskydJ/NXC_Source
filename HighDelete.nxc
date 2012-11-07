@@ -30,30 +30,47 @@ void deleteHigh(string deleteme)
   until (ButtonPressed(BTNCENTER)==false)
   }
 
+  
+void viewFile(string viewme)
+  {
+  ClearScreen();
+  TextOut(2,56,StrCat("Highscore:",NumToStr( readHighscore() )),0);
+  TextOut(2,48,StrCat("Name:",readHighscoreName()),0);
+  TextOut(45,0,"OK",0);
+  until (ButtonPressed(BTNCENTER)){}
+  while (ButtonPressed(BTNCENTER)){}
+  }
+
 
 task main()
   {
+  int j,nof;
   while (true)
     {
     ListFilesType dathighs;
     dathighs.Pattern = "*.dat";
     SysListFiles(dathighs);
-    int nof=ArrayLen(dathighs.FileList);
-    int j=0;
-    while (ButtonPressed(BTNLEFT)==false)
+    nof=ArrayLen(dathighs.FileList);
+    j=0;
+    while (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0)
       {
       ClearScreen();
       TextOut(0,0,"Delete",0);
       TextOut(0,0,"Delete",0);
       for (int i=0; i<7; i++)
-        {if (nof > j+i)
-          {TextOut(2,56-i*8, dathighs.FileList[j+i]);}}
+        {
+        if (nof > j+i)
+          {TextOut(2,56-i*8, dathighs.FileList[j+i],0);}
+        else
+          {TextOut(2,56-i*8,"EXIT",0);}
+        }
       RectOut(0,56,99,7,0);
       Wait(50);
-      j=senseButton(j,0,1,nof-1,1);
+      j=senseButton(j,0,1,nof,1);
       }
-    until (ButtonPressed(BTNLEFT)==false) {}
-    deleteHigh(dathighs.FileList[j]);
+    if (ButtonPressed(BTNRIGHT) viewFile(dathighs.FileList[j]);
+    else deleteHigh(dathighs.FileList[j]);
+    until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
     }
   }
   
