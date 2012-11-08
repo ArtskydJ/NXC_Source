@@ -2,7 +2,7 @@
 #include "+TextInput.nxc"
 int fsize, handle;
 
-int readHighscore(string readme)
+int readHigh(string readme)
   {
   int ARead = 0;
   int result = OpenFileRead(readme, fsize, handle);
@@ -16,29 +16,15 @@ int readHighscore(string readme)
   return ARead;
   }
 
-void overwriteHighscore(string readme, int NewHighscore)
+void writeHigh(string readme, int NewHighscore)
   {
   DeleteFile(readme);
   CreateFile(readme, 10, handle);
   Write(handle, NewHighscore);
   CloseFile(handle);
   }
-/*
-int readHighscoreHigh(string readme)
-  {
-  int ARead = 0;
-  int result = OpenFileRead(readme, fsize, handle);
-  if (result == LDR_SUCCESS)
-    {
-    Read(handle, ARead);
-    CloseFile(handle);
-    }
-  else
-    {ARead = -1;}
-  return ARead;
-  }
-*/
-string readHighscoreName(string readme)
+
+string readHighName(string readme)
   {
   string ARead = "";
   int result = OpenFileRead(readme, fsize, handle);
@@ -53,27 +39,24 @@ string readHighscoreName(string readme)
   return ARead;
   }
 
-void overwriteHighscoreName(string readme, int NewHighscore)
+void writeHighName(string readme, int NewHighscore)
   {
   DeleteFile(readme);
   CreateFile(readme, 10, handle);
-  Write(handle, NewHighscore);
-  string temp=keyboard();
+  Write(handle,NewHighscore);
+  string temp=keyboard(); ////////////////////////////////
   Write(handle, temp);
   CloseFile(handle);
   }
   
-//*
+/*
 void endGame(string readme, int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
   Wait(1000);
-  if (myscore>readHighscore(readme))
-    {overwriteHighscore(readme,myscore);
-    string temp=keyboard();
-    overwriteHighscoreName(readme,temp);}
-  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(myscore),", HS: ",NumToStr( readHighscore(readme) )),0);
-  TextOut(0, LCD_LINE7,StrCat("N: ",readHighscoreName(readme)),0);
+  if (myscore>readHigh(readme)) {writeHighName(readme,myscore);}
+  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(myscore),", HS: ",NumToStr( readHigh(readme) )),0);
+  TextOut(0, LCD_LINE7,StrCat("N: ",readHighName(readme)),0);
   while(1){}
   }
   

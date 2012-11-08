@@ -1,444 +1,745 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001deleteHigh	6	1	0	4	22
-1	__signed_stack_002deleteHigh	6	1	4	4	12
-2	__signed_stack_003deleteHigh	6	1	8	4	2
-3	__DU0senseButton	5	1	12	4	4
-4	__D0deleteHigh	6	1	16	4	46
-5	__D0main	6	1	20	4	44
-6	__D0senseButton	6	1	24	4	66
-7	__signed_stack_001main	6	1	28	4	22
-8	__constVal786433	6	0	32	4	2
-9	__Wait_7qG2_ms_7qG2_000_inline_deleteHigh	5	1	36	4	6
-10	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	40	4	2
-11	__signed_stack_001senseButton	6	1	44	4	20
-12	__signed_stack_002main	6	1	48	4	8
-13	__signed_stack_003main	6	1	52	4	6
-14	__signed_stack_004main	6	1	56	4	2
-15	__IOMWMutex	9	0	60	4	4
-16	__FDMutex	9	0	64	4	2
-17	__RBtnMutex	9	0	68	4	16
-18	__TextOutMutex	9	0	72	4	26
-19	__senseButton_7qG2_high_7qG2_000	4	1	76	2	5
-20	__senseButton_7qG2_add_7qG2_000	4	1	78	2	3
-21	__senseButton_7qG2_val_7qG2_000	4	1	80	2	14
-22	__main_7qG2_nof_7qG2_001	4	1	82	2	3
-23	__main_7qG2_j_7qG2_001	4	1	84	2	6
-24	__main_7qG2_i_7qG2_003	4	1	86	2	7
-25	__senseButton_7qG2_lu_7qG2_000	4	1	88	2	4
-26	__senseButton_7qG2_rd_7qG2_000	4	1	90	2	4
-27	__deleteHigh_7qG2_a_7qG2_001	4	1	92	2	5
-28	__constVal200	4	0	94	2	2
-29	__constVal32	2	0	96	1	1
-30	__constVal114	2	0	97	1	1
-31	__constVal121	2	0	98	1	1
-32	__constVal98	2	0	99	1	1
-33	__constVal97	2	0	100	1	1
-34	__constVal99	2	0	101	1	1
-35	__constVal115	2	0	102	1	1
-36	____initialize_global_data_return	1	1	103	1	3
-37	__constVal44	2	0	104	1	1
-38	__constVal100	2	0	105	1	1
-39	__constVal50	2	0	106	1	1
-40	__constVal122	2	0	107	1	1
-41	__constVal110	2	0	108	1	1
-42	__constVal109	2	0	109	1	1
-43	__constVal108	2	0	110	1	1
-44	__constVal113	2	0	111	1	1
-45	__constVal112	2	0	112	1	1
-46	__constVal111	2	0	113	1	1
-47	__constVal107	2	0	114	1	1
-48	__constVal103	2	0	115	1	1
-49	__constVal102	2	0	116	1	1
-50	__constVal101	2	0	117	1	1
-51	__constVal106	2	0	118	1	1
-52	__constVal105	2	0	119	1	1
-53	__constVal104	2	0	120	1	1
-54	__constVal53	2	0	121	1	1
-55	__senseButton_7qG2_lr_ud_7qG2_000	1	1	122	1	2
-56	__constVal56	2	0	123	1	1
-57	__senseButton_return	1	1	124	1	4
-58	__senseButton_7qG2_cut_7qG2_000	1	1	125	1	2
-59	__constVal54	2	0	126	1	1
-60	__constVal57	2	0	127	1	1
-61	__constVal119	2	0	128	1	1
-62	__constVal120	2	0	129	1	1
-63	__constVal4	2	0	130	1	1
-64	__constVal117	2	0	131	1	1
-65	__constVal118	2	0	132	1	1
-66	__constVal116	2	0	133	1	1
-67	__constVal48	2	0	134	1	1
-68	__constVal49	2	0	135	1	1
-69	__ClearLine_7qG2_line_7qG2_000_inline_deleteHigh	1	1	136	1	10
-70	__constVal46	2	0	137	1	1
-71	__constVal63	2	0	138	1	1
-72	__constVal1	2	0	139	1	4
-73	__constVal40	2	0	140	1	2
-74	__constVal0	2	1	141	1	18
-75	__constVal55	2	0	142	1	1
-76	__deleteHigh_return	1	1	143	1	3
-77	__constVal51	2	0	144	1	1
-78	__constVal52	2	0	145	1	1
-79	__TextOutArgs	8	0	4	16	73
-80	__TextOutArgs.Result	2	1	148	1	73
-81	__TextOutArgs.Location	8	0	2	4	73
-82	__TextOutArgs.Location.X	4	1	152	2	73
-83	__TextOutArgs.Location.Y	4	1	154	2	73
-84	__TextOutArgs.Text	7	0	156	4	73
-85	__TextOutArgs.Text.Text_type	1	0	0	1	0
-86	__TextOutArgs.Options	5	1	160	4	73
-87	__PointOutArgs	8	0	3	12	4
-88	__PointOutArgs.Result	2	1	164	1	4
-89	__PointOutArgs.Location	8	0	2	4	4
-90	__PointOutArgs.Location.X	4	1	168	2	4
-91	__PointOutArgs.Location.Y	4	1	170	2	4
-92	__PointOutArgs.Options	5	1	172	4	4
-93	__RectOutArgs	8	0	4	16	6
-94	__RectOutArgs.Result	2	1	176	1	6
-95	__RectOutArgs.Location	8	0	2	4	6
-96	__RectOutArgs.Location.X	4	1	180	2	6
-97	__RectOutArgs.Location.Y	4	1	182	2	6
-98	__RectOutArgs.Size	8	0	2	4	6
-99	__RectOutArgs.Size.Width	4	1	184	2	6
-100	__RectOutArgs.Size.Height	4	1	186	2	6
-101	__RectOutArgs.Options	5	1	188	4	6
-102	__RBtnArgs	8	0	5	8	32
-103	__RBtnArgs.Result	2	1	192	1	32
-104	__RBtnArgs.Index	1	1	193	1	32
-105	__RBtnArgs.Pressed	1	1	194	1	32
-106	__RBtnArgs.Count	1	1	195	1	32
-107	__RBtnArgs.Reset	1	1	196	1	32
-108	__FDArgs	8	0	2	8	3
-109	__FDArgs.Result	3	1	200	2	3
-110	__FDArgs.Filename	7	0	202	4	3
-111	__FDArgs.Filename.Filename_type	1	0	0	1	0
-112	__main_7qG2_dathighs_7qG2_001	8	0	3	12	6
-113	__main_7qG2_dathighs_7qG2_001.Result	2	1	204	1	6
-114	__main_7qG2_dathighs_7qG2_001.Pattern	7	0	206	4	6
-115	__main_7qG2_dathighs_7qG2_001.Pattern.Pattern_type	1	0	0	1	0
-116	__main_7qG2_dathighs_7qG2_001.FileList	7	0	208	4	6
-117	__main_7qG2_dathighs_7qG2_001.FileList.FileList_type	7	0	0	4	0
-118	__main_7qG2_dathighs_7qG2_001.FileList.FileList_type.FileList_type_type	1	0	0	1	0
-119	__IOMWBIArgs	8	0	4	16	8
-120	__IOMWBIArgs.Result	2	1	212	1	8
-121	__IOMWBIArgs.ModuleID	5	1	216	4	8
-122	__IOMWBIArgs.Offset	3	1	220	2	8
-123	__IOMWBIArgs.Buffer	7	0	222	4	8
-124	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
-125	__strretvalmain	7	0	224	4	4
-126	__strretvalmain.__strretvalmain_type	1	0	0	1	0
-127	layout	7	0	226	4	1
-128	layout.layout_type	1	0	0	1	0
-129	__deleteHigh_7qG2_deleteme_7qG2_000	7	0	228	4	2
-130	__deleteHigh_7qG2_deleteme_7qG2_000.__deleteHigh_7qG2_deleteme_7qG2_000_type	1	0	0	1	0
-131	__strbufmain	7	0	230	4	8
-132	__strbufmain.__strbufmain_type	1	0	0	1	0
-133	__BlankLine	7	0	232	4	5
-134	__BlankLine.__BlankLine_type	1	0	0	1	0
-135	__IOMWFlattenBuf	7	0	234	4	4
-136	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
-137	__strbufdeleteHigh	7	0	236	4	10
-138	__strbufdeleteHigh.__strbufdeleteHigh_type	1	0	0	1	0
-139	__constStr0038	7	0	238	4	1
-140	__constStr0038.__constStr0038_type	1	1	0	1	0
-141	__constStr0039	7	0	240	4	1
-142	__constStr0039.__constStr0039_type	1	1	0	1	0
-143	__constStr0040	7	0	242	4	1
-144	__constStr0040.__constStr0040_type	1	1	0	1	0
-145	__constStr0037	7	0	244	4	1
-146	__constStr0037.__constStr0037_type	1	1	0	1	0
-147	__constStr0034	7	0	246	4	1
-148	__constStr0034.__constStr0034_type	1	1	0	1	0
-149	__constStr0035	7	0	248	4	1
-150	__constStr0035.__constStr0035_type	1	1	0	1	0
-151	__constStr0036	7	0	250	4	1
-152	__constStr0036.__constStr0036_type	1	1	0	1	0
+0	__FDMutex	9	0	0	4	2
+1	__signed_stack_002main	6	1	4	4	18
+2	__D0deleteHigh	6	1	8	4	46
+3	__D0main	6	1	12	4	90
+4	__FOMutex	9	0	16	4	4
+5	__signed_stack_001main	6	1	20	4	44
+6	__FCMutex	9	0	24	4	4
+7	__signed_stack_002viewFile	6	1	28	4	6
+8	__signed_stack_001readHigh	6	1	32	4	2
+9	__signed_stack_004main	6	1	36	4	2
+10	__signed_stack_003main	6	1	40	4	8
+11	__signed_stack_001readHighName	6	1	44	4	2
+12	__FReadMutex	9	0	48	4	6
+13	__signed_stack_001viewFile	6	1	52	4	10
+14	__signed_stack_001senseButton	6	1	56	4	20
+15	__TextOutMutex	9	0	60	4	40
+16	__Wait_7qG2_ms_7qG2_000_inline_deleteHigh	5	1	64	4	6
+17	__D0senseButton	6	1	68	4	66
+18	__DU0senseButton	5	1	72	4	4
+19	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	76	4	2
+20	__signed_stack_001deleteHigh	6	1	80	4	22
+21	__D0viewFile	6	1	84	4	25
+22	__signed_stack_002deleteHigh	6	1	88	4	12
+23	__IOMWMutex	9	0	92	4	4
+24	__constVal786433	6	0	96	4	2
+25	__signed_stack_003deleteHigh	6	1	100	4	2
+26	__D0readHigh	6	1	104	4	10
+27	__PointOutMutex	9	0	108	4	4
+28	__D0readHighName	6	1	112	4	9
+29	__RBtnMutex	9	0	116	4	26
+30	__deleteHigh_7qG2_a_7qG2_001	4	1	120	2	5
+31	__readHigh_7qG2_ARead_7qG2_000	4	1	122	2	5
+32	handle	4	1	124	2	7
+33	__main_7qG2_nof_7qG2_000	4	1	126	2	5
+34	__main_7qG2_j_7qG2_000	4	1	128	2	9
+35	__main_7qG2_i_7qG2_000	4	1	130	2	9
+36	__senseButton_7qG2_high_7qG2_000	4	1	132	2	5
+37	__senseButton_7qG2_add_7qG2_000	4	1	134	2	3
+38	__senseButton_7qG2_val_7qG2_000	4	1	136	2	14
+39	fsize	4	1	138	2	2
+40	__senseButton_7qG2_rd_7qG2_000	4	1	140	2	4
+41	__senseButton_7qG2_lu_7qG2_000	4	1	142	2	4
+42	__constVal200	4	0	144	2	4
+43	__constVal112	2	0	146	1	1
+44	__constVal113	2	0	147	1	1
+45	__constVal114	2	0	148	1	1
+46	__constVal110	2	0	149	1	1
+47	__constVal109	2	0	150	1	1
+48	__constVal111	2	0	151	1	1
+49	__viewFile_return	1	1	152	1	3
+50	__constVal118	2	0	153	1	1
+51	__deleteHigh_return	1	1	154	1	3
+52	__readHighName_return	1	1	155	1	4
+53	__constVal119	2	0	156	1	1
+54	__constVal116	2	0	157	1	1
+55	__constVal115	2	0	158	1	1
+56	__ClearLine_7qG2_line_7qG2_000_inline_deleteHigh	1	1	159	1	10
+57	__constVal117	2	0	160	1	1
+58	____initialize_global_data_return	1	1	161	1	3
+59	__constVal99	2	0	162	1	1
+60	__constVal98	2	0	163	1	1
+61	__constVal97	2	0	164	1	1
+62	__constVal101	2	0	165	1	1
+63	__constVal104	2	0	166	1	1
+64	__constVal103	2	0	167	1	1
+65	__constVal102	2	0	168	1	1
+66	__constVal32	2	0	169	1	1
+67	__constVal1	2	0	170	1	7
+68	__constVal0	2	1	171	1	23
+69	__constVal4	2	0	172	1	1
+70	__constVal108	2	0	173	1	1
+71	__constVal105	2	0	174	1	1
+72	__constVal106	2	0	175	1	1
+73	__constVal107	2	0	176	1	1
+74	__constVal120	2	0	177	1	1
+75	__senseButton_7qG2_cut_7qG2_000	1	1	178	1	2
+76	__constVal51	2	0	179	1	1
+77	__senseButton_return	1	1	180	1	4
+78	__constVal53	2	0	181	1	1
+79	__constVal52	2	0	182	1	1
+80	__constVal49	2	0	183	1	1
+81	__FReadTmpByte	1	1	184	1	3
+82	__constVal48	2	0	185	1	1
+83	__constVal100	2	0	186	1	1
+84	__senseButton_7qG2_lr_ud_7qG2_000	1	1	187	1	2
+85	__constVal50	2	0	188	1	1
+86	__constVal63	2	0	189	1	1
+87	__constVal121	2	0	190	1	1
+88	__constVal56	2	0	191	1	1
+89	__readHigh_return	1	1	192	1	4
+90	__constValNeg1	2	0	193	1	1
+91	__constVal57	2	0	194	1	1
+92	__constVal55	2	0	195	1	1
+93	__constVal46	2	0	196	1	1
+94	__constVal40	2	0	197	1	2
+95	__constVal54	2	0	198	1	1
+96	__constVal122	2	0	199	1	1
+97	__constVal44	2	0	200	1	1
+98	__TextOutArgs	8	0	4	16	115
+99	__TextOutArgs.Result	2	1	204	1	115
+100	__TextOutArgs.Location	8	0	2	4	115
+101	__TextOutArgs.Location.X	4	1	208	2	115
+102	__TextOutArgs.Location.Y	4	1	210	2	115
+103	__TextOutArgs.Text	7	0	212	4	115
+104	__TextOutArgs.Text.Text_type	1	0	0	1	0
+105	__TextOutArgs.Options	5	1	216	4	115
+106	__IOMWBIArgs	8	0	4	16	8
+107	__IOMWBIArgs.Result	2	1	220	1	8
+108	__IOMWBIArgs.ModuleID	5	1	224	4	8
+109	__IOMWBIArgs.Offset	3	1	228	2	8
+110	__IOMWBIArgs.Buffer	7	0	230	4	8
+111	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+112	__RBtnArgs	8	0	5	8	52
+113	__RBtnArgs.Result	2	1	232	1	52
+114	__RBtnArgs.Index	1	1	233	1	52
+115	__RBtnArgs.Pressed	1	1	234	1	52
+116	__RBtnArgs.Count	1	1	235	1	52
+117	__RBtnArgs.Reset	1	1	236	1	52
+118	__PointOutArgs	8	0	3	12	8
+119	__PointOutArgs.Result	2	1	240	1	8
+120	__PointOutArgs.Location	8	0	2	4	8
+121	__PointOutArgs.Location.X	4	1	244	2	8
+122	__PointOutArgs.Location.Y	4	1	246	2	8
+123	__PointOutArgs.Options	5	1	248	4	8
+124	__RectOutArgs	8	0	4	16	6
+125	__RectOutArgs.Result	2	1	252	1	6
+126	__RectOutArgs.Location	8	0	2	4	6
+127	__RectOutArgs.Location.X	4	1	256	2	6
+128	__RectOutArgs.Location.Y	4	1	258	2	6
+129	__RectOutArgs.Size	8	0	2	4	6
+130	__RectOutArgs.Size.Width	4	1	260	2	6
+131	__RectOutArgs.Size.Height	4	1	262	2	6
+132	__RectOutArgs.Options	5	1	264	4	6
+133	__FReadArgs	8	0	4	12	19
+134	__FReadArgs.Result	3	1	268	2	19
+135	__FReadArgs.FileHandle	1	1	270	1	19
+136	__FReadArgs.Buffer	7	0	272	4	19
+137	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+138	__FReadArgs.Length	5	1	276	4	19
+139	__main_7qG2_dathighs_7qG2_001	8	0	3	12	7
+140	__main_7qG2_dathighs_7qG2_001.Result	2	1	280	1	7
+141	__main_7qG2_dathighs_7qG2_001.Pattern	7	0	282	4	7
+142	__main_7qG2_dathighs_7qG2_001.Pattern.Pattern_type	1	0	0	1	0
+143	__main_7qG2_dathighs_7qG2_001.FileList	7	0	284	4	7
+144	__main_7qG2_dathighs_7qG2_001.FileList.FileList_type	7	0	0	4	0
+145	__main_7qG2_dathighs_7qG2_001.FileList.FileList_type.FileList_type_type	1	0	0	1	0
+146	__FDArgs	8	0	2	8	3
+147	__FDArgs.Result	3	1	288	2	3
+148	__FDArgs.Filename	7	0	290	4	3
+149	__FDArgs.Filename.Filename_type	1	0	0	1	0
+150	__FOArgs	8	0	4	12	10
+151	__FOArgs.Result	3	1	292	2	10
+152	__FOArgs.FileHandle	1	1	294	1	10
+153	__FOArgs.Filename	7	0	296	4	10
+154	__FOArgs.Filename.Filename_type	1	0	0	1	0
+155	__FOArgs.Length	5	1	300	4	10
+156	__FCArgs	8	0	2	4	6
+157	__FCArgs.Result	3	1	304	2	6
+158	__FCArgs.FileHandle	1	1	306	1	6
+159	layout	7	0	308	4	1
+160	layout.layout_type	1	0	0	1	0
+161	__IOMWFlattenBuf	7	0	310	4	4
+162	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+163	__soTmpBuf	7	0	312	4	4
+164	__soTmpBuf.__soTmpBuf_type	1	0	0	1	0
+165	__constStr0009	7	0	314	4	3
+166	__constStr0009.__constStr0009_type	1	1	0	1	0
+167	__readHighName_7qG2_readme_7qG2_000	7	0	316	4	2
+168	__readHighName_7qG2_readme_7qG2_000.__readHighName_7qG2_readme_7qG2_000_type	1	0	0	1	0
+169	__readHigh_7qG2_readme_7qG2_000	7	0	318	4	2
+170	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+171	__constStr0016	7	0	320	4	2
+172	__constStr0016.__constStr0016_type	1	1	0	1	0
+173	__ArrHelper__viewFile_244_0	7	0	322	4	4
+174	__ArrHelper__viewFile_244_0.__ArrHelper__viewFile_244_0_type	1	0	0	1	0
+175	__strbufreadHighName	7	0	324	4	6
+176	__strbufreadHighName.__strbufreadHighName_type	1	0	0	1	0
+177	__strbufviewFile	7	0	326	4	18
+178	__strbufviewFile.__strbufviewFile_type	1	0	0	1	0
+179	__strretvalviewFile	7	0	328	4	8
+180	__strretvalviewFile.__strretvalviewFile_type	1	0	0	1	0
+181	__strretvalmain	7	0	330	4	6
+182	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+183	__ArrHelper__viewFile_244_1	7	0	332	4	4
+184	__ArrHelper__viewFile_244_1.__ArrHelper__viewFile_244_1_type	1	0	0	1	0
+185	__strbufdeleteHigh	7	0	334	4	10
+186	__strbufdeleteHigh.__strbufdeleteHigh_type	1	0	0	1	0
+187	__strbufmain	7	0	336	4	18
+188	__strbufmain.__strbufmain_type	1	0	0	1	0
+189	__constStr0039	7	0	338	4	1
+190	__constStr0039.__constStr0039_type	1	1	0	1	0
+191	__constStr0038	7	0	340	4	1
+192	__constStr0038.__constStr0038_type	1	1	0	1	0
+193	__viewFile_7qG2_viewme_7qG2_000	7	0	342	4	3
+194	__viewFile_7qG2_viewme_7qG2_000.__viewFile_7qG2_viewme_7qG2_000_type	1	0	0	1	0
+195	__constStr0040	7	0	344	4	1
+196	__constStr0040.__constStr0040_type	1	1	0	1	0
+197	__constStr0043	7	0	346	4	1
+198	__constStr0043.__constStr0043_type	1	1	0	1	0
+199	__constStr0042	7	0	348	4	1
+200	__constStr0042.__constStr0042_type	1	1	0	1	0
+201	__constStr0041	7	0	350	4	1
+202	__constStr0041.__constStr0041_type	1	1	0	1	0
+203	__constStr0037	7	0	352	4	1
+204	__constStr0037.__constStr0037_type	1	1	0	1	0
+205	__constStr0033	7	0	354	4	1
+206	__constStr0033.__constStr0033_type	1	1	0	1	0
+207	__deleteHigh_7qG2_deleteme_7qG2_000	7	0	356	4	2
+208	__deleteHigh_7qG2_deleteme_7qG2_000.__deleteHigh_7qG2_deleteme_7qG2_000_type	1	0	0	1	0
+209	__readHighName_7qG2_ARead_7qG2_000	7	0	358	4	9
+210	__readHighName_7qG2_ARead_7qG2_000.__readHighName_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+211	__constStr0034	7	0	360	4	1
+212	__constStr0034.__constStr0034_type	1	1	0	1	0
+213	__constStr0036	7	0	362	4	1
+214	__constStr0036.__constStr0036_type	1	1	0	1	0
+215	__constStr0035	7	0	364	4	1
+216	__constStr0035.__constStr0035_type	1	1	0	1	0
+217	__BlankLine	7	0	366	4	5
+218	__BlankLine.__BlankLine_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	35	0	#line 35 "C:\Github\NXC_Source\HighDelete.nxc"
-0	36	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	35	2	#line 35 "C:\Github\NXC_Source\HighDelete.nxc"
-0	36	2	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
-0	37	2		set __D0main, 1
-0	37	5	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
-0	38	5		tst 5, __D0main, __D0main
-0	37	8	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
-0	38	8		brtst 4, __ASM_Label_1237, __D0main
-0	38	11	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
-0	39	11		strcat __strbufmain, __constStr0039
-0	38	15	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
-0	39	15		mov __main_7qG2_dathighs_7qG2_001.Pattern, __strbufmain
-0	38	17	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
-0	40	17	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
-0	41	17	#pragma macro 4
-0	41	17	#line 41 "C:\Github\NXC_Source\HighDelete.nxc"
-0	41	17		syscall 47, __main_7qG2_dathighs_7qG2_001
-0	39	20	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
-0	39	20	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
-0	39	20	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
-0	39	20	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
-0	40	20	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
-0	40	20	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
-0	40	20	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
-0	41	20		arrsize __main_7qG2_nof_7qG2_001, __main_7qG2_dathighs_7qG2_001.FileList
-0	40	23	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
-0	41	23	#line 41 "C:\Github\NXC_Source\HighDelete.nxc"
-0	42	23		set __main_7qG2_j_7qG2_001, 0
-0	41	26	#line 41 "C:\Github\NXC_Source\HighDelete.nxc"
-0	42	26	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	26		set __signed_stack_001main, 2
-0	42	29	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	42	29	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	29		mov __D0main, __constVal0
-0	42	31	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	31		acquire __RBtnMutex
-0	42	32	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	32		mov __RBtnArgs.Index, __signed_stack_001main
-0	42	34	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	34		mov __RBtnArgs.Reset, __D0main
-0	42	36	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	36		syscall 20, __RBtnArgs
-0	42	39	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	39		mov __D0main, __RBtnArgs.Pressed
-0	42	41	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	41		release __RBtnMutex
-0	42	42	#line 42 "C:\Github\NXC_Source\HighDelete.nxc"
-0	43	42		mov __signed_stack_001main, __D0main
-0	43	44	#line 43 "C:\Github\NXC_Source\HighDelete.nxc"
-0	44	44		set __D0main, 0
-0	43	47	#line 43 "C:\Github\NXC_Source\HighDelete.nxc"
-0	44	47		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	44	51	#line 44 "C:\Github\NXC_Source\HighDelete.nxc"
-0	45	51		brtst 4, __ASM_Label_1245, __D0main
-0	6896	54	#line 6896 "NXCDefs.h"
-0	6897	54	#pragma macro 6
-0	6897	54		mov __PointOutArgs.Location.X, __constVal200
-0	6897	56		mov __PointOutArgs.Location.Y, __constVal200
-0	6897	58		mov __PointOutArgs.Options, __constVal1
-0	6897	60		syscall 14, __PointOutArgs
-0	11201	63	#line 11201 "NXCDefs.h"
-0	6896	63	#line 6896 "NXCDefs.h"
-0	44	63	#line 44 "C:\Github\NXC_Source\HighDelete.nxc"
-0	45	63	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	63		set __signed_stack_001main, 0
-0	45	66	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	45	66	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	66		set __signed_stack_002main, 0
-0	45	69	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	45	69	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	69		strcat __strbufmain, __constStr0040
-0	45	73	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	73		set __D0main, 0
-0	45	76	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	76		acquire __TextOutMutex
-0	45	77	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	77		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	45	79	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	79		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	45	81	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	81		mov __TextOutArgs.Options, __D0main
-0	45	83	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	83		mov __TextOutArgs.Text, __strbufmain
-0	45	85	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	85		syscall 13, __TextOutArgs
-0	45	88	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	88		mov __D0main, __TextOutArgs.Result
-0	45	90	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	90		release __TextOutMutex
-0	45	91	#line 45 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	91	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	91		set __main_7qG2_i_7qG2_003, 0
-0	46	94	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	94	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	94		mov __signed_stack_001main, __main_7qG2_i_7qG2_003
-0	46	96	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	46	96	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	96		set __D0main, 7
-0	46	99	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	99		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	46	103	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	103		brtst 4, __ASM_Label_1257, __D0main
-0	46	106	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	106		jmp __ASM_Label_1258
-0	47	108	#line 47 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	108		add __main_7qG2_i_7qG2_003, __main_7qG2_i_7qG2_003, __constVal1
-0	47	112	#line 47 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	112		jmp __ASM_Label_1256
-0	47	114	#line 47 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	114		mov __signed_stack_001main, __main_7qG2_nof_7qG2_001
-0	47	116	#line 47 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	116	#line 47 "C:\Github\NXC_Source\HighDelete.nxc"
-0	47	116	#line 47 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	116	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	116	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	116		add __D0main, __main_7qG2_j_7qG2_001, __main_7qG2_i_7qG2_003
-0	48	120	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	120		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	48	124	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	124		brtst 4, __ASM_Label_1266, __D0main
-0	48	127	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	127		set __signed_stack_001main, 2
-0	48	130	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	130	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	130		set __signed_stack_002main, 56
-0	48	133	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	133	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	133		mov __signed_stack_003main, __main_7qG2_i_7qG2_003
-0	48	135	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	135	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	135		set __D0main, 8
-0	48	138	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	138		mul __D0main, __signed_stack_003main, __D0main
-0	48	142	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	142		sub __signed_stack_002main, __signed_stack_002main, __D0main
-0	48	146	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	146	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	146	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	146	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	146	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	146		add __signed_stack_003main, __main_7qG2_j_7qG2_001, __main_7qG2_i_7qG2_003
-0	48	150	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	150	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	150		index __strretvalmain, __main_7qG2_dathighs_7qG2_001.FileList, __signed_stack_003main
-0	48	154	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	48	154	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	154		strcat __strbufmain, __strretvalmain
-0	48	158	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	158		acquire __TextOutMutex
-0	48	159	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	159		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	48	161	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	161		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	48	163	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	163		set __TextOutArgs.Options, 0
-0	48	166	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	166		mov __TextOutArgs.Text, __strbufmain
-0	48	168	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	168		syscall 13, __TextOutArgs
-0	48	171	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	171		mov __D0main, __TextOutArgs.Result
-0	48	173	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	173		release __TextOutMutex
-0	48	174	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	174	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	174	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	174		jmp __ASM_Label_1259
-0	49	176	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	176	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	176		set __signed_stack_001main, 0
-0	49	179	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	179	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	179		set __signed_stack_002main, 56
-0	49	182	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	182	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	182		set __signed_stack_003main, 99
-0	49	185	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	185	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	185		set __signed_stack_004main, 7
-0	49	188	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	188	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	188		set __D0main, 0
-0	49	191	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	191	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	191		mov __RectOutArgs.Location.X, __signed_stack_001main
-0	49	193	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	193		mov __RectOutArgs.Location.Y, __signed_stack_002main
-0	49	195	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	195		mov __RectOutArgs.Size.Width, __signed_stack_003main
-0	49	197	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	197		mov __RectOutArgs.Size.Height, __signed_stack_004main
-0	49	199	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	199		mov __RectOutArgs.Options, __D0main
-0	49	201	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	201		syscall 17, __RectOutArgs
-0	49	204	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	204	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	49	204	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
-0	50	204	#line 50 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	204		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
-0	50	207	#line 50 "C:\Github\NXC_Source\HighDelete.nxc"
-0	8771	207	#line 8771 "NXCDefs.h"
-0	8772	207		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	209	#line 8771 "NXCDefs.h"
-0	50	209	#line 50 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	209	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	209		mov __senseButton_7qG2_val_7qG2_000, __main_7qG2_j_7qG2_001
-0	51	211	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	211	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	211		set __senseButton_7qG2_lr_ud_7qG2_000, 0
-0	51	214	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	214	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	214		set __senseButton_7qG2_add_7qG2_000, 1
-0	51	217	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	217	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	217		mov __signed_stack_001main, __main_7qG2_nof_7qG2_001
-0	51	219	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	219	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	219		set __D0main, 1
-0	51	222	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	222		sub __senseButton_7qG2_high_7qG2_000, __signed_stack_001main, __D0main
-0	51	226	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	226	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	226		set __senseButton_7qG2_cut_7qG2_000, 1
-0	51	229	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	229	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	229		subcall senseButton, __senseButton_return
-0	51	231	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	52	231		mov __main_7qG2_j_7qG2_001, __D0senseButton
-0	51	233	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	51	233	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
-0	53	233	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	233		jmp __ASM_Label_1244
-0	53	235	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	53	235	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	235		set __signed_stack_001main, 2
-0	53	238	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	53	238	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	238		mov __D0main, __constVal0
-0	53	240	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	240		acquire __RBtnMutex
-0	53	241	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	241		mov __RBtnArgs.Index, __signed_stack_001main
-0	53	243	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	243		mov __RBtnArgs.Reset, __D0main
-0	53	245	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	245		syscall 20, __RBtnArgs
-0	53	248	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	248		mov __D0main, __RBtnArgs.Pressed
-0	53	250	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	250		release __RBtnMutex
-0	53	251	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	251		mov __signed_stack_001main, __D0main
-0	53	253	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	253		set __D0main, 0
-0	53	256	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	256		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	53	260	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	260		not __D0main, __D0main
-0	53	263	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	263		tst 5, __D0main, __D0main
-0	53	266	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	266		brtst 4, __ASM_Label_1298, __D0main
-0	54	269	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	55	269		jmp __ASM_Label_1297
-0	54	271	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	271	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	55	271		mov __signed_stack_001main, __main_7qG2_j_7qG2_001
-0	54	273	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	273	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	55	273		index __strretvalmain, __main_7qG2_dathighs_7qG2_001.FileList, __signed_stack_001main
-0	54	277	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	54	277	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	55	277		strcat __strbufmain, __strretvalmain
-0	54	281	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	55	281		mov __deleteHigh_7qG2_deleteme_7qG2_000, __strbufmain
-0	54	283	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	55	283		subcall deleteHigh, __deleteHigh_return
-0	54	285	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
-0	64	285	#line 64 "C:\Github\NXC_Source\HighDelete.nxc"
-0	65	285		jmp __ASM_Label_1236
-0	64	287	#line 64 "C:\Github\NXC_Source\HighDelete.nxc"
-0	65	287		exit -1, -1
+0	46	0	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
+0	47	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	46	2	#line 46 "C:\Github\NXC_Source\HighDelete.nxc"
+0	48	2	#line 48 "C:\Github\NXC_Source\HighDelete.nxc"
+0	49	2		set __D0main, 1
+0	49	5	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
+0	50	5		tst 5, __D0main, __D0main
+0	49	8	#line 49 "C:\Github\NXC_Source\HighDelete.nxc"
+0	50	8		brtst 4, __ASM_Label_1271, __D0main
+0	50	11	#line 50 "C:\Github\NXC_Source\HighDelete.nxc"
+0	51	11		strcat __strbufmain, __constStr0040
+0	50	15	#line 50 "C:\Github\NXC_Source\HighDelete.nxc"
+0	51	15		mov __main_7qG2_dathighs_7qG2_001.Pattern, __strbufmain
+0	50	17	#line 50 "C:\Github\NXC_Source\HighDelete.nxc"
+0	52	17	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	53	17	#pragma macro 4
+0	53	17	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
+0	53	17		syscall 47, __main_7qG2_dathighs_7qG2_001
+0	51	20	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
+0	51	20	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
+0	51	20	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
+0	51	20	#line 51 "C:\Github\NXC_Source\HighDelete.nxc"
+0	52	20	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	52	20	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	52	20	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	53	20		arrsize __main_7qG2_nof_7qG2_000, __main_7qG2_dathighs_7qG2_001.FileList
+0	52	23	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	52	23	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	52	23	#line 52 "C:\Github\NXC_Source\HighDelete.nxc"
+0	53	23	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
+0	54	23		set __main_7qG2_j_7qG2_000, 0
+0	53	26	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
+0	53	26	#line 53 "C:\Github\NXC_Source\HighDelete.nxc"
+0	54	26	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	26		set __signed_stack_001main, 2
+0	54	29	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	54	29	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	29		mov __D0main, __constVal0
+0	54	31	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	31		acquire __RBtnMutex
+0	54	32	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	32		mov __RBtnArgs.Index, __signed_stack_001main
+0	54	34	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	34		mov __RBtnArgs.Reset, __D0main
+0	54	36	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	36		syscall 20, __RBtnArgs
+0	54	39	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	39		mov __D0main, __RBtnArgs.Pressed
+0	54	41	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	41		release __RBtnMutex
+0	54	42	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	42		mov __signed_stack_001main, __D0main
+0	54	44	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	44		set __D0main, 0
+0	54	47	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	47		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	54	51	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	51		brtst 4, __ASM_Label_1281, __D0main
+0	54	54	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	54		set __signed_stack_001main, 1
+0	54	57	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	54	57	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	57		mov __D0main, __constVal0
+0	54	59	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	59		acquire __RBtnMutex
+0	54	60	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	60		mov __RBtnArgs.Index, __signed_stack_001main
+0	54	62	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	62		mov __RBtnArgs.Reset, __D0main
+0	54	64	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	64		syscall 20, __RBtnArgs
+0	54	67	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	67		mov __D0main, __RBtnArgs.Pressed
+0	54	69	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	69		release __RBtnMutex
+0	54	70	#line 54 "C:\Github\NXC_Source\HighDelete.nxc"
+0	55	70		mov __signed_stack_001main, __D0main
+0	55	72	#line 55 "C:\Github\NXC_Source\HighDelete.nxc"
+0	56	72		set __D0main, 0
+0	55	75	#line 55 "C:\Github\NXC_Source\HighDelete.nxc"
+0	56	75		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	56	79	#line 56 "C:\Github\NXC_Source\HighDelete.nxc"
+0	57	79		brtst 4, __ASM_Label_1279, __D0main
+0	6896	82	#line 6896 "NXCDefs.h"
+0	6897	82	#pragma macro 6
+0	6897	82		acquire __PointOutMutex
+0	6897	83		mov __PointOutArgs.Location.X, __constVal200
+0	6897	85		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	87		mov __PointOutArgs.Options, __constVal1
+0	6897	89		syscall 14, __PointOutArgs
+0	6897	92		release __PointOutMutex
+0	11640	93	#line 11640 "NXCDefs.h"
+0	6896	93	#line 6896 "NXCDefs.h"
+0	56	93	#line 56 "C:\Github\NXC_Source\HighDelete.nxc"
+0	57	93	#line 57 "C:\Github\NXC_Source\HighDelete.nxc"
+0	58	93		mov __signed_stack_001main, __main_7qG2_nof_7qG2_000
+0	57	95	#line 57 "C:\Github\NXC_Source\HighDelete.nxc"
+0	58	95	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	95		mov __D0main, __main_7qG2_j_7qG2_000
+0	58	97	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	97		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	58	101	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	101		brtst 4, __ASM_Label_1288, __D0main
+0	58	104	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	104		set __signed_stack_001main, 5
+0	58	107	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	58	107	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	107		set __signed_stack_002main, 0
+0	58	110	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	58	110	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	110		strcat __strbufmain, __constStr0009
+0	58	114	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	114		set __D0main, 0
+0	58	117	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	117		acquire __TextOutMutex
+0	58	118	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	118		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	58	120	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	120		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	58	122	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	122		mov __TextOutArgs.Options, __D0main
+0	58	124	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	124		mov __TextOutArgs.Text, __strbufmain
+0	58	126	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	126		syscall 13, __TextOutArgs
+0	58	129	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	129		mov __D0main, __TextOutArgs.Result
+0	58	131	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	131		release __TextOutMutex
+0	58	132	#line 58 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	132	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	132		set __signed_stack_001main, 85
+0	59	135	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	135	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	135		set __signed_stack_002main, 0
+0	59	138	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	59	138	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	138		strcat __strbufmain, __constStr0009
+0	59	142	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	142		set __D0main, 0
+0	59	145	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	145		acquire __TextOutMutex
+0	59	146	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	146		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	59	148	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	148		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	59	150	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	150		mov __TextOutArgs.Options, __D0main
+0	59	152	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	152		mov __TextOutArgs.Text, __strbufmain
+0	59	154	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	154		syscall 13, __TextOutArgs
+0	59	157	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	157		mov __D0main, __TextOutArgs.Result
+0	59	159	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	60	159		release __TextOutMutex
+0	59	160	#line 59 "C:\Github\NXC_Source\HighDelete.nxc"
+0	61	160	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	160		jmp __ASM_Label_1301
+0	61	162	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	162		set __signed_stack_001main, 0
+0	61	165	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	61	165	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	165		set __signed_stack_002main, 0
+0	61	168	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	61	168	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	168		strcat __strbufmain, __constStr0041
+0	61	172	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	172		set __D0main, 0
+0	61	175	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	175		acquire __TextOutMutex
+0	61	176	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	176		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	61	178	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	178		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	61	180	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	180		mov __TextOutArgs.Options, __D0main
+0	61	182	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	182		mov __TextOutArgs.Text, __strbufmain
+0	61	184	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	184		syscall 13, __TextOutArgs
+0	61	187	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	187		mov __D0main, __TextOutArgs.Result
+0	61	189	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	189		release __TextOutMutex
+0	61	190	#line 61 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	190	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	190		set __signed_stack_001main, 70
+0	62	193	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	193	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	193		set __signed_stack_002main, 0
+0	62	196	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	62	196	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	196		strcat __strbufmain, __constStr0042
+0	62	200	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	200		set __D0main, 0
+0	62	203	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	203		acquire __TextOutMutex
+0	62	204	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	204		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	62	206	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	206		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	62	208	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	208		mov __TextOutArgs.Options, __D0main
+0	62	210	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	210		mov __TextOutArgs.Text, __strbufmain
+0	62	212	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	212		syscall 13, __TextOutArgs
+0	62	215	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	215		mov __D0main, __TextOutArgs.Result
+0	62	217	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	217		release __TextOutMutex
+0	62	218	#line 62 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	218	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	218	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	64	218		set __main_7qG2_i_7qG2_000, 0
+0	63	221	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	221	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	64	221		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	63	223	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	63	223	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	64	223		set __D0main, 7
+0	63	226	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	64	226		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	63	230	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	64	230		brtst 4, __ASM_Label_1315, __D0main
+0	63	233	#line 63 "C:\Github\NXC_Source\HighDelete.nxc"
+0	64	233		jmp __ASM_Label_1316
+0	64	235	#line 64 "C:\Github\NXC_Source\HighDelete.nxc"
+0	65	235		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	65	239	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	239		jmp __ASM_Label_1314
+0	65	241	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	241		mov __signed_stack_001main, __main_7qG2_nof_7qG2_000
+0	65	243	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
+0	65	243	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
+0	65	243	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	243	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	243	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	243		add __D0main, __main_7qG2_j_7qG2_000, __main_7qG2_i_7qG2_000
+0	66	247	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	247		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	66	251	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	251		brtst 4, __ASM_Label_1324, __D0main
+0	66	254	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	254		set __signed_stack_001main, 2
+0	66	257	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	257	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	257		set __signed_stack_002main, 56
+0	66	260	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	260	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	260		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	66	262	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	262	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	262		set __D0main, 8
+0	66	265	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	265		mul __D0main, __signed_stack_003main, __D0main
+0	66	269	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	269		sub __signed_stack_002main, __signed_stack_002main, __D0main
+0	66	273	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	273	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	273	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	273	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	273	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	273		add __signed_stack_003main, __main_7qG2_j_7qG2_000, __main_7qG2_i_7qG2_000
+0	66	277	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	277	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	277		index __strretvalmain, __main_7qG2_dathighs_7qG2_001.FileList, __signed_stack_003main
+0	66	281	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	66	281	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	281		strcat __strbufmain, __strretvalmain
+0	66	285	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	285		set __D0main, 0
+0	66	288	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	288		acquire __TextOutMutex
+0	66	289	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	289		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	66	291	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	291		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	66	293	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	293		mov __TextOutArgs.Options, __D0main
+0	66	295	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	295		mov __TextOutArgs.Text, __strbufmain
+0	66	297	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	297		syscall 13, __TextOutArgs
+0	66	300	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	300		mov __D0main, __TextOutArgs.Result
+0	66	302	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	67	302		release __TextOutMutex
+0	66	303	#line 66 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	303	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	303		jmp __ASM_Label_1333
+0	68	305	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	305		set __signed_stack_001main, 2
+0	68	308	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	308	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	308		set __signed_stack_002main, 56
+0	68	311	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	311	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	311		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	68	313	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	313	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	313		set __D0main, 8
+0	68	316	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	316		mul __D0main, __signed_stack_003main, __D0main
+0	68	320	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	320		sub __signed_stack_002main, __signed_stack_002main, __D0main
+0	68	324	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	324	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	324		strcat __strbufmain, __constStr0043
+0	68	328	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	328		set __D0main, 0
+0	68	331	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	331		acquire __TextOutMutex
+0	68	332	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	332		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	68	334	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	334		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	68	336	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	336		mov __TextOutArgs.Options, __D0main
+0	68	338	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	338		mov __TextOutArgs.Text, __strbufmain
+0	68	340	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	340		syscall 13, __TextOutArgs
+0	68	343	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	343		mov __D0main, __TextOutArgs.Result
+0	68	345	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	345		release __TextOutMutex
+0	68	346	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	346	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	69	346		set __main_7qG2_i_7qG2_000, 7
+0	68	349	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	68	349	#line 68 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	349	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	349	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	349		jmp __ASM_Label_1317
+0	70	351	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	351	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	351		set __signed_stack_001main, 0
+0	70	354	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	354	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	354		set __signed_stack_002main, 56
+0	70	357	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	357	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	357		set __signed_stack_003main, 99
+0	70	360	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	360	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	360		set __signed_stack_004main, 7
+0	70	363	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	363	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	363		set __D0main, 0
+0	70	366	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	366	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	366		mov __RectOutArgs.Location.X, __signed_stack_001main
+0	70	368	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	368		mov __RectOutArgs.Location.Y, __signed_stack_002main
+0	70	370	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	370		mov __RectOutArgs.Size.Width, __signed_stack_003main
+0	70	372	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	372		mov __RectOutArgs.Size.Height, __signed_stack_004main
+0	70	374	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	374		mov __RectOutArgs.Options, __D0main
+0	70	377	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	377		syscall 17, __RectOutArgs
+0	70	380	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	380	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	70	380	#line 70 "C:\Github\NXC_Source\HighDelete.nxc"
+0	71	380	#line 71 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	380		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	71	383	#line 71 "C:\Github\NXC_Source\HighDelete.nxc"
+0	8771	383	#line 8771 "NXCDefs.h"
+0	8772	383		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	385	#line 8771 "NXCDefs.h"
+0	71	385	#line 71 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	385	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	385		mov __senseButton_7qG2_val_7qG2_000, __main_7qG2_j_7qG2_000
+0	72	387	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	387	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	387		set __senseButton_7qG2_lr_ud_7qG2_000, 0
+0	72	390	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	390	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	390		set __senseButton_7qG2_add_7qG2_000, 1
+0	72	393	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	393	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	393		mov __senseButton_7qG2_high_7qG2_000, __main_7qG2_nof_7qG2_000
+0	72	395	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	395	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	395		set __senseButton_7qG2_cut_7qG2_000, 1
+0	72	398	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	398	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	398		subcall senseButton, __senseButton_return
+0	72	400	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	73	400		mov __main_7qG2_j_7qG2_000, __D0senseButton
+0	72	402	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	72	402	#line 72 "C:\Github\NXC_Source\HighDelete.nxc"
+0	74	402	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	402		jmp __ASM_Label_1278
+0	74	404	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	74	404	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	404		mov __signed_stack_001main, __main_7qG2_nof_7qG2_000
+0	74	406	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	74	406	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	406		mov __D0main, __main_7qG2_j_7qG2_000
+0	74	408	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	408		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	74	412	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	412		stop __D0main
+0	74	414	#line 74 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	414	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	414		set __signed_stack_001main, 1
+0	75	417	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	417	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	417		mov __D0main, __constVal0
+0	75	419	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	419		acquire __RBtnMutex
+0	75	420	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	420		mov __RBtnArgs.Index, __signed_stack_001main
+0	75	422	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	422		mov __RBtnArgs.Reset, __D0main
+0	75	424	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	424		syscall 20, __RBtnArgs
+0	75	427	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	427		mov __D0main, __RBtnArgs.Pressed
+0	75	429	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	429		release __RBtnMutex
+0	75	430	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	430		tst 5, __D0main, __D0main
+0	75	433	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	433		brtst 4, __ASM_Label_1372, __D0main
+0	75	436	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	436		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	75	438	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	438	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	438		index __strretvalmain, __main_7qG2_dathighs_7qG2_001.FileList, __signed_stack_001main
+0	75	442	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	75	442	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	442		strcat __strbufmain, __strretvalmain
+0	75	446	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	446		mov __viewFile_7qG2_viewme_7qG2_000, __strbufmain
+0	75	448	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	448		subcall viewFile, __viewFile_return
+0	75	450	#line 75 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	450	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	450		jmp __ASM_Label_1375
+0	76	452	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	452		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	76	454	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	454	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	454		index __strretvalmain, __main_7qG2_dathighs_7qG2_001.FileList, __signed_stack_001main
+0	76	458	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	458	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	458		strcat __strbufmain, __strretvalmain
+0	76	462	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	462		mov __deleteHigh_7qG2_deleteme_7qG2_000, __strbufmain
+0	76	464	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	464		subcall deleteHigh, __deleteHigh_return
+0	76	466	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	76	466	#line 76 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	466	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	466		set __signed_stack_001main, 2
+0	77	469	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	469	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	469		mov __D0main, __constVal0
+0	77	471	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	471		acquire __RBtnMutex
+0	77	472	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	472		mov __RBtnArgs.Index, __signed_stack_001main
+0	77	474	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	474		mov __RBtnArgs.Reset, __D0main
+0	77	476	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	476		syscall 20, __RBtnArgs
+0	77	479	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	479		mov __D0main, __RBtnArgs.Pressed
+0	77	481	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	481		release __RBtnMutex
+0	77	482	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	482		mov __signed_stack_001main, __D0main
+0	77	484	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	484		set __D0main, 0
+0	77	487	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	487		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	77	491	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	491		brtst 4, __ASM_Label_1383, __D0main
+0	77	494	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	494		set __signed_stack_001main, 1
+0	77	497	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	77	497	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	497		mov __D0main, __constVal0
+0	77	499	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	499		acquire __RBtnMutex
+0	77	500	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	500		mov __RBtnArgs.Index, __signed_stack_001main
+0	77	502	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	502		mov __RBtnArgs.Reset, __D0main
+0	77	504	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	504		syscall 20, __RBtnArgs
+0	77	507	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	507		mov __D0main, __RBtnArgs.Pressed
+0	77	509	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	509		release __RBtnMutex
+0	77	510	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	510		mov __signed_stack_001main, __D0main
+0	77	512	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	512		set __D0main, 0
+0	77	515	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	515		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	77	519	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	519		not __D0main, __D0main
+0	77	522	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	522		tst 5, __D0main, __D0main
+0	77	525	#line 77 "C:\Github\NXC_Source\HighDelete.nxc"
+0	78	525		brtst 4, __ASM_Label_1379, __D0main
+0	79	528	#line 79 "C:\Github\NXC_Source\HighDelete.nxc"
+0	80	528		jmp __ASM_Label_1378
+0	79	530	#line 79 "C:\Github\NXC_Source\HighDelete.nxc"
+0	89	530	#line 89 "C:\Github\NXC_Source\HighDelete.nxc"
+0	90	530		jmp __ASM_Label_1270
+0	89	532	#line 89 "C:\Github\NXC_Source\HighDelete.nxc"
+0	90	532		exit -1, -1
 1	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
 1	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
@@ -480,7 +781,7 @@ Clump	Line	PC	Source
 1	11	39		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
 1	11	42		syscall 79, __IOMWBIArgs
 1	11	45		release __IOMWMutex
-1	7224	46	#line 7224 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7384	46	#line 7384 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	11	46	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	12	46	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	13	46		jmp __ASM_Label_621
@@ -493,7 +794,7 @@ Clump	Line	PC	Source
 1	13	56		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
 1	13	59		syscall 79, __IOMWBIArgs
 1	13	62		release __IOMWMutex
-1	7230	63	#line 7230 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7390	63	#line 7390 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	13	63	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	14	63	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	15	63	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
@@ -699,373 +1000,694 @@ Clump	Line	PC	Source
 1	17	264	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	19	264	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	20	264		subret __senseButton_return
-2	8	0	#line 8 "C:\Github\NXC_Source\HighDelete.nxc"
-2	9	0		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 0
-2	8	3	#line 8 "C:\Github\NXC_Source\HighDelete.nxc"
-2	6903	3	#line 6903 "NXCDefs.h"
-2	6904	3	#pragma macro 7
-2	6904	3		acquire __TextOutMutex
-2	6904	4		mov __TextOutArgs.Location.X, __constVal0
-2	6904	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
-2	6904	8		mov __TextOutArgs.Options, __constVal0
-2	6904	10		mov __TextOutArgs.Text, __BlankLine
-2	6904	12		syscall 13, __TextOutArgs
-2	6904	15		release __TextOutMutex
-2	10712	16	#line 10712 "NXCDefs.h"
-2	6903	16	#line 6903 "NXCDefs.h"
-2	8	16	#line 8 "C:\Github\NXC_Source\HighDelete.nxc"
-2	9	16	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	16		set __signed_stack_001deleteHigh, 0
-2	9	19	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	9	19	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	19		set __signed_stack_002deleteHigh, 0
-2	9	22	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	9	22	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	22		strcat __strbufdeleteHigh, __constStr0034
-2	9	26	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	26		set __D0deleteHigh, 0
-2	9	29	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	29		acquire __TextOutMutex
-2	9	30	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	30		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
-2	9	32	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	32		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
-2	9	34	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	34		mov __TextOutArgs.Options, __D0deleteHigh
-2	9	36	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	36		mov __TextOutArgs.Text, __strbufdeleteHigh
-2	9	38	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	38		syscall 13, __TextOutArgs
-2	9	41	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	41		mov __D0deleteHigh, __TextOutArgs.Result
-2	9	43	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	43		release __TextOutMutex
-2	9	44	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	44	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	44		set __signed_stack_001deleteHigh, 82
-2	10	47	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	47	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	47		set __signed_stack_002deleteHigh, 0
-2	10	50	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	10	50	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	50		strcat __strbufdeleteHigh, __constStr0035
-2	10	54	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	54		set __D0deleteHigh, 4096
-2	10	57	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	57		acquire __TextOutMutex
-2	10	58	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	58		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
-2	10	60	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	60		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
-2	10	62	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	62		mov __TextOutArgs.Options, __D0deleteHigh
-2	10	64	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	64		mov __TextOutArgs.Text, __strbufdeleteHigh
-2	10	66	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	66		syscall 13, __TextOutArgs
-2	10	69	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	69		mov __D0deleteHigh, __TextOutArgs.Result
-2	10	71	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	71		release __TextOutMutex
-2	10	72	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	72	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	72		set __deleteHigh_7qG2_a_7qG2_001, 3
-2	11	75	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	75	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	75		mov __signed_stack_001deleteHigh, __deleteHigh_7qG2_a_7qG2_001
-2	11	77	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	77	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	77		set __D0deleteHigh, 0
-2	11	80	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	80		cmp 1, __D0deleteHigh, __signed_stack_001deleteHigh, __D0deleteHigh
-2	11	84	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	84		brtst 4, __ASM_Label_1170, __D0deleteHigh
-2	11	87	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	87		jmp __ASM_Label_1171
-2	11	89	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	89		sub __deleteHigh_7qG2_a_7qG2_001, __deleteHigh_7qG2_a_7qG2_001, __constVal1
-2	11	93	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	93		jmp __ASM_Label_1169
-2	11	95	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	95		set __signed_stack_001deleteHigh, 76
-2	11	98	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	98	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	98		set __signed_stack_002deleteHigh, 0
-2	11	101	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	101	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	101		mov __signed_stack_003deleteHigh, __deleteHigh_7qG2_a_7qG2_001
-2	11	103	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	103	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	103		set __D0deleteHigh, 0
-2	11	106	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	106		acquire __TextOutMutex
-2	11	107	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	107		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
-2	11	109	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	109		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
-2	11	111	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	111		mov __TextOutArgs.Options, __D0deleteHigh
-2	11	113	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	113		numtostr __TextOutArgs.Text, __signed_stack_003deleteHigh
-2	11	116	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	116		syscall 13, __TextOutArgs
-2	11	119	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	119		mov __D0deleteHigh, __TextOutArgs.Result
-2	11	121	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	121		release __TextOutMutex
-2	11	122	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	11	122	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	122		set __Wait_7qG2_ms_7qG2_000_inline_deleteHigh, 1000
-2	11	125	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	8771	125	#line 8771 "NXCDefs.h"
-2	8772	125		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteHigh
-2	8771	127	#line 8771 "NXCDefs.h"
-2	11	127	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	127	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
-2	13	127		jmp __ASM_Label_1172
-2	12	129	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	129	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
-2	13	129		set __signed_stack_001deleteHigh, 1
-2	12	132	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
-2	12	132	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
-2	13	132		mov __D0deleteHigh, __constVal0
-2	13	134	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	134		acquire __RBtnMutex
-2	13	135	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	135		mov __RBtnArgs.Index, __signed_stack_001deleteHigh
-2	13	137	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	137		mov __RBtnArgs.Reset, __D0deleteHigh
-2	13	139	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	139		syscall 20, __RBtnArgs
-2	13	142	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	142		mov __D0deleteHigh, __RBtnArgs.Pressed
-2	13	144	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	144		release __RBtnMutex
-2	14	145	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
-2	15	145		tst 5, __D0deleteHigh, __D0deleteHigh
-2	14	148	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
-2	15	148		brtst 4, __ASM_Label_1191, __D0deleteHigh
-2	14	151	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
-2	15	151	#pragma macro 5
-2	15	151		acquire __FDMutex
-2	15	152		mov __FDArgs.Filename, __deleteHigh_7qG2_deleteme_7qG2_000
-2	15	154		syscall 8, __FDArgs
-2	15	157		mov __D0deleteHigh, __FDArgs.Result
-2	15	159		release __FDMutex
-2	10894	160	#line 10894 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	160	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	160	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
-2	14	160	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
-2	15	160	#line 15 "C:\Github\NXC_Source\HighDelete.nxc"
-2	15	160	#line 15 "C:\Github\NXC_Source\HighDelete.nxc"
-2	16	160		mov __signed_stack_001deleteHigh, __D0deleteHigh
-2	16	162	#line 16 "C:\Github\NXC_Source\HighDelete.nxc"
-2	17	162		set __D0deleteHigh, 0
-2	16	165	#line 16 "C:\Github\NXC_Source\HighDelete.nxc"
-2	17	165		cmp 4, __D0deleteHigh, __signed_stack_001deleteHigh, __D0deleteHigh
-2	17	169	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	18	169		brtst 4, __ASM_Label_1196, __D0deleteHigh
-2	17	172	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	18	172		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 8
-2	17	175	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	6903	175	#line 6903 "NXCDefs.h"
-2	6904	175	#pragma macro 7
-2	6904	175		acquire __TextOutMutex
-2	6904	176		mov __TextOutArgs.Location.X, __constVal0
-2	6904	178		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
-2	6904	180		mov __TextOutArgs.Options, __constVal0
-2	6904	182		mov __TextOutArgs.Text, __BlankLine
-2	6904	184		syscall 13, __TextOutArgs
-2	6904	187		release __TextOutMutex
-2	10920	188	#line 10920 "NXCDefs.h"
-2	6903	188	#line 6903 "NXCDefs.h"
-2	17	188	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	17	188	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	18	188		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 0
-2	17	191	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	6903	191	#line 6903 "NXCDefs.h"
-2	6904	191	#pragma macro 7
-2	6904	191		acquire __TextOutMutex
-2	6904	192		mov __TextOutArgs.Location.X, __constVal0
-2	6904	194		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
-2	6904	196		mov __TextOutArgs.Options, __constVal0
-2	6904	198		mov __TextOutArgs.Text, __BlankLine
-2	6904	200		syscall 13, __TextOutArgs
-2	6904	203		release __TextOutMutex
-2	10928	204	#line 10928 "NXCDefs.h"
-2	6903	204	#line 6903 "NXCDefs.h"
-2	17	204	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
-2	18	204	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	204		set __signed_stack_001deleteHigh, 0
-2	18	207	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	18	207	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	207		set __signed_stack_002deleteHigh, 0
-2	18	210	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	18	210	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	210		strcat __strbufdeleteHigh, __constStr0036
-2	18	214	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	214		set __D0deleteHigh, 4096
-2	18	217	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	217		acquire __TextOutMutex
-2	18	218	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	218		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
-2	18	220	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	220		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
-2	18	222	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	222		mov __TextOutArgs.Options, __D0deleteHigh
-2	18	224	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	224		mov __TextOutArgs.Text, __strbufdeleteHigh
-2	18	226	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	226		syscall 13, __TextOutArgs
-2	18	229	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	229		mov __D0deleteHigh, __TextOutArgs.Result
-2	18	231	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	231		release __TextOutMutex
-2	18	232	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
-2	19	232	#line 19 "C:\Github\NXC_Source\HighDelete.nxc"
-2	20	232		set __Wait_7qG2_ms_7qG2_000_inline_deleteHigh, 2000
-2	19	235	#line 19 "C:\Github\NXC_Source\HighDelete.nxc"
-2	8771	235	#line 8771 "NXCDefs.h"
-2	8772	235		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteHigh
-2	8771	237	#line 8771 "NXCDefs.h"
-2	19	237	#line 19 "C:\Github\NXC_Source\HighDelete.nxc"
-2	22	237	#line 22 "C:\Github\NXC_Source\HighDelete.nxc"
-2	24	237	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	25	237		jmp __ASM_Label_1209
-2	24	239	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	25	239		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 8
-2	24	242	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	6903	242	#line 6903 "NXCDefs.h"
-2	6904	242	#pragma macro 7
-2	6904	242		acquire __TextOutMutex
-2	6904	243		mov __TextOutArgs.Location.X, __constVal0
-2	6904	245		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
-2	6904	247		mov __TextOutArgs.Options, __constVal0
-2	6904	249		mov __TextOutArgs.Text, __BlankLine
-2	6904	251		syscall 13, __TextOutArgs
-2	6904	254		release __TextOutMutex
-2	10982	255	#line 10982 "NXCDefs.h"
-2	6903	255	#line 6903 "NXCDefs.h"
-2	24	255	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	24	255	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	25	255		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 0
-2	24	258	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	6903	258	#line 6903 "NXCDefs.h"
-2	6904	258	#pragma macro 7
-2	6904	258		acquire __TextOutMutex
-2	6904	259		mov __TextOutArgs.Location.X, __constVal0
-2	6904	261		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
-2	6904	263		mov __TextOutArgs.Options, __constVal0
-2	6904	265		mov __TextOutArgs.Text, __BlankLine
-2	6904	267		syscall 13, __TextOutArgs
-2	6904	270		release __TextOutMutex
-2	10990	271	#line 10990 "NXCDefs.h"
-2	6903	271	#line 6903 "NXCDefs.h"
-2	24	271	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
-2	25	271	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	271		set __signed_stack_001deleteHigh, 0
-2	25	274	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	25	274	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	274		set __signed_stack_002deleteHigh, 0
-2	25	277	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	25	277	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	277		strcat __strbufdeleteHigh, __constStr0037
-2	25	281	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	281		set __D0deleteHigh, 4096
-2	25	284	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	284		acquire __TextOutMutex
-2	25	285	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	285		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
-2	25	287	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	287		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
-2	25	289	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	289		mov __TextOutArgs.Options, __D0deleteHigh
-2	25	291	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	291		mov __TextOutArgs.Text, __strbufdeleteHigh
-2	25	293	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	293		syscall 13, __TextOutArgs
-2	25	296	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	296		mov __D0deleteHigh, __TextOutArgs.Result
-2	25	298	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	298		release __TextOutMutex
-2	25	299	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	299	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	299		set __signed_stack_001deleteHigh, 22
-2	26	302	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	302	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	302		set __signed_stack_002deleteHigh, 0
-2	26	305	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	26	305	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	305		strcat __strbufdeleteHigh, __constStr0038
-2	26	309	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	309		set __D0deleteHigh, 4096
-2	26	312	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	312		acquire __TextOutMutex
-2	26	313	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	313		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
-2	26	315	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	315		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
-2	26	317	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	317		mov __TextOutArgs.Options, __D0deleteHigh
-2	26	319	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	319		mov __TextOutArgs.Text, __strbufdeleteHigh
-2	26	321	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	321		syscall 13, __TextOutArgs
-2	26	324	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	324		mov __D0deleteHigh, __TextOutArgs.Result
-2	26	326	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	326		release __TextOutMutex
-2	26	327	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
-2	27	327	#line 27 "C:\Github\NXC_Source\HighDelete.nxc"
-2	28	327		set __Wait_7qG2_ms_7qG2_000_inline_deleteHigh, 2000
-2	27	330	#line 27 "C:\Github\NXC_Source\HighDelete.nxc"
-2	8771	330	#line 8771 "NXCDefs.h"
-2	8772	330		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteHigh
-2	8771	332	#line 8771 "NXCDefs.h"
-2	27	332	#line 27 "C:\Github\NXC_Source\HighDelete.nxc"
-2	29	332	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	29	332	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	332		set __signed_stack_001deleteHigh, 3
-2	29	335	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	29	335	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	335		mov __D0deleteHigh, __constVal0
-2	29	337	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	337		acquire __RBtnMutex
-2	29	338	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	338		mov __RBtnArgs.Index, __signed_stack_001deleteHigh
-2	29	340	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	340		mov __RBtnArgs.Reset, __D0deleteHigh
-2	29	342	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	342		syscall 20, __RBtnArgs
-2	29	345	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	345		mov __D0deleteHigh, __RBtnArgs.Pressed
-2	29	347	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	347		release __RBtnMutex
-2	29	348	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	348		mov __signed_stack_001deleteHigh, __D0deleteHigh
-2	29	350	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	350		set __D0deleteHigh, 0
-2	29	353	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
-2	30	353		cmp 4, __D0deleteHigh, __signed_stack_001deleteHigh, __D0deleteHigh
-2	30	357	#line 30 "C:\Github\NXC_Source\HighDelete.nxc"
-2	31	357		not __D0deleteHigh, __D0deleteHigh
-2	33	360	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
-2	34	360		tst 5, __D0deleteHigh, __D0deleteHigh
-2	33	363	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
-2	34	363		brtst 4, __ASM_Label_1229, __D0deleteHigh
-2	33	366	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
-2	33	366	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
-2	34	366		jmp __ASM_Label_1228
-2	33	368	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
-2	33	368	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
-2	34	368		subret __deleteHigh_return
-3	65	0	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
-3	66	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
-3	65	43	#line 65 "C:\Github\NXC_Source\HighDelete.nxc"
-3	66	43		subret ____initialize_global_data_return
+2	6	0	#line 6 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	7	0		set __readHigh_7qG2_ARead_7qG2_000, 0
+2	6	3	#line 6 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	7	3	#line 7 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	8	3	#pragma macro 7
+2	8	3		acquire __FOMutex
+2	8	4		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
+2	8	6		syscall 0, __FOArgs
+2	8	9		mov fsize, __FOArgs.Length
+2	8	11		mov handle, __FOArgs.FileHandle
+2	8	13		mov __D0readHigh, __FOArgs.Result
+2	8	15		release __FOMutex
+2	10670	16	#line 10670 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	7	16	#line 7 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	8	16	#line 8 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	8	16	#line 8 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	9	16		mov __signed_stack_001readHigh, __D0readHigh
+2	9	18	#line 9 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	18		set __D0readHigh, 0
+2	9	21	#line 9 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	21		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
+2	10	25	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	25		brtst 4, __ASM_Label_1143, __D0readHigh
+2	10	28	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	28	#pragma macro 15
+2	11	28		acquire __FReadMutex
+2	11	29		mov __FReadArgs.FileHandle, handle
+2	11	31		set __FReadArgs.Length, 2
+2	11	34		syscall 3, __FReadArgs
+2	11	37		mov __D0readHigh, __FReadArgs.Result
+2	11	39		unflatten __readHigh_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHigh_7qG2_ARead_7qG2_000
+2	11	44		release __FReadMutex
+2	10690	45	#line 10690 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	45	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	45	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	45	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	12	45	#pragma macro 5
+2	12	45		acquire __FCMutex
+2	12	46		mov __FCArgs.FileHandle, handle
+2	12	48		syscall 5, __FCArgs
+2	12	51		mov __D0readHigh, __FCArgs.Result
+2	12	54		release __FCMutex
+2	10694	55	#line 10694 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	55	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	55	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	55	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	15	55		jmp __ASM_Label_1144
+2	14	57	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	15	57		mov __readHigh_7qG2_ARead_7qG2_000, __constValNeg1
+2	14	59	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	59	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	15	59	#line 15 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	15	59	#line 15 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	16	59		mov __D0readHigh, __readHigh_7qG2_ARead_7qG2_000
+2	15	61	#line 15 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	16	61		subret __readHigh_return
+2	15	63	#line 15 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	18	63	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	19	63		subret __readHigh_return
+3	28	0	#line 28 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	29	0		strcat __strbufreadHighName, __constStr0016
+3	28	4	#line 28 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	29	4		mov __readHighName_7qG2_ARead_7qG2_000, __strbufreadHighName
+3	29	6	#line 29 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	30	6	#pragma macro 7
+3	30	6		acquire __FOMutex
+3	30	7		mov __FOArgs.Filename, __readHighName_7qG2_readme_7qG2_000
+3	30	9		syscall 0, __FOArgs
+3	30	12		mov fsize, __FOArgs.Length
+3	30	14		mov handle, __FOArgs.FileHandle
+3	30	16		mov __D0readHighName, __FOArgs.Result
+3	30	18		release __FOMutex
+3	10765	19	#line 10765 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	29	19	#line 29 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	30	19	#line 30 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	30	19	#line 30 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	31	19		mov __signed_stack_001readHighName, __D0readHighName
+3	31	21	#line 31 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	32	21		set __D0readHighName, 0
+3	31	24	#line 31 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	32	24		cmp 4, __D0readHighName, __signed_stack_001readHighName, __D0readHighName
+3	32	28	#line 32 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	33	28		brtst 4, __ASM_Label_1153, __D0readHighName
+3	32	31	#line 32 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	33	31	#pragma macro 15
+3	33	31		acquire __FReadMutex
+3	33	32		mov __FReadArgs.FileHandle, handle
+3	33	34		flatten __soTmpBuf, __readHighName_7qG2_ARead_7qG2_000
+3	33	37		arrsize __FReadArgs.Length, __soTmpBuf
+3	33	40		sub __FReadArgs.Length, __FReadArgs.Length, __constVal1
+3	33	44		syscall 3, __FReadArgs
+3	33	47		mov __D0readHighName, __FReadArgs.Result
+3	33	49		unflatten __readHighName_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighName_7qG2_ARead_7qG2_000
+3	33	54		release __FReadMutex
+3	10785	55	#line 10785 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	32	55	#line 32 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	32	55	#line 32 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	33	55	#line 33 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	55	#pragma macro 15
+3	34	55		acquire __FReadMutex
+3	34	56		mov __FReadArgs.FileHandle, handle
+3	34	58		flatten __soTmpBuf, __readHighName_7qG2_ARead_7qG2_000
+3	34	61		arrsize __FReadArgs.Length, __soTmpBuf
+3	34	64		sub __FReadArgs.Length, __FReadArgs.Length, __constVal1
+3	34	68		syscall 3, __FReadArgs
+3	34	71		mov __D0readHighName, __FReadArgs.Result
+3	34	73		unflatten __readHighName_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighName_7qG2_ARead_7qG2_000
+3	34	78		release __FReadMutex
+3	10789	79	#line 10789 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	33	79	#line 33 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	33	79	#line 33 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	79	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	79	#pragma macro 5
+3	35	79		acquire __FCMutex
+3	35	80		mov __FCArgs.FileHandle, handle
+3	35	82		syscall 5, __FCArgs
+3	35	85		mov __D0readHighName, __FCArgs.Result
+3	35	88		release __FCMutex
+3	10793	89	#line 10793 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	89	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	89	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	37	89	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	89		jmp __ASM_Label_1154
+3	37	91	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	91		strcat __strbufreadHighName, __constStr0016
+3	37	95	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	95		mov __readHighName_7qG2_ARead_7qG2_000, __strbufreadHighName
+3	37	97	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	97	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	97	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	39	97		strcat __strbufreadHighName, __readHighName_7qG2_ARead_7qG2_000
+3	38	101	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	39	101		subret __readHighName_return
+3	38	103	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	41	103	#line 41 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	42	103		subret __readHighName_return
+4	8	0	#line 8 "C:\Github\NXC_Source\HighDelete.nxc"
+4	9	0		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 0
+4	8	3	#line 8 "C:\Github\NXC_Source\HighDelete.nxc"
+4	6903	3	#line 6903 "NXCDefs.h"
+4	6904	3	#pragma macro 7
+4	6904	3		acquire __TextOutMutex
+4	6904	4		mov __TextOutArgs.Location.X, __constVal0
+4	6904	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
+4	6904	8		mov __TextOutArgs.Options, __constVal0
+4	6904	10		mov __TextOutArgs.Text, __BlankLine
+4	6904	12		syscall 13, __TextOutArgs
+4	6904	15		release __TextOutMutex
+4	10888	16	#line 10888 "NXCDefs.h"
+4	6903	16	#line 6903 "NXCDefs.h"
+4	8	16	#line 8 "C:\Github\NXC_Source\HighDelete.nxc"
+4	9	16	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	16		set __signed_stack_001deleteHigh, 0
+4	9	19	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	9	19	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	19		set __signed_stack_002deleteHigh, 0
+4	9	22	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	9	22	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	22		strcat __strbufdeleteHigh, __constStr0033
+4	9	26	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	26		set __D0deleteHigh, 0
+4	9	29	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	29		acquire __TextOutMutex
+4	9	30	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	30		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
+4	9	32	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	32		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
+4	9	34	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	34		mov __TextOutArgs.Options, __D0deleteHigh
+4	9	36	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	36		mov __TextOutArgs.Text, __strbufdeleteHigh
+4	9	38	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	38		syscall 13, __TextOutArgs
+4	9	41	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	41		mov __D0deleteHigh, __TextOutArgs.Result
+4	9	43	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	43		release __TextOutMutex
+4	9	44	#line 9 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	44	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	44		set __signed_stack_001deleteHigh, 82
+4	10	47	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	47	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	47		set __signed_stack_002deleteHigh, 0
+4	10	50	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	10	50	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	50		strcat __strbufdeleteHigh, __constStr0034
+4	10	54	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	54		set __D0deleteHigh, 4096
+4	10	57	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	57		acquire __TextOutMutex
+4	10	58	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	58		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
+4	10	60	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	60		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
+4	10	62	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	62		mov __TextOutArgs.Options, __D0deleteHigh
+4	10	64	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	64		mov __TextOutArgs.Text, __strbufdeleteHigh
+4	10	66	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	66		syscall 13, __TextOutArgs
+4	10	69	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	69		mov __D0deleteHigh, __TextOutArgs.Result
+4	10	71	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	71		release __TextOutMutex
+4	10	72	#line 10 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	72	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	72		set __deleteHigh_7qG2_a_7qG2_001, 3
+4	11	75	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	75	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	75		mov __signed_stack_001deleteHigh, __deleteHigh_7qG2_a_7qG2_001
+4	11	77	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	77	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	77		set __D0deleteHigh, 0
+4	11	80	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	80		cmp 1, __D0deleteHigh, __signed_stack_001deleteHigh, __D0deleteHigh
+4	11	84	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	84		brtst 4, __ASM_Label_1170, __D0deleteHigh
+4	11	87	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	87		jmp __ASM_Label_1171
+4	11	89	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	89		sub __deleteHigh_7qG2_a_7qG2_001, __deleteHigh_7qG2_a_7qG2_001, __constVal1
+4	11	93	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	93		jmp __ASM_Label_1169
+4	11	95	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	95		set __signed_stack_001deleteHigh, 76
+4	11	98	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	98	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	98		set __signed_stack_002deleteHigh, 0
+4	11	101	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	101	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	101		mov __signed_stack_003deleteHigh, __deleteHigh_7qG2_a_7qG2_001
+4	11	103	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	103	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	103		set __D0deleteHigh, 0
+4	11	106	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	106		acquire __TextOutMutex
+4	11	107	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	107		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
+4	11	109	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	109		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
+4	11	111	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	111		mov __TextOutArgs.Options, __D0deleteHigh
+4	11	113	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	113		numtostr __TextOutArgs.Text, __signed_stack_003deleteHigh
+4	11	116	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	116		syscall 13, __TextOutArgs
+4	11	119	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	119		mov __D0deleteHigh, __TextOutArgs.Result
+4	11	121	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	121		release __TextOutMutex
+4	11	122	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	11	122	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	122		set __Wait_7qG2_ms_7qG2_000_inline_deleteHigh, 1000
+4	11	125	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	8771	125	#line 8771 "NXCDefs.h"
+4	8772	125		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteHigh
+4	8771	127	#line 8771 "NXCDefs.h"
+4	11	127	#line 11 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	127	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
+4	13	127		jmp __ASM_Label_1172
+4	12	129	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	129	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
+4	13	129		set __signed_stack_001deleteHigh, 1
+4	12	132	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
+4	12	132	#line 12 "C:\Github\NXC_Source\HighDelete.nxc"
+4	13	132		mov __D0deleteHigh, __constVal0
+4	13	134	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	134		acquire __RBtnMutex
+4	13	135	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	135		mov __RBtnArgs.Index, __signed_stack_001deleteHigh
+4	13	137	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	137		mov __RBtnArgs.Reset, __D0deleteHigh
+4	13	139	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	139		syscall 20, __RBtnArgs
+4	13	142	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	142		mov __D0deleteHigh, __RBtnArgs.Pressed
+4	13	144	#line 13 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	144		release __RBtnMutex
+4	14	145	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
+4	15	145		tst 5, __D0deleteHigh, __D0deleteHigh
+4	14	148	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
+4	15	148		brtst 4, __ASM_Label_1191, __D0deleteHigh
+4	14	151	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
+4	15	151	#pragma macro 5
+4	15	151		acquire __FDMutex
+4	15	152		mov __FDArgs.Filename, __deleteHigh_7qG2_deleteme_7qG2_000
+4	15	154		syscall 8, __FDArgs
+4	15	157		mov __D0deleteHigh, __FDArgs.Result
+4	15	160		release __FDMutex
+4	11070	161	#line 11070 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	161	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	161	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
+4	14	161	#line 14 "C:\Github\NXC_Source\HighDelete.nxc"
+4	15	161	#line 15 "C:\Github\NXC_Source\HighDelete.nxc"
+4	15	161	#line 15 "C:\Github\NXC_Source\HighDelete.nxc"
+4	16	161		mov __signed_stack_001deleteHigh, __D0deleteHigh
+4	16	163	#line 16 "C:\Github\NXC_Source\HighDelete.nxc"
+4	17	163		set __D0deleteHigh, 0
+4	16	166	#line 16 "C:\Github\NXC_Source\HighDelete.nxc"
+4	17	166		cmp 4, __D0deleteHigh, __signed_stack_001deleteHigh, __D0deleteHigh
+4	17	170	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	18	170		brtst 4, __ASM_Label_1196, __D0deleteHigh
+4	17	173	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	18	173		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 8
+4	17	176	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	6903	176	#line 6903 "NXCDefs.h"
+4	6904	176	#pragma macro 7
+4	6904	176		acquire __TextOutMutex
+4	6904	177		mov __TextOutArgs.Location.X, __constVal0
+4	6904	179		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
+4	6904	181		mov __TextOutArgs.Options, __constVal0
+4	6904	183		mov __TextOutArgs.Text, __BlankLine
+4	6904	185		syscall 13, __TextOutArgs
+4	6904	188		release __TextOutMutex
+4	11096	189	#line 11096 "NXCDefs.h"
+4	6903	189	#line 6903 "NXCDefs.h"
+4	17	189	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	17	189	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	18	189		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 0
+4	17	192	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	6903	192	#line 6903 "NXCDefs.h"
+4	6904	192	#pragma macro 7
+4	6904	192		acquire __TextOutMutex
+4	6904	193		mov __TextOutArgs.Location.X, __constVal0
+4	6904	195		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
+4	6904	197		mov __TextOutArgs.Options, __constVal0
+4	6904	199		mov __TextOutArgs.Text, __BlankLine
+4	6904	201		syscall 13, __TextOutArgs
+4	6904	204		release __TextOutMutex
+4	11104	205	#line 11104 "NXCDefs.h"
+4	6903	205	#line 6903 "NXCDefs.h"
+4	17	205	#line 17 "C:\Github\NXC_Source\HighDelete.nxc"
+4	18	205	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	205		set __signed_stack_001deleteHigh, 0
+4	18	208	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	18	208	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	208		set __signed_stack_002deleteHigh, 0
+4	18	211	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	18	211	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	211		strcat __strbufdeleteHigh, __constStr0035
+4	18	215	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	215		set __D0deleteHigh, 4096
+4	18	218	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	218		acquire __TextOutMutex
+4	18	219	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	219		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
+4	18	221	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	221		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
+4	18	223	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	223		mov __TextOutArgs.Options, __D0deleteHigh
+4	18	225	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	225		mov __TextOutArgs.Text, __strbufdeleteHigh
+4	18	227	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	227		syscall 13, __TextOutArgs
+4	18	230	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	230		mov __D0deleteHigh, __TextOutArgs.Result
+4	18	232	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	232		release __TextOutMutex
+4	18	233	#line 18 "C:\Github\NXC_Source\HighDelete.nxc"
+4	19	233	#line 19 "C:\Github\NXC_Source\HighDelete.nxc"
+4	20	233		set __Wait_7qG2_ms_7qG2_000_inline_deleteHigh, 2000
+4	19	236	#line 19 "C:\Github\NXC_Source\HighDelete.nxc"
+4	8771	236	#line 8771 "NXCDefs.h"
+4	8772	236		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteHigh
+4	8771	238	#line 8771 "NXCDefs.h"
+4	19	238	#line 19 "C:\Github\NXC_Source\HighDelete.nxc"
+4	22	238	#line 22 "C:\Github\NXC_Source\HighDelete.nxc"
+4	24	238	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	25	238		jmp __ASM_Label_1209
+4	24	240	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	25	240		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 8
+4	24	243	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	6903	243	#line 6903 "NXCDefs.h"
+4	6904	243	#pragma macro 7
+4	6904	243		acquire __TextOutMutex
+4	6904	244		mov __TextOutArgs.Location.X, __constVal0
+4	6904	246		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
+4	6904	248		mov __TextOutArgs.Options, __constVal0
+4	6904	250		mov __TextOutArgs.Text, __BlankLine
+4	6904	252		syscall 13, __TextOutArgs
+4	6904	255		release __TextOutMutex
+4	11158	256	#line 11158 "NXCDefs.h"
+4	6903	256	#line 6903 "NXCDefs.h"
+4	24	256	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	24	256	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	25	256		set __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh, 0
+4	24	259	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	6903	259	#line 6903 "NXCDefs.h"
+4	6904	259	#pragma macro 7
+4	6904	259		acquire __TextOutMutex
+4	6904	260		mov __TextOutArgs.Location.X, __constVal0
+4	6904	262		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteHigh
+4	6904	264		mov __TextOutArgs.Options, __constVal0
+4	6904	266		mov __TextOutArgs.Text, __BlankLine
+4	6904	268		syscall 13, __TextOutArgs
+4	6904	271		release __TextOutMutex
+4	11166	272	#line 11166 "NXCDefs.h"
+4	6903	272	#line 6903 "NXCDefs.h"
+4	24	272	#line 24 "C:\Github\NXC_Source\HighDelete.nxc"
+4	25	272	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	272		set __signed_stack_001deleteHigh, 0
+4	25	275	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	25	275	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	275		set __signed_stack_002deleteHigh, 0
+4	25	278	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	25	278	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	278		strcat __strbufdeleteHigh, __constStr0036
+4	25	282	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	282		set __D0deleteHigh, 4096
+4	25	285	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	285		acquire __TextOutMutex
+4	25	286	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	286		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
+4	25	288	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	288		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
+4	25	290	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	290		mov __TextOutArgs.Options, __D0deleteHigh
+4	25	292	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	292		mov __TextOutArgs.Text, __strbufdeleteHigh
+4	25	294	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	294		syscall 13, __TextOutArgs
+4	25	297	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	297		mov __D0deleteHigh, __TextOutArgs.Result
+4	25	299	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	299		release __TextOutMutex
+4	25	300	#line 25 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	300	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	300		set __signed_stack_001deleteHigh, 22
+4	26	303	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	303	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	303		set __signed_stack_002deleteHigh, 0
+4	26	306	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	26	306	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	306		strcat __strbufdeleteHigh, __constStr0037
+4	26	310	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	310		set __D0deleteHigh, 4096
+4	26	313	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	313		acquire __TextOutMutex
+4	26	314	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	314		mov __TextOutArgs.Location.X, __signed_stack_001deleteHigh
+4	26	316	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	316		mov __TextOutArgs.Location.Y, __signed_stack_002deleteHigh
+4	26	318	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	318		mov __TextOutArgs.Options, __D0deleteHigh
+4	26	320	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	320		mov __TextOutArgs.Text, __strbufdeleteHigh
+4	26	322	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	322		syscall 13, __TextOutArgs
+4	26	325	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	325		mov __D0deleteHigh, __TextOutArgs.Result
+4	26	327	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	327		release __TextOutMutex
+4	26	328	#line 26 "C:\Github\NXC_Source\HighDelete.nxc"
+4	27	328	#line 27 "C:\Github\NXC_Source\HighDelete.nxc"
+4	28	328		set __Wait_7qG2_ms_7qG2_000_inline_deleteHigh, 2000
+4	27	331	#line 27 "C:\Github\NXC_Source\HighDelete.nxc"
+4	8771	331	#line 8771 "NXCDefs.h"
+4	8772	331		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteHigh
+4	8771	333	#line 8771 "NXCDefs.h"
+4	27	333	#line 27 "C:\Github\NXC_Source\HighDelete.nxc"
+4	29	333	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	29	333	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	333		set __signed_stack_001deleteHigh, 3
+4	29	336	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	29	336	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	336		mov __D0deleteHigh, __constVal0
+4	29	338	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	338		acquire __RBtnMutex
+4	29	339	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	339		mov __RBtnArgs.Index, __signed_stack_001deleteHigh
+4	29	341	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	341		mov __RBtnArgs.Reset, __D0deleteHigh
+4	29	343	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	343		syscall 20, __RBtnArgs
+4	29	346	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	346		mov __D0deleteHigh, __RBtnArgs.Pressed
+4	29	348	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	348		release __RBtnMutex
+4	29	349	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	349		mov __signed_stack_001deleteHigh, __D0deleteHigh
+4	29	351	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	351		set __D0deleteHigh, 0
+4	29	354	#line 29 "C:\Github\NXC_Source\HighDelete.nxc"
+4	30	354		cmp 4, __D0deleteHigh, __signed_stack_001deleteHigh, __D0deleteHigh
+4	30	358	#line 30 "C:\Github\NXC_Source\HighDelete.nxc"
+4	31	358		not __D0deleteHigh, __D0deleteHigh
+4	33	361	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
+4	34	361		tst 5, __D0deleteHigh, __D0deleteHigh
+4	33	364	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
+4	34	364		brtst 4, __ASM_Label_1229, __D0deleteHigh
+4	33	367	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
+4	33	367	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
+4	34	367		jmp __ASM_Label_1228
+4	33	369	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
+4	33	369	#line 33 "C:\Github\NXC_Source\HighDelete.nxc"
+4	34	369		subret __deleteHigh_return
+5	6896	0	#line 6896 "NXCDefs.h"
+5	6897	0	#pragma macro 6
+5	6897	0		acquire __PointOutMutex
+5	6897	1		mov __PointOutArgs.Location.X, __constVal200
+5	6897	3		mov __PointOutArgs.Location.Y, __constVal200
+5	6897	5		mov __PointOutArgs.Options, __constVal1
+5	6897	7		syscall 14, __PointOutArgs
+5	6897	10		release __PointOutMutex
+5	11299	11	#line 11299 "NXCDefs.h"
+5	6896	11	#line 6896 "NXCDefs.h"
+5	35	11	#line 35 "C:\Github\NXC_Source\HighDelete.nxc"
+5	36	11	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	11		set __signed_stack_001viewFile, 2
+5	36	14	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	36	14	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	14		set __signed_stack_002viewFile, 56
+5	36	17	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	36	17	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	17		strcat __strbufviewFile, __constStr0038
+5	36	21	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	21		mov __ArrHelper__viewFile_244_0, __strbufviewFile
+5	36	23	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	23		strcat __strbufviewFile, __viewFile_7qG2_viewme_7qG2_000
+5	36	27	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	27		mov __readHigh_7qG2_readme_7qG2_000, __strbufviewFile
+5	36	29	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	29		subcall readHigh, __readHigh_return
+5	36	31	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	31		mov __D0viewFile, __D0readHigh
+5	36	33	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	33		numtostr __strretvalviewFile, __D0viewFile
+5	36	36	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	36		strcat __strbufviewFile, __strretvalviewFile
+5	36	40	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	40		mov __ArrHelper__viewFile_244_1, __strbufviewFile
+5	36	42	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	42		strcat __strretvalviewFile, __ArrHelper__viewFile_244_0, __ArrHelper__viewFile_244_1
+5	36	47	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	47		strcat __strbufviewFile, __strretvalviewFile
+5	36	51	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	51		set __D0viewFile, 0
+5	36	54	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	54		acquire __TextOutMutex
+5	36	55	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	55		mov __TextOutArgs.Location.X, __signed_stack_001viewFile
+5	36	57	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	57		mov __TextOutArgs.Location.Y, __signed_stack_002viewFile
+5	36	59	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	59		mov __TextOutArgs.Options, __D0viewFile
+5	36	61	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	61		mov __TextOutArgs.Text, __strbufviewFile
+5	36	63	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	63		syscall 13, __TextOutArgs
+5	36	66	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	66		mov __D0viewFile, __TextOutArgs.Result
+5	36	68	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	68		release __TextOutMutex
+5	36	69	#line 36 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	69	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	69		set __signed_stack_001viewFile, 2
+5	37	72	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	72	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	72		set __signed_stack_002viewFile, 48
+5	37	75	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	37	75	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	75		strcat __strbufviewFile, __constStr0039
+5	37	79	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	79		mov __ArrHelper__viewFile_244_0, __strbufviewFile
+5	37	81	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	81		strcat __strbufviewFile, __viewFile_7qG2_viewme_7qG2_000
+5	37	85	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	85		mov __readHighName_7qG2_readme_7qG2_000, __strbufviewFile
+5	37	87	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	87		subcall readHighName, __readHighName_return
+5	37	89	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	89		mov __strretvalviewFile, __strbufreadHighName
+5	37	91	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	91		strcat __strbufviewFile, __strretvalviewFile
+5	37	95	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	95		mov __ArrHelper__viewFile_244_1, __strbufviewFile
+5	37	97	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	97		strcat __strretvalviewFile, __ArrHelper__viewFile_244_0, __ArrHelper__viewFile_244_1
+5	37	102	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	102		strcat __strbufviewFile, __strretvalviewFile
+5	37	106	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	106		set __D0viewFile, 0
+5	37	109	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	109		acquire __TextOutMutex
+5	37	110	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	110		mov __TextOutArgs.Location.X, __signed_stack_001viewFile
+5	37	112	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	112		mov __TextOutArgs.Location.Y, __signed_stack_002viewFile
+5	37	114	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	114		mov __TextOutArgs.Options, __D0viewFile
+5	37	116	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	116		mov __TextOutArgs.Text, __strbufviewFile
+5	37	118	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	118		syscall 13, __TextOutArgs
+5	37	121	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	121		mov __D0viewFile, __TextOutArgs.Result
+5	37	123	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	123		release __TextOutMutex
+5	37	124	#line 37 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	124	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	124		set __signed_stack_001viewFile, 45
+5	38	127	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	127	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	127		set __signed_stack_002viewFile, 0
+5	38	130	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	38	130	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	130		strcat __strbufviewFile, __constStr0009
+5	38	134	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	134		set __D0viewFile, 0
+5	38	137	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	137		acquire __TextOutMutex
+5	38	138	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	138		mov __TextOutArgs.Location.X, __signed_stack_001viewFile
+5	38	140	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	140		mov __TextOutArgs.Location.Y, __signed_stack_002viewFile
+5	38	142	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	142		mov __TextOutArgs.Options, __D0viewFile
+5	38	144	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	144		mov __TextOutArgs.Text, __strbufviewFile
+5	38	146	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	146		syscall 13, __TextOutArgs
+5	38	149	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	149		mov __D0viewFile, __TextOutArgs.Result
+5	38	151	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	151		release __TextOutMutex
+5	38	152	#line 38 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	152	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	152		set __signed_stack_001viewFile, 3
+5	39	155	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	39	155	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	155		mov __D0viewFile, __constVal0
+5	39	157	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	157		acquire __RBtnMutex
+5	39	158	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	158		mov __RBtnArgs.Index, __signed_stack_001viewFile
+5	39	160	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	160		mov __RBtnArgs.Reset, __D0viewFile
+5	39	162	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	162		syscall 20, __RBtnArgs
+5	39	165	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	165		mov __D0viewFile, __RBtnArgs.Pressed
+5	39	167	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	167		release __RBtnMutex
+5	39	168	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	168		not __D0viewFile, __D0viewFile
+5	39	171	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	171		tst 5, __D0viewFile, __D0viewFile
+5	39	174	#line 39 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	174		brtst 4, __ASM_Label_1257, __D0viewFile
+5	40	177	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	177		jmp __ASM_Label_1256
+5	40	179	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	179	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	179		set __signed_stack_001viewFile, 3
+5	40	182	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	40	182	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	182		mov __D0viewFile, __constVal0
+5	40	184	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	184		acquire __RBtnMutex
+5	40	185	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	185		mov __RBtnArgs.Index, __signed_stack_001viewFile
+5	40	187	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	187		mov __RBtnArgs.Reset, __D0viewFile
+5	40	189	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	189		syscall 20, __RBtnArgs
+5	40	192	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	192		mov __D0viewFile, __RBtnArgs.Pressed
+5	40	194	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	194		release __RBtnMutex
+5	40	195	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	195		tst 5, __D0viewFile, __D0viewFile
+5	40	198	#line 40 "C:\Github\NXC_Source\HighDelete.nxc"
+5	41	198		brtst 4, __ASM_Label_1265, __D0viewFile
+5	44	201	#line 44 "C:\Github\NXC_Source\HighDelete.nxc"
+5	45	201		jmp __ASM_Label_1264
+5	44	203	#line 44 "C:\Github\NXC_Source\HighDelete.nxc"
+5	44	203	#line 44 "C:\Github\NXC_Source\HighDelete.nxc"
+5	45	203		subret __viewFile_return
+6	90	0	#line 90 "C:\Github\NXC_Source\HighDelete.nxc"
+6	91	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+6	90	43	#line 90 "C:\Github\NXC_Source\HighDelete.nxc"
+6	91	43		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\HighDelete.nxc
-1	senseButton	290	C:\Github\NXC_Source\.\+Button+-.nxc
-2	deleteHigh	556	C:\Github\NXC_Source\HighDelete.nxc
-3	__initialize_global_data	926	C:\Github\NXC_Source\HighDelete.nxc
+1	senseButton	535	C:\Github\NXC_Source\.\+Button+-.nxc
+2	readHigh	801	C:\Github\NXC_Source\.\+HighScore.nxc
+3	readHighName	866	C:\Github\NXC_Source\.\+HighScore.nxc
+4	deleteHigh	971	C:\Github\NXC_Source\HighDelete.nxc
+5	viewFile	1342	C:\Github\NXC_Source\HighDelete.nxc
+6	__initialize_global_data	1547	C:\Github\NXC_Source\HighDelete.nxc
