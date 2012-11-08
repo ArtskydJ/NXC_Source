@@ -34,8 +34,8 @@ void deleteHigh(string deleteme)
 void viewFile(string viewme)
   {
   ClearScreen();
-  TextOut(2,56,StrCat("Highscore:",NumToStr( readHighscore() )),0);
-  TextOut(2,48,StrCat("Name:",readHighscoreName()),0);
+  TextOut(2,56,StrCat("Highscore:",NumToStr( readHighscore(viewme) )),0);
+  TextOut(2,48,StrCat("Name:",readHighscoreName(viewme)),0);
   TextOut(45,0,"OK",0);
   until (ButtonPressed(BTNCENTER)){}
   while (ButtonPressed(BTNCENTER)){}

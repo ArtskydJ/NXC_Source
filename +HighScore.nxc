@@ -2,10 +2,10 @@
 #include "+TextInput.nxc"
 int fsize, handle;
 
-int readHighscore()
+int readHighscore(string readme)
   {
   int ARead = 0;
-  int result = OpenFileRead("High.dat", fsize, handle);
+  int result = OpenFileRead(readme, fsize, handle);
   if (result == LDR_SUCCESS)
     {
     Read(handle, ARead);
@@ -16,10 +16,10 @@ int readHighscore()
   return ARead;
   }
 
-void overwriteHighscore(int NewHighscore)
+void overwriteHighscore(string readme, int NewHighscore)
   {
-  DeleteFile("High.dat");
-  CreateFile("High.dat", 10, handle);
+  DeleteFile(readme);
+  CreateFile(readme, 10, handle);
   Write(handle, NewHighscore);
   CloseFile(handle);
   }
@@ -27,7 +27,7 @@ void overwriteHighscore(int NewHighscore)
 int readHighscoreHigh()
   {
   int ARead = 0;
-  int result = OpenFileRead("High.dat", fsize, handle);
+  int result = OpenFileRead(readme, fsize, handle);
   if (result == LDR_SUCCESS)
     {
     Read(handle, ARead);
@@ -68,8 +68,8 @@ void endGame(int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
   Wait(1000);
-  if (myscore>readHighscore())
-    {overwriteHighscore(myscore);
+  if (myscore>readHighscore("High.dat"))
+    {overwriteHighscore("High.dat",myscore);
     string temp=keyboard();
     overwriteHighscoreName(temp);}
   TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(myscore),", HS: ",NumToStr( readHighscore() )),0);
@@ -77,8 +77,6 @@ void endGame(int myscore)
   Wait(1000);
   }
   
-void deleteHighscore()
-  {DeleteFile("high.dat");}
 
 task main()
   {
