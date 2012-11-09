@@ -57,7 +57,7 @@ void writeHighName(string readme, int NewHighscore)
   CloseFile(handle); //Good
   }
   
-//*
+/*
 void endGame(string readme, int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
