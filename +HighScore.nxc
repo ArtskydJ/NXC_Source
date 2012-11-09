@@ -1,7 +1,10 @@
 //High Score Template
+//Programmed By Joseph Dykstra
 #include "+TextInput.nxc"
 int fsize, handle;
 
+
+/////////////////////////////   READ   //////////////////////////////
 int readHigh(string readme)
   {
   int ARead = 0;
@@ -15,61 +18,81 @@ int readHigh(string readme)
     {ARead = -1;}
   return ARead;
   }
+  
+string readHighName(string readme)
+  {
+  TextOut(0,48,"wait",0);
+  PlayTone(500,500);
+  Wait(500);
+  string ARead = "";
+  int result = OpenFileRead(readme,fsize,handle);
+  if (result == LDR_SUCCESS)
+    {
+    //Read(handle,ARead);
+    //Read(handle,ARead);
+    //CloseFile(handle);
+    
+    PlayTone(2000,500);
+    TextOut(0,56,"success",0);
+    SendResponseString(MAILBOX10,"Boss");
+    Wait(150);
+    Read(handle,ARead);
+    SendResponseString(MAILBOX10,ARead);
+    Wait(150);
+    Read(handle,ARead);
+    SendResponseString(MAILBOX10,ARead);
+    Wait(150);
+    CloseFile(handle);
+    }
+  else
+    {
+    ARead = "";
+    SendResponseString(MAILBOX10,"fail");
+    TextOut(0,56,"fail",0);
+    Wait(100);
+    }
+  return ARead;
+  }
 
+
+/////////////////////////////  WRITE  ///////////////////////////////
 void writeHigh(string readme, int NewHighscore)
   {
   DeleteFile(readme);
-  CreateFile(readme, 5, handle);
+  CreateFile(readme, 1024, handle); //changed to constant 1024 instead of variable fsize
   Write(handle, NewHighscore);
   CloseFile(handle);
   }
 
-string readHighName(string readme)
+void writeHighName(string readme)
   {
-  string ARead = "";
-  int result = OpenFileRead(readme, fsize, handle);
-  if (result == LDR_SUCCESS)
-    {
-    Read(handle,ARead);
-    Read(handle,ARead);
-    CloseFile(handle);
-    }
-  else
-    {ARead = "";}
-  return ARead;
+  OpenFileAppend(readme,fsize,handle);
+  string temp2="joe";
+  //string temp2=keyboard();
+  Write(handle, temp2)
+  CloseFile(handle);
   }
 
-void writeHighName(string readme, int NewHighscore)
-  {
-  DeleteFile(readme); //Good
-  CreateFile(readme, 40, handle);
-  
-  //Write(handle,NewHighscore); //OK?
-  //WRITE EOL CHAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  //string temp=keyboard();
-  //Write(handle, temp);
-  
-  string temp2=keyboard(),temp1; //OK?
-  temp1=StrCat(NumToStr(NewHighscore),Flatten(13));
-  Write(handle, temp1);
-  Write(handle, temp2)
-  
-  CloseFile(handle); //Good
-  }
-  
-/*
+
+/////////////////////////////  OTHER  ///////////////////////////////
+//*
 void endGame(string readme, int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
   Wait(1000);
-  if (myscore>readHigh(readme)) {writeHighName(readme,myscore);}
+  //if (myscore>readHigh(readme))
+    //{
+    writeHigh(readme,myscore);
+    writeHighName(readme);
+    //}
   ClearScreen();
-  TextOut(0,LCD_LINE6,StrCat("S:",NumToStr(myscore)),0);
-  TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);
-  TextOut(0,LCD_LINE8,StrCat("N:",readHighName(readme)),0);
+  string show=NumToStr(myscore);
+  TextOut(0,LCD_LINE6,StrCat("S:",show),0);
+  //TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);  //append code
+  show=readHighName(readme);
+  TextOut(0,LCD_LINE8,StrCat("N:",show),0);
   while(1){}
   }
-  
 
 task main()
   {
@@ -83,3 +106,23 @@ task main()
   endGame("High.dat",score);
   }
 //*/
+
+
+/////////////////////////////  UNUSED  //////////////////////////////
+/*
+void writeHighName(string readme)
+  {
+  DeleteFile(readme); //Good
+  CreateFile(readme, 40, handle);
+
+  Write(handle,NewHighscore); //OK?    //WRITE EOL CHAR!!!
+  string temp=keyboard();
+  Write(handle, temp);
+  OpenFileAppend(readme,fsize,handle);
+  string temp2="joe"; //string temp2=keyboard(); //OK?
+  string temp1=StrCat(NumToStr(NewHighscore),Flatten(13));
+  Write(handle, temp1);
+  Write(handle, temp2)
+  CloseFile(handle); //Good
+  }
+*/
