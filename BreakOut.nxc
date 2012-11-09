@@ -96,8 +96,8 @@ void Draw()
                 }
             else {/*msg=StrCat(msg,"N");*/}
         }   }
-    CircleOut(BallX,BallY,3,0);
-    if (WaitTime<30) CircleOut(LBX,LBY,3,0);
+    CircleOut(BallX,BallY,2,32); //Fill Circle (size was 3)
+    //if (WaitTime<30) CircleOut(LBX,LBY,3,0); //Double Ball if Refresh Rate is too fast
     LineOut(BouncerX,0,BouncerX+20,0,0);
     while (ButtonPressed(BTNCENTER)){}
     SendResponseString(MAILBOX10,msg); //MoveBall() and Draw() debugging messages
