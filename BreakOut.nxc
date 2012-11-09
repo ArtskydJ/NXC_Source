@@ -5,17 +5,17 @@
 | Break Out       |
 \*****************/
 
+#include "+Highscore.nxc"
 
 #define w   5
 #define h   4
 #define BMS 6 //Bouncer Max Speed
 int BallX, BallY,  BouncerX, SpeedX, SpeedY, GameStatus, Level, angle=0, i=0, j=0; //Old Vars
 int k, l, PreL, PreK, BouncerSpeed=0, Score, Lives, WaitTime=50,LBX,LBY; //New Vars
-int  result, fsize, handle; //Highscore
 bool Block[w][h], Retry=true;
 string msg; //debug messages
 
-
+/*
 int readHighscore()
   {
   int ARead = 0;
@@ -37,11 +37,7 @@ void overwriteHighscore(int NewHighscore)
   result = Write(handle, NewHighscore);
   result = CloseFile(handle);
   }
-  
-void deleteHighscore() //UNUSED
-  {
-  DeleteFile("BreakoutHigh.dat");
-  }
+*/
   
 void MoveBall()
     {
@@ -106,6 +102,7 @@ void MoveBouncer()
     BouncerX+=BouncerSpeed;
     if (BouncerX>79){BouncerX=79;}
     if (BouncerX<0) {BouncerX=0;}
+    SendResponseString(MAILBOX10,msg); //MoveBouncer() debugging messages
     }
     
 void Draw()
@@ -127,23 +124,24 @@ void Draw()
     if (WaitTime<30) CircleOut(LBX,LBY,3,0);
     LineOut(BouncerX,0,BouncerX+20,0,0);
     while (ButtonPressed(BTNCENTER)){}
+    SendResponseString(MAILBOX10,msg); //MoveBall() and Draw() debugging messages
     }
     
 bool RetryGame()
     {
     Score=( ((Level-1)*100) +(Score*5));
-    if (Score>(readHighscore())) {overwriteHighscore(Score);}
+    if (Score>readHigh("BreakoutHigh.dat")) {writeHigh("BreakoutHigh.dat",Score);}
     TextOut(25,LCD_LINE4,"GAME OVER", 1);
     Wait(1500);
-    msg=StrCat("S=",NumToStr(Score),", HS=",NumToStr(readHighscore()));
+    msg=StrCat("S=",NumToStr(Score),", HS=",NumToStr(readHigh("BreakoutHigh.dat")));
     TextOut(25,LCD_LINE3,StrCat("Score: ",NumToStr(Score)),0);
-    TextOut(10, LCD_LINE4,StrCat("HighScore: ",NumToStr(readHighscore())),0);
-    TextOut(33,LCD_LINE5,"Retry?",0);
+    TextOut(10, LCD_LINE4,StrCat("HighScore: ",NumToStr(readHigh("BreakoutHigh.dat"))),0);
+    TextOut(33,LCD_LINE7,"Retry?",0);
     ClearLine(LCD_LINE8);
     TextOut(0,LCD_LINE8,"Yes",0);
     TextOut(88,LCD_LINE8,"No",0);
     SendResponseString(MAILBOX10,msg); msg="";
-    until (ButtonPressed(BTNLEFT)==false&&ButtonPressed(BTNRIGHT)==false) {}
+    while (ButtonPressed(BTNLEFT)||ButtonPressed(BTNRIGHT)) {}
     until (ButtonPressed(BTNLEFT)||ButtonPressed(BTNRIGHT)) {}
     return (ButtonPressed(BTNLEFT));
     }
@@ -165,14 +163,13 @@ task main()
             for (i=3;i>0;i--) {TextOut(0,LCD_LINE6,NumToStr(i),0);Wait(1000);} //3-2-1 countdown
             while (GameStatus>0)
                 {
-                msg=""; //Debug Stream
-                GameStatus=0; for(j=0;j<h;j++) {for(i=0;i<w;i++) {GameStatus+=Block[i][j];}}
+                msg=""; //Reset Debug Stream
+                GameStatus=0;
+                for(j=0;j<h;j++) {for(i=0;i<w;i++) {GameStatus+=Block[i][j];}}
                 MoveBouncer();
-                SendResponseString(MAILBOX10,msg); //MoveBouncer() debugging messages
                 MoveBall();
                 Wait(WaitTime);
                 Draw();
-                SendResponseString(MAILBOX10,msg); //MoveBall() and Draw() debugging messages
                 Wait(WaitTime);
                 }
             if (GameStatus==0) {Level++; Score=0;WaitTime=WaitTime*4/5;}

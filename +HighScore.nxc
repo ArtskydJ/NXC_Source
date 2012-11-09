@@ -19,7 +19,7 @@ int readHigh(string readme)
 void writeHigh(string readme, int NewHighscore)
   {
   DeleteFile(readme);
-  CreateFile(readme, 10, handle);
+  CreateFile(readme, 5, handle);
   Write(handle, NewHighscore);
   CloseFile(handle);
   }
@@ -41,22 +41,32 @@ string readHighName(string readme)
 
 void writeHighName(string readme, int NewHighscore)
   {
-  DeleteFile(readme);
-  CreateFile(readme, 10, handle);
-  Write(handle,NewHighscore);
-  string temp=keyboard(); ////////////////////////////////
-  Write(handle, temp);
-  CloseFile(handle);
+  DeleteFile(readme); //Good
+  CreateFile(readme, 40, handle);
+  
+  //Write(handle,NewHighscore); //OK?
+  //WRITE EOL CHAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  //string temp=keyboard();
+  //Write(handle, temp);
+  
+  string temp2=keyboard(),temp1; //OK?
+  temp1=StrCat(NumToStr(NewHighscore),Flatten(13));
+  Write(handle, temp1);
+  Write(handle, temp2)
+  
+  CloseFile(handle); //Good
   }
   
-/*
+//*
 void endGame(string readme, int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
   Wait(1000);
   if (myscore>readHigh(readme)) {writeHighName(readme,myscore);}
-  TextOut(0, LCD_LINE6,StrCat("S: ",NumToStr(myscore),", HS: ",NumToStr( readHigh(readme) )),0);
-  TextOut(0, LCD_LINE7,StrCat("N: ",readHighName(readme)),0);
+  ClearScreen();
+  TextOut(0,LCD_LINE6,StrCat("S:",NumToStr(myscore)),0);
+  TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);
+  TextOut(0,LCD_LINE8,StrCat("N:",readHighName(readme)),0);
   while(1){}
   }
   

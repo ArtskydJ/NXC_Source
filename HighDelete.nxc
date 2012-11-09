@@ -23,8 +23,7 @@ void deleteHigh(string deleteme)
   else
     {
     ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
-    TextOut(0,LCD_LINE8,"Not",4096);
-    TextOut(22,LCD_LINE8,"Reset/Deleted",4096);
+    TextOut(0,LCD_LINE8,"Not Deleted",4096);
     Wait(2000);
     }
   until (ButtonPressed(BTNCENTER)==false)
@@ -56,33 +55,34 @@ task main()
       {
       ClearScreen();
       if (nof==j)
-        {TextOut(5,0,"OK",0);
-        TextOut(85,0,"OK",0);}
+        {TextOut(0,0,"Exit",0);
+        TextOut(75,0,"Exit",0);} //add different option?
       else
         {TextOut(0,0,"Delete",0);
-        TextOut(70,0,"View",0);}
+        TextOut(75,0,"View",0);}
       for (i=0; i<7; i++)
         {
         if (nof > j+i)
           {TextOut(2,56-i*8,dathighs.FileList[j+i],0);}
         else
-          {TextOut(2,56-i*8,"EXIT",0);i=7;}
+          {TextOut(2,56-i*8,"Options",0);i=7;}
         }
       RectOut(0,56,99,7,0);
       Wait(50);
       j=senseButton(j,0,1,nof,1);
       }
-    Stop(nof==j);
-    if (ButtonPressed(BTNRIGHT)) viewFile(dathighs.FileList[j]);
-    else deleteHigh(dathighs.FileList[j]);
+    if (nof==j)
+      {
+      if (ButtonPressed(BTNLEFT)) Stop(true);
+      else Stop(true);
+      }
+    if (ButtonPressed(BTNLEFT)) deleteHigh(dathighs.FileList[j]);
+    else                          viewFile(dathighs.FileList[j]);
     until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
     }
   }
   
-  
-  
-  
-  
-  
-  
-  
+/* To Do List
+Add Sounds
+Add Line Terminator...
+*/
