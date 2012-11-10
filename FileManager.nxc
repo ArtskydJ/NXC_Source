@@ -1,9 +1,13 @@
-//High Score Delete
+//File Manager
 #include "+Button+-.nxc"
 #include "+HighScore.nxc"
+#define filternumber  7
+const string filters[filternumber*2]=
+  {"*.*","*.dat","*.rdt","*.rxe",     "*.ric","*.rso","*.txt",
+  "All","Data","Datalog","Executable","Picture","Sound","Text"};
 
 
-void deleteHigh(string deleteme)
+void deleteFile(string deleteme)
   {
   int result, fsize, handle;
   ClearLine(LCD_LINE8);
@@ -30,59 +34,112 @@ void deleteHigh(string deleteme)
   }
 
   
-void viewFile(string viewme)
+void openFile(string viewme)
   {
-  ClearScreen();
-  TextOut(2,56,StrCat("Highscore:",NumToStr( readHigh(viewme) )),0);
-  TextOut(2,48,StrCat("Name:",readHighName(viewme)),0);
-  TextOut(45,0,"OK",0);
-  until (ButtonPressed(BTNCENTER)){}
-  while (ButtonPressed(BTNCENTER)){}
+  bool waitforpress=false;
+  string extension=SubStr(viewme,StrLen(viewme)-3,3);
+  if (extension=="dat")
+    {
+    ClearScreen();
+    TextOut(2,56,StrCat("Highscore:",NumToStr( readHigh(viewme) )),0);
+    TextOut(2,48,StrCat("Name:",readHighName(viewme)),0);
+    waitforpress=true;
+    }
+  if (extension=="txt")
+    {
+    ClearScreen();
+    
+    waitforpress=true;
+    }
+
+  if (waitforpress)
+    {
+    TextOut(45,0,"OK",0);
+    until (ButtonPressed(BTNCENTER)){}
+    while (ButtonPressed(BTNCENTER)){}
+    }
+  }
+
+  
+string setFilter(string previouspattern)
+  {
+  int k;
+  string returnme;
+  until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
+  while (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0)
+    {
+    ClearScreen();
+    TextOut(0, 0,"Cancel",0);
+    TextOut(64,0,"Select",0);
+    for (int i=0; i<filternumber; i++)
+      {
+      TextOut(2, 56-i*8,filters[i],             0);
+      TextOut(40,56-i*8,filters[i+filternumber],0);
+      //PlayTone(2000,200);Wait(300);
+      }
+    RectOut(0,56-k*8,99,7,0);
+    LineOut(0,8,100,8,0);
+    Wait(50);
+    k=senseButton(k,0,1,filternumber-1,0);
+    }
+  if (ButtonPressed(BTNLEFT)) returnme=previouspattern;
+  else                        returnme=filters[k];
+  return returnme;
   }
 
 
 task main()
   {
   int i,j,nof;
-  while (true)
+  bool inloop=true;
+  ListFilesType listoffiles;
+  while (inloop)
     {
-    ListFilesType dathighs;
-    dathighs.Pattern = "*.dat";
-    SysListFiles(dathighs);
-    nof=ArrayLen(dathighs.FileList);
+    listoffiles.Pattern = "*.*";
+    SysListFiles(listoffiles);
+    nof=ArrayLen(listoffiles.FileList);
     j=0;
     while (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0)
       {
       ClearScreen();
       if (nof==j)
         {TextOut(0,0,"Exit",0);
-        TextOut(75,0,"Exit",0);} //add different option?
+        TextOut(63,0,"Filter",0);}
       else
         {TextOut(0,0,"Delete",0);
-        TextOut(75,0,"View",0);}
+        TextOut(75,0,"Open",0);}
       for (i=0; i<7; i++)
         {
-        if (nof > j+i)
-          {TextOut(2,56-i*8,dathighs.FileList[j+i],0);}
-        else
-          {TextOut(2,56-i*8,"Options",0);i=7;}
+        if (nof > j+i) {TextOut(2,56-i*8,listoffiles.FileList[j+i],0);}
+        else           {TextOut(2,56-i*8,"Options",0);i=7;}
         }
       RectOut(0,56,99,7,0);
+      LineOut(0,8,100,8,0);
       Wait(50);
-      j=senseButton(j,0,1,nof,1);
+      j=senseButton(j,0,1,nof,0);
       }
     if (nof==j)
       {
-      if (ButtonPressed(BTNLEFT)) Stop(true);
-      else Stop(true);
+      if (ButtonPressed(BTNLEFT)) inloop=false;
+      else
+        {
+        listoffiles.Pattern=setFilter(listoffiles.Pattern);;
+        SendResponseString(MAILBOX10,listoffiles.Pattern);
+        SysListFiles(listoffiles);
+        if(listoffiles.Result != NO_ERR) {PlayTone(3000,1000);}
+        nof=ArrayLen(listoffiles.FileList);
+        }
       }
-    if (ButtonPressed(BTNLEFT)) deleteHigh(dathighs.FileList[j]);
-    else                          viewFile(dathighs.FileList[j]);
+    else
+      {
+      if (ButtonPressed(BTNLEFT)) deleteFile(listoffiles.FileList[j]);
+      else                          openFile(listoffiles.FileList[j]);
+      }
     until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
+    //while (ButtonPressed(BTNLEFT)&&ButtonPressed(BTNRIGHT)) {}
     }
   }
   
 /* To Do List
 Add Sounds
-Add Line Terminator...
 */

@@ -1,0 +1,2596 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001deleteFile	6	1	0	4	20
+1	__signed_stack_002deleteFile	6	1	4	4	10
+2	__DU0senseButton	5	1	8	4	4
+3	__D0setFilter	6	1	12	4	78
+4	__signed_stack_002main	6	1	16	4	22
+5	__signed_stack_003main	6	1	20	4	12
+6	__signed_stack_003deleteFile	6	1	24	4	2
+7	__signed_stack_001main	6	1	28	4	52
+8	__D0senseButton	6	1	32	4	67
+9	__D0main	6	1	36	4	106
+10	__DU0main	5	1	40	4	2
+11	__SPTArgsMutex	9	0	44	4	4
+12	__D0deleteFile	6	1	48	4	43
+13	__D0readHigh	6	1	52	4	10
+14	__D0readHighName	6	1	56	4	25
+15	__D0openFile	6	1	60	4	37
+16	__DU0openFile	5	1	64	4	2
+17	__signed_stack_004setFilter	6	1	68	4	4
+18	__constVal786433	6	0	72	4	2
+19	__signed_stack_002setFilter	6	1	76	4	18
+20	__signed_stack_003setFilter	6	1	80	4	16
+21	__Wait_7qG2_ms_7qG2_000_inline_setFilter	5	1	84	4	2
+22	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	88	4	2
+23	__Wait_7qG2_ms_7qG2_000_inline_readHighName	5	1	92	4	8
+24	__Wait_7qG2_ms_7qG2_000_inline_deleteFile	5	1	96	4	6
+25	__signed_stack_001setFilter	6	1	100	4	34
+26	__signed_stack_002openFile	6	1	104	4	6
+27	__signed_stack_001readHigh	6	1	108	4	2
+28	__signed_stack_004main	6	1	112	4	4
+29	__signed_stack_001openFile	6	1	116	4	14
+30	__signed_stack_003readHighName	6	1	120	4	2
+31	__signed_stack_001senseButton	6	1	124	4	20
+32	__signed_stack_001readHighName	6	1	128	4	8
+33	__signed_stack_002readHighName	6	1	132	4	6
+34	__FDMutex	9	0	136	4	2
+35	__FCMutex	9	0	140	4	4
+36	__TextOutMutex	9	0	144	4	50
+37	__MWMutex	9	0	148	4	10
+38	__FReadMutex	9	0	152	4	6
+39	__FOMutex	9	0	156	4	4
+40	__LineOutMutex	9	0	160	4	4
+41	__PointOutMutex	9	0	164	4	8
+42	__RectOutMutex	9	0	168	4	4
+43	__IOMWMutex	9	0	172	4	4
+44	__RBtnMutex	9	0	176	4	38
+45	__senseButton_7qG2_lu_7qG2_000	4	1	180	2	4
+46	__constVal200	4	0	182	2	8
+47	__senseButton_7qG2_rd_7qG2_000	4	1	184	2	4
+48	__setFilter_7qG2_k_7qG2_000	4	1	186	2	4
+49	__senseButton_7qG2_high_7qG2_000	4	1	188	2	6
+50	__deleteFile_7qG2_a_7qG2_001	4	1	190	2	5
+51	__senseButton_7qG2_val_7qG2_000	4	1	192	2	15
+52	__senseButton_7qG2_add_7qG2_000	4	1	194	2	4
+53	__readHigh_7qG2_ARead_7qG2_000	4	1	196	2	5
+54	handle	4	1	198	2	7
+55	__readHighName_7qG2_result_7qG2_000	4	1	200	2	2
+56	__main_7qG2_j_7qG2_000	4	1	202	2	9
+57	__main_7qG2_i_7qG2_000	4	1	204	2	9
+58	__main_7qG2_nof_7qG2_000	4	1	206	2	6
+59	fsize	4	1	208	2	2
+60	__setFilter_7qG2_i_7qG2_002	4	1	210	2	8
+61	__constVal4	2	0	212	1	1
+62	__constVal63	2	0	213	1	1
+63	__constVal117	2	0	214	1	1
+64	__constVal46	2	0	215	1	1
+65	__constVal116	2	0	216	1	1
+66	__constVal0	2	1	217	1	29
+67	__deleteFile_return	1	1	218	1	3
+68	__ClearLine_7qG2_line_7qG2_000_inline_deleteFile	1	1	219	1	10
+69	__constVal121	2	0	220	1	1
+70	__constVal120	2	0	221	1	1
+71	__constVal122	2	0	222	1	1
+72	__constVal44	2	0	223	1	1
+73	__constVal119	2	0	224	1	1
+74	__constVal118	2	0	225	1	1
+75	__constVal105	2	0	226	1	1
+76	__constVal104	2	0	227	1	1
+77	__constVal103	2	0	228	1	1
+78	__constVal1	2	0	229	1	11
+79	____initialize_global_data_return	1	1	230	1	3
+80	__main_7qG2_inloop_7qG2_000	1	1	231	1	3
+81	__constVal32	2	0	232	1	1
+82	__constVal97	2	0	233	1	1
+83	__constVal98	2	0	234	1	1
+84	__constVal102	2	0	235	1	1
+85	__constVal101	2	0	236	1	1
+86	__constVal99	2	0	237	1	1
+87	__constVal106	2	0	238	1	1
+88	__constVal114	2	0	239	1	1
+89	__constVal113	2	0	240	1	1
+90	__constVal112	2	0	241	1	1
+91	__constVal115	2	0	242	1	1
+92	__openFile_return	1	1	243	1	3
+93	__openFile_7qG2_waitforpress_7qG2_000	1	1	244	1	4
+94	__setFilter_return	1	1	245	1	4
+95	__constVal108	2	0	246	1	1
+96	__constVal107	2	0	247	1	1
+97	__constVal111	2	0	248	1	1
+98	__constVal110	2	0	249	1	1
+99	__constVal109	2	0	250	1	1
+100	__constVal56	2	0	251	1	1
+101	__FReadTmpByte	1	1	252	1	3
+102	__constVal55	2	0	253	1	1
+103	__senseButton_7qG2_cut_7qG2_000	1	1	254	1	3
+104	__senseButton_7qG2_lr_ud_7qG2_000	1	1	255	1	3
+105	__constVal50	2	0	256	1	1
+106	__constVal9	2	0	257	1	5
+107	__constVal100	2	0	258	1	1
+108	__constVal57	2	0	259	1	1
+109	__constVal10	2	0	260	1	5
+110	__senseButton_return	1	1	261	1	5
+111	__constVal51	2	0	262	1	1
+112	__readHigh_return	1	1	263	1	4
+113	__constVal53	2	0	264	1	1
+114	__constVal52	2	0	265	1	1
+115	__readHighName_return	1	1	266	1	4
+116	__constVal48	2	0	267	1	1
+117	__constValNeg1	2	0	268	1	1
+118	__constVal49	2	0	269	1	1
+119	__constVal54	2	0	270	1	1
+120	__constVal40	2	0	271	1	2
+121	__SPTArgs	8	0	5	8	12
+122	__SPTArgs.Result	2	1	272	1	12
+123	__SPTArgs.Frequency	3	1	274	2	12
+124	__SPTArgs.Duration	3	1	276	2	12
+125	__SPTArgs.Loop	1	1	278	1	12
+126	__SPTArgs.Volume	1	1	279	1	12
+127	__LineOutArgs	8	0	4	16	14
+128	__LineOutArgs.Result	2	1	280	1	14
+129	__LineOutArgs.StartLoc	8	0	2	4	14
+130	__LineOutArgs.StartLoc.X	4	1	284	2	14
+131	__LineOutArgs.StartLoc.Y	4	1	286	2	14
+132	__LineOutArgs.EndLoc	8	0	2	4	14
+133	__LineOutArgs.EndLoc.X	4	1	288	2	14
+134	__LineOutArgs.EndLoc.Y	4	1	290	2	14
+135	__LineOutArgs.Options	5	1	292	4	14
+136	__PointOutArgs	8	0	3	12	16
+137	__PointOutArgs.Result	2	1	296	1	16
+138	__PointOutArgs.Location	8	0	2	4	16
+139	__PointOutArgs.Location.X	4	1	300	2	16
+140	__PointOutArgs.Location.Y	4	1	302	2	16
+141	__PointOutArgs.Options	5	1	304	4	16
+142	__main_7qG2_listoffiles_7qG2_000	8	0	3	12	14
+143	__main_7qG2_listoffiles_7qG2_000.Result	2	1	308	1	14
+144	__main_7qG2_listoffiles_7qG2_000.Pattern	7	0	310	4	14
+145	__main_7qG2_listoffiles_7qG2_000.Pattern.Pattern_type	1	0	0	1	0
+146	__main_7qG2_listoffiles_7qG2_000.FileList	7	0	312	4	14
+147	__main_7qG2_listoffiles_7qG2_000.FileList.FileList_type	7	0	0	4	0
+148	__main_7qG2_listoffiles_7qG2_000.FileList.FileList_type.FileList_type_type	1	0	0	1	0
+149	__MWArgs	8	0	3	8	20
+150	__MWArgs.Result	2	1	316	1	20
+151	__MWArgs.QueueID	1	1	317	1	20
+152	__MWArgs.Message	7	0	318	4	20
+153	__MWArgs.Message.Message_type	1	0	0	1	0
+154	__TextOutArgs	8	0	4	16	145
+155	__TextOutArgs.Result	2	1	320	1	145
+156	__TextOutArgs.Location	8	0	2	4	145
+157	__TextOutArgs.Location.X	4	1	324	2	145
+158	__TextOutArgs.Location.Y	4	1	326	2	145
+159	__TextOutArgs.Text	7	0	328	4	145
+160	__TextOutArgs.Text.Text_type	1	0	0	1	0
+161	__TextOutArgs.Options	5	1	332	4	145
+162	__FOArgs	8	0	4	12	10
+163	__FOArgs.Result	3	1	336	2	10
+164	__FOArgs.FileHandle	1	1	338	1	10
+165	__FOArgs.Filename	7	0	340	4	10
+166	__FOArgs.Filename.Filename_type	1	0	0	1	0
+167	__FOArgs.Length	5	1	344	4	10
+168	__FCArgs	8	0	2	4	6
+169	__FCArgs.Result	3	1	348	2	6
+170	__FCArgs.FileHandle	1	1	350	1	6
+171	__RBtnArgs	8	0	5	8	76
+172	__RBtnArgs.Result	2	1	352	1	76
+173	__RBtnArgs.Index	1	1	353	1	76
+174	__RBtnArgs.Pressed	1	1	354	1	76
+175	__RBtnArgs.Count	1	1	355	1	76
+176	__RBtnArgs.Reset	1	1	356	1	76
+177	__IOMWBIArgs	8	0	4	16	8
+178	__IOMWBIArgs.Result	2	1	360	1	8
+179	__IOMWBIArgs.ModuleID	5	1	364	4	8
+180	__IOMWBIArgs.Offset	3	1	368	2	8
+181	__IOMWBIArgs.Buffer	7	0	370	4	8
+182	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+183	__FReadArgs	8	0	4	12	19
+184	__FReadArgs.Result	3	1	372	2	19
+185	__FReadArgs.FileHandle	1	1	374	1	19
+186	__FReadArgs.Buffer	7	0	376	4	19
+187	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+188	__FReadArgs.Length	5	1	380	4	19
+189	__FDArgs	8	0	2	8	3
+190	__FDArgs.Result	3	1	384	2	3
+191	__FDArgs.Filename	7	0	386	4	3
+192	__FDArgs.Filename.Filename_type	1	0	0	1	0
+193	__RectOutArgs	8	0	4	16	14
+194	__RectOutArgs.Result	2	1	388	1	14
+195	__RectOutArgs.Location	8	0	2	4	14
+196	__RectOutArgs.Location.X	4	1	392	2	14
+197	__RectOutArgs.Location.Y	4	1	394	2	14
+198	__RectOutArgs.Size	8	0	2	4	14
+199	__RectOutArgs.Size.Width	4	1	396	2	14
+200	__RectOutArgs.Size.Height	4	1	398	2	14
+201	__RectOutArgs.Options	5	1	400	4	14
+202	__constStr0060	7	0	404	4	1
+203	__constStr0060.__constStr0060_type	1	1	0	1	0
+204	__constStr0063	7	0	406	4	1
+205	__constStr0063.__constStr0063_type	1	1	0	1	0
+206	__constStr0062	7	0	408	4	1
+207	__constStr0062.__constStr0062_type	1	1	0	1	0
+208	__constStr0061	7	0	410	4	1
+209	__constStr0061.__constStr0061_type	1	1	0	1	0
+210	__constStr0064	7	0	412	4	1
+211	__constStr0064.__constStr0064_type	1	1	0	1	0
+212	__constStr0055	7	0	414	4	1
+213	__constStr0055.__constStr0055_type	1	1	0	1	0
+214	__constStr0065	7	0	416	4	1
+215	__constStr0065.__constStr0065_type	1	1	0	1	0
+216	__constStr0054	7	0	418	4	1
+217	__constStr0054.__constStr0054_type	1	1	0	1	0
+218	__constStr0056	7	0	420	4	1
+219	__constStr0056.__constStr0056_type	1	1	0	1	0
+220	__constStr0058	7	0	422	4	1
+221	__constStr0058.__constStr0058_type	1	1	0	1	0
+222	__constStr0059	7	0	424	4	1
+223	__constStr0059.__constStr0059_type	1	1	0	1	0
+224	__constStr0057	7	0	426	4	1
+225	__constStr0057.__constStr0057_type	1	1	0	1	0
+226	__constStr0066	7	0	428	4	1
+227	__constStr0066.__constStr0066_type	1	1	0	1	0
+228	__strretvalsetFilter	7	0	430	4	6
+229	__strretvalsetFilter.__strretvalsetFilter_type	1	0	0	1	0
+230	layout	7	0	432	4	1
+231	layout.layout_type	1	0	0	1	0
+232	__constStr0009	7	0	434	4	1
+233	__constStr0009.__constStr0009_type	1	1	0	1	0
+234	__strbufreadHighName	7	0	436	4	10
+235	__strbufreadHighName.__strbufreadHighName_type	1	0	0	1	0
+236	__strretvalreadHighName	7	0	438	4	2
+237	__strretvalreadHighName.__strretvalreadHighName_type	1	0	0	1	0
+238	__strbufsetFilter	7	0	440	4	14
+239	__strbufsetFilter.__strbufsetFilter_type	1	0	0	1	0
+240	__readHighName_7qG2_ARead_7qG2_000	7	0	442	4	11
+241	__readHighName_7qG2_ARead_7qG2_000.__readHighName_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+242	__constStr0033	7	0	444	4	1
+243	__constStr0033.__constStr0033_type	1	1	0	1	0
+244	__constStr0034	7	0	446	4	1
+245	__constStr0034.__constStr0034_type	1	1	0	1	0
+246	__constStr0016	7	0	448	4	1
+247	__constStr0016.__constStr0016_type	1	1	0	1	0
+248	__readHigh_7qG2_readme_7qG2_000	7	0	450	4	2
+249	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+250	__readHighName_7qG2_readme_7qG2_000	7	0	452	4	2
+251	__readHighName_7qG2_readme_7qG2_000.__readHighName_7qG2_readme_7qG2_000_type	1	0	0	1	0
+252	__ArrHelper__openFile_244_0	7	0	454	4	6
+253	__ArrHelper__openFile_244_0.__ArrHelper__openFile_244_0_type	1	0	0	1	0
+254	__ArrHelper__openFile_244_1	7	0	456	4	4
+255	__ArrHelper__openFile_244_1.__ArrHelper__openFile_244_1_type	1	0	0	1	0
+256	__ArrHelper__setFilter_83_0	7	0	458	4	6
+257	__ArrHelper__setFilter_83_0.__ArrHelper__setFilter_83_0_type	1	0	0	1	0
+258	__BlankLine	7	0	460	4	5
+259	__BlankLine.__BlankLine_type	1	0	0	1	0
+260	__IOMWFlattenBuf	7	0	462	4	4
+261	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+262	__soTmpBuf	7	0	464	4	4
+263	__soTmpBuf.__soTmpBuf_type	1	0	0	1	0
+264	__strtmpbufopenFile	7	0	466	4	4
+265	__strtmpbufopenFile.__strtmpbufopenFile_type	1	0	0	1	0
+266	__strbufopenFile	7	0	468	4	32
+267	__strbufopenFile.__strbufopenFile_type	1	0	0	1	0
+268	__strretvalopenFile	7	0	470	4	10
+269	__strretvalopenFile.__strretvalopenFile_type	1	0	0	1	0
+270	__strbufdeleteFile	7	0	472	4	8
+271	__strbufdeleteFile.__strbufdeleteFile_type	1	0	0	1	0
+272	__strbufmain	7	0	474	4	22
+273	__strbufmain.__strbufmain_type	1	0	0	1	0
+274	__strretvalmain	7	0	476	4	8
+275	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+276	__setFilter_7qG2_returnme_7qG2_000	7	0	478	4	3
+277	__setFilter_7qG2_returnme_7qG2_000.__setFilter_7qG2_returnme_7qG2_000_type	1	0	0	1	0
+278	__constStr0046	7	0	480	4	1
+279	__constStr0046.__constStr0046_type	1	1	0	1	0
+280	__constStr0047	7	0	482	4	1
+281	__constStr0047.__constStr0047_type	1	1	0	1	0
+282	__constStr0044	7	0	484	4	1
+283	__constStr0044.__constStr0044_type	1	1	0	1	0
+284	__constStr0045	7	0	486	4	1
+285	__constStr0045.__constStr0045_type	1	1	0	1	0
+286	__setFilter_7qG2_previouspattern_7qG2_000	7	0	488	4	2
+287	__setFilter_7qG2_previouspattern_7qG2_000.__setFilter_7qG2_previouspattern_7qG2_000_type	1	0	0	1	0
+288	__constStr0051	7	0	490	4	1
+289	__constStr0051.__constStr0051_type	1	1	0	1	0
+290	__constStr0052	7	0	492	4	1
+291	__constStr0052.__constStr0052_type	1	1	0	1	0
+292	__constStr0053	7	0	494	4	1
+293	__constStr0053.__constStr0053_type	1	1	0	1	0
+294	__constStr0048	7	0	496	4	2
+295	__constStr0048.__constStr0048_type	1	1	0	1	0
+296	__constStr0049	7	0	498	4	1
+297	__constStr0049.__constStr0049_type	1	1	0	1	0
+298	__constStr0050	7	0	500	4	1
+299	__constStr0050.__constStr0050_type	1	1	0	1	0
+300	__deleteFile_7qG2_deleteme_7qG2_000	7	0	502	4	2
+301	__deleteFile_7qG2_deleteme_7qG2_000.__deleteFile_7qG2_deleteme_7qG2_000_type	1	0	0	1	0
+302	__constStr0038	7	0	504	4	1
+303	__constStr0038.__constStr0038_type	1	1	0	1	0
+304	__constStr0039	7	0	506	4	1
+305	__constStr0039.__constStr0039_type	1	1	0	1	0
+306	__constStr0035	7	0	508	4	1
+307	__constStr0035.__constStr0035_type	1	1	0	1	0
+308	__constStr0036	7	0	510	4	1
+309	__constStr0036.__constStr0036_type	1	1	0	1	0
+310	filters	7	0	512	4	4
+311	filters.filters_type	7	0	0	4	0
+312	filters.filters_type.filters_type_type	1	0	0	1	0
+313	__openFile_7qG2_extension_7qG2_000	7	0	514	4	3
+314	__openFile_7qG2_extension_7qG2_000.__openFile_7qG2_extension_7qG2_000_type	1	0	0	1	0
+315	__constStr0042	7	0	516	4	1
+316	__constStr0042.__constStr0042_type	1	1	0	1	0
+317	__constStr0043	7	0	518	4	1
+318	__constStr0043.__constStr0043_type	1	1	0	1	0
+319	__constStr0040	7	0	520	4	1
+320	__constStr0040.__constStr0040_type	1	1	0	1	0
+321	__constStr0041	7	0	522	4	1
+322	__constStr0041.__constStr0041_type	1	1	0	1	0
+323	__openFile_7qG2_viewme_7qG2_000	7	0	524	4	5
+324	__openFile_7qG2_viewme_7qG2_000.__openFile_7qG2_viewme_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	92	0	#line 92 "C:\Github\NXC_Source\FileManager.nxc"
+0	93	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	92	2	#line 92 "C:\Github\NXC_Source\FileManager.nxc"
+0	93	2	#line 93 "C:\Github\NXC_Source\FileManager.nxc"
+0	94	2		set __main_7qG2_inloop_7qG2_000, 1
+0	93	5	#line 93 "C:\Github\NXC_Source\FileManager.nxc"
+0	96	5	#line 96 "C:\Github\NXC_Source\FileManager.nxc"
+0	97	5		mov __DU0main, __main_7qG2_inloop_7qG2_000
+0	97	7	#line 97 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	7		tst 5, __D0main, __DU0main
+0	97	10	#line 97 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	10		brtst 4, __ASM_Label_1412, __D0main
+0	97	13	#line 97 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	13		strcat __strbufmain, __constStr0048
+0	97	17	#line 97 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	17		mov __main_7qG2_listoffiles_7qG2_000.Pattern, __strbufmain
+0	97	19	#line 97 "C:\Github\NXC_Source\FileManager.nxc"
+0	99	19	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	100	19	#pragma macro 4
+0	100	19	#line 100 "C:\Github\NXC_Source\FileManager.nxc"
+0	100	19		syscall 47, __main_7qG2_listoffiles_7qG2_000
+0	98	22	#line 98 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	22	#line 98 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	22	#line 98 "C:\Github\NXC_Source\FileManager.nxc"
+0	98	22	#line 98 "C:\Github\NXC_Source\FileManager.nxc"
+0	99	22	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	99	22	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	99	22	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	100	22		arrsize __main_7qG2_nof_7qG2_000, __main_7qG2_listoffiles_7qG2_000.FileList
+0	99	25	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	99	25	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	99	25	#line 99 "C:\Github\NXC_Source\FileManager.nxc"
+0	100	25	#line 100 "C:\Github\NXC_Source\FileManager.nxc"
+0	101	25		set __main_7qG2_j_7qG2_000, 0
+0	100	28	#line 100 "C:\Github\NXC_Source\FileManager.nxc"
+0	100	28	#line 100 "C:\Github\NXC_Source\FileManager.nxc"
+0	101	28	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	28		set __signed_stack_001main, 2
+0	101	31	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	101	31	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	31		mov __D0main, __constVal0
+0	101	33	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	33		acquire __RBtnMutex
+0	101	34	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	34		mov __RBtnArgs.Index, __signed_stack_001main
+0	101	37	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	37		mov __RBtnArgs.Reset, __D0main
+0	101	40	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	40		syscall 20, __RBtnArgs
+0	101	43	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	43		mov __D0main, __RBtnArgs.Pressed
+0	101	46	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	46		release __RBtnMutex
+0	101	47	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	47		mov __signed_stack_001main, __D0main
+0	101	49	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	49		set __D0main, 0
+0	101	52	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	52		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	101	56	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	56		brtst 4, __ASM_Label_1422, __D0main
+0	101	59	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	59		set __signed_stack_001main, 1
+0	101	62	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	101	62	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	62		mov __D0main, __constVal0
+0	101	64	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	64		acquire __RBtnMutex
+0	101	65	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	65		mov __RBtnArgs.Index, __signed_stack_001main
+0	101	68	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	68		mov __RBtnArgs.Reset, __D0main
+0	101	71	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	71		syscall 20, __RBtnArgs
+0	101	74	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	74		mov __D0main, __RBtnArgs.Pressed
+0	101	77	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	77		release __RBtnMutex
+0	101	78	#line 101 "C:\Github\NXC_Source\FileManager.nxc"
+0	102	78		mov __signed_stack_001main, __D0main
+0	102	80	#line 102 "C:\Github\NXC_Source\FileManager.nxc"
+0	103	80		set __D0main, 0
+0	102	83	#line 102 "C:\Github\NXC_Source\FileManager.nxc"
+0	103	83		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	103	87	#line 103 "C:\Github\NXC_Source\FileManager.nxc"
+0	104	87		brtst 4, __ASM_Label_1420, __D0main
+0	6896	90	#line 6896 "NXCDefs.h"
+0	6897	90	#pragma macro 6
+0	6897	90		acquire __PointOutMutex
+0	6897	91		mov __PointOutArgs.Location.X, __constVal200
+0	6897	93		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	95		mov __PointOutArgs.Options, __constVal1
+0	6897	97		syscall 14, __PointOutArgs
+0	6897	100		release __PointOutMutex
+0	12786	101	#line 12786 "NXCDefs.h"
+0	6896	101	#line 6896 "NXCDefs.h"
+0	103	101	#line 103 "C:\Github\NXC_Source\FileManager.nxc"
+0	104	101	#line 104 "C:\Github\NXC_Source\FileManager.nxc"
+0	105	101		mov __signed_stack_001main, __main_7qG2_nof_7qG2_000
+0	104	103	#line 104 "C:\Github\NXC_Source\FileManager.nxc"
+0	105	103	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	103		mov __D0main, __main_7qG2_j_7qG2_000
+0	105	105	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	105		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	105	109	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	109		brtst 4, __ASM_Label_1429, __D0main
+0	105	112	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	112		set __signed_stack_001main, 0
+0	105	115	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	105	115	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	115		set __signed_stack_002main, 0
+0	105	118	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	105	118	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	118		strcat __strbufmain, __constStr0049
+0	105	122	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	122		set __D0main, 0
+0	105	125	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	125		acquire __TextOutMutex
+0	105	126	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	126		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	105	129	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	129		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	105	132	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	132		mov __TextOutArgs.Options, __D0main
+0	105	135	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	135		mov __TextOutArgs.Text, __strbufmain
+0	105	137	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	137		syscall 13, __TextOutArgs
+0	105	140	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	140		mov __D0main, __TextOutArgs.Result
+0	105	143	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	143		release __TextOutMutex
+0	105	144	#line 105 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	144	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	144		set __signed_stack_001main, 63
+0	106	147	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	147	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	147		set __signed_stack_002main, 0
+0	106	150	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	106	150	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	150		strcat __strbufmain, __constStr0050
+0	106	154	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	154		set __D0main, 0
+0	106	157	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	157		acquire __TextOutMutex
+0	106	158	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	158		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	106	161	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	161		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	106	164	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	164		mov __TextOutArgs.Options, __D0main
+0	106	167	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	167		mov __TextOutArgs.Text, __strbufmain
+0	106	169	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	169		syscall 13, __TextOutArgs
+0	106	172	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	172		mov __D0main, __TextOutArgs.Result
+0	106	175	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	107	175		release __TextOutMutex
+0	106	176	#line 106 "C:\Github\NXC_Source\FileManager.nxc"
+0	108	176	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	176		jmp __ASM_Label_1442
+0	108	178	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	178		set __signed_stack_001main, 0
+0	108	181	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	108	181	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	181		set __signed_stack_002main, 0
+0	108	184	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	108	184	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	184		strcat __strbufmain, __constStr0051
+0	108	188	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	188		set __D0main, 0
+0	108	191	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	191		acquire __TextOutMutex
+0	108	192	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	192		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	108	195	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	195		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	108	198	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	198		mov __TextOutArgs.Options, __D0main
+0	108	201	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	201		mov __TextOutArgs.Text, __strbufmain
+0	108	203	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	203		syscall 13, __TextOutArgs
+0	108	206	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	206		mov __D0main, __TextOutArgs.Result
+0	108	209	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	209		release __TextOutMutex
+0	108	210	#line 108 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	210	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	210		set __signed_stack_001main, 75
+0	109	213	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	213	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	213		set __signed_stack_002main, 0
+0	109	216	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	109	216	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	216		strcat __strbufmain, __constStr0052
+0	109	220	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	220		set __D0main, 0
+0	109	223	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	223		acquire __TextOutMutex
+0	109	224	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	224		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	109	227	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	227		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	109	230	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	230		mov __TextOutArgs.Options, __D0main
+0	109	233	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	233		mov __TextOutArgs.Text, __strbufmain
+0	109	235	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	235		syscall 13, __TextOutArgs
+0	109	238	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	238		mov __D0main, __TextOutArgs.Result
+0	109	241	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	241		release __TextOutMutex
+0	109	242	#line 109 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	242	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	242	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	111	242		set __main_7qG2_i_7qG2_000, 0
+0	110	245	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	245	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	111	245		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	110	247	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	110	247	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	111	247		set __D0main, 7
+0	110	250	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	111	250		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	110	254	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	111	254		brtst 4, __ASM_Label_1456, __D0main
+0	110	257	#line 110 "C:\Github\NXC_Source\FileManager.nxc"
+0	111	257		jmp __ASM_Label_1457
+0	111	259	#line 111 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	259		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	112	263	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	263		jmp __ASM_Label_1455
+0	112	265	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	265		mov __signed_stack_001main, __main_7qG2_nof_7qG2_000
+0	112	267	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	267	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	267	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	267	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	267	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	267		add __D0main, __main_7qG2_j_7qG2_000, __main_7qG2_i_7qG2_000
+0	112	271	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	271		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	112	275	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	275		brtst 4, __ASM_Label_1465, __D0main
+0	112	278	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	278		set __signed_stack_001main, 2
+0	112	281	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	281	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	281		set __signed_stack_002main, 56
+0	112	284	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	284	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	284		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	112	286	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	286	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	286		set __D0main, 8
+0	112	289	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	289		mul __D0main, __signed_stack_003main, __D0main
+0	112	293	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	293		sub __signed_stack_002main, __signed_stack_002main, __D0main
+0	112	297	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	297	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	297	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	297	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	297	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	297		add __signed_stack_003main, __main_7qG2_j_7qG2_000, __main_7qG2_i_7qG2_000
+0	112	301	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	301	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	301		index __strretvalmain, __main_7qG2_listoffiles_7qG2_000.FileList, __signed_stack_003main
+0	112	305	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	112	305	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	305		strcat __strbufmain, __strretvalmain
+0	112	309	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	309		set __D0main, 0
+0	112	312	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	312		acquire __TextOutMutex
+0	112	313	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	313		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	112	316	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	316		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	112	319	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	319		mov __TextOutArgs.Options, __D0main
+0	112	322	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	322		mov __TextOutArgs.Text, __strbufmain
+0	112	324	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	324		syscall 13, __TextOutArgs
+0	112	327	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	327		mov __D0main, __TextOutArgs.Result
+0	112	330	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	330		release __TextOutMutex
+0	112	331	#line 112 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	331	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	331		jmp __ASM_Label_1474
+0	113	333	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	333		set __signed_stack_001main, 2
+0	113	336	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	336	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	336		set __signed_stack_002main, 56
+0	113	339	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	339	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	339		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	113	341	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	341	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	341		set __D0main, 8
+0	113	344	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	344		mul __D0main, __signed_stack_003main, __D0main
+0	113	348	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	348		sub __signed_stack_002main, __signed_stack_002main, __D0main
+0	113	352	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	352	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	352		strcat __strbufmain, __constStr0053
+0	113	356	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	356		set __D0main, 0
+0	113	359	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	359		acquire __TextOutMutex
+0	113	360	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	360		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	113	363	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	363		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	113	366	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	366		mov __TextOutArgs.Options, __D0main
+0	113	369	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	369		mov __TextOutArgs.Text, __strbufmain
+0	113	371	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	371		syscall 13, __TextOutArgs
+0	113	374	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	374		mov __D0main, __TextOutArgs.Result
+0	113	377	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	377		release __TextOutMutex
+0	113	378	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	378	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	114	378		set __main_7qG2_i_7qG2_000, 7
+0	113	381	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	113	381	#line 113 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	381	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	381	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	381		jmp __ASM_Label_1458
+0	115	383	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	383	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	383		set __signed_stack_001main, 0
+0	115	386	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	386	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	386		set __signed_stack_002main, 56
+0	115	389	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	389	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	389		set __signed_stack_003main, 99
+0	115	392	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	392	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	392		set __signed_stack_004main, 7
+0	115	395	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	115	395	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	395		set __D0main, 0
+0	115	398	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	398		acquire __RectOutMutex
+0	115	399	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	399		mov __RectOutArgs.Location.X, __signed_stack_001main
+0	115	402	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	402		mov __RectOutArgs.Location.Y, __signed_stack_002main
+0	115	405	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	405		mov __RectOutArgs.Size.Width, __signed_stack_003main
+0	115	408	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	408		mov __RectOutArgs.Size.Height, __signed_stack_004main
+0	115	411	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	411		mov __RectOutArgs.Options, __D0main
+0	115	414	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	414		syscall 17, __RectOutArgs
+0	115	417	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	417		mov __D0main, __RectOutArgs.Result
+0	115	420	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	420		release __RectOutMutex
+0	115	421	#line 115 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	421	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	421		set __signed_stack_001main, 0
+0	116	424	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	424	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	424		set __signed_stack_002main, 8
+0	116	427	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	427	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	427		set __signed_stack_003main, 100
+0	116	430	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	430	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	430		set __signed_stack_004main, 8
+0	116	433	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	116	433	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	433		set __D0main, 0
+0	116	436	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	436		acquire __LineOutMutex
+0	116	437	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	437		mov __LineOutArgs.StartLoc.X, __signed_stack_001main
+0	116	439	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	439		mov __LineOutArgs.StartLoc.Y, __signed_stack_002main
+0	116	441	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	441		mov __LineOutArgs.EndLoc.X, __signed_stack_003main
+0	116	444	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	444		mov __LineOutArgs.EndLoc.Y, __signed_stack_004main
+0	116	446	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	446		mov __LineOutArgs.Options, __D0main
+0	116	448	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	448		syscall 15, __LineOutArgs
+0	116	451	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	451		mov __D0main, __LineOutArgs.Result
+0	116	453	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	453		release __LineOutMutex
+0	116	454	#line 116 "C:\Github\NXC_Source\FileManager.nxc"
+0	117	454	#line 117 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	454		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	117	457	#line 117 "C:\Github\NXC_Source\FileManager.nxc"
+0	8771	457	#line 8771 "NXCDefs.h"
+0	8772	457		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	459	#line 8771 "NXCDefs.h"
+0	117	459	#line 117 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	459	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	459		mov __senseButton_7qG2_val_7qG2_000, __main_7qG2_j_7qG2_000
+0	118	461	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	461	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	461		set __senseButton_7qG2_lr_ud_7qG2_000, 0
+0	118	464	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	464	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	464		set __senseButton_7qG2_add_7qG2_000, 1
+0	118	467	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	467	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	467		mov __senseButton_7qG2_high_7qG2_000, __main_7qG2_nof_7qG2_000
+0	118	469	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	469	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	469		set __senseButton_7qG2_cut_7qG2_000, 0
+0	118	472	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	472	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	472		subcall senseButton, __senseButton_return
+0	118	474	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	119	474		mov __main_7qG2_j_7qG2_000, __D0senseButton
+0	118	476	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	118	476	#line 118 "C:\Github\NXC_Source\FileManager.nxc"
+0	120	476	#line 120 "C:\Github\NXC_Source\FileManager.nxc"
+0	121	476		jmp __ASM_Label_1419
+0	120	478	#line 120 "C:\Github\NXC_Source\FileManager.nxc"
+0	120	478	#line 120 "C:\Github\NXC_Source\FileManager.nxc"
+0	121	478		mov __signed_stack_001main, __main_7qG2_nof_7qG2_000
+0	120	480	#line 120 "C:\Github\NXC_Source\FileManager.nxc"
+0	121	480	#line 121 "C:\Github\NXC_Source\FileManager.nxc"
+0	122	480		mov __D0main, __main_7qG2_j_7qG2_000
+0	121	482	#line 121 "C:\Github\NXC_Source\FileManager.nxc"
+0	122	482		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	122	486	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	486		brtst 4, __ASM_Label_1519, __D0main
+0	122	489	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	489		set __signed_stack_001main, 2
+0	122	492	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	122	492	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	492		mov __D0main, __constVal0
+0	122	494	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	494		acquire __RBtnMutex
+0	122	495	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	495		mov __RBtnArgs.Index, __signed_stack_001main
+0	122	498	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	498		mov __RBtnArgs.Reset, __D0main
+0	122	501	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	501		syscall 20, __RBtnArgs
+0	122	504	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	504		mov __D0main, __RBtnArgs.Pressed
+0	122	507	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	507		release __RBtnMutex
+0	122	508	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	508		tst 5, __D0main, __D0main
+0	122	511	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	511		brtst 4, __ASM_Label_1524, __D0main
+0	122	514	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	123	514		set __main_7qG2_inloop_7qG2_000, 0
+0	122	517	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	122	517	#line 122 "C:\Github\NXC_Source\FileManager.nxc"
+0	125	517	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	517		jmp __ASM_Label_1527
+0	125	519	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	519		strcat __strbufmain, __main_7qG2_listoffiles_7qG2_000.Pattern
+0	125	523	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	523		mov __setFilter_7qG2_previouspattern_7qG2_000, __strbufmain
+0	125	525	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	525		subcall setFilter, __setFilter_return
+0	125	527	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	527		mov __strretvalmain, __strbufsetFilter
+0	125	529	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	529		strcat __strbufmain, __strretvalmain
+0	125	533	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	533		mov __main_7qG2_listoffiles_7qG2_000.Pattern, __strbufmain
+0	125	535	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	125	535	#line 125 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	535	#line 126 "C:\Github\NXC_Source\FileManager.nxc"
+0	127	535	#pragma macro 6
+0	127	535		acquire __MWMutex
+0	127	536		add __MWArgs.QueueID, __constVal9, __constVal10
+0	127	540		mov __MWArgs.Message, __main_7qG2_listoffiles_7qG2_000.Pattern
+0	127	542		syscall 26, __MWArgs
+0	127	545		mov __D0main, __MWArgs.Result
+0	127	548		release __MWMutex
+0	13329	549	#line 13329 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	549	#line 126 "C:\Github\NXC_Source\FileManager.nxc"
+0	126	549	#line 126 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	549	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	549	#pragma macro 4
+0	129	549	#line 129 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	549		syscall 47, __main_7qG2_listoffiles_7qG2_000
+0	127	552	#line 127 "C:\Github\NXC_Source\FileManager.nxc"
+0	127	552	#line 127 "C:\Github\NXC_Source\FileManager.nxc"
+0	127	552	#line 127 "C:\Github\NXC_Source\FileManager.nxc"
+0	127	552	#line 127 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	552	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	552	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	552	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	552		mov __signed_stack_001main, __main_7qG2_listoffiles_7qG2_000.Result
+0	128	555	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	555	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	555		set __D0main, 0
+0	128	558	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	558		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	128	562	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	562		brtst 4, __ASM_Label_1530, __D0main
+0	128	565	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	565		set __signed_stack_001main, 3000
+0	128	568	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	568	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	568		set __signed_stack_002main, 1000
+0	128	571	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	571	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	571		set __signed_stack_003main, 4
+0	128	574	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	128	574	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	574		set __D0main, 0
+0	128	577	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	577		acquire __SPTArgsMutex
+0	128	578	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	578		mov __SPTArgs.Frequency, __signed_stack_001main
+0	128	580	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	580		mov __SPTArgs.Duration, __signed_stack_002main
+0	128	582	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	582		mov __SPTArgs.Volume, __signed_stack_003main
+0	128	584	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	584		mov __SPTArgs.Loop, __D0main
+0	128	586	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	586		syscall 10, __SPTArgs
+0	128	589	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	589		mov __D0main, __SPTArgs.Result
+0	128	591	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	591		release __SPTArgsMutex
+0	128	592	#line 128 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	592	#line 129 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	592	#line 129 "C:\Github\NXC_Source\FileManager.nxc"
+0	130	592		arrsize __main_7qG2_nof_7qG2_000, __main_7qG2_listoffiles_7qG2_000.FileList
+0	129	595	#line 129 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	595	#line 129 "C:\Github\NXC_Source\FileManager.nxc"
+0	129	595	#line 129 "C:\Github\NXC_Source\FileManager.nxc"
+0	132	595	#line 132 "C:\Github\NXC_Source\FileManager.nxc"
+0	134	595	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	595		jmp __ASM_Label_1541
+0	134	597	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	597		set __signed_stack_001main, 2
+0	134	600	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	134	600	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	600		mov __D0main, __constVal0
+0	134	602	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	602		acquire __RBtnMutex
+0	134	603	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	603		mov __RBtnArgs.Index, __signed_stack_001main
+0	134	606	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	606		mov __RBtnArgs.Reset, __D0main
+0	134	609	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	609		syscall 20, __RBtnArgs
+0	134	612	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	612		mov __D0main, __RBtnArgs.Pressed
+0	134	615	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	615		release __RBtnMutex
+0	134	616	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	616		tst 5, __D0main, __D0main
+0	134	619	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	619		brtst 4, __ASM_Label_1546, __D0main
+0	134	622	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	622		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	134	624	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	134	624	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	624		index __strretvalmain, __main_7qG2_listoffiles_7qG2_000.FileList, __signed_stack_001main
+0	134	628	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	134	628	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	628		strcat __strbufmain, __strretvalmain
+0	134	632	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	632		mov __deleteFile_7qG2_deleteme_7qG2_000, __strbufmain
+0	134	634	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	634		subcall deleteFile, __deleteFile_return
+0	134	636	#line 134 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	636	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	136	636		jmp __ASM_Label_1549
+0	135	638	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	136	638		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	135	640	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	640	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	136	640		index __strretvalmain, __main_7qG2_listoffiles_7qG2_000.FileList, __signed_stack_001main
+0	135	644	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	644	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	136	644		strcat __strbufmain, __strretvalmain
+0	135	648	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	136	648		mov __openFile_7qG2_viewme_7qG2_000, __strbufmain
+0	135	650	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	136	650		subcall openFile, __openFile_return
+0	135	652	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	135	652	#line 135 "C:\Github\NXC_Source\FileManager.nxc"
+0	137	652	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	137	652	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	652		set __signed_stack_001main, 2
+0	137	655	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	137	655	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	655		mov __D0main, __constVal0
+0	137	657	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	657		acquire __RBtnMutex
+0	137	658	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	658		mov __RBtnArgs.Index, __signed_stack_001main
+0	137	661	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	661		mov __RBtnArgs.Reset, __D0main
+0	137	664	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	664		syscall 20, __RBtnArgs
+0	137	667	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	667		mov __D0main, __RBtnArgs.Pressed
+0	137	670	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	670		release __RBtnMutex
+0	137	671	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	671		mov __signed_stack_001main, __D0main
+0	137	673	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	673		set __D0main, 0
+0	137	676	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	676		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	137	680	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	680		brtst 4, __ASM_Label_1557, __D0main
+0	137	683	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	683		set __signed_stack_001main, 1
+0	137	686	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	137	686	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	686		mov __D0main, __constVal0
+0	137	688	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	688		acquire __RBtnMutex
+0	137	689	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	689		mov __RBtnArgs.Index, __signed_stack_001main
+0	137	692	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	692		mov __RBtnArgs.Reset, __D0main
+0	137	695	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	695		syscall 20, __RBtnArgs
+0	137	698	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	698		mov __D0main, __RBtnArgs.Pressed
+0	137	701	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	701		release __RBtnMutex
+0	137	702	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	702		mov __signed_stack_001main, __D0main
+0	137	704	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	704		set __D0main, 0
+0	137	707	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	707		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	137	711	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	711		not __D0main, __D0main
+0	137	714	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	714		tst 5, __D0main, __D0main
+0	137	717	#line 137 "C:\Github\NXC_Source\FileManager.nxc"
+0	138	717		brtst 4, __ASM_Label_1553, __D0main
+0	140	720	#line 140 "C:\Github\NXC_Source\FileManager.nxc"
+0	141	720		jmp __ASM_Label_1552
+0	140	722	#line 140 "C:\Github\NXC_Source\FileManager.nxc"
+0	145	722	#line 145 "C:\Github\NXC_Source\FileManager.nxc"
+0	146	722		jmp __ASM_Label_1411
+0	145	724	#line 145 "C:\Github\NXC_Source\FileManager.nxc"
+0	146	724		exit -1, -1
+1	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
+1	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	2		tst 5, __D0senseButton, __DU0senseButton
+1	4	5	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	5		brtst 4, __ASM_Label_606, __D0senseButton
+1	4	8	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	8		set __senseButton_7qG2_lu_7qG2_000, 2
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	11		set __senseButton_7qG2_rd_7qG2_000, 1
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	14	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	14		jmp __ASM_Label_611
+1	6	16	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	16		set __senseButton_7qG2_lu_7qG2_000, 3
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	19		set __senseButton_7qG2_rd_7qG2_000, 0
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	22	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22	#pragma macro 7
+1	9	22	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22		set __D0senseButton, 1
+1	10	25	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	25		tst 5, __D0senseButton, __D0senseButton
+1	10	28	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	28		brtst 4, __ASM_Label_620, __D0senseButton
+1	10	31	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	31	#pragma macro 8
+1	11	31		acquire __IOMWMutex
+1	11	32		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	11	35		mov __IOMWBIArgs.Offset, __constVal40
+1	11	37		flatten __IOMWFlattenBuf, __constVal4
+1	11	40		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	11	43		syscall 79, __IOMWBIArgs
+1	11	46		release __IOMWMutex
+1	7698	47	#line 7698 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	47	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	47	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	47		jmp __ASM_Label_621
+1	12	49	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	49	#pragma macro 8
+1	13	49		acquire __IOMWMutex
+1	13	50		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	13	53		mov __IOMWBIArgs.Offset, __constVal40
+1	13	55		flatten __IOMWFlattenBuf, __constVal1
+1	13	58		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	13	61		syscall 79, __IOMWBIArgs
+1	13	64		release __IOMWMutex
+1	7704	65	#line 7704 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	65	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	65	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	65	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	65		set __D0senseButton, 0
+1	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	68		tst 5, __D0senseButton, __D0senseButton
+1	6	71	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	71		brtst 4, __ASM_Label_617, __D0senseButton
+1	6	74	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	74		jmp __ASM_Label_616
+1	6	76	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	76	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	76		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	7	78	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	78	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	78		mov __D0senseButton, __constVal0
+1	7	80	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	80		acquire __RBtnMutex
+1	7	81	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	81		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	7	84	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	84		mov __RBtnArgs.Reset, __D0senseButton
+1	7	87	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	87		syscall 20, __RBtnArgs
+1	7	90	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	90		mov __D0senseButton, __RBtnArgs.Pressed
+1	7	93	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	93		release __RBtnMutex
+1	7	94	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	94		tst 5, __D0senseButton, __D0senseButton
+1	7	97	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	97		brtst 4, __ASM_Label_628, __D0senseButton
+1	7	100	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	100	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	100		sub __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	7	104	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	104		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	106		mov __D0senseButton, __constVal0
+1	8	108	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	108		acquire __RBtnMutex
+1	8	109	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	109		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	8	112	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	112		mov __RBtnArgs.Reset, __D0senseButton
+1	8	115	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	115		syscall 20, __RBtnArgs
+1	8	118	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	118		mov __D0senseButton, __RBtnArgs.Pressed
+1	8	121	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	121		release __RBtnMutex
+1	8	122	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	122		mov __signed_stack_001senseButton, __D0senseButton
+1	8	124	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	124		set __D0senseButton, 0
+1	8	127	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	127		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	8	131	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	131		not __D0senseButton, __D0senseButton
+1	8	134	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	134		tst 5, __D0senseButton, __D0senseButton
+1	8	137	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	137		brtst 4, __ASM_Label_632, __D0senseButton
+1	9	140	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	140		jmp __ASM_Label_631
+1	9	142	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	142	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	142		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	9	144	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	144	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	144		mov __D0senseButton, __constVal0
+1	9	146	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	146		acquire __RBtnMutex
+1	9	147	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	147		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	9	150	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	150		mov __RBtnArgs.Reset, __D0senseButton
+1	9	153	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	153		syscall 20, __RBtnArgs
+1	9	156	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	156		mov __D0senseButton, __RBtnArgs.Pressed
+1	9	159	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	159		release __RBtnMutex
+1	9	160	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	160		tst 5, __D0senseButton, __D0senseButton
+1	9	163	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	163		brtst 4, __ASM_Label_643, __D0senseButton
+1	9	166	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	166	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	166		add __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	9	170	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	170	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	170	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	170		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	10	172	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	172	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	172		mov __D0senseButton, __constVal0
+1	10	174	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	174		acquire __RBtnMutex
+1	10	175	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	175		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	10	178	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	178		mov __RBtnArgs.Reset, __D0senseButton
+1	10	181	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	181		syscall 20, __RBtnArgs
+1	10	184	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	184		mov __D0senseButton, __RBtnArgs.Pressed
+1	10	187	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	187		release __RBtnMutex
+1	10	188	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	188		mov __signed_stack_001senseButton, __D0senseButton
+1	10	190	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	190		set __D0senseButton, 0
+1	10	193	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	193		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	10	197	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	197		not __D0senseButton, __D0senseButton
+1	10	200	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	200		tst 5, __D0senseButton, __D0senseButton
+1	10	203	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	203		brtst 4, __ASM_Label_647, __D0senseButton
+1	11	206	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	206		jmp __ASM_Label_646
+1	11	208	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	208	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	208		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
+1	12	210	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	210		tst 5, __D0senseButton, __DU0senseButton
+1	12	213	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	213		brtst 4, __ASM_Label_656, __D0senseButton
+1	12	216	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	216		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	12	218	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	218	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	218		set __D0senseButton, 0
+1	12	221	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	221		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	12	225	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	225		brtst 4, __ASM_Label_659, __D0senseButton
+1	12	228	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	228		set __senseButton_7qG2_val_7qG2_000, 0
+1	12	231	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	231	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	231	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	231	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	231		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	13	233	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	233	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	233		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	13	235	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	235		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	13	239	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	239		brtst 4, __ASM_Label_664, __D0senseButton
+1	13	242	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	242		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	13	244	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	244	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	244	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	244	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	244		jmp __ASM_Label_667
+1	15	246	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	246		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	15	248	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	248	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	248		set __D0senseButton, 0
+1	15	251	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	251		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	15	255	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	255		brtst 4, __ASM_Label_670, __D0senseButton
+1	15	258	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	258		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	15	260	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	260	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	260	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	260	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	260		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	16	262	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	262	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	262		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	16	264	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	264		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	16	268	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	268		brtst 4, __ASM_Label_675, __D0senseButton
+1	16	271	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	271		set __senseButton_7qG2_val_7qG2_000, 0
+1	16	274	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	274	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	274	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	274	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	274	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	274		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
+1	17	276	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	276		subret __senseButton_return
+1	17	278	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	278	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	278		subret __senseButton_return
+2	9	0	#line 9 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	0		set __readHigh_7qG2_ARead_7qG2_000, 0
+2	9	3	#line 9 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	3	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	3	#pragma macro 7
+2	11	3		acquire __FOMutex
+2	11	4		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
+2	11	6		syscall 0, __FOArgs
+2	11	9		mov fsize, __FOArgs.Length
+2	11	11		mov handle, __FOArgs.FileHandle
+2	11	13		mov __D0readHigh, __FOArgs.Result
+2	11	16		release __FOMutex
+2	10984	17	#line 10984 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	10	17	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	17	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	11	17	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	12	17		mov __signed_stack_001readHigh, __D0readHigh
+2	12	19	#line 12 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	13	19		set __D0readHigh, 0
+2	12	22	#line 12 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	13	22		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
+2	13	26	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	26		brtst 4, __ASM_Label_1143, __D0readHigh
+2	13	29	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	29	#pragma macro 15
+2	14	29		acquire __FReadMutex
+2	14	30		mov __FReadArgs.FileHandle, handle
+2	14	33		set __FReadArgs.Length, 2
+2	14	36		syscall 3, __FReadArgs
+2	14	39		mov __D0readHigh, __FReadArgs.Result
+2	14	42		unflatten __readHigh_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHigh_7qG2_ARead_7qG2_000
+2	14	47		release __FReadMutex
+2	11004	48	#line 11004 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	13	48	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	13	48	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	48	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	15	48	#pragma macro 5
+2	15	48		acquire __FCMutex
+2	15	49		mov __FCArgs.FileHandle, handle
+2	15	51		syscall 5, __FCArgs
+2	15	54		mov __D0readHigh, __FCArgs.Result
+2	15	57		release __FCMutex
+2	11008	58	#line 11008 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	58	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	14	58	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	17	58	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	18	58		jmp __ASM_Label_1144
+2	17	60	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	18	60		mov __readHigh_7qG2_ARead_7qG2_000, __constValNeg1
+2	17	62	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	17	62	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	18	62	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	18	62	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	19	62		mov __D0readHigh, __readHigh_7qG2_ARead_7qG2_000
+2	18	64	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	19	64		subret __readHigh_return
+2	18	66	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	21	66	#line 21 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	22	66		subret __readHigh_return
+3	26	0	#line 26 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	27	0		strcat __strbufreadHighName, __constStr0016
+3	26	4	#line 26 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	27	4		mov __readHighName_7qG2_ARead_7qG2_000, __strbufreadHighName
+3	27	6	#line 27 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	28	6	#pragma macro 7
+3	28	6		acquire __FOMutex
+3	28	7		mov __FOArgs.Filename, __readHighName_7qG2_readme_7qG2_000
+3	28	9		syscall 0, __FOArgs
+3	28	12		mov fsize, __FOArgs.Length
+3	28	14		mov handle, __FOArgs.FileHandle
+3	28	16		mov __D0readHighName, __FOArgs.Result
+3	28	19		release __FOMutex
+3	11050	20	#line 11050 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	27	20	#line 27 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	28	20		mov __readHighName_7qG2_result_7qG2_000, __D0readHighName
+3	28	22	#line 28 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	28	22	#line 28 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	29	22		mov __signed_stack_001readHighName, __D0readHighName
+3	29	24	#line 29 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	30	24		set __D0readHighName, 0
+3	29	27	#line 29 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	30	27		cmp 4, __D0readHighName, __signed_stack_001readHighName, __D0readHighName
+3	34	31	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	31		brtst 4, __ASM_Label_1153, __D0readHighName
+3	34	34	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	34		set __signed_stack_001readHighName, 2000
+3	34	37	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	37	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	37		set __signed_stack_002readHighName, 500
+3	34	40	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	40	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	40		set __signed_stack_003readHighName, 4
+3	34	43	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	34	43	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	43		set __D0readHighName, 0
+3	34	46	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	46		acquire __SPTArgsMutex
+3	34	47	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	47		mov __SPTArgs.Frequency, __signed_stack_001readHighName
+3	34	49	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	49		mov __SPTArgs.Duration, __signed_stack_002readHighName
+3	34	51	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	51		mov __SPTArgs.Volume, __signed_stack_003readHighName
+3	34	53	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	53		mov __SPTArgs.Loop, __D0readHighName
+3	34	55	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	55		syscall 10, __SPTArgs
+3	34	58	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	58		mov __D0readHighName, __SPTArgs.Result
+3	34	60	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	60		release __SPTArgsMutex
+3	34	61	#line 34 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	61	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	61		set __signed_stack_001readHighName, 94
+3	35	64	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	64	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	64		set __signed_stack_002readHighName, 56
+3	35	67	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	35	67	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	67		strcat __strbufreadHighName, __constStr0033
+3	35	71	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	71		set __D0readHighName, 0
+3	35	74	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	74		acquire __TextOutMutex
+3	35	75	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	75		mov __TextOutArgs.Location.X, __signed_stack_001readHighName
+3	35	77	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	77		mov __TextOutArgs.Location.Y, __signed_stack_002readHighName
+3	35	79	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	79		mov __TextOutArgs.Options, __D0readHighName
+3	35	82	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	82		mov __TextOutArgs.Text, __strbufreadHighName
+3	35	84	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	84		syscall 13, __TextOutArgs
+3	35	87	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	87		mov __D0readHighName, __TextOutArgs.Result
+3	35	90	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	90		release __TextOutMutex
+3	35	91	#line 35 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	91	#line 36 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	37	91	#pragma macro 6
+3	37	91		acquire __MWMutex
+3	37	92		add __MWArgs.QueueID, __constVal9, __constVal10
+3	37	96		mov __MWArgs.Message, __constStr0034
+3	37	98		syscall 26, __MWArgs
+3	37	101		mov __D0readHighName, __MWArgs.Result
+3	37	104		release __MWMutex
+3	11140	105	#line 11140 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	105	#line 36 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	36	105	#line 36 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	37	105	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	105		set __Wait_7qG2_ms_7qG2_000_inline_readHighName, 150
+3	37	108	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	8771	108	#line 8771 "NXCDefs.h"
+3	8772	108		waitv __Wait_7qG2_ms_7qG2_000_inline_readHighName
+3	8771	110	#line 8771 "NXCDefs.h"
+3	37	110	#line 37 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	110	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	39	110	#pragma macro 15
+3	39	110		acquire __FReadMutex
+3	39	111		mov __FReadArgs.FileHandle, handle
+3	39	114		flatten __soTmpBuf, __readHighName_7qG2_ARead_7qG2_000
+3	39	117		arrsize __FReadArgs.Length, __soTmpBuf
+3	39	120		sub __FReadArgs.Length, __FReadArgs.Length, __constVal1
+3	39	124		syscall 3, __FReadArgs
+3	39	127		mov __D0readHighName, __FReadArgs.Result
+3	39	130		unflatten __readHighName_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighName_7qG2_ARead_7qG2_000
+3	39	135		release __FReadMutex
+3	11156	136	#line 11156 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	136	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	38	136	#line 38 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	39	136	#line 39 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	40	136	#pragma macro 6
+3	40	136		acquire __MWMutex
+3	40	137		add __MWArgs.QueueID, __constVal9, __constVal10
+3	40	141		mov __MWArgs.Message, __readHighName_7qG2_ARead_7qG2_000
+3	40	143		syscall 26, __MWArgs
+3	40	146		mov __D0readHighName, __MWArgs.Result
+3	40	149		release __MWMutex
+3	11160	150	#line 11160 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	39	150	#line 39 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	39	150	#line 39 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	40	150	#line 40 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	41	150		set __Wait_7qG2_ms_7qG2_000_inline_readHighName, 150
+3	40	153	#line 40 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	8771	153	#line 8771 "NXCDefs.h"
+3	8772	153		waitv __Wait_7qG2_ms_7qG2_000_inline_readHighName
+3	8771	155	#line 8771 "NXCDefs.h"
+3	40	155	#line 40 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	41	155	#line 41 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	42	155	#pragma macro 15
+3	42	155		acquire __FReadMutex
+3	42	156		mov __FReadArgs.FileHandle, handle
+3	42	159		flatten __soTmpBuf, __readHighName_7qG2_ARead_7qG2_000
+3	42	162		arrsize __FReadArgs.Length, __soTmpBuf
+3	42	165		sub __FReadArgs.Length, __FReadArgs.Length, __constVal1
+3	42	169		syscall 3, __FReadArgs
+3	42	172		mov __D0readHighName, __FReadArgs.Result
+3	42	175		unflatten __readHighName_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHighName_7qG2_ARead_7qG2_000
+3	42	180		release __FReadMutex
+3	11172	181	#line 11172 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	41	181	#line 41 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	41	181	#line 41 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	42	181	#line 42 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	43	181	#pragma macro 6
+3	43	181		acquire __MWMutex
+3	43	182		add __MWArgs.QueueID, __constVal9, __constVal10
+3	43	186		mov __MWArgs.Message, __readHighName_7qG2_ARead_7qG2_000
+3	43	188		syscall 26, __MWArgs
+3	43	191		mov __D0readHighName, __MWArgs.Result
+3	43	194		release __MWMutex
+3	11176	195	#line 11176 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	42	195	#line 42 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	42	195	#line 42 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	43	195	#line 43 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	44	195		set __Wait_7qG2_ms_7qG2_000_inline_readHighName, 150
+3	43	198	#line 43 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	8771	198	#line 8771 "NXCDefs.h"
+3	8772	198		waitv __Wait_7qG2_ms_7qG2_000_inline_readHighName
+3	8771	200	#line 8771 "NXCDefs.h"
+3	43	200	#line 43 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	44	200	#line 44 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	45	200	#pragma macro 5
+3	45	200		acquire __FCMutex
+3	45	201		mov __FCArgs.FileHandle, handle
+3	45	203		syscall 5, __FCArgs
+3	45	206		mov __D0readHighName, __FCArgs.Result
+3	45	209		release __FCMutex
+3	11188	210	#line 11188 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	44	210	#line 44 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	44	210	#line 44 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	49	210	#line 49 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	210		jmp __ASM_Label_1174
+3	49	212	#line 49 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	212		mov __D0readHighName, __readHighName_7qG2_result_7qG2_000
+3	49	214	#line 49 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	214		numtostr __strretvalreadHighName, __D0readHighName
+3	49	217	#line 49 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	217		strcat __strbufreadHighName, __strretvalreadHighName
+3	49	221	#line 49 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	221		mov __readHighName_7qG2_ARead_7qG2_000, __strbufreadHighName
+3	49	223	#line 49 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	223	#line 50 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	51	223	#pragma macro 6
+3	51	223		acquire __MWMutex
+3	51	224		add __MWArgs.QueueID, __constVal9, __constVal10
+3	51	228		mov __MWArgs.Message, __constStr0035
+3	51	231		syscall 26, __MWArgs
+3	51	234		mov __D0readHighName, __MWArgs.Result
+3	51	237		release __MWMutex
+3	11206	238	#line 11206 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	238	#line 50 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	50	238	#line 50 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	51	238	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	238		set __signed_stack_001readHighName, 94
+3	51	241	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	51	241	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	241		set __signed_stack_002readHighName, 56
+3	51	244	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	51	244	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	244		strcat __strbufreadHighName, __constStr0036
+3	51	248	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	248		set __D0readHighName, 0
+3	51	251	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	251		acquire __TextOutMutex
+3	51	252	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	252		mov __TextOutArgs.Location.X, __signed_stack_001readHighName
+3	51	254	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	254		mov __TextOutArgs.Location.Y, __signed_stack_002readHighName
+3	51	256	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	256		mov __TextOutArgs.Options, __D0readHighName
+3	51	259	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	259		mov __TextOutArgs.Text, __strbufreadHighName
+3	51	261	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	261		syscall 13, __TextOutArgs
+3	51	264	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	264		mov __D0readHighName, __TextOutArgs.Result
+3	51	267	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	267		release __TextOutMutex
+3	51	268	#line 51 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	52	268	#line 52 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	53	268		set __Wait_7qG2_ms_7qG2_000_inline_readHighName, 100
+3	52	271	#line 52 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	8771	271	#line 8771 "NXCDefs.h"
+3	8772	271		waitv __Wait_7qG2_ms_7qG2_000_inline_readHighName
+3	8771	273	#line 8771 "NXCDefs.h"
+3	52	273	#line 52 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	54	273	#line 54 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	54	273	#line 54 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	55	273		strcat __strbufreadHighName, __readHighName_7qG2_ARead_7qG2_000
+3	54	277	#line 54 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	55	277		subret __readHighName_return
+3	54	279	#line 54 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	59	279	#line 59 "C:\Github\NXC_Source\.\+HighScore.nxc"
+3	60	279		subret __readHighName_return
+4	12	0	#line 12 "C:\Github\NXC_Source\FileManager.nxc"
+4	13	0		set __ClearLine_7qG2_line_7qG2_000_inline_deleteFile, 0
+4	12	3	#line 12 "C:\Github\NXC_Source\FileManager.nxc"
+4	6903	3	#line 6903 "NXCDefs.h"
+4	6904	3	#pragma macro 7
+4	6904	3		acquire __TextOutMutex
+4	6904	4		mov __TextOutArgs.Location.X, __constVal0
+4	6904	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteFile
+4	6904	8		mov __TextOutArgs.Options, __constVal0
+4	6904	10		mov __TextOutArgs.Text, __BlankLine
+4	6904	12		syscall 13, __TextOutArgs
+4	6904	15		release __TextOutMutex
+4	11350	16	#line 11350 "NXCDefs.h"
+4	6903	16	#line 6903 "NXCDefs.h"
+4	12	16	#line 12 "C:\Github\NXC_Source\FileManager.nxc"
+4	13	16	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	16		set __signed_stack_001deleteFile, 0
+4	13	19	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	13	19	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	19		set __signed_stack_002deleteFile, 0
+4	13	22	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	13	22	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	22		strcat __strbufdeleteFile, __constStr0038
+4	13	26	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	26		set __D0deleteFile, 0
+4	13	29	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	29		acquire __TextOutMutex
+4	13	30	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	30		mov __TextOutArgs.Location.X, __signed_stack_001deleteFile
+4	13	33	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	33		mov __TextOutArgs.Location.Y, __signed_stack_002deleteFile
+4	13	36	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	36		mov __TextOutArgs.Options, __D0deleteFile
+4	13	39	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	39		mov __TextOutArgs.Text, __strbufdeleteFile
+4	13	41	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	41		syscall 13, __TextOutArgs
+4	13	44	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	44		mov __D0deleteFile, __TextOutArgs.Result
+4	13	47	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	47		release __TextOutMutex
+4	13	48	#line 13 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	48	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	48		set __signed_stack_001deleteFile, 82
+4	14	51	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	51	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	51		set __signed_stack_002deleteFile, 0
+4	14	54	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	14	54	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	54		strcat __strbufdeleteFile, __constStr0039
+4	14	58	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	58		set __D0deleteFile, 4096
+4	14	61	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	61		acquire __TextOutMutex
+4	14	62	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	62		mov __TextOutArgs.Location.X, __signed_stack_001deleteFile
+4	14	65	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	65		mov __TextOutArgs.Location.Y, __signed_stack_002deleteFile
+4	14	68	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	68		mov __TextOutArgs.Options, __D0deleteFile
+4	14	71	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	71		mov __TextOutArgs.Text, __strbufdeleteFile
+4	14	73	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	73		syscall 13, __TextOutArgs
+4	14	76	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	76		mov __D0deleteFile, __TextOutArgs.Result
+4	14	79	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	79		release __TextOutMutex
+4	14	80	#line 14 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	80	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	80		set __deleteFile_7qG2_a_7qG2_001, 3
+4	15	83	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	83	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	83		mov __signed_stack_001deleteFile, __deleteFile_7qG2_a_7qG2_001
+4	15	85	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	85	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	85		set __D0deleteFile, 0
+4	15	88	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	88		cmp 1, __D0deleteFile, __signed_stack_001deleteFile, __D0deleteFile
+4	15	92	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	92		brtst 4, __ASM_Label_1200, __D0deleteFile
+4	15	95	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	95		jmp __ASM_Label_1201
+4	15	97	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	97		sub __deleteFile_7qG2_a_7qG2_001, __deleteFile_7qG2_a_7qG2_001, __constVal1
+4	15	101	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	101		jmp __ASM_Label_1199
+4	15	103	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	103		set __signed_stack_001deleteFile, 76
+4	15	106	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	106	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	106		set __signed_stack_002deleteFile, 0
+4	15	109	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	109	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	109		mov __signed_stack_003deleteFile, __deleteFile_7qG2_a_7qG2_001
+4	15	111	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	111	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	111		set __D0deleteFile, 0
+4	15	114	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	114		acquire __TextOutMutex
+4	15	115	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	115		mov __TextOutArgs.Location.X, __signed_stack_001deleteFile
+4	15	118	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	118		mov __TextOutArgs.Location.Y, __signed_stack_002deleteFile
+4	15	121	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	121		mov __TextOutArgs.Options, __D0deleteFile
+4	15	124	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	124		numtostr __TextOutArgs.Text, __signed_stack_003deleteFile
+4	15	127	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	127		syscall 13, __TextOutArgs
+4	15	130	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	130		mov __D0deleteFile, __TextOutArgs.Result
+4	15	133	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	133		release __TextOutMutex
+4	15	134	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	15	134	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	134		set __Wait_7qG2_ms_7qG2_000_inline_deleteFile, 1000
+4	15	137	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	8771	137	#line 8771 "NXCDefs.h"
+4	8772	137		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteFile
+4	8771	139	#line 8771 "NXCDefs.h"
+4	15	139	#line 15 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	139	#line 16 "C:\Github\NXC_Source\FileManager.nxc"
+4	17	139		jmp __ASM_Label_1202
+4	16	141	#line 16 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	141	#line 16 "C:\Github\NXC_Source\FileManager.nxc"
+4	17	141		set __signed_stack_001deleteFile, 1
+4	16	144	#line 16 "C:\Github\NXC_Source\FileManager.nxc"
+4	16	144	#line 16 "C:\Github\NXC_Source\FileManager.nxc"
+4	17	144		mov __D0deleteFile, __constVal0
+4	17	146	#line 17 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	146		acquire __RBtnMutex
+4	17	147	#line 17 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	147		mov __RBtnArgs.Index, __signed_stack_001deleteFile
+4	17	150	#line 17 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	150		mov __RBtnArgs.Reset, __D0deleteFile
+4	17	153	#line 17 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	153		syscall 20, __RBtnArgs
+4	17	156	#line 17 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	156		mov __D0deleteFile, __RBtnArgs.Pressed
+4	17	159	#line 17 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	159		release __RBtnMutex
+4	18	160	#line 18 "C:\Github\NXC_Source\FileManager.nxc"
+4	19	160		tst 5, __D0deleteFile, __D0deleteFile
+4	18	163	#line 18 "C:\Github\NXC_Source\FileManager.nxc"
+4	19	163		brtst 4, __ASM_Label_1221, __D0deleteFile
+4	18	166	#line 18 "C:\Github\NXC_Source\FileManager.nxc"
+4	19	166	#pragma macro 5
+4	19	166		acquire __FDMutex
+4	19	167		mov __FDArgs.Filename, __deleteFile_7qG2_deleteme_7qG2_000
+4	19	169		syscall 8, __FDArgs
+4	19	172		mov __D0deleteFile, __FDArgs.Result
+4	19	175		release __FDMutex
+4	11532	176	#line 11532 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	176	#line 18 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	176	#line 18 "C:\Github\NXC_Source\FileManager.nxc"
+4	18	176	#line 18 "C:\Github\NXC_Source\FileManager.nxc"
+4	19	176	#line 19 "C:\Github\NXC_Source\FileManager.nxc"
+4	19	176	#line 19 "C:\Github\NXC_Source\FileManager.nxc"
+4	20	176		mov __signed_stack_001deleteFile, __D0deleteFile
+4	20	178	#line 20 "C:\Github\NXC_Source\FileManager.nxc"
+4	21	178		set __D0deleteFile, 0
+4	20	181	#line 20 "C:\Github\NXC_Source\FileManager.nxc"
+4	21	181		cmp 4, __D0deleteFile, __signed_stack_001deleteFile, __D0deleteFile
+4	21	185	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	22	185		brtst 4, __ASM_Label_1226, __D0deleteFile
+4	21	188	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	22	188		set __ClearLine_7qG2_line_7qG2_000_inline_deleteFile, 8
+4	21	191	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	6903	191	#line 6903 "NXCDefs.h"
+4	6904	191	#pragma macro 7
+4	6904	191		acquire __TextOutMutex
+4	6904	192		mov __TextOutArgs.Location.X, __constVal0
+4	6904	194		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteFile
+4	6904	196		mov __TextOutArgs.Options, __constVal0
+4	6904	198		mov __TextOutArgs.Text, __BlankLine
+4	6904	200		syscall 13, __TextOutArgs
+4	6904	203		release __TextOutMutex
+4	11558	204	#line 11558 "NXCDefs.h"
+4	6903	204	#line 6903 "NXCDefs.h"
+4	21	204	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	21	204	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	22	204		set __ClearLine_7qG2_line_7qG2_000_inline_deleteFile, 0
+4	21	207	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	6903	207	#line 6903 "NXCDefs.h"
+4	6904	207	#pragma macro 7
+4	6904	207		acquire __TextOutMutex
+4	6904	208		mov __TextOutArgs.Location.X, __constVal0
+4	6904	210		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteFile
+4	6904	212		mov __TextOutArgs.Options, __constVal0
+4	6904	214		mov __TextOutArgs.Text, __BlankLine
+4	6904	216		syscall 13, __TextOutArgs
+4	6904	219		release __TextOutMutex
+4	11566	220	#line 11566 "NXCDefs.h"
+4	6903	220	#line 6903 "NXCDefs.h"
+4	21	220	#line 21 "C:\Github\NXC_Source\FileManager.nxc"
+4	22	220	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	220		set __signed_stack_001deleteFile, 0
+4	22	223	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	22	223	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	223		set __signed_stack_002deleteFile, 0
+4	22	226	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	22	226	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	226		strcat __strbufdeleteFile, __constStr0040
+4	22	230	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	230		set __D0deleteFile, 4096
+4	22	233	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	233		acquire __TextOutMutex
+4	22	234	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	234		mov __TextOutArgs.Location.X, __signed_stack_001deleteFile
+4	22	237	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	237		mov __TextOutArgs.Location.Y, __signed_stack_002deleteFile
+4	22	240	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	240		mov __TextOutArgs.Options, __D0deleteFile
+4	22	243	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	243		mov __TextOutArgs.Text, __strbufdeleteFile
+4	22	245	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	245		syscall 13, __TextOutArgs
+4	22	248	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	248		mov __D0deleteFile, __TextOutArgs.Result
+4	22	251	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	251		release __TextOutMutex
+4	22	252	#line 22 "C:\Github\NXC_Source\FileManager.nxc"
+4	23	252	#line 23 "C:\Github\NXC_Source\FileManager.nxc"
+4	24	252		set __Wait_7qG2_ms_7qG2_000_inline_deleteFile, 2000
+4	23	255	#line 23 "C:\Github\NXC_Source\FileManager.nxc"
+4	8771	255	#line 8771 "NXCDefs.h"
+4	8772	255		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteFile
+4	8771	257	#line 8771 "NXCDefs.h"
+4	23	257	#line 23 "C:\Github\NXC_Source\FileManager.nxc"
+4	26	257	#line 26 "C:\Github\NXC_Source\FileManager.nxc"
+4	28	257	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	29	257		jmp __ASM_Label_1239
+4	28	259	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	29	259		set __ClearLine_7qG2_line_7qG2_000_inline_deleteFile, 8
+4	28	262	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	6903	262	#line 6903 "NXCDefs.h"
+4	6904	262	#pragma macro 7
+4	6904	262		acquire __TextOutMutex
+4	6904	263		mov __TextOutArgs.Location.X, __constVal0
+4	6904	265		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteFile
+4	6904	267		mov __TextOutArgs.Options, __constVal0
+4	6904	269		mov __TextOutArgs.Text, __BlankLine
+4	6904	271		syscall 13, __TextOutArgs
+4	6904	274		release __TextOutMutex
+4	11620	275	#line 11620 "NXCDefs.h"
+4	6903	275	#line 6903 "NXCDefs.h"
+4	28	275	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	28	275	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	29	275		set __ClearLine_7qG2_line_7qG2_000_inline_deleteFile, 0
+4	28	278	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	6903	278	#line 6903 "NXCDefs.h"
+4	6904	278	#pragma macro 7
+4	6904	278		acquire __TextOutMutex
+4	6904	279		mov __TextOutArgs.Location.X, __constVal0
+4	6904	281		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_deleteFile
+4	6904	283		mov __TextOutArgs.Options, __constVal0
+4	6904	285		mov __TextOutArgs.Text, __BlankLine
+4	6904	287		syscall 13, __TextOutArgs
+4	6904	290		release __TextOutMutex
+4	11628	291	#line 11628 "NXCDefs.h"
+4	6903	291	#line 6903 "NXCDefs.h"
+4	28	291	#line 28 "C:\Github\NXC_Source\FileManager.nxc"
+4	29	291	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	291		set __signed_stack_001deleteFile, 0
+4	29	294	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	29	294	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	294		set __signed_stack_002deleteFile, 0
+4	29	297	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	29	297	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	297		strcat __strbufdeleteFile, __constStr0041
+4	29	301	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	301		set __D0deleteFile, 4096
+4	29	304	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	304		acquire __TextOutMutex
+4	29	305	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	305		mov __TextOutArgs.Location.X, __signed_stack_001deleteFile
+4	29	308	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	308		mov __TextOutArgs.Location.Y, __signed_stack_002deleteFile
+4	29	311	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	311		mov __TextOutArgs.Options, __D0deleteFile
+4	29	314	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	314		mov __TextOutArgs.Text, __strbufdeleteFile
+4	29	316	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	316		syscall 13, __TextOutArgs
+4	29	319	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	319		mov __D0deleteFile, __TextOutArgs.Result
+4	29	322	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	322		release __TextOutMutex
+4	29	323	#line 29 "C:\Github\NXC_Source\FileManager.nxc"
+4	30	323	#line 30 "C:\Github\NXC_Source\FileManager.nxc"
+4	31	323		set __Wait_7qG2_ms_7qG2_000_inline_deleteFile, 2000
+4	30	326	#line 30 "C:\Github\NXC_Source\FileManager.nxc"
+4	8771	326	#line 8771 "NXCDefs.h"
+4	8772	326		waitv __Wait_7qG2_ms_7qG2_000_inline_deleteFile
+4	8771	328	#line 8771 "NXCDefs.h"
+4	30	328	#line 30 "C:\Github\NXC_Source\FileManager.nxc"
+4	32	328	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	32	328	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	328		set __signed_stack_001deleteFile, 3
+4	32	331	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	32	331	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	331		mov __D0deleteFile, __constVal0
+4	32	333	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	333		acquire __RBtnMutex
+4	32	334	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	334		mov __RBtnArgs.Index, __signed_stack_001deleteFile
+4	32	337	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	337		mov __RBtnArgs.Reset, __D0deleteFile
+4	32	340	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	340		syscall 20, __RBtnArgs
+4	32	343	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	343		mov __D0deleteFile, __RBtnArgs.Pressed
+4	32	346	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	346		release __RBtnMutex
+4	32	347	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	347		mov __signed_stack_001deleteFile, __D0deleteFile
+4	32	349	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	349		set __D0deleteFile, 0
+4	32	352	#line 32 "C:\Github\NXC_Source\FileManager.nxc"
+4	33	352		cmp 4, __D0deleteFile, __signed_stack_001deleteFile, __D0deleteFile
+4	33	356	#line 33 "C:\Github\NXC_Source\FileManager.nxc"
+4	34	356		not __D0deleteFile, __D0deleteFile
+4	36	359	#line 36 "C:\Github\NXC_Source\FileManager.nxc"
+4	37	359		tst 5, __D0deleteFile, __D0deleteFile
+4	36	362	#line 36 "C:\Github\NXC_Source\FileManager.nxc"
+4	37	362		brtst 4, __ASM_Label_1253, __D0deleteFile
+4	36	365	#line 36 "C:\Github\NXC_Source\FileManager.nxc"
+4	36	365	#line 36 "C:\Github\NXC_Source\FileManager.nxc"
+4	37	365		jmp __ASM_Label_1252
+4	36	367	#line 36 "C:\Github\NXC_Source\FileManager.nxc"
+4	36	367	#line 36 "C:\Github\NXC_Source\FileManager.nxc"
+4	37	367		subret __deleteFile_return
+5	38	0	#line 38 "C:\Github\NXC_Source\FileManager.nxc"
+5	39	0		set __openFile_7qG2_waitforpress_7qG2_000, 0
+5	38	3	#line 38 "C:\Github\NXC_Source\FileManager.nxc"
+5	39	3	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	3		strcat __strbufopenFile, __openFile_7qG2_viewme_7qG2_000
+5	39	7	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	7		mov __ArrHelper__openFile_244_0, __strbufopenFile
+5	39	9	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	9		strcat __strbufopenFile, __openFile_7qG2_viewme_7qG2_000
+5	39	13	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	13		arrsize __D0openFile, __strbufopenFile
+5	40	16		sub __signed_stack_001openFile, __D0openFile, __constVal1
+5	39	20	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	39	20	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	20		set __D0openFile, 3
+5	39	23	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	23		sub __signed_stack_001openFile, __signed_stack_001openFile, __D0openFile
+5	39	27	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	39	27	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	27		set __D0openFile, 3
+5	39	30	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	30		strsubset __strretvalopenFile, __ArrHelper__openFile_244_0, __signed_stack_001openFile, __D0openFile
+5	39	35	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	35		strcat __strbufopenFile, __strretvalopenFile
+5	39	39	#line 39 "C:\Github\NXC_Source\FileManager.nxc"
+5	40	39		mov __openFile_7qG2_extension_7qG2_000, __strbufopenFile
+5	40	41	#line 40 "C:\Github\NXC_Source\FileManager.nxc"
+5	41	41		strcat __strbufopenFile, __openFile_7qG2_extension_7qG2_000
+5	40	45	#line 40 "C:\Github\NXC_Source\FileManager.nxc"
+5	41	45		mov __strtmpbufopenFile, __strbufopenFile
+5	41	47	#line 41 "C:\Github\NXC_Source\FileManager.nxc"
+5	42	47		strcat __strbufopenFile, __constStr0042
+5	41	51	#line 41 "C:\Github\NXC_Source\FileManager.nxc"
+5	42	51		cmp 4, __D0openFile, __strtmpbufopenFile, __strbufopenFile
+5	42	55	#line 42 "C:\Github\NXC_Source\FileManager.nxc"
+5	43	55		brtst 4, __ASM_Label_1268, __D0openFile
+5	6896	58	#line 6896 "NXCDefs.h"
+5	6897	58	#pragma macro 6
+5	6897	58		acquire __PointOutMutex
+5	6897	59		mov __PointOutArgs.Location.X, __constVal200
+5	6897	61		mov __PointOutArgs.Location.Y, __constVal200
+5	6897	63		mov __PointOutArgs.Options, __constVal1
+5	6897	65		syscall 14, __PointOutArgs
+5	6897	68		release __PointOutMutex
+5	11784	69	#line 11784 "NXCDefs.h"
+5	6896	69	#line 6896 "NXCDefs.h"
+5	42	69	#line 42 "C:\Github\NXC_Source\FileManager.nxc"
+5	43	69	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	69		set __signed_stack_001openFile, 2
+5	43	72	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	43	72	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	72		set __signed_stack_002openFile, 56
+5	43	75	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	43	75	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	75		strcat __strbufopenFile, __constStr0043
+5	43	79	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	79		mov __ArrHelper__openFile_244_0, __strbufopenFile
+5	43	81	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	81		strcat __strbufopenFile, __openFile_7qG2_viewme_7qG2_000
+5	43	85	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	85		mov __readHigh_7qG2_readme_7qG2_000, __strbufopenFile
+5	43	87	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	87		subcall readHigh, __readHigh_return
+5	43	89	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	89		mov __D0openFile, __D0readHigh
+5	43	91	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	91		numtostr __strretvalopenFile, __D0openFile
+5	43	94	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	94		strcat __strbufopenFile, __strretvalopenFile
+5	43	98	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	98		mov __ArrHelper__openFile_244_1, __strbufopenFile
+5	43	100	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	100		strcat __strretvalopenFile, __ArrHelper__openFile_244_0, __ArrHelper__openFile_244_1
+5	43	105	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	105		strcat __strbufopenFile, __strretvalopenFile
+5	43	109	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	109		set __D0openFile, 0
+5	43	112	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	112		acquire __TextOutMutex
+5	43	113	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	113		mov __TextOutArgs.Location.X, __signed_stack_001openFile
+5	43	116	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	116		mov __TextOutArgs.Location.Y, __signed_stack_002openFile
+5	43	119	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	119		mov __TextOutArgs.Options, __D0openFile
+5	43	122	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	122		mov __TextOutArgs.Text, __strbufopenFile
+5	43	124	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	124		syscall 13, __TextOutArgs
+5	43	127	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	127		mov __D0openFile, __TextOutArgs.Result
+5	43	130	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	130		release __TextOutMutex
+5	43	131	#line 43 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	131	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	131		set __signed_stack_001openFile, 2
+5	44	134	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	134	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	134		set __signed_stack_002openFile, 48
+5	44	137	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	44	137	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	137		strcat __strbufopenFile, __constStr0044
+5	44	141	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	141		mov __ArrHelper__openFile_244_0, __strbufopenFile
+5	44	143	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	143		strcat __strbufopenFile, __openFile_7qG2_viewme_7qG2_000
+5	44	147	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	147		mov __readHighName_7qG2_readme_7qG2_000, __strbufopenFile
+5	44	149	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	149		subcall readHighName, __readHighName_return
+5	44	151	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	151		mov __strretvalopenFile, __strbufreadHighName
+5	44	153	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	153		strcat __strbufopenFile, __strretvalopenFile
+5	44	157	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	157		mov __ArrHelper__openFile_244_1, __strbufopenFile
+5	44	159	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	159		strcat __strretvalopenFile, __ArrHelper__openFile_244_0, __ArrHelper__openFile_244_1
+5	44	164	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	164		strcat __strbufopenFile, __strretvalopenFile
+5	44	168	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	168		set __D0openFile, 0
+5	44	171	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	171		acquire __TextOutMutex
+5	44	172	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	172		mov __TextOutArgs.Location.X, __signed_stack_001openFile
+5	44	175	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	175		mov __TextOutArgs.Location.Y, __signed_stack_002openFile
+5	44	178	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	178		mov __TextOutArgs.Options, __D0openFile
+5	44	181	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	181		mov __TextOutArgs.Text, __strbufopenFile
+5	44	183	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	183		syscall 13, __TextOutArgs
+5	44	186	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	186		mov __D0openFile, __TextOutArgs.Result
+5	44	189	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	189		release __TextOutMutex
+5	44	190	#line 44 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	190	#line 45 "C:\Github\NXC_Source\FileManager.nxc"
+5	46	190		set __openFile_7qG2_waitforpress_7qG2_000, 1
+5	45	193	#line 45 "C:\Github\NXC_Source\FileManager.nxc"
+5	45	193	#line 45 "C:\Github\NXC_Source\FileManager.nxc"
+5	47	193	#line 47 "C:\Github\NXC_Source\FileManager.nxc"
+5	47	193	#line 47 "C:\Github\NXC_Source\FileManager.nxc"
+5	48	193		strcat __strbufopenFile, __openFile_7qG2_extension_7qG2_000
+5	47	197	#line 47 "C:\Github\NXC_Source\FileManager.nxc"
+5	48	197		mov __strtmpbufopenFile, __strbufopenFile
+5	48	199	#line 48 "C:\Github\NXC_Source\FileManager.nxc"
+5	49	199		strcat __strbufopenFile, __constStr0045
+5	48	203	#line 48 "C:\Github\NXC_Source\FileManager.nxc"
+5	49	203		cmp 4, __D0openFile, __strtmpbufopenFile, __strbufopenFile
+5	49	207	#line 49 "C:\Github\NXC_Source\FileManager.nxc"
+5	50	207		brtst 4, __ASM_Label_1287, __D0openFile
+5	6896	210	#line 6896 "NXCDefs.h"
+5	6897	210	#pragma macro 6
+5	6897	210		acquire __PointOutMutex
+5	6897	211		mov __PointOutArgs.Location.X, __constVal200
+5	6897	213		mov __PointOutArgs.Location.Y, __constVal200
+5	6897	215		mov __PointOutArgs.Options, __constVal1
+5	6897	217		syscall 14, __PointOutArgs
+5	6897	220		release __PointOutMutex
+5	11921	221	#line 11921 "NXCDefs.h"
+5	6896	221	#line 6896 "NXCDefs.h"
+5	49	221	#line 49 "C:\Github\NXC_Source\FileManager.nxc"
+5	51	221	#line 51 "C:\Github\NXC_Source\FileManager.nxc"
+5	52	221		set __openFile_7qG2_waitforpress_7qG2_000, 1
+5	51	224	#line 51 "C:\Github\NXC_Source\FileManager.nxc"
+5	51	224	#line 51 "C:\Github\NXC_Source\FileManager.nxc"
+5	54	224	#line 54 "C:\Github\NXC_Source\FileManager.nxc"
+5	55	224	#line 55 "C:\Github\NXC_Source\FileManager.nxc"
+5	56	224		mov __DU0openFile, __openFile_7qG2_waitforpress_7qG2_000
+5	56	226	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	226		tst 5, __D0openFile, __DU0openFile
+5	56	229	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	229		brtst 4, __ASM_Label_1292, __D0openFile
+5	56	232	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	232		set __signed_stack_001openFile, 45
+5	56	235	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	56	235	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	235		set __signed_stack_002openFile, 0
+5	56	238	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	56	238	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	238		strcat __strbufopenFile, __constStr0009
+5	56	242	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	242		set __D0openFile, 0
+5	56	245	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	245		acquire __TextOutMutex
+5	56	246	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	246		mov __TextOutArgs.Location.X, __signed_stack_001openFile
+5	56	249	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	249		mov __TextOutArgs.Location.Y, __signed_stack_002openFile
+5	56	252	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	252		mov __TextOutArgs.Options, __D0openFile
+5	56	255	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	255		mov __TextOutArgs.Text, __strbufopenFile
+5	56	257	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	257		syscall 13, __TextOutArgs
+5	56	260	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	260		mov __D0openFile, __TextOutArgs.Result
+5	56	263	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	263		release __TextOutMutex
+5	56	264	#line 56 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	264	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	264		set __signed_stack_001openFile, 3
+5	57	267	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	57	267	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	267		mov __D0openFile, __constVal0
+5	57	269	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	269		acquire __RBtnMutex
+5	57	270	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	270		mov __RBtnArgs.Index, __signed_stack_001openFile
+5	57	273	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	273		mov __RBtnArgs.Reset, __D0openFile
+5	57	276	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	276		syscall 20, __RBtnArgs
+5	57	279	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	279		mov __D0openFile, __RBtnArgs.Pressed
+5	57	282	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	282		release __RBtnMutex
+5	57	283	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	283		not __D0openFile, __D0openFile
+5	57	286	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	286		tst 5, __D0openFile, __D0openFile
+5	57	289	#line 57 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	289		brtst 4, __ASM_Label_1300, __D0openFile
+5	58	292	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	292		jmp __ASM_Label_1299
+5	58	294	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	294	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	294		set __signed_stack_001openFile, 3
+5	58	297	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	58	297	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	297		mov __D0openFile, __constVal0
+5	58	299	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	299		acquire __RBtnMutex
+5	58	300	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	300		mov __RBtnArgs.Index, __signed_stack_001openFile
+5	58	303	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	303		mov __RBtnArgs.Reset, __D0openFile
+5	58	306	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	306		syscall 20, __RBtnArgs
+5	58	309	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	309		mov __D0openFile, __RBtnArgs.Pressed
+5	58	312	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	312		release __RBtnMutex
+5	58	313	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	313		tst 5, __D0openFile, __D0openFile
+5	58	316	#line 58 "C:\Github\NXC_Source\FileManager.nxc"
+5	59	316		brtst 4, __ASM_Label_1308, __D0openFile
+5	60	319	#line 60 "C:\Github\NXC_Source\FileManager.nxc"
+5	61	319		jmp __ASM_Label_1307
+5	60	321	#line 60 "C:\Github\NXC_Source\FileManager.nxc"
+5	63	321	#line 63 "C:\Github\NXC_Source\FileManager.nxc"
+5	63	321	#line 63 "C:\Github\NXC_Source\FileManager.nxc"
+5	64	321		subret __openFile_return
+6	67	0	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	0		set __signed_stack_001setFilter, 2
+6	67	3	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	67	3	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	3		mov __D0setFilter, __constVal0
+6	67	5	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	5		acquire __RBtnMutex
+6	67	6	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	6		mov __RBtnArgs.Index, __signed_stack_001setFilter
+6	67	9	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	9		mov __RBtnArgs.Reset, __D0setFilter
+6	67	12	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	12		syscall 20, __RBtnArgs
+6	67	15	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	15		mov __D0setFilter, __RBtnArgs.Pressed
+6	67	18	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	18		release __RBtnMutex
+6	67	19	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	19		mov __signed_stack_001setFilter, __D0setFilter
+6	67	21	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	21		set __D0setFilter, 0
+6	67	24	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	24		cmp 4, __D0setFilter, __signed_stack_001setFilter, __D0setFilter
+6	67	28	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	28		brtst 4, __ASM_Label_1318, __D0setFilter
+6	67	31	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	31		set __signed_stack_001setFilter, 1
+6	67	34	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	67	34	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	34		mov __D0setFilter, __constVal0
+6	67	36	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	36		acquire __RBtnMutex
+6	67	37	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	37		mov __RBtnArgs.Index, __signed_stack_001setFilter
+6	67	40	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	40		mov __RBtnArgs.Reset, __D0setFilter
+6	67	43	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	43		syscall 20, __RBtnArgs
+6	67	46	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	46		mov __D0setFilter, __RBtnArgs.Pressed
+6	67	49	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	49		release __RBtnMutex
+6	67	50	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	50		mov __signed_stack_001setFilter, __D0setFilter
+6	67	52	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	52		set __D0setFilter, 0
+6	67	55	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	55		cmp 4, __D0setFilter, __signed_stack_001setFilter, __D0setFilter
+6	67	59	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	59		not __D0setFilter, __D0setFilter
+6	67	62	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	62		tst 5, __D0setFilter, __D0setFilter
+6	67	65	#line 67 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	65		brtst 4, __ASM_Label_1314, __D0setFilter
+6	68	68	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	68		jmp __ASM_Label_1313
+6	68	70	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	70	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	70		set __signed_stack_001setFilter, 2
+6	68	73	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	73	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	73		mov __D0setFilter, __constVal0
+6	68	75	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	75		acquire __RBtnMutex
+6	68	76	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	76		mov __RBtnArgs.Index, __signed_stack_001setFilter
+6	68	79	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	79		mov __RBtnArgs.Reset, __D0setFilter
+6	68	82	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	82		syscall 20, __RBtnArgs
+6	68	85	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	85		mov __D0setFilter, __RBtnArgs.Pressed
+6	68	88	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	88		release __RBtnMutex
+6	68	89	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	89		mov __signed_stack_001setFilter, __D0setFilter
+6	68	91	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	91		set __D0setFilter, 0
+6	68	94	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	94		cmp 4, __D0setFilter, __signed_stack_001setFilter, __D0setFilter
+6	68	98	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	98		brtst 4, __ASM_Label_1326, __D0setFilter
+6	68	101	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	101		set __signed_stack_001setFilter, 1
+6	68	104	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	68	104	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	104		mov __D0setFilter, __constVal0
+6	68	106	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	106		acquire __RBtnMutex
+6	68	107	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	107		mov __RBtnArgs.Index, __signed_stack_001setFilter
+6	68	110	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	110		mov __RBtnArgs.Reset, __D0setFilter
+6	68	113	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	113		syscall 20, __RBtnArgs
+6	68	116	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	116		mov __D0setFilter, __RBtnArgs.Pressed
+6	68	119	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	119		release __RBtnMutex
+6	68	120	#line 68 "C:\Github\NXC_Source\FileManager.nxc"
+6	69	120		mov __signed_stack_001setFilter, __D0setFilter
+6	69	122	#line 69 "C:\Github\NXC_Source\FileManager.nxc"
+6	70	122		set __D0setFilter, 0
+6	69	125	#line 69 "C:\Github\NXC_Source\FileManager.nxc"
+6	70	125		cmp 4, __D0setFilter, __signed_stack_001setFilter, __D0setFilter
+6	70	129	#line 70 "C:\Github\NXC_Source\FileManager.nxc"
+6	71	129		brtst 4, __ASM_Label_1324, __D0setFilter
+6	6896	132	#line 6896 "NXCDefs.h"
+6	6897	132	#pragma macro 6
+6	6897	132		acquire __PointOutMutex
+6	6897	133		mov __PointOutArgs.Location.X, __constVal200
+6	6897	135		mov __PointOutArgs.Location.Y, __constVal200
+6	6897	137		mov __PointOutArgs.Options, __constVal1
+6	6897	139		syscall 14, __PointOutArgs
+6	6897	142		release __PointOutMutex
+6	12194	143	#line 12194 "NXCDefs.h"
+6	6896	143	#line 6896 "NXCDefs.h"
+6	70	143	#line 70 "C:\Github\NXC_Source\FileManager.nxc"
+6	71	143	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	143		set __signed_stack_001setFilter, 0
+6	71	146	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	71	146	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	146		set __signed_stack_002setFilter, 0
+6	71	149	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	71	149	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	149		strcat __strbufsetFilter, __constStr0046
+6	71	153	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	153		set __D0setFilter, 0
+6	71	156	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	156		acquire __TextOutMutex
+6	71	157	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	157		mov __TextOutArgs.Location.X, __signed_stack_001setFilter
+6	71	160	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	160		mov __TextOutArgs.Location.Y, __signed_stack_002setFilter
+6	71	163	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	163		mov __TextOutArgs.Options, __D0setFilter
+6	71	166	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	166		mov __TextOutArgs.Text, __strbufsetFilter
+6	71	168	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	168		syscall 13, __TextOutArgs
+6	71	171	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	171		mov __D0setFilter, __TextOutArgs.Result
+6	71	174	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	174		release __TextOutMutex
+6	71	175	#line 71 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	175	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	175		set __signed_stack_001setFilter, 64
+6	72	178	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	178	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	178		set __signed_stack_002setFilter, 0
+6	72	181	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	72	181	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	181		strcat __strbufsetFilter, __constStr0047
+6	72	185	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	185		set __D0setFilter, 0
+6	72	188	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	188		acquire __TextOutMutex
+6	72	189	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	189		mov __TextOutArgs.Location.X, __signed_stack_001setFilter
+6	72	192	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	192		mov __TextOutArgs.Location.Y, __signed_stack_002setFilter
+6	72	195	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	195		mov __TextOutArgs.Options, __D0setFilter
+6	72	198	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	198		mov __TextOutArgs.Text, __strbufsetFilter
+6	72	200	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	200		syscall 13, __TextOutArgs
+6	72	203	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	203		mov __D0setFilter, __TextOutArgs.Result
+6	72	206	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	206		release __TextOutMutex
+6	72	207	#line 72 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	207	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	74	207		set __setFilter_7qG2_i_7qG2_002, 0
+6	73	210	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	210	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	74	210		mov __signed_stack_001setFilter, __setFilter_7qG2_i_7qG2_002
+6	73	212	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	73	212	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	74	212		set __D0setFilter, 7
+6	73	215	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	74	215		cmp 0, __D0setFilter, __signed_stack_001setFilter, __D0setFilter
+6	73	219	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	74	219		brtst 4, __ASM_Label_1344, __D0setFilter
+6	73	222	#line 73 "C:\Github\NXC_Source\FileManager.nxc"
+6	74	222		jmp __ASM_Label_1345
+6	74	224	#line 74 "C:\Github\NXC_Source\FileManager.nxc"
+6	75	224		add __setFilter_7qG2_i_7qG2_002, __setFilter_7qG2_i_7qG2_002, __constVal1
+6	75	228	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	228		jmp __ASM_Label_1343
+6	75	230	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	230		set __signed_stack_001setFilter, 2
+6	75	233	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	75	233	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	233		set __signed_stack_002setFilter, 56
+6	75	236	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	75	236	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	236		mov __signed_stack_003setFilter, __setFilter_7qG2_i_7qG2_002
+6	75	238	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	75	238	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	238		set __D0setFilter, 8
+6	75	241	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	241		mul __D0setFilter, __signed_stack_003setFilter, __D0setFilter
+6	75	245	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	245		sub __signed_stack_002setFilter, __signed_stack_002setFilter, __D0setFilter
+6	75	249	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	75	249	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	249		mov __signed_stack_003setFilter, __setFilter_7qG2_i_7qG2_002
+6	75	251	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	75	251	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	251		index __ArrHelper__setFilter_83_0, filters, __signed_stack_003setFilter
+6	75	255	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	255		strcat __strretvalsetFilter, __ArrHelper__setFilter_83_0
+6	75	259	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	259		strcat __strbufsetFilter, __strretvalsetFilter
+6	75	263	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	263		set __D0setFilter, 0
+6	75	266	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	266		acquire __TextOutMutex
+6	75	267	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	267		mov __TextOutArgs.Location.X, __signed_stack_001setFilter
+6	75	270	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	270		mov __TextOutArgs.Location.Y, __signed_stack_002setFilter
+6	75	273	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	273		mov __TextOutArgs.Options, __D0setFilter
+6	75	276	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	276		mov __TextOutArgs.Text, __strbufsetFilter
+6	75	278	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	278		syscall 13, __TextOutArgs
+6	75	281	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	281		mov __D0setFilter, __TextOutArgs.Result
+6	75	284	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	284		release __TextOutMutex
+6	75	285	#line 75 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	285	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	285		set __signed_stack_001setFilter, 40
+6	76	288	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	288	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	288		set __signed_stack_002setFilter, 56
+6	76	291	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	291	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	291		mov __signed_stack_003setFilter, __setFilter_7qG2_i_7qG2_002
+6	76	293	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	293	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	293		set __D0setFilter, 8
+6	76	296	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	296		mul __D0setFilter, __signed_stack_003setFilter, __D0setFilter
+6	76	300	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	300		sub __signed_stack_002setFilter, __signed_stack_002setFilter, __D0setFilter
+6	76	304	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	304	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	304		mov __signed_stack_003setFilter, __setFilter_7qG2_i_7qG2_002
+6	76	306	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	306	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	306		set __D0setFilter, 7
+6	76	309	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	309		add __signed_stack_003setFilter, __signed_stack_003setFilter, __D0setFilter
+6	76	313	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	76	313	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	313		index __ArrHelper__setFilter_83_0, filters, __signed_stack_003setFilter
+6	76	317	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	317		strcat __strretvalsetFilter, __ArrHelper__setFilter_83_0
+6	76	321	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	321		strcat __strbufsetFilter, __strretvalsetFilter
+6	76	325	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	325		set __D0setFilter, 0
+6	76	328	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	328		acquire __TextOutMutex
+6	76	329	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	329		mov __TextOutArgs.Location.X, __signed_stack_001setFilter
+6	76	332	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	332		mov __TextOutArgs.Location.Y, __signed_stack_002setFilter
+6	76	335	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	335		mov __TextOutArgs.Options, __D0setFilter
+6	76	338	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	338		mov __TextOutArgs.Text, __strbufsetFilter
+6	76	340	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	340		syscall 13, __TextOutArgs
+6	76	343	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	343		mov __D0setFilter, __TextOutArgs.Result
+6	76	346	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	77	346		release __TextOutMutex
+6	76	347	#line 76 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	347	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	347		jmp __ASM_Label_1346
+6	79	349	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	349	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	349		set __signed_stack_001setFilter, 0
+6	79	352	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	352	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	352		set __signed_stack_002setFilter, 56
+6	79	355	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	355	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	355		mov __signed_stack_003setFilter, __setFilter_7qG2_k_7qG2_000
+6	79	357	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	357	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	357		set __D0setFilter, 8
+6	79	360	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	360		mul __D0setFilter, __signed_stack_003setFilter, __D0setFilter
+6	79	364	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	364		sub __signed_stack_002setFilter, __signed_stack_002setFilter, __D0setFilter
+6	79	368	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	368	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	368		set __signed_stack_003setFilter, 99
+6	79	371	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	371	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	371		set __signed_stack_004setFilter, 7
+6	79	374	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	79	374	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	374		set __D0setFilter, 0
+6	79	377	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	377		acquire __RectOutMutex
+6	79	378	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	378		mov __RectOutArgs.Location.X, __signed_stack_001setFilter
+6	79	381	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	381		mov __RectOutArgs.Location.Y, __signed_stack_002setFilter
+6	79	384	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	384		mov __RectOutArgs.Size.Width, __signed_stack_003setFilter
+6	79	387	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	387		mov __RectOutArgs.Size.Height, __signed_stack_004setFilter
+6	79	390	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	390		mov __RectOutArgs.Options, __D0setFilter
+6	79	393	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	393		syscall 17, __RectOutArgs
+6	79	396	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	396		mov __D0setFilter, __RectOutArgs.Result
+6	79	399	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	399		release __RectOutMutex
+6	79	400	#line 79 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	400	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	400		set __signed_stack_001setFilter, 0
+6	80	403	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	403	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	403		set __signed_stack_002setFilter, 8
+6	80	406	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	406	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	406		set __signed_stack_003setFilter, 100
+6	80	409	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	409	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	409		set __signed_stack_004setFilter, 8
+6	80	412	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	80	412	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	412		set __D0setFilter, 0
+6	80	415	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	415		acquire __LineOutMutex
+6	80	416	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	416		mov __LineOutArgs.StartLoc.X, __signed_stack_001setFilter
+6	80	418	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	418		mov __LineOutArgs.StartLoc.Y, __signed_stack_002setFilter
+6	80	420	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	420		mov __LineOutArgs.EndLoc.X, __signed_stack_003setFilter
+6	80	422	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	422		mov __LineOutArgs.EndLoc.Y, __signed_stack_004setFilter
+6	80	424	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	424		mov __LineOutArgs.Options, __D0setFilter
+6	80	427	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	427		syscall 15, __LineOutArgs
+6	80	430	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	430		mov __D0setFilter, __LineOutArgs.Result
+6	80	432	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	432		release __LineOutMutex
+6	80	433	#line 80 "C:\Github\NXC_Source\FileManager.nxc"
+6	81	433	#line 81 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	433		set __Wait_7qG2_ms_7qG2_000_inline_setFilter, 50
+6	81	436	#line 81 "C:\Github\NXC_Source\FileManager.nxc"
+6	8771	436	#line 8771 "NXCDefs.h"
+6	8772	436		waitv __Wait_7qG2_ms_7qG2_000_inline_setFilter
+6	8771	438	#line 8771 "NXCDefs.h"
+6	81	438	#line 81 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	438	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	438		mov __senseButton_7qG2_val_7qG2_000, __setFilter_7qG2_k_7qG2_000
+6	82	440	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	440	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	440		set __senseButton_7qG2_lr_ud_7qG2_000, 0
+6	82	443	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	443	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	443		set __senseButton_7qG2_add_7qG2_000, 1
+6	82	446	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	446	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	446		set __senseButton_7qG2_high_7qG2_000, 6
+6	82	449	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	449	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	449		set __senseButton_7qG2_cut_7qG2_000, 0
+6	82	452	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	452	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	452		subcall senseButton, __senseButton_return
+6	82	454	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	83	454		mov __setFilter_7qG2_k_7qG2_000, __D0senseButton
+6	82	456	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	82	456	#line 82 "C:\Github\NXC_Source\FileManager.nxc"
+6	84	456	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	456		jmp __ASM_Label_1323
+6	84	458	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	84	458	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	458		set __signed_stack_001setFilter, 2
+6	84	461	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	84	461	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	461		mov __D0setFilter, __constVal0
+6	84	463	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	463		acquire __RBtnMutex
+6	84	464	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	464		mov __RBtnArgs.Index, __signed_stack_001setFilter
+6	84	467	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	467		mov __RBtnArgs.Reset, __D0setFilter
+6	84	470	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	470		syscall 20, __RBtnArgs
+6	84	473	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	473		mov __D0setFilter, __RBtnArgs.Pressed
+6	84	476	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	476		release __RBtnMutex
+6	84	477	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	477		tst 5, __D0setFilter, __D0setFilter
+6	84	480	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	480		brtst 4, __ASM_Label_1405, __D0setFilter
+6	84	483	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	483		strcat __strbufsetFilter, __setFilter_7qG2_previouspattern_7qG2_000
+6	84	487	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	487		mov __setFilter_7qG2_returnme_7qG2_000, __strbufsetFilter
+6	84	489	#line 84 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	489	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	489		jmp __ASM_Label_1406
+6	85	491	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	491		mov __signed_stack_001setFilter, __setFilter_7qG2_k_7qG2_000
+6	85	493	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	493	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	493		index __ArrHelper__setFilter_83_0, filters, __signed_stack_001setFilter
+6	85	497	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	497		strcat __strretvalsetFilter, __ArrHelper__setFilter_83_0
+6	85	501	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	501		strcat __strbufsetFilter, __strretvalsetFilter
+6	85	505	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	505		mov __setFilter_7qG2_returnme_7qG2_000, __strbufsetFilter
+6	85	507	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	85	507	#line 85 "C:\Github\NXC_Source\FileManager.nxc"
+6	86	507	#line 86 "C:\Github\NXC_Source\FileManager.nxc"
+6	87	507		strcat __strbufsetFilter, __setFilter_7qG2_returnme_7qG2_000
+6	86	511	#line 86 "C:\Github\NXC_Source\FileManager.nxc"
+6	87	511		subret __setFilter_return
+6	86	513	#line 86 "C:\Github\NXC_Source\FileManager.nxc"
+6	90	513	#line 90 "C:\Github\NXC_Source\FileManager.nxc"
+6	91	513		subret __setFilter_return
+7	146	0	#line 146 "C:\Github\NXC_Source\FileManager.nxc"
+7	147	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+7	146	43	#line 146 "C:\Github\NXC_Source\FileManager.nxc"
+7	147	43		arrbuild filters, __constStr0048, __constStr0054, __constStr0055, __constStr0056, __constStr0057, __constStr0058, __constStr0059, __constStr0060, __constStr0061, __constStr0062, __constStr0063, __constStr0064, __constStr0065, __constStr0066
+7	146	60	#line 146 "C:\Github\NXC_Source\FileManager.nxc"
+7	147	60		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\FileManager.nxc
+1	senseButton	727	C:\Github\NXC_Source\.\+Button+-.nxc
+2	readHigh	1007	C:\Github\NXC_Source\.\+HighScore.nxc
+3	readHighName	1075	C:\Github\NXC_Source\.\+HighScore.nxc
+4	deleteFile	1356	C:\Github\NXC_Source\FileManager.nxc
+5	openFile	1725	C:\Github\NXC_Source\FileManager.nxc
+6	setFilter	2048	C:\Github\NXC_Source\FileManager.nxc
+7	__initialize_global_data	2563	C:\Github\NXC_Source\FileManager.nxc

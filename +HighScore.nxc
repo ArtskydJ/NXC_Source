@@ -21,9 +21,9 @@ int readHigh(string readme)
   
 string readHighName(string readme)
   {
-  TextOut(0,48,"wait",0);
-  PlayTone(500,500);
-  Wait(500);
+  //TextOut(0,48,"wait",0);
+  //PlayTone(500,500);
+  //Wait(500);
   string ARead = "";
   int result = OpenFileRead(readme,fsize,handle);
   if (result == LDR_SUCCESS)
@@ -33,7 +33,7 @@ string readHighName(string readme)
     //CloseFile(handle);
     
     PlayTone(2000,500);
-    TextOut(0,56,"success",0);
+    TextOut(94,56,"s",0);
     SendResponseString(MAILBOX10,"Boss");
     Wait(150);
     Read(handle,ARead);
@@ -46,9 +46,10 @@ string readHighName(string readme)
     }
   else
     {
-    ARead = "";
+    //ARead = "";
+    ARead=NumToStr(result);
     SendResponseString(MAILBOX10,"fail");
-    TextOut(0,56,"fail",0);
+    TextOut(94,56,"f",0);
     Wait(100);
     }
   return ARead;
@@ -75,7 +76,7 @@ void writeHighName(string readme)
 
 
 /////////////////////////////  OTHER  ///////////////////////////////
-//*
+/*
 void endGame(string readme, int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
