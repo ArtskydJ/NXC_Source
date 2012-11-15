@@ -1,27 +1,7 @@
 //Whack a mole
-int level=1, result, fsize, handle;
+int level=1, result;
 
-int readHighscore()
-  {
-  int ARead = 0;
-  result = OpenFileRead("WhackAMoleHigh.dat", fsize, handle);
-  if (result == LDR_SUCCESS)
-    {
-    result = Read(handle, ARead);
-    result = CloseFile(handle);
-    }
-  else
-    {ARead = -1;}
-  return ARead;
-  }
-
-void overwriteHighscore(int NewHighscore)
-  {
-  result = DeleteFile("WhackAMoleHigh.dat");
-  result = CreateFile("WhackAMoleHigh.dat", 10, handle);
-  result = Write(handle, NewHighscore);
-  result = CloseFile(handle);
-  }
+#include "+Highscore.nxc"
 
 bool correctbutton(int b)
     {
@@ -83,12 +63,11 @@ task main()
             }
         else
             {
-            if (level>readHighscore())
-                {overwriteHighscore(level);}
+            if (level>readHigh("Whack.dat")) {writeHigh("Whack.dat",level);}
             ClearScreen();
             TextOut(30,LCD_LINE1,"Failure!",0);
             TextOut(30,LCD_LINE3,"Score:"+NumToStr(level),0);
-            TextOut(30,LCD_LINE4,"HighSscore: ",NumToStr( readHighscore() ),0);
+            TextOut(30,LCD_LINE4,StrCat("HighSscore: ",NumToStr( readHigh("Whack.dat") )),0);
             PlayTone(2960,500);
             Wait(500);
             PlayTone(2794,650);

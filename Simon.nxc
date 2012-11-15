@@ -5,32 +5,6 @@
 
 const int initnum=50;
 int highscore;
-//int fsize, handle;
-
-
-/*
-int readHighscore()
-  {
-  int ARead = 0;
-  result = OpenFileRead("SimonHigh.dat", fsize, handle);
-  if (result == LDR_SUCCESS)
-    {
-    result = Read(handle, ARead);
-    result = CloseFile(handle);
-    }
-  else
-    {ARead = -1;}
-  return ARead;
-  }
-
-void overwriteHighscore(int NewHighscore)
-  {
-  result = DeleteFile("SimonHigh.dat");
-  result = CreateFile("SimonHigh.dat", 10, handle);
-  result = Write(handle, NewHighscore);
-  result = CloseFile(handle);
-  }
-*/
 
 
 bool correctbutton(int b)
@@ -91,13 +65,13 @@ task main()
         for (int i=0; i<initnum; i++) {blink[i]=(Random(3));}
         for (int i=0; alive; i++)
             {
-            if (level>readHighscore())
-                {overwriteHighscore(level);}
+            if (level>readHigh("Simon.dat"))
+                {writeHigh("Simon.dat",level);}
             ClearScreen();
             TextOut(32,LCD_LINE1,"SIMON",0);
             TextOut(10,LCD_LINE2,"Watch Close...",0);
             TextOut(0, LCD_LINE4,StrCat("Score=",NumToStr(level)),0);
-            TextOut(0, LCD_LINE5,StrCat("Highscore=",NumToStr( readHighscore() )),0);
+            TextOut(0, LCD_LINE5,StrCat("Highscore=",NumToStr( readHigh("Simon.dat") )),0);
             level+=1;
             Wait(500);
             for (i=0;i<level; i++)

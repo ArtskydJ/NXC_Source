@@ -893,9 +893,9 @@ Clump	Line	PC	Source
 1	36	628	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	37	628		set __Wait_7qG2_ms_7qG2_000_inline_CheckWin, 500
 1	36	631	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
-1	8721	631	#line 8721 "NXCDefs.h"
-1	8722	631		waitv __Wait_7qG2_ms_7qG2_000_inline_CheckWin
-1	8721	633	#line 8721 "NXCDefs.h"
+1	8771	631	#line 8771 "NXCDefs.h"
+1	8772	631		waitv __Wait_7qG2_ms_7qG2_000_inline_CheckWin
+1	8771	633	#line 8771 "NXCDefs.h"
 1	36	633	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	37	633	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	37	633	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -906,7 +906,7 @@ Clump	Line	PC	Source
 1	38	640		syscall 26, __MWArgs
 1	38	643		mov __D0CheckWin, __MWArgs.Result
 1	38	645		release __MWMutex
-1	7762	646	#line 7762 "C:\Github\NXC_Source\TicTacToe.nxc"
+1	7775	646	#line 7775 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	37	646	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	37	646	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	37	646	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -916,16 +916,16 @@ Clump	Line	PC	Source
 1	37	652	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	41	652	#line 41 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	42	652		subret __CheckWin_return
-2	6848	0	#line 6848 "NXCDefs.h"
-2	6849	0	#pragma macro 6
-2	6849	0		acquire __PointOutMutex
-2	6849	1		mov __PointOutArgs.Location.X, __constVal200
-2	6849	3		mov __PointOutArgs.Location.Y, __constVal200
-2	6849	5		mov __PointOutArgs.Options, __constVal1
-2	6849	7		syscall 14, __PointOutArgs
-2	6849	10		release __PointOutMutex
-2	8128	11	#line 8128 "NXCDefs.h"
-2	6848	11	#line 6848 "NXCDefs.h"
+2	6896	0	#line 6896 "NXCDefs.h"
+2	6897	0	#pragma macro 6
+2	6897	0		acquire __PointOutMutex
+2	6897	1		mov __PointOutArgs.Location.X, __constVal200
+2	6897	3		mov __PointOutArgs.Location.Y, __constVal200
+2	6897	5		mov __PointOutArgs.Options, __constVal1
+2	6897	7		syscall 14, __PointOutArgs
+2	6897	10		release __PointOutMutex
+2	8141	11	#line 8141 "NXCDefs.h"
+2	6896	11	#line 6896 "NXCDefs.h"
 2	54	11	#line 54 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	55	11	#line 55 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	56	11		set __signed_stack_001Redraw, 21
@@ -2042,9 +2042,9 @@ Clump	Line	PC	Source
 3	99	280	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	100	280		set __Wait_7qG2_ms_7qG2_000_inline_P, 50
 3	99	283	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	8721	283	#line 8721 "NXCDefs.h"
-3	8722	283		waitv __Wait_7qG2_ms_7qG2_000_inline_P
-3	8721	285	#line 8721 "NXCDefs.h"
+3	8771	283	#line 8771 "NXCDefs.h"
+3	8772	283		waitv __Wait_7qG2_ms_7qG2_000_inline_P
+3	8771	285	#line 8771 "NXCDefs.h"
 3	99	285	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	101	285	#line 101 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	102	285		jmp __ASM_Label_1090
@@ -3619,7 +3619,7 @@ Clump	Line	PC	Source
 5	158	1455		mul __RandomTmp, __RandomTmp, __D0AI
 5	158	1459		div __RandomTmp, __RandomTmp, __constVal65536
 5	158	1463		mov i, __RandomTmp
-5	12580	1465	#line 12580 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	12593	1465	#line 12593 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	157	1465	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	157	1465	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	157	1465	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3683,7 +3683,7 @@ Clump	Line	PC	Source
 5	161	1537		syscall 26, __MWArgs
 5	161	1540		mov __D0AI, __MWArgs.Result
 5	161	1542		release __MWMutex
-5	12672	1543	#line 12672 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	12685	1543	#line 12685 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	160	1543	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	160	1543	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	160	1543	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3792,20 +3792,20 @@ Clump	Line	PC	Source
 6	170	79	#line 170 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	171	79		set __Wait_7qG2_ms_7qG2_000_inline_GameOver, 3000
 6	170	82	#line 170 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	8721	82	#line 8721 "NXCDefs.h"
-6	8722	82		waitv __Wait_7qG2_ms_7qG2_000_inline_GameOver
-6	8721	84	#line 8721 "NXCDefs.h"
+6	8771	82	#line 8771 "NXCDefs.h"
+6	8772	82		waitv __Wait_7qG2_ms_7qG2_000_inline_GameOver
+6	8771	84	#line 8771 "NXCDefs.h"
 6	170	84	#line 170 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	6848	84	#line 6848 "NXCDefs.h"
-6	6849	84	#pragma macro 6
-6	6849	84		acquire __PointOutMutex
-6	6849	85		mov __PointOutArgs.Location.X, __constVal200
-6	6849	87		mov __PointOutArgs.Location.Y, __constVal200
-6	6849	89		mov __PointOutArgs.Options, __constVal1
-6	6849	91		syscall 14, __PointOutArgs
-6	6849	94		release __PointOutMutex
-6	12826	95	#line 12826 "NXCDefs.h"
-6	6848	95	#line 6848 "NXCDefs.h"
+6	6896	84	#line 6896 "NXCDefs.h"
+6	6897	84	#pragma macro 6
+6	6897	84		acquire __PointOutMutex
+6	6897	85		mov __PointOutArgs.Location.X, __constVal200
+6	6897	87		mov __PointOutArgs.Location.Y, __constVal200
+6	6897	89		mov __PointOutArgs.Options, __constVal1
+6	6897	91		syscall 14, __PointOutArgs
+6	6897	94		release __PointOutMutex
+6	12839	95	#line 12839 "NXCDefs.h"
+6	6896	95	#line 6896 "NXCDefs.h"
 6	171	95	#line 171 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	172	95	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	173	95		set __signed_stack_001GameOver, 16
@@ -4041,16 +4041,16 @@ Clump	Line	PC	Source
 6	178	347	#line 178 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	179	347		jmp __ASM_Label_1810
 6	178	349	#line 178 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	6848	349	#line 6848 "NXCDefs.h"
-6	6849	349	#pragma macro 6
-6	6849	349		acquire __PointOutMutex
-6	6849	350		mov __PointOutArgs.Location.X, __constVal200
-6	6849	352		mov __PointOutArgs.Location.Y, __constVal200
-6	6849	354		mov __PointOutArgs.Options, __constVal1
-6	6849	356		syscall 14, __PointOutArgs
-6	6849	359		release __PointOutMutex
-6	13133	360	#line 13133 "NXCDefs.h"
-6	6848	360	#line 6848 "NXCDefs.h"
+6	6896	349	#line 6896 "NXCDefs.h"
+6	6897	349	#pragma macro 6
+6	6897	349		acquire __PointOutMutex
+6	6897	350		mov __PointOutArgs.Location.X, __constVal200
+6	6897	352		mov __PointOutArgs.Location.Y, __constVal200
+6	6897	354		mov __PointOutArgs.Options, __constVal1
+6	6897	356		syscall 14, __PointOutArgs
+6	6897	359		release __PointOutMutex
+6	13146	360	#line 13146 "NXCDefs.h"
+6	6896	360	#line 6896 "NXCDefs.h"
 6	178	360	#line 178 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	179	360	#line 179 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	180	360		set __signed_stack_001GameOver, 3

@@ -244,10 +244,10 @@ void snakeDraw()
         {CircleOut(x*b+2,61-y*b,(b-1)/2,32);}
       }
     }
-  if (score>readHighscore()&&gametype<4) {overwriteHighscore(score);}
+  if (score>readHigh(accesshigh)&&gametype<4) {writeHigh(accesshigh,score);}
   TextOut(65, LCD_LINE1,StrCat(" S=",NumToStr(score)),0);
   if (gametype<4)
-    TextOut(65, LCD_LINE2,StrCat("HS=",NumToStr( readHighscore() )),0);
+    TextOut(65, LCD_LINE2,StrCat("HS=",NumToStr( readHigh(accesshigh) )),0);
   //SendResponseString(MAILBOX10,"Snake Drawn");
   }
 
