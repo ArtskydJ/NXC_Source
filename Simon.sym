@@ -1,0 +1,1497 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0endofgame	5	1	0	4	2
+1	__D0endofgame	6	1	4	4	26
+2	__D0main	6	1	8	4	59
+3	__D0readHigh	6	1	12	4	11
+4	__DU0main	5	1	16	4	6
+5	__constVal32768	6	0	20	4	1
+6	__FWriteMutex	9	0	24	4	2
+7	__SPTArgsMutex	9	0	28	4	14
+8	__DU0correctbutton	5	1	32	4	2
+9	__D0correctbutton	6	1	36	4	89
+10	__D0writeHigh	6	1	40	4	4
+11	__signed_stack_001main	6	1	44	4	32
+12	__signed_stack_003endofgame	6	1	48	4	6
+13	__signed_stack_002main	6	1	52	4	18
+14	__signed_stack_001readHigh	6	1	56	4	2
+15	__signed_stack_003main	6	1	60	4	2
+16	__signed_stack_002correctbutton	6	1	64	4	6
+17	__signed_stack_001correctbutton	6	1	68	4	20
+18	__signed_stack_003correctbutton	6	1	72	4	6
+19	__signed_stack_002endofgame	6	1	76	4	12
+20	__signed_stack_001endofgame	6	1	80	4	16
+21	__IOMRMutex	9	0	84	4	18
+22	__RandomTmp	5	1	88	4	6
+23	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	92	4	4
+24	__Wait_7qG2_ms_7qG2_000_inline_correctbutton	5	1	96	4	6
+25	__FCMutex	9	0	100	4	4
+26	__constVal262145	6	0	104	4	9
+27	__FOMutex	9	0	108	4	4
+28	__Wait_7qG2_ms_7qG2_000_inline_endofgame	5	1	112	4	6
+29	__FReadMutex	9	0	116	4	2
+30	__TextOutMutex	9	0	120	4	28
+31	__constVal65536	6	0	124	4	1
+32	__main_7qG2_level_7qG2_001	4	1	128	2	8
+33	handle	4	1	130	2	6
+34	__main_7qG2_i_7qG2_002	4	1	132	2	19
+35	__readHigh_7qG2_ARead_7qG2_000	4	1	134	2	5
+36	__correctbutton_7qG2_c_7qG2_000	4	1	136	2	5
+37	__constVal200	4	0	138	2	4
+38	__writeHigh_7qG2_NewHighscore_7qG2_000	4	1	140	2	2
+39	__correctbutton_7qG2_r_7qG2_000	4	1	142	2	5
+40	__constVal1024	4	0	144	2	1
+41	initnum	4	0	146	2	1
+42	__correctbutton_7qG2_hit_7qG2_000	4	1	148	2	9
+43	__correctbutton_7qG2_l_7qG2_000	4	1	150	2	5
+44	__correctbutton_7qG2_b_7qG2_000	4	1	152	2	4
+45	__main_7qG2_alive_7qG2_001	1	1	154	1	4
+46	__constVal101	2	0	155	1	1
+47	__constVal103	2	0	156	1	1
+48	__constVal98	2	0	157	1	1
+49	__constVal104	2	0	158	1	1
+50	__constVal99	2	0	159	1	1
+51	__constVal105	2	0	160	1	1
+52	__constVal102	2	0	161	1	1
+53	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	162	1	6
+54	__constVal106	2	0	163	1	1
+55	__constVal97	2	0	164	1	1
+56	__constVal63	2	0	165	1	1
+57	__constVal48	2	0	166	1	1
+58	__constVal49	2	0	167	1	1
+59	__constVal46	2	0	168	1	1
+60	__constVal121	2	0	169	1	1
+61	__constVal122	2	0	170	1	1
+62	__constVal44	2	0	171	1	1
+63	__constVal55	2	0	172	1	1
+64	__constVal56	2	0	173	1	1
+65	__constVal57	2	0	174	1	1
+66	__constVal54	2	0	175	1	1
+67	__constVal51	2	0	176	1	1
+68	__constVal52	2	0	177	1	1
+69	__constVal53	2	0	178	1	1
+70	__constVal111	2	0	179	1	1
+71	__constVal112	2	0	180	1	1
+72	__constVal113	2	0	181	1	1
+73	__constVal110	2	0	182	1	1
+74	__constVal107	2	0	183	1	1
+75	__constVal108	2	0	184	1	1
+76	__constVal109	2	0	185	1	1
+77	__constVal118	2	0	186	1	1
+78	__constVal119	2	0	187	1	1
+79	__constVal120	2	0	188	1	1
+80	__constVal117	2	0	189	1	1
+81	__constVal114	2	0	190	1	1
+82	__constVal115	2	0	191	1	1
+83	__constVal116	2	0	192	1	1
+84	__main_7qG2_playagain_7qG2_000	1	1	193	1	3
+85	__correctbutton_return	1	1	194	1	4
+86	__writeHigh_return	1	1	195	1	3
+87	__constValNeg1	2	0	196	1	3
+88	__constVal33	2	0	197	1	3
+89	__constVal35	2	0	198	1	2
+90	__constVal34	2	0	199	1	4
+91	__tmpsbytecorrectbutton	2	1	200	1	18
+92	__constVal100	2	0	201	1	1
+93	__constVal50	2	0	202	1	1
+94	__readHigh_return	1	1	203	1	5
+95	__FReadTmpByte	1	1	204	1	1
+96	__tmpsbyteendofgame	2	1	205	1	9
+97	____initialize_global_data_return	1	1	206	1	3
+98	__IOMRUnflattenErr	1	1	207	1	9
+99	__constVal32	2	0	208	1	1
+100	__ClearLine_7qG2_line_7qG2_000_inline_endofgame	1	1	209	1	4
+101	__constVal1	2	0	210	1	6
+102	__constVal0	2	1	211	1	11
+103	__endofgame_return	1	1	212	1	4
+104	__FReadArgs	8	0	4	12	5
+105	__FReadArgs.Result	3	1	216	2	5
+106	__FReadArgs.FileHandle	1	1	218	1	5
+107	__FReadArgs.Buffer	7	0	220	4	5
+108	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+109	__FReadArgs.Length	5	1	224	4	5
+110	__FWriteArgs	8	0	4	12	6
+111	__FWriteArgs.Result	3	1	228	2	6
+112	__FWriteArgs.FileHandle	1	1	230	1	6
+113	__FWriteArgs.Buffer	7	0	232	4	6
+114	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+115	__FWriteArgs.Length	5	1	236	4	6
+116	__TextOutArgs	8	0	4	16	79
+117	__TextOutArgs.Result	2	1	240	1	79
+118	__TextOutArgs.Location	8	0	2	4	79
+119	__TextOutArgs.Location.X	4	1	244	2	79
+120	__TextOutArgs.Location.Y	4	1	246	2	79
+121	__TextOutArgs.Text	7	0	248	4	79
+122	__TextOutArgs.Text.Text_type	1	0	0	1	0
+123	__TextOutArgs.Options	5	1	252	4	79
+124	__FDArgs	8	0	2	8	3
+125	__FDArgs.Result	3	1	256	2	3
+126	__FDArgs.Filename	7	0	258	4	3
+127	__FDArgs.Filename.Filename_type	1	0	0	1	0
+128	__SPTArgs	8	0	5	8	42
+129	__SPTArgs.Result	2	1	260	1	42
+130	__SPTArgs.Frequency	3	1	262	2	42
+131	__SPTArgs.Duration	3	1	264	2	42
+132	__SPTArgs.Loop	1	1	266	1	42
+133	__SPTArgs.Volume	1	1	267	1	42
+134	__FOArgs	8	0	4	12	9
+135	__FOArgs.Result	3	1	268	2	9
+136	__FOArgs.FileHandle	1	1	270	1	9
+137	__FOArgs.Filename	7	0	272	4	9
+138	__FOArgs.Filename.Filename_type	1	0	0	1	0
+139	__FOArgs.Length	5	1	276	4	9
+140	__IOMRBIArgs	8	0	5	16	45
+141	__IOMRBIArgs.Result	2	1	280	1	45
+142	__IOMRBIArgs.ModuleID	5	1	284	4	45
+143	__IOMRBIArgs.Offset	3	1	288	2	45
+144	__IOMRBIArgs.Count	3	1	290	2	45
+145	__IOMRBIArgs.Buffer	7	0	292	4	45
+146	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
+147	__PointOutArgs	8	0	3	12	8
+148	__PointOutArgs.Result	2	1	296	1	8
+149	__PointOutArgs.Location	8	0	2	4	8
+150	__PointOutArgs.Location.X	4	1	300	2	8
+151	__PointOutArgs.Location.Y	4	1	302	2	8
+152	__PointOutArgs.Options	5	1	304	4	8
+153	__FCArgs	8	0	2	4	6
+154	__FCArgs.Result	3	1	308	2	6
+155	__FCArgs.FileHandle	1	1	310	1	6
+156	__RandomArgs	8	0	1	4	2
+157	__RandomArgs.Result	4	1	312	2	2
+158	__IOMRUnflattenBuf	7	0	314	4	18
+159	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+160	__BlankLine	7	0	316	4	5
+161	__BlankLine.__BlankLine_type	1	0	0	1	0
+162	__FWriteFlattenBuf	7	0	318	4	2
+163	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+164	__constStr0042	7	0	320	4	1
+165	__constStr0042.__constStr0042_type	1	1	0	1	0
+166	__constStr0041	7	0	322	4	1
+167	__constStr0041.__constStr0041_type	1	1	0	1	0
+168	__constStr0044	7	0	324	4	1
+169	__constStr0044.__constStr0044_type	1	1	0	1	0
+170	__constStr0043	7	0	326	4	1
+171	__constStr0043.__constStr0043_type	1	1	0	1	0
+172	__constStr0040	7	0	328	4	3
+173	__constStr0040.__constStr0040_type	1	1	0	1	0
+174	__constStr0039	7	0	330	4	1
+175	__constStr0039.__constStr0039_type	1	1	0	1	0
+176	__main_7qG2_blink_7qG2_001	7	0	332	4	6
+177	__main_7qG2_blink_7qG2_001.__main_7qG2_blink_7qG2_001_type	4	0	0	2	0
+178	__constStr0037	7	0	334	4	1
+179	__constStr0037.__constStr0037_type	1	1	0	1	0
+180	__constStr0038	7	0	336	4	1
+181	__constStr0038.__constStr0038_type	1	1	0	1	0
+182	__constStr0045	7	0	338	4	1
+183	__constStr0045.__constStr0045_type	1	1	0	1	0
+184	__strbufendofgame	7	0	340	4	6
+185	__strbufendofgame.__strbufendofgame_type	1	0	0	1	0
+186	__strbufmain	7	0	342	4	26
+187	__strbufmain.__strbufmain_type	1	0	0	1	0
+188	__ArrHelper__main_244_0	7	0	344	4	4
+189	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+190	__ArrHelper__main_244_1	7	0	346	4	4
+191	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+192	__strretvalmain	7	0	348	4	8
+193	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+194	__writeHigh_7qG2_readme_7qG2_000	7	0	350	4	3
+195	__writeHigh_7qG2_readme_7qG2_000.__writeHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+196	__constStr0046	7	0	352	4	1
+197	__constStr0046.__constStr0046_type	1	1	0	1	0
+198	layout	7	0	354	4	1
+199	layout.layout_type	1	0	0	1	0
+200	__readHigh_7qG2_readme_7qG2_000	7	0	356	4	3
+201	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	56	0	#line 56 "C:\Github\NXC_Source\Simon.nxc"
+0	57	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	56	2	#line 56 "C:\Github\NXC_Source\Simon.nxc"
+0	56	2	#line 56 "C:\Github\NXC_Source\Simon.nxc"
+0	57	2		set __main_7qG2_playagain_7qG2_000, 1
+0	56	5	#line 56 "C:\Github\NXC_Source\Simon.nxc"
+0	58	5	#line 58 "C:\Github\NXC_Source\Simon.nxc"
+0	59	5		mov __DU0main, __main_7qG2_playagain_7qG2_000
+0	59	7	#line 59 "C:\Github\NXC_Source\Simon.nxc"
+0	60	7		tst 5, __D0main, __DU0main
+0	59	10	#line 59 "C:\Github\NXC_Source\Simon.nxc"
+0	60	10		brtst 4, __ASM_Label_1379, __D0main
+0	6896	13	#line 6896 "NXCDefs.h"
+0	6897	13	#pragma macro 6
+0	6897	13		mov __PointOutArgs.Location.X, __constVal200
+0	6897	15		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	17		mov __PointOutArgs.Options, __constVal1
+0	6897	19		syscall 14, __PointOutArgs
+0	12204	22	#line 12204 "NXCDefs.h"
+0	6896	22	#line 6896 "NXCDefs.h"
+0	59	22	#line 59 "C:\Github\NXC_Source\Simon.nxc"
+0	60	22	#line 60 "C:\Github\NXC_Source\Simon.nxc"
+0	61	22		arrinit __main_7qG2_blink_7qG2_001, __constVal0, initnum
+0	60	26	#line 60 "C:\Github\NXC_Source\Simon.nxc"
+0	61	26		set __main_7qG2_level_7qG2_001, 0
+0	60	29	#line 60 "C:\Github\NXC_Source\Simon.nxc"
+0	60	29	#line 60 "C:\Github\NXC_Source\Simon.nxc"
+0	60	29	#line 60 "C:\Github\NXC_Source\Simon.nxc"
+0	61	29	#line 61 "C:\Github\NXC_Source\Simon.nxc"
+0	62	29		set __main_7qG2_alive_7qG2_001, 1
+0	61	32	#line 61 "C:\Github\NXC_Source\Simon.nxc"
+0	62	32	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	32		set __main_7qG2_i_7qG2_002, 0
+0	62	35	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	62	35	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	35		mov __signed_stack_001main, __main_7qG2_i_7qG2_002
+0	62	37	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	62	37	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	37		set __D0main, 50
+0	62	40	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	40		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	62	44	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	44		brtst 4, __ASM_Label_1389, __D0main
+0	62	47	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	47		jmp __ASM_Label_1390
+0	62	49	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	49		add __main_7qG2_i_7qG2_002, __main_7qG2_i_7qG2_002, __constVal1
+0	62	53	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	53		jmp __ASM_Label_1388
+0	62	55	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	55		mov __signed_stack_001main, __main_7qG2_i_7qG2_002
+0	62	57	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	62	57	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	57		set __D0main, 3
+0	62	60	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	60	#pragma macro 7
+0	63	60		syscall 24, __RandomArgs
+0	63	63		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	63	67		mul __RandomTmp, __RandomTmp, __D0main
+0	63	71		div __RandomTmp, __RandomTmp, __constVal65536
+0	63	75		mov __D0main, __RandomTmp
+0	12278	77	#line 12278 "C:\Github\NXC_Source\Simon.nxc"
+0	62	77	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	77		replace __main_7qG2_blink_7qG2_001, __main_7qG2_blink_7qG2_001, __signed_stack_001main, __D0main
+0	62	82	#line 62 "C:\Github\NXC_Source\Simon.nxc"
+0	63	82	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	64	82		jmp __ASM_Label_1391
+0	63	84	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	63	84	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	64	84		set __main_7qG2_i_7qG2_002, 0
+0	63	87	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	63	87	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	64	87		mov __DU0main, __main_7qG2_alive_7qG2_001
+0	63	89	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	64	89		tst 5, __D0main, __DU0main
+0	63	92	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	64	92		brtst 4, __ASM_Label_1405, __D0main
+0	63	95	#line 63 "C:\Github\NXC_Source\Simon.nxc"
+0	64	95		jmp __ASM_Label_1406
+0	64	97	#line 64 "C:\Github\NXC_Source\Simon.nxc"
+0	65	97		add __main_7qG2_i_7qG2_002, __main_7qG2_i_7qG2_002, __constVal1
+0	65	101	#line 65 "C:\Github\NXC_Source\Simon.nxc"
+0	66	101		jmp __ASM_Label_1404
+0	65	103	#line 65 "C:\Github\NXC_Source\Simon.nxc"
+0	66	103		mov __signed_stack_001main, __main_7qG2_level_7qG2_001
+0	65	105	#line 65 "C:\Github\NXC_Source\Simon.nxc"
+0	65	105	#line 65 "C:\Github\NXC_Source\Simon.nxc"
+0	66	105		strcat __strbufmain, __constStr0040
+0	65	109	#line 65 "C:\Github\NXC_Source\Simon.nxc"
+0	66	109		mov __readHigh_7qG2_readme_7qG2_000, __strbufmain
+0	66	111	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	111		subcall readHigh, __readHigh_return
+0	66	113	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	113		mov __D0main, __D0readHigh
+0	66	115	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	115		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	66	119	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	119		brtst 4, __ASM_Label_1414, __D0main
+0	66	122	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	122		strcat __strbufmain, __constStr0040
+0	66	126	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	126		mov __writeHigh_7qG2_readme_7qG2_000, __strbufmain
+0	66	128	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	128		mov __writeHigh_7qG2_NewHighscore_7qG2_000, __main_7qG2_level_7qG2_001
+0	66	130	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	66	130	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	130		subcall writeHigh, __writeHigh_return
+0	66	132	#line 66 "C:\Github\NXC_Source\Simon.nxc"
+0	67	132	#line 67 "C:\Github\NXC_Source\Simon.nxc"
+0	6896	132	#line 6896 "NXCDefs.h"
+0	6897	132	#pragma macro 6
+0	6897	132		mov __PointOutArgs.Location.X, __constVal200
+0	6897	134		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	136		mov __PointOutArgs.Options, __constVal1
+0	6897	138		syscall 14, __PointOutArgs
+0	12348	141	#line 12348 "NXCDefs.h"
+0	6896	141	#line 6896 "NXCDefs.h"
+0	67	141	#line 67 "C:\Github\NXC_Source\Simon.nxc"
+0	68	141	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	141		set __signed_stack_001main, 32
+0	68	144	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	68	144	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	144		set __signed_stack_002main, 56
+0	68	147	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	68	147	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	147		strcat __strbufmain, __constStr0041
+0	68	151	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	151		set __D0main, 0
+0	68	154	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	154		acquire __TextOutMutex
+0	68	155	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	155		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	68	157	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	157		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	68	159	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	159		mov __TextOutArgs.Options, __D0main
+0	68	161	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	161		mov __TextOutArgs.Text, __strbufmain
+0	68	163	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	163		syscall 13, __TextOutArgs
+0	68	166	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	166		mov __D0main, __TextOutArgs.Result
+0	68	168	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	168		release __TextOutMutex
+0	68	169	#line 68 "C:\Github\NXC_Source\Simon.nxc"
+0	69	169	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	169		set __signed_stack_001main, 10
+0	69	172	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	69	172	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	172		set __signed_stack_002main, 48
+0	69	175	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	69	175	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	175		strcat __strbufmain, __constStr0042
+0	69	179	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	179		set __D0main, 0
+0	69	182	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	182		acquire __TextOutMutex
+0	69	183	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	183		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	69	185	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	185		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	69	187	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	187		mov __TextOutArgs.Options, __D0main
+0	69	189	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	189		mov __TextOutArgs.Text, __strbufmain
+0	69	191	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	191		syscall 13, __TextOutArgs
+0	69	194	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	194		mov __D0main, __TextOutArgs.Result
+0	69	196	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	196		release __TextOutMutex
+0	69	197	#line 69 "C:\Github\NXC_Source\Simon.nxc"
+0	70	197	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	197		set __signed_stack_001main, 0
+0	70	200	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	70	200	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	200		set __signed_stack_002main, 32
+0	70	203	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	70	203	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	203		strcat __strbufmain, __constStr0043
+0	70	207	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	207		mov __ArrHelper__main_244_0, __strbufmain
+0	70	209	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	209		mov __D0main, __main_7qG2_level_7qG2_001
+0	70	211	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	211		numtostr __strretvalmain, __D0main
+0	70	214	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	214		strcat __strbufmain, __strretvalmain
+0	70	218	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	218		mov __ArrHelper__main_244_1, __strbufmain
+0	70	220	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	220		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	70	225	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	225		strcat __strbufmain, __strretvalmain
+0	70	229	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	229		set __D0main, 0
+0	70	232	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	232		acquire __TextOutMutex
+0	70	233	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	233		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	70	235	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	235		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	70	237	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	237		mov __TextOutArgs.Options, __D0main
+0	70	239	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	239		mov __TextOutArgs.Text, __strbufmain
+0	70	241	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	241		syscall 13, __TextOutArgs
+0	70	244	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	244		mov __D0main, __TextOutArgs.Result
+0	70	246	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	246		release __TextOutMutex
+0	70	247	#line 70 "C:\Github\NXC_Source\Simon.nxc"
+0	71	247	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	247		set __signed_stack_001main, 0
+0	71	250	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	71	250	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	250		set __signed_stack_002main, 24
+0	71	253	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	71	253	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	253		strcat __strbufmain, __constStr0044
+0	71	257	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	257		mov __ArrHelper__main_244_0, __strbufmain
+0	71	259	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	259		strcat __strbufmain, __constStr0040
+0	71	263	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	263		mov __readHigh_7qG2_readme_7qG2_000, __strbufmain
+0	71	265	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	265		subcall readHigh, __readHigh_return
+0	71	267	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	267		mov __D0main, __D0readHigh
+0	71	269	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	269		numtostr __strretvalmain, __D0main
+0	71	272	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	272		strcat __strbufmain, __strretvalmain
+0	71	276	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	276		mov __ArrHelper__main_244_1, __strbufmain
+0	71	278	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	278		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	71	283	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	283		strcat __strbufmain, __strretvalmain
+0	71	287	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	287		set __D0main, 0
+0	71	290	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	290		acquire __TextOutMutex
+0	71	291	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	291		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	71	293	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	293		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	71	295	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	295		mov __TextOutArgs.Options, __D0main
+0	71	297	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	297		mov __TextOutArgs.Text, __strbufmain
+0	71	299	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	299		syscall 13, __TextOutArgs
+0	71	302	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	302		mov __D0main, __TextOutArgs.Result
+0	71	304	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	304		release __TextOutMutex
+0	71	305	#line 71 "C:\Github\NXC_Source\Simon.nxc"
+0	72	305	#line 72 "C:\Github\NXC_Source\Simon.nxc"
+0	73	305		set __D0main, 1
+0	72	308	#line 72 "C:\Github\NXC_Source\Simon.nxc"
+0	73	308		add __main_7qG2_level_7qG2_001, __main_7qG2_level_7qG2_001, __D0main
+0	72	312	#line 72 "C:\Github\NXC_Source\Simon.nxc"
+0	73	312	#line 73 "C:\Github\NXC_Source\Simon.nxc"
+0	74	312		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	73	315	#line 73 "C:\Github\NXC_Source\Simon.nxc"
+0	8771	315	#line 8771 "NXCDefs.h"
+0	8772	315		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	317	#line 8771 "NXCDefs.h"
+0	73	317	#line 73 "C:\Github\NXC_Source\Simon.nxc"
+0	74	317	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	75	317		set __main_7qG2_i_7qG2_002, 0
+0	74	320	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	74	320	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	75	320		mov __signed_stack_001main, __main_7qG2_i_7qG2_002
+0	74	322	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	74	322	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	75	322		mov __D0main, __main_7qG2_level_7qG2_001
+0	74	324	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	75	324		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	74	328	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	75	328		brtst 4, __ASM_Label_1450, __D0main
+0	74	331	#line 74 "C:\Github\NXC_Source\Simon.nxc"
+0	75	331		jmp __ASM_Label_1451
+0	75	333	#line 75 "C:\Github\NXC_Source\Simon.nxc"
+0	76	333		add __main_7qG2_i_7qG2_002, __main_7qG2_i_7qG2_002, __constVal1
+0	76	337	#line 76 "C:\Github\NXC_Source\Simon.nxc"
+0	77	337		jmp __ASM_Label_1449
+0	76	339	#line 76 "C:\Github\NXC_Source\Simon.nxc"
+0	77	339		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
+0	76	342	#line 76 "C:\Github\NXC_Source\Simon.nxc"
+0	6903	342	#line 6903 "NXCDefs.h"
+0	6904	342	#pragma macro 7
+0	6904	342		acquire __TextOutMutex
+0	6904	343		mov __TextOutArgs.Location.X, __constVal0
+0	6904	345		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6904	347		mov __TextOutArgs.Options, __constVal0
+0	6904	349		mov __TextOutArgs.Text, __BlankLine
+0	6904	351		syscall 13, __TextOutArgs
+0	6904	354		release __TextOutMutex
+0	12582	355	#line 12582 "NXCDefs.h"
+0	6903	355	#line 6903 "NXCDefs.h"
+0	76	355	#line 76 "C:\Github\NXC_Source\Simon.nxc"
+0	77	355	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	355		mov __signed_stack_001main, __main_7qG2_i_7qG2_002
+0	77	357	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	77	357	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	357		index __signed_stack_001main, __main_7qG2_blink_7qG2_001, __signed_stack_001main
+0	77	361	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	77	361	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	77	361	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	361		set __D0main, 45
+0	77	364	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	364		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	77	368	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	77	368	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	368		set __signed_stack_002main, 0
+0	77	371	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	77	371	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	371		strcat __strbufmain, __constStr0045
+0	77	375	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	375		set __D0main, 0
+0	77	378	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	378		acquire __TextOutMutex
+0	77	379	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	379		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	77	381	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	381		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	77	383	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	383		mov __TextOutArgs.Options, __D0main
+0	77	385	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	385		mov __TextOutArgs.Text, __strbufmain
+0	77	387	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	387		syscall 13, __TextOutArgs
+0	77	390	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	390		mov __D0main, __TextOutArgs.Result
+0	77	392	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	392		release __TextOutMutex
+0	77	393	#line 77 "C:\Github\NXC_Source\Simon.nxc"
+0	78	393	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	393		set __signed_stack_001main, 1000
+0	78	396	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	396	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	396		mov __signed_stack_002main, __main_7qG2_i_7qG2_002
+0	78	398	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	398	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	398		index __signed_stack_002main, __main_7qG2_blink_7qG2_001, __signed_stack_002main
+0	78	402	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	402	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	402	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	402		set __D0main, 1000
+0	78	405	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	405		mul __D0main, __signed_stack_002main, __D0main
+0	78	409	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	409		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	78	413	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	413	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	413		set __signed_stack_002main, 250
+0	78	416	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	416	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	416		set __signed_stack_003main, 4
+0	78	419	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	419	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	419		set __D0main, 0
+0	78	422	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	422		acquire __SPTArgsMutex
+0	78	423	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	423		mov __SPTArgs.Frequency, __signed_stack_001main
+0	78	425	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	425		mov __SPTArgs.Duration, __signed_stack_002main
+0	78	427	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	427		mov __SPTArgs.Volume, __signed_stack_003main
+0	78	429	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	429		mov __SPTArgs.Loop, __D0main
+0	78	432	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	432		syscall 10, __SPTArgs
+0	78	435	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	435		mov __D0main, __SPTArgs.Result
+0	78	437	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	437		release __SPTArgsMutex
+0	78	438	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	78	438	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	79	438		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	78	441	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	8771	441	#line 8771 "NXCDefs.h"
+0	8772	441		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	443	#line 8771 "NXCDefs.h"
+0	78	443	#line 78 "C:\Github\NXC_Source\Simon.nxc"
+0	80	443	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	81	443		jmp __ASM_Label_1452
+0	80	445	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	80	445	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	81	445		set __ClearLine_7qG2_line_7qG2_000_inline_main, 48
+0	80	448	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	6903	448	#line 6903 "NXCDefs.h"
+0	6904	448	#pragma macro 7
+0	6904	448		acquire __TextOutMutex
+0	6904	449		mov __TextOutArgs.Location.X, __constVal0
+0	6904	451		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6904	453		mov __TextOutArgs.Options, __constVal0
+0	6904	455		mov __TextOutArgs.Text, __BlankLine
+0	6904	457		syscall 13, __TextOutArgs
+0	6904	460		release __TextOutMutex
+0	12726	461	#line 12726 "NXCDefs.h"
+0	6903	461	#line 6903 "NXCDefs.h"
+0	80	461	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	80	461	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	81	461		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
+0	80	464	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	6903	464	#line 6903 "NXCDefs.h"
+0	6904	464	#pragma macro 7
+0	6904	464		acquire __TextOutMutex
+0	6904	465		mov __TextOutArgs.Location.X, __constVal0
+0	6904	467		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6904	469		mov __TextOutArgs.Options, __constVal0
+0	6904	471		mov __TextOutArgs.Text, __BlankLine
+0	6904	473		syscall 13, __TextOutArgs
+0	6904	476		release __TextOutMutex
+0	12734	477	#line 12734 "NXCDefs.h"
+0	6903	477	#line 6903 "NXCDefs.h"
+0	80	477	#line 80 "C:\Github\NXC_Source\Simon.nxc"
+0	81	477	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	477		set __signed_stack_001main, 20
+0	81	480	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	81	480	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	480		set __signed_stack_002main, 48
+0	81	483	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	81	483	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	483		strcat __strbufmain, __constStr0046
+0	81	487	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	487		set __D0main, 0
+0	81	490	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	490		acquire __TextOutMutex
+0	81	491	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	491		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	81	493	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	493		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	81	495	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	495		mov __TextOutArgs.Options, __D0main
+0	81	497	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	497		mov __TextOutArgs.Text, __strbufmain
+0	81	499	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	499		syscall 13, __TextOutArgs
+0	81	502	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	502		mov __D0main, __TextOutArgs.Result
+0	81	504	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	504		release __TextOutMutex
+0	81	505	#line 81 "C:\Github\NXC_Source\Simon.nxc"
+0	82	505	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	505		set __main_7qG2_i_7qG2_002, 0
+0	82	508	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	82	508	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	508		mov __signed_stack_001main, __main_7qG2_i_7qG2_002
+0	82	510	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	82	510	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	510		mov __D0main, __main_7qG2_level_7qG2_001
+0	82	512	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	512		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	82	516	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	516		brtst 4, __ASM_Label_1498, __D0main
+0	82	519	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	519		mov __DU0main, __main_7qG2_alive_7qG2_001
+0	82	521	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	521		tst 5, __D0main, __DU0main
+0	82	524	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	524		brtst 4, __ASM_Label_1492, __D0main
+0	82	527	#line 82 "C:\Github\NXC_Source\Simon.nxc"
+0	83	527		jmp __ASM_Label_1493
+0	83	529	#line 83 "C:\Github\NXC_Source\Simon.nxc"
+0	84	529		add __main_7qG2_i_7qG2_002, __main_7qG2_i_7qG2_002, __constVal1
+0	84	533	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	85	533		jmp __ASM_Label_1491
+0	84	535	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	85	535		mov __signed_stack_001main, __main_7qG2_i_7qG2_002
+0	84	537	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	84	537	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	85	537		index __correctbutton_7qG2_b_7qG2_000, __main_7qG2_blink_7qG2_001, __signed_stack_001main
+0	84	541	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	84	541	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	84	541	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	85	541		subcall correctbutton, __correctbutton_return
+0	84	543	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	85	543		mov __main_7qG2_alive_7qG2_001, __DU0correctbutton
+0	84	545	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	84	545	#line 84 "C:\Github\NXC_Source\Simon.nxc"
+0	87	545	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	88	545		jmp __ASM_Label_1494
+0	87	547	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	87	547	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	88	547		jmp __ASM_Label_1407
+0	87	549	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	87	549	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	87	549	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	87	549	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	88	549		subcall endofgame, __endofgame_return
+0	87	551	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	88	551		mov __main_7qG2_playagain_7qG2_000, __DU0endofgame
+0	87	553	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	87	553	#line 87 "C:\Github\NXC_Source\Simon.nxc"
+0	91	553	#line 91 "C:\Github\NXC_Source\Simon.nxc"
+0	92	553		jmp __ASM_Label_1378
+0	91	555	#line 91 "C:\Github\NXC_Source\Simon.nxc"
+0	92	555		exit -1, -1
+1	9	0	#line 9 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	10	0		set __readHigh_7qG2_ARead_7qG2_000, 0
+1	9	3	#line 9 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	10	3	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	11	3	#pragma macro 7
+1	11	3		acquire __FOMutex
+1	11	4		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
+1	11	6		syscall 0, __FOArgs
+1	11	9		mov handle, __FOArgs.FileHandle
+1	11	11		mov __D0readHigh, __FOArgs.Result
+1	11	14		release __FOMutex
+1	10457	15	#line 10457 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	10	15	#line 10 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	11	15	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	11	15	#line 11 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	12	15		mov __signed_stack_001readHigh, __D0readHigh
+1	12	17	#line 12 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	13	17		set __D0readHigh, 0
+1	12	20	#line 12 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	13	20		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
+1	13	24	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	14	24		brtst 4, __ASM_Label_1067, __D0readHigh
+1	13	27	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	14	27	#pragma macro 15
+1	14	27		acquire __FReadMutex
+1	14	28		mov __FReadArgs.FileHandle, handle
+1	14	30		set __FReadArgs.Length, 2
+1	14	33		syscall 3, __FReadArgs
+1	14	36		mov __D0readHigh, __FReadArgs.Result
+1	14	38		unflatten __readHigh_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHigh_7qG2_ARead_7qG2_000
+1	14	43		release __FReadMutex
+1	10477	44	#line 10477 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	13	44	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	13	44	#line 13 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	14	44	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	15	44	#pragma macro 5
+1	15	44		acquire __FCMutex
+1	15	45		mov __FCArgs.FileHandle, handle
+1	15	47		syscall 5, __FCArgs
+1	15	50		mov __D0readHigh, __FCArgs.Result
+1	15	53		release __FCMutex
+1	10481	54	#line 10481 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	14	54	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	14	54	#line 14 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	17	54	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	18	54		jmp __ASM_Label_1068
+1	17	56	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	18	56		mov __readHigh_7qG2_ARead_7qG2_000, __constValNeg1
+1	17	58	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	17	58	#line 17 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	18	58	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	18	58	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	19	58		mov __D0readHigh, __readHigh_7qG2_ARead_7qG2_000
+1	18	60	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	19	60		subret __readHigh_return
+1	18	62	#line 18 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	21	62	#line 21 "C:\Github\NXC_Source\.\+HighScore.nxc"
+1	22	62		subret __readHigh_return
+2	76	0	#line 76 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	77	0	#pragma macro 5
+2	77	0		mov __FDArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
+2	77	2		syscall 8, __FDArgs
+2	77	5		mov __D0writeHigh, __FDArgs.Result
+2	10852	7	#line 10852 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	76	7	#line 76 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	76	7	#line 76 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	77	7	#line 77 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	78	7	#pragma macro 7
+2	78	7		acquire __FOMutex
+2	78	8		mov __FOArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
+2	78	10		mov __FOArgs.Length, __constVal1024
+2	78	12		syscall 1, __FOArgs
+2	78	15		mov handle, __FOArgs.FileHandle
+2	78	17		mov __D0writeHigh, __FOArgs.Result
+2	78	19		release __FOMutex
+2	10856	20	#line 10856 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	77	20	#line 77 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	77	20	#line 77 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	78	20	#line 78 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	79	20	#pragma macro 8
+2	79	20		acquire __FWriteMutex
+2	79	21		mov __FWriteArgs.FileHandle, handle
+2	79	23		flatten __FWriteFlattenBuf, __writeHigh_7qG2_NewHighscore_7qG2_000
+2	79	26		strtoarr __FWriteArgs.Buffer, __FWriteFlattenBuf
+2	79	29		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+2	79	32		syscall 4, __FWriteArgs
+2	79	35		mov __D0writeHigh, __FWriteArgs.Result
+2	79	37		release __FWriteMutex
+2	10860	38	#line 10860 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	78	38	#line 78 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	78	38	#line 78 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	79	38	#line 79 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	80	38	#pragma macro 5
+2	80	38		acquire __FCMutex
+2	80	39		mov __FCArgs.FileHandle, handle
+2	80	41		syscall 5, __FCArgs
+2	80	44		mov __D0writeHigh, __FCArgs.Result
+2	80	47		release __FCMutex
+2	10864	48	#line 10864 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	79	48	#line 79 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	79	48	#line 79 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	82	48	#line 82 "C:\Github\NXC_Source\.\+HighScore.nxc"
+2	83	48		subret __writeHigh_return
+3	11	0	#line 11 "C:\Github\NXC_Source\Simon.nxc"
+3	12	0		mov __correctbutton_7qG2_hit_7qG2_000, __constValNeg1
+3	11	2	#line 11 "C:\Github\NXC_Source\Simon.nxc"
+3	12	2	#line 12 "C:\Github\NXC_Source\Simon.nxc"
+3	13	2		mov __signed_stack_001correctbutton, __correctbutton_7qG2_hit_7qG2_000
+3	12	4	#line 12 "C:\Github\NXC_Source\Simon.nxc"
+3	13	4	#line 13 "C:\Github\NXC_Source\Simon.nxc"
+3	14	4		mov __D0correctbutton, __constValNeg1
+3	13	6	#line 13 "C:\Github\NXC_Source\Simon.nxc"
+3	14	6		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	14	10	#line 14 "C:\Github\NXC_Source\Simon.nxc"
+3	15	10		brtst 4, __ASM_Label_1218, __D0correctbutton
+3	14	13	#line 14 "C:\Github\NXC_Source\Simon.nxc"
+3	15	13	#pragma macro 2
+3	15	13	#pragma macro 25
+3	15	13		acquire __IOMRMutex
+3	15	14		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	15	16		mov __IOMRBIArgs.Offset, __constVal34
+3	15	18		set __IOMRBIArgs.Count, 1
+3	15	21		syscall 78, __IOMRBIArgs
+3	15	24		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	15	27		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+3	15	32		release __IOMRMutex
+3	11423	33	#line 11423 "C:\Github\NXC_Source\Simon.nxc"
+3	11424	33		mov __correctbutton_7qG2_l_7qG2_000, __tmpsbytecorrectbutton
+3	14	35	#line 14 "C:\Github\NXC_Source\Simon.nxc"
+3	14	35	#line 14 "C:\Github\NXC_Source\Simon.nxc"
+3	14	35	#line 14 "C:\Github\NXC_Source\Simon.nxc"
+3	14	35	#line 14 "C:\Github\NXC_Source\Simon.nxc"
+3	15	35	#line 15 "C:\Github\NXC_Source\Simon.nxc"
+3	16	35	#pragma macro 2
+3	16	35	#pragma macro 25
+3	16	35		acquire __IOMRMutex
+3	16	36		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	16	38		mov __IOMRBIArgs.Offset, __constVal35
+3	16	40		set __IOMRBIArgs.Count, 1
+3	16	43		syscall 78, __IOMRBIArgs
+3	16	46		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	16	49		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+3	16	54		release __IOMRMutex
+3	11434	55	#line 11434 "C:\Github\NXC_Source\Simon.nxc"
+3	11435	55		mov __correctbutton_7qG2_c_7qG2_000, __tmpsbytecorrectbutton
+3	15	57	#line 15 "C:\Github\NXC_Source\Simon.nxc"
+3	15	57	#line 15 "C:\Github\NXC_Source\Simon.nxc"
+3	15	57	#line 15 "C:\Github\NXC_Source\Simon.nxc"
+3	15	57	#line 15 "C:\Github\NXC_Source\Simon.nxc"
+3	16	57	#line 16 "C:\Github\NXC_Source\Simon.nxc"
+3	17	57	#pragma macro 2
+3	17	57	#pragma macro 25
+3	17	57		acquire __IOMRMutex
+3	17	58		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	17	60		mov __IOMRBIArgs.Offset, __constVal33
+3	17	62		set __IOMRBIArgs.Count, 1
+3	17	65		syscall 78, __IOMRBIArgs
+3	17	68		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	17	71		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+3	17	76		release __IOMRMutex
+3	11445	77	#line 11445 "C:\Github\NXC_Source\Simon.nxc"
+3	11446	77		mov __correctbutton_7qG2_r_7qG2_000, __tmpsbytecorrectbutton
+3	16	79	#line 16 "C:\Github\NXC_Source\Simon.nxc"
+3	16	79	#line 16 "C:\Github\NXC_Source\Simon.nxc"
+3	16	79	#line 16 "C:\Github\NXC_Source\Simon.nxc"
+3	16	79	#line 16 "C:\Github\NXC_Source\Simon.nxc"
+3	17	79	#line 17 "C:\Github\NXC_Source\Simon.nxc"
+3	18	79		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
+3	17	81	#line 17 "C:\Github\NXC_Source\Simon.nxc"
+3	18	81	#line 18 "C:\Github\NXC_Source\Simon.nxc"
+3	19	81		set __D0correctbutton, 0
+3	18	84	#line 18 "C:\Github\NXC_Source\Simon.nxc"
+3	19	84		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	19	88	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	20	88		brtst 4, __ASM_Label_1229, __D0correctbutton
+3	19	91	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	20	91		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+3	19	93	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	20	93		tst 5, __D0correctbutton, __D0correctbutton
+3	19	96	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	20	96		brtst 4, __ASM_Label_1232, __D0correctbutton
+3	19	99	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	20	99		set __correctbutton_7qG2_hit_7qG2_000, 1
+3	19	102	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	19	102	#line 19 "C:\Github\NXC_Source\Simon.nxc"
+3	20	102	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	20	102	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	102		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+3	20	104	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	104		tst 5, __D0correctbutton, __D0correctbutton
+3	20	107	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	107		brtst 5, __ASM_Label_1235, __D0correctbutton
+3	20	110	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	110		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+3	20	112	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	112		tst 5, __D0correctbutton, __D0correctbutton
+3	20	115	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	115		brtst 4, __ASM_Label_1238, __D0correctbutton
+3	20	118	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	21	118		set __correctbutton_7qG2_hit_7qG2_000, 0
+3	20	121	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	20	121	#line 20 "C:\Github\NXC_Source\Simon.nxc"
+3	22	121	#line 22 "C:\Github\NXC_Source\Simon.nxc"
+3	22	121	#line 22 "C:\Github\NXC_Source\Simon.nxc"
+3	22	121	#line 22 "C:\Github\NXC_Source\Simon.nxc"
+3	23	121		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
+3	22	123	#line 22 "C:\Github\NXC_Source\Simon.nxc"
+3	23	123	#line 23 "C:\Github\NXC_Source\Simon.nxc"
+3	24	123		set __D0correctbutton, 1
+3	23	126	#line 23 "C:\Github\NXC_Source\Simon.nxc"
+3	24	126		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	24	130	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	25	130		brtst 4, __ASM_Label_1243, __D0correctbutton
+3	24	133	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	25	133		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+3	24	135	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	25	135		tst 5, __D0correctbutton, __D0correctbutton
+3	24	138	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	25	138		brtst 4, __ASM_Label_1246, __D0correctbutton
+3	24	141	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	25	141		set __correctbutton_7qG2_hit_7qG2_000, 1
+3	24	144	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	24	144	#line 24 "C:\Github\NXC_Source\Simon.nxc"
+3	25	144	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	25	144	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	144		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+3	25	146	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	146		tst 5, __D0correctbutton, __D0correctbutton
+3	25	149	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	149		brtst 5, __ASM_Label_1249, __D0correctbutton
+3	25	152	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	152		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+3	25	154	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	154		tst 5, __D0correctbutton, __D0correctbutton
+3	25	157	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	157		brtst 4, __ASM_Label_1252, __D0correctbutton
+3	25	160	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	26	160		set __correctbutton_7qG2_hit_7qG2_000, 0
+3	25	163	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	25	163	#line 25 "C:\Github\NXC_Source\Simon.nxc"
+3	27	163	#line 27 "C:\Github\NXC_Source\Simon.nxc"
+3	27	163	#line 27 "C:\Github\NXC_Source\Simon.nxc"
+3	27	163	#line 27 "C:\Github\NXC_Source\Simon.nxc"
+3	28	163		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
+3	27	165	#line 27 "C:\Github\NXC_Source\Simon.nxc"
+3	28	165	#line 28 "C:\Github\NXC_Source\Simon.nxc"
+3	29	165		set __D0correctbutton, 2
+3	28	168	#line 28 "C:\Github\NXC_Source\Simon.nxc"
+3	29	168		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	29	172	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	30	172		brtst 4, __ASM_Label_1257, __D0correctbutton
+3	29	175	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	30	175		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+3	29	177	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	30	177		tst 5, __D0correctbutton, __D0correctbutton
+3	29	180	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	30	180		brtst 4, __ASM_Label_1260, __D0correctbutton
+3	29	183	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	30	183		set __correctbutton_7qG2_hit_7qG2_000, 1
+3	29	186	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	29	186	#line 29 "C:\Github\NXC_Source\Simon.nxc"
+3	30	186	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	30	186	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	186		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+3	30	188	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	188		tst 5, __D0correctbutton, __D0correctbutton
+3	30	191	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	191		brtst 5, __ASM_Label_1263, __D0correctbutton
+3	30	194	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	194		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+3	30	196	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	196		tst 5, __D0correctbutton, __D0correctbutton
+3	30	199	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	199		brtst 4, __ASM_Label_1266, __D0correctbutton
+3	30	202	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	31	202		set __correctbutton_7qG2_hit_7qG2_000, 0
+3	30	205	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	30	205	#line 30 "C:\Github\NXC_Source\Simon.nxc"
+3	32	205	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	32	205	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	32	205	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	205		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+3	32	207	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	207		tst 5, __D0correctbutton, __D0correctbutton
+3	32	210	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	210		brtst 4, __ASM_Label_1271, __D0correctbutton
+3	32	213	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	213		set __signed_stack_001correctbutton, 1000
+3	32	216	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	32	216	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	216		set __signed_stack_002correctbutton, 250
+3	32	219	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	32	219	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	219		set __signed_stack_003correctbutton, 4
+3	32	222	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	32	222	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	222		set __D0correctbutton, 0
+3	32	225	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	225		acquire __SPTArgsMutex
+3	32	226	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	226		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
+3	32	228	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	228		mov __SPTArgs.Duration, __signed_stack_002correctbutton
+3	32	230	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	230		mov __SPTArgs.Volume, __signed_stack_003correctbutton
+3	32	232	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	232		mov __SPTArgs.Loop, __D0correctbutton
+3	32	234	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	234		syscall 10, __SPTArgs
+3	32	237	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	237		mov __D0correctbutton, __SPTArgs.Result
+3	32	239	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	239		release __SPTArgsMutex
+3	32	240	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	32	240	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	240		set __Wait_7qG2_ms_7qG2_000_inline_correctbutton, 250
+3	32	243	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	8771	243	#line 8771 "NXCDefs.h"
+3	8772	243		waitv __Wait_7qG2_ms_7qG2_000_inline_correctbutton
+3	8771	245	#line 8771 "NXCDefs.h"
+3	32	245	#line 32 "C:\Github\NXC_Source\Simon.nxc"
+3	33	245	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	33	245	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	245		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+3	33	247	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	247		tst 5, __D0correctbutton, __D0correctbutton
+3	33	250	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	250		brtst 4, __ASM_Label_1284, __D0correctbutton
+3	33	253	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	253		set __signed_stack_001correctbutton, 2000
+3	33	256	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	33	256	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	256		set __signed_stack_002correctbutton, 250
+3	33	259	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	33	259	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	259		set __signed_stack_003correctbutton, 4
+3	33	262	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	33	262	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	262		set __D0correctbutton, 0
+3	33	265	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	265		acquire __SPTArgsMutex
+3	33	266	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	266		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
+3	33	268	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	268		mov __SPTArgs.Duration, __signed_stack_002correctbutton
+3	33	270	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	270		mov __SPTArgs.Volume, __signed_stack_003correctbutton
+3	33	272	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	272		mov __SPTArgs.Loop, __D0correctbutton
+3	33	274	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	274		syscall 10, __SPTArgs
+3	33	277	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	277		mov __D0correctbutton, __SPTArgs.Result
+3	33	279	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	279		release __SPTArgsMutex
+3	33	280	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	33	280	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	280		set __Wait_7qG2_ms_7qG2_000_inline_correctbutton, 250
+3	33	283	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	8771	283	#line 8771 "NXCDefs.h"
+3	8772	283		waitv __Wait_7qG2_ms_7qG2_000_inline_correctbutton
+3	8771	285	#line 8771 "NXCDefs.h"
+3	33	285	#line 33 "C:\Github\NXC_Source\Simon.nxc"
+3	34	285	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	34	285	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	285		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+3	34	287	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	287		tst 5, __D0correctbutton, __D0correctbutton
+3	34	290	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	290		brtst 4, __ASM_Label_1297, __D0correctbutton
+3	34	293	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	293		set __signed_stack_001correctbutton, 3000
+3	34	296	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	34	296	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	296		set __signed_stack_002correctbutton, 250
+3	34	299	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	34	299	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	299		set __signed_stack_003correctbutton, 4
+3	34	302	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	34	302	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	302		set __D0correctbutton, 0
+3	34	305	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	305		acquire __SPTArgsMutex
+3	34	306	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	306		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
+3	34	308	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	308		mov __SPTArgs.Duration, __signed_stack_002correctbutton
+3	34	310	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	310		mov __SPTArgs.Volume, __signed_stack_003correctbutton
+3	34	312	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	312		mov __SPTArgs.Loop, __D0correctbutton
+3	34	314	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	314		syscall 10, __SPTArgs
+3	34	317	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	317		mov __D0correctbutton, __SPTArgs.Result
+3	34	319	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	319		release __SPTArgsMutex
+3	34	320	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	34	320	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	35	320		set __Wait_7qG2_ms_7qG2_000_inline_correctbutton, 250
+3	34	323	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	8771	323	#line 8771 "NXCDefs.h"
+3	8772	323		waitv __Wait_7qG2_ms_7qG2_000_inline_correctbutton
+3	8771	325	#line 8771 "NXCDefs.h"
+3	34	325	#line 34 "C:\Github\NXC_Source\Simon.nxc"
+3	36	325	#line 36 "C:\Github\NXC_Source\Simon.nxc"
+3	37	325	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	38	325	#pragma macro 3
+3	37	325	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	325		jmp __ASM_Label_1217
+3	37	327	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	327	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	38	327	#pragma macro 2
+3	38	327	#pragma macro 25
+3	38	327		acquire __IOMRMutex
+3	38	328		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	38	330		mov __IOMRBIArgs.Offset, __constVal34
+3	38	332		set __IOMRBIArgs.Count, 1
+3	38	335		syscall 78, __IOMRBIArgs
+3	38	338		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	38	341		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+3	38	346		release __IOMRMutex
+3	11791	347	#line 11791 "C:\Github\NXC_Source\Simon.nxc"
+3	11792	347		mov __signed_stack_001correctbutton, __tmpsbytecorrectbutton
+3	37	349	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	349	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	38	349	#line 38 "C:\Github\NXC_Source\Simon.nxc"
+3	39	349		set __D0correctbutton, 0
+3	38	352	#line 38 "C:\Github\NXC_Source\Simon.nxc"
+3	39	352		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	38	356	#line 38 "C:\Github\NXC_Source\Simon.nxc"
+3	39	356		brtst 4, __ASM_Label_1313, __D0correctbutton
+3	38	359	#line 38 "C:\Github\NXC_Source\Simon.nxc"
+3	39	359	#pragma macro 2
+3	39	359	#pragma macro 25
+3	39	359		acquire __IOMRMutex
+3	39	360		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	39	362		mov __IOMRBIArgs.Offset, __constVal35
+3	39	364		set __IOMRBIArgs.Count, 1
+3	39	367		syscall 78, __IOMRBIArgs
+3	39	370		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	39	373		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+3	39	378		release __IOMRMutex
+3	11806	379	#line 11806 "C:\Github\NXC_Source\Simon.nxc"
+3	11807	379		mov __signed_stack_001correctbutton, __tmpsbytecorrectbutton
+3	38	381	#line 38 "C:\Github\NXC_Source\Simon.nxc"
+3	38	381	#line 38 "C:\Github\NXC_Source\Simon.nxc"
+3	39	381	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	40	381		set __D0correctbutton, 0
+3	39	384	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	40	384		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	39	388	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	40	388		brtst 4, __ASM_Label_1313, __D0correctbutton
+3	39	391	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	40	391	#pragma macro 2
+3	40	391	#pragma macro 25
+3	40	391		acquire __IOMRMutex
+3	40	392		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	40	394		mov __IOMRBIArgs.Offset, __constVal33
+3	40	396		set __IOMRBIArgs.Count, 1
+3	40	399		syscall 78, __IOMRBIArgs
+3	40	402		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	40	405		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+3	40	410		release __IOMRMutex
+3	11821	411	#line 11821 "C:\Github\NXC_Source\Simon.nxc"
+3	11822	411		mov __signed_stack_001correctbutton, __tmpsbytecorrectbutton
+3	39	413	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	39	413	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	39	413	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	40	413		set __D0correctbutton, 0
+3	39	416	#line 39 "C:\Github\NXC_Source\Simon.nxc"
+3	40	416		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+3	40	420	#line 40 "C:\Github\NXC_Source\Simon.nxc"
+3	41	420		not __D0correctbutton, __D0correctbutton
+3	36	423	#line 36 "C:\Github\NXC_Source\Simon.nxc"
+3	36	423	#line 36 "C:\Github\NXC_Source\Simon.nxc"
+3	36	423	#line 36 "C:\Github\NXC_Source\Simon.nxc"
+3	37	423		tst 5, __D0correctbutton, __D0correctbutton
+3	36	426	#line 36 "C:\Github\NXC_Source\Simon.nxc"
+3	37	426		brtst 4, __ASM_Label_1309, __D0correctbutton
+3	37	429	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	429	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	429	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	38	429		jmp __ASM_Label_1308
+3	37	431	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	431	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	38	431		mov __DU0correctbutton, __correctbutton_7qG2_hit_7qG2_000
+3	37	433	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	37	433	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	38	433		subret __correctbutton_return
+3	37	435	#line 37 "C:\Github\NXC_Source\Simon.nxc"
+3	40	435	#line 40 "C:\Github\NXC_Source\Simon.nxc"
+3	41	435		subret __correctbutton_return
+4	42	0	#line 42 "C:\Github\NXC_Source\Simon.nxc"
+4	43	0		set __ClearLine_7qG2_line_7qG2_000_inline_endofgame, 48
+4	42	3	#line 42 "C:\Github\NXC_Source\Simon.nxc"
+4	6903	3	#line 6903 "NXCDefs.h"
+4	6904	3	#pragma macro 7
+4	6904	3		acquire __TextOutMutex
+4	6904	4		mov __TextOutArgs.Location.X, __constVal0
+4	6904	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_endofgame
+4	6904	8		mov __TextOutArgs.Options, __constVal0
+4	6904	10		mov __TextOutArgs.Text, __BlankLine
+4	6904	12		syscall 13, __TextOutArgs
+4	6904	15		release __TextOutMutex
+4	11877	16	#line 11877 "NXCDefs.h"
+4	6903	16	#line 6903 "NXCDefs.h"
+4	42	16	#line 42 "C:\Github\NXC_Source\Simon.nxc"
+4	42	16	#line 42 "C:\Github\NXC_Source\Simon.nxc"
+4	43	16		set __ClearLine_7qG2_line_7qG2_000_inline_endofgame, 0
+4	42	19	#line 42 "C:\Github\NXC_Source\Simon.nxc"
+4	6903	19	#line 6903 "NXCDefs.h"
+4	6904	19	#pragma macro 7
+4	6904	19		acquire __TextOutMutex
+4	6904	20		mov __TextOutArgs.Location.X, __constVal0
+4	6904	22		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_endofgame
+4	6904	24		mov __TextOutArgs.Options, __constVal0
+4	6904	26		mov __TextOutArgs.Text, __BlankLine
+4	6904	28		syscall 13, __TextOutArgs
+4	6904	31		release __TextOutMutex
+4	11885	32	#line 11885 "NXCDefs.h"
+4	6903	32	#line 6903 "NXCDefs.h"
+4	42	32	#line 42 "C:\Github\NXC_Source\Simon.nxc"
+4	43	32	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	32		set __signed_stack_001endofgame, 25
+4	43	35	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	43	35	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	35		set __signed_stack_002endofgame, 48
+4	43	38	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	43	38	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	38		strcat __strbufendofgame, __constStr0037
+4	43	42	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	42		set __D0endofgame, 0
+4	43	45	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	45		acquire __TextOutMutex
+4	43	46	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	46		mov __TextOutArgs.Location.X, __signed_stack_001endofgame
+4	43	48	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	48		mov __TextOutArgs.Location.Y, __signed_stack_002endofgame
+4	43	50	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	50		mov __TextOutArgs.Options, __D0endofgame
+4	43	52	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	52		mov __TextOutArgs.Text, __strbufendofgame
+4	43	54	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	54		syscall 13, __TextOutArgs
+4	43	57	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	57		mov __D0endofgame, __TextOutArgs.Result
+4	43	59	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	59		release __TextOutMutex
+4	43	60	#line 43 "C:\Github\NXC_Source\Simon.nxc"
+4	44	60	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	60		set __signed_stack_001endofgame, 32
+4	44	63	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	44	63	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	63		set __signed_stack_002endofgame, 8
+4	44	66	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	44	66	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	66		strcat __strbufendofgame, __constStr0038
+4	44	70	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	70		set __D0endofgame, 0
+4	44	73	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	73		acquire __TextOutMutex
+4	44	74	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	74		mov __TextOutArgs.Location.X, __signed_stack_001endofgame
+4	44	76	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	76		mov __TextOutArgs.Location.Y, __signed_stack_002endofgame
+4	44	78	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	78		mov __TextOutArgs.Options, __D0endofgame
+4	44	80	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	80		mov __TextOutArgs.Text, __strbufendofgame
+4	44	82	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	82		syscall 13, __TextOutArgs
+4	44	85	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	85		mov __D0endofgame, __TextOutArgs.Result
+4	44	87	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	87		release __TextOutMutex
+4	44	88	#line 44 "C:\Github\NXC_Source\Simon.nxc"
+4	45	88	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	88		set __signed_stack_001endofgame, 2
+4	45	91	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	45	91	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	91		set __signed_stack_002endofgame, 0
+4	45	94	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	45	94	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	94		strcat __strbufendofgame, __constStr0039
+4	45	98	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	98		set __D0endofgame, 0
+4	45	101	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	101		acquire __TextOutMutex
+4	45	102	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	102		mov __TextOutArgs.Location.X, __signed_stack_001endofgame
+4	45	104	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	104		mov __TextOutArgs.Location.Y, __signed_stack_002endofgame
+4	45	106	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	106		mov __TextOutArgs.Options, __D0endofgame
+4	45	108	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	108		mov __TextOutArgs.Text, __strbufendofgame
+4	45	110	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	110		syscall 13, __TextOutArgs
+4	45	113	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	113		mov __D0endofgame, __TextOutArgs.Result
+4	45	115	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	115		release __TextOutMutex
+4	45	116	#line 45 "C:\Github\NXC_Source\Simon.nxc"
+4	46	116	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	116		set __signed_stack_001endofgame, 2960
+4	46	119	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	46	119	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	119		set __signed_stack_002endofgame, 500
+4	46	122	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	46	122	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	122		set __signed_stack_003endofgame, 4
+4	46	125	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	46	125	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	125		set __D0endofgame, 0
+4	46	128	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	128		acquire __SPTArgsMutex
+4	46	129	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	129		mov __SPTArgs.Frequency, __signed_stack_001endofgame
+4	46	131	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	131		mov __SPTArgs.Duration, __signed_stack_002endofgame
+4	46	133	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	133		mov __SPTArgs.Volume, __signed_stack_003endofgame
+4	46	135	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	135		mov __SPTArgs.Loop, __D0endofgame
+4	46	138	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	138		syscall 10, __SPTArgs
+4	46	141	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	141		mov __D0endofgame, __SPTArgs.Result
+4	46	143	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	143		release __SPTArgsMutex
+4	46	144	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	46	144	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	144		set __Wait_7qG2_ms_7qG2_000_inline_endofgame, 500
+4	46	147	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	8771	147	#line 8771 "NXCDefs.h"
+4	8772	147		waitv __Wait_7qG2_ms_7qG2_000_inline_endofgame
+4	8771	149	#line 8771 "NXCDefs.h"
+4	46	149	#line 46 "C:\Github\NXC_Source\Simon.nxc"
+4	47	149	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	149		set __signed_stack_001endofgame, 2794
+4	47	152	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	47	152	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	152		set __signed_stack_002endofgame, 550
+4	47	155	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	47	155	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	155		set __signed_stack_003endofgame, 4
+4	47	158	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	47	158	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	158		set __D0endofgame, 0
+4	47	161	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	161		acquire __SPTArgsMutex
+4	47	162	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	162		mov __SPTArgs.Frequency, __signed_stack_001endofgame
+4	47	164	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	164		mov __SPTArgs.Duration, __signed_stack_002endofgame
+4	47	166	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	166		mov __SPTArgs.Volume, __signed_stack_003endofgame
+4	47	168	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	168		mov __SPTArgs.Loop, __D0endofgame
+4	47	171	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	171		syscall 10, __SPTArgs
+4	47	174	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	174		mov __D0endofgame, __SPTArgs.Result
+4	47	176	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	176		release __SPTArgsMutex
+4	47	177	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	47	177	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	177		set __Wait_7qG2_ms_7qG2_000_inline_endofgame, 550
+4	47	180	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	8771	180	#line 8771 "NXCDefs.h"
+4	8772	180		waitv __Wait_7qG2_ms_7qG2_000_inline_endofgame
+4	8771	182	#line 8771 "NXCDefs.h"
+4	47	182	#line 47 "C:\Github\NXC_Source\Simon.nxc"
+4	48	182	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	182		set __signed_stack_001endofgame, 2637
+4	48	185	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	48	185	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	185		set __signed_stack_002endofgame, 950
+4	48	188	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	48	188	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	188		set __signed_stack_003endofgame, 4
+4	48	191	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	48	191	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	191		set __D0endofgame, 0
+4	48	194	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	194		acquire __SPTArgsMutex
+4	48	195	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	195		mov __SPTArgs.Frequency, __signed_stack_001endofgame
+4	48	197	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	197		mov __SPTArgs.Duration, __signed_stack_002endofgame
+4	48	199	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	199		mov __SPTArgs.Volume, __signed_stack_003endofgame
+4	48	201	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	201		mov __SPTArgs.Loop, __D0endofgame
+4	48	204	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	204		syscall 10, __SPTArgs
+4	48	207	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	207		mov __D0endofgame, __SPTArgs.Result
+4	48	209	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	209		release __SPTArgsMutex
+4	48	210	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	48	210	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	210		set __Wait_7qG2_ms_7qG2_000_inline_endofgame, 950
+4	48	213	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	8771	213	#line 8771 "NXCDefs.h"
+4	8772	213		waitv __Wait_7qG2_ms_7qG2_000_inline_endofgame
+4	8771	215	#line 8771 "NXCDefs.h"
+4	48	215	#line 48 "C:\Github\NXC_Source\Simon.nxc"
+4	49	215	#line 49 "C:\Github\NXC_Source\Simon.nxc"
+4	50	215	#pragma macro 2
+4	50	215	#pragma macro 25
+4	50	215		acquire __IOMRMutex
+4	50	216		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	50	218		mov __IOMRBIArgs.Offset, __constVal34
+4	50	220		set __IOMRBIArgs.Count, 1
+4	50	223		syscall 78, __IOMRBIArgs
+4	50	226		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	50	229		unflatten __tmpsbyteendofgame, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteendofgame
+4	50	234		release __IOMRMutex
+4	12129	235	#line 12129 "C:\Github\NXC_Source\Simon.nxc"
+4	12130	235		mov __signed_stack_001endofgame, __tmpsbyteendofgame
+4	49	237	#line 49 "C:\Github\NXC_Source\Simon.nxc"
+4	49	237	#line 49 "C:\Github\NXC_Source\Simon.nxc"
+4	50	237	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	237		set __D0endofgame, 0
+4	50	240	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	240		cmp 4, __D0endofgame, __signed_stack_001endofgame, __D0endofgame
+4	50	244	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	244		brtst 4, __ASM_Label_1371, __D0endofgame
+4	50	247	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	247	#pragma macro 2
+4	51	247	#pragma macro 25
+4	51	247		acquire __IOMRMutex
+4	51	248		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	51	250		mov __IOMRBIArgs.Offset, __constVal33
+4	51	252		set __IOMRBIArgs.Count, 1
+4	51	255		syscall 78, __IOMRBIArgs
+4	51	258		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	51	261		unflatten __tmpsbyteendofgame, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteendofgame
+4	51	266		release __IOMRMutex
+4	12144	267	#line 12144 "C:\Github\NXC_Source\Simon.nxc"
+4	12145	267		mov __signed_stack_001endofgame, __tmpsbyteendofgame
+4	50	269	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	50	269	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	50	269	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	269		set __D0endofgame, 0
+4	50	272	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	272		cmp 4, __D0endofgame, __signed_stack_001endofgame, __D0endofgame
+4	50	276	#line 50 "C:\Github\NXC_Source\Simon.nxc"
+4	51	276		brtst 4, __ASM_Label_1369, __D0endofgame
+4	51	279	#line 51 "C:\Github\NXC_Source\Simon.nxc"
+4	52	279		jmp __ASM_Label_1368
+4	51	281	#line 51 "C:\Github\NXC_Source\Simon.nxc"
+4	51	281	#line 51 "C:\Github\NXC_Source\Simon.nxc"
+4	52	281	#pragma macro 2
+4	52	281	#pragma macro 25
+4	52	281		acquire __IOMRMutex
+4	52	282		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	52	284		mov __IOMRBIArgs.Offset, __constVal34
+4	52	286		set __IOMRBIArgs.Count, 1
+4	52	289		syscall 78, __IOMRBIArgs
+4	52	292		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	52	295		unflatten __tmpsbyteendofgame, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteendofgame
+4	52	300		release __IOMRMutex
+4	12165	301	#line 12165 "C:\Github\NXC_Source\Simon.nxc"
+4	12166	301		mov __DU0endofgame, __tmpsbyteendofgame
+4	51	303	#line 51 "C:\Github\NXC_Source\Simon.nxc"
+4	54	303	#line 54 "C:\Github\NXC_Source\Simon.nxc"
+4	54	303	#line 54 "C:\Github\NXC_Source\Simon.nxc"
+4	55	303		subret __endofgame_return
+4	54	305	#line 54 "C:\Github\NXC_Source\Simon.nxc"
+4	54	305	#line 54 "C:\Github\NXC_Source\Simon.nxc"
+4	55	305		subret __endofgame_return
+5	92	0	#line 92 "C:\Github\NXC_Source\Simon.nxc"
+5	93	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+5	92	43	#line 92 "C:\Github\NXC_Source\Simon.nxc"
+5	93	43		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\Simon.nxc
+1	readHigh	558	C:\Github\NXC_Source\.\+HighScore.nxc
+2	writeHigh	622	C:\Github\NXC_Source\.\+HighScore.nxc
+3	correctbutton	672	C:\Github\NXC_Source\Simon.nxc
+4	endofgame	1109	C:\Github\NXC_Source\Simon.nxc
+5	__initialize_global_data	1416	C:\Github\NXC_Source\Simon.nxc

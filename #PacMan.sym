@@ -1,0 +1,1502 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001drawBoard	6	1	0	4	84
+1	__signed_stack_002drawBoard	6	1	4	4	66
+2	__D0main	6	1	8	4	151
+3	__constVal32768	6	0	12	4	1
+4	__D0drawBoard	6	1	16	4	129
+5	__signed_stack_003drawBoard	6	1	20	4	12
+6	__unsigned_stack_001main	5	1	24	4	2
+7	__constVal65536	6	0	28	4	1
+8	__signed_stack_002main	6	1	32	4	60
+9	__signed_stack_004drawBoard	6	1	36	4	2
+10	__signed_stack_001main	6	1	40	4	138
+11	__RandomTmp	5	1	44	4	6
+12	b	4	1	48	2	5
+13	score	4	1	50	2	6
+14	a	4	1	52	2	5
+15	bab	4	1	54	2	4
+16	__main_7qG2_j_7qG2_003	4	1	56	2	15
+17	__main_7qG2_i_7qG2_005	4	1	58	2	15
+18	__drawBoard_7qG2_j_7qG2_001	4	1	60	2	20
+19	__drawBoard_7qG2_i_7qG2_003	4	1	62	2	20
+20	__drawBoard_return	1	1	64	1	3
+21	alive	1	0	65	1	5
+22	__constVal0	2	1	66	1	3
+23	__constVal1	2	0	67	1	6
+24	__constValNeg1	2	0	68	1	2
+25	____initialize_global_data_return	1	1	69	1	3
+26	__constVal2	2	0	70	1	1
+27	__constVal3	2	0	71	1	2
+28	__CircleOutArgs	8	0	4	16	28
+29	__CircleOutArgs.Result	2	1	72	1	28
+30	__CircleOutArgs.Center	8	0	2	4	28
+31	__CircleOutArgs.Center.X	4	1	76	2	28
+32	__CircleOutArgs.Center.Y	4	1	78	2	28
+33	__CircleOutArgs.Size	1	1	80	1	28
+34	__CircleOutArgs.Options	5	1	84	4	28
+35	__RectOutArgs	8	0	4	16	7
+36	__RectOutArgs.Result	2	1	88	1	7
+37	__RectOutArgs.Location	8	0	2	4	7
+38	__RectOutArgs.Location.X	4	1	92	2	7
+39	__RectOutArgs.Location.Y	4	1	94	2	7
+40	__RectOutArgs.Size	8	0	2	4	7
+41	__RectOutArgs.Size.Width	4	1	96	2	7
+42	__RectOutArgs.Size.Height	4	1	98	2	7
+43	__RectOutArgs.Options	5	1	100	4	7
+44	__PointOutArgs	8	0	3	12	15
+45	__PointOutArgs.Result	2	1	104	1	15
+46	__PointOutArgs.Location	8	0	2	4	15
+47	__PointOutArgs.Location.X	4	1	108	2	15
+48	__PointOutArgs.Location.Y	4	1	110	2	15
+49	__PointOutArgs.Options	5	1	112	4	15
+50	__TextOutArgs	8	0	4	16	11
+51	__TextOutArgs.Result	2	1	116	1	11
+52	__TextOutArgs.Location	8	0	2	4	11
+53	__TextOutArgs.Location.X	4	1	120	2	11
+54	__TextOutArgs.Location.Y	4	1	122	2	11
+55	__TextOutArgs.Text	7	0	124	4	11
+56	__TextOutArgs.Text.Text_type	1	0	0	1	0
+57	__TextOutArgs.Options	5	1	128	4	11
+58	__RandomArgs	8	0	1	4	2
+59	__RandomArgs.Result	4	1	132	2	2
+60	__RBtnArgs	8	0	5	8	12
+61	__RBtnArgs.Result	2	1	136	1	12
+62	__RBtnArgs.Index	1	1	137	1	12
+63	__RBtnArgs.Pressed	1	1	138	1	12
+64	__RBtnArgs.Count	1	1	139	1	12
+65	__RBtnArgs.Reset	1	1	140	1	12
+66	__constStr0015	7	0	142	4	1
+67	__constStr0015.__constStr0015_type	2	1	0	1	0
+68	__constStr0017	7	0	144	4	1
+69	__constStr0017.__constStr0017_type	2	1	0	1	0
+70	__constStr0016	7	0	146	4	1
+71	__constStr0016.__constStr0016_type	2	1	0	1	0
+72	__constStr0014	7	0	148	4	1
+73	__constStr0014.__constStr0014_type	2	1	0	1	0
+74	__constStr0013	7	0	150	4	1
+75	__constStr0013.__constStr0013_type	2	1	0	1	0
+76	__constStr0012	7	0	152	4	1
+77	__constStr0012.__constStr0012_type	2	1	0	1	0
+78	__constStr0011	7	0	154	4	2
+79	__constStr0011.__constStr0011_type	2	1	0	1	0
+80	__constStr0009	7	0	156	4	1
+81	__constStr0009.__constStr0009_type	1	1	0	1	0
+82	__constStr0010	7	0	158	4	1
+83	__constStr0010.__constStr0010_type	1	1	0	1	0
+84	__e_2	7	0	160	4	2
+85	__e_2.__e_2_type	4	0	0	2	0
+86	__ArrHelper__main_244_1	7	0	162	4	2
+87	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+88	__strbufmain	7	0	164	4	6
+89	__strbufmain.__strbufmain_type	1	0	0	1	0
+90	__ArrHelper__main_244_0	7	0	166	4	2
+91	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+92	__ArrHelper__drawBoard_236_0	7	0	168	4	14
+93	__ArrHelper__drawBoard_236_0.__ArrHelper__drawBoard_236_0_type	4	0	0	2	0
+94	__ArrHelper__main_236_0	7	0	170	4	66
+95	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+96	go	7	0	172	4	19
+97	go.go_type	4	0	0	2	0
+98	board	7	0	174	4	15
+99	board.board_type	7	0	0	4	0
+100	board.board_type.board_type_type	4	0	0	2	0
+101	me	7	0	176	4	11
+102	me.me_type	4	0	0	2	0
+103	__strretvalmain	7	0	178	4	2
+104	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+105	e	7	0	180	4	36
+106	e.e_type	7	0	0	4	0
+107	e.e_type.e_type_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	49	0	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	49	2	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	49	2	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	2		set score, 0
+0	49	5	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	49	5	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	5		mov __unsigned_stack_001main, alive
+0	49	7	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	49	7	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	7		set __D0main, 1
+0	49	10	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	10		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	49	14	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	14		brtst 4, __ASM_Label_738, __D0main
+0	49	17	#line 49 "C:\Github\NXC_Source\#PacMan.nxc"
+0	50	17		jmp __ASM_Label_739
+0	50	19	#line 50 "C:\Github\NXC_Source\#PacMan.nxc"
+0	51	19		add score, score, __constVal1
+0	52	23	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	23		jmp __ASM_Label_737
+0	52	25	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	25		set __signed_stack_001main, 2
+0	52	28	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	52	28	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	28		set __D0main, 128
+0	52	31	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	52	31	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	31		mov __RBtnArgs.Index, __signed_stack_001main
+0	52	33	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	33		mov __RBtnArgs.Reset, __D0main
+0	52	35	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	35		syscall 20, __RBtnArgs
+0	52	38	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	38		mov __D0main, __RBtnArgs.Pressed
+0	52	40	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	52	40	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	40		tst 5, __D0main, __D0main
+0	52	43	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	43		brtst 4, __ASM_Label_751, __D0main
+0	52	46	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	46		set __signed_stack_001main, 0
+0	52	49	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	52	49	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	49		mov __D0main, __constValNeg1
+0	52	51	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	51		replace go, go, __signed_stack_001main, __D0main
+0	52	56	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	52	56	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	56		set __signed_stack_001main, 1
+0	52	59	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	52	59	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	59		set __D0main, 0
+0	52	62	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	62		replace go, go, __signed_stack_001main, __D0main
+0	52	67	#line 52 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	67	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	67	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	67		set __signed_stack_001main, 1
+0	53	70	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	70	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	70		set __D0main, 128
+0	53	73	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	73	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	73		mov __RBtnArgs.Index, __signed_stack_001main
+0	53	75	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	75		mov __RBtnArgs.Reset, __D0main
+0	53	77	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	77		syscall 20, __RBtnArgs
+0	53	80	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	80		mov __D0main, __RBtnArgs.Pressed
+0	53	82	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	82	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	82		tst 5, __D0main, __D0main
+0	53	85	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	85		brtst 4, __ASM_Label_766, __D0main
+0	53	88	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	88		set __signed_stack_001main, 0
+0	53	91	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	91	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	91		set __D0main, 1
+0	53	94	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	94		replace go, go, __signed_stack_001main, __D0main
+0	53	99	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	99	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	99		set __signed_stack_001main, 1
+0	53	102	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	53	102	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	102		set __D0main, 0
+0	53	105	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	105		replace go, go, __signed_stack_001main, __D0main
+0	53	110	#line 53 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	110	#line 54 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	110	#line 54 "C:\Github\NXC_Source\#PacMan.nxc"
+0	55	110		set __signed_stack_001main, 3
+0	54	113	#line 54 "C:\Github\NXC_Source\#PacMan.nxc"
+0	54	113	#line 54 "C:\Github\NXC_Source\#PacMan.nxc"
+0	55	113		set __D0main, 128
+0	55	116	#line 55 "C:\Github\NXC_Source\#PacMan.nxc"
+0	55	116	#line 55 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	116		mov __RBtnArgs.Index, __signed_stack_001main
+0	55	118	#line 55 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	118		mov __RBtnArgs.Reset, __D0main
+0	55	120	#line 55 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	120		syscall 20, __RBtnArgs
+0	55	123	#line 55 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	123		mov __D0main, __RBtnArgs.Pressed
+0	55	125	#line 55 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	125	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	125		tst 5, __D0main, __D0main
+0	56	128	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	128		brtst 4, __ASM_Label_781, __D0main
+0	56	131	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	131		set __signed_stack_001main, 1
+0	56	134	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	134	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	134		index __D0main, go, __signed_stack_001main
+0	56	138	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	138	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	138		abs __signed_stack_001main, __D0main
+0	56	141	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	141	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	141		set __D0main, 1
+0	56	144	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	144		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	56	148	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	148		brtst 4, __ASM_Label_788, __D0main
+0	56	151	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	151		set __signed_stack_001main, 1
+0	56	154	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	154	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	154		index __signed_stack_002main, go, __signed_stack_001main
+0	56	158	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	56	158	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	158		mul __signed_stack_002main, __signed_stack_002main, __constValNeg1
+0	56	162	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	162		replace go, go, __signed_stack_001main, __signed_stack_002main
+0	56	167	#line 56 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	167	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	167		jmp __ASM_Label_793
+0	57	169	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	169		set __signed_stack_001main, 0
+0	57	172	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	172	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	172		set __D0main, 1
+0	57	175	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	175		replace go, go, __signed_stack_001main, __D0main
+0	57	180	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	180	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	180		set __signed_stack_001main, 1
+0	57	183	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	57	183	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	183		set __D0main, 0
+0	57	186	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	58	186		replace go, go, __signed_stack_001main, __D0main
+0	57	191	#line 57 "C:\Github\NXC_Source\#PacMan.nxc"
+0	60	191	#line 60 "C:\Github\NXC_Source\#PacMan.nxc"
+0	60	191	#line 60 "C:\Github\NXC_Source\#PacMan.nxc"
+0	60	191	#line 60 "C:\Github\NXC_Source\#PacMan.nxc"
+0	61	191		set alive, 0
+0	60	194	#line 60 "C:\Github\NXC_Source\#PacMan.nxc"
+0	60	194	#line 60 "C:\Github\NXC_Source\#PacMan.nxc"
+0	61	194	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	62	194		set __main_7qG2_j_7qG2_003, 0
+0	61	197	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	61	197	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	62	197		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	61	199	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	61	199	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	62	199		set __D0main, 8
+0	61	202	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	62	202		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	61	206	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	62	206		brtst 4, __ASM_Label_805, __D0main
+0	61	209	#line 61 "C:\Github\NXC_Source\#PacMan.nxc"
+0	62	209		jmp __ASM_Label_806
+0	62	211	#line 62 "C:\Github\NXC_Source\#PacMan.nxc"
+0	63	211		add __main_7qG2_j_7qG2_003, __main_7qG2_j_7qG2_003, __constVal1
+0	63	215	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	215		jmp __ASM_Label_804
+0	63	217	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	217		set __main_7qG2_i_7qG2_005, 0
+0	63	220	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	63	220	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	220		mov __signed_stack_001main, __main_7qG2_i_7qG2_005
+0	63	222	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	63	222	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	222		set __D0main, 12
+0	63	225	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	225		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	63	229	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	229		brtst 4, __ASM_Label_813, __D0main
+0	63	232	#line 63 "C:\Github\NXC_Source\#PacMan.nxc"
+0	64	232		jmp __ASM_Label_814
+0	64	234	#line 64 "C:\Github\NXC_Source\#PacMan.nxc"
+0	65	234		add __main_7qG2_i_7qG2_005, __main_7qG2_i_7qG2_005, __constVal1
+0	65	238	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	238		jmp __ASM_Label_812
+0	65	240	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	240		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	65	242	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	65	242	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	242		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	65	246	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	246		mov __signed_stack_002main, __main_7qG2_i_7qG2_005
+0	65	248	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	65	248	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	248		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	65	252	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	65	252	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	65	252	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	252		set __D0main, 1
+0	65	255	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	255		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	65	259	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	259		brtst 4, __ASM_Label_826, __D0main
+0	65	262	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	262		set alive, 1
+0	65	265	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	65	265	#line 65 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	265	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	265	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	265		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	66	267	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	267	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	267		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	66	271	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	271		mov __signed_stack_002main, __main_7qG2_i_7qG2_005
+0	66	273	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	273	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	273		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	66	277	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	277	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	277	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	277		set __D0main, 2
+0	66	280	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	280		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	66	284	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	284		brtst 4, __ASM_Label_835, __D0main
+0	66	287	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	287		set __signed_stack_001main, 0
+0	66	290	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	290	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	290		mov __D0main, __main_7qG2_i_7qG2_005
+0	66	292	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	292		replace me, me, __signed_stack_001main, __D0main
+0	66	297	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	297	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	297		set __signed_stack_001main, 1
+0	66	300	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	66	300	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	300		mov __D0main, __main_7qG2_j_7qG2_003
+0	66	302	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	302		replace me, me, __signed_stack_001main, __D0main
+0	66	307	#line 66 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	307	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	307	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	307		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	67	309	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	309	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	309		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	67	313	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	313		mov __signed_stack_002main, __main_7qG2_i_7qG2_005
+0	67	315	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	315	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	315		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	67	319	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	319	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	319	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	319		set __D0main, 4
+0	67	322	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	322		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	67	326	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	326		brtst 4, __ASM_Label_850, __D0main
+0	67	329	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	329		set __signed_stack_001main, 1
+0	67	332	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	332	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	332		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	67	336	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	336		set __signed_stack_002main, 0
+0	67	339	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	339	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	339		mov __D0main, __main_7qG2_i_7qG2_005
+0	67	341	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	341		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	67	346	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	346		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	67	351	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	351	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	351		set __signed_stack_001main, 1
+0	67	354	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	354	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	354		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	67	358	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	358		set __signed_stack_002main, 1
+0	67	361	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	67	361	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	361		mov __D0main, __main_7qG2_j_7qG2_003
+0	67	363	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	363		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	67	368	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	368		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	67	373	#line 67 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	373	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	373	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	373		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	68	375	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	375	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	375		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	68	379	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	379		mov __signed_stack_002main, __main_7qG2_i_7qG2_005
+0	68	381	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	381	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	381		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	68	385	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	385	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	385	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	385		set __D0main, 5
+0	68	388	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	388		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	68	392	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	392		brtst 4, __ASM_Label_869, __D0main
+0	68	395	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	395		set __signed_stack_001main, 1
+0	68	398	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	398	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	398		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	68	402	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	402		set __signed_stack_002main, 0
+0	68	405	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	405	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	405		mov __D0main, __main_7qG2_i_7qG2_005
+0	68	407	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	407		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	68	412	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	412		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	68	417	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	417	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	417		set __signed_stack_001main, 1
+0	68	420	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	420	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	420		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	68	424	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	424		set __signed_stack_002main, 1
+0	68	427	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	68	427	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	427		mov __D0main, __main_7qG2_j_7qG2_003
+0	68	429	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	429		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	68	434	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	434		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	68	439	#line 68 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	439	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	439	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	439		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	69	441	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	441	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	441		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	69	445	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	445		mov __signed_stack_002main, __main_7qG2_i_7qG2_005
+0	69	447	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	447	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	447		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	69	451	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	451	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	451	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	451		set __D0main, 6
+0	69	454	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	454		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	69	458	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	458		brtst 4, __ASM_Label_888, __D0main
+0	69	461	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	461		set __signed_stack_001main, 2
+0	69	464	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	464	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	464		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	69	468	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	468		set __signed_stack_002main, 0
+0	69	471	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	471	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	471		mov __D0main, __main_7qG2_i_7qG2_005
+0	69	473	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	473		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	69	478	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	478		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	69	483	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	483	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	483		set __signed_stack_001main, 2
+0	69	486	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	486	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	486		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	69	490	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	490		set __signed_stack_002main, 1
+0	69	493	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	69	493	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	493		mov __D0main, __main_7qG2_j_7qG2_003
+0	69	495	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	495		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	69	500	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	500		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	69	505	#line 69 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	505	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	505	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	505		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	70	507	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	507	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	507		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	70	511	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	511		mov __signed_stack_002main, __main_7qG2_i_7qG2_005
+0	70	513	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	513	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	513		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	70	517	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	517	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	517	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	517		set __D0main, 7
+0	70	520	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	520		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	70	524	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	524		brtst 4, __ASM_Label_907, __D0main
+0	70	527	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	527		set __signed_stack_001main, 2
+0	70	530	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	530	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	530		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	70	534	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	534		set __signed_stack_002main, 0
+0	70	537	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	537	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	537		mov __D0main, __main_7qG2_i_7qG2_005
+0	70	539	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	539		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	70	544	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	544		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	70	549	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	549	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	549		set __signed_stack_001main, 2
+0	70	552	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	552	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	552		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	70	556	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	556		set __signed_stack_002main, 1
+0	70	559	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	70	559	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	559		mov __D0main, __main_7qG2_j_7qG2_003
+0	70	561	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	561		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	70	566	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	71	566		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	70	571	#line 70 "C:\Github\NXC_Source\#PacMan.nxc"
+0	72	571	#line 72 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	571	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	571		jmp __ASM_Label_815
+0	74	573	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	573	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	573		jmp __ASM_Label_807
+0	74	575	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	575	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	575		set __signed_stack_001main, 0
+0	74	578	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	578	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	578		index __signed_stack_001main, me, __signed_stack_001main
+0	74	582	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	582	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	582	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	582		set __signed_stack_002main, 0
+0	74	585	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	585	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	585		index __D0main, go, __signed_stack_002main
+0	74	589	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	589	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	589		add a, __signed_stack_001main, __D0main
+0	74	593	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	74	593	#line 74 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	593	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	593		set __signed_stack_001main, 1
+0	75	596	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	596	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	596		index __signed_stack_001main, me, __signed_stack_001main
+0	75	600	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	600	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	600	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	600		set __signed_stack_002main, 1
+0	75	603	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	603	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	603		index __D0main, go, __signed_stack_002main
+0	75	607	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	607	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	607		add b, __signed_stack_001main, __D0main
+0	75	611	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	75	611	#line 75 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	611	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	611		mov __signed_stack_001main, b
+0	76	613	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	613	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	613		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	76	617	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	617		mov __signed_stack_002main, a
+0	76	619	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	619	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	619		index bab, __ArrHelper__main_236_0, __signed_stack_002main
+0	76	623	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	623	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	76	623	#line 76 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	623	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	623		set __signed_stack_001main, 0
+0	77	626	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	626	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	626		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	77	630	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	630		set __signed_stack_002main, 0
+0	77	633	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	633	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	633		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	77	637	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	637	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	637	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	637		mov __D0main, a
+0	77	639	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	639		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	77	643	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	643		brtst 4, __ASM_Label_939, __D0main
+0	77	646	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	646		set __signed_stack_001main, 0
+0	77	649	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	649	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	649		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	77	653	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	653		set __signed_stack_002main, 1
+0	77	656	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	656	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	656		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	77	660	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	660	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	660	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	660		mov __D0main, b
+0	77	662	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	662		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	77	666	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	666		brtst 4, __ASM_Label_939, __D0main
+0	77	669	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	669		set __signed_stack_001main, 1
+0	77	672	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	672	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	672		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	77	676	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	676		set __signed_stack_002main, 0
+0	77	679	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	679	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	679		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	77	683	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	683	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	683	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	683		mov __D0main, a
+0	77	685	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	685		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	77	689	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	689		brtst 4, __ASM_Label_939, __D0main
+0	77	692	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	692		set __signed_stack_001main, 1
+0	77	695	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	695	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	695		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	77	699	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	699		set __signed_stack_002main, 1
+0	77	702	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	702	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	702		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	77	706	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	706	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	77	706	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	706		mov __D0main, b
+0	77	708	#line 77 "C:\Github\NXC_Source\#PacMan.nxc"
+0	78	708		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	79	712	#line 79 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	712		brtst 4, __ASM_Label_964, __D0main
+0	79	715	#line 79 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	715		mov __signed_stack_001main, bab
+0	79	717	#line 79 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	717	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	717		set __D0main, 2
+0	80	720	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	720		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	80	724	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	724		brtst 4, __ASM_Label_967, __D0main
+0	80	727	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	727		set __signed_stack_001main, 0
+0	80	730	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	730	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	730		mov __D0main, a
+0	80	732	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	732		replace me, me, __signed_stack_001main, __D0main
+0	80	737	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	737	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	737		set __signed_stack_001main, 1
+0	80	740	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	740	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	740		mov __D0main, b
+0	80	742	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	742		replace me, me, __signed_stack_001main, __D0main
+0	80	747	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	747	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	80	747	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	81	747		add score, score, bab
+0	80	751	#line 80 "C:\Github\NXC_Source\#PacMan.nxc"
+0	83	751	#line 83 "C:\Github\NXC_Source\#PacMan.nxc"
+0	84	751		jmp __ASM_Label_978
+0	83	753	#line 83 "C:\Github\NXC_Source\#PacMan.nxc"
+0	84	753		mov __signed_stack_001main, bab
+0	83	755	#line 83 "C:\Github\NXC_Source\#PacMan.nxc"
+0	84	755	#line 84 "C:\Github\NXC_Source\#PacMan.nxc"
+0	85	755		set __D0main, 2
+0	84	758	#line 84 "C:\Github\NXC_Source\#PacMan.nxc"
+0	85	758		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	85	762	#line 85 "C:\Github\NXC_Source\#PacMan.nxc"
+0	86	762		brtst 4, __ASM_Label_981, __D0main
+0	85	765	#line 85 "C:\Github\NXC_Source\#PacMan.nxc"
+0	86	765		set alive, 0
+0	85	768	#line 85 "C:\Github\NXC_Source\#PacMan.nxc"
+0	85	768	#line 85 "C:\Github\NXC_Source\#PacMan.nxc"
+0	86	768	#line 86 "C:\Github\NXC_Source\#PacMan.nxc"
+0	87	768	#line 87 "C:\Github\NXC_Source\#PacMan.nxc"
+0	87	768	#line 87 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	768		jmp __ASM_Label_984
+0	87	770	#line 87 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	770		set alive, 0
+0	87	773	#line 87 "C:\Github\NXC_Source\#PacMan.nxc"
+0	87	773	#line 87 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	773	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	773	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	773		set __signed_stack_001main, 2
+0	88	776	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	776	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	776		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	88	780	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	780		set __signed_stack_002main, 1
+0	88	783	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	783	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	783		set __D0main, 4
+0	88	786	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	786	#pragma macro 7
+0	89	786		syscall 24, __RandomArgs
+0	89	789		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	89	793		mul __RandomTmp, __RandomTmp, __D0main
+0	89	797		div __RandomTmp, __RandomTmp, __constVal65536
+0	89	801		mov __D0main, __RandomTmp
+0	7952	803	#line 7952 "C:\Github\NXC_Source\#PacMan.nxc"
+0	88	803	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	803		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	88	808	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	808		replace e, e, __signed_stack_001main, __ArrHelper__main_236_0
+0	88	813	#line 88 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	813	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	813		set __signed_stack_001main, 2
+0	89	816	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	816	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	816		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	89	820	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	820		set __signed_stack_002main, 1
+0	89	823	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	823	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	823		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	89	827	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	827	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	89	827	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	827		set __D0main, 12
+0	89	830	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	830		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	89	834	#line 89 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	834		brtst 4, __ASM_Label_1001, __D0main
+0	90	837	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	837		jmp __ASM_Label_1002
+0	90	839	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	839		set __signed_stack_001main, 2
+0	90	842	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	842	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	842		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	90	846	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	846		set __signed_stack_002main, 1
+0	90	849	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	849	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	849		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	90	853	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	853	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	90	853	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	853		set __D0main, 8
+0	90	856	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	856		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	90	860	#line 90 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	860		brtst 4, __ASM_Label_1009, __D0main
+0	91	863	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	863		jmp __ASM_Label_1010
+0	91	865	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	865		set __signed_stack_001main, 2
+0	91	868	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	868	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	868		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	91	872	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	872		set __signed_stack_002main, 1
+0	91	875	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	875	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	875		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	91	879	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	879	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	91	879	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	879		set __D0main, 12
+0	91	882	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	882		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	91	886	#line 91 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	886		brtst 4, __ASM_Label_1017, __D0main
+0	92	889	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	889		jmp __ASM_Label_1018
+0	92	891	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	891		set __signed_stack_001main, 2
+0	92	894	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	894	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	894		index __ArrHelper__main_236_0, e, __signed_stack_001main
+0	92	898	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	898		set __signed_stack_002main, 1
+0	92	901	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	901	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	901		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	92	905	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	905	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	92	905	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	905		set __D0main, 8
+0	92	908	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	908		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	92	912	#line 92 "C:\Github\NXC_Source\#PacMan.nxc"
+0	93	912		brtst 4, __ASM_Label_1025, __D0main
+0	93	915	#line 93 "C:\Github\NXC_Source\#PacMan.nxc"
+0	94	915		jmp __ASM_Label_1026
+0	94	917	#line 94 "C:\Github\NXC_Source\#PacMan.nxc"
+0	94	917	#line 94 "C:\Github\NXC_Source\#PacMan.nxc"
+0	94	917	#line 94 "C:\Github\NXC_Source\#PacMan.nxc"
+0	94	917	#line 94 "C:\Github\NXC_Source\#PacMan.nxc"
+0	94	917	#line 94 "C:\Github\NXC_Source\#PacMan.nxc"
+0	95	917		subcall drawBoard, __drawBoard_return
+0	94	919	#line 94 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	919	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	919		jmp __ASM_Label_740
+0	96	921	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	921	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	921		set __signed_stack_001main, 0
+0	96	924	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	924	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	924		set __signed_stack_002main, 56
+0	96	927	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	927	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	927		strcat __strbufmain, __constStr0009
+0	96	931	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	931		set __D0main, 0
+0	96	934	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	934	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	934		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	96	936	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	936		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	96	938	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	938		mov __TextOutArgs.Options, __D0main
+0	96	940	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	940		mov __TextOutArgs.Text, __strbufmain
+0	96	942	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	942		syscall 13, __TextOutArgs
+0	96	945	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	945	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	96	945	#line 96 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	945	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	945		set __signed_stack_001main, 0
+0	97	948	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	948	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	948		set __signed_stack_002main, 48
+0	97	951	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	951	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	951		mov __ArrHelper__main_244_0, __constStr0010
+0	97	953	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	953		mov __D0main, score
+0	97	955	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	955		numtostr __strretvalmain, __D0main
+0	97	958	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	958		strcat __strbufmain, __strretvalmain
+0	97	962	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	962		mov __ArrHelper__main_244_1, __strbufmain
+0	97	964	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	964		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	97	969	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	969		set __D0main, 0
+0	97	972	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	972	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	972		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	97	974	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	974		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	97	976	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	976		mov __TextOutArgs.Options, __D0main
+0	97	978	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	978		mov __TextOutArgs.Text, __strbufmain
+0	97	980	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	980		syscall 13, __TextOutArgs
+0	97	983	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	983		mov __D0main, __TextOutArgs.Result
+0	97	985	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	97	985	#line 97 "C:\Github\NXC_Source\#PacMan.nxc"
+0	98	985		exit -1, -1
+1	32	0	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	33	0		set __drawBoard_7qG2_j_7qG2_001, 0
+1	32	3	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	32	3	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	33	3		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	32	5	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	32	5	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	33	5		set __D0drawBoard, 8
+1	32	8	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	33	8		cmp 0, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	32	12	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	33	12		brtst 4, __ASM_Label_605, __D0drawBoard
+1	32	15	#line 32 "C:\Github\NXC_Source\#PacMan.nxc"
+1	33	15		jmp __ASM_Label_606
+1	33	17	#line 33 "C:\Github\NXC_Source\#PacMan.nxc"
+1	34	17		add __drawBoard_7qG2_j_7qG2_001, __drawBoard_7qG2_j_7qG2_001, __constVal1
+1	34	21	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	21		jmp __ASM_Label_604
+1	34	23	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	23		set __drawBoard_7qG2_i_7qG2_003, 0
+1	34	26	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	34	26	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	26		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	34	28	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	34	28	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	28		set __D0drawBoard, 12
+1	34	31	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	31		cmp 0, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	34	35	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	35		brtst 4, __ASM_Label_613, __D0drawBoard
+1	34	38	#line 34 "C:\Github\NXC_Source\#PacMan.nxc"
+1	35	38		jmp __ASM_Label_614
+1	35	40	#line 35 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	40		add __drawBoard_7qG2_i_7qG2_003, __drawBoard_7qG2_i_7qG2_003, __constVal1
+1	36	44	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	44		jmp __ASM_Label_612
+1	36	46	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	46		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	36	48	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	48	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	48		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	36	52	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	52		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	36	54	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	54	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	54		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	36	58	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	58	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	58	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	58		set __D0drawBoard, 1
+1	36	61	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	61		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	36	65	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	65		brtst 4, __ASM_Label_626, __D0drawBoard
+1	36	68	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	68		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	36	70	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	70	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	70		set __D0drawBoard, 8
+1	36	73	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	73		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	36	77	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	77	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	77		set __D0drawBoard, 4
+1	36	80	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	80		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	36	84	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	84	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	84		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	36	86	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	86	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	86		set __D0drawBoard, 8
+1	36	89	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	89		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	36	93	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	93	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	93		set __D0drawBoard, 4
+1	36	96	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	96		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	36	100	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	100	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	100		set __D0drawBoard, 0
+1	36	103	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	103	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	103		mov __PointOutArgs.Location.X, __signed_stack_001drawBoard
+1	36	105	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	105		mov __PointOutArgs.Location.Y, __signed_stack_002drawBoard
+1	36	107	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	107		mov __PointOutArgs.Options, __D0drawBoard
+1	36	109	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	109		syscall 14, __PointOutArgs
+1	36	112	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	112		mov __D0drawBoard, __PointOutArgs.Result
+1	36	114	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	36	114	#line 36 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	114	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	114	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	114		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	37	116	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	116	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	116		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	37	120	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	120		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	37	122	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	122	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	122		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	37	126	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	126	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	126	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	126		set __D0drawBoard, 2
+1	37	129	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	129		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	37	133	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	133		brtst 4, __ASM_Label_639, __D0drawBoard
+1	37	136	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	136		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	37	138	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	138	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	138		set __D0drawBoard, 8
+1	37	141	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	141		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	37	145	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	145	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	145		set __D0drawBoard, 4
+1	37	148	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	148		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	37	152	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	152	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	152		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	37	154	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	154	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	154		set __D0drawBoard, 8
+1	37	157	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	157		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	37	161	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	161	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	161		set __D0drawBoard, 4
+1	37	164	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	164		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	37	168	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	168	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	168		set __signed_stack_003drawBoard, 4
+1	37	171	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	171	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	171		set __D0drawBoard, 0
+1	37	174	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	174	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	174		mov __CircleOutArgs.Center.X, __signed_stack_001drawBoard
+1	37	176	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	176		mov __CircleOutArgs.Center.Y, __signed_stack_002drawBoard
+1	37	178	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	178		mov __CircleOutArgs.Size, __signed_stack_003drawBoard
+1	37	180	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	180		mov __CircleOutArgs.Options, __D0drawBoard
+1	37	182	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	182		syscall 16, __CircleOutArgs
+1	37	185	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	185		mov __D0drawBoard, __CircleOutArgs.Result
+1	37	187	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	37	187	#line 37 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	187	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	187	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	187		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	38	189	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	189	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	189		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	38	193	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	193		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	38	195	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	195	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	195		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	38	199	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	199	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	199	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	199		set __D0drawBoard, 3
+1	38	202	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	202		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	38	206	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	206		brtst 4, __ASM_Label_654, __D0drawBoard
+1	38	209	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	209		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	38	211	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	211	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	211		set __D0drawBoard, 8
+1	38	214	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	214		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	38	218	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	218	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	218		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	38	220	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	220	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	220		set __D0drawBoard, 8
+1	38	223	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	223		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	38	227	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	227	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	227		set __signed_stack_003drawBoard, 8
+1	38	230	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	230	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	230		set __signed_stack_004drawBoard, 8
+1	38	233	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	233	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	233		set __D0drawBoard, 32
+1	38	236	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	236	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	236		mov __RectOutArgs.Location.X, __signed_stack_001drawBoard
+1	38	238	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	238		mov __RectOutArgs.Location.Y, __signed_stack_002drawBoard
+1	38	240	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	240		mov __RectOutArgs.Size.Width, __signed_stack_003drawBoard
+1	38	242	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	242		mov __RectOutArgs.Size.Height, __signed_stack_004drawBoard
+1	38	244	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	244		mov __RectOutArgs.Options, __D0drawBoard
+1	38	246	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	246		syscall 17, __RectOutArgs
+1	38	249	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	249		mov __D0drawBoard, __RectOutArgs.Result
+1	38	251	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	38	251	#line 38 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	251	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	251	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	251		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	39	253	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	253	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	253		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	39	257	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	257		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	39	259	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	259	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	259		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	39	263	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	263	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	263	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	263		set __D0drawBoard, 4
+1	39	266	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	266		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	39	270	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	270		brtst 4, __ASM_Label_671, __D0drawBoard
+1	39	273	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	273		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	39	275	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	275	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	275		set __D0drawBoard, 8
+1	39	278	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	278		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	39	282	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	282	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	282		set __D0drawBoard, 4
+1	39	285	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	285		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	39	289	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	289	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	289		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	39	291	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	291	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	291		set __D0drawBoard, 8
+1	39	294	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	294		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	39	298	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	298	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	298		set __D0drawBoard, 4
+1	39	301	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	301		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	39	305	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	305	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	305		set __signed_stack_003drawBoard, 3
+1	39	308	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	308	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	308		set __D0drawBoard, 0
+1	39	311	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	311	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	311		mov __CircleOutArgs.Center.X, __signed_stack_001drawBoard
+1	39	313	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	313		mov __CircleOutArgs.Center.Y, __signed_stack_002drawBoard
+1	39	315	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	315		mov __CircleOutArgs.Size, __signed_stack_003drawBoard
+1	39	317	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	317		mov __CircleOutArgs.Options, __D0drawBoard
+1	39	319	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	319		syscall 16, __CircleOutArgs
+1	39	322	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	322		mov __D0drawBoard, __CircleOutArgs.Result
+1	39	324	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	39	324	#line 39 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	324	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	324	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	324		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	40	326	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	326	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	326		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	40	330	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	330		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	40	332	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	332	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	332		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	40	336	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	336	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	336	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	336		set __D0drawBoard, 5
+1	40	339	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	339		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	40	343	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	343		brtst 4, __ASM_Label_686, __D0drawBoard
+1	40	346	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	346		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	40	348	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	348	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	348		set __D0drawBoard, 8
+1	40	351	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	351		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	40	355	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	355	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	355		set __D0drawBoard, 4
+1	40	358	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	358		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	40	362	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	362	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	362		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	40	364	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	364	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	364		set __D0drawBoard, 8
+1	40	367	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	367		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	40	371	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	371	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	371		set __D0drawBoard, 4
+1	40	374	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	374		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	40	378	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	378	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	378		set __signed_stack_003drawBoard, 3
+1	40	381	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	381	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	381		set __D0drawBoard, 0
+1	40	384	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	384	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	384		mov __CircleOutArgs.Center.X, __signed_stack_001drawBoard
+1	40	386	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	386		mov __CircleOutArgs.Center.Y, __signed_stack_002drawBoard
+1	40	388	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	388		mov __CircleOutArgs.Size, __signed_stack_003drawBoard
+1	40	390	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	390		mov __CircleOutArgs.Options, __D0drawBoard
+1	40	392	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	392		syscall 16, __CircleOutArgs
+1	40	395	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	395	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	395	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	395	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	395		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	40	397	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	397	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	397		set __D0drawBoard, 8
+1	40	400	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	400		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	40	404	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	404	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	404		set __D0drawBoard, 4
+1	40	407	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	407		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	40	411	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	411	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	411		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	40	413	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	413	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	413		set __D0drawBoard, 8
+1	40	416	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	416		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	40	420	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	420	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	420		set __D0drawBoard, 4
+1	40	423	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	423		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	40	427	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	427	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	427		set __D0drawBoard, 0
+1	40	430	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	430	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	430		mov __PointOutArgs.Location.X, __signed_stack_001drawBoard
+1	40	432	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	432		mov __PointOutArgs.Location.Y, __signed_stack_002drawBoard
+1	40	434	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	434		mov __PointOutArgs.Options, __D0drawBoard
+1	40	436	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	436		syscall 14, __PointOutArgs
+1	40	439	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	439		mov __D0drawBoard, __PointOutArgs.Result
+1	40	441	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	40	441	#line 40 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	441	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	441	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	441		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	41	443	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	443	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	443		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	41	447	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	447		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	41	449	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	449	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	449		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	41	453	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	453	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	453	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	453		set __D0drawBoard, 6
+1	41	456	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	456		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	41	460	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	460		brtst 4, __ASM_Label_707, __D0drawBoard
+1	41	463	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	463		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	41	465	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	465	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	465		set __D0drawBoard, 8
+1	41	468	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	468		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	41	472	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	472	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	472		set __D0drawBoard, 4
+1	41	475	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	475		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	41	479	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	479	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	479		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	41	481	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	481	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	481		set __D0drawBoard, 8
+1	41	484	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	484		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	41	488	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	488	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	488		set __D0drawBoard, 4
+1	41	491	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	491		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	41	495	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	495	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	495		set __signed_stack_003drawBoard, 3
+1	41	498	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	498	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	498		set __D0drawBoard, 0
+1	41	501	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	501	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	501		mov __CircleOutArgs.Center.X, __signed_stack_001drawBoard
+1	41	503	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	503		mov __CircleOutArgs.Center.Y, __signed_stack_002drawBoard
+1	41	505	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	505		mov __CircleOutArgs.Size, __signed_stack_003drawBoard
+1	41	507	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	507		mov __CircleOutArgs.Options, __D0drawBoard
+1	41	509	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	509		syscall 16, __CircleOutArgs
+1	41	512	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	512		mov __D0drawBoard, __CircleOutArgs.Result
+1	41	514	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	41	514	#line 41 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	514	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	514	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	514		mov __signed_stack_001drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	42	516	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	516	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	516		index __ArrHelper__drawBoard_236_0, board, __signed_stack_001drawBoard
+1	42	520	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	520		mov __signed_stack_002drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	42	522	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	522	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	522		index __signed_stack_001drawBoard, __ArrHelper__drawBoard_236_0, __signed_stack_002drawBoard
+1	42	526	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	526	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	526	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	526		set __D0drawBoard, 7
+1	42	529	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	529		cmp 4, __D0drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	42	533	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	533		brtst 4, __ASM_Label_722, __D0drawBoard
+1	42	536	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	536		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	42	538	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	538	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	538		set __D0drawBoard, 8
+1	42	541	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	541		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	42	545	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	545	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	545		set __D0drawBoard, 4
+1	42	548	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	548		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	42	552	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	552	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	552		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	42	554	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	554	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	554		set __D0drawBoard, 8
+1	42	557	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	557		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	42	561	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	561	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	561		set __D0drawBoard, 4
+1	42	564	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	564		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	42	568	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	568	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	568		set __signed_stack_003drawBoard, 3
+1	42	571	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	571	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	571		set __D0drawBoard, 0
+1	42	574	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	574	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	574		mov __CircleOutArgs.Center.X, __signed_stack_001drawBoard
+1	42	576	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	576		mov __CircleOutArgs.Center.Y, __signed_stack_002drawBoard
+1	42	578	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	578		mov __CircleOutArgs.Size, __signed_stack_003drawBoard
+1	42	580	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	580		mov __CircleOutArgs.Options, __D0drawBoard
+1	42	582	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	582		syscall 16, __CircleOutArgs
+1	42	585	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	585	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	585	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	585	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	585		mov __signed_stack_001drawBoard, __drawBoard_7qG2_i_7qG2_003
+1	42	587	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	587	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	587		set __D0drawBoard, 8
+1	42	590	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	590		mul __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	42	594	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	594	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	594		set __D0drawBoard, 4
+1	42	597	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	597		add __signed_stack_001drawBoard, __signed_stack_001drawBoard, __D0drawBoard
+1	42	601	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	601	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	601		mov __signed_stack_002drawBoard, __drawBoard_7qG2_j_7qG2_001
+1	42	603	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	603	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	603		set __D0drawBoard, 8
+1	42	606	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	606		mul __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	42	610	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	610	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	610		set __D0drawBoard, 4
+1	42	613	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	613		add __signed_stack_002drawBoard, __signed_stack_002drawBoard, __D0drawBoard
+1	42	617	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	617	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	617		set __D0drawBoard, 0
+1	42	620	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	620	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	620		mov __PointOutArgs.Location.X, __signed_stack_001drawBoard
+1	42	622	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	622		mov __PointOutArgs.Location.Y, __signed_stack_002drawBoard
+1	42	624	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	624		mov __PointOutArgs.Options, __D0drawBoard
+1	42	626	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	626		syscall 14, __PointOutArgs
+1	42	629	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	43	629		mov __D0drawBoard, __PointOutArgs.Result
+1	42	631	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	42	631	#line 42 "C:\Github\NXC_Source\#PacMan.nxc"
+1	44	631	#line 44 "C:\Github\NXC_Source\#PacMan.nxc"
+1	45	631	#line 45 "C:\Github\NXC_Source\#PacMan.nxc"
+1	46	631		jmp __ASM_Label_615
+1	45	633	#line 45 "C:\Github\NXC_Source\#PacMan.nxc"
+1	47	633	#line 47 "C:\Github\NXC_Source\#PacMan.nxc"
+1	48	633		jmp __ASM_Label_607
+1	47	635	#line 47 "C:\Github\NXC_Source\#PacMan.nxc"
+1	47	635	#line 47 "C:\Github\NXC_Source\#PacMan.nxc"
+1	48	635		subret __drawBoard_return
+2	101	0	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	101	0	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	102	0		arrinit __e_2, __constVal0, __constVal2
+2	101	4	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	102	4		arrinit e, __e_2, __constVal3
+2	101	8	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	102	8		arrinit me, __constVal0, __constVal3
+2	101	12	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	102	12		arrbuild go, __constVal1, __constVal0
+2	101	17	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	102	17		arrbuild board, __constStr0011, __constStr0012, __constStr0013, __constStr0014, __constStr0015, __constStr0016, __constStr0017, __constStr0011
+2	101	28	#line 101 "C:\Github\NXC_Source\#PacMan.nxc"
+2	102	28		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\#PacMan.nxc
+1	drawBoard	988	C:\Github\NXC_Source\#PacMan.nxc
+2	__initialize_global_data	1625	C:\Github\NXC_Source\#PacMan.nxc

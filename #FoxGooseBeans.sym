@@ -202,9 +202,9 @@ Clump	Line	PC	Source
 0	245	19	#line 245 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 0	246	19		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
 0	245	22	#line 245 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-0	8721	22	#line 8721 "NXCDefs.h"
-0	8722	22		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8721	24	#line 8721 "NXCDefs.h"
+0	8771	22	#line 8771 "NXCDefs.h"
+0	8772	22		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	24	#line 8771 "NXCDefs.h"
 0	245	24	#line 245 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 0	247	24	#line 247 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 0	248	24		subcall checkGame, __checkGame_return
@@ -216,16 +216,16 @@ Clump	Line	PC	Source
 0	252	28		jmp __ASM_Label_1317
 0	251	30	#line 251 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 0	252	30		exit -1, -1
-1	6848	0	#line 6848 "NXCDefs.h"
-1	6849	0	#pragma macro 6
-1	6849	0		acquire __PointOutMutex
-1	6849	1		mov __PointOutArgs.Location.X, __constVal200
-1	6849	3		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	5		mov __PointOutArgs.Options, __constVal1
-1	6849	7		syscall 14, __PointOutArgs
-1	6849	10		release __PointOutMutex
-1	6717	11	#line 6717 "NXCDefs.h"
-1	6848	11	#line 6848 "NXCDefs.h"
+1	6896	0	#line 6896 "NXCDefs.h"
+1	6897	0	#pragma macro 6
+1	6897	0		acquire __PointOutMutex
+1	6897	1		mov __PointOutArgs.Location.X, __constVal200
+1	6897	3		mov __PointOutArgs.Location.Y, __constVal200
+1	6897	5		mov __PointOutArgs.Options, __constVal1
+1	6897	7		syscall 14, __PointOutArgs
+1	6897	10		release __PointOutMutex
+1	6730	11	#line 6730 "NXCDefs.h"
+1	6896	11	#line 6896 "NXCDefs.h"
 1	41	11	#line 41 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	42	11	#line 42 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	43	11		set __signed_stack_001howto, 0
@@ -497,16 +497,16 @@ Clump	Line	PC	Source
 1	52	290	#line 52 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	53	290		jmp __ASM_Label_658
 1	52	292	#line 52 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-1	6848	292	#line 6848 "NXCDefs.h"
-1	6849	292	#pragma macro 6
-1	6849	292		acquire __PointOutMutex
-1	6849	293		mov __PointOutArgs.Location.X, __constVal200
-1	6849	295		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	297		mov __PointOutArgs.Options, __constVal1
-1	6849	299		syscall 14, __PointOutArgs
-1	6849	302		release __PointOutMutex
-1	7055	303	#line 7055 "NXCDefs.h"
-1	6848	303	#line 6848 "NXCDefs.h"
+1	6896	292	#line 6896 "NXCDefs.h"
+1	6897	292	#pragma macro 6
+1	6897	292		acquire __PointOutMutex
+1	6897	293		mov __PointOutArgs.Location.X, __constVal200
+1	6897	295		mov __PointOutArgs.Location.Y, __constVal200
+1	6897	297		mov __PointOutArgs.Options, __constVal1
+1	6897	299		syscall 14, __PointOutArgs
+1	6897	302		release __PointOutMutex
+1	7068	303	#line 7068 "NXCDefs.h"
+1	6896	303	#line 6896 "NXCDefs.h"
 1	52	303	#line 52 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	53	303	#line 53 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	54	303		set __signed_stack_001howto, 0
@@ -778,16 +778,16 @@ Clump	Line	PC	Source
 1	63	582	#line 63 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	64	582		jmp __ASM_Label_720
 1	63	584	#line 63 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-1	6848	584	#line 6848 "NXCDefs.h"
-1	6849	584	#pragma macro 6
-1	6849	584		acquire __PointOutMutex
-1	6849	585		mov __PointOutArgs.Location.X, __constVal200
-1	6849	587		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	589		mov __PointOutArgs.Options, __constVal1
-1	6849	591		syscall 14, __PointOutArgs
-1	6849	594		release __PointOutMutex
-1	7393	595	#line 7393 "NXCDefs.h"
-1	6848	595	#line 6848 "NXCDefs.h"
+1	6896	584	#line 6896 "NXCDefs.h"
+1	6897	584	#pragma macro 6
+1	6897	584		acquire __PointOutMutex
+1	6897	585		mov __PointOutArgs.Location.X, __constVal200
+1	6897	587		mov __PointOutArgs.Location.Y, __constVal200
+1	6897	589		mov __PointOutArgs.Options, __constVal1
+1	6897	591		syscall 14, __PointOutArgs
+1	6897	594		release __PointOutMutex
+1	7406	595	#line 7406 "NXCDefs.h"
+1	6896	595	#line 6896 "NXCDefs.h"
 1	63	595	#line 63 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	64	595	#line 64 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	65	595		set __signed_stack_001howto, 0
@@ -1032,16 +1032,16 @@ Clump	Line	PC	Source
 1	74	846	#line 74 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	75	846		jmp __ASM_Label_776
 1	74	848	#line 74 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-1	6848	848	#line 6848 "NXCDefs.h"
-1	6849	848	#pragma macro 6
-1	6849	848		acquire __PointOutMutex
-1	6849	849		mov __PointOutArgs.Location.X, __constVal200
-1	6849	851		mov __PointOutArgs.Location.Y, __constVal200
-1	6849	853		mov __PointOutArgs.Options, __constVal1
-1	6849	855		syscall 14, __PointOutArgs
-1	6849	858		release __PointOutMutex
-1	7698	859	#line 7698 "NXCDefs.h"
-1	6848	859	#line 6848 "NXCDefs.h"
+1	6896	848	#line 6896 "NXCDefs.h"
+1	6897	848	#pragma macro 6
+1	6897	848		acquire __PointOutMutex
+1	6897	849		mov __PointOutArgs.Location.X, __constVal200
+1	6897	851		mov __PointOutArgs.Location.Y, __constVal200
+1	6897	853		mov __PointOutArgs.Options, __constVal1
+1	6897	855		syscall 14, __PointOutArgs
+1	6897	858		release __PointOutMutex
+1	7711	859	#line 7711 "NXCDefs.h"
+1	6896	859	#line 6896 "NXCDefs.h"
 1	74	859	#line 74 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	78	859	#line 78 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 1	79	859		subret __howto_return
@@ -1332,16 +1332,16 @@ Clump	Line	PC	Source
 2	113	318	#line 113 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 2	113	318	#line 113 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 2	114	318		subret __inputOutput_return
-3	6848	0	#line 6848 "NXCDefs.h"
-3	6849	0	#pragma macro 6
-3	6849	0		acquire __PointOutMutex
-3	6849	1		mov __PointOutArgs.Location.X, __constVal200
-3	6849	3		mov __PointOutArgs.Location.Y, __constVal200
-3	6849	5		mov __PointOutArgs.Options, __constVal1
-3	6849	7		syscall 14, __PointOutArgs
-3	6849	10		release __PointOutMutex
-3	8132	11	#line 8132 "NXCDefs.h"
-3	6848	11	#line 6848 "NXCDefs.h"
+3	6896	0	#line 6896 "NXCDefs.h"
+3	6897	0	#pragma macro 6
+3	6897	0		acquire __PointOutMutex
+3	6897	1		mov __PointOutArgs.Location.X, __constVal200
+3	6897	3		mov __PointOutArgs.Location.Y, __constVal200
+3	6897	5		mov __PointOutArgs.Options, __constVal1
+3	6897	7		syscall 14, __PointOutArgs
+3	6897	10		release __PointOutMutex
+3	8145	11	#line 8145 "NXCDefs.h"
+3	6896	11	#line 6896 "NXCDefs.h"
 3	115	11	#line 115 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 3	116	11	#line 116 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 3	117	11		set __drawShapes_7qG2_k_7qG2_001, 0
@@ -2243,9 +2243,9 @@ Clump	Line	PC	Source
 4	218	243	#line 218 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	219	243		set __Wait_7qG2_ms_7qG2_000_inline_checkGame, 1000
 4	218	246	#line 218 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-4	8721	246	#line 8721 "NXCDefs.h"
-4	8722	246		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
-4	8721	248	#line 8721 "NXCDefs.h"
+4	8771	246	#line 8771 "NXCDefs.h"
+4	8772	246		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
+4	8771	248	#line 8771 "NXCDefs.h"
 4	218	248	#line 218 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	220	248	#line 220 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	221	248		jmp __ASM_Label_1277
@@ -2315,9 +2315,9 @@ Clump	Line	PC	Source
 4	224	318	#line 224 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	225	318		set __Wait_7qG2_ms_7qG2_000_inline_checkGame, 1000
 4	224	321	#line 224 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-4	8721	321	#line 8721 "NXCDefs.h"
-4	8722	321		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
-4	8721	323	#line 8721 "NXCDefs.h"
+4	8771	321	#line 8771 "NXCDefs.h"
+4	8772	321		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
+4	8771	323	#line 8771 "NXCDefs.h"
 4	224	323	#line 224 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	226	323	#line 226 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	227	323		jmp __ASM_Label_1295
@@ -2387,9 +2387,9 @@ Clump	Line	PC	Source
 4	230	393	#line 230 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	231	393		set __Wait_7qG2_ms_7qG2_000_inline_checkGame, 1000
 4	230	396	#line 230 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
-4	8721	396	#line 8721 "NXCDefs.h"
-4	8722	396		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
-4	8721	398	#line 8721 "NXCDefs.h"
+4	8771	396	#line 8771 "NXCDefs.h"
+4	8772	396		waitv __Wait_7qG2_ms_7qG2_000_inline_checkGame
+4	8771	398	#line 8771 "NXCDefs.h"
 4	230	398	#line 230 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	232	398	#line 232 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
 4	232	398	#line 232 "C:\Github\NXC_Source\#FoxGooseBeans.nxc"
