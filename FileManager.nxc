@@ -41,14 +41,13 @@ void openFile(string viewme)
   if (extension=="dat")
     {
     ClearScreen();
-    TextOut(2,56,StrCat("Highscore:",NumToStr( readHigh(viewme) )),0);
+    NumOut( 2,56,StrCat("Score:",readHigh(viewme),0);
     TextOut(2,48,StrCat("Name:",readHighName(viewme)),0);
     waitforpress=true;
     }
   if (extension=="txt")
     {
     ClearScreen();
-    
     waitforpress=true;
     }
 
@@ -136,7 +135,6 @@ task main()
       else                          openFile(listoffiles.FileList[j]);
       }
     until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
-    //while (ButtonPressed(BTNLEFT)&&ButtonPressed(BTNRIGHT)) {}
     }
   }
   
