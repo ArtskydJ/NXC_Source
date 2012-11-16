@@ -23,10 +23,10 @@
 const int limits[4][2]={{8,5,100,100},{3,1,9,151}};
 
 
-int n, x, y, z, fx, fy, lx, ly, gametype, dir=1, cdir=1, score=0;
+int n, x, y, z, fx, fy, lx, ly, gametype, dir=1, cdir=1, score=0, clrx, clry;
 int length,grow,startlength,delaytime,board[width+1][height+1];
 float speedup;
-bool foodate=0,dead=0,wrap=0,playagain=1,newsettings=0;
+bool foodate=0,dead=0,wrap=0,playagain=1,newsettings=0,highmade=false;
 string msg="", accesshigh="";
 
 
@@ -49,10 +49,10 @@ void customGame()
     int l=limits[PLUS][x];
     ClearScreen();
     TextOut(SX,LCD_LINE1,"SNAKE",0);
-    if (x==ST) {TextOut(0,LCD_LINE4,"Start Length=",0);addtoz=1;}
-    if (x==GR) {TextOut(0,LCD_LINE4," Grow Length=",0);addtoz=1;}
-    if (x==SP) {TextOut(0,LCD_LINE4,"  Speed Up=",0);  addtoz=10;}
-    if (x==DE) {TextOut(0,LCD_LINE4,"  Delay Time=",0);addtoz=10;}
+    if (x==ST) {TextOut(0,LCD_LINE4,"Start Length=",0); addtoz=1;}
+    if (x==GR) {TextOut(0,LCD_LINE4," Grow Length=",0); addtoz=1;}
+    if (x==SP) {TextOut(0,LCD_LINE4,"  Speed Up=",  0); addtoz=10;}
+    if (x==DE) {TextOut(0,LCD_LINE4,"  Delay Time=",0); addtoz=10;}
     TextOut(45,LCD_LINE8,"OK",0);
     z=0;
     until (ButtonState(BTNCENTER)==false) {}
@@ -74,26 +74,27 @@ void customGame()
 void selectGame()
   {
   accesshigh="Snake";
-  while (ButtonPressed(BTNCENTER)==false)
+  while (ButtonPressed(BTNRIGHT)==false)
     {
     gametype=senseButton(gametype,false,1,5,false); //changed "addtoz" to "1"
     ClearScreen();
     TextOut(SX,LCD_LINE1,"SNAKE",  0);
-    TextOut(1, LCD_LINE2,"Choose:",0);
-    TextOut(1, LCD_LINE3,"Easy",   0);
-    TextOut(1, LCD_LINE4,"Medium", 0);
-    TextOut(1, LCD_LINE5,"Hard",   0);
-    TextOut(1, LCD_LINE6,"Death",  0);
-    TextOut(1, LCD_LINE7,"Random", 0);
-    TextOut(1, LCD_LINE8,"Custom", 0);
-    RectOut(0,40-(gametype*8),99,8,0);
+    TextOut(2, LCD_LINE2,"Choose:",0);
+    TextOut(2, LCD_LINE3,"Easy",   0);
+    TextOut(2, LCD_LINE4,"Medium", 0);
+    TextOut(2, LCD_LINE5,"Hard",   0);
+    TextOut(2, LCD_LINE6,"Death",  0);
+    TextOut(2, LCD_LINE7,"Random", 0);
+    TextOut(2, LCD_LINE8,"Custom", 0);
+    TextOut(88,LCD_LINE8,"OK", 0);
+    RectOut(0,40-(gametype*8),49,8,0);
     Wait(50);
     }
   TextOut(SX,LCD_LINE1,"SNAKE",  0);
-  until (ButtonPressed(BTNCENTER)==false) {}
+  until (ButtonPressed(BTNRIGHT)==false) {}
   if (gametype!=4)
     {
-    TextOut(0,LCD_LINE6-4,"",                4096);
+    TextOut(0,LCD_LINE6-4,"",              4096);
     TextOut(0,LCD_LINE7,"Wrap Screen?",    4096);
     TextOut(0,LCD_LINE8,"Yes          No", 4096);
     until (ButtonPressed(BTNLEFT)||ButtonPressed(BTNRIGHT)) {}
@@ -101,50 +102,30 @@ void selectGame()
     if (wrap) {accesshigh=StrCat(accesshigh,"W");}
     }
   if (gametype==0)
-    {
-    accesshigh=StrCat(accesshigh,"Easy.dat");
-    grow=2;
-    startlength=3;
-    speedup=0.975;
-    delaytime=200;
-    }
+    {accesshigh=StrCat(accesshigh,"Easy.dat");
+    grow=2;   startlength=3;   speedup=0.975;  delaytime=200;}
   else if (gametype==1)
-    {
-    accesshigh=StrCat(accesshigh,"Medium.dat");
-    grow=3;
-    startlength=3;
-    speedup=0.9375;
-    delaytime=140;
-    }
+    {accesshigh=StrCat(accesshigh,"Medium.dat");
+    grow=3;   startlength=3;   speedup=0.9375; delaytime=140;}
   else if (gametype==2)
-    {
-    accesshigh=StrCat(accesshigh,"Hard.dat");
-    grow=4;
-    startlength=3;
-    speedup=0.9;
-    delaytime=80;
-    }
+    {accesshigh=StrCat(accesshigh,"Hard.dat");
+    grow=4;   startlength=3;   speedup=0.9;    delaytime=80;}
   else if (gametype==3)
-    {
-    accesshigh=StrCat(accesshigh,"Death.dat");
-    grow=10;
-    startlength=10;
-    speedup=1;
-    delaytime=100;
-    }
+    {accesshigh=StrCat(accesshigh,"Death.dat");
+    grow=10;  startlength=10;  speedup=1;      delaytime=100;}
   else if (gametype==4)
     {
     accesshigh="";
     float temp;
-    startlength= (Random(limits[RAND][ST])+limits[PLUS][ST]);
-    grow=        (Random(limits[RAND][GR])+limits[PLUS][GR]);
-    temp=Random(limits[RAND][SP]);
+    startlength= ( Random(limits[RAND][ST]) +limits[PLUS][ST]);
+    grow=        ( Random(limits[RAND][GR]) +limits[PLUS][GR]);
+    temp=          Random(limits[RAND][SP]);
     temp/=100;
-    temp+=limits[PLUS][SP];
+    temp+=                limits[PLUS][SP];
     speedup=temp/10;
     temp*=100;
-    delaytime=   (Random(limits[RAND][DE])+limits[PLUS][DE]);
-    wrap=(Random(2));
+    delaytime=   ( Random(limits[RAND][DE]) +limits[PLUS][DE]);
+    wrap=        ( Random(2) );
     }
   else if (gametype==5)
     {
@@ -173,6 +154,13 @@ void boardInit()
     
 void snakeMove()
   {
+  for  (x=0;x<width;x++)
+    {
+    for  (y=0;y<height;y++)
+      {
+      if (board[x][y]==1) {clrx=x;clry=y;}
+      }
+    }
   for (x=0;x<delaytime/5;x++)
     {
     if (ButtonPressed(0)&&cdir!=(3)) {dir=0;}//D
@@ -184,38 +172,38 @@ void snakeMove()
   if (dir==2) //LEFT
     {
     cdir=2;
-    if  (fx<=0)       {dead=!wrap; fx=width;}
-    if  (!dead)       {n=board[fx-1][fy];}
-    if  (n>1)         {dead=1;}
-    if  (n<=1)        {fx=fx-1;board[fx][fy]=length+1;}
-    if  (n==-1)       {foodate=1;length=length+grow;}
+    if  (fx<=0)        {dead=!wrap; fx=width;}
+    if  (!dead)        {n=board[fx-1][fy];}
+    if  (n>1)          {dead=1;}
+    if  (n<=1)         {fx=fx-1;board[fx][fy]=length+1;}
+    if  (n==-1)        {foodate=1;length=length+grow;}
     }
   if (dir==3) //UP
     {
     cdir=3;
-    if  (fy<=0)       {dead=!wrap; fy=height;}
-    if  (!dead)       {n=board[fx][fy-1];}
-    if  (n>1)         {dead=1;}
-    if  (n<=1)        {fy=fy-1;board[fx][fy]=length+1;}
-    if  (n==-1)       {foodate=1;length=length+grow;}
+    if  (fy<=0)        {dead=!wrap; fy=height;}
+    if  (!dead)        {n=board[fx][fy-1];}
+    if  (n>1)          {dead=1;}
+    if  (n<=1)         {fy=fy-1;board[fx][fy]=length+1;}
+    if  (n==-1)        {foodate=1;length=length+grow;}
     }
   if (dir==1) //RIGHT
     {
     cdir=1;
-    if  (fx>=width-1) {dead=!wrap; fx=-1;}
-    if  (!dead)       {n=board[fx+1][fy];}
-    if (n>1)          {dead=1;}
-    if (n<=1)         {fx=fx+1;board[fx][fy]=length+1;}
-    if (n==-1)        {foodate=1;length=length+grow;}
+    if  (fx>=width-1)  {dead=!wrap; fx=-1;}
+    if  (!dead)        {n=board[fx+1][fy];}
+    if (n>1)           {dead=1;}
+    if (n<=1)          {fx=fx+1;board[fx][fy]=length+1;}
+    if (n==-1)         {foodate=1;length=length+grow;}
     }
   if (dir==0) //DOWN
     {
     cdir=0;
-    if  (fy>=height-1){dead=!wrap; fy=-1;}
-    if  (!dead)       {n=board[fx][fy+1];}
-    if (n>1)          {dead=1;}
-    if (n<=1)         {fy=fy+1;board[fx][fy]=length+1;}
-    if (n==-1)        {foodate=1;length+=grow;}
+    if  (fy>=height-1) {dead=!wrap; fy=-1;}
+    if  (!dead)        {n=board[fx][fy+1];}
+    if (n>1)           {dead=1;}
+    if (n<=1)          {fy=fy+1;board[fx][fy]=length+1;}
+    if (n==-1)         {foodate=1;length+=grow;}
     }
   if (dead==0) //GROW
     {
@@ -225,36 +213,46 @@ void snakeMove()
         {
         if (board[x][y]==1) {lx=x;ly=y;}
         if (board[x][y]>=1) {board[x][y]--;}
-    } } }
-  //SendResponseString(MAILBOX10,"Snake Moved");
+        }
+      }
+    }
   }
 
 
 void snakeDraw()
   {
-  ClearScreen();
+  //RectOut(clrx*b,59-clry*b,b,b,4);     //Only Clear Needed, Hollow
+  //RectOut(clrx*b,61-clry*b,b-2,b-2,4); //Only Clear Needed, Filled
+  //TextOut(clrx*b,59-clry*b," ",0);     //Only Clear Needed, Hollow
+  TextOut(clrx*b,61-clry*b," ",0);       //Only Clear Needed, Filled
+  //ClearScreen();
   LineOut(64,0,64,64,0);
   for (y=0;y<height;y++)
     {
     for (x=0;x<width;x++)
       {
       if (board[x][y]>0)
-        {RectOut(x*b,59-y*b,b,b,0);}
+        //{RectOut(x*b,59-y*b,b,b,0);}    //Hollow
+        {RectOut(x*b,61-y*b,b-2,b-2,32);} //Filled
       if (board[x][y]<0)
-        {CircleOut(x*b+2,61-y*b,(b-1)/2,32);}
+        {CircleOut(x*b+1,63-y*b,(b-1)/2,32);}
       }
     }
-  if (score>readHigh(accesshigh)&&gametype<4) {writeHigh(accesshigh,score);}
-  TextOut(65, LCD_LINE1,StrCat(" S=",NumToStr(score)),0);
+  if (score>readHigh(accesshigh)&&gametype<4)
+    {writeHigh(accesshigh,score);highmade=true;}
+  TextOut(65,LCD_LINE1,"Score",0);
+  NumOut( 65,LCD_LINE2,score,0);
   if (gametype<4)
-    TextOut(65, LCD_LINE2,StrCat("HS=",NumToStr( readHigh(accesshigh) )),0);
-  //SendResponseString(MAILBOX10,"Snake Drawn");
+    {
+    TextOut(65,LCD_LINE4,"High",0);
+    NumOut( 65,LCD_LINE5,readHigh(accesshigh),0);
+    TextOut(65,LCD_LINE6,readHighName(accesshigh),0);
+    }
   }
 
 
-void sendDebugMessages() //Disable this function, unless testing, adds 240 MS
-  {
-  //don't show: result, fsize, handle, startlength, grow, dead, cdir, board[][]
+void sendDebugMessages() //Disable this function, unless testing, adds ~240 MS
+  {//don't show: result, fsize, handle, startlength, grow, dead, cdir, board[][]
   Wait(60);
   msg=StrCat("n=",NumToStr(n)," x=",NumToStr(x)," y=",NumToStr(y));
   SendResponseString(MAILBOX10,msg);
@@ -284,7 +282,6 @@ void foodMake()
     }
   foodate=0;
   dead=0;
-  //SendResponseString(MAILBOX10,"Food Made");
   }
 
 
@@ -295,11 +292,10 @@ void snakeGrow()
     for (y=0;y<height;y++)
       {
       for (x=0;x<width;x++)
-         {if (board[x][y]>=1) {board[x][y]+=grow;} }
+        {if (board[x][y]>=1) {board[x][y]+=grow;} }
       }
     score+=1;
     delaytime*=speedup;
-    //SendResponseString(MAILBOX10,"Snake Grown");
     }
   }
 
@@ -307,7 +303,19 @@ void snakeGrow()
 void gameOver()
   {
   PlayTone(500,500);
-  TextOut(6,LCD_LINE4,"GAME OVER",0);
+  ClearScreen();
+  if (highmade) {writeHighName(accesshigh,score);}
+  ClearScreen();
+  LineOut(64,0,64,64,0);
+  TextOut(0,LCD_LINE4,"GAME OVER",0);
+  TextOut(65,LCD_LINE1,"Score",0);
+  NumOut( 65,LCD_LINE2,score,0);
+  if (gametype<4)
+    {
+    TextOut(65,LCD_LINE4,"High",0);
+    NumOut( 65,LCD_LINE5,readHigh(accesshigh),0);
+    TextOut(65,LCD_LINE6,readHighName(accesshigh),0);
+    }
   Wait(2000);
   TextOut(0,LCD_LINE7,"Play Again?",0);
   TextOut(0,LCD_LINE8,"Yes          No",0);
@@ -328,7 +336,6 @@ void gameOver()
 
 task main()
   {
-  string temp=keyboard();
   intro();
   selectGame();
   while (playagain)
