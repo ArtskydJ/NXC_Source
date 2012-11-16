@@ -151,7 +151,7 @@ string keyboard()
     else if (temp=="]") {if (!snd) PlayTone(1000,100); snd=!snd;}                                          //Sound
     else if (temp!="")  {if (snd)  PlayTone(2000,100); outstring=StrCat(outstring,temp); }                  //Append
     TextOut(0,48-rows*8,StrCat(outstring," "),0);  //if backspace, don't draw last character
-    debugOut(temp,loop,snd,x,y,lasty,outstring); //have not tested since last major change!!!
+    //debugOut(temp,loop,snd,x,y,lasty,outstring);
     lasty=y;
     Wait(100);
     }
