@@ -14,37 +14,25 @@ int readHigh(string readme)
     Read(handle, ARead);
     CloseFile(handle);
     }
-  else
-    {ARead = -1;}
   return ARead;
   }
   
 string readHighName(string readme)
   {
-  //TextOut(0,48,"wait",0);
-  //PlayTone(500,500);
-  //Wait(500);
   string ARead="";
   int result = OpenFileRead(readme,fsize,handle);
   if (result == LDR_SUCCESS)
     {
     ReadLnString(handle,ARead);
     CloseFile(handle);
-    
     ARead=SubStr(ARead,2,StrLen(ARead)-2);
-    TextOut(16,10,ARead,0);
     SendResponseString(MAILBOX10,ARead);
-    
-    //PlayTone(2000,1000);
-    //Wait(1000);
     }
   else
     {
-    //ARead = "";
-    ARead=NumToStr(result);
-    SendResponseString(MAILBOX10,"fail");
-    TextOut(94,56,"f",0);
-    Wait(100);
+    string temp=NumToStr(result);
+    temp=StrCat(temp," fail_readhighname");
+    SendResponseString(MAILBOX10,temp);
     }
   return ARead;
   }
@@ -56,7 +44,6 @@ void writeHigh(string readme, int NewHighscore)
   DeleteFile(readme);
   CreateFile(readme, 1024, handle); //changed to constant 1024 instead of variable fsize
   Write(handle, NewHighscore);
-  
   CloseFile(handle);
   }
 
@@ -65,17 +52,14 @@ void writeHighName(string readme, int NewHighscore)
   DeleteFile(readme);
   CreateFile(readme, 1024, handle); //changed to constant 1024 instead of variable fsize
   Write(handle, NewHighscore);
-  
   string temp2=keyboard();
   WriteLnString(handle,temp2,count);
-  //WriteLnString(handle,keyboard(),count);
-
   CloseFile(handle);
   }
 
 
 /////////////////////////////  OTHER  ///////////////////////////////
-//*
+/*
 void endGame(string readme, int myscore)
   {
   TextOut(25,LCD_LINE4,"GAME OVER", 1);
