@@ -26,14 +26,14 @@ string readHighName(string readme)
     ReadLnString(handle,ARead);
     CloseFile(handle);
     ARead=SubStr(ARead,2,StrLen(ARead)-2);
-    SendResponseString(MAILBOX10,ARead);
+    //SendResponseString(MAILBOX10,ARead);
     }
-  else
+  /*else
     {
     string temp=NumToStr(result);
     temp=StrCat(temp," fail_readhighname");
     SendResponseString(MAILBOX10,temp);
-    }
+    }*/
   return ARead;
   }
 
