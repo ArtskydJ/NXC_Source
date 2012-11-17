@@ -1,6 +1,7 @@
 //File Manager
 #include "+Button+-.nxc"
 #include "+HighScore.nxc"
+#include "+TextReader.nxc"
 #define filternumber  7
 const string filters[filternumber*2]=
   {"*.*","*.dat","*.rdt","*.rxe",     "*.ric","*.rso","*.txt",
@@ -41,13 +42,14 @@ void openFile(string viewme)
   if (extension=="dat")
     {
     ClearScreen();
-    NumOut( 2,56,StrCat("Score:",readHigh(viewme),0);
+    TextOut(2,56,StrCat("Score:",NumToStr( readHigh(viewme) )),0);
     TextOut(2,48,StrCat("Name:",readHighName(viewme)),0);
     waitforpress=true;
     }
   if (extension=="txt")
     {
     ClearScreen();
+    readText(viewme, 6, false);
     waitforpress=true;
     }
 
