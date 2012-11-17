@@ -1,0 +1,580 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002readText	6	1	0	4	8
+1	__constVal786433	6	0	4	4	2
+2	__FOMutex	9	0	8	4	2
+3	__unsigned_stack_001readText	5	1	12	4	4
+4	__signed_stack_003readText	6	1	16	4	2
+5	__SRNTmpVal	6	1	20	4	2
+6	__constVal65535	6	0	24	4	2
+7	__D0readText	6	1	28	4	107
+8	__signed_stack_001readText	6	1	32	4	36
+9	__constVal34560	6	0	36	4	1
+10	__RLSReturn	3	1	40	2	4
+11	__RLSByteCount	3	1	42	2	4
+12	__RLSMaxBytes	3	1	44	2	3
+13	__readText_7qG2_lnjmp_7qG2_000	4	1	46	2	3
+14	__readText_7qG2_j_7qG2_002	4	1	48	2	9
+15	msg	3	1	50	2	3
+16	i	4	1	52	2	7
+17	hndl	4	1	54	2	4
+18	__constVal9	2	0	56	1	1
+19	____initialize_global_data_return	1	1	57	1	3
+20	__readText_7qG2_eight_7qG2_000	1	1	58	1	2
+21	__readText_return	1	1	59	1	3
+22	__constVal40	2	0	60	1	2
+23	__RLSReturnAddress	1	1	61	1	3
+24	____readStringLine_return	1	1	62	1	1
+25	__constVal0	2	1	63	1	10
+26	__FReadTmpByte	1	1	64	1	3
+27	__constVal4	2	0	65	1	1
+28	__constVal13	2	0	66	1	1
+29	__constVal1	2	0	67	1	5
+30	__constVal10	2	0	68	1	2
+31	__FOArgs	8	0	4	12	4
+32	__FOArgs.Result	3	1	72	2	4
+33	__FOArgs.FileHandle	1	1	74	1	4
+34	__FOArgs.Filename	7	0	76	4	4
+35	__FOArgs.Filename.Filename_type	1	0	0	1	0
+36	__FOArgs.Length	5	1	80	4	4
+37	__FCArgs	8	0	2	4	3
+38	__FCArgs.Result	3	1	84	2	3
+39	__FCArgs.FileHandle	1	1	86	1	3
+40	__RBtnArgs	8	0	5	8	36
+41	__RBtnArgs.Result	2	1	88	1	36
+42	__RBtnArgs.Index	1	1	89	1	36
+43	__RBtnArgs.Pressed	1	1	90	1	36
+44	__RBtnArgs.Count	1	1	91	1	36
+45	__RBtnArgs.Reset	1	1	92	1	36
+46	__IOMWBIArgs	8	0	4	16	8
+47	__IOMWBIArgs.Result	2	1	96	1	8
+48	__IOMWBIArgs.ModuleID	5	1	100	4	8
+49	__IOMWBIArgs.Offset	3	1	104	2	8
+50	__IOMWBIArgs.Buffer	7	0	106	4	8
+51	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+52	__TextOutArgs	8	0	4	16	12
+53	__TextOutArgs.Result	2	1	108	1	12
+54	__TextOutArgs.Location	8	0	2	4	12
+55	__TextOutArgs.Location.X	4	1	112	2	12
+56	__TextOutArgs.Location.Y	4	1	114	2	12
+57	__TextOutArgs.Text	7	0	116	4	12
+58	__TextOutArgs.Text.Text_type	1	0	0	1	0
+59	__TextOutArgs.Options	5	1	120	4	12
+60	__MWArgs	8	0	3	8	4
+61	__MWArgs.Result	2	1	124	1	4
+62	__MWArgs.QueueID	1	1	125	1	4
+63	__MWArgs.Message	7	0	126	4	4
+64	__MWArgs.Message.Message_type	1	0	0	1	0
+65	__FReadArgs	8	0	4	12	7
+66	__FReadArgs.Result	3	1	128	2	7
+67	__FReadArgs.FileHandle	1	1	130	1	7
+68	__FReadArgs.Buffer	7	0	132	4	7
+69	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+70	__FReadArgs.Length	5	1	136	4	7
+71	__constStr0010	7	0	140	4	1
+72	__constStr0010.__constStr0010_type	1	1	0	1	0
+73	__constStr0009	7	0	142	4	1
+74	__constStr0009.__constStr0009_type	1	1	0	1	0
+75	__RLSOutput	7	0	144	4	5
+76	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+77	__strbufreadText	7	0	146	4	4
+78	__strbufreadText.__strbufreadText_type	1	0	0	1	0
+79	__strbufmain	7	0	148	4	2
+80	__strbufmain.__strbufmain_type	1	0	0	1	0
+81	__RLSBuffer	7	0	150	4	2
+82	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+83	__IOMWFlattenBuf	7	0	152	4	4
+84	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+85	__readText_7qG2_flnm_7qG2_000	7	0	154	4	2
+86	__readText_7qG2_flnm_7qG2_000.__readText_7qG2_flnm_7qG2_000_type	1	0	0	1	0
+87	output	7	0	156	4	3
+88	output.output_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	37	0	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	37	2	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	37	2	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	2		strcat __strbufmain, __constStr0010
+0	37	6	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	6		mov __readText_7qG2_flnm_7qG2_000, __strbufmain
+0	37	8	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	8		set __readText_7qG2_lnjmp_7qG2_000, 7
+0	37	11	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	37	11	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	11		set __readText_7qG2_eight_7qG2_000, 1
+0	37	14	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	37	14	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	14		subcall readText, __readText_return
+0	37	16	#line 37 "C:\Github\NXC_Source\+TextReader.nxc"
+0	38	16		exit -1, -1
+1	8903	0		arrinit __RLSOutput, __constVal0, __constVal1
+1	8904	4		set __RLSByteCount, 0
+1	8906	7		set __FReadArgs.Length, 1
+1	8907	10		mov __RLSBuffer, __RLSOutput
+1	8908	12		syscall 3, __FReadArgs
+1	8909	15		mov __RLSReturn, __FReadArgs.Result
+1	8910	17		brtst 5, __RLSStringDone, __RLSReturn
+1	8911	20		index __FReadTmpByte, __FReadArgs.Buffer, 65535
+1	8912	24		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
+1	8913	28		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
+1	8914	32		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
+1	8915	37		add __RLSByteCount, __RLSByteCount, __constVal1
+1	8916	41		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
+1	8918	45		jmp __RLSStringLoop
+1	8920	47		subret __RLSReturnAddress
+2	8	0	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	0	#pragma macro 7
+2	9	0	#line 9 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	0		set __D0readText, 1
+2	10	3	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	10	3		tst 5, __D0readText, __D0readText
+2	10	6	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	10	6		brtst 4, __ASM_Label_608, __D0readText
+2	10	9	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	11	9	#pragma macro 8
+2	11	9		mov __IOMWBIArgs.ModuleID, __constVal786433
+2	11	11		mov __IOMWBIArgs.Offset, __constVal40
+2	11	13		flatten __IOMWFlattenBuf, __constVal4
+2	11	16		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+2	11	19		syscall 79, __IOMWBIArgs
+2	5855	22	#line 5855 "C:\Github\NXC_Source\+TextReader.nxc"
+2	11	22	#line 11 "C:\Github\NXC_Source\+TextReader.nxc"
+2	12	22	#line 12 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	22		jmp __ASM_Label_609
+2	12	24	#line 12 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	24	#pragma macro 8
+2	13	24		mov __IOMWBIArgs.ModuleID, __constVal786433
+2	13	26		mov __IOMWBIArgs.Offset, __constVal40
+2	13	28		flatten __IOMWFlattenBuf, __constVal1
+2	13	31		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+2	13	34		syscall 79, __IOMWBIArgs
+2	5861	37	#line 5861 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	37	#line 13 "C:\Github\NXC_Source\+TextReader.nxc"
+2	14	37	#line 14 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	37	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	37		set __D0readText, 0
+2	7	40	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	7	40	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	7	40	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	40		tst 5, __D0readText, __D0readText
+2	7	43	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	43		brtst 4, __ASM_Label_605, __D0readText
+2	7	46	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	46		jmp __ASM_Label_604
+2	7	48	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	7	48	#line 7 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	48	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	48	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	48	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	48		set __signed_stack_001readText, 2
+2	8	51	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	51	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	51		mov __D0readText, __constVal0
+2	8	53	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	53	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	53		mov __RBtnArgs.Index, __signed_stack_001readText
+2	8	55	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	55		mov __RBtnArgs.Reset, __D0readText
+2	8	57	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	57		syscall 20, __RBtnArgs
+2	8	60	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	60		mov __signed_stack_001readText, __RBtnArgs.Pressed
+2	8	62	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	62	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	62	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	62		set __D0readText, 0
+2	8	65	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	65		cmp 4, __D0readText, __signed_stack_001readText, __D0readText
+2	8	69	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	69		brtst 4, __ASM_Label_615, __D0readText
+2	8	72	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	72		set __signed_stack_001readText, 1
+2	8	75	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	75	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	75		mov __D0readText, __constVal0
+2	8	77	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	77	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	77		mov __RBtnArgs.Index, __signed_stack_001readText
+2	8	79	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	79		mov __RBtnArgs.Reset, __D0readText
+2	8	81	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	81		syscall 20, __RBtnArgs
+2	8	84	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	84		mov __signed_stack_001readText, __RBtnArgs.Pressed
+2	8	86	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	8	86	#line 8 "C:\Github\NXC_Source\+TextReader.nxc"
+2	9	86	#line 9 "C:\Github\NXC_Source\+TextReader.nxc"
+2	10	86		set __D0readText, 0
+2	9	89	#line 9 "C:\Github\NXC_Source\+TextReader.nxc"
+2	10	89		cmp 4, __D0readText, __signed_stack_001readText, __D0readText
+2	10	93	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	11	93		brtst 4, __ASM_Label_613, __D0readText
+2	10	96	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	11	96	#pragma macro 7
+2	11	96		acquire __FOMutex
+2	11	97		mov __FOArgs.Filename, __readText_7qG2_flnm_7qG2_000
+2	11	99		syscall 0, __FOArgs
+2	11	102		mov hndl, __FOArgs.FileHandle
+2	11	104		mov __D0readText, __FOArgs.Result
+2	11	106		release __FOMutex
+2	5944	107	#line 5944 "C:\Github\NXC_Source\+TextReader.nxc"
+2	10	107	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	11	107		mov msg, __D0readText
+2	10	109	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	10	109	#line 10 "C:\Github\NXC_Source\+TextReader.nxc"
+2	11	109	#line 11 "C:\Github\NXC_Source\+TextReader.nxc"
+2	12	109		mov __unsigned_stack_001readText, __D0readText
+2	11	111	#line 11 "C:\Github\NXC_Source\+TextReader.nxc"
+2	12	111	#line 12 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	111		set __D0readText, 0
+2	12	114	#line 12 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	114		cmp 5, __D0readText, __unsigned_stack_001readText, __D0readText
+2	13	118	#line 13 "C:\Github\NXC_Source\+TextReader.nxc"
+2	14	118		brtst 4, __ASM_Label_624, __D0readText
+2	13	121	#line 13 "C:\Github\NXC_Source\+TextReader.nxc"
+2	14	121	#pragma macro 7
+2	14	121		add __MWArgs.QueueID, __constVal9, __constVal10
+2	14	125		mov __SRNTmpVal, msg
+2	14	127		flatten __MWArgs.Message, __SRNTmpVal
+2	14	130		syscall 26, __MWArgs
+2	14	133		mov __D0readText, __MWArgs.Result
+2	5966	135	#line 5966 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	135	#line 13 "C:\Github\NXC_Source\+TextReader.nxc"
+2	13	135	#line 13 "C:\Github\NXC_Source\+TextReader.nxc"
+2	14	135	#line 14 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	135		mov __unsigned_stack_001readText, msg
+2	14	137	#line 14 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	137	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	137		mov __D0readText, __constVal34560
+2	15	139	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	139		cmp 4, __D0readText, __unsigned_stack_001readText, __D0readText
+2	15	143	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	143		brtst 4, __ASM_Label_627, __D0readText
+2	15	146	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	146		set __signed_stack_001readText, 0
+2	15	149	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	149	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	149		set __signed_stack_002readText, 0
+2	15	152	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	152	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	152		strcat __strbufreadText, __constStr0009
+2	15	156	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	156		set __D0readText, 0
+2	15	159	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	159	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	159		mov __TextOutArgs.Location.X, __signed_stack_001readText
+2	15	161	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	161		mov __TextOutArgs.Location.Y, __signed_stack_002readText
+2	15	163	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	163		mov __TextOutArgs.Options, __D0readText
+2	15	165	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	165		mov __TextOutArgs.Text, __strbufreadText
+2	15	167	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	167		syscall 13, __TextOutArgs
+2	15	170	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	16	170		mov __D0readText, __TextOutArgs.Result
+2	15	172	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	15	172	#line 15 "C:\Github\NXC_Source\+TextReader.nxc"
+2	18	172	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	18	172	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	18	172	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	172		set __readText_7qG2_j_7qG2_002, 0
+2	18	175	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	18	175	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	175		mov __signed_stack_001readText, __readText_7qG2_j_7qG2_002
+2	18	177	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	18	177	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	177		mov __D0readText, i
+2	18	179	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	179		cmp 0, __D0readText, __signed_stack_001readText, __D0readText
+2	18	183	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	183		brtst 4, __ASM_Label_635, __D0readText
+2	18	186	#line 18 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	186		jmp __ASM_Label_636
+2	19	188	#line 19 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	188		add __readText_7qG2_j_7qG2_002, __readText_7qG2_j_7qG2_002, __constVal1
+2	19	192	#line 19 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	192		jmp __ASM_Label_634
+2	19	194	#line 19 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	194	#pragma macro 7
+2	20	194		mov __FReadArgs.FileHandle, hndl
+2	20	196		mov __RLSMaxBytes, __constVal65535
+2	20	198		subcall __readStringLine, __RLSReturnAddress
+2	20	200		mov __D0readText, __RLSReturn
+2	20	202		mov output, __RLSOutput
+2	6052	204	#line 6052 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	204	#line 19 "C:\Github\NXC_Source\+TextReader.nxc"
+2	19	204	#line 19 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	204	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	204		jmp __ASM_Label_637
+2	20	206	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	206	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	206		set __readText_7qG2_j_7qG2_002, 0
+2	20	209	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	209	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	209		mov __signed_stack_001readText, __readText_7qG2_j_7qG2_002
+2	20	211	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	211	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	211		set __signed_stack_002readText, 7
+2	20	214	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	214	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	20	214	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	214		add __D0readText, __signed_stack_002readText, __readText_7qG2_eight_7qG2_000
+2	20	218	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	218		cmp 0, __D0readText, __signed_stack_001readText, __D0readText
+2	20	222	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	222		brtst 4, __ASM_Label_643, __D0readText
+2	20	225	#line 20 "C:\Github\NXC_Source\+TextReader.nxc"
+2	21	225		jmp __ASM_Label_644
+2	21	227	#line 21 "C:\Github\NXC_Source\+TextReader.nxc"
+2	22	227		add __readText_7qG2_j_7qG2_002, __readText_7qG2_j_7qG2_002, __constVal1
+2	22	231	#line 22 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	231		jmp __ASM_Label_642
+2	22	233	#line 22 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	233	#pragma macro 7
+2	23	233		mov __FReadArgs.FileHandle, hndl
+2	23	235		mov __RLSMaxBytes, __constVal65535
+2	23	237		subcall __readStringLine, __RLSReturnAddress
+2	23	239		mov __D0readText, __RLSReturn
+2	23	241		mov output, __RLSOutput
+2	6095	243	#line 6095 "C:\Github\NXC_Source\+TextReader.nxc"
+2	22	243	#line 22 "C:\Github\NXC_Source\+TextReader.nxc"
+2	22	243	#line 22 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	243	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	243		set __signed_stack_001readText, 0
+2	23	246	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	246	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	246		set __signed_stack_002readText, 56
+2	23	249	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	249	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	249		mov __signed_stack_003readText, __readText_7qG2_j_7qG2_002
+2	23	251	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	251	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	251		set __D0readText, 8
+2	23	254	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	254		mul __D0readText, __signed_stack_003readText, __D0readText
+2	23	258	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	258		sub __signed_stack_002readText, __signed_stack_002readText, __D0readText
+2	23	262	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	262	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	262		strcat __strbufreadText, output
+2	23	266	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	266		set __D0readText, 4096
+2	23	269	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	269	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	269		mov __TextOutArgs.Location.X, __signed_stack_001readText
+2	23	271	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	271		mov __TextOutArgs.Location.Y, __signed_stack_002readText
+2	23	273	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	273		mov __TextOutArgs.Options, __D0readText
+2	23	275	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	275		mov __TextOutArgs.Text, __strbufreadText
+2	23	277	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	277		syscall 13, __TextOutArgs
+2	23	280	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	24	280		mov __D0readText, __TextOutArgs.Result
+2	23	282	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	23	282	#line 23 "C:\Github\NXC_Source\+TextReader.nxc"
+2	26	282	#line 26 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	282		jmp __ASM_Label_645
+2	26	284	#line 26 "C:\Github\NXC_Source\+TextReader.nxc"
+2	26	284	#line 26 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	284	#pragma macro 5
+2	27	284		mov __FCArgs.FileHandle, hndl
+2	27	286		syscall 5, __FCArgs
+2	27	289		mov __D0readText, __FCArgs.Result
+2	6156	291	#line 6156 "C:\Github\NXC_Source\+TextReader.nxc"
+2	26	291	#line 26 "C:\Github\NXC_Source\+TextReader.nxc"
+2	26	291	#line 26 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	291	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	291		set __signed_stack_001readText, 0
+2	27	294	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	294	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	294		mov __D0readText, __constVal0
+2	27	296	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	296	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	296		mov __RBtnArgs.Index, __signed_stack_001readText
+2	27	298	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	298		mov __RBtnArgs.Reset, __D0readText
+2	27	300	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	300		syscall 20, __RBtnArgs
+2	27	303	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	303		mov __D0readText, __RBtnArgs.Pressed
+2	27	305	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	305	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	305		tst 5, __D0readText, __D0readText
+2	27	308	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	308		brtst 5, __ASM_Label_662, __D0readText
+2	27	311	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	311		set __signed_stack_001readText, 1
+2	27	314	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	314	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	314		mov __D0readText, __constVal0
+2	27	316	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	316	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	316		mov __RBtnArgs.Index, __signed_stack_001readText
+2	27	318	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	318		mov __RBtnArgs.Reset, __D0readText
+2	27	320	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	320		syscall 20, __RBtnArgs
+2	27	323	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	323		mov __D0readText, __RBtnArgs.Pressed
+2	27	325	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	325	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	325		tst 5, __D0readText, __D0readText
+2	27	328	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	328		brtst 5, __ASM_Label_662, __D0readText
+2	27	331	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	331		set __signed_stack_001readText, 2
+2	27	334	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	334	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	334		mov __D0readText, __constVal0
+2	27	336	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	336	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	336		mov __RBtnArgs.Index, __signed_stack_001readText
+2	27	338	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	338		mov __RBtnArgs.Reset, __D0readText
+2	27	340	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	340		syscall 20, __RBtnArgs
+2	27	343	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	343		mov __D0readText, __RBtnArgs.Pressed
+2	27	345	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	345	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	345		tst 5, __D0readText, __D0readText
+2	27	348	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	348		brtst 5, __ASM_Label_662, __D0readText
+2	27	351	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	351		set __signed_stack_001readText, 3
+2	27	354	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	354	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	354		mov __D0readText, __constVal0
+2	27	356	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	356	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	356		mov __RBtnArgs.Index, __signed_stack_001readText
+2	27	358	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	358		mov __RBtnArgs.Reset, __D0readText
+2	27	360	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	360		syscall 20, __RBtnArgs
+2	27	363	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	363		mov __D0readText, __RBtnArgs.Pressed
+2	27	365	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	27	365	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	365		tst 5, __D0readText, __D0readText
+2	27	368	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	368		not __D0readText, __D0readText
+2	27	371	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	371		tst 5, __D0readText, __D0readText
+2	27	374	#line 27 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	374		brtst 4, __ASM_Label_659, __D0readText
+2	28	377	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	377		jmp __ASM_Label_658
+2	28	379	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	379	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	379		set __signed_stack_001readText, 0
+2	28	382	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	382	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	382		mov __D0readText, __constVal0
+2	28	384	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	384	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	384		mov __RBtnArgs.Index, __signed_stack_001readText
+2	28	386	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	386		mov __RBtnArgs.Reset, __D0readText
+2	28	388	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	388		syscall 20, __RBtnArgs
+2	28	391	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	391		mov __D0readText, __RBtnArgs.Pressed
+2	28	393	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	393	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	393		tst 5, __D0readText, __D0readText
+2	28	396	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	396		brtst 4, __ASM_Label_679, __D0readText
+2	28	399	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	399	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	399		add i, i, __readText_7qG2_lnjmp_7qG2_000
+2	28	403	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	403	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	403		jmp __ASM_Label_682
+2	28	405	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	405	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	405		sub i, i, __readText_7qG2_lnjmp_7qG2_000
+2	28	409	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	28	409	#line 28 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	409	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	409		mov __signed_stack_001readText, i
+2	29	411	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	411	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	411		set __D0readText, 0
+2	29	414	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	414		cmp 0, __D0readText, __signed_stack_001readText, __D0readText
+2	29	418	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	418		brtst 4, __ASM_Label_687, __D0readText
+2	29	421	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	421		set i, 0
+2	29	424	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	29	424	#line 29 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	424	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	424	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	424		set __signed_stack_001readText, 0
+2	30	427	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	427	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	427		mov __D0readText, __constVal0
+2	30	429	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	429	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	429		mov __RBtnArgs.Index, __signed_stack_001readText
+2	30	431	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	431		mov __RBtnArgs.Reset, __D0readText
+2	30	433	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	433		syscall 20, __RBtnArgs
+2	30	436	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	436		mov __signed_stack_001readText, __RBtnArgs.Pressed
+2	30	438	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	438	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	438	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	438		set __D0readText, 0
+2	30	441	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	441		cmp 4, __D0readText, __signed_stack_001readText, __D0readText
+2	30	445	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	445		brtst 4, __ASM_Label_695, __D0readText
+2	30	448	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	448		set __signed_stack_001readText, 3
+2	30	451	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	451	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	451		mov __D0readText, __constVal0
+2	30	453	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	453	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	453		mov __RBtnArgs.Index, __signed_stack_001readText
+2	30	455	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	455		mov __RBtnArgs.Reset, __D0readText
+2	30	457	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	457		syscall 20, __RBtnArgs
+2	30	460	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	460		mov __signed_stack_001readText, __RBtnArgs.Pressed
+2	30	462	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	462	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	30	462	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	462		set __D0readText, 0
+2	30	465	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	465		cmp 4, __D0readText, __signed_stack_001readText, __D0readText
+2	30	469	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	469		not __D0readText, __D0readText
+2	30	472	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	472		tst 5, __D0readText, __D0readText
+2	30	475	#line 30 "C:\Github\NXC_Source\+TextReader.nxc"
+2	31	475		brtst 4, __ASM_Label_691, __D0readText
+2	32	478	#line 32 "C:\Github\NXC_Source\+TextReader.nxc"
+2	33	478		jmp __ASM_Label_690
+2	32	480	#line 32 "C:\Github\NXC_Source\+TextReader.nxc"
+2	35	480	#line 35 "C:\Github\NXC_Source\+TextReader.nxc"
+2	36	480		jmp __ASM_Label_612
+2	35	482	#line 35 "C:\Github\NXC_Source\+TextReader.nxc"
+2	35	482	#line 35 "C:\Github\NXC_Source\+TextReader.nxc"
+2	36	482		subret __readText_return
+3	41	0	#line 41 "C:\Github\NXC_Source\+TextReader.nxc"
+3	42	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\+TextReader.nxc
+1	__readStringLine	19	NXTDefs.h
+2	readText	68	C:\Github\NXC_Source\+TextReader.nxc
+3	__initialize_global_data	552	C:\Github\NXC_Source\+TextReader.nxc
