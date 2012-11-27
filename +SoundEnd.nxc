@@ -7,29 +7,40 @@ void SoundEnd(int whatSound)
   {
   if (whatSound==soundWin)
     {
-    PlayTone(1500,200); Wait(200);
     PlayTone(0500,200); Wait(200);
-    PlayTone(2500,200); Wait(200);
     PlayTone(1500,200); Wait(200);
+    PlayTone(2500,200); Wait(200);
+    PlayTone(3500,200); Wait(200);
+    PlayTone(2500,200); Wait(200);
+    PlayTone(3500,200); Wait(200);
     }
-  else if (whatSound==soundWin)
+  else if (whatSound==soundDraw)
     {
-    PlayTone(1500,200); Wait(200);
-    PlayTone(0500,200); Wait(200);
-    PlayTone(2500,200); Wait(200);
-    PlayTone(1500,200); Wait(200);
+    PlayTone(0500,200); Wait(250);
+    PlayTone(1500,200); Wait(250);
+    PlayTone(0500,200); Wait(250);
+    PlayTone(1500,200); Wait(250);
     }
-  else if (whatSound==soundWin)
+  else if (whatSound==soundLose)
     {
-    PlayTone(1500,200); Wait(200);
-    PlayTone(0500,200); Wait(200);
-    PlayTone(2500,200); Wait(200);
-    PlayTone(1500,200); Wait(200);
+    PlayTone(2500,300); Wait(300);
+    PlayTone(2300,450); Wait(450);
+    PlayTone(2100,800); Wait(800);
     }
   }
 /*
 task main()
   {
+  TextOut(0,0,"win",0);
+  SoundEnd(soundWin);
+  Wait(1000);
+  
+  TextOut(0,0,"draw",0);
   SoundEnd(soundDraw);
+  Wait(1000);
+  
+  TextOut(0,0,"lose",0);
+  SoundEnd(soundLose);
+  Wait(1000);
   }
 //*/

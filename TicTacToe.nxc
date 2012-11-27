@@ -3,6 +3,9 @@
 //9-25-2012
 
 
+#include "+SoundEnd.nxc"
+
+
 int board[9], lastplayed, select, winner, a, b, i, aimove=0, xwins=0, owins=0, dwins=0;
 bool gameover, turn, p2ai,aiturndone;
 string msg;
@@ -169,14 +172,16 @@ void AI()
 
 void GameOver()
   {
-  if (winner==0) {soundOut}
-  else {PlayTone(4000,250);}
-  Redraw(false,0,0); Wait(3000);
+  if (winner==0) {SoundEnd(soundDraw);TextOut(40,LCD_LINE5,"Draw",0);}
+  else
+    {
+    if (p2ai&&winner==2) {TextOut(32,LCD_LINE5,"AI won",0); SoundEnd(soundLose);}
+    else {TextOut(12,LCD_LINE5,"Player "+NumToStr(winner)+" won",0); SoundEnd(soundWin);}
+    }
+  Redraw(false,0,0);
+  Wait(3000);
   ClearScreen();
   TextOut(16,LCD_LINE1,"TIC-TAC-TOE",0); TextOut(22,LCD_LINE4,"GAME OVER",0);
-  if (winner==0)      {TextOut(40,LCD_LINE5,"Draw",0);}
-  else if (p2ai&&winner==2) {TextOut(32,LCD_LINE5,"AI won",0);}
-  else            {TextOut(12,LCD_LINE5,"Player "+NumToStr(winner)+" won",0);}
   TextOut(45,LCD_LINE8,"OK",0);
   until (ButtonPressed(BTNCENTER)) {}
   ClearScreen();
