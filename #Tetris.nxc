@@ -1,0 +1,81 @@
+//Tetris
+//Joseph Dykstra
+#define blocksize 4
+#define width     10
+#define height    25
+
+const bool I[4][4]={
+{0,1,0,0},
+{0,1,0,0},
+{0,1,0,0},
+{0,1,0,0}};
+
+const bool O[4][4]={
+{0,0,0,0},
+{0,1,1,0},
+{0,1,1,0},
+{0,0,0,0}};
+
+const bool L[4][4]={
+{0,1,0,0},
+{0,1,0,0},
+{0,1,1,0},
+{0,0,0,0}};
+
+const bool J[4][4]={
+{0,0,1,0},
+{0,0,1,0},
+{0,1,1,0},
+{0,0,0,0}};
+
+const bool T[4][4]={
+{0,0,0,0},
+{0,1,0,0},
+{1,1,1,0},
+{0,0,0,0}};
+
+const bool S[4][4]={
+{0,0,0,0},
+{0,0,0,0},
+{0,1,1,0},
+{1,1,0,0}};
+
+const bool Z[4][4]={
+{0,0,0,0},
+{0,0,0,0},
+{1,1,0,0},
+{0,1,1,0}};
+
+
+task main()
+  {
+  //init
+  SetLongAbort(true);
+  bool playagain, alive, piecemoving;
+  playagain=true;
+  while (playagain)
+    {
+    //choose gametype
+    alive=true;
+    while (alive)
+      {
+      piecemoving=true;
+      while (piecemoving)
+        {
+        //get input
+        //debugging
+        //do output
+        }
+      //create new piece
+      //if filled rows
+        //destroy them
+        //add to score
+        //move higher rows down
+      }
+    //play again?
+    }
+  }
+  
+  
+  
+  
