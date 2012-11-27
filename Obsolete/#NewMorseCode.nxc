@@ -1,7 +1,7 @@
 //Morse Code Reader/Decoder
-#define longpress    10
-#define mediumwait   25
-#define longwait     50
+#define shortpress   10
+#define shortwait    25
+#define mediumwait   50
 #download "Morse-Splash.ric"
 #download "Morse-Splash2.ric"
 
@@ -55,36 +55,37 @@ string decodeInternational(long in)
 
 task main()
   {
-  int i, j;
-  string rawData;
-  while (ButtonState(BTNCENTER)==false) {}
-  while (ButtonState(BTNRIGHT)==false)
+  int i, j=0;
+  string rawPressData,/*rawWaitData,*/output;
+  while ( ButtonState(BTNRIGHT)==false)
     {
-    //GraphicOut(50,32,"Morse-Splash2.ric",0);
-    //GraphicOut(50,32,"FGB-Fox.ric",0);
-    //TextOut(10,10,"fox out",0);
-
-
-    //WAIT
-    for (j=0; (ButtonPressed(BTNCENTER)==false)
-           && (ButtonPressed(BTNRIGHT)==false); j++) {Wait(10);}
-    if (j<longwait) {rawData=StrCat(rawData,"1");} //dot
-    else            {rawData=StrCat(rawData,"2");} //dash
-
-
-    //PRESSED
-    if (ButtonPressed(BTNRIGHT)==false)
+    while (j<mediumwait) //different word
       {
-      until (ButtonPressed(BTNCENTER)) {}
-      for (j=0; ButtonPressed(BTNCENTER); j++)
-        {PlayTone(2000,15); Wait(10);}
-      if (j<mediumwait)    {rawData=StrCat(rawData,"3");}  //short wait,  same letter
-      else if (j<longwait) {rawData=StrCat(rawData,"4");}  //medium wait, same word
-      else                 {rawData=StrCat(rawData,"5");}  //long wait,   space
-      }
-    }
-  PlayTone(1000,1000); Wait(1000);
+      //PRESSED
+      for (j=0; ButtonPressed(BTNCENTER)==1; j++) {PlayTone(2000,15); Wait(10);}
+      if (j<=shortpress)  {rawPressData=StrCat(rawPressData,"1");} //dot
+      else /*long press*/ {rawPressData=StrCat(rawPressData,"2");} //dash
 
+      //WAIT
+      for (j=0; ButtonPressed(BTNRIGHT)==false&&ButtonPressed(BTNCENTER)==0; j++) {Wait(10);}
+      //if      (j<=shortwait)  {rawWaitData=StrCat(rawWaitData,"1");}  //same letter
+      //else if (j<=mediumwait) {rawWaitData=StrCat(rawWaitData,"2");}  //same word
+      //else    /*  longwait */ {rawWaitData=StrCat(rawWaitData,"3");}  //space
+      }
+    output=StrCat(output,decodeInternational( StrToNum(rawPressData) ));
+    SendResponseString(MAILBOX10,output);
+    TextOut(0,LCD_LINE1,StrCat("output",output),0);
+    if (j>mediumwait) output=StrCat(output," "); //space
+    }
+    
+  PlayTone(1500,200); Wait(200);
+  PlayTone(500, 200); Wait(200);
+  PlayTone(2500,200); Wait(200);
+  PlayTone(1500,200); Wait(200);
+  
+  TextOut(0,LCD_LINE1,StrCat("output",output),0);
+  }
+  /*
   rawData=StrCat(rawData,"0"); //"null terminator"
   SendResponseString(MAILBOX10,rawData); Wait(60);
   ClearScreen();
@@ -120,7 +121,6 @@ task main()
   Wait(2000);
   }
 
-/*
   int temp,currentChar;
   while (i<=StrLen(rawData))
     {

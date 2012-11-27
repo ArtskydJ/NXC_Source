@@ -1,0 +1,1476 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0waitRight	6	1	0	4	56
+1	__DU0waitRight	5	1	4	4	5
+2	__DU0main	5	1	8	4	7
+3	__D0decode	6	1	12	4	144
+4	__D0main	6	1	16	4	44
+5	__signed_stack_001decode	6	1	20	4	72
+6	__signed_stack_001waitRight	6	1	24	4	26
+7	__decode_7qG2_in_7qG2_000	6	1	28	4	37
+8	__signed_stack_003main	6	1	32	4	8
+9	__signed_stack_001main	6	1	36	4	23
+10	__signed_stack_002main	6	1	40	4	18
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	8
+12	__SPTArgsMutex	9	0	48	4	8
+13	__RBtnMutex	9	0	52	4	18
+14	__constVal0	2	1	56	1	9
+15	__decode_return	1	1	57	1	4
+16	__waitRight_return	1	1	58	1	7
+17	__main_7qG2_inloop3_7qG2_000	1	1	59	1	3
+18	____initialize_global_data_return	1	1	60	1	3
+19	__main_7qG2_inloop1_7qG2_000	1	1	61	1	3
+20	__main_7qG2_inloop2_7qG2_000	1	1	62	1	3
+21	__waitRight_7qG2_ret_7qG2_000	1	1	63	1	3
+22	__constVal10	2	0	64	1	1
+23	__constVal9	2	0	65	1	1
+24	__SPTArgs	8	0	5	8	24
+25	__SPTArgs.Result	2	1	68	1	24
+26	__SPTArgs.Frequency	3	1	70	2	24
+27	__SPTArgs.Duration	3	1	72	2	24
+28	__SPTArgs.Loop	1	1	74	1	24
+29	__SPTArgs.Volume	1	1	75	1	24
+30	__TextOutArgs	8	0	4	16	29
+31	__TextOutArgs.Result	2	1	76	1	29
+32	__TextOutArgs.Location	8	0	2	4	29
+33	__TextOutArgs.Location.X	4	1	80	2	29
+34	__TextOutArgs.Location.Y	4	1	82	2	29
+35	__TextOutArgs.Text	7	0	84	4	29
+36	__TextOutArgs.Text.Text_type	1	0	0	1	0
+37	__TextOutArgs.Options	5	1	88	4	29
+38	__RBtnArgs	8	0	5	8	36
+39	__RBtnArgs.Result	2	1	92	1	36
+40	__RBtnArgs.Index	1	1	93	1	36
+41	__RBtnArgs.Pressed	1	1	94	1	36
+42	__RBtnArgs.Count	1	1	95	1	36
+43	__RBtnArgs.Reset	1	1	96	1	36
+44	__MWArgs	8	0	3	8	3
+45	__MWArgs.Result	2	1	100	1	3
+46	__MWArgs.QueueID	1	1	101	1	3
+47	__MWArgs.Message	7	0	102	4	3
+48	__MWArgs.Message.Message_type	1	0	0	1	0
+49	__constStr0034	7	0	104	4	2
+50	__constStr0034.__constStr0034_type	1	1	0	1	0
+51	__constStr0035	7	0	106	4	1
+52	__constStr0035.__constStr0035_type	1	1	0	1	0
+53	__constStr0036	7	0	108	4	1
+54	__constStr0036.__constStr0036_type	1	1	0	1	0
+55	__constStr0038	7	0	110	4	1
+56	__constStr0038.__constStr0038_type	1	1	0	1	0
+57	__constStr0037	7	0	112	4	1
+58	__constStr0037.__constStr0037_type	1	1	0	1	0
+59	__constStr0033	7	0	114	4	2
+60	__constStr0033.__constStr0033_type	1	1	0	1	0
+61	__constStr0029	7	0	116	4	1
+62	__constStr0029.__constStr0029_type	1	1	0	1	0
+63	__constStr0028	7	0	118	4	1
+64	__constStr0028.__constStr0028_type	1	1	0	1	0
+65	__constStr0030	7	0	120	4	1
+66	__constStr0030.__constStr0030_type	1	1	0	1	0
+67	__constStr0032	7	0	122	4	1
+68	__constStr0032.__constStr0032_type	1	1	0	1	0
+69	__constStr0031	7	0	124	4	1
+70	__constStr0031.__constStr0031_type	1	1	0	1	0
+71	__constStr0039	7	0	126	4	1
+72	__constStr0039.__constStr0039_type	1	1	0	1	0
+73	__constStr0043	7	0	128	4	1
+74	__constStr0043.__constStr0043_type	1	1	0	1	0
+75	__constStr0044	7	0	130	4	2
+76	__constStr0044.__constStr0044_type	1	1	0	1	0
+77	__main_7qG2_output_7qG2_000	7	0	132	4	6
+78	__main_7qG2_output_7qG2_000.__main_7qG2_output_7qG2_000_type	1	0	0	1	0
+79	__main_7qG2_tempOutput_7qG2_000	7	0	134	4	5
+80	__main_7qG2_tempOutput_7qG2_000.__main_7qG2_tempOutput_7qG2_000_type	1	0	0	1	0
+81	__main_7qG2_data_7qG2_000	7	0	136	4	6
+82	__main_7qG2_data_7qG2_000.__main_7qG2_data_7qG2_000_type	1	0	0	1	0
+83	__constStr0047	7	0	138	4	1
+84	__constStr0047.__constStr0047_type	1	1	0	1	0
+85	__constStr0041	7	0	140	4	1
+86	__constStr0041.__constStr0041_type	1	1	0	1	0
+87	__constStr0040	7	0	142	4	1
+88	__constStr0040.__constStr0040_type	1	1	0	1	0
+89	__constStr0042	7	0	144	4	1
+90	__constStr0042.__constStr0042_type	1	1	0	1	0
+91	__constStr0045	7	0	146	4	1
+92	__constStr0045.__constStr0045_type	1	1	0	1	0
+93	__constStr0046	7	0	148	4	1
+94	__constStr0046.__constStr0046_type	1	1	0	1	0
+95	__decode_7qG2_out_7qG2_000	7	0	150	4	39
+96	__decode_7qG2_out_7qG2_000.__decode_7qG2_out_7qG2_000_type	1	0	0	1	0
+97	__constStr0008	7	0	152	4	1
+98	__constStr0008.__constStr0008_type	1	1	0	1	0
+99	__constStr0007	7	0	154	4	1
+100	__constStr0007.__constStr0007_type	1	1	0	1	0
+101	__constStr0009	7	0	156	4	4
+102	__constStr0009.__constStr0009_type	1	1	0	1	0
+103	__constStr0012	7	0	158	4	1
+104	__constStr0012.__constStr0012_type	1	1	0	1	0
+105	__constStr0011	7	0	160	4	1
+106	__constStr0011.__constStr0011_type	1	1	0	1	0
+107	__constStr0010	7	0	162	4	1
+108	__constStr0010.__constStr0010_type	1	1	0	1	0
+109	__constStr0006	7	0	164	4	1
+110	__constStr0006.__constStr0006_type	1	1	0	1	0
+111	__ArrHelper__main_244_2	7	0	166	4	2
+112	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+113	__ArrHelper__main_244_1	7	0	168	4	10
+114	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+115	__ArrHelper__main_244_0	7	0	170	4	10
+116	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+117	__ArrHelper__main_244_3	7	0	172	4	2
+118	__ArrHelper__main_244_3.__ArrHelper__main_244_3_type	1	0	0	1	0
+119	__strretvalmain	7	0	174	4	12
+120	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+121	__strbufmain	7	0	176	4	50
+122	__strbufmain.__strbufmain_type	1	0	0	1	0
+123	__strbufdecode	7	0	178	4	78
+124	__strbufdecode.__strbufdecode_type	1	0	0	1	0
+125	__constStr0023	7	0	180	4	1
+126	__constStr0023.__constStr0023_type	1	1	0	1	0
+127	__constStr0022	7	0	182	4	1
+128	__constStr0022.__constStr0022_type	1	1	0	1	0
+129	__constStr0021	7	0	184	4	1
+130	__constStr0021.__constStr0021_type	1	1	0	1	0
+131	__constStr0024	7	0	186	4	1
+132	__constStr0024.__constStr0024_type	1	1	0	1	0
+133	__constStr0027	7	0	188	4	1
+134	__constStr0027.__constStr0027_type	1	1	0	1	0
+135	__constStr0026	7	0	190	4	1
+136	__constStr0026.__constStr0026_type	1	1	0	1	0
+137	__constStr0025	7	0	192	4	1
+138	__constStr0025.__constStr0025_type	1	1	0	1	0
+139	__constStr0020	7	0	194	4	1
+140	__constStr0020.__constStr0020_type	1	1	0	1	0
+141	__constStr0015	7	0	196	4	1
+142	__constStr0015.__constStr0015_type	1	1	0	1	0
+143	__constStr0014	7	0	198	4	1
+144	__constStr0014.__constStr0014_type	1	1	0	1	0
+145	__constStr0013	7	0	200	4	1
+146	__constStr0013.__constStr0013_type	1	1	0	1	0
+147	__constStr0016	7	0	202	4	1
+148	__constStr0016.__constStr0016_type	1	1	0	1	0
+149	__constStr0019	7	0	204	4	1
+150	__constStr0019.__constStr0019_type	1	1	0	1	0
+151	__constStr0018	7	0	206	4	1
+152	__constStr0018.__constStr0018_type	1	1	0	1	0
+153	__constStr0017	7	0	208	4	1
+154	__constStr0017.__constStr0017_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	74	0	#line 74 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	75	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	74	2	#line 74 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	74	2	#line 74 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	75	2		subcall waitRight, __waitRight_return
+0	74	4	#line 74 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	75	4		mov __DU0main, __DU0waitRight
+0	74	6	#line 74 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	77	6	#line 77 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	78	6		set __main_7qG2_inloop3_7qG2_000, 1
+0	77	9	#line 77 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	77	9	#line 77 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	79	9	#line 79 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	80	9		mov __DU0main, __main_7qG2_inloop3_7qG2_000
+0	80	11	#line 80 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	81	11		tst 5, __D0main, __DU0main
+0	80	14	#line 80 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	81	14		brtst 4, __ASM_Label_781, __D0main
+0	80	17	#line 80 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	81	17		set __main_7qG2_inloop2_7qG2_000, 1
+0	80	20	#line 80 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	80	20	#line 80 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	82	20	#line 82 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	83	20		mov __DU0main, __main_7qG2_inloop2_7qG2_000
+0	83	22	#line 83 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	84	22		tst 5, __D0main, __DU0main
+0	83	25	#line 83 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	84	25		brtst 4, __ASM_Label_787, __D0main
+0	83	28	#line 83 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	84	28		strcat __strbufmain, __constStr0009
+0	83	32	#line 83 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	84	32		mov __main_7qG2_tempOutput_7qG2_000, __strbufmain
+0	83	34	#line 83 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	84	34	#line 84 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	85	34		strcat __strbufmain, __constStr0009
+0	84	38	#line 84 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	85	38		mov __main_7qG2_data_7qG2_000, __strbufmain
+0	84	40	#line 84 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	85	40	#line 85 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	86	40		set __main_7qG2_inloop1_7qG2_000, 1
+0	85	43	#line 85 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	85	43	#line 85 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	87	43	#line 87 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	88	43		mov __DU0main, __main_7qG2_inloop1_7qG2_000
+0	89	45	#line 89 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	90	45		tst 5, __D0main, __DU0main
+0	89	48	#line 89 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	90	48		brtst 4, __ASM_Label_793, __D0main
+0	89	51	#line 89 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	90	51		set __signed_stack_001main, 2
+0	89	54	#line 89 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	89	54	#line 89 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	90	54		mov __D0main, __constVal0
+0	90	56	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	56		acquire __RBtnMutex
+0	90	57	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	57		mov __RBtnArgs.Index, __signed_stack_001main
+0	90	59	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	59		mov __RBtnArgs.Reset, __D0main
+0	90	61	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	61		syscall 20, __RBtnArgs
+0	90	64	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	64		mov __D0main, __RBtnArgs.Pressed
+0	90	66	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	66		release __RBtnMutex
+0	90	67	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	67		tst 5, __D0main, __D0main
+0	90	70	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	70		brtst 4, __ASM_Label_800, __D0main
+0	90	73	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	73		strcat __strbufmain, __main_7qG2_data_7qG2_000
+0	90	77	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	77		mov __ArrHelper__main_244_0, __strbufmain
+0	90	79	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	79		strcat __strbufmain, __constStr0033
+0	90	83	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	83		mov __ArrHelper__main_244_1, __strbufmain
+0	90	85	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	85		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	90	90	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	90		strcat __strbufmain, __strretvalmain
+0	90	94	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	94		mov __main_7qG2_data_7qG2_000, __strbufmain
+0	90	96	#line 90 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	96	#line 91 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	96	#line 91 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	92	96		set __signed_stack_001main, 3
+0	91	99	#line 91 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	91	99	#line 91 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	92	99		mov __D0main, __constVal0
+0	92	101	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	101		acquire __RBtnMutex
+0	92	102	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	102		mov __RBtnArgs.Index, __signed_stack_001main
+0	92	104	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	104		mov __RBtnArgs.Reset, __D0main
+0	92	106	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	106		syscall 20, __RBtnArgs
+0	92	109	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	109		mov __D0main, __RBtnArgs.Pressed
+0	92	111	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	111		release __RBtnMutex
+0	92	112	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	112		tst 5, __D0main, __D0main
+0	92	115	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	115		brtst 4, __ASM_Label_805, __D0main
+0	92	118	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	118		strcat __strbufmain, __main_7qG2_data_7qG2_000
+0	92	122	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	122		mov __ArrHelper__main_244_0, __strbufmain
+0	92	124	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	124		strcat __strbufmain, __constStr0034
+0	92	128	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	128		mov __ArrHelper__main_244_1, __strbufmain
+0	92	130	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	130		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	92	135	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	135		strcat __strbufmain, __strretvalmain
+0	92	139	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	139		mov __main_7qG2_data_7qG2_000, __strbufmain
+0	92	141	#line 92 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	141	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	141	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	141		strcat __strbufmain, __main_7qG2_data_7qG2_000
+0	93	145	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	145		strtonum __decode_7qG2_in_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	93	151	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	93	151	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	151		subcall decode, __decode_return
+0	93	153	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	153		mov __strretvalmain, __strbufdecode
+0	93	155	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	155		strcat __strbufmain, __strretvalmain
+0	93	159	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	159		mov __main_7qG2_tempOutput_7qG2_000, __strbufmain
+0	93	161	#line 93 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	161	#line 94 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	161	#pragma macro 6
+0	95	161		add __MWArgs.QueueID, __constVal9, __constVal10
+0	95	165		mov __MWArgs.Message, __main_7qG2_tempOutput_7qG2_000
+0	95	167		syscall 26, __MWArgs
+0	7320	170	#line 7320 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	170	#line 94 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	94	170	#line 94 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	170	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	170		set __signed_stack_001main, 0
+0	95	173	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	173	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	173		set __signed_stack_002main, 48
+0	95	176	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	176	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	176		strcat __strbufmain, __constStr0043
+0	95	180	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	180		mov __ArrHelper__main_244_0, __strbufmain
+0	95	182	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	182		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	95	186	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	186		mov __ArrHelper__main_244_1, __strbufmain
+0	95	188	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	188		strcat __strbufmain, __main_7qG2_tempOutput_7qG2_000
+0	95	192	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	192		mov __ArrHelper__main_244_2, __strbufmain
+0	95	194	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	194		strcat __strbufmain, __constStr0044
+0	95	198	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	198		mov __ArrHelper__main_244_3, __strbufmain
+0	95	200	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	200		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1, __ArrHelper__main_244_2, __ArrHelper__main_244_3
+0	95	207	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	207		strcat __strbufmain, __strretvalmain
+0	95	211	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	211		set __D0main, 0
+0	95	214	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	214	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	214		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	95	216	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	216		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	95	218	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	218		mov __TextOutArgs.Options, __D0main
+0	95	220	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	220		mov __TextOutArgs.Text, __strbufmain
+0	95	222	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	222		syscall 13, __TextOutArgs
+0	95	225	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	225	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	95	225	#line 95 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	225	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	225		set __signed_stack_001main, 0
+0	96	228	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	228	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	228		set __signed_stack_002main, 0
+0	96	231	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	231	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	231		strcat __strbufmain, __constStr0045
+0	96	235	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	235		set __D0main, 0
+0	96	238	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	238	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	238		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	96	240	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	240		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	96	242	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	242		mov __TextOutArgs.Options, __D0main
+0	96	244	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	244		mov __TextOutArgs.Text, __strbufmain
+0	96	246	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	246		syscall 13, __TextOutArgs
+0	96	249	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	249		mov __D0main, __TextOutArgs.Result
+0	96	251	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	96	251	#line 96 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	251	#line 97 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	98	251		subcall waitRight, __waitRight_return
+0	97	253	#line 97 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	98	253		mov __main_7qG2_inloop1_7qG2_000, __DU0waitRight
+0	97	255	#line 97 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	97	255	#line 97 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	99	255	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	255		jmp __ASM_Label_792
+0	99	257	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	99	257	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	257		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	99	261	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	261		mov __ArrHelper__main_244_0, __strbufmain
+0	99	263	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	263		strcat __strbufmain, __main_7qG2_tempOutput_7qG2_000
+0	99	267	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	267		mov __ArrHelper__main_244_1, __strbufmain
+0	99	269	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	269		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	99	274	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	274		strcat __strbufmain, __strretvalmain
+0	99	278	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	278		mov __main_7qG2_output_7qG2_000, __strbufmain
+0	99	280	#line 99 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	280	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	280		set __signed_stack_001main, 0
+0	100	283	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	283	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	283		set __signed_stack_002main, 0
+0	100	286	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	286	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	286		strcat __strbufmain, __constStr0046
+0	100	290	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	290		set __D0main, 0
+0	100	293	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	293	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	293		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	100	295	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	295		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	100	297	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	297		mov __TextOutArgs.Options, __D0main
+0	100	299	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	299		mov __TextOutArgs.Text, __strbufmain
+0	100	301	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	301		syscall 13, __TextOutArgs
+0	100	304	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	304		mov __D0main, __TextOutArgs.Result
+0	100	306	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	100	306	#line 100 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	306	#line 101 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	102	306		subcall waitRight, __waitRight_return
+0	101	308	#line 101 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	102	308		mov __main_7qG2_inloop2_7qG2_000, __DU0waitRight
+0	101	310	#line 101 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	101	310	#line 101 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	103	310	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	310		jmp __ASM_Label_786
+0	103	312	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	103	312	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	312		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	103	316	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	316		mov __ArrHelper__main_244_0, __strbufmain
+0	103	318	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	318		strcat __strbufmain, __constStr0044
+0	103	322	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	322		mov __ArrHelper__main_244_1, __strbufmain
+0	103	324	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	324		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	103	329	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	329		strcat __strbufmain, __strretvalmain
+0	103	333	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	333		mov __main_7qG2_output_7qG2_000, __strbufmain
+0	103	335	#line 103 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	335	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	335		set __signed_stack_001main, 0
+0	104	338	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	338	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	338		set __signed_stack_002main, 0
+0	104	341	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	341	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	341		strcat __strbufmain, __constStr0047
+0	104	345	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	345		set __D0main, 0
+0	104	348	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	348	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	348		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	104	350	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	350		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	104	352	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	352		mov __TextOutArgs.Options, __D0main
+0	104	354	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	354		mov __TextOutArgs.Text, __strbufmain
+0	104	356	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	356		syscall 13, __TextOutArgs
+0	104	359	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	359		mov __D0main, __TextOutArgs.Result
+0	104	361	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	104	361	#line 104 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	361	#line 105 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	106	361		subcall waitRight, __waitRight_return
+0	105	363	#line 105 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	106	363		mov __main_7qG2_inloop3_7qG2_000, __DU0waitRight
+0	105	365	#line 105 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	105	365	#line 105 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	107	365	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	365		jmp __ASM_Label_780
+0	107	367	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	107	367	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	367		set __signed_stack_001main, 1500
+0	107	370	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	107	370	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	370		set __signed_stack_002main, 200
+0	107	373	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	107	373	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	373		set __signed_stack_003main, 4
+0	107	376	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	107	376	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	376		set __D0main, 0
+0	107	379	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	379		acquire __SPTArgsMutex
+0	107	380	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	380		mov __SPTArgs.Frequency, __signed_stack_001main
+0	107	382	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	382		mov __SPTArgs.Duration, __signed_stack_002main
+0	107	384	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	384		mov __SPTArgs.Volume, __signed_stack_003main
+0	107	386	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	386		mov __SPTArgs.Loop, __D0main
+0	107	388	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	388		syscall 10, __SPTArgs
+0	107	391	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	391		mov __D0main, __SPTArgs.Result
+0	107	393	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	393		release __SPTArgsMutex
+0	107	394	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	107	394	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	394		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	107	397	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	8771	397	#line 8771 "NXCDefs.h"
+0	8772	397		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	399	#line 8771 "NXCDefs.h"
+0	107	399	#line 107 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	399	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	399		set __signed_stack_001main, 500
+0	108	402	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	402	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	402		set __signed_stack_002main, 200
+0	108	405	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	405	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	405		set __signed_stack_003main, 4
+0	108	408	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	408	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	408		set __D0main, 0
+0	108	411	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	411		acquire __SPTArgsMutex
+0	108	412	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	412		mov __SPTArgs.Frequency, __signed_stack_001main
+0	108	414	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	414		mov __SPTArgs.Duration, __signed_stack_002main
+0	108	416	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	416		mov __SPTArgs.Volume, __signed_stack_003main
+0	108	418	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	418		mov __SPTArgs.Loop, __D0main
+0	108	420	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	420		syscall 10, __SPTArgs
+0	108	423	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	423		mov __D0main, __SPTArgs.Result
+0	108	425	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	425		release __SPTArgsMutex
+0	108	426	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	108	426	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	426		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	108	429	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	8771	429	#line 8771 "NXCDefs.h"
+0	8772	429		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	431	#line 8771 "NXCDefs.h"
+0	108	431	#line 108 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	431	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	431		set __signed_stack_001main, 2500
+0	109	434	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	434	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	434		set __signed_stack_002main, 200
+0	109	437	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	437	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	437		set __signed_stack_003main, 4
+0	109	440	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	440	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	440		set __D0main, 0
+0	109	443	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	443		acquire __SPTArgsMutex
+0	109	444	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	444		mov __SPTArgs.Frequency, __signed_stack_001main
+0	109	446	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	446		mov __SPTArgs.Duration, __signed_stack_002main
+0	109	448	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	448		mov __SPTArgs.Volume, __signed_stack_003main
+0	109	450	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	450		mov __SPTArgs.Loop, __D0main
+0	109	452	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	452		syscall 10, __SPTArgs
+0	109	455	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	455		mov __D0main, __SPTArgs.Result
+0	109	457	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	457		release __SPTArgsMutex
+0	109	458	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	109	458	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	458		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	109	461	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	8771	461	#line 8771 "NXCDefs.h"
+0	8772	461		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	463	#line 8771 "NXCDefs.h"
+0	109	463	#line 109 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	463	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	463		set __signed_stack_001main, 1500
+0	110	466	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	466	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	466		set __signed_stack_002main, 200
+0	110	469	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	469	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	469		set __signed_stack_003main, 4
+0	110	472	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	472	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	472		set __D0main, 0
+0	110	475	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	475		acquire __SPTArgsMutex
+0	110	476	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	476		mov __SPTArgs.Frequency, __signed_stack_001main
+0	110	478	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	478		mov __SPTArgs.Duration, __signed_stack_002main
+0	110	480	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	480		mov __SPTArgs.Volume, __signed_stack_003main
+0	110	482	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	482		mov __SPTArgs.Loop, __D0main
+0	110	484	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	484		syscall 10, __SPTArgs
+0	110	487	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	487		mov __D0main, __SPTArgs.Result
+0	110	489	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	489		release __SPTArgsMutex
+0	110	490	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	110	490	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	111	490		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	110	493	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	8771	493	#line 8771 "NXCDefs.h"
+0	8772	493		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	495	#line 8771 "NXCDefs.h"
+0	110	495	#line 110 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	112	495	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	495		set __signed_stack_001main, 0
+0	112	498	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	112	498	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	498		set __signed_stack_002main, 40
+0	112	501	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	112	501	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	501		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	112	505	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	505		set __D0main, 0
+0	112	508	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	112	508	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	508		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	112	510	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	510		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	112	512	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	512		mov __TextOutArgs.Options, __D0main
+0	112	514	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	514		mov __TextOutArgs.Text, __strbufmain
+0	112	516	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	516		syscall 13, __TextOutArgs
+0	112	519	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	519		mov __D0main, __TextOutArgs.Result
+0	112	521	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	112	521	#line 112 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+0	113	521		exit -1, -1
+1	10	0	#line 10 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	11	0		strcat __strbufdecode, __constStr0009
+1	10	4	#line 10 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	11	4		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	12	6	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	6		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	12	8	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	12	8	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	8		set __D0decode, 12
+1	12	11	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	11		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	12	15	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	15		brtst 4, __ASM_Label_606, __D0decode
+1	12	18	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	18		strcat __strbufdecode, __constStr0008
+1	12	22	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	22		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	12	24	#line 12 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	24	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	24		jmp __ASM_Label_607
+1	13	26	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	26		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	13	28	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	13	28	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	28		set __D0decode, 2111
+1	13	31	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	31		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	13	35	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	35		brtst 4, __ASM_Label_610, __D0decode
+1	13	38	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	38		strcat __strbufdecode, __constStr0010
+1	13	42	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	42		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	13	44	#line 13 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	44	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	44		jmp __ASM_Label_611
+1	14	46	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	46		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	14	48	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	14	48	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	48		set __D0decode, 2121
+1	14	51	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	51		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	14	55	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	55		brtst 4, __ASM_Label_614, __D0decode
+1	14	58	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	58		strcat __strbufdecode, __constStr0011
+1	14	62	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	62		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	14	64	#line 14 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	64	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	64		jmp __ASM_Label_615
+1	15	66	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	66		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	15	68	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	15	68	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	68		set __D0decode, 211
+1	15	71	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	71		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	15	75	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	75		brtst 4, __ASM_Label_618, __D0decode
+1	15	78	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	78		strcat __strbufdecode, __constStr0012
+1	15	82	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	82		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	15	84	#line 15 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	84	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	84		jmp __ASM_Label_619
+1	16	86	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	86		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	16	88	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	16	88	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	88		set __D0decode, 1
+1	16	91	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	91		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	16	95	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	95		brtst 4, __ASM_Label_622, __D0decode
+1	16	98	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	98		strcat __strbufdecode, __constStr0013
+1	16	102	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	102		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	16	104	#line 16 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	104	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	104		jmp __ASM_Label_623
+1	17	106	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	106		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	17	108	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	17	108	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	108		set __D0decode, 1121
+1	17	111	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	111		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	17	115	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	115		brtst 4, __ASM_Label_626, __D0decode
+1	17	118	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	118		strcat __strbufdecode, __constStr0014
+1	17	122	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	122		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	17	124	#line 17 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	124	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	124		jmp __ASM_Label_627
+1	18	126	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	126		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	18	128	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	18	128	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	128		set __D0decode, 221
+1	18	131	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	131		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	18	135	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	135		brtst 4, __ASM_Label_630, __D0decode
+1	18	138	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	138		strcat __strbufdecode, __constStr0015
+1	18	142	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	142		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	18	144	#line 18 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	144	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	144		jmp __ASM_Label_631
+1	19	146	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	146		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	19	148	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	19	148	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	148		set __D0decode, 1111
+1	19	151	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	151		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	19	155	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	155		brtst 4, __ASM_Label_634, __D0decode
+1	19	158	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	158		strcat __strbufdecode, __constStr0016
+1	19	162	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	162		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	19	164	#line 19 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	164	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	164		jmp __ASM_Label_635
+1	20	166	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	166		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	20	168	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	20	168	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	168		set __D0decode, 11
+1	20	171	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	171		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	20	175	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	175		brtst 4, __ASM_Label_638, __D0decode
+1	20	178	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	178		strcat __strbufdecode, __constStr0017
+1	20	182	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	182		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	20	184	#line 20 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	184	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	184		jmp __ASM_Label_639
+1	21	186	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	186		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	21	188	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	21	188	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	188		set __D0decode, 1222
+1	21	191	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	191		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	21	195	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	195		brtst 4, __ASM_Label_642, __D0decode
+1	21	198	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	198		strcat __strbufdecode, __constStr0018
+1	21	202	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	202		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	21	204	#line 21 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	204	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	204		jmp __ASM_Label_643
+1	22	206	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	206		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	22	208	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	22	208	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	208		set __D0decode, 212
+1	22	211	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	211		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	22	215	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	215		brtst 4, __ASM_Label_646, __D0decode
+1	22	218	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	218		strcat __strbufdecode, __constStr0019
+1	22	222	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	222		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	22	224	#line 22 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	224	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	224		jmp __ASM_Label_647
+1	23	226	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	226		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	23	228	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	23	228	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	228		set __D0decode, 1211
+1	23	231	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	231		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	23	235	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	235		brtst 4, __ASM_Label_650, __D0decode
+1	23	238	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	238		strcat __strbufdecode, __constStr0020
+1	23	242	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	242		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	23	244	#line 23 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	244	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	244		jmp __ASM_Label_651
+1	24	246	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	246		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	24	248	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	24	248	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	248		set __D0decode, 22
+1	24	251	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	251		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	24	255	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	255		brtst 4, __ASM_Label_654, __D0decode
+1	24	258	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	258		strcat __strbufdecode, __constStr0021
+1	24	262	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	262		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	24	264	#line 24 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	264	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	264		jmp __ASM_Label_655
+1	25	266	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	266		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	25	268	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	25	268	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	268		set __D0decode, 21
+1	25	271	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	271		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	25	275	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	275		brtst 4, __ASM_Label_658, __D0decode
+1	25	278	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	278		strcat __strbufdecode, __constStr0022
+1	25	282	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	282		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	25	284	#line 25 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	284	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	284		jmp __ASM_Label_659
+1	26	286	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	286		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	26	288	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	26	288	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	288		set __D0decode, 222
+1	26	291	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	291		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	26	295	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	295		brtst 4, __ASM_Label_662, __D0decode
+1	26	298	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	298		strcat __strbufdecode, __constStr0023
+1	26	302	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	302		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	26	304	#line 26 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	304	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	304		jmp __ASM_Label_663
+1	27	306	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	306		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	27	308	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	27	308	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	308		set __D0decode, 1221
+1	27	311	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	311		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	27	315	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	315		brtst 4, __ASM_Label_666, __D0decode
+1	27	318	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	318		strcat __strbufdecode, __constStr0024
+1	27	322	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	322		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	27	324	#line 27 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	324	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	324		jmp __ASM_Label_667
+1	28	326	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	326		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	28	328	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	28	328	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	328		set __D0decode, 2212
+1	28	331	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	331		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	28	335	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	335		brtst 4, __ASM_Label_670, __D0decode
+1	28	338	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	338		strcat __strbufdecode, __constStr0025
+1	28	342	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	342		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	28	344	#line 28 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	344	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	344		jmp __ASM_Label_671
+1	29	346	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	346		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	29	348	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	29	348	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	348		set __D0decode, 121
+1	29	351	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	351		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	29	355	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	355		brtst 4, __ASM_Label_674, __D0decode
+1	29	358	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	358		strcat __strbufdecode, __constStr0006
+1	29	362	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	362		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	29	364	#line 29 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	364	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	364		jmp __ASM_Label_675
+1	30	366	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	366		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	30	368	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	30	368	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	368		set __D0decode, 111
+1	30	371	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	371		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	30	375	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	375		brtst 4, __ASM_Label_678, __D0decode
+1	30	378	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	378		strcat __strbufdecode, __constStr0026
+1	30	382	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	382		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	30	384	#line 30 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	384	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	384		jmp __ASM_Label_679
+1	31	386	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	386		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	31	388	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	31	388	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	388		set __D0decode, 2
+1	31	391	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	391		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	31	395	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	395		brtst 4, __ASM_Label_682, __D0decode
+1	31	398	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	398		strcat __strbufdecode, __constStr0027
+1	31	402	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	402		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	31	404	#line 31 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	404	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	404		jmp __ASM_Label_683
+1	32	406	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	406		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	32	408	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	32	408	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	408		set __D0decode, 112
+1	32	411	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	411		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	32	415	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	415		brtst 4, __ASM_Label_686, __D0decode
+1	32	418	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	418		strcat __strbufdecode, __constStr0028
+1	32	422	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	422		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	32	424	#line 32 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	424	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	424		jmp __ASM_Label_687
+1	33	426	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	426		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	33	428	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	33	428	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	428		set __D0decode, 1112
+1	33	431	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	431		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	33	435	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	435		brtst 4, __ASM_Label_690, __D0decode
+1	33	438	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	438		strcat __strbufdecode, __constStr0029
+1	33	442	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	442		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	33	444	#line 33 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	444	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	444		jmp __ASM_Label_691
+1	34	446	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	446		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	34	448	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	34	448	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	448		set __D0decode, 122
+1	34	451	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	451		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	34	455	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	455		brtst 4, __ASM_Label_694, __D0decode
+1	34	458	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	458		strcat __strbufdecode, __constStr0007
+1	34	462	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	462		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	34	464	#line 34 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	464	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	464		jmp __ASM_Label_695
+1	35	466	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	466		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	35	468	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	35	468	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	468		set __D0decode, 2112
+1	35	471	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	471		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	35	475	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	475		brtst 4, __ASM_Label_698, __D0decode
+1	35	478	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	478		strcat __strbufdecode, __constStr0030
+1	35	482	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	482		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	35	484	#line 35 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	484	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	484		jmp __ASM_Label_699
+1	36	486	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	486		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	36	488	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	36	488	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	488		set __D0decode, 2122
+1	36	491	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	491		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	36	495	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	495		brtst 4, __ASM_Label_702, __D0decode
+1	36	498	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	498		strcat __strbufdecode, __constStr0031
+1	36	502	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	502		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	36	504	#line 36 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	504	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	504		jmp __ASM_Label_703
+1	37	506	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	506		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	37	508	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	37	508	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	508		set __D0decode, 2211
+1	37	511	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	511		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	37	515	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	515		brtst 4, __ASM_Label_706, __D0decode
+1	37	518	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	518		strcat __strbufdecode, __constStr0032
+1	37	522	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	38	522		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	37	524	#line 37 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	39	524	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	524		jmp __ASM_Label_707
+1	39	526	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	526		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	39	528	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	39	528	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	528		set __D0decode, 12222
+1	39	531	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	531		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	39	535	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	535		brtst 4, __ASM_Label_710, __D0decode
+1	39	538	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	538		strcat __strbufdecode, __constStr0033
+1	39	542	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	542		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	39	544	#line 39 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	544	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	544		jmp __ASM_Label_711
+1	40	546	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	546		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	40	548	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	40	548	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	548		set __D0decode, 11222
+1	40	551	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	551		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	40	555	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	555		brtst 4, __ASM_Label_714, __D0decode
+1	40	558	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	558		strcat __strbufdecode, __constStr0034
+1	40	562	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	562		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	40	564	#line 40 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	564	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	564		jmp __ASM_Label_715
+1	41	566	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	566		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	41	568	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	41	568	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	568		set __D0decode, 11122
+1	41	571	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	571		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	41	575	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	575		brtst 4, __ASM_Label_718, __D0decode
+1	41	578	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	578		strcat __strbufdecode, __constStr0035
+1	41	582	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	582		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	41	584	#line 41 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	584	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	584		jmp __ASM_Label_719
+1	42	586	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	586		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	42	588	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	42	588	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	588		set __D0decode, 11112
+1	42	591	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	591		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	42	595	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	595		brtst 4, __ASM_Label_722, __D0decode
+1	42	598	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	598		strcat __strbufdecode, __constStr0036
+1	42	602	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	602		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	42	604	#line 42 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	604	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	604		jmp __ASM_Label_723
+1	43	606	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	606		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	43	608	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	43	608	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	608		set __D0decode, 11111
+1	43	611	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	611		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	43	615	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	615		brtst 4, __ASM_Label_726, __D0decode
+1	43	618	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	618		strcat __strbufdecode, __constStr0037
+1	43	622	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	622		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	43	624	#line 43 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	624	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	624		jmp __ASM_Label_727
+1	44	626	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	626		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	44	628	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	44	628	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	628		set __D0decode, 21111
+1	44	631	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	631		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	44	635	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	635		brtst 4, __ASM_Label_730, __D0decode
+1	44	638	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	638		strcat __strbufdecode, __constStr0038
+1	44	642	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	642		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	44	644	#line 44 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	644	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	644		jmp __ASM_Label_731
+1	45	646	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	646		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	45	648	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	45	648	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	648		set __D0decode, 22111
+1	45	651	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	651		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	45	655	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	655		brtst 4, __ASM_Label_734, __D0decode
+1	45	658	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	658		strcat __strbufdecode, __constStr0039
+1	45	662	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	662		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	45	664	#line 45 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	664	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	664		jmp __ASM_Label_735
+1	46	666	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	666		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	46	668	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	46	668	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	668		set __D0decode, 22211
+1	46	671	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	671		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	46	675	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	675		brtst 4, __ASM_Label_738, __D0decode
+1	46	678	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	678		strcat __strbufdecode, __constStr0040
+1	46	682	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	682		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	46	684	#line 46 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	684	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	684		jmp __ASM_Label_739
+1	47	686	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	686		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	47	688	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	47	688	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	688		set __D0decode, 22221
+1	47	691	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	691		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	47	695	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	695		brtst 4, __ASM_Label_742, __D0decode
+1	47	698	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	698		strcat __strbufdecode, __constStr0041
+1	47	702	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	702		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	47	704	#line 47 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	704	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	704		jmp __ASM_Label_743
+1	48	706	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	706		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	48	708	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	48	708	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	708		set __D0decode, 22222
+1	48	711	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	711		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	48	715	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	715		brtst 4, __ASM_Label_746, __D0decode
+1	48	718	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	718		strcat __strbufdecode, __constStr0042
+1	48	722	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	49	722		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	48	724	#line 48 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	724	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	51	724		jmp __ASM_Label_747
+1	50	726	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	51	726		strcat __strbufdecode, __constStr0009
+1	50	730	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	51	730		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	50	732	#line 50 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	51	732	#line 51 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	52	732		strcat __strbufdecode, __decode_7qG2_out_7qG2_000
+1	51	736	#line 51 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	52	736		subret __decode_return
+1	51	738	#line 51 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	55	738	#line 55 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+1	56	738		subret __decode_return
+2	57	0	#line 57 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	58	0		set __waitRight_7qG2_ret_7qG2_000, 0
+2	57	3	#line 57 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	59	3	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	3	#pragma macro 3
+2	59	3	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	59	3		set __signed_stack_001waitRight, 1
+2	59	6	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	59	6	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	6		mov __D0waitRight, __constVal0
+2	59	8	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	8		acquire __RBtnMutex
+2	59	9	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	9		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	59	11	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	11		mov __RBtnArgs.Reset, __D0waitRight
+2	59	13	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	13		syscall 20, __RBtnArgs
+2	59	16	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	16		mov __D0waitRight, __RBtnArgs.Pressed
+2	59	18	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	18		release __RBtnMutex
+2	59	19	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	19		mov __signed_stack_001waitRight, __D0waitRight
+2	60	21	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	21		set __D0waitRight, 0
+2	60	24	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	24		cmp 4, __D0waitRight, __signed_stack_001waitRight, __D0waitRight
+2	60	28	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	28		brtst 4, __ASM_Label_755, __D0waitRight
+2	60	31	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	31		set __signed_stack_001waitRight, 2
+2	60	34	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	34	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	34		mov __D0waitRight, __constVal0
+2	60	36	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	36		acquire __RBtnMutex
+2	60	37	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	37		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	60	39	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	39		mov __RBtnArgs.Reset, __D0waitRight
+2	60	41	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	41		syscall 20, __RBtnArgs
+2	60	44	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	44		mov __D0waitRight, __RBtnArgs.Pressed
+2	60	46	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	46		release __RBtnMutex
+2	60	47	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	47		mov __signed_stack_001waitRight, __D0waitRight
+2	61	49	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	49		set __D0waitRight, 0
+2	61	52	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	52		cmp 4, __D0waitRight, __signed_stack_001waitRight, __D0waitRight
+2	61	56	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	56		brtst 4, __ASM_Label_755, __D0waitRight
+2	61	59	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	59		set __signed_stack_001waitRight, 3
+2	61	62	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	62	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	62		mov __D0waitRight, __constVal0
+2	61	64	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	64		acquire __RBtnMutex
+2	61	65	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	65		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	61	67	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	67		mov __RBtnArgs.Reset, __D0waitRight
+2	61	69	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	69		syscall 20, __RBtnArgs
+2	61	72	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	72		mov __D0waitRight, __RBtnArgs.Pressed
+2	61	74	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	74		release __RBtnMutex
+2	61	75	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	75		mov __signed_stack_001waitRight, __D0waitRight
+2	61	77	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	77		set __D0waitRight, 0
+2	61	80	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	80		cmp 4, __D0waitRight, __signed_stack_001waitRight, __D0waitRight
+2	62	84	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	84		not __D0waitRight, __D0waitRight
+2	58	87	#line 58 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	58	87	#line 58 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	58	87	#line 58 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	59	87		tst 5, __D0waitRight, __D0waitRight
+2	58	90	#line 58 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	59	90		brtst 4, __ASM_Label_751, __D0waitRight
+2	60	93	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	59	93	#line 59 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	93	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	93		jmp __ASM_Label_750
+2	60	95	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	95	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	95		set __signed_stack_001waitRight, 1
+2	60	98	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	60	98	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	98		mov __D0waitRight, __constVal0
+2	60	100	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	100		acquire __RBtnMutex
+2	60	101	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	101		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	60	103	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	103		mov __RBtnArgs.Reset, __D0waitRight
+2	60	105	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	105		syscall 20, __RBtnArgs
+2	60	108	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	108		mov __D0waitRight, __RBtnArgs.Pressed
+2	60	110	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	110		release __RBtnMutex
+2	60	111	#line 60 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	111		mov __signed_stack_001waitRight, __D0waitRight
+2	61	113	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	113		set __D0waitRight, 0
+2	61	116	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	116		cmp 4, __D0waitRight, __signed_stack_001waitRight, __D0waitRight
+2	61	120	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	120		brtst 4, __ASM_Label_765, __D0waitRight
+2	61	123	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	123		set __signed_stack_001waitRight, 2
+2	61	126	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	61	126	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	126		mov __D0waitRight, __constVal0
+2	61	128	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	128		acquire __RBtnMutex
+2	61	129	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	129		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	61	131	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	131		mov __RBtnArgs.Reset, __D0waitRight
+2	61	133	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	133		syscall 20, __RBtnArgs
+2	61	136	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	136		mov __D0waitRight, __RBtnArgs.Pressed
+2	61	138	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	138		release __RBtnMutex
+2	61	139	#line 61 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	139		mov __signed_stack_001waitRight, __D0waitRight
+2	62	141	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	141		set __D0waitRight, 0
+2	62	144	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	144		cmp 4, __D0waitRight, __signed_stack_001waitRight, __D0waitRight
+2	62	148	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	148		brtst 4, __ASM_Label_765, __D0waitRight
+2	62	151	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	151		set __signed_stack_001waitRight, 3
+2	62	154	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	62	154	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	154		mov __D0waitRight, __constVal0
+2	62	156	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	156		acquire __RBtnMutex
+2	62	157	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	157		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	62	159	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	159		mov __RBtnArgs.Reset, __D0waitRight
+2	62	161	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	161		syscall 20, __RBtnArgs
+2	62	164	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	164		mov __D0waitRight, __RBtnArgs.Pressed
+2	62	166	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	166		release __RBtnMutex
+2	62	167	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	167		mov __signed_stack_001waitRight, __D0waitRight
+2	62	169	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	169		set __D0waitRight, 0
+2	62	172	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	172		cmp 4, __D0waitRight, __signed_stack_001waitRight, __D0waitRight
+2	62	176	#line 62 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	63	176		brtst 4, __ASM_Label_763, __D0waitRight
+2	64	179	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	179		jmp __ASM_Label_762
+2	64	181	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	64	181	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	181		set __signed_stack_001waitRight, 1
+2	64	184	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	64	184	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	184		mov __D0waitRight, __constVal0
+2	64	186	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	186		acquire __RBtnMutex
+2	64	187	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	187		mov __RBtnArgs.Index, __signed_stack_001waitRight
+2	64	189	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	189		mov __RBtnArgs.Reset, __D0waitRight
+2	64	191	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	191		syscall 20, __RBtnArgs
+2	64	194	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	194		mov __D0waitRight, __RBtnArgs.Pressed
+2	64	196	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	196		release __RBtnMutex
+2	64	197	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	197		not __waitRight_7qG2_ret_7qG2_000, __D0waitRight
+2	64	200	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	64	200	#line 64 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	65	200	#line 65 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	66	200		mov __DU0waitRight, __waitRight_7qG2_ret_7qG2_000
+2	65	202	#line 65 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	66	202		subret __waitRight_return
+2	65	204	#line 65 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	69	204	#line 69 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+2	70	204		subret __waitRight_return
+3	116	0	#line 116 "C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc"
+3	117	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc
+1	decode	524	C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc
+2	waitRight	1264	C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc
+3	__initialize_global_data	1470	C:\Github\NXC_Source\Obsolete\#NewMorseCode_LC.nxc

@@ -1,0 +1,1779 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	10
+1	__signed_stack_001main	6	1	4	4	10
+2	__signed_stack_001morseCode	6	1	8	4	23
+3	__signed_stack_003main	6	1	12	4	8
+4	__signed_stack_001decode	6	1	16	4	82
+5	__Wait_7qG2_ms_7qG2_000_inline_morseCode	5	1	20	4	10
+6	__DU0morseCode	5	1	24	4	8
+7	__DU0waitCenter	5	1	28	4	5
+8	__D0waitCenter	6	1	32	4	56
+9	__constVal112211	6	0	36	4	1
+10	__constVal122221	6	0	40	4	1
+11	__constVal121212	6	0	44	4	1
+12	__constVal221122	6	0	48	4	1
+13	__constVal212122	6	0	52	4	1
+14	__signed_stack_003morseCode	6	1	56	4	10
+15	__signed_stack_002morseCode	6	1	60	4	18
+16	__decode_7qG2_in_7qG2_000	6	1	64	4	42
+17	__signed_stack_001waitCenter	6	1	68	4	26
+18	__D0morseCode	6	1	72	4	47
+19	__D0main	6	1	76	4	15
+20	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	80	4	8
+21	__D0decode	6	1	84	4	164
+22	__SPTArgsMutex	9	0	88	4	18
+23	__TextOutMutex	9	0	92	4	10
+24	__RBtnMutex	9	0	96	4	18
+25	__morseCode_7qG2_inloop2_7qG2_000	1	1	100	1	3
+26	__constVal10	2	0	101	1	1
+27	__decode_return	1	1	102	1	4
+28	__morseCode_7qG2_inloop3_7qG2_000	1	1	103	1	3
+29	__morseCode_7qG2_inloop1_7qG2_000	1	1	104	1	3
+30	__waitCenter_return	1	1	105	1	6
+31	__constVal0	2	1	106	1	9
+32	__morseCode_return	1	1	107	1	4
+33	__waitCenter_7qG2_ret_7qG2_000	1	1	108	1	3
+34	__constVal9	2	0	109	1	1
+35	____initialize_global_data_return	1	1	110	1	3
+36	__RBtnArgs	8	0	5	8	36
+37	__RBtnArgs.Result	2	1	112	1	36
+38	__RBtnArgs.Index	1	1	113	1	36
+39	__RBtnArgs.Pressed	1	1	114	1	36
+40	__RBtnArgs.Count	1	1	115	1	36
+41	__RBtnArgs.Reset	1	1	116	1	36
+42	__SPTArgs	8	0	5	8	54
+43	__SPTArgs.Result	2	1	120	1	54
+44	__SPTArgs.Frequency	3	1	122	2	54
+45	__SPTArgs.Duration	3	1	124	2	54
+46	__SPTArgs.Loop	1	1	126	1	54
+47	__SPTArgs.Volume	1	1	127	1	54
+48	__TextOutArgs	8	0	4	16	30
+49	__TextOutArgs.Result	2	1	128	1	30
+50	__TextOutArgs.Location	8	0	2	4	30
+51	__TextOutArgs.Location.X	4	1	132	2	30
+52	__TextOutArgs.Location.Y	4	1	134	2	30
+53	__TextOutArgs.Text	7	0	136	4	30
+54	__TextOutArgs.Text.Text_type	1	0	0	1	0
+55	__TextOutArgs.Options	5	1	140	4	30
+56	__MWArgs	8	0	3	8	3
+57	__MWArgs.Result	2	1	144	1	3
+58	__MWArgs.QueueID	1	1	145	1	3
+59	__MWArgs.Message	7	0	146	4	3
+60	__MWArgs.Message.Message_type	1	0	0	1	0
+61	__constStr0040	7	0	148	4	1
+62	__constStr0040.__constStr0040_type	1	1	0	1	0
+63	__constStr0043	7	0	150	4	1
+64	__constStr0043.__constStr0043_type	1	1	0	1	0
+65	__constStr0041	7	0	152	4	1
+66	__constStr0041.__constStr0041_type	1	1	0	1	0
+67	__constStr0042	7	0	154	4	1
+68	__constStr0042.__constStr0042_type	1	1	0	1	0
+69	__constStr0049	7	0	156	4	1
+70	__constStr0049.__constStr0049_type	1	1	0	1	0
+71	__constStr0036	7	0	158	4	1
+72	__constStr0036.__constStr0036_type	1	1	0	1	0
+73	__constStr0035	7	0	160	4	1
+74	__constStr0035.__constStr0035_type	1	1	0	1	0
+75	__constStr0034	7	0	162	4	2
+76	__constStr0034.__constStr0034_type	1	1	0	1	0
+77	__constStr0039	7	0	164	4	1
+78	__constStr0039.__constStr0039_type	1	1	0	1	0
+79	__constStr0038	7	0	166	4	1
+80	__constStr0038.__constStr0038_type	1	1	0	1	0
+81	__constStr0037	7	0	168	4	1
+82	__constStr0037.__constStr0037_type	1	1	0	1	0
+83	__main_7qG2_seeme_7qG2_000	7	0	170	4	2
+84	__main_7qG2_seeme_7qG2_000.__main_7qG2_seeme_7qG2_000_type	1	0	0	1	0
+85	__constStr0051	7	0	172	4	1
+86	__constStr0051.__constStr0051_type	1	1	0	1	0
+87	__morseCode_7qG2_output_7qG2_000	7	0	174	4	6
+88	__morseCode_7qG2_output_7qG2_000.__morseCode_7qG2_output_7qG2_000_type	1	0	0	1	0
+89	__morseCode_7qG2_data_7qG2_000	7	0	176	4	6
+90	__morseCode_7qG2_data_7qG2_000.__morseCode_7qG2_data_7qG2_000_type	1	0	0	1	0
+91	__morseCode_7qG2_tempOutput_7qG2_000	7	0	178	4	5
+92	__morseCode_7qG2_tempOutput_7qG2_000.__morseCode_7qG2_tempOutput_7qG2_000_type	1	0	0	1	0
+93	__constStr0047	7	0	180	4	1
+94	__constStr0047.__constStr0047_type	1	1	0	1	0
+95	__constStr0044	7	0	182	4	1
+96	__constStr0044.__constStr0044_type	1	1	0	1	0
+97	__constStr0048	7	0	184	4	2
+98	__constStr0048.__constStr0048_type	1	1	0	1	0
+99	__constStr0045	7	0	186	4	1
+100	__constStr0045.__constStr0045_type	1	1	0	1	0
+101	__constStr0046	7	0	188	4	1
+102	__constStr0046.__constStr0046_type	1	1	0	1	0
+103	__constStr0050	7	0	190	4	1
+104	__constStr0050.__constStr0050_type	1	1	0	1	0
+105	__constStr0033	7	0	192	4	2
+106	__constStr0033.__constStr0033_type	1	1	0	1	0
+107	__decode_7qG2_out_7qG2_000	7	0	194	4	43
+108	__decode_7qG2_out_7qG2_000.__decode_7qG2_out_7qG2_000_type	1	0	0	1	0
+109	__constStr0009	7	0	196	4	3
+110	__constStr0009.__constStr0009_type	1	1	0	1	0
+111	__constStr0007	7	0	198	4	1
+112	__constStr0007.__constStr0007_type	1	1	0	1	0
+113	__constStr0008	7	0	200	4	1
+114	__constStr0008.__constStr0008_type	1	1	0	1	0
+115	__constStr0010	7	0	202	4	1
+116	__constStr0010.__constStr0010_type	1	1	0	1	0
+117	__constStr0013	7	0	204	4	1
+118	__constStr0013.__constStr0013_type	1	1	0	1	0
+119	__constStr0014	7	0	206	4	1
+120	__constStr0014.__constStr0014_type	1	1	0	1	0
+121	__constStr0011	7	0	208	4	1
+122	__constStr0011.__constStr0011_type	1	1	0	1	0
+123	__constStr0012	7	0	210	4	1
+124	__constStr0012.__constStr0012_type	1	1	0	1	0
+125	__ArrHelper__morseCode_244_2	7	0	212	4	2
+126	__ArrHelper__morseCode_244_2.__ArrHelper__morseCode_244_2_type	1	0	0	1	0
+127	__strbufdecode	7	0	214	4	86
+128	__strbufdecode.__strbufdecode_type	1	0	0	1	0
+129	__ArrHelper__morseCode_244_0	7	0	216	4	10
+130	__ArrHelper__morseCode_244_0.__ArrHelper__morseCode_244_0_type	1	0	0	1	0
+131	__ArrHelper__morseCode_244_1	7	0	218	4	10
+132	__ArrHelper__morseCode_244_1.__ArrHelper__morseCode_244_1_type	1	0	0	1	0
+133	__strbufmain	7	0	220	4	4
+134	__strbufmain.__strbufmain_type	1	0	0	1	0
+135	__strretvalmorseCode	7	0	222	4	12
+136	__strretvalmorseCode.__strretvalmorseCode_type	1	0	0	1	0
+137	__constStr0006	7	0	224	4	1
+138	__constStr0006.__constStr0006_type	1	1	0	1	0
+139	__strretvalmain	7	0	226	4	2
+140	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+141	__strbufmorseCode	7	0	228	4	48
+142	__strbufmorseCode.__strbufmorseCode_type	1	0	0	1	0
+143	__constStr0026	7	0	230	4	1
+144	__constStr0026.__constStr0026_type	1	1	0	1	0
+145	__constStr0027	7	0	232	4	1
+146	__constStr0027.__constStr0027_type	1	1	0	1	0
+147	__constStr0024	7	0	234	4	1
+148	__constStr0024.__constStr0024_type	1	1	0	1	0
+149	__constStr0025	7	0	236	4	1
+150	__constStr0025.__constStr0025_type	1	1	0	1	0
+151	__constStr0028	7	0	238	4	1
+152	__constStr0028.__constStr0028_type	1	1	0	1	0
+153	__constStr0031	7	0	240	4	1
+154	__constStr0031.__constStr0031_type	1	1	0	1	0
+155	__constStr0032	7	0	242	4	1
+156	__constStr0032.__constStr0032_type	1	1	0	1	0
+157	__constStr0029	7	0	244	4	1
+158	__constStr0029.__constStr0029_type	1	1	0	1	0
+159	__constStr0030	7	0	246	4	1
+160	__constStr0030.__constStr0030_type	1	1	0	1	0
+161	__constStr0017	7	0	248	4	1
+162	__constStr0017.__constStr0017_type	1	1	0	1	0
+163	__constStr0018	7	0	250	4	1
+164	__constStr0018.__constStr0018_type	1	1	0	1	0
+165	__constStr0015	7	0	252	4	1
+166	__constStr0015.__constStr0015_type	1	1	0	1	0
+167	__constStr0016	7	0	254	4	1
+168	__constStr0016.__constStr0016_type	1	1	0	1	0
+169	__constStr0019	7	0	256	4	1
+170	__constStr0019.__constStr0019_type	1	1	0	1	0
+171	__constStr0022	7	0	258	4	1
+172	__constStr0022.__constStr0022_type	1	1	0	1	0
+173	__constStr0023	7	0	260	4	1
+174	__constStr0023.__constStr0023_type	1	1	0	1	0
+175	__constStr0020	7	0	262	4	1
+176	__constStr0020.__constStr0020_type	1	1	0	1	0
+177	__constStr0021	7	0	264	4	1
+178	__constStr0021.__constStr0021_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	138	0	#line 138 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	139	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	138	2	#line 138 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	139	2	#line 139 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	2		subcall morseCode, __morseCode_return
+0	139	4	#line 139 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	4		mov __strretvalmain, __strbufmorseCode
+0	139	6	#line 139 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	6		strcat __strbufmain, __strretvalmain
+0	139	10	#line 139 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	10		mov __main_7qG2_seeme_7qG2_000, __strbufmain
+0	139	12	#line 139 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	12	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	12		set __signed_stack_001main, 1500
+0	140	15	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	15	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	15		set __signed_stack_002main, 200
+0	140	18	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	18	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	18		set __signed_stack_003main, 4
+0	140	21	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	21	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	21		set __D0main, 0
+0	140	24	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	24		acquire __SPTArgsMutex
+0	140	25	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	25		mov __SPTArgs.Frequency, __signed_stack_001main
+0	140	27	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	27		mov __SPTArgs.Duration, __signed_stack_002main
+0	140	29	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	29		mov __SPTArgs.Volume, __signed_stack_003main
+0	140	31	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	31		mov __SPTArgs.Loop, __D0main
+0	140	33	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	33		syscall 10, __SPTArgs
+0	140	36	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	36		mov __D0main, __SPTArgs.Result
+0	140	38	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	38		release __SPTArgsMutex
+0	140	39	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	140	39	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	39		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	140	42	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	8771	42	#line 8771 "NXCDefs.h"
+0	8772	42		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	44	#line 8771 "NXCDefs.h"
+0	140	44	#line 140 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	44	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	44		set __signed_stack_001main, 500
+0	141	47	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	47	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	47		set __signed_stack_002main, 200
+0	141	50	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	50	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	50		set __signed_stack_003main, 4
+0	141	53	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	53	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	53		set __D0main, 0
+0	141	56	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	56		acquire __SPTArgsMutex
+0	141	57	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	57		mov __SPTArgs.Frequency, __signed_stack_001main
+0	141	59	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	59		mov __SPTArgs.Duration, __signed_stack_002main
+0	141	61	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	61		mov __SPTArgs.Volume, __signed_stack_003main
+0	141	63	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	63		mov __SPTArgs.Loop, __D0main
+0	141	65	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	65		syscall 10, __SPTArgs
+0	141	68	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	68		mov __D0main, __SPTArgs.Result
+0	141	70	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	70		release __SPTArgsMutex
+0	141	71	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	141	71	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	71		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	141	74	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	8771	74	#line 8771 "NXCDefs.h"
+0	8772	74		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	76	#line 8771 "NXCDefs.h"
+0	141	76	#line 141 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	76	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	76		set __signed_stack_001main, 2500
+0	142	79	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	79	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	79		set __signed_stack_002main, 200
+0	142	82	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	82	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	82		set __signed_stack_003main, 4
+0	142	85	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	85	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	85		set __D0main, 0
+0	142	88	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	88		acquire __SPTArgsMutex
+0	142	89	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	89		mov __SPTArgs.Frequency, __signed_stack_001main
+0	142	91	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	91		mov __SPTArgs.Duration, __signed_stack_002main
+0	142	93	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	93		mov __SPTArgs.Volume, __signed_stack_003main
+0	142	95	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	95		mov __SPTArgs.Loop, __D0main
+0	142	97	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	97		syscall 10, __SPTArgs
+0	142	100	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	100		mov __D0main, __SPTArgs.Result
+0	142	102	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	102		release __SPTArgsMutex
+0	142	103	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	142	103	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	103		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	142	106	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	8771	106	#line 8771 "NXCDefs.h"
+0	8772	106		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	108	#line 8771 "NXCDefs.h"
+0	142	108	#line 142 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	108	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	108		set __signed_stack_001main, 1500
+0	143	111	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	111	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	111		set __signed_stack_002main, 200
+0	143	114	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	114	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	114		set __signed_stack_003main, 4
+0	143	117	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	117	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	117		set __D0main, 0
+0	143	120	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	120		acquire __SPTArgsMutex
+0	143	121	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	121		mov __SPTArgs.Frequency, __signed_stack_001main
+0	143	123	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	123		mov __SPTArgs.Duration, __signed_stack_002main
+0	143	125	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	125		mov __SPTArgs.Volume, __signed_stack_003main
+0	143	127	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	127		mov __SPTArgs.Loop, __D0main
+0	143	129	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	129		syscall 10, __SPTArgs
+0	143	132	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	132		mov __D0main, __SPTArgs.Result
+0	143	134	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	134		release __SPTArgsMutex
+0	143	135	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	143	135	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	135		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	143	138	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	8771	138	#line 8771 "NXCDefs.h"
+0	8772	138		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	140	#line 8771 "NXCDefs.h"
+0	143	140	#line 143 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	140	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	140		set __signed_stack_001main, 0
+0	144	143	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	143	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	143		set __signed_stack_002main, 40
+0	144	146	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	144	146	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	146		strcat __strbufmain, __main_7qG2_seeme_7qG2_000
+0	144	150	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	150		set __D0main, 0
+0	144	153	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	153		acquire __TextOutMutex
+0	144	154	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	154		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	144	156	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	156		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	144	158	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	158		mov __TextOutArgs.Options, __D0main
+0	144	160	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	160		mov __TextOutArgs.Text, __strbufmain
+0	144	162	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	162		syscall 13, __TextOutArgs
+0	144	165	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	165		mov __D0main, __TextOutArgs.Result
+0	144	167	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	167		release __TextOutMutex
+0	144	168	#line 144 "C:\Github\NXC_Source\#+MorseInput.nxc"
+0	145	168		exit -1, -1
+1	8	0	#line 8 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	9	0		strcat __strbufdecode, __constStr0009
+1	8	4	#line 8 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	9	4		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	10	6	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	6		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	10	8	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	10	8	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	8		set __D0decode, 12
+1	10	11	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	11		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	10	15	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	15		brtst 4, __ASM_Label_606, __D0decode
+1	10	18	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	18		strcat __strbufdecode, __constStr0008
+1	10	22	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	22		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	10	24	#line 10 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	24	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	24		jmp __ASM_Label_607
+1	11	26	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	26		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	11	28	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	11	28	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	28		set __D0decode, 2111
+1	11	31	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	31		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	11	35	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	35		brtst 4, __ASM_Label_610, __D0decode
+1	11	38	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	38		strcat __strbufdecode, __constStr0010
+1	11	42	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	42		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	11	44	#line 11 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	44	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	44		jmp __ASM_Label_611
+1	12	46	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	46		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	12	48	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	12	48	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	48		set __D0decode, 2121
+1	12	51	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	51		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	12	55	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	55		brtst 4, __ASM_Label_614, __D0decode
+1	12	58	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	58		strcat __strbufdecode, __constStr0011
+1	12	62	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	62		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	12	64	#line 12 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	64	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	64		jmp __ASM_Label_615
+1	13	66	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	66		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	13	68	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	13	68	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	68		set __D0decode, 211
+1	13	71	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	71		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	13	75	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	75		brtst 4, __ASM_Label_618, __D0decode
+1	13	78	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	78		strcat __strbufdecode, __constStr0012
+1	13	82	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	82		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	13	84	#line 13 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	84	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	84		jmp __ASM_Label_619
+1	14	86	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	86		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	14	88	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	14	88	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	88		set __D0decode, 1
+1	14	91	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	91		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	14	95	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	95		brtst 4, __ASM_Label_622, __D0decode
+1	14	98	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	98		strcat __strbufdecode, __constStr0013
+1	14	102	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	102		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	14	104	#line 14 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	104	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	104		jmp __ASM_Label_623
+1	15	106	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	106		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	15	108	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	15	108	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	108		set __D0decode, 1121
+1	15	111	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	111		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	15	115	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	115		brtst 4, __ASM_Label_626, __D0decode
+1	15	118	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	118		strcat __strbufdecode, __constStr0014
+1	15	122	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	122		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	15	124	#line 15 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	124	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	124		jmp __ASM_Label_627
+1	16	126	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	126		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	16	128	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	16	128	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	128		set __D0decode, 221
+1	16	131	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	131		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	16	135	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	135		brtst 4, __ASM_Label_630, __D0decode
+1	16	138	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	138		strcat __strbufdecode, __constStr0015
+1	16	142	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	142		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	16	144	#line 16 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	144	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	144		jmp __ASM_Label_631
+1	17	146	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	146		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	17	148	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	17	148	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	148		set __D0decode, 1111
+1	17	151	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	151		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	17	155	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	155		brtst 4, __ASM_Label_634, __D0decode
+1	17	158	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	158		strcat __strbufdecode, __constStr0016
+1	17	162	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	162		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	17	164	#line 17 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	164	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	164		jmp __ASM_Label_635
+1	18	166	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	166		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	18	168	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	18	168	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	168		set __D0decode, 11
+1	18	171	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	171		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	18	175	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	175		brtst 4, __ASM_Label_638, __D0decode
+1	18	178	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	178		strcat __strbufdecode, __constStr0017
+1	18	182	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	182		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	18	184	#line 18 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	184	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	184		jmp __ASM_Label_639
+1	19	186	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	186		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	19	188	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	19	188	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	188		set __D0decode, 1222
+1	19	191	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	191		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	19	195	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	195		brtst 4, __ASM_Label_642, __D0decode
+1	19	198	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	198		strcat __strbufdecode, __constStr0018
+1	19	202	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	202		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	19	204	#line 19 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	204	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	204		jmp __ASM_Label_643
+1	20	206	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	206		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	20	208	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	20	208	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	208		set __D0decode, 212
+1	20	211	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	211		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	20	215	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	215		brtst 4, __ASM_Label_646, __D0decode
+1	20	218	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	218		strcat __strbufdecode, __constStr0019
+1	20	222	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	222		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	20	224	#line 20 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	224	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	224		jmp __ASM_Label_647
+1	21	226	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	226		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	21	228	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	21	228	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	228		set __D0decode, 1211
+1	21	231	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	231		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	21	235	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	235		brtst 4, __ASM_Label_650, __D0decode
+1	21	238	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	238		strcat __strbufdecode, __constStr0020
+1	21	242	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	242		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	21	244	#line 21 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	244	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	244		jmp __ASM_Label_651
+1	22	246	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	246		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	22	248	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	22	248	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	248		set __D0decode, 22
+1	22	251	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	251		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	22	255	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	255		brtst 4, __ASM_Label_654, __D0decode
+1	22	258	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	258		strcat __strbufdecode, __constStr0021
+1	22	262	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	262		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	22	264	#line 22 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	264	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	264		jmp __ASM_Label_655
+1	23	266	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	266		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	23	268	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	23	268	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	268		set __D0decode, 21
+1	23	271	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	271		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	23	275	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	275		brtst 4, __ASM_Label_658, __D0decode
+1	23	278	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	278		strcat __strbufdecode, __constStr0022
+1	23	282	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	282		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	23	284	#line 23 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	284	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	284		jmp __ASM_Label_659
+1	24	286	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	286		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	24	288	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	24	288	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	288		set __D0decode, 222
+1	24	291	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	291		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	24	295	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	295		brtst 4, __ASM_Label_662, __D0decode
+1	24	298	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	298		strcat __strbufdecode, __constStr0023
+1	24	302	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	302		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	24	304	#line 24 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	304	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	304		jmp __ASM_Label_663
+1	25	306	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	306		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	25	308	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	25	308	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	308		set __D0decode, 1221
+1	25	311	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	311		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	25	315	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	315		brtst 4, __ASM_Label_666, __D0decode
+1	25	318	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	318		strcat __strbufdecode, __constStr0024
+1	25	322	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	322		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	25	324	#line 25 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	324	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	324		jmp __ASM_Label_667
+1	26	326	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	326		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	26	328	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	26	328	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	328		set __D0decode, 2212
+1	26	331	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	331		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	26	335	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	335		brtst 4, __ASM_Label_670, __D0decode
+1	26	338	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	338		strcat __strbufdecode, __constStr0025
+1	26	342	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	342		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	26	344	#line 26 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	344	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	344		jmp __ASM_Label_671
+1	27	346	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	346		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	27	348	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	27	348	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	348		set __D0decode, 121
+1	27	351	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	351		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	27	355	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	355		brtst 4, __ASM_Label_674, __D0decode
+1	27	358	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	358		strcat __strbufdecode, __constStr0006
+1	27	362	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	362		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	27	364	#line 27 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	364	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	364		jmp __ASM_Label_675
+1	28	366	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	366		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	28	368	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	28	368	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	368		set __D0decode, 111
+1	28	371	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	371		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	28	375	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	375		brtst 4, __ASM_Label_678, __D0decode
+1	28	378	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	378		strcat __strbufdecode, __constStr0026
+1	28	382	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	382		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	28	384	#line 28 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	384	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	384		jmp __ASM_Label_679
+1	29	386	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	386		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	29	388	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	29	388	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	388		set __D0decode, 2
+1	29	391	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	391		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	29	395	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	395		brtst 4, __ASM_Label_682, __D0decode
+1	29	398	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	398		strcat __strbufdecode, __constStr0027
+1	29	402	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	402		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	29	404	#line 29 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	404	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	404		jmp __ASM_Label_683
+1	30	406	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	406		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	30	408	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	30	408	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	408		set __D0decode, 112
+1	30	411	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	411		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	30	415	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	415		brtst 4, __ASM_Label_686, __D0decode
+1	30	418	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	418		strcat __strbufdecode, __constStr0028
+1	30	422	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	422		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	30	424	#line 30 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	424	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	424		jmp __ASM_Label_687
+1	31	426	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	426		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	31	428	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	31	428	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	428		set __D0decode, 1112
+1	31	431	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	431		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	31	435	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	435		brtst 4, __ASM_Label_690, __D0decode
+1	31	438	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	438		strcat __strbufdecode, __constStr0029
+1	31	442	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	442		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	31	444	#line 31 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	444	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	444		jmp __ASM_Label_691
+1	32	446	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	446		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	32	448	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	32	448	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	448		set __D0decode, 122
+1	32	451	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	451		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	32	455	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	455		brtst 4, __ASM_Label_694, __D0decode
+1	32	458	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	458		strcat __strbufdecode, __constStr0007
+1	32	462	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	462		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	32	464	#line 32 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	464	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	464		jmp __ASM_Label_695
+1	33	466	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	466		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	33	468	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	33	468	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	468		set __D0decode, 2112
+1	33	471	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	471		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	33	475	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	475		brtst 4, __ASM_Label_698, __D0decode
+1	33	478	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	478		strcat __strbufdecode, __constStr0030
+1	33	482	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	482		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	33	484	#line 33 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	484	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	484		jmp __ASM_Label_699
+1	34	486	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	486		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	34	488	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	34	488	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	488		set __D0decode, 2122
+1	34	491	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	491		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	34	495	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	495		brtst 4, __ASM_Label_702, __D0decode
+1	34	498	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	498		strcat __strbufdecode, __constStr0031
+1	34	502	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	502		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	34	504	#line 34 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	504	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	504		jmp __ASM_Label_703
+1	35	506	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	506		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	35	508	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	35	508	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	508		set __D0decode, 2211
+1	35	511	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	511		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	35	515	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	515		brtst 4, __ASM_Label_706, __D0decode
+1	35	518	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	518		strcat __strbufdecode, __constStr0032
+1	35	522	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	36	522		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	35	524	#line 35 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	37	524	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	524		jmp __ASM_Label_707
+1	37	526	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	526		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	37	528	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	37	528	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	528		set __D0decode, 12222
+1	37	531	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	531		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	37	535	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	535		brtst 4, __ASM_Label_710, __D0decode
+1	37	538	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	538		strcat __strbufdecode, __constStr0033
+1	37	542	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	542		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	37	544	#line 37 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	544	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	544		jmp __ASM_Label_711
+1	38	546	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	546		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	38	548	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	38	548	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	548		set __D0decode, 11222
+1	38	551	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	551		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	38	555	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	555		brtst 4, __ASM_Label_714, __D0decode
+1	38	558	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	558		strcat __strbufdecode, __constStr0034
+1	38	562	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	562		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	38	564	#line 38 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	564	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	564		jmp __ASM_Label_715
+1	39	566	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	566		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	39	568	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	39	568	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	568		set __D0decode, 11122
+1	39	571	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	571		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	39	575	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	575		brtst 4, __ASM_Label_718, __D0decode
+1	39	578	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	578		strcat __strbufdecode, __constStr0035
+1	39	582	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	582		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	39	584	#line 39 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	584	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	584		jmp __ASM_Label_719
+1	40	586	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	586		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	40	588	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	40	588	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	588		set __D0decode, 11112
+1	40	591	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	591		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	40	595	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	595		brtst 4, __ASM_Label_722, __D0decode
+1	40	598	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	598		strcat __strbufdecode, __constStr0036
+1	40	602	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	602		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	40	604	#line 40 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	604	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	604		jmp __ASM_Label_723
+1	41	606	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	606		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	41	608	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	41	608	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	608		set __D0decode, 11111
+1	41	611	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	611		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	41	615	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	615		brtst 4, __ASM_Label_726, __D0decode
+1	41	618	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	618		strcat __strbufdecode, __constStr0037
+1	41	622	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	622		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	41	624	#line 41 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	624	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	624		jmp __ASM_Label_727
+1	42	626	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	626		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	42	628	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	42	628	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	628		set __D0decode, 21111
+1	42	631	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	631		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	42	635	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	635		brtst 4, __ASM_Label_730, __D0decode
+1	42	638	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	638		strcat __strbufdecode, __constStr0038
+1	42	642	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	642		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	42	644	#line 42 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	644	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	644		jmp __ASM_Label_731
+1	43	646	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	646		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	43	648	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	43	648	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	648		set __D0decode, 22111
+1	43	651	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	651		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	43	655	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	655		brtst 4, __ASM_Label_734, __D0decode
+1	43	658	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	658		strcat __strbufdecode, __constStr0039
+1	43	662	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	662		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	43	664	#line 43 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	664	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	664		jmp __ASM_Label_735
+1	44	666	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	666		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	44	668	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	44	668	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	668		set __D0decode, 22211
+1	44	671	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	671		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	44	675	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	675		brtst 4, __ASM_Label_738, __D0decode
+1	44	678	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	678		strcat __strbufdecode, __constStr0040
+1	44	682	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	682		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	44	684	#line 44 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	684	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	684		jmp __ASM_Label_739
+1	45	686	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	686		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	45	688	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	45	688	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	688		set __D0decode, 22221
+1	45	691	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	691		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	45	695	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	695		brtst 4, __ASM_Label_742, __D0decode
+1	45	698	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	698		strcat __strbufdecode, __constStr0041
+1	45	702	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	702		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	45	704	#line 45 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	704	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	704		jmp __ASM_Label_743
+1	46	706	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	706		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	46	708	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	46	708	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	708		set __D0decode, 22222
+1	46	711	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	711		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	46	715	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	715		brtst 4, __ASM_Label_746, __D0decode
+1	46	718	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	718		strcat __strbufdecode, __constStr0042
+1	46	722	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	47	722		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	46	724	#line 46 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	48	724	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	724		jmp __ASM_Label_747
+1	48	726	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	726		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	48	728	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	48	728	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	728		mov __D0decode, __constVal121212
+1	48	730	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	730		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	48	734	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	734		brtst 4, __ASM_Label_750, __D0decode
+1	48	737	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	737		strcat __strbufdecode, __constStr0043
+1	48	741	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	741		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	48	743	#line 48 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	743	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	743		jmp __ASM_Label_751
+1	49	745	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	745		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	49	747	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	49	747	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	747		mov __D0decode, __constVal221122
+1	49	749	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	749		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	49	753	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	753		brtst 4, __ASM_Label_754, __D0decode
+1	49	756	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	756		strcat __strbufdecode, __constStr0044
+1	49	760	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	760		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	49	762	#line 49 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	762	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	762		jmp __ASM_Label_755
+1	50	764	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	764		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	50	766	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	50	766	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	766		mov __D0decode, __constVal112211
+1	50	768	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	768		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	50	772	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	772		brtst 4, __ASM_Label_758, __D0decode
+1	50	775	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	775		strcat __strbufdecode, __constStr0045
+1	50	779	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	779		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	50	781	#line 50 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	781	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	781		jmp __ASM_Label_759
+1	51	783	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	783		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	51	785	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	51	785	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	785		mov __D0decode, __constVal122221
+1	51	787	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	787		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	51	791	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	791		brtst 4, __ASM_Label_762, __D0decode
+1	51	794	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	794		strcat __strbufdecode, __constStr0046
+1	51	798	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	798		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	51	800	#line 51 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	800	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	800		jmp __ASM_Label_763
+1	52	802	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	802		mov __signed_stack_001decode, __decode_7qG2_in_7qG2_000
+1	52	804	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	52	804	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	804		mov __D0decode, __constVal212122
+1	52	806	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	806		cmp 4, __D0decode, __signed_stack_001decode, __D0decode
+1	52	810	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	810		brtst 4, __ASM_Label_766, __D0decode
+1	52	813	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	813		strcat __strbufdecode, __constStr0047
+1	52	817	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	53	817		mov __decode_7qG2_out_7qG2_000, __strbufdecode
+1	52	819	#line 52 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	66	819	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	67	819		strcat __strbufdecode, __decode_7qG2_out_7qG2_000
+1	66	823	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	67	823		subret __decode_return
+1	66	825	#line 66 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	70	825	#line 70 "C:\Github\NXC_Source\#+MorseInput.nxc"
+1	71	825		subret __decode_return
+2	72	0	#line 72 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	73	0		set __waitCenter_7qG2_ret_7qG2_000, 0
+2	72	3	#line 72 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	74	3	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	3	#pragma macro 3
+2	74	3	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	74	3		set __signed_stack_001waitCenter, 1
+2	74	6	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	74	6	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	6		mov __D0waitCenter, __constVal0
+2	74	8	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	8		acquire __RBtnMutex
+2	74	9	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	9		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	74	11	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	11		mov __RBtnArgs.Reset, __D0waitCenter
+2	74	13	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	13		syscall 20, __RBtnArgs
+2	74	16	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	16		mov __D0waitCenter, __RBtnArgs.Pressed
+2	74	18	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	18		release __RBtnMutex
+2	74	19	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	19		mov __signed_stack_001waitCenter, __D0waitCenter
+2	75	21	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	21		set __D0waitCenter, 0
+2	75	24	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	24		cmp 4, __D0waitCenter, __signed_stack_001waitCenter, __D0waitCenter
+2	75	28	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	28		brtst 4, __ASM_Label_774, __D0waitCenter
+2	75	31	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	31		set __signed_stack_001waitCenter, 2
+2	75	34	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	34	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	34		mov __D0waitCenter, __constVal0
+2	75	36	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	36		acquire __RBtnMutex
+2	75	37	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	37		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	75	39	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	39		mov __RBtnArgs.Reset, __D0waitCenter
+2	75	41	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	41		syscall 20, __RBtnArgs
+2	75	44	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	44		mov __D0waitCenter, __RBtnArgs.Pressed
+2	75	46	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	46		release __RBtnMutex
+2	75	47	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	47		mov __signed_stack_001waitCenter, __D0waitCenter
+2	76	49	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	49		set __D0waitCenter, 0
+2	76	52	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	52		cmp 4, __D0waitCenter, __signed_stack_001waitCenter, __D0waitCenter
+2	76	56	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	56		brtst 4, __ASM_Label_774, __D0waitCenter
+2	76	59	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	59		set __signed_stack_001waitCenter, 3
+2	76	62	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	62	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	62		mov __D0waitCenter, __constVal0
+2	76	64	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	64		acquire __RBtnMutex
+2	76	65	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	65		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	76	67	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	67		mov __RBtnArgs.Reset, __D0waitCenter
+2	76	69	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	69		syscall 20, __RBtnArgs
+2	76	72	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	72		mov __D0waitCenter, __RBtnArgs.Pressed
+2	76	74	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	74		release __RBtnMutex
+2	76	75	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	75		mov __signed_stack_001waitCenter, __D0waitCenter
+2	76	77	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	77		set __D0waitCenter, 0
+2	76	80	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	80		cmp 4, __D0waitCenter, __signed_stack_001waitCenter, __D0waitCenter
+2	77	84	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	84		not __D0waitCenter, __D0waitCenter
+2	73	87	#line 73 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	73	87	#line 73 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	73	87	#line 73 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	74	87		tst 5, __D0waitCenter, __D0waitCenter
+2	73	90	#line 73 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	74	90		brtst 4, __ASM_Label_770, __D0waitCenter
+2	75	93	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	74	93	#line 74 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	93	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	93		jmp __ASM_Label_769
+2	75	95	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	95	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	95		set __signed_stack_001waitCenter, 1
+2	75	98	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	75	98	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	98		mov __D0waitCenter, __constVal0
+2	75	100	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	100		acquire __RBtnMutex
+2	75	101	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	101		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	75	103	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	103		mov __RBtnArgs.Reset, __D0waitCenter
+2	75	105	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	105		syscall 20, __RBtnArgs
+2	75	108	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	108		mov __D0waitCenter, __RBtnArgs.Pressed
+2	75	110	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	110		release __RBtnMutex
+2	75	111	#line 75 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	111		mov __signed_stack_001waitCenter, __D0waitCenter
+2	76	113	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	113		set __D0waitCenter, 0
+2	76	116	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	116		cmp 4, __D0waitCenter, __signed_stack_001waitCenter, __D0waitCenter
+2	76	120	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	120		brtst 4, __ASM_Label_784, __D0waitCenter
+2	76	123	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	123		set __signed_stack_001waitCenter, 2
+2	76	126	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	76	126	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	126		mov __D0waitCenter, __constVal0
+2	76	128	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	128		acquire __RBtnMutex
+2	76	129	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	129		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	76	131	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	131		mov __RBtnArgs.Reset, __D0waitCenter
+2	76	133	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	133		syscall 20, __RBtnArgs
+2	76	136	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	136		mov __D0waitCenter, __RBtnArgs.Pressed
+2	76	138	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	138		release __RBtnMutex
+2	76	139	#line 76 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	139		mov __signed_stack_001waitCenter, __D0waitCenter
+2	77	141	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	141		set __D0waitCenter, 0
+2	77	144	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	144		cmp 4, __D0waitCenter, __signed_stack_001waitCenter, __D0waitCenter
+2	77	148	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	148		brtst 4, __ASM_Label_784, __D0waitCenter
+2	77	151	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	151		set __signed_stack_001waitCenter, 3
+2	77	154	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	77	154	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	154		mov __D0waitCenter, __constVal0
+2	77	156	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	156		acquire __RBtnMutex
+2	77	157	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	157		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	77	159	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	159		mov __RBtnArgs.Reset, __D0waitCenter
+2	77	161	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	161		syscall 20, __RBtnArgs
+2	77	164	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	164		mov __D0waitCenter, __RBtnArgs.Pressed
+2	77	166	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	166		release __RBtnMutex
+2	77	167	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	167		mov __signed_stack_001waitCenter, __D0waitCenter
+2	77	169	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	169		set __D0waitCenter, 0
+2	77	172	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	172		cmp 4, __D0waitCenter, __signed_stack_001waitCenter, __D0waitCenter
+2	77	176	#line 77 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	78	176		brtst 4, __ASM_Label_782, __D0waitCenter
+2	79	179	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	179		jmp __ASM_Label_781
+2	79	181	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	79	181	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	181		set __signed_stack_001waitCenter, 3
+2	79	184	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	79	184	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	184		mov __D0waitCenter, __constVal0
+2	79	186	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	186		acquire __RBtnMutex
+2	79	187	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	187		mov __RBtnArgs.Index, __signed_stack_001waitCenter
+2	79	189	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	189		mov __RBtnArgs.Reset, __D0waitCenter
+2	79	191	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	191		syscall 20, __RBtnArgs
+2	79	194	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	194		mov __D0waitCenter, __RBtnArgs.Pressed
+2	79	196	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	196		release __RBtnMutex
+2	79	197	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	197		not __waitCenter_7qG2_ret_7qG2_000, __D0waitCenter
+2	79	200	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	79	200	#line 79 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	80	200	#line 80 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	81	200		mov __DU0waitCenter, __waitCenter_7qG2_ret_7qG2_000
+2	80	202	#line 80 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	81	202		subret __waitCenter_return
+2	80	204	#line 80 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	84	204	#line 84 "C:\Github\NXC_Source\#+MorseInput.nxc"
+2	85	204		subret __waitCenter_return
+3	98	0	#line 98 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	99	0		set __morseCode_7qG2_inloop3_7qG2_000, 1
+3	98	3	#line 98 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	98	3	#line 98 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	100	3	#line 100 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	101	3		mov __DU0morseCode, __morseCode_7qG2_inloop3_7qG2_000
+3	101	5	#line 101 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	102	5		tst 5, __D0morseCode, __DU0morseCode
+3	101	8	#line 101 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	102	8		brtst 4, __ASM_Label_800, __D0morseCode
+3	101	11	#line 101 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	102	11		set __morseCode_7qG2_inloop2_7qG2_000, 1
+3	101	14	#line 101 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	101	14	#line 101 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	103	14	#line 103 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	104	14		mov __DU0morseCode, __morseCode_7qG2_inloop2_7qG2_000
+3	104	16	#line 104 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	105	16		tst 5, __D0morseCode, __DU0morseCode
+3	104	19	#line 104 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	105	19		brtst 4, __ASM_Label_806, __D0morseCode
+3	104	22	#line 104 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	105	22		strcat __strbufmorseCode, __constStr0009
+3	104	26	#line 104 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	105	26		mov __morseCode_7qG2_tempOutput_7qG2_000, __strbufmorseCode
+3	104	28	#line 104 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	105	28	#line 105 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	106	28		strcat __strbufmorseCode, __constStr0009
+3	105	32	#line 105 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	106	32		mov __morseCode_7qG2_data_7qG2_000, __strbufmorseCode
+3	105	34	#line 105 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	106	34	#line 106 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	107	34		set __morseCode_7qG2_inloop1_7qG2_000, 1
+3	106	37	#line 106 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	106	37	#line 106 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	108	37	#line 108 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	109	37		mov __DU0morseCode, __morseCode_7qG2_inloop1_7qG2_000
+3	110	39	#line 110 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	39		tst 5, __D0morseCode, __DU0morseCode
+3	110	42	#line 110 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	42		brtst 4, __ASM_Label_812, __D0morseCode
+3	110	45	#line 110 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	45		set __signed_stack_001morseCode, 2
+3	110	48	#line 110 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	110	48	#line 110 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	48		mov __D0morseCode, __constVal0
+3	111	50	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	50		acquire __RBtnMutex
+3	111	51	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	51		mov __RBtnArgs.Index, __signed_stack_001morseCode
+3	111	53	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	53		mov __RBtnArgs.Reset, __D0morseCode
+3	111	55	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	55		syscall 20, __RBtnArgs
+3	111	58	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	58		mov __D0morseCode, __RBtnArgs.Pressed
+3	111	60	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	60		release __RBtnMutex
+3	111	61	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	61		tst 5, __D0morseCode, __D0morseCode
+3	111	64	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	64		brtst 4, __ASM_Label_819, __D0morseCode
+3	111	67	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	67		strcat __strbufmorseCode, __morseCode_7qG2_data_7qG2_000
+3	111	71	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	71		mov __ArrHelper__morseCode_244_0, __strbufmorseCode
+3	111	73	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	73		strcat __strbufmorseCode, __constStr0033
+3	111	77	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	77		mov __ArrHelper__morseCode_244_1, __strbufmorseCode
+3	111	79	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	79		strcat __strretvalmorseCode, __ArrHelper__morseCode_244_0, __ArrHelper__morseCode_244_1
+3	111	84	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	84		strcat __strbufmorseCode, __strretvalmorseCode
+3	111	88	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	88		mov __morseCode_7qG2_data_7qG2_000, __strbufmorseCode
+3	111	90	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	90	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	90		set __signed_stack_001morseCode, 2000
+3	111	93	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	93	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	93		set __signed_stack_002morseCode, 250
+3	111	96	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	96	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	96		set __signed_stack_003morseCode, 4
+3	111	99	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	99	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	99		set __D0morseCode, 0
+3	111	102	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	102		acquire __SPTArgsMutex
+3	111	103	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	103		mov __SPTArgs.Frequency, __signed_stack_001morseCode
+3	111	105	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	105		mov __SPTArgs.Duration, __signed_stack_002morseCode
+3	111	107	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	107		mov __SPTArgs.Volume, __signed_stack_003morseCode
+3	111	109	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	109		mov __SPTArgs.Loop, __D0morseCode
+3	111	111	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	111		syscall 10, __SPTArgs
+3	111	114	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	114		mov __D0morseCode, __SPTArgs.Result
+3	111	116	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	116		release __SPTArgsMutex
+3	111	117	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	111	117	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	117		set __Wait_7qG2_ms_7qG2_000_inline_morseCode, 250
+3	111	120	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	8771	120	#line 8771 "NXCDefs.h"
+3	8772	120		waitv __Wait_7qG2_ms_7qG2_000_inline_morseCode
+3	8771	122	#line 8771 "NXCDefs.h"
+3	111	122	#line 111 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	122	#line 112 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	122	#line 112 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	122		set __signed_stack_001morseCode, 1
+3	112	125	#line 112 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	112	125	#line 112 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	125		mov __D0morseCode, __constVal0
+3	113	127	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	127		acquire __RBtnMutex
+3	113	128	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	128		mov __RBtnArgs.Index, __signed_stack_001morseCode
+3	113	130	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	130		mov __RBtnArgs.Reset, __D0morseCode
+3	113	132	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	132		syscall 20, __RBtnArgs
+3	113	135	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	135		mov __D0morseCode, __RBtnArgs.Pressed
+3	113	137	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	137		release __RBtnMutex
+3	113	138	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	138		tst 5, __D0morseCode, __D0morseCode
+3	113	141	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	141		brtst 4, __ASM_Label_834, __D0morseCode
+3	113	144	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	144		strcat __strbufmorseCode, __morseCode_7qG2_data_7qG2_000
+3	113	148	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	148		mov __ArrHelper__morseCode_244_0, __strbufmorseCode
+3	113	150	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	150		strcat __strbufmorseCode, __constStr0034
+3	113	154	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	154		mov __ArrHelper__morseCode_244_1, __strbufmorseCode
+3	113	156	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	156		strcat __strretvalmorseCode, __ArrHelper__morseCode_244_0, __ArrHelper__morseCode_244_1
+3	113	161	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	161		strcat __strbufmorseCode, __strretvalmorseCode
+3	113	165	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	165		mov __morseCode_7qG2_data_7qG2_000, __strbufmorseCode
+3	113	167	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	167	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	167		set __signed_stack_001morseCode, 2500
+3	113	170	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	170	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	170		set __signed_stack_002morseCode, 250
+3	113	173	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	173	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	173		set __signed_stack_003morseCode, 4
+3	113	176	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	176	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	176		set __D0morseCode, 0
+3	113	179	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	179		acquire __SPTArgsMutex
+3	113	180	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	180		mov __SPTArgs.Frequency, __signed_stack_001morseCode
+3	113	182	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	182		mov __SPTArgs.Duration, __signed_stack_002morseCode
+3	113	184	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	184		mov __SPTArgs.Volume, __signed_stack_003morseCode
+3	113	186	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	186		mov __SPTArgs.Loop, __D0morseCode
+3	113	188	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	188		syscall 10, __SPTArgs
+3	113	191	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	191		mov __D0morseCode, __SPTArgs.Result
+3	113	193	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	193		release __SPTArgsMutex
+3	113	194	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	113	194	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	194		set __Wait_7qG2_ms_7qG2_000_inline_morseCode, 250
+3	113	197	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	8771	197	#line 8771 "NXCDefs.h"
+3	8772	197		waitv __Wait_7qG2_ms_7qG2_000_inline_morseCode
+3	8771	199	#line 8771 "NXCDefs.h"
+3	113	199	#line 113 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	199	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	199	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	199		strcat __strbufmorseCode, __morseCode_7qG2_data_7qG2_000
+3	114	203	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	203		strtonum __decode_7qG2_in_7qG2_000, __signed_stack_001morseCode, __strbufmorseCode, 65535, 65535
+3	114	209	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	114	209	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	209		subcall decode, __decode_return
+3	114	211	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	211		mov __strretvalmorseCode, __strbufdecode
+3	114	213	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	213		strcat __strbufmorseCode, __strretvalmorseCode
+3	114	217	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	217		mov __morseCode_7qG2_tempOutput_7qG2_000, __strbufmorseCode
+3	114	219	#line 114 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	219	#line 115 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	116	219	#pragma macro 6
+3	116	219		add __MWArgs.QueueID, __constVal9, __constVal10
+3	116	223		mov __MWArgs.Message, __morseCode_7qG2_tempOutput_7qG2_000
+3	116	225		syscall 26, __MWArgs
+3	7667	228	#line 7667 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	228	#line 115 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	115	228	#line 115 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	116	228	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	228		set __signed_stack_001morseCode, 0
+3	116	231	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	116	231	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	231		set __signed_stack_002morseCode, 8
+3	116	234	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	116	234	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	234		strcat __strbufmorseCode, __morseCode_7qG2_output_7qG2_000
+3	116	238	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	238		mov __ArrHelper__morseCode_244_0, __strbufmorseCode
+3	116	240	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	240		strcat __strbufmorseCode, __morseCode_7qG2_tempOutput_7qG2_000
+3	116	244	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	244		mov __ArrHelper__morseCode_244_1, __strbufmorseCode
+3	116	246	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	246		strcat __strbufmorseCode, __constStr0048
+3	116	250	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	250		mov __ArrHelper__morseCode_244_2, __strbufmorseCode
+3	116	252	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	252		strcat __strretvalmorseCode, __ArrHelper__morseCode_244_0, __ArrHelper__morseCode_244_1, __ArrHelper__morseCode_244_2
+3	116	258	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	258		strcat __strbufmorseCode, __strretvalmorseCode
+3	116	262	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	262		set __D0morseCode, 0
+3	116	265	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	265		acquire __TextOutMutex
+3	116	266	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	266		mov __TextOutArgs.Location.X, __signed_stack_001morseCode
+3	116	268	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	268		mov __TextOutArgs.Location.Y, __signed_stack_002morseCode
+3	116	270	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	270		mov __TextOutArgs.Options, __D0morseCode
+3	116	272	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	272		mov __TextOutArgs.Text, __strbufmorseCode
+3	116	274	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	274		syscall 13, __TextOutArgs
+3	116	277	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	277		mov __D0morseCode, __TextOutArgs.Result
+3	116	279	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	279		release __TextOutMutex
+3	116	280	#line 116 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	280	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	280		set __signed_stack_001morseCode, 0
+3	117	283	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	283	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	283		set __signed_stack_002morseCode, 0
+3	117	286	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	117	286	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	286		strcat __strbufmorseCode, __constStr0049
+3	117	290	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	290		set __D0morseCode, 0
+3	117	293	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	293		acquire __TextOutMutex
+3	117	294	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	294		mov __TextOutArgs.Location.X, __signed_stack_001morseCode
+3	117	296	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	296		mov __TextOutArgs.Location.Y, __signed_stack_002morseCode
+3	117	298	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	298		mov __TextOutArgs.Options, __D0morseCode
+3	117	300	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	300		mov __TextOutArgs.Text, __strbufmorseCode
+3	117	302	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	302		syscall 13, __TextOutArgs
+3	117	305	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	305		mov __D0morseCode, __TextOutArgs.Result
+3	117	307	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	307		release __TextOutMutex
+3	117	308	#line 117 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	308	#line 118 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	119	308		subcall waitCenter, __waitCenter_return
+3	118	310	#line 118 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	119	310		mov __morseCode_7qG2_inloop1_7qG2_000, __DU0waitCenter
+3	118	312	#line 118 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	118	312	#line 118 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	120	312	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	312		jmp __ASM_Label_811
+3	120	314	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	120	314	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	314		set __signed_stack_001morseCode, 1500
+3	120	317	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	120	317	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	317		set __signed_stack_002morseCode, 250
+3	120	320	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	120	320	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	320		set __signed_stack_003morseCode, 4
+3	120	323	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	120	323	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	323		set __D0morseCode, 0
+3	120	326	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	326		acquire __SPTArgsMutex
+3	120	327	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	327		mov __SPTArgs.Frequency, __signed_stack_001morseCode
+3	120	329	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	329		mov __SPTArgs.Duration, __signed_stack_002morseCode
+3	120	331	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	331		mov __SPTArgs.Volume, __signed_stack_003morseCode
+3	120	333	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	333		mov __SPTArgs.Loop, __D0morseCode
+3	120	335	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	335		syscall 10, __SPTArgs
+3	120	338	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	338		mov __D0morseCode, __SPTArgs.Result
+3	120	340	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	340		release __SPTArgsMutex
+3	120	341	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	120	341	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	341		set __Wait_7qG2_ms_7qG2_000_inline_morseCode, 250
+3	120	344	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	8771	344	#line 8771 "NXCDefs.h"
+3	8772	344		waitv __Wait_7qG2_ms_7qG2_000_inline_morseCode
+3	8771	346	#line 8771 "NXCDefs.h"
+3	120	346	#line 120 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	121	346	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	346		strcat __strbufmorseCode, __morseCode_7qG2_output_7qG2_000
+3	121	350	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	350		mov __ArrHelper__morseCode_244_0, __strbufmorseCode
+3	121	352	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	352		strcat __strbufmorseCode, __morseCode_7qG2_tempOutput_7qG2_000
+3	121	356	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	356		mov __ArrHelper__morseCode_244_1, __strbufmorseCode
+3	121	358	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	358		strcat __strretvalmorseCode, __ArrHelper__morseCode_244_0, __ArrHelper__morseCode_244_1
+3	121	363	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	363		strcat __strbufmorseCode, __strretvalmorseCode
+3	121	367	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	367		mov __morseCode_7qG2_output_7qG2_000, __strbufmorseCode
+3	121	369	#line 121 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	369	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	369		set __signed_stack_001morseCode, 0
+3	122	372	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	372	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	372		set __signed_stack_002morseCode, 0
+3	122	375	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	122	375	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	375		strcat __strbufmorseCode, __constStr0050
+3	122	379	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	379		set __D0morseCode, 0
+3	122	382	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	382		acquire __TextOutMutex
+3	122	383	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	383		mov __TextOutArgs.Location.X, __signed_stack_001morseCode
+3	122	385	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	385		mov __TextOutArgs.Location.Y, __signed_stack_002morseCode
+3	122	387	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	387		mov __TextOutArgs.Options, __D0morseCode
+3	122	389	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	389		mov __TextOutArgs.Text, __strbufmorseCode
+3	122	391	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	391		syscall 13, __TextOutArgs
+3	122	394	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	394		mov __D0morseCode, __TextOutArgs.Result
+3	122	396	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	396		release __TextOutMutex
+3	122	397	#line 122 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	397	#line 123 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	124	397		subcall waitCenter, __waitCenter_return
+3	123	399	#line 123 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	124	399		mov __morseCode_7qG2_inloop2_7qG2_000, __DU0waitCenter
+3	123	401	#line 123 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	123	401	#line 123 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	125	401	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	401		jmp __ASM_Label_805
+3	125	403	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	125	403	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	403		set __signed_stack_001morseCode, 1000
+3	125	406	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	125	406	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	406		set __signed_stack_002morseCode, 250
+3	125	409	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	125	409	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	409		set __signed_stack_003morseCode, 4
+3	125	412	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	125	412	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	412		set __D0morseCode, 0
+3	125	415	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	415		acquire __SPTArgsMutex
+3	125	416	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	416		mov __SPTArgs.Frequency, __signed_stack_001morseCode
+3	125	418	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	418		mov __SPTArgs.Duration, __signed_stack_002morseCode
+3	125	420	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	420		mov __SPTArgs.Volume, __signed_stack_003morseCode
+3	125	422	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	422		mov __SPTArgs.Loop, __D0morseCode
+3	125	424	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	424		syscall 10, __SPTArgs
+3	125	427	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	427		mov __D0morseCode, __SPTArgs.Result
+3	125	429	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	429		release __SPTArgsMutex
+3	125	430	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	125	430	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	430		set __Wait_7qG2_ms_7qG2_000_inline_morseCode, 250
+3	125	433	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	8771	433	#line 8771 "NXCDefs.h"
+3	8772	433		waitv __Wait_7qG2_ms_7qG2_000_inline_morseCode
+3	8771	435	#line 8771 "NXCDefs.h"
+3	125	435	#line 125 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	435	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	435		set __signed_stack_001morseCode, 0
+3	126	438	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	438	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	438		set __signed_stack_002morseCode, 0
+3	126	441	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	126	441	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	441		strcat __strbufmorseCode, __constStr0051
+3	126	445	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	445		set __D0morseCode, 0
+3	126	448	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	448		acquire __TextOutMutex
+3	126	449	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	449		mov __TextOutArgs.Location.X, __signed_stack_001morseCode
+3	126	451	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	451		mov __TextOutArgs.Location.Y, __signed_stack_002morseCode
+3	126	453	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	453		mov __TextOutArgs.Options, __D0morseCode
+3	126	455	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	455		mov __TextOutArgs.Text, __strbufmorseCode
+3	126	457	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	457		syscall 13, __TextOutArgs
+3	126	460	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	460		mov __D0morseCode, __TextOutArgs.Result
+3	126	462	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	462		release __TextOutMutex
+3	126	463	#line 126 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	463	#line 127 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	128	463		subcall waitCenter, __waitCenter_return
+3	127	465	#line 127 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	128	465		mov __morseCode_7qG2_inloop3_7qG2_000, __DU0waitCenter
+3	127	467	#line 127 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	127	467	#line 127 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	128	467	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	467		mov __DU0morseCode, __DU0waitCenter
+3	128	469	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	469		tst 5, __D0morseCode, __DU0morseCode
+3	128	472	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	472		brtst 4, __ASM_Label_899, __D0morseCode
+3	128	475	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	475		strcat __strbufmorseCode, __morseCode_7qG2_output_7qG2_000
+3	128	479	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	479		mov __ArrHelper__morseCode_244_0, __strbufmorseCode
+3	128	481	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	481		strcat __strbufmorseCode, __constStr0048
+3	128	485	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	485		mov __ArrHelper__morseCode_244_1, __strbufmorseCode
+3	128	487	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	487		strcat __strretvalmorseCode, __ArrHelper__morseCode_244_0, __ArrHelper__morseCode_244_1
+3	128	492	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	492		strcat __strbufmorseCode, __strretvalmorseCode
+3	128	496	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	129	496		mov __morseCode_7qG2_output_7qG2_000, __strbufmorseCode
+3	128	498	#line 128 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	498	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	498	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	498		jmp __ASM_Label_799
+3	130	500	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	500	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	500		set __signed_stack_001morseCode, 500
+3	130	503	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	503	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	503		set __signed_stack_002morseCode, 250
+3	130	506	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	506	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	506		set __signed_stack_003morseCode, 4
+3	130	509	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	509	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	509		set __D0morseCode, 0
+3	130	512	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	512		acquire __SPTArgsMutex
+3	130	513	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	513		mov __SPTArgs.Frequency, __signed_stack_001morseCode
+3	130	515	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	515		mov __SPTArgs.Duration, __signed_stack_002morseCode
+3	130	517	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	517		mov __SPTArgs.Volume, __signed_stack_003morseCode
+3	130	519	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	519		mov __SPTArgs.Loop, __D0morseCode
+3	130	521	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	521		syscall 10, __SPTArgs
+3	130	524	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	524		mov __D0morseCode, __SPTArgs.Result
+3	130	526	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	526		release __SPTArgsMutex
+3	130	527	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	130	527	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	527		set __Wait_7qG2_ms_7qG2_000_inline_morseCode, 250
+3	130	530	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	8771	530	#line 8771 "NXCDefs.h"
+3	8772	530		waitv __Wait_7qG2_ms_7qG2_000_inline_morseCode
+3	8771	532	#line 8771 "NXCDefs.h"
+3	130	532	#line 130 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	131	532	#line 131 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	132	532		strcat __strbufmorseCode, __morseCode_7qG2_output_7qG2_000
+3	131	536	#line 131 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	132	536		subret __morseCode_return
+3	131	538	#line 131 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	136	538	#line 136 "C:\Github\NXC_Source\#+MorseInput.nxc"
+3	137	538		subret __morseCode_return
+4	148	0	#line 148 "C:\Github\NXC_Source\#+MorseInput.nxc"
+4	149	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\#+MorseInput.nxc
+1	decode	171	C:\Github\NXC_Source\#+MorseInput.nxc
+2	waitCenter	998	C:\Github\NXC_Source\#+MorseInput.nxc
+3	morseCode	1204	C:\Github\NXC_Source\#+MorseInput.nxc
+4	__initialize_global_data	1744	C:\Github\NXC_Source\#+MorseInput.nxc
