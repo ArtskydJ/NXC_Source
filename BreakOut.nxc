@@ -6,6 +6,7 @@
 \*****************/
 
 #include "+Highscore.nxc"
+#include "+SoundEnd.nxc"
 
 #define w   5
 #define h   4
@@ -149,8 +150,8 @@ task main()
         Draw();
         Wait(WaitTime);
         }
-      if (GameStatus==0) {Level++; Score=0;WaitTime=WaitTime*4/5;}
-      if (GameStatus<0)  {Lives--;PlayTone(3000,500);}
+      if (GameStatus==0) {Level++; Score=0; WaitTime=WaitTime*4/5;SoundEnd(soundWin);} //Level up
+      if (GameStatus<0)  {Lives--;PlayTone(3000,500);SoundEnd(soundLose);} //Ball fell into chasm
       }
     if (GameStatus<0) {Retry=RetryGame();Level=1;}
     }
