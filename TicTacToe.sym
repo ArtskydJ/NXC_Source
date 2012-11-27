@@ -55,177 +55,176 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 52	owins	4	1	188	2	3
 53	xwins	4	1	190	2	3
 54	__Redraw_7qG2_dslct_7qG2_000	1	1	192	1	5
-55	__constValNeg1	2	0	193	1	1
+55	__Redraw_7qG2_odraw_7qG2_000	1	1	193	1	6
 56	__Redraw_return	1	1	194	1	6
-57	__Redraw_7qG2_odraw_7qG2_000	1	1	195	1	6
-58	p2ai	1	1	196	1	3
-59	gameover	1	1	197	1	8
+57	__constValNeg1	2	0	195	1	1
+58	gameover	1	1	196	1	8
+59	p2ai	1	1	197	1	3
 60	__CheckWin_return	1	1	198	1	4
-61	aiturndone	1	1	199	1	25
+61	__P_7qG2_plyr_7qG2_000	1	1	199	1	8
 62	__GameOver_return	1	1	200	1	3
-63	__constVal0	2	1	201	1	16
+63	__constVal1	2	0	201	1	9
 64	____initialize_global_data_return	1	1	202	1	3
-65	__constVal1	2	0	203	1	9
+65	__constVal0	2	1	203	1	16
 66	__P_return	1	1	204	1	6
-67	__P_7qG2_plyr_7qG2_000	1	1	205	1	8
+67	__ChooseP2_return	1	1	205	1	3
 68	__AI_return	1	1	206	1	4
-69	__ChooseP2_return	1	1	207	1	3
-70	__constVal10	2	0	208	1	2
-71	__constVal9	2	0	209	1	3
-72	__SPTArgs	8	0	5	8	12
-73	__SPTArgs.Result	2	1	212	1	12
-74	__SPTArgs.Frequency	3	1	214	2	12
-75	__SPTArgs.Duration	3	1	216	2	12
-76	__SPTArgs.Loop	1	1	218	1	12
-77	__SPTArgs.Volume	1	1	219	1	12
-78	__PointOutArgs	8	0	3	12	12
-79	__PointOutArgs.Result	2	1	220	1	12
-80	__PointOutArgs.Location	8	0	2	4	12
-81	__PointOutArgs.Location.X	4	1	224	2	12
-82	__PointOutArgs.Location.Y	4	1	226	2	12
-83	__PointOutArgs.Options	5	1	228	4	12
-84	__TextOutArgs	8	0	4	16	72
-85	__TextOutArgs.Result	2	1	232	1	72
-86	__TextOutArgs.Location	8	0	2	4	72
-87	__TextOutArgs.Location.X	4	1	236	2	72
-88	__TextOutArgs.Location.Y	4	1	238	2	72
-89	__TextOutArgs.Text	7	0	240	4	72
-90	__TextOutArgs.Text.Text_type	1	0	0	1	0
-91	__TextOutArgs.Options	5	1	244	4	72
-92	__MWArgs	8	0	3	8	8
-93	__MWArgs.Result	2	1	248	1	8
-94	__MWArgs.QueueID	1	1	249	1	8
-95	__MWArgs.Message	7	0	250	4	8
-96	__MWArgs.Message.Message_type	1	0	0	1	0
-97	__RBtnArgs	8	0	5	8	60
-98	__RBtnArgs.Result	2	1	252	1	60
-99	__RBtnArgs.Index	1	1	253	1	60
-100	__RBtnArgs.Pressed	1	1	254	1	60
-101	__RBtnArgs.Count	1	1	255	1	60
-102	__RBtnArgs.Reset	1	1	256	1	60
-103	__RandomArgs	8	0	1	4	2
-104	__RandomArgs.Result	4	1	260	2	2
-105	__RectOutArgs	8	0	4	16	7
-106	__RectOutArgs.Result	2	1	264	1	7
-107	__RectOutArgs.Location	8	0	2	4	7
-108	__RectOutArgs.Location.X	4	1	268	2	7
-109	__RectOutArgs.Location.Y	4	1	270	2	7
-110	__RectOutArgs.Size	8	0	2	4	7
-111	__RectOutArgs.Size.Width	4	1	272	2	7
-112	__RectOutArgs.Size.Height	4	1	274	2	7
-113	__RectOutArgs.Options	5	1	276	4	7
-114	__CircleOutArgs	8	0	4	16	12
-115	__CircleOutArgs.Result	2	1	280	1	12
-116	__CircleOutArgs.Center	8	0	2	4	12
-117	__CircleOutArgs.Center.X	4	1	284	2	12
-118	__CircleOutArgs.Center.Y	4	1	286	2	12
-119	__CircleOutArgs.Size	1	1	288	1	12
-120	__CircleOutArgs.Options	5	1	292	4	12
-121	__LineOutArgs	8	0	4	16	50
-122	__LineOutArgs.Result	2	1	296	1	50
-123	__LineOutArgs.StartLoc	8	0	2	4	50
-124	__LineOutArgs.StartLoc.X	4	1	300	2	50
-125	__LineOutArgs.StartLoc.Y	4	1	302	2	50
-126	__LineOutArgs.EndLoc	8	0	2	4	50
-127	__LineOutArgs.EndLoc.X	4	1	304	2	50
-128	__LineOutArgs.EndLoc.Y	4	1	306	2	50
-129	__LineOutArgs.Options	5	1	308	4	50
-130	__constStr0018	7	0	312	4	2
-131	__constStr0018.__constStr0018_type	1	1	0	1	0
-132	__constStr0015	7	0	314	4	1
-133	__constStr0015.__constStr0015_type	1	1	0	1	0
-134	__constStr0020	7	0	316	4	1
-135	__constStr0020.__constStr0020_type	1	1	0	1	0
-136	__constStr0019	7	0	318	4	1
-137	__constStr0019.__constStr0019_type	1	1	0	1	0
-138	__ArrHelper__GameOver_244_2	7	0	320	4	2
-139	__ArrHelper__GameOver_244_2.__ArrHelper__GameOver_244_2_type	1	0	0	1	0
-140	__ArrHelper__CheckWin_244_1	7	0	322	4	4
-141	__ArrHelper__CheckWin_244_1.__ArrHelper__CheckWin_244_1_type	1	0	0	1	0
-142	__ArrHelper__CheckWin_244_0	7	0	324	4	4
-143	__ArrHelper__CheckWin_244_0.__ArrHelper__CheckWin_244_0_type	1	0	0	1	0
-144	__ArrHelper__CheckWin_244_2	7	0	326	4	2
-145	__ArrHelper__CheckWin_244_2.__ArrHelper__CheckWin_244_2_type	1	0	0	1	0
-146	__constStr0017	7	0	328	4	1
-147	__constStr0017.__constStr0017_type	1	1	0	1	0
-148	__constStr0016	7	0	330	4	1
-149	__constStr0016.__constStr0016_type	1	1	0	1	0
-150	__strretvalRedraw	7	0	332	4	6
-151	__strretvalRedraw.__strretvalRedraw_type	1	0	0	1	0
-152	__constStr0026	7	0	334	4	1
-153	__constStr0026.__constStr0026_type	1	1	0	1	0
-154	__constStr0025	7	0	336	4	1
-155	__constStr0025.__constStr0025_type	1	1	0	1	0
-156	__constStr0024	7	0	338	4	1
-157	__constStr0024.__constStr0024_type	1	1	0	1	0
-158	__strretvalP	7	0	340	4	6
-159	__strretvalP.__strretvalP_type	1	0	0	1	0
-160	__constStr0028	7	0	342	4	1
-161	__constStr0028.__constStr0028_type	1	1	0	1	0
-162	__constStr0027	7	0	344	4	1
-163	__constStr0027.__constStr0027_type	1	1	0	1	0
-164	__constStr0023	7	0	346	4	1
-165	__constStr0023.__constStr0023_type	1	1	0	1	0
-166	__ArrHelper__GameOver_244_1	7	0	348	4	4
-167	__ArrHelper__GameOver_244_1.__ArrHelper__GameOver_244_1_type	1	0	0	1	0
-168	__constStr0022	7	0	350	4	2
-169	__constStr0022.__constStr0022_type	1	1	0	1	0
-170	__constStr0021	7	0	352	4	1
-171	__constStr0021.__constStr0021_type	1	1	0	1	0
-172	__ArrHelper__Redraw_244_1	7	0	354	4	6
-173	__ArrHelper__Redraw_244_1.__ArrHelper__Redraw_244_1_type	1	0	0	1	0
-174	__ArrHelper__Redraw_244_0	7	0	356	4	6
-175	__ArrHelper__Redraw_244_0.__ArrHelper__Redraw_244_0_type	1	0	0	1	0
-176	__strbufRedraw	7	0	358	4	12
-177	__strbufRedraw.__strbufRedraw_type	1	0	0	1	0
-178	__strretvalCheckWin	7	0	360	4	6
-179	__strretvalCheckWin.__strretvalCheckWin_type	1	0	0	1	0
-180	__ArrHelper__AI_244_1	7	0	362	4	6
-181	__ArrHelper__AI_244_1.__ArrHelper__AI_244_1_type	1	0	0	1	0
-182	__strbufChooseP2	7	0	364	4	6
-183	__strbufChooseP2.__strbufChooseP2_type	1	0	0	1	0
-184	__ArrHelper__P_244_2	7	0	366	4	2
-185	__ArrHelper__P_244_2.__ArrHelper__P_244_2_type	1	0	0	1	0
-186	__ArrHelper__AI_244_2	7	0	368	4	4
-187	__ArrHelper__AI_244_2.__ArrHelper__AI_244_2_type	1	0	0	1	0
-188	__strbufCheckWin	7	0	370	4	16
-189	__strbufCheckWin.__strbufCheckWin_type	1	0	0	1	0
-190	__strbufGameOver	7	0	372	4	16
-191	__strbufGameOver.__strbufGameOver_type	1	0	0	1	0
-192	__strretvalGameOver	7	0	374	4	2
-193	__strretvalGameOver.__strretvalGameOver_type	1	0	0	1	0
-194	__ArrHelper__P_244_3	7	0	376	4	2
-195	__ArrHelper__P_244_3.__ArrHelper__P_244_3_type	1	0	0	1	0
-196	__ArrHelper__AI_244_0	7	0	378	4	6
-197	__ArrHelper__AI_244_0.__ArrHelper__AI_244_0_type	1	0	0	1	0
-198	__ArrHelper__P_244_4	7	0	380	4	2
-199	__ArrHelper__P_244_4.__ArrHelper__P_244_4_type	1	0	0	1	0
-200	board	7	0	382	4	109
-201	board.board_type	4	0	0	2	0
-202	__strbufP	7	0	384	4	12
-203	__strbufP.__strbufP_type	1	0	0	1	0
-204	__strbufAI	7	0	386	4	24
-205	__strbufAI.__strbufAI_type	1	0	0	1	0
-206	__ArrHelper__P_244_0	7	0	388	4	2
-207	__ArrHelper__P_244_0.__ArrHelper__P_244_0_type	1	0	0	1	0
-208	__constStr0014	7	0	390	4	1
-209	__constStr0014.__constStr0014_type	1	1	0	1	0
-210	__constStr0013	7	0	392	4	1
-211	__constStr0013.__constStr0013_type	1	1	0	1	0
-212	__ArrHelper__GameOver_244_0	7	0	394	4	2
-213	__ArrHelper__GameOver_244_0.__ArrHelper__GameOver_244_0_type	1	0	0	1	0
-214	__strretvalAI	7	0	396	4	10
-215	__strretvalAI.__strretvalAI_type	1	0	0	1	0
-216	__ArrHelper__P_244_1	7	0	398	4	2
-217	__ArrHelper__P_244_1.__ArrHelper__P_244_1_type	1	0	0	1	0
-218	msg	7	0	400	4	16
-219	msg.msg_type	1	0	0	1	0
-220	__constStr0011	7	0	402	4	2
-221	__constStr0011.__constStr0011_type	1	1	0	1	0
-222	__constStr0010	7	0	404	4	1
-223	__constStr0010.__constStr0010_type	1	1	0	1	0
-224	__constStr0009	7	0	406	4	1
-225	__constStr0009.__constStr0009_type	1	1	0	1	0
+69	__constVal10	2	0	207	1	2
+70	__constVal9	2	0	208	1	3
+71	__PointOutArgs	8	0	3	12	12
+72	__PointOutArgs.Result	2	1	212	1	12
+73	__PointOutArgs.Location	8	0	2	4	12
+74	__PointOutArgs.Location.X	4	1	216	2	12
+75	__PointOutArgs.Location.Y	4	1	218	2	12
+76	__PointOutArgs.Options	5	1	220	4	12
+77	__LineOutArgs	8	0	4	16	50
+78	__LineOutArgs.Result	2	1	224	1	50
+79	__LineOutArgs.StartLoc	8	0	2	4	50
+80	__LineOutArgs.StartLoc.X	4	1	228	2	50
+81	__LineOutArgs.StartLoc.Y	4	1	230	2	50
+82	__LineOutArgs.EndLoc	8	0	2	4	50
+83	__LineOutArgs.EndLoc.X	4	1	232	2	50
+84	__LineOutArgs.EndLoc.Y	4	1	234	2	50
+85	__LineOutArgs.Options	5	1	236	4	50
+86	__SPTArgs	8	0	5	8	12
+87	__SPTArgs.Result	2	1	240	1	12
+88	__SPTArgs.Frequency	3	1	242	2	12
+89	__SPTArgs.Duration	3	1	244	2	12
+90	__SPTArgs.Loop	1	1	246	1	12
+91	__SPTArgs.Volume	1	1	247	1	12
+92	__TextOutArgs	8	0	4	16	72
+93	__TextOutArgs.Result	2	1	248	1	72
+94	__TextOutArgs.Location	8	0	2	4	72
+95	__TextOutArgs.Location.X	4	1	252	2	72
+96	__TextOutArgs.Location.Y	4	1	254	2	72
+97	__TextOutArgs.Text	7	0	256	4	72
+98	__TextOutArgs.Text.Text_type	1	0	0	1	0
+99	__TextOutArgs.Options	5	1	260	4	72
+100	__RectOutArgs	8	0	4	16	7
+101	__RectOutArgs.Result	2	1	264	1	7
+102	__RectOutArgs.Location	8	0	2	4	7
+103	__RectOutArgs.Location.X	4	1	268	2	7
+104	__RectOutArgs.Location.Y	4	1	270	2	7
+105	__RectOutArgs.Size	8	0	2	4	7
+106	__RectOutArgs.Size.Width	4	1	272	2	7
+107	__RectOutArgs.Size.Height	4	1	274	2	7
+108	__RectOutArgs.Options	5	1	276	4	7
+109	__RandomArgs	8	0	1	4	2
+110	__RandomArgs.Result	4	1	280	2	2
+111	__RBtnArgs	8	0	5	8	60
+112	__RBtnArgs.Result	2	1	284	1	60
+113	__RBtnArgs.Index	1	1	285	1	60
+114	__RBtnArgs.Pressed	1	1	286	1	60
+115	__RBtnArgs.Count	1	1	287	1	60
+116	__RBtnArgs.Reset	1	1	288	1	60
+117	__MWArgs	8	0	3	8	8
+118	__MWArgs.Result	2	1	292	1	8
+119	__MWArgs.QueueID	1	1	293	1	8
+120	__MWArgs.Message	7	0	294	4	8
+121	__MWArgs.Message.Message_type	1	0	0	1	0
+122	__CircleOutArgs	8	0	4	16	12
+123	__CircleOutArgs.Result	2	1	296	1	12
+124	__CircleOutArgs.Center	8	0	2	4	12
+125	__CircleOutArgs.Center.X	4	1	300	2	12
+126	__CircleOutArgs.Center.Y	4	1	302	2	12
+127	__CircleOutArgs.Size	1	1	304	1	12
+128	__CircleOutArgs.Options	5	1	308	4	12
+129	__constStr0018	7	0	312	4	2
+130	__constStr0018.__constStr0018_type	1	1	0	1	0
+131	__constStr0019	7	0	314	4	1
+132	__constStr0019.__constStr0019_type	1	1	0	1	0
+133	__constStr0020	7	0	316	4	1
+134	__constStr0020.__constStr0020_type	1	1	0	1	0
+135	__ArrHelper__CheckWin_244_2	7	0	318	4	2
+136	__ArrHelper__CheckWin_244_2.__ArrHelper__CheckWin_244_2_type	1	0	0	1	0
+137	__ArrHelper__CheckWin_244_1	7	0	320	4	4
+138	__ArrHelper__CheckWin_244_1.__ArrHelper__CheckWin_244_1_type	1	0	0	1	0
+139	__ArrHelper__CheckWin_244_0	7	0	322	4	4
+140	__ArrHelper__CheckWin_244_0.__ArrHelper__CheckWin_244_0_type	1	0	0	1	0
+141	__constStr0015	7	0	324	4	1
+142	__constStr0015.__constStr0015_type	1	1	0	1	0
+143	__constStr0017	7	0	326	4	1
+144	__constStr0017.__constStr0017_type	1	1	0	1	0
+145	__constStr0016	7	0	328	4	1
+146	__constStr0016.__constStr0016_type	1	1	0	1	0
+147	__ArrHelper__GameOver_244_2	7	0	330	4	2
+148	__ArrHelper__GameOver_244_2.__ArrHelper__GameOver_244_2_type	1	0	0	1	0
+149	__strretvalRedraw	7	0	332	4	6
+150	__strretvalRedraw.__strretvalRedraw_type	1	0	0	1	0
+151	__constStr0027	7	0	334	4	1
+152	__constStr0027.__constStr0027_type	1	1	0	1	0
+153	__constStr0026	7	0	336	4	1
+154	__constStr0026.__constStr0026_type	1	1	0	1	0
+155	__constStr0025	7	0	338	4	1
+156	__constStr0025.__constStr0025_type	1	1	0	1	0
+157	__ArrHelper__GameOver_244_1	7	0	340	4	4
+158	__ArrHelper__GameOver_244_1.__ArrHelper__GameOver_244_1_type	1	0	0	1	0
+159	__strretvalP	7	0	342	4	6
+160	__strretvalP.__strretvalP_type	1	0	0	1	0
+161	__constStr0028	7	0	344	4	1
+162	__constStr0028.__constStr0028_type	1	1	0	1	0
+163	__constStr0024	7	0	346	4	1
+164	__constStr0024.__constStr0024_type	1	1	0	1	0
+165	__strbufRedraw	7	0	348	4	12
+166	__strbufRedraw.__strbufRedraw_type	1	0	0	1	0
+167	__constStr0022	7	0	350	4	2
+168	__constStr0022.__constStr0022_type	1	1	0	1	0
+169	__constStr0021	7	0	352	4	1
+170	__constStr0021.__constStr0021_type	1	1	0	1	0
+171	__constStr0023	7	0	354	4	1
+172	__constStr0023.__constStr0023_type	1	1	0	1	0
+173	__ArrHelper__Redraw_244_1	7	0	356	4	6
+174	__ArrHelper__Redraw_244_1.__ArrHelper__Redraw_244_1_type	1	0	0	1	0
+175	__ArrHelper__Redraw_244_0	7	0	358	4	6
+176	__ArrHelper__Redraw_244_0.__ArrHelper__Redraw_244_0_type	1	0	0	1	0
+177	__strretvalCheckWin	7	0	360	4	6
+178	__strretvalCheckWin.__strretvalCheckWin_type	1	0	0	1	0
+179	__ArrHelper__AI_244_1	7	0	362	4	6
+180	__ArrHelper__AI_244_1.__ArrHelper__AI_244_1_type	1	0	0	1	0
+181	__strbufChooseP2	7	0	364	4	6
+182	__strbufChooseP2.__strbufChooseP2_type	1	0	0	1	0
+183	__ArrHelper__P_244_2	7	0	366	4	2
+184	__ArrHelper__P_244_2.__ArrHelper__P_244_2_type	1	0	0	1	0
+185	__ArrHelper__AI_244_2	7	0	368	4	4
+186	__ArrHelper__AI_244_2.__ArrHelper__AI_244_2_type	1	0	0	1	0
+187	__strbufCheckWin	7	0	370	4	16
+188	__strbufCheckWin.__strbufCheckWin_type	1	0	0	1	0
+189	__strbufGameOver	7	0	372	4	16
+190	__strbufGameOver.__strbufGameOver_type	1	0	0	1	0
+191	__strretvalGameOver	7	0	374	4	2
+192	__strretvalGameOver.__strretvalGameOver_type	1	0	0	1	0
+193	__ArrHelper__P_244_3	7	0	376	4	2
+194	__ArrHelper__P_244_3.__ArrHelper__P_244_3_type	1	0	0	1	0
+195	__ArrHelper__AI_244_0	7	0	378	4	6
+196	__ArrHelper__AI_244_0.__ArrHelper__AI_244_0_type	1	0	0	1	0
+197	__ArrHelper__P_244_4	7	0	380	4	2
+198	__ArrHelper__P_244_4.__ArrHelper__P_244_4_type	1	0	0	1	0
+199	board	7	0	382	4	109
+200	board.board_type	4	0	0	2	0
+201	__strbufP	7	0	384	4	12
+202	__strbufP.__strbufP_type	1	0	0	1	0
+203	__strbufAI	7	0	386	4	24
+204	__strbufAI.__strbufAI_type	1	0	0	1	0
+205	__ArrHelper__P_244_0	7	0	388	4	2
+206	__ArrHelper__P_244_0.__ArrHelper__P_244_0_type	1	0	0	1	0
+207	__constStr0014	7	0	390	4	1
+208	__constStr0014.__constStr0014_type	1	1	0	1	0
+209	__constStr0013	7	0	392	4	1
+210	__constStr0013.__constStr0013_type	1	1	0	1	0
+211	__ArrHelper__GameOver_244_0	7	0	394	4	2
+212	__ArrHelper__GameOver_244_0.__ArrHelper__GameOver_244_0_type	1	0	0	1	0
+213	__strretvalAI	7	0	396	4	10
+214	__strretvalAI.__strretvalAI_type	1	0	0	1	0
+215	__ArrHelper__P_244_1	7	0	398	4	2
+216	__ArrHelper__P_244_1.__ArrHelper__P_244_1_type	1	0	0	1	0
+217	msg	7	0	400	4	16
+218	msg.msg_type	1	0	0	1	0
+219	__constStr0011	7	0	402	4	2
+220	__constStr0011.__constStr0011_type	1	1	0	1	0
+221	__constStr0010	7	0	404	4	1
+222	__constStr0010.__constStr0010_type	1	1	0	1	0
+223	__constStr0009	7	0	406	4	1
+224	__constStr0009.__constStr0009_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	185	0	#line 185 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -242,13 +241,13 @@ Clump	Line	PC	Source
 0	186	10	#line 186 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	187	10		tst 5, __D0main, __D0main
 0	186	13	#line 186 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	187	13		brtst 4, __ASM_Label_1827, __D0main
+0	187	13		brtst 4, __ASM_Label_1777, __D0main
 0	186	16	#line 186 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	187	16		jmp __ASM_Label_1828
+0	187	16		jmp __ASM_Label_1778
 0	187	18	#line 187 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	188	18		add __main_7qG2_alt_7qG2_001, __main_7qG2_alt_7qG2_001, __constVal1
 0	188	22	#line 188 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	189	22		jmp __ASM_Label_1826
+0	189	22		jmp __ASM_Label_1776
 0	188	24	#line 188 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	189	24		set gameover, 0
 0	188	27	#line 188 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -271,13 +270,13 @@ Clump	Line	PC	Source
 0	189	38	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	190	38		cmp 0, __D0main, __signed_stack_001main, __D0main
 0	189	42	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	190	42		brtst 4, __ASM_Label_1841, __D0main
+0	190	42		brtst 4, __ASM_Label_1791, __D0main
 0	189	45	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	190	45		jmp __ASM_Label_1842
+0	190	45		jmp __ASM_Label_1792
 0	189	47	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	190	47		add i, i, __constVal1
 0	189	51	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	190	51		jmp __ASM_Label_1840
+0	190	51		jmp __ASM_Label_1790
 0	189	53	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	190	53		mov __signed_stack_001main, i
 0	189	55	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -287,7 +286,7 @@ Clump	Line	PC	Source
 0	190	58		replace board, board, __signed_stack_001main, __D0main
 0	189	63	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	190	63	#line 190 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	191	63		jmp __ASM_Label_1843
+0	191	63		jmp __ASM_Label_1793
 0	190	65	#line 190 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	190	65	#line 190 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	191	65		mov __unsigned_stack_001main, gameover
@@ -297,13 +296,13 @@ Clump	Line	PC	Source
 0	191	70	#line 191 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	192	70		cmp 4, __D0main, __unsigned_stack_001main, __D0main
 0	192	74	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	193	74		brtst 4, __ASM_Label_1853, __D0main
+0	193	74		brtst 4, __ASM_Label_1803, __D0main
 0	192	77	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	77		mov __DU0main, p2ai
 0	192	79	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	79		tst 5, __D0main, __DU0main
 0	192	82	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	193	82		brtst 4, __ASM_Label_1858, __D0main
+0	193	82		brtst 4, __ASM_Label_1808, __D0main
 0	192	85	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	85		mov __signed_stack_001main, __main_7qG2_alt_7qG2_001
 0	192	87	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -314,7 +313,7 @@ Clump	Line	PC	Source
 0	192	94	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	94		tst 5, __D0main, __D0main
 0	192	97	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	193	97		brtst 4, __ASM_Label_1861, __D0main
+0	193	97		brtst 4, __ASM_Label_1811, __D0main
 0	192	100	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	100		subcall AI, __AI_return
 0	192	102	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -325,7 +324,7 @@ Clump	Line	PC	Source
 0	193	105		subcall P, __P_return
 0	192	107	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	192	107	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	193	107		jmp __ASM_Label_1864
+0	193	107		jmp __ASM_Label_1814
 0	192	109	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	109		set __P_7qG2_plyr_7qG2_000, 0
 0	192	112	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -337,7 +336,7 @@ Clump	Line	PC	Source
 0	192	116	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	116	#line 193 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	116	#line 193 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	194	116		jmp __ASM_Label_1867
+0	194	116		jmp __ASM_Label_1817
 0	193	118	#line 193 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	194	118		mov __signed_stack_001main, __main_7qG2_alt_7qG2_001
 0	193	120	#line 193 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -367,15 +366,15 @@ Clump	Line	PC	Source
 0	193	147	#line 193 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	195	147	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	195	147	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	196	147		jmp __ASM_Label_1852
+0	196	147		jmp __ASM_Label_1802
 0	195	149	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	195	149	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	196	149		subcall GameOver, __GameOver_return
 0	195	151	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	199	151	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	200	151		jmp __ASM_Label_1829
-0	199	153	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	200	153		exit -1, -1
+0	228	151	#line 228 "C:\Github\NXC_Source\TicTacToe.nxc"
+0	229	151		jmp __ASM_Label_1779
+0	228	153	#line 228 "C:\Github\NXC_Source\TicTacToe.nxc"
+0	229	153		exit -1, -1
 1	12	0	#line 12 "C:\Github\NXC_Source\TicTacToe.nxc"
 1	13	0		set winner, 0
 1	12	3	#line 12 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2393,509 +2392,494 @@ Clump	Line	PC	Source
 5	126	38	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	126	38	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	126	38	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	127	38		set aiturndone, 0
-5	126	41	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	126	41	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	126	38	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	126	38	#line 126 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	127	38	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	128	38		set i, 1
 5	127	41	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	128	41		set i, 1
-5	127	44	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	127	44	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	128	44		mov __signed_stack_001AI, i
+5	127	41	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	128	41		mov __signed_stack_001AI, i
+5	127	43	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	127	43	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	128	43		set __D0AI, 3
 5	127	46	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	127	46	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	128	46		set __D0AI, 3
-5	127	49	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	128	49		cmp 0, __D0AI, __signed_stack_001AI, __D0AI
+5	128	46		cmp 0, __D0AI, __signed_stack_001AI, __D0AI
+5	127	50	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	128	50		brtst 4, __ASM_Label_1239, __D0AI
 5	127	53	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	128	53		brtst 4, __ASM_Label_1239, __D0AI
-5	127	56	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	128	56		jmp __ASM_Label_1240
-5	128	58	#line 128 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	58		add i, i, __constVal1
-5	129	62	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	62		jmp __ASM_Label_1238
+5	128	53		jmp __ASM_Label_1240
+5	128	55	#line 128 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	55		add i, i, __constVal1
+5	129	59	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	59		jmp __ASM_Label_1238
+5	129	61	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	61		set __signed_stack_001AI, 0
 5	129	64	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	64		set __signed_stack_001AI, 0
-5	129	67	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	67	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	67		index __signed_stack_001AI, board, __signed_stack_001AI
+5	129	64	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	64		index __signed_stack_001AI, board, __signed_stack_001AI
+5	129	68	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	68	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	68	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	68		set __D0AI, 0
 5	129	71	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	71	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	71	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	71		set __D0AI, 0
-5	129	74	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	74		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	130	71		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	129	75	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	75		brtst 4, __ASM_Label_1247, __D0AI
 5	129	78	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	78		brtst 4, __ASM_Label_1249, __D0AI
+5	130	78		set __signed_stack_001AI, 1
 5	129	81	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	81		set __signed_stack_001AI, 1
-5	129	84	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	84	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	84		index __signed_stack_001AI, board, __signed_stack_001AI
-5	129	88	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	88	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	88	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	88		mov __D0AI, i
-5	129	90	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	90		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	129	81	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	81		index __signed_stack_001AI, board, __signed_stack_001AI
+5	129	85	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	85	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	85	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	85		mov __D0AI, i
+5	129	87	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	87		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	129	91	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	91		brtst 4, __ASM_Label_1247, __D0AI
 5	129	94	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	94		brtst 4, __ASM_Label_1249, __D0AI
+5	130	94		set __signed_stack_001AI, 2
 5	129	97	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	97		set __signed_stack_001AI, 2
-5	129	100	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	100	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	100		index __signed_stack_001AI, board, __signed_stack_001AI
-5	129	104	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	104	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	104	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	104		mov __D0AI, i
-5	129	106	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	106		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	129	97	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	97		index __signed_stack_001AI, board, __signed_stack_001AI
+5	129	101	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	101	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	129	101	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	101		mov __D0AI, i
+5	129	103	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	103		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	129	107	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	107		brtst 4, __ASM_Label_1260, __D0AI
 5	129	110	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	110		brtst 4, __ASM_Label_1262, __D0AI
+5	130	110		set aimove, 0
 5	129	113	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	113		set aiturndone, 1
-5	129	116	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	116	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	116	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	116		set aimove, 0
-5	129	119	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	129	119	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	119	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	119	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	119		set __signed_stack_001AI, 3
-5	130	122	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	122	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	122		index __signed_stack_001AI, board, __signed_stack_001AI
-5	130	126	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	126	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	126	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	126		set __D0AI, 0
-5	130	129	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	129		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	129	113	#line 129 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	113	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	113	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	113		set __signed_stack_001AI, 3
+5	130	116	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	116	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	116		index __signed_stack_001AI, board, __signed_stack_001AI
+5	130	120	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	120	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	120	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	120		set __D0AI, 0
+5	130	123	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	123		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	130	127	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	127		brtst 4, __ASM_Label_1264, __D0AI
+5	130	130	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	130		set __signed_stack_001AI, 4
 5	130	133	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	133		brtst 4, __ASM_Label_1268, __D0AI
-5	130	136	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	136		set __signed_stack_001AI, 4
+5	130	133	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	133		index __signed_stack_001AI, board, __signed_stack_001AI
+5	130	137	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	137	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	137	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	137		mov __D0AI, i
 5	130	139	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	139	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	139		index __signed_stack_001AI, board, __signed_stack_001AI
+5	131	139		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	130	143	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	143	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	143	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	143		mov __D0AI, i
-5	130	145	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	145		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	131	143		brtst 4, __ASM_Label_1264, __D0AI
+5	130	146	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	146		set __signed_stack_001AI, 5
 5	130	149	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	149		brtst 4, __ASM_Label_1268, __D0AI
-5	130	152	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	152		set __signed_stack_001AI, 5
+5	130	149	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	149		index __signed_stack_001AI, board, __signed_stack_001AI
+5	130	153	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	153	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	130	153	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	153		mov __D0AI, i
 5	130	155	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	155	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	155		index __signed_stack_001AI, board, __signed_stack_001AI
+5	131	155		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	130	159	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	159	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	159	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	159		mov __D0AI, i
-5	130	161	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	161		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	131	159		brtst 4, __ASM_Label_1277, __D0AI
+5	130	162	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	162		set aimove, 3
 5	130	165	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	165		brtst 4, __ASM_Label_1281, __D0AI
-5	130	168	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	168		set aiturndone, 1
-5	130	171	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	171	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	171	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	171		set aimove, 3
-5	130	174	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	130	174	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	174	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	174	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	174		set __signed_stack_001AI, 6
-5	131	177	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	177	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	177		index __signed_stack_001AI, board, __signed_stack_001AI
-5	131	181	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	181	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	181	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	181		set __D0AI, 0
-5	131	184	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	184		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	131	188	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	188		brtst 4, __ASM_Label_1287, __D0AI
+5	130	165	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	165	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	165	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	165		set __signed_stack_001AI, 6
+5	131	168	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	168	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	168		index __signed_stack_001AI, board, __signed_stack_001AI
+5	131	172	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	172	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	172	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	172		set __D0AI, 0
+5	131	175	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	175		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	131	179	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	179		brtst 4, __ASM_Label_1281, __D0AI
+5	131	182	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	182		set __signed_stack_001AI, 7
+5	131	185	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	185	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	185		index __signed_stack_001AI, board, __signed_stack_001AI
+5	131	189	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	189	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	189	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	189		mov __D0AI, i
 5	131	191	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	191		set __signed_stack_001AI, 7
-5	131	194	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	194	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	194		index __signed_stack_001AI, board, __signed_stack_001AI
+5	132	191		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	131	195	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	195		brtst 4, __ASM_Label_1281, __D0AI
 5	131	198	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	198	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	198	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	198		mov __D0AI, i
-5	131	200	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	200		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	131	204	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	204		brtst 4, __ASM_Label_1287, __D0AI
+5	132	198		set __signed_stack_001AI, 8
+5	131	201	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	201	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	201		index __signed_stack_001AI, board, __signed_stack_001AI
+5	131	205	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	205	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	205	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	205		mov __D0AI, i
 5	131	207	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	207		set __signed_stack_001AI, 8
-5	131	210	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	210	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	210		index __signed_stack_001AI, board, __signed_stack_001AI
+5	132	207		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	131	211	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	211		brtst 4, __ASM_Label_1294, __D0AI
 5	131	214	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	214	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	214	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	214		mov __D0AI, i
-5	131	216	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	216		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	131	220	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	220		brtst 4, __ASM_Label_1300, __D0AI
-5	131	223	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	223		set aiturndone, 1
-5	131	226	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	226	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	226	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	226		set aimove, 6
-5	131	229	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	131	229	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	229	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	229	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	229		set __signed_stack_001AI, 0
-5	132	232	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	232	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	232		index __signed_stack_001AI, board, __signed_stack_001AI
-5	132	236	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	236	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	236	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	236		set __D0AI, 0
-5	132	239	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	239		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	132	214		set aimove, 6
+5	131	217	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	131	217	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	217	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	217	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	217		set __signed_stack_001AI, 0
+5	132	220	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	220	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	220		index __signed_stack_001AI, board, __signed_stack_001AI
+5	132	224	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	224	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	224	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	224		set __D0AI, 0
+5	132	227	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	227		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	132	231	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	231		brtst 4, __ASM_Label_1298, __D0AI
+5	132	234	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	234		set __signed_stack_001AI, 3
+5	132	237	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	237	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	237		index __signed_stack_001AI, board, __signed_stack_001AI
+5	132	241	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	241	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	241	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	241		mov __D0AI, i
 5	132	243	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	243		brtst 4, __ASM_Label_1306, __D0AI
-5	132	246	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	246		set __signed_stack_001AI, 3
-5	132	249	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	249	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	249		index __signed_stack_001AI, board, __signed_stack_001AI
+5	133	243		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	132	247	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	247		brtst 4, __ASM_Label_1298, __D0AI
+5	132	250	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	250		set __signed_stack_001AI, 6
 5	132	253	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	132	253	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	253	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	253		mov __D0AI, i
-5	132	255	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	255		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	133	253		index __signed_stack_001AI, board, __signed_stack_001AI
+5	132	257	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	257	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	132	257	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	257		mov __D0AI, i
 5	132	259	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	259		brtst 4, __ASM_Label_1306, __D0AI
-5	132	262	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	262		set __signed_stack_001AI, 6
-5	132	265	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	265	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	265		index __signed_stack_001AI, board, __signed_stack_001AI
+5	133	259		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	132	263	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	263		brtst 4, __ASM_Label_1311, __D0AI
+5	132	266	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	266		set aimove, 0
 5	132	269	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	132	269	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	269	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	269		mov __D0AI, i
-5	132	271	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	271		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	132	275	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	275		brtst 4, __ASM_Label_1319, __D0AI
-5	132	278	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	278		set aiturndone, 1
-5	132	281	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	281	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	281	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	281		set aimove, 0
-5	132	284	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	132	284	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	284	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	284	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	284		set __signed_stack_001AI, 1
-5	133	287	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	287	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	287		index __signed_stack_001AI, board, __signed_stack_001AI
-5	133	291	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	291	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	291	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	291		set __D0AI, 0
-5	133	294	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	294		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	133	298	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	298		brtst 4, __ASM_Label_1325, __D0AI
-5	133	301	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	301		set __signed_stack_001AI, 4
-5	133	304	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	304	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	304		index __signed_stack_001AI, board, __signed_stack_001AI
-5	133	308	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	308	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	308	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	308		mov __D0AI, i
-5	133	310	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	310		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	133	314	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	314		brtst 4, __ASM_Label_1325, __D0AI
-5	133	317	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	317		set __signed_stack_001AI, 7
-5	133	320	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	320	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	320		index __signed_stack_001AI, board, __signed_stack_001AI
-5	133	324	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	324	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	324	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	324		mov __D0AI, i
-5	133	326	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	326		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	133	330	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	330		brtst 4, __ASM_Label_1338, __D0AI
-5	133	333	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	333		set aiturndone, 1
-5	133	336	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	336	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	336	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	336		set aimove, 1
-5	133	339	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	133	339	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	339	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	339	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	339		set __signed_stack_001AI, 2
-5	134	342	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	342	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	342		index __signed_stack_001AI, board, __signed_stack_001AI
-5	134	346	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	346	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	346	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	346		set __D0AI, 0
-5	134	349	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	349		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	134	353	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	353		brtst 4, __ASM_Label_1344, __D0AI
-5	134	356	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	356		set __signed_stack_001AI, 5
-5	134	359	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	359	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	359		index __signed_stack_001AI, board, __signed_stack_001AI
+5	133	269	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	269	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	269		set __signed_stack_001AI, 1
+5	133	272	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	272	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	272		index __signed_stack_001AI, board, __signed_stack_001AI
+5	133	276	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	276	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	276	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	276		set __D0AI, 0
+5	133	279	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	279		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	133	283	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	283		brtst 4, __ASM_Label_1315, __D0AI
+5	133	286	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	286		set __signed_stack_001AI, 4
+5	133	289	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	289	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	289		index __signed_stack_001AI, board, __signed_stack_001AI
+5	133	293	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	293	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	293	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	293		mov __D0AI, i
+5	133	295	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	295		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	133	299	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	299		brtst 4, __ASM_Label_1315, __D0AI
+5	133	302	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	302		set __signed_stack_001AI, 7
+5	133	305	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	305	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	305		index __signed_stack_001AI, board, __signed_stack_001AI
+5	133	309	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	309	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	309	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	309		mov __D0AI, i
+5	133	311	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	311		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	133	315	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	315		brtst 4, __ASM_Label_1328, __D0AI
+5	133	318	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	318		set aimove, 1
+5	133	321	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	133	321	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	321	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	321	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	321		set __signed_stack_001AI, 2
+5	134	324	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	324	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	324		index __signed_stack_001AI, board, __signed_stack_001AI
+5	134	328	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	328	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	328	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	328		set __D0AI, 0
+5	134	331	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	331		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	134	335	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	335		brtst 4, __ASM_Label_1332, __D0AI
+5	134	338	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	338		set __signed_stack_001AI, 5
+5	134	341	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	341	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	341		index __signed_stack_001AI, board, __signed_stack_001AI
+5	134	345	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	345	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	345	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	345		mov __D0AI, i
+5	134	347	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	347		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	134	351	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	351		brtst 4, __ASM_Label_1332, __D0AI
+5	134	354	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	354		set __signed_stack_001AI, 8
+5	134	357	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	357	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	357		index __signed_stack_001AI, board, __signed_stack_001AI
+5	134	361	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	361	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	361	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	361		mov __D0AI, i
 5	134	363	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	363	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	363	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	363		mov __D0AI, i
-5	134	365	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	365		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	134	369	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	369		brtst 4, __ASM_Label_1344, __D0AI
-5	134	372	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	372		set __signed_stack_001AI, 8
-5	134	375	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	375	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	375		index __signed_stack_001AI, board, __signed_stack_001AI
-5	134	379	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	379	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	379	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	379		mov __D0AI, i
-5	134	381	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	381		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	134	385	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	385		brtst 4, __ASM_Label_1357, __D0AI
-5	134	388	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	388		set aiturndone, 1
-5	134	391	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	391	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	391	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	391		set aimove, 2
-5	134	394	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	134	394	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	394	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	394	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	394		set __signed_stack_001AI, 2
+5	135	363		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	134	367	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	367		brtst 4, __ASM_Label_1345, __D0AI
+5	134	370	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	370		set aimove, 2
+5	134	373	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	134	373	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	373	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	373	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	373		set __signed_stack_001AI, 2
+5	135	376	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	376	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	376		index __signed_stack_001AI, board, __signed_stack_001AI
+5	135	380	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	380	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	380	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	380		set __D0AI, 0
+5	135	383	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	383		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	135	387	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	387		brtst 4, __ASM_Label_1349, __D0AI
+5	135	390	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	390		set __signed_stack_001AI, 4
+5	135	393	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	393	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	393		index __signed_stack_001AI, board, __signed_stack_001AI
 5	135	397	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	135	397	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	397		index __signed_stack_001AI, board, __signed_stack_001AI
-5	135	401	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	401	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	401	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	401		set __D0AI, 0
-5	135	404	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	404		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	135	408	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	408		brtst 4, __ASM_Label_1363, __D0AI
-5	135	411	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	411		set __signed_stack_001AI, 4
-5	135	414	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	414	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	414		index __signed_stack_001AI, board, __signed_stack_001AI
-5	135	418	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	418	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	418	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	418		mov __D0AI, i
-5	135	420	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	420		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	135	424	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	424		brtst 4, __ASM_Label_1363, __D0AI
-5	135	427	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	427		set __signed_stack_001AI, 6
-5	135	430	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	430	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	430		index __signed_stack_001AI, board, __signed_stack_001AI
-5	135	434	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	434	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	434	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	434		mov __D0AI, i
-5	135	436	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	436		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	135	440	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	440		brtst 4, __ASM_Label_1376, __D0AI
-5	135	443	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	443		set aiturndone, 1
-5	135	446	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	446	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	446	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	446		set aimove, 2
-5	135	449	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	135	449	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	397	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	397		mov __D0AI, i
+5	135	399	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	399		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	135	403	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	403		brtst 4, __ASM_Label_1349, __D0AI
+5	135	406	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	406		set __signed_stack_001AI, 6
+5	135	409	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	409	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	409		index __signed_stack_001AI, board, __signed_stack_001AI
+5	135	413	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	413	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	413	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	413		mov __D0AI, i
+5	135	415	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	415		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	135	419	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	419		brtst 4, __ASM_Label_1362, __D0AI
+5	135	422	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	422		set aimove, 2
+5	135	425	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	135	425	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	425	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	425	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	425		set __signed_stack_001AI, 0
+5	136	428	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	428	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	428		index __signed_stack_001AI, board, __signed_stack_001AI
+5	136	432	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	432	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	432	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	432		set __D0AI, 0
+5	136	435	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	435		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	136	439	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	439		brtst 4, __ASM_Label_1366, __D0AI
+5	136	442	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	442		set __signed_stack_001AI, 4
+5	136	445	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	445	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	445		index __signed_stack_001AI, board, __signed_stack_001AI
 5	136	449	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	136	449	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	449		set __signed_stack_001AI, 0
-5	136	452	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	452	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	452		index __signed_stack_001AI, board, __signed_stack_001AI
-5	136	456	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	456	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	456	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	456		set __D0AI, 0
-5	136	459	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	459		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	136	463	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	463		brtst 4, __ASM_Label_1382, __D0AI
-5	136	466	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	466		set __signed_stack_001AI, 4
-5	136	469	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	469	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	469		index __signed_stack_001AI, board, __signed_stack_001AI
-5	136	473	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	473	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	473	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	473		mov __D0AI, i
-5	136	475	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	475		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	136	479	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	479		brtst 4, __ASM_Label_1382, __D0AI
-5	136	482	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	482		set __signed_stack_001AI, 8
-5	136	485	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	485	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	485		index __signed_stack_001AI, board, __signed_stack_001AI
-5	136	489	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	489	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	489	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	489		mov __D0AI, i
-5	136	491	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	491		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	136	495	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	495		brtst 4, __ASM_Label_1395, __D0AI
-5	136	498	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	498		set aiturndone, 1
-5	136	501	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	501	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	501	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	137	501		set aimove, 0
-5	136	504	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	136	504	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	504	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	504	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	504		set __signed_stack_001AI, 0
+5	136	449	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	449		mov __D0AI, i
+5	136	451	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	451		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	136	455	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	455		brtst 4, __ASM_Label_1366, __D0AI
+5	136	458	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	458		set __signed_stack_001AI, 8
+5	136	461	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	461	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	461		index __signed_stack_001AI, board, __signed_stack_001AI
+5	136	465	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	465	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	465	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	465		mov __D0AI, i
+5	136	467	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	467		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	136	471	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	471		brtst 4, __ASM_Label_1379, __D0AI
+5	136	474	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	137	474		set aimove, 0
+5	136	477	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	136	477	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	477	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	477	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	477		set __signed_stack_001AI, 0
+5	138	480	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	480	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	480		index __signed_stack_001AI, board, __signed_stack_001AI
+5	138	484	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	484	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	484	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	484		mov __D0AI, i
+5	138	486	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	486		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	138	490	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	490		brtst 4, __ASM_Label_1383, __D0AI
+5	138	493	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	493		set __signed_stack_001AI, 1
+5	138	496	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	496	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	496		index __signed_stack_001AI, board, __signed_stack_001AI
+5	138	500	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	500	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	500	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	500		set __D0AI, 0
+5	138	503	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	503		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	138	507	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	507	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	507		index __signed_stack_001AI, board, __signed_stack_001AI
-5	138	511	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	511	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	511	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	511		mov __D0AI, i
+5	139	507		brtst 4, __ASM_Label_1383, __D0AI
+5	138	510	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	510		set __signed_stack_001AI, 2
 5	138	513	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	513		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	138	513	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	513		index __signed_stack_001AI, board, __signed_stack_001AI
 5	138	517	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	517		brtst 4, __ASM_Label_1401, __D0AI
-5	138	520	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	520		set __signed_stack_001AI, 1
+5	138	517	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	517	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	517		mov __D0AI, i
+5	138	519	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	519		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	138	523	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	523	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	523		index __signed_stack_001AI, board, __signed_stack_001AI
-5	138	527	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	527	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	527	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	527		set __D0AI, 0
-5	138	530	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	530		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	138	534	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	534		brtst 4, __ASM_Label_1401, __D0AI
-5	138	537	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	537		set __signed_stack_001AI, 2
-5	138	540	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	540	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	540		index __signed_stack_001AI, board, __signed_stack_001AI
-5	138	544	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	544	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	544	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	544		mov __D0AI, i
-5	138	546	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	546		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	138	550	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	550		brtst 4, __ASM_Label_1414, __D0AI
-5	138	553	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	553		set aiturndone, 1
-5	138	556	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	556	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	556	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	556		set aimove, 1
-5	138	559	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	138	559	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	523		brtst 4, __ASM_Label_1396, __D0AI
+5	138	526	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	526		set aimove, 1
+5	138	529	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	138	529	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	529	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	529	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	529		set __signed_stack_001AI, 3
+5	139	532	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	532	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	532		index __signed_stack_001AI, board, __signed_stack_001AI
+5	139	536	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	536	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	536	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	536		mov __D0AI, i
+5	139	538	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	538		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	139	542	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	542		brtst 4, __ASM_Label_1400, __D0AI
+5	139	545	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	545		set __signed_stack_001AI, 4
+5	139	548	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	548	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	548		index __signed_stack_001AI, board, __signed_stack_001AI
+5	139	552	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	552	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	552	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	552		set __D0AI, 0
+5	139	555	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	555		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	139	559	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	559	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	559		set __signed_stack_001AI, 3
+5	140	559		brtst 4, __ASM_Label_1400, __D0AI
 5	139	562	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	562	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	562		index __signed_stack_001AI, board, __signed_stack_001AI
-5	139	566	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	566	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	566	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	566		mov __D0AI, i
-5	139	568	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	568		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	139	572	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	572		brtst 4, __ASM_Label_1420, __D0AI
+5	140	562		set __signed_stack_001AI, 5
+5	139	565	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	565	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	565		index __signed_stack_001AI, board, __signed_stack_001AI
+5	139	569	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	569	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	569	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	569		mov __D0AI, i
+5	139	571	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	571		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	139	575	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	575		set __signed_stack_001AI, 4
+5	140	575		brtst 4, __ASM_Label_1413, __D0AI
 5	139	578	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	578	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	578		index __signed_stack_001AI, board, __signed_stack_001AI
-5	139	582	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	582	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	582	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	582		set __D0AI, 0
-5	139	585	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	585		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	139	589	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	589		brtst 4, __ASM_Label_1420, __D0AI
-5	139	592	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	592		set __signed_stack_001AI, 5
-5	139	595	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	595	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	595		index __signed_stack_001AI, board, __signed_stack_001AI
-5	139	599	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	599	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	599	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	599		mov __D0AI, i
-5	139	601	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	601		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	139	605	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	605		brtst 4, __ASM_Label_1433, __D0AI
-5	139	608	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	608		set aiturndone, 1
-5	139	611	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	611	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	611	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	611		set aimove, 4
-5	139	614	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	139	614	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	578		set aimove, 4
+5	139	581	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	139	581	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	581	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	581	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	581		set __signed_stack_001AI, 6
+5	140	584	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	584	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	584		index __signed_stack_001AI, board, __signed_stack_001AI
+5	140	588	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	588	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	588	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	588		mov __D0AI, i
+5	140	590	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	590		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	140	594	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	594		brtst 4, __ASM_Label_1417, __D0AI
+5	140	597	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	597		set __signed_stack_001AI, 7
+5	140	600	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	600	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	600		index __signed_stack_001AI, board, __signed_stack_001AI
+5	140	604	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	604	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	140	604	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	604		set __D0AI, 0
+5	140	607	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	607		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	140	611	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	611		brtst 4, __ASM_Label_1417, __D0AI
 5	140	614	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	614	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	614		set __signed_stack_001AI, 6
+5	141	614		set __signed_stack_001AI, 8
 5	140	617	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	140	617	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	141	617		index __signed_stack_001AI, board, __signed_stack_001AI
@@ -2906,809 +2890,727 @@ Clump	Line	PC	Source
 5	140	623	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	141	623		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	140	627	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	627		brtst 4, __ASM_Label_1439, __D0AI
+5	141	627		brtst 4, __ASM_Label_1430, __D0AI
 5	140	630	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	630		set __signed_stack_001AI, 7
+5	141	630		set aimove, 7
 5	140	633	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	140	633	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	633		index __signed_stack_001AI, board, __signed_stack_001AI
-5	140	637	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	637	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	637	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	637		set __D0AI, 0
-5	140	640	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	640		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	140	644	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	644		brtst 4, __ASM_Label_1439, __D0AI
-5	140	647	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	647		set __signed_stack_001AI, 8
-5	140	650	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	650	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	650		index __signed_stack_001AI, board, __signed_stack_001AI
-5	140	654	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	654	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	654	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	654		mov __D0AI, i
-5	140	656	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	656		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	140	660	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	660		brtst 4, __ASM_Label_1452, __D0AI
-5	140	663	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	663		set aiturndone, 1
-5	140	666	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	666	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	666	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	666		set aimove, 7
-5	140	669	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	140	669	#line 140 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	633	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	633	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	633		set __signed_stack_001AI, 0
+5	141	636	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	636	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	636		index __signed_stack_001AI, board, __signed_stack_001AI
+5	141	640	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	640	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	640	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	640		mov __D0AI, i
+5	141	642	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	642		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	141	646	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	646		brtst 4, __ASM_Label_1434, __D0AI
+5	141	649	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	649		set __signed_stack_001AI, 3
+5	141	652	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	652	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	652		index __signed_stack_001AI, board, __signed_stack_001AI
+5	141	656	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	656	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	656	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	656		set __D0AI, 0
+5	141	659	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	659		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	141	663	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	663		brtst 4, __ASM_Label_1434, __D0AI
+5	141	666	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	666		set __signed_stack_001AI, 6
 5	141	669	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	141	669	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	669		set __signed_stack_001AI, 0
-5	141	672	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	672	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	672		index __signed_stack_001AI, board, __signed_stack_001AI
-5	141	676	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	676	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	676	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	676		mov __D0AI, i
-5	141	678	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	678		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	142	669		index __signed_stack_001AI, board, __signed_stack_001AI
+5	141	673	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	673	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	141	673	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	673		mov __D0AI, i
+5	141	675	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	675		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	141	679	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	679		brtst 4, __ASM_Label_1447, __D0AI
 5	141	682	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	682		brtst 4, __ASM_Label_1458, __D0AI
+5	142	682		set aimove, 3
 5	141	685	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	685		set __signed_stack_001AI, 3
-5	141	688	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	688	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	688		index __signed_stack_001AI, board, __signed_stack_001AI
-5	141	692	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	692	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	692	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	692		set __D0AI, 0
-5	141	695	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	695		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	141	699	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	699		brtst 4, __ASM_Label_1458, __D0AI
-5	141	702	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	702		set __signed_stack_001AI, 6
-5	141	705	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	705	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	705		index __signed_stack_001AI, board, __signed_stack_001AI
-5	141	709	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	709	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	709	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	709		mov __D0AI, i
-5	141	711	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	711		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	141	715	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	715		brtst 4, __ASM_Label_1471, __D0AI
-5	141	718	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	718		set aiturndone, 1
-5	141	721	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	721	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	721	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	721		set aimove, 3
-5	141	724	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	141	724	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	724	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	724	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	724		set __signed_stack_001AI, 1
+5	141	685	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	685	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	685	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	685		set __signed_stack_001AI, 1
+5	142	688	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	688	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	688		index __signed_stack_001AI, board, __signed_stack_001AI
+5	142	692	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	692	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	692	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	692		mov __D0AI, i
+5	142	694	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	694		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	142	698	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	698		brtst 4, __ASM_Label_1451, __D0AI
+5	142	701	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	701		set __signed_stack_001AI, 4
+5	142	704	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	704	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	704		index __signed_stack_001AI, board, __signed_stack_001AI
+5	142	708	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	708	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	708	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	708		set __D0AI, 0
+5	142	711	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	711		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	142	715	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	715		brtst 4, __ASM_Label_1451, __D0AI
+5	142	718	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	718		set __signed_stack_001AI, 7
+5	142	721	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	721	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	721		index __signed_stack_001AI, board, __signed_stack_001AI
+5	142	725	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	725	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	725	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	725		mov __D0AI, i
 5	142	727	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	727	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	727		index __signed_stack_001AI, board, __signed_stack_001AI
+5	143	727		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 5	142	731	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	731	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	731	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	731		mov __D0AI, i
-5	142	733	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	733		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	143	731		brtst 4, __ASM_Label_1464, __D0AI
+5	142	734	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	734		set aimove, 4
 5	142	737	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	737		brtst 4, __ASM_Label_1477, __D0AI
-5	142	740	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	740		set __signed_stack_001AI, 4
-5	142	743	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	743	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	743		index __signed_stack_001AI, board, __signed_stack_001AI
-5	142	747	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	747	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	747	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	747		set __D0AI, 0
-5	142	750	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	750		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	142	754	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	754		brtst 4, __ASM_Label_1477, __D0AI
-5	142	757	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	757		set __signed_stack_001AI, 7
-5	142	760	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	760	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	760		index __signed_stack_001AI, board, __signed_stack_001AI
-5	142	764	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	764	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	764	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	764		mov __D0AI, i
-5	142	766	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	766		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	142	770	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	770		brtst 4, __ASM_Label_1490, __D0AI
-5	142	773	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	773		set aiturndone, 1
-5	142	776	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	776	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	776	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	776		set aimove, 4
-5	142	779	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	142	779	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	142	737	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	737	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	737	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	737		set __signed_stack_001AI, 2
+5	143	740	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	740	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	740		index __signed_stack_001AI, board, __signed_stack_001AI
+5	143	744	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	744	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	744	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	744		mov __D0AI, i
+5	143	746	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	746		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	143	750	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	750		brtst 4, __ASM_Label_1468, __D0AI
+5	143	753	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	753		set __signed_stack_001AI, 5
+5	143	756	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	756	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	756		index __signed_stack_001AI, board, __signed_stack_001AI
+5	143	760	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	760	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	760	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	760		set __D0AI, 0
+5	143	763	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	763		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	143	767	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	767		brtst 4, __ASM_Label_1468, __D0AI
+5	143	770	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	770		set __signed_stack_001AI, 8
+5	143	773	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	773	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	773		index __signed_stack_001AI, board, __signed_stack_001AI
+5	143	777	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	777	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	777	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	777		mov __D0AI, i
 5	143	779	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	779	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	779		set __signed_stack_001AI, 2
-5	143	782	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	782	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	782		index __signed_stack_001AI, board, __signed_stack_001AI
+5	144	779		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	143	783	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	783		brtst 4, __ASM_Label_1481, __D0AI
 5	143	786	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	786	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	786	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	786		mov __D0AI, i
-5	143	788	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	788		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	143	792	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	792		brtst 4, __ASM_Label_1496, __D0AI
-5	143	795	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	795		set __signed_stack_001AI, 5
-5	143	798	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	798	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	798		index __signed_stack_001AI, board, __signed_stack_001AI
-5	143	802	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	802	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	802	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	802		set __D0AI, 0
-5	143	805	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	805		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	143	809	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	809		brtst 4, __ASM_Label_1496, __D0AI
-5	143	812	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	812		set __signed_stack_001AI, 8
-5	143	815	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	815	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	815		index __signed_stack_001AI, board, __signed_stack_001AI
-5	143	819	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	819	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	819	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	819		mov __D0AI, i
-5	143	821	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	821		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	143	825	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	825		brtst 4, __ASM_Label_1509, __D0AI
-5	143	828	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	828		set aiturndone, 1
-5	143	831	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	831	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	831	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	831		set aimove, 5
-5	143	834	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	143	834	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	834	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	834	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	834		set __signed_stack_001AI, 2
-5	144	837	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	837	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	837		index __signed_stack_001AI, board, __signed_stack_001AI
+5	144	786		set aimove, 5
+5	143	789	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	143	789	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	789	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	789	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	789		set __signed_stack_001AI, 2
+5	144	792	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	792	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	792		index __signed_stack_001AI, board, __signed_stack_001AI
+5	144	796	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	796	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	796	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	796		mov __D0AI, i
+5	144	798	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	798		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	144	802	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	802		brtst 4, __ASM_Label_1485, __D0AI
+5	144	805	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	805		set __signed_stack_001AI, 4
+5	144	808	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	808	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	808		index __signed_stack_001AI, board, __signed_stack_001AI
+5	144	812	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	812	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	812	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	812		set __D0AI, 0
+5	144	815	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	815		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	144	819	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	819		brtst 4, __ASM_Label_1485, __D0AI
+5	144	822	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	822		set __signed_stack_001AI, 6
+5	144	825	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	825	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	825		index __signed_stack_001AI, board, __signed_stack_001AI
+5	144	829	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	829	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	144	829	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	829		mov __D0AI, i
+5	144	831	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	831		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	144	835	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	835		brtst 4, __ASM_Label_1498, __D0AI
+5	144	838	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	838		set aimove, 4
 5	144	841	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	144	841	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	841	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	841		mov __D0AI, i
-5	144	843	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	843		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	144	847	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	847		brtst 4, __ASM_Label_1515, __D0AI
-5	144	850	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	850		set __signed_stack_001AI, 4
-5	144	853	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	853	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	853		index __signed_stack_001AI, board, __signed_stack_001AI
-5	144	857	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	857	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	857	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	857		set __D0AI, 0
-5	144	860	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	860		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	144	864	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	864		brtst 4, __ASM_Label_1515, __D0AI
-5	144	867	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	867		set __signed_stack_001AI, 6
-5	144	870	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	870	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	870		index __signed_stack_001AI, board, __signed_stack_001AI
-5	144	874	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	874	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	874	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	874		mov __D0AI, i
-5	144	876	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	876		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	144	880	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	880		brtst 4, __ASM_Label_1528, __D0AI
-5	144	883	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	883		set aiturndone, 1
-5	144	886	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	886	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	886	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	886		set aimove, 4
-5	144	889	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	144	889	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	889	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	889	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	889		set __signed_stack_001AI, 0
-5	145	892	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	892	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	892		index __signed_stack_001AI, board, __signed_stack_001AI
-5	145	896	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	896	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	896	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	896		mov __D0AI, i
-5	145	898	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	898		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	145	902	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	902		brtst 4, __ASM_Label_1534, __D0AI
-5	145	905	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	905		set __signed_stack_001AI, 4
-5	145	908	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	908	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	908		index __signed_stack_001AI, board, __signed_stack_001AI
-5	145	912	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	912	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	912	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	912		set __D0AI, 0
-5	145	915	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	915		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	145	919	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	919		brtst 4, __ASM_Label_1534, __D0AI
-5	145	922	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	922		set __signed_stack_001AI, 8
-5	145	925	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	925	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	925		index __signed_stack_001AI, board, __signed_stack_001AI
-5	145	929	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	929	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	929	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	929		mov __D0AI, i
-5	145	931	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	931		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	145	935	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	935		brtst 4, __ASM_Label_1547, __D0AI
-5	145	938	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	938		set aiturndone, 1
-5	145	941	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	941	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	941	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	146	941		set aimove, 4
-5	145	944	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	145	944	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	944	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	944	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	944		set __signed_stack_001AI, 0
-5	147	947	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	947	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	947		index __signed_stack_001AI, board, __signed_stack_001AI
-5	147	951	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	951	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	951	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	951		mov __D0AI, i
-5	147	953	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	953		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	147	957	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	957		brtst 4, __ASM_Label_1553, __D0AI
-5	147	960	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	960		set __signed_stack_001AI, 1
-5	147	963	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	963	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	963		index __signed_stack_001AI, board, __signed_stack_001AI
-5	147	967	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	967	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	967	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	967		mov __D0AI, i
-5	147	969	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	969		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	147	973	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	973		brtst 4, __ASM_Label_1553, __D0AI
-5	147	976	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	976		set __signed_stack_001AI, 2
-5	147	979	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	979	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	979		index __signed_stack_001AI, board, __signed_stack_001AI
-5	147	983	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	983	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	983	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	983		set __D0AI, 0
-5	147	986	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	986		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	147	990	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	990		brtst 4, __ASM_Label_1566, __D0AI
-5	147	993	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	993		set aiturndone, 1
-5	147	996	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	996	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	996	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	996		set aimove, 2
-5	147	999	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	147	999	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	999	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	999	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	999		set __signed_stack_001AI, 3
-5	148	1002	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1002	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1002		index __signed_stack_001AI, board, __signed_stack_001AI
-5	148	1006	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1006	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1006	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1006		mov __D0AI, i
-5	148	1008	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1008		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	148	1012	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1012		brtst 4, __ASM_Label_1572, __D0AI
-5	148	1015	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1015		set __signed_stack_001AI, 4
-5	148	1018	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1018	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1018		index __signed_stack_001AI, board, __signed_stack_001AI
-5	148	1022	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1022	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1022	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1022		mov __D0AI, i
-5	148	1024	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1024		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	148	1028	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1028		brtst 4, __ASM_Label_1572, __D0AI
-5	148	1031	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1031		set __signed_stack_001AI, 5
-5	148	1034	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1034	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1034		index __signed_stack_001AI, board, __signed_stack_001AI
-5	148	1038	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1038	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1038	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1038		set __D0AI, 0
-5	148	1041	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1041		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	148	1045	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1045		brtst 4, __ASM_Label_1585, __D0AI
-5	148	1048	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1048		set aiturndone, 1
-5	148	1051	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1051	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1051	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1051		set aimove, 5
-5	148	1054	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	148	1054	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1054	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1054	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1054		set __signed_stack_001AI, 6
-5	149	1057	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1057	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1057		index __signed_stack_001AI, board, __signed_stack_001AI
-5	149	1061	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1061	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1061	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1061		mov __D0AI, i
-5	149	1063	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1063		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	149	1067	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1067		brtst 4, __ASM_Label_1591, __D0AI
-5	149	1070	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1070		set __signed_stack_001AI, 7
-5	149	1073	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1073	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1073		index __signed_stack_001AI, board, __signed_stack_001AI
-5	149	1077	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1077	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1077	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1077		mov __D0AI, i
-5	149	1079	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1079		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	149	1083	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1083		brtst 4, __ASM_Label_1591, __D0AI
-5	149	1086	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1086		set __signed_stack_001AI, 8
-5	149	1089	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1089	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1089		index __signed_stack_001AI, board, __signed_stack_001AI
-5	149	1093	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1093	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1093	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1093		set __D0AI, 0
-5	149	1096	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1096		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	149	1100	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1100		brtst 4, __ASM_Label_1604, __D0AI
-5	149	1103	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1103		set aiturndone, 1
-5	149	1106	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1106	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1106	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1106		set aimove, 8
-5	149	1109	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	149	1109	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1109	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1109	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1109		set __signed_stack_001AI, 0
-5	150	1112	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1112	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1112		index __signed_stack_001AI, board, __signed_stack_001AI
-5	150	1116	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1116	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1116	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1116		mov __D0AI, i
-5	150	1118	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1118		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	150	1122	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1122		brtst 4, __ASM_Label_1610, __D0AI
-5	150	1125	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1125		set __signed_stack_001AI, 3
-5	150	1128	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1128	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1128		index __signed_stack_001AI, board, __signed_stack_001AI
-5	150	1132	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1132	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1132	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1132		mov __D0AI, i
-5	150	1134	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1134		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	150	1138	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1138		brtst 4, __ASM_Label_1610, __D0AI
-5	150	1141	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1141		set __signed_stack_001AI, 6
-5	150	1144	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1144	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1144		index __signed_stack_001AI, board, __signed_stack_001AI
-5	150	1148	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1148	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1148	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1148		set __D0AI, 0
-5	150	1151	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1151		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	150	1155	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1155		brtst 4, __ASM_Label_1623, __D0AI
-5	150	1158	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1158		set aiturndone, 1
-5	150	1161	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1161	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1161	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1161		set aimove, 6
-5	150	1164	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	150	1164	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1164	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1164	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1164		set __signed_stack_001AI, 1
-5	151	1167	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1167	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1167		index __signed_stack_001AI, board, __signed_stack_001AI
-5	151	1171	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1171	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1171	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1171		mov __D0AI, i
-5	151	1173	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1173		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	151	1177	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1177		brtst 4, __ASM_Label_1629, __D0AI
-5	151	1180	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1180		set __signed_stack_001AI, 4
-5	151	1183	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1183	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1183		index __signed_stack_001AI, board, __signed_stack_001AI
-5	151	1187	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1187	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1187	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1187		mov __D0AI, i
-5	151	1189	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1189		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	151	1193	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1193		brtst 4, __ASM_Label_1629, __D0AI
-5	151	1196	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1196		set __signed_stack_001AI, 7
-5	151	1199	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1199	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1199		index __signed_stack_001AI, board, __signed_stack_001AI
-5	151	1203	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1203	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1203	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1203		set __D0AI, 0
-5	151	1206	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1206		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	151	1210	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1210		brtst 4, __ASM_Label_1642, __D0AI
-5	151	1213	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1213		set aiturndone, 1
-5	151	1216	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1216	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1216	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1216		set aimove, 7
-5	151	1219	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	151	1219	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1219	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1219	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1219		set __signed_stack_001AI, 2
-5	152	1222	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1222	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1222		index __signed_stack_001AI, board, __signed_stack_001AI
-5	152	1226	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1226	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1226	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1226		mov __D0AI, i
-5	152	1228	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1228		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	152	1232	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1232		brtst 4, __ASM_Label_1648, __D0AI
-5	152	1235	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1235		set __signed_stack_001AI, 5
-5	152	1238	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1238	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1238		index __signed_stack_001AI, board, __signed_stack_001AI
-5	152	1242	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1242	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1242	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1242		mov __D0AI, i
-5	152	1244	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1244		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	152	1248	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1248		brtst 4, __ASM_Label_1648, __D0AI
-5	152	1251	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1251		set __signed_stack_001AI, 8
-5	152	1254	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1254	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1254		index __signed_stack_001AI, board, __signed_stack_001AI
-5	152	1258	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1258	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1258	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1258		set __D0AI, 0
-5	152	1261	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1261		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	152	1265	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1265		brtst 4, __ASM_Label_1661, __D0AI
-5	152	1268	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1268		set aiturndone, 1
-5	152	1271	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1271	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1271	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1271		set aimove, 8
-5	152	1274	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	152	1274	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1274	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1274	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1274		set __signed_stack_001AI, 2
-5	153	1277	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1277	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1277		index __signed_stack_001AI, board, __signed_stack_001AI
-5	153	1281	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1281	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1281	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1281		mov __D0AI, i
-5	153	1283	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1283		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	153	1287	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1287		brtst 4, __ASM_Label_1667, __D0AI
-5	153	1290	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1290		set __signed_stack_001AI, 4
-5	153	1293	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1293	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1293		index __signed_stack_001AI, board, __signed_stack_001AI
-5	153	1297	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1297	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1297	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1297		mov __D0AI, i
-5	153	1299	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1299		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	153	1303	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1303		brtst 4, __ASM_Label_1667, __D0AI
-5	153	1306	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1306		set __signed_stack_001AI, 6
-5	153	1309	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1309	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1309		index __signed_stack_001AI, board, __signed_stack_001AI
-5	153	1313	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1313	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1313	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1313		set __D0AI, 0
-5	153	1316	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1316		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	153	1320	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1320		brtst 4, __ASM_Label_1680, __D0AI
-5	153	1323	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1323		set aiturndone, 1
-5	153	1326	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1326	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1326	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1326		set aimove, 6
-5	153	1329	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	153	1329	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1329	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1329	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1329		set __signed_stack_001AI, 0
-5	154	1332	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1332	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1332		index __signed_stack_001AI, board, __signed_stack_001AI
-5	154	1336	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1336	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1336	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1336		mov __D0AI, i
-5	154	1338	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1338		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	154	1342	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1342		brtst 4, __ASM_Label_1686, __D0AI
-5	154	1345	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1345		set __signed_stack_001AI, 4
-5	154	1348	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1348	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1348		index __signed_stack_001AI, board, __signed_stack_001AI
-5	154	1352	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1352	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1352	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1352		mov __D0AI, i
-5	154	1354	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1354		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	154	1358	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1358		brtst 4, __ASM_Label_1686, __D0AI
-5	154	1361	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1361		set __signed_stack_001AI, 8
-5	154	1364	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1364	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1364		index __signed_stack_001AI, board, __signed_stack_001AI
-5	154	1368	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1368	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1368	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1368		set __D0AI, 0
-5	154	1371	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1371		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	154	1375	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1375		brtst 4, __ASM_Label_1699, __D0AI
-5	154	1378	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1378		set aiturndone, 1
-5	154	1381	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1381	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1381	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1381		set aimove, 8
-5	154	1384	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	154	1384	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1384	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	155	1384	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1384		strcat __strbufAI, msg
-5	155	1388	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1388		mov __ArrHelper__AI_244_0, __strbufAI
-5	155	1390	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1390		strcat __strbufAI, __constStr0022
-5	155	1394	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1394		mov __ArrHelper__AI_244_1, __strbufAI
-5	155	1396	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1396		mov __D0AI, aimove
-5	155	1398	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1398		numtostr __strretvalAI, __D0AI
-5	155	1401	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1401		strcat __strbufAI, __strretvalAI
-5	155	1405	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1405		mov __ArrHelper__AI_244_2, __strbufAI
-5	155	1407	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1407		strcat __strretvalAI, __ArrHelper__AI_244_0, __ArrHelper__AI_244_1, __ArrHelper__AI_244_2
-5	155	1413	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1413		strcat __strbufAI, __strretvalAI
-5	155	1417	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	156	1417		mov msg, __strbufAI
-5	155	1419	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1419	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1419		jmp __ASM_Label_1241
-5	157	1421	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1421	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1421		mov __signed_stack_001AI, aimove
-5	157	1423	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1423	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1423		set __D0AI, 10
-5	157	1426	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1426		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	157	1430	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1430		brtst 4, __ASM_Label_1708, __D0AI
-5	157	1433	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1433		mov __signed_stack_001AI, aimove
-5	157	1435	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1435	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1435		set __D0AI, 10
-5	157	1438	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1438		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	157	1442	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1442		brtst 4, __ASM_Label_1710, __D0AI
-5	157	1445	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1445		set __D0AI, 9
-5	157	1448	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1448	#pragma macro 7
-5	158	1448		syscall 24, __RandomArgs
-5	158	1451		add __RandomTmp, __RandomArgs.Result, __constVal32768
-5	158	1455		mul __RandomTmp, __RandomTmp, __D0AI
-5	158	1459		div __RandomTmp, __RandomTmp, __constVal65536
-5	158	1463		mov i, __RandomTmp
-5	12593	1465	#line 12593 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1465	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1465	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1465	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1465		mov __signed_stack_001AI, __RandomTmp
-5	157	1467	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1467	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1467		index __signed_stack_001AI, board, __signed_stack_001AI
-5	157	1471	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1471	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1471	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1471		set __D0AI, 0
-5	157	1474	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1474		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
-5	157	1478	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1478		brtst 4, __ASM_Label_1721, __D0AI
-5	157	1481	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1481		mov aimove, i
-5	157	1483	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1483	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	157	1483	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1483	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1483		jmp __ASM_Label_1709
-5	158	1485	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1485	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	158	1485	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1485		strcat __strbufAI, msg
-5	158	1489	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1489		mov __ArrHelper__AI_244_0, __strbufAI
-5	158	1491	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1491		strcat __strbufAI, __constStr0022
-5	158	1495	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1495		mov __ArrHelper__AI_244_1, __strbufAI
-5	158	1497	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1497		mov __D0AI, aimove
-5	158	1499	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1499		numtostr __strretvalAI, __D0AI
-5	158	1502	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1502		strcat __strbufAI, __strretvalAI
-5	158	1506	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1506		mov __ArrHelper__AI_244_2, __strbufAI
-5	158	1508	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1508		strcat __strretvalAI, __ArrHelper__AI_244_0, __ArrHelper__AI_244_1, __ArrHelper__AI_244_2
-5	158	1514	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1514		strcat __strbufAI, __strretvalAI
-5	158	1518	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1518		mov msg, __strbufAI
-5	158	1520	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1520	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1520		mov __signed_stack_001AI, aimove
-5	159	1522	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	159	1522	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1522		set __D0AI, 2
-5	159	1525	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1525		replace board, board, __signed_stack_001AI, __D0AI
-5	159	1530	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1530	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1530	#pragma macro 6
-5	161	1530		acquire __MWMutex
-5	161	1531		add __MWArgs.QueueID, __constVal9, __constVal10
-5	161	1535		mov __MWArgs.Message, msg
-5	161	1537		syscall 26, __MWArgs
-5	161	1540		mov __D0AI, __MWArgs.Result
-5	161	1542		release __MWMutex
-5	12685	1543	#line 12685 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1543	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1543	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	160	1543	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1543		strcat __strbufAI, __constStr0011
-5	160	1547	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1547		mov msg, __strbufAI
-5	160	1549	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1549	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	162	1549		set __Redraw_7qG2_dslct_7qG2_000, 0
-5	161	1552	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1552	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	162	1552		set __Redraw_7qG2_pslct_7qG2_000, 0
-5	161	1555	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1555	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	162	1555		set __Redraw_7qG2_odraw_7qG2_000, 0
-5	161	1558	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	161	1558	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	162	1558		subcall Redraw, __Redraw_return
-5	161	1560	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	162	1560	#line 162 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	163	1560		subcall CheckWin, __CheckWin_return
-5	162	1562	#line 162 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	167	1562	#line 167 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	167	1562	#line 167 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	168	1562		subret __AI_return
+5	145	841	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	841	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	841		set __signed_stack_001AI, 0
+5	145	844	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	844	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	844		index __signed_stack_001AI, board, __signed_stack_001AI
+5	145	848	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	848	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	848	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	848		mov __D0AI, i
+5	145	850	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	850		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	145	854	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	854		brtst 4, __ASM_Label_1502, __D0AI
+5	145	857	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	857		set __signed_stack_001AI, 4
+5	145	860	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	860	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	860		index __signed_stack_001AI, board, __signed_stack_001AI
+5	145	864	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	864	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	864	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	864		set __D0AI, 0
+5	145	867	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	867		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	145	871	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	871		brtst 4, __ASM_Label_1502, __D0AI
+5	145	874	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	874		set __signed_stack_001AI, 8
+5	145	877	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	877	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	877		index __signed_stack_001AI, board, __signed_stack_001AI
+5	145	881	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	881	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	881	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	881		mov __D0AI, i
+5	145	883	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	883		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	145	887	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	887		brtst 4, __ASM_Label_1515, __D0AI
+5	145	890	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	146	890		set aimove, 4
+5	145	893	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	145	893	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	893	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	893	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	893		set __signed_stack_001AI, 0
+5	147	896	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	896	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	896		index __signed_stack_001AI, board, __signed_stack_001AI
+5	147	900	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	900	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	900	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	900		mov __D0AI, i
+5	147	902	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	902		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	147	906	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	906		brtst 4, __ASM_Label_1519, __D0AI
+5	147	909	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	909		set __signed_stack_001AI, 1
+5	147	912	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	912	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	912		index __signed_stack_001AI, board, __signed_stack_001AI
+5	147	916	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	916	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	916	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	916		mov __D0AI, i
+5	147	918	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	918		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	147	922	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	922		brtst 4, __ASM_Label_1519, __D0AI
+5	147	925	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	925		set __signed_stack_001AI, 2
+5	147	928	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	928	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	928		index __signed_stack_001AI, board, __signed_stack_001AI
+5	147	932	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	932	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	932	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	932		set __D0AI, 0
+5	147	935	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	935		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	147	939	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	939		brtst 4, __ASM_Label_1532, __D0AI
+5	147	942	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	942		set aimove, 2
+5	147	945	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	147	945	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	945	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	945	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	945		set __signed_stack_001AI, 3
+5	148	948	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	948	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	948		index __signed_stack_001AI, board, __signed_stack_001AI
+5	148	952	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	952	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	952	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	952		mov __D0AI, i
+5	148	954	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	954		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	148	958	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	958		brtst 4, __ASM_Label_1536, __D0AI
+5	148	961	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	961		set __signed_stack_001AI, 4
+5	148	964	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	964	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	964		index __signed_stack_001AI, board, __signed_stack_001AI
+5	148	968	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	968	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	968	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	968		mov __D0AI, i
+5	148	970	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	970		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	148	974	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	974		brtst 4, __ASM_Label_1536, __D0AI
+5	148	977	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	977		set __signed_stack_001AI, 5
+5	148	980	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	980	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	980		index __signed_stack_001AI, board, __signed_stack_001AI
+5	148	984	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	984	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	984	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	984		set __D0AI, 0
+5	148	987	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	987		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	148	991	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	991		brtst 4, __ASM_Label_1549, __D0AI
+5	148	994	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	994		set aimove, 5
+5	148	997	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	148	997	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	997	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	997	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	997		set __signed_stack_001AI, 6
+5	149	1000	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1000	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1000		index __signed_stack_001AI, board, __signed_stack_001AI
+5	149	1004	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1004	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1004	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1004		mov __D0AI, i
+5	149	1006	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1006		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	149	1010	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1010		brtst 4, __ASM_Label_1553, __D0AI
+5	149	1013	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1013		set __signed_stack_001AI, 7
+5	149	1016	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1016	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1016		index __signed_stack_001AI, board, __signed_stack_001AI
+5	149	1020	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1020	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1020	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1020		mov __D0AI, i
+5	149	1022	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1022		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	149	1026	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1026		brtst 4, __ASM_Label_1553, __D0AI
+5	149	1029	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1029		set __signed_stack_001AI, 8
+5	149	1032	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1032	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1032		index __signed_stack_001AI, board, __signed_stack_001AI
+5	149	1036	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1036	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1036	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1036		set __D0AI, 0
+5	149	1039	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1039		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	149	1043	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1043		brtst 4, __ASM_Label_1566, __D0AI
+5	149	1046	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1046		set aimove, 8
+5	149	1049	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	149	1049	#line 149 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1049	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1049	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1049		set __signed_stack_001AI, 0
+5	150	1052	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1052	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1052		index __signed_stack_001AI, board, __signed_stack_001AI
+5	150	1056	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1056	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1056	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1056		mov __D0AI, i
+5	150	1058	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1058		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	150	1062	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1062		brtst 4, __ASM_Label_1570, __D0AI
+5	150	1065	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1065		set __signed_stack_001AI, 3
+5	150	1068	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1068	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1068		index __signed_stack_001AI, board, __signed_stack_001AI
+5	150	1072	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1072	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1072	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1072		mov __D0AI, i
+5	150	1074	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1074		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	150	1078	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1078		brtst 4, __ASM_Label_1570, __D0AI
+5	150	1081	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1081		set __signed_stack_001AI, 6
+5	150	1084	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1084	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1084		index __signed_stack_001AI, board, __signed_stack_001AI
+5	150	1088	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1088	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1088	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1088		set __D0AI, 0
+5	150	1091	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1091		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	150	1095	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1095		brtst 4, __ASM_Label_1583, __D0AI
+5	150	1098	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1098		set aimove, 6
+5	150	1101	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	150	1101	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1101	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1101	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1101		set __signed_stack_001AI, 1
+5	151	1104	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1104	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1104		index __signed_stack_001AI, board, __signed_stack_001AI
+5	151	1108	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1108	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1108	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1108		mov __D0AI, i
+5	151	1110	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1110		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	151	1114	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1114		brtst 4, __ASM_Label_1587, __D0AI
+5	151	1117	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1117		set __signed_stack_001AI, 4
+5	151	1120	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1120	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1120		index __signed_stack_001AI, board, __signed_stack_001AI
+5	151	1124	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1124	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1124	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1124		mov __D0AI, i
+5	151	1126	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1126		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	151	1130	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1130		brtst 4, __ASM_Label_1587, __D0AI
+5	151	1133	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1133		set __signed_stack_001AI, 7
+5	151	1136	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1136	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1136		index __signed_stack_001AI, board, __signed_stack_001AI
+5	151	1140	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1140	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1140	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1140		set __D0AI, 0
+5	151	1143	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1143		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	151	1147	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1147		brtst 4, __ASM_Label_1600, __D0AI
+5	151	1150	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1150		set aimove, 7
+5	151	1153	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	151	1153	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1153	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1153	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1153		set __signed_stack_001AI, 2
+5	152	1156	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1156	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1156		index __signed_stack_001AI, board, __signed_stack_001AI
+5	152	1160	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1160	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1160	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1160		mov __D0AI, i
+5	152	1162	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1162		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	152	1166	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1166		brtst 4, __ASM_Label_1604, __D0AI
+5	152	1169	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1169		set __signed_stack_001AI, 5
+5	152	1172	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1172	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1172		index __signed_stack_001AI, board, __signed_stack_001AI
+5	152	1176	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1176	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1176	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1176		mov __D0AI, i
+5	152	1178	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1178		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	152	1182	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1182		brtst 4, __ASM_Label_1604, __D0AI
+5	152	1185	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1185		set __signed_stack_001AI, 8
+5	152	1188	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1188	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1188		index __signed_stack_001AI, board, __signed_stack_001AI
+5	152	1192	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1192	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1192	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1192		set __D0AI, 0
+5	152	1195	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1195		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	152	1199	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1199		brtst 4, __ASM_Label_1617, __D0AI
+5	152	1202	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1202		set aimove, 8
+5	152	1205	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	152	1205	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1205	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1205	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1205		set __signed_stack_001AI, 2
+5	153	1208	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1208	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1208		index __signed_stack_001AI, board, __signed_stack_001AI
+5	153	1212	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1212	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1212	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1212		mov __D0AI, i
+5	153	1214	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1214		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	153	1218	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1218		brtst 4, __ASM_Label_1621, __D0AI
+5	153	1221	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1221		set __signed_stack_001AI, 4
+5	153	1224	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1224	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1224		index __signed_stack_001AI, board, __signed_stack_001AI
+5	153	1228	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1228	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1228	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1228		mov __D0AI, i
+5	153	1230	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1230		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	153	1234	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1234		brtst 4, __ASM_Label_1621, __D0AI
+5	153	1237	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1237		set __signed_stack_001AI, 6
+5	153	1240	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1240	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1240		index __signed_stack_001AI, board, __signed_stack_001AI
+5	153	1244	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1244	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1244	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1244		set __D0AI, 0
+5	153	1247	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1247		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	153	1251	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1251		brtst 4, __ASM_Label_1634, __D0AI
+5	153	1254	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1254		set aimove, 6
+5	153	1257	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	153	1257	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1257	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1257	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1257		set __signed_stack_001AI, 0
+5	154	1260	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1260	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1260		index __signed_stack_001AI, board, __signed_stack_001AI
+5	154	1264	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1264	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1264	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1264		mov __D0AI, i
+5	154	1266	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1266		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	154	1270	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1270		brtst 4, __ASM_Label_1638, __D0AI
+5	154	1273	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1273		set __signed_stack_001AI, 4
+5	154	1276	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1276	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1276		index __signed_stack_001AI, board, __signed_stack_001AI
+5	154	1280	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1280	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1280	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1280		mov __D0AI, i
+5	154	1282	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1282		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	154	1286	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1286		brtst 4, __ASM_Label_1638, __D0AI
+5	154	1289	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1289		set __signed_stack_001AI, 8
+5	154	1292	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1292	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1292		index __signed_stack_001AI, board, __signed_stack_001AI
+5	154	1296	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1296	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1296	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1296		set __D0AI, 0
+5	154	1299	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1299		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	154	1303	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1303		brtst 4, __ASM_Label_1651, __D0AI
+5	154	1306	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1306		set aimove, 8
+5	154	1309	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	154	1309	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1309	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	155	1309	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1309		strcat __strbufAI, msg
+5	155	1313	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1313		mov __ArrHelper__AI_244_0, __strbufAI
+5	155	1315	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1315		strcat __strbufAI, __constStr0022
+5	155	1319	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1319		mov __ArrHelper__AI_244_1, __strbufAI
+5	155	1321	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1321		mov __D0AI, aimove
+5	155	1323	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1323		numtostr __strretvalAI, __D0AI
+5	155	1326	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1326		strcat __strbufAI, __strretvalAI
+5	155	1330	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1330		mov __ArrHelper__AI_244_2, __strbufAI
+5	155	1332	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1332		strcat __strretvalAI, __ArrHelper__AI_244_0, __ArrHelper__AI_244_1, __ArrHelper__AI_244_2
+5	155	1338	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1338		strcat __strbufAI, __strretvalAI
+5	155	1342	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	156	1342		mov msg, __strbufAI
+5	155	1344	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1344	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1344		jmp __ASM_Label_1241
+5	157	1346	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1346	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1346		mov __signed_stack_001AI, aimove
+5	157	1348	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1348	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1348		set __D0AI, 10
+5	157	1351	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1351		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	157	1355	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1355		brtst 4, __ASM_Label_1658, __D0AI
+5	157	1358	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1358		mov __signed_stack_001AI, aimove
+5	157	1360	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1360	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1360		set __D0AI, 10
+5	157	1363	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1363		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	157	1367	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1367		brtst 4, __ASM_Label_1660, __D0AI
+5	157	1370	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1370		set __D0AI, 9
+5	157	1373	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1373	#pragma macro 7
+5	158	1373		syscall 24, __RandomArgs
+5	158	1376		add __RandomTmp, __RandomArgs.Result, __constVal32768
+5	158	1380		mul __RandomTmp, __RandomTmp, __D0AI
+5	158	1384		div __RandomTmp, __RandomTmp, __constVal65536
+5	158	1388		mov i, __RandomTmp
+5	12471	1390	#line 12471 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1390	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1390	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1390	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1390		mov __signed_stack_001AI, __RandomTmp
+5	157	1392	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1392	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1392		index __signed_stack_001AI, board, __signed_stack_001AI
+5	157	1396	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1396	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1396	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1396		set __D0AI, 0
+5	157	1399	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1399		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
+5	157	1403	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1403		brtst 4, __ASM_Label_1671, __D0AI
+5	157	1406	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1406		mov aimove, i
+5	157	1408	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1408	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	157	1408	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1408	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1408		jmp __ASM_Label_1659
+5	158	1410	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1410	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	158	1410	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1410		strcat __strbufAI, msg
+5	158	1414	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1414		mov __ArrHelper__AI_244_0, __strbufAI
+5	158	1416	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1416		strcat __strbufAI, __constStr0022
+5	158	1420	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1420		mov __ArrHelper__AI_244_1, __strbufAI
+5	158	1422	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1422		mov __D0AI, aimove
+5	158	1424	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1424		numtostr __strretvalAI, __D0AI
+5	158	1427	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1427		strcat __strbufAI, __strretvalAI
+5	158	1431	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1431		mov __ArrHelper__AI_244_2, __strbufAI
+5	158	1433	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1433		strcat __strretvalAI, __ArrHelper__AI_244_0, __ArrHelper__AI_244_1, __ArrHelper__AI_244_2
+5	158	1439	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1439		strcat __strbufAI, __strretvalAI
+5	158	1443	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1443		mov msg, __strbufAI
+5	158	1445	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1445	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1445		mov __signed_stack_001AI, aimove
+5	159	1447	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	159	1447	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1447		set __D0AI, 2
+5	159	1450	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1450		replace board, board, __signed_stack_001AI, __D0AI
+5	159	1455	#line 159 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1455	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1455	#pragma macro 6
+5	161	1455		acquire __MWMutex
+5	161	1456		add __MWArgs.QueueID, __constVal9, __constVal10
+5	161	1460		mov __MWArgs.Message, msg
+5	161	1462		syscall 26, __MWArgs
+5	161	1465		mov __D0AI, __MWArgs.Result
+5	161	1467		release __MWMutex
+5	12563	1468	#line 12563 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1468	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1468	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	160	1468	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1468		strcat __strbufAI, __constStr0011
+5	160	1472	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1472		mov msg, __strbufAI
+5	160	1474	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1474	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	162	1474		set __Redraw_7qG2_dslct_7qG2_000, 0
+5	161	1477	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1477	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	162	1477		set __Redraw_7qG2_pslct_7qG2_000, 0
+5	161	1480	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1480	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	162	1480		set __Redraw_7qG2_odraw_7qG2_000, 0
+5	161	1483	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	161	1483	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	162	1483		subcall Redraw, __Redraw_return
+5	161	1485	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	162	1485	#line 162 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	163	1485		subcall CheckWin, __CheckWin_return
+5	162	1487	#line 162 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	167	1487	#line 167 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	167	1487	#line 167 "C:\Github\NXC_Source\TicTacToe.nxc"
+5	168	1487		subret __AI_return
 6	169	0	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	170	0		mov __signed_stack_001GameOver, winner
 6	169	2	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3717,7 +3619,7 @@ Clump	Line	PC	Source
 6	169	5	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	170	5		cmp 4, __D0GameOver, __signed_stack_001GameOver, __D0GameOver
 6	169	9	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	170	9		brtst 4, __ASM_Label_1738, __D0GameOver
+6	170	9		brtst 4, __ASM_Label_1688, __D0GameOver
 6	169	12	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	170	12		set __signed_stack_001GameOver, 2000
 6	169	15	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3747,7 +3649,7 @@ Clump	Line	PC	Source
 6	170	38		release __SPTArgsMutex
 6	169	39	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	169	39	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	170	39		jmp __ASM_Label_1747
+6	170	39		jmp __ASM_Label_1697
 6	169	41	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	170	41		set __signed_stack_001GameOver, 4000
 6	169	44	#line 169 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3804,7 +3706,7 @@ Clump	Line	PC	Source
 6	6897	89		mov __PointOutArgs.Options, __constVal1
 6	6897	91		syscall 14, __PointOutArgs
 6	6897	94		release __PointOutMutex
-6	12839	95	#line 12839 "NXCDefs.h"
+6	12717	95	#line 12717 "NXCDefs.h"
 6	6896	95	#line 6896 "NXCDefs.h"
 6	171	95	#line 171 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	172	95	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3869,7 +3771,7 @@ Clump	Line	PC	Source
 6	173	156	#line 173 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	174	156		cmp 4, __D0GameOver, __signed_stack_001GameOver, __D0GameOver
 6	173	160	#line 173 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	174	160		brtst 4, __ASM_Label_1778, __D0GameOver
+6	174	160		brtst 4, __ASM_Label_1728, __D0GameOver
 6	173	163	#line 173 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	174	163		set __signed_stack_001GameOver, 40
 6	173	166	#line 173 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3898,13 +3800,13 @@ Clump	Line	PC	Source
 6	174	190		release __TextOutMutex
 6	173	191	#line 173 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	174	191	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	175	191		jmp __ASM_Label_1785
+6	175	191		jmp __ASM_Label_1735
 6	174	193	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	175	193		mov __DU0GameOver, p2ai
 6	174	195	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	175	195		tst 5, __D0GameOver, __DU0GameOver
 6	174	198	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	175	198		brtst 4, __ASM_Label_1787, __D0GameOver
+6	175	198		brtst 4, __ASM_Label_1737, __D0GameOver
 6	174	201	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	175	201		mov __signed_stack_001GameOver, winner
 6	174	203	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3913,7 +3815,7 @@ Clump	Line	PC	Source
 6	174	206	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	175	206		cmp 4, __D0GameOver, __signed_stack_001GameOver, __D0GameOver
 6	174	210	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	175	210		brtst 4, __ASM_Label_1788, __D0GameOver
+6	175	210		brtst 4, __ASM_Label_1738, __D0GameOver
 6	174	213	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	175	213		set __signed_stack_001GameOver, 32
 6	174	216	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3942,7 +3844,7 @@ Clump	Line	PC	Source
 6	175	240		release __TextOutMutex
 6	174	241	#line 174 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	175	241	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	176	241		jmp __ASM_Label_1795
+6	176	241		jmp __ASM_Label_1745
 6	175	243	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	176	243		set __signed_stack_001GameOver, 12
 6	175	246	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4037,9 +3939,9 @@ Clump	Line	PC	Source
 6	177	341	#line 177 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	178	341		tst 5, __D0GameOver, __D0GameOver
 6	177	344	#line 177 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	178	344		brtst 4, __ASM_Label_1811, __D0GameOver
+6	178	344		brtst 4, __ASM_Label_1761, __D0GameOver
 6	178	347	#line 178 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	179	347		jmp __ASM_Label_1810
+6	179	347		jmp __ASM_Label_1760
 6	178	349	#line 178 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	6896	349	#line 6896 "NXCDefs.h"
 6	6897	349	#pragma macro 6
@@ -4049,7 +3951,7 @@ Clump	Line	PC	Source
 6	6897	354		mov __PointOutArgs.Options, __constVal1
 6	6897	356		syscall 14, __PointOutArgs
 6	6897	359		release __PointOutMutex
-6	13146	360	#line 13146 "NXCDefs.h"
+6	13024	360	#line 13024 "NXCDefs.h"
 6	6896	360	#line 6896 "NXCDefs.h"
 6	178	360	#line 178 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	179	360	#line 179 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4080,16 +3982,16 @@ Clump	Line	PC	Source
 6	179	388	#line 179 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	180	388		tst 5, __D0GameOver, __D0GameOver
 6	179	391	#line 179 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	180	391		brtst 4, __ASM_Label_1819, __D0GameOver
+6	180	391		brtst 4, __ASM_Label_1769, __D0GameOver
 6	183	394	#line 183 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	184	394		jmp __ASM_Label_1818
+6	184	394		jmp __ASM_Label_1768
 6	183	396	#line 183 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	183	396	#line 183 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	184	396		subret __GameOver_return
-7	200	0	#line 200 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	201	0		arrinit board, __constVal0, __constVal9
-7	200	4	#line 200 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	201	4		subret ____initialize_global_data_return
+7	229	0	#line 229 "C:\Github\NXC_Source\TicTacToe.nxc"
+7	230	0		arrinit board, __constVal0, __constVal9
+7	229	4	#line 229 "C:\Github\NXC_Source\TicTacToe.nxc"
+7	230	4		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\TicTacToe.nxc
@@ -4098,5 +4000,5 @@ Clump	Name	Offset	File
 3	P	1786	C:\Github\NXC_Source\TicTacToe.nxc
 4	ChooseP2	2187	C:\Github\NXC_Source\TicTacToe.nxc
 5	AI	2407	C:\Github\NXC_Source\TicTacToe.nxc
-6	GameOver	3971	C:\Github\NXC_Source\TicTacToe.nxc
-7	__initialize_global_data	4369	C:\Github\NXC_Source\TicTacToe.nxc
+6	GameOver	3896	C:\Github\NXC_Source\TicTacToe.nxc
+7	__initialize_global_data	4294	C:\Github\NXC_Source\TicTacToe.nxc
