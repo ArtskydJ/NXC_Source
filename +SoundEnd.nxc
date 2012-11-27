@@ -1,0 +1,35 @@
+//Sounds
+#define soundWin  0
+#define soundDraw 1
+#define soundLose 2
+
+void SoundEnd(int whatSound)
+  {
+  if (whatSound==soundWin)
+    {
+    PlayTone(1500,200); Wait(200);
+    PlayTone(0500,200); Wait(200);
+    PlayTone(2500,200); Wait(200);
+    PlayTone(1500,200); Wait(200);
+    }
+  else if (whatSound==soundWin)
+    {
+    PlayTone(1500,200); Wait(200);
+    PlayTone(0500,200); Wait(200);
+    PlayTone(2500,200); Wait(200);
+    PlayTone(1500,200); Wait(200);
+    }
+  else if (whatSound==soundWin)
+    {
+    PlayTone(1500,200); Wait(200);
+    PlayTone(0500,200); Wait(200);
+    PlayTone(2500,200); Wait(200);
+    PlayTone(1500,200); Wait(200);
+    }
+  }
+/*
+task main()
+  {
+  SoundEnd(soundDraw);
+  }
+//*/
