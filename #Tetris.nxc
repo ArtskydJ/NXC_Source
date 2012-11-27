@@ -67,10 +67,12 @@ task main()
         //do output
         }
       //create new piece
-      //if filled rows
+      if (1) //rows filled
+        {
         //destroy them
         //add to score
         //move higher rows down
+        }
       }
     //play again?
     }
