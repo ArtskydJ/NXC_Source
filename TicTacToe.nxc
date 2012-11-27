@@ -162,7 +162,7 @@ void AI()
       }
     if (aimove==10) {while (aimove==10) {i=Random(9); if (board[i]==0) {aimove=i;}}}
     msg=StrCat(msg,", AImove=",NumToStr(aimove));
-    board[aimove]=2; //AI is always O, Player 1 is always X
+    board[aimove]=2; //AI is always O=2, Player 1 is always X=1
     SendResponseString(MAILBOX10,msg); msg="";
     Redraw(false,0,0); //DEBUGredraw();
     CheckWin();
