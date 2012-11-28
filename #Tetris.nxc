@@ -8,13 +8,14 @@
 #define width     10
 #define height    25
 #define TX        35
-#define Itet
-#define Jtet
-#define Ltet
-#define Otet
-#define Stet
-#define Ttet
-#define Ztet
+#define Itet 0
+#define Jtet 1
+#define Ltet 2
+#define Otet 3
+#define Stet 4
+#define Ttet 5
+#define Ztet 6
+#define prob 7
 
 
 /*            GLOBAL CONSTANTS            */
@@ -45,7 +46,9 @@ const int Z[8]=
 string accesshigh;
 int gametype, gamespeed, delaytime;
 float speedup;
-bool area[width][height],allow[7];
+
+bool area[width][height];
+int chnc[7];
 
 
 /*               SUBROUTINES              */
@@ -56,12 +59,12 @@ void selectGame()
     {
     gametype=senseButton(gamespeed,false,1,2,false);
     ClearScreen();
-    TextOut(TX,LCD_LINE1,"TETRIS",    0);
-    TextOut(2, LCD_LINE2,"Speed:",  0);
-    TextOut(2, LCD_LINE3,"Slow", 0);
-    TextOut(2, LCD_LINE4,"Medium",   0);
-    TextOut(2, LCD_LINE5,"Fast",     0);
-    TextOut(88,LCD_LINE8,"OK", 0);
+    TextOut(TX,LCD_LINE1,"TETRIS", 0);
+    TextOut(2, LCD_LINE2,"Speed:", 0);
+    TextOut(2, LCD_LINE3,"Slow",   0);
+    TextOut(2, LCD_LINE4,"Medium", 0);
+    TextOut(2, LCD_LINE5,"Fast",   0);
+    TextOut(88,LCD_LINE8,"OK",     0);
     RectOut(0,40-(gamespeed*8),49,8,0);
     Wait(50);
     }
@@ -71,11 +74,11 @@ void selectGame()
     {
     gametype=senseButton(gametype,false,1,3,false);
     ClearScreen();
-    TextOut(TX,LCD_LINE1,"TETRIS",    0);
-    TextOut(2, LCD_LINE2,"Type:",  0);
+    TextOut(TX,LCD_LINE1,"TETRIS",   0);
+    TextOut(2, LCD_LINE2,"Type:",    0);
     TextOut(2, LCD_LINE3,"Giveaway", 0);
     TextOut(2, LCD_LINE4,"Simple",   0);
-    TextOut(2, LCD_LINE5,"Normal",     0);
+    TextOut(2, LCD_LINE5,"Normal",   0);
     TextOut(2, LCD_LINE6,"Hard",     0);
     TextOut(2, LCD_LINE7,"Death",    0);
     TextOut(88,LCD_LINE8,"OK", 0);
@@ -84,17 +87,7 @@ void selectGame()
     }
   TextOut(TX,LCD_LINE1,"TETRIS",  0);
   until (ButtonPressed(BTNRIGHT)==false) {}
-  /*
-  if (gametype!=4)
-    {
-    TextOut(0,LCD_LINE6-4,"",              4096);
-    TextOut(0,LCD_LINE7,"Wrap Screen?",    4096);
-    TextOut(0,LCD_LINE8,"Yes          No", 4096);
-    until (ButtonPressed(BTNLEFT)||ButtonPressed(BTNRIGHT)) {}
-    wrap=ButtonPressed(BTNLEFT);
-    if (wrap) {accesshigh=StrCat(accesshigh,"W");}
-    }
-  */
+
   if      (gamespeed==0)
     {accesshigh=StrCat(accesshigh,"Slow");
     speedup=0.975;  delaytime=200;}
@@ -108,27 +101,59 @@ void selectGame()
   if      (gametype==0)
     {
     accesshigh=StrCat(accesshigh,"Give.dat");
-
+    chnc[prob]=16;
+    chnc[Itet]=4;
+    chnc[Jtet]=2;
+    chnc[Ltet]=2;
+    chnc[Otet]=4;
+    chnc[Stet]=1;
+    chnc[Ttet]=2;
+    chnc[Ztet]=1;
     }
   else if (gametype==1)
     {
     accesshigh=StrCat(accesshigh,"Simp.dat");
-
+    chnc[Itet]=1;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=1;
+    chnc[Stet]=1;
+    chnc[Ttet]=1;
+    chnc[Ztet]=1;
     }
   else if (gametype==2)
     {
     accesshigh=StrCat(accesshigh,"Norm.dat");
-
+    chnc[prob]=7;
+    chnc[Itet]=1;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=1;
+    chnc[Stet]=1;
+    chnc[Ttet]=1;
+    chnc[Ztet]=1;
     }
   else if (gametype==3)
     {
     accesshigh=StrCat(accesshigh,"Hard.dat");
-
+    chnc[Itet]=1;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=1;
+    chnc[Stet]=1;
+    chnc[Ttet]=1;
+    chnc[Ztet]=1;
     }
   else if (gametype==4)
     {
     accesshigh=StrCat(accesshigh,"Death.dat");
-
+    chnc[Itet]=1;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=1;
+    chnc[Stet]=1;
+    chnc[Ttet]=1;
+    chnc[Ztet]=1;
     }
   ClearScreen();
   }
@@ -138,6 +163,9 @@ task main()
   {
   //init
   SetLongAbort(true);
+  
+  
+  selectGame();
   
   bool playagain, alive, piecemoving;
   playagain=true;
