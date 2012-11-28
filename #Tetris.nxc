@@ -1,61 +1,150 @@
 //Tetris
 //Joseph Dykstra
+
+
+/*                 DEFINES                */
+#include "+Button+-.nxc"
 #define blocksize 4
 #define width     10
 #define height    25
+#define TX        35
+#define Itet
+#define Jtet
+#define Ltet
+#define Otet
+#define Stet
+#define Ttet
+#define Ztet
 
-const bool I[4][4]={
-{0,1,0,0},
-{0,1,0,0},
-{0,1,0,0},
-{0,1,0,0}};
 
-const bool O[4][4]={
-{0,0,0,0},
-{0,1,1,0},
-{0,1,1,0},
-{0,0,0,0}};
+/*            GLOBAL CONSTANTS            */
+const int I[8]=
+ {0,0,0,0,
+  0,1,2,3};
+const int J[8]=
+ {1,1,1,0,
+  0,1,2,2};
+const int L[8]=
+ {0,0,0,1,
+  0,1,2,2};
+const int O[8]=
+ {0,0,1,1,
+  0,1,0,1};
+const int S[8]=
+ {2,1,1,0,
+  0,0,1,1};
+const int T[8]=
+ {0,1,1,1,
+  1,0,1,2};
+const int Z[8]=
+ {0,1,1,2,
+  0,0,1,1};
 
-const bool L[4][4]={
-{0,1,0,0},
-{0,1,0,0},
-{0,1,1,0},
-{0,0,0,0}};
 
-const bool J[4][4]={
-{0,0,1,0},
-{0,0,1,0},
-{0,1,1,0},
-{0,0,0,0}};
+/*            GLOBAL VARIABLES            */
+string accesshigh;
+int gametype, gamespeed, delaytime;
+float speedup;
+bool area[width][height],allow[7];
 
-const bool T[4][4]={
-{0,0,0,0},
-{0,1,0,0},
-{1,1,1,0},
-{0,0,0,0}};
 
-const bool S[4][4]={
-{0,0,0,0},
-{0,0,0,0},
-{0,1,1,0},
-{1,1,0,0}};
+/*               SUBROUTINES              */
+void selectGame()
+  {
+  accesshigh="Snake";
+  while (ButtonPressed(BTNRIGHT)==false)
+    {
+    gametype=senseButton(gamespeed,false,1,2,false);
+    ClearScreen();
+    TextOut(TX,LCD_LINE1,"TETRIS",    0);
+    TextOut(2, LCD_LINE2,"Speed:",  0);
+    TextOut(2, LCD_LINE3,"Slow", 0);
+    TextOut(2, LCD_LINE4,"Medium",   0);
+    TextOut(2, LCD_LINE5,"Fast",     0);
+    TextOut(88,LCD_LINE8,"OK", 0);
+    RectOut(0,40-(gamespeed*8),49,8,0);
+    Wait(50);
+    }
+  TextOut(TX,LCD_LINE1,"TETRIS",  0);
+  until (ButtonPressed(BTNRIGHT)==false) {}
+  while (ButtonPressed(BTNRIGHT)==false)
+    {
+    gametype=senseButton(gametype,false,1,3,false);
+    ClearScreen();
+    TextOut(TX,LCD_LINE1,"TETRIS",    0);
+    TextOut(2, LCD_LINE2,"Type:",  0);
+    TextOut(2, LCD_LINE3,"Giveaway", 0);
+    TextOut(2, LCD_LINE4,"Simple",   0);
+    TextOut(2, LCD_LINE5,"Normal",     0);
+    TextOut(2, LCD_LINE6,"Hard",     0);
+    TextOut(2, LCD_LINE7,"Death",    0);
+    TextOut(88,LCD_LINE8,"OK", 0);
+    RectOut(0,40-(gametype*8),49,8,0);
+    Wait(50);
+    }
+  TextOut(TX,LCD_LINE1,"TETRIS",  0);
+  until (ButtonPressed(BTNRIGHT)==false) {}
+  /*
+  if (gametype!=4)
+    {
+    TextOut(0,LCD_LINE6-4,"",              4096);
+    TextOut(0,LCD_LINE7,"Wrap Screen?",    4096);
+    TextOut(0,LCD_LINE8,"Yes          No", 4096);
+    until (ButtonPressed(BTNLEFT)||ButtonPressed(BTNRIGHT)) {}
+    wrap=ButtonPressed(BTNLEFT);
+    if (wrap) {accesshigh=StrCat(accesshigh,"W");}
+    }
+  */
+  if      (gamespeed==0)
+    {accesshigh=StrCat(accesshigh,"Slow");
+    speedup=0.975;  delaytime=200;}
+  else if (gamespeed==1)
+    {accesshigh=StrCat(accesshigh,"Med");
+    speedup=0.9375; delaytime=140;}
+  else if (gamespeed==2)
+    {accesshigh=StrCat(accesshigh,"Fast");
+    speedup=0.9;    delaytime=80;}
+  
+  if      (gametype==0)
+    {
+    accesshigh=StrCat(accesshigh,"Give.dat");
 
-const bool Z[4][4]={
-{0,0,0,0},
-{0,0,0,0},
-{1,1,0,0},
-{0,1,1,0}};
+    }
+  else if (gametype==1)
+    {
+    accesshigh=StrCat(accesshigh,"Simp.dat");
+
+    }
+  else if (gametype==2)
+    {
+    accesshigh=StrCat(accesshigh,"Norm.dat");
+
+    }
+  else if (gametype==3)
+    {
+    accesshigh=StrCat(accesshigh,"Hard.dat");
+
+    }
+  else if (gametype==4)
+    {
+    accesshigh=StrCat(accesshigh,"Death.dat");
+
+    }
+  ClearScreen();
+  }
 
 
 task main()
   {
   //init
   SetLongAbort(true);
+  
   bool playagain, alive, piecemoving;
   playagain=true;
   while (playagain)
     {
     //choose gametype
+
     alive=true;
     while (alive)
       {
