@@ -1,1454 +1,2081 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_002selectGame	6	1	0	4	40
-1	__signed_stack_003selectGame	6	1	4	4	8
-2	__constVal786433	6	0	8	4	4
-3	__IOMWMutex	9	0	12	4	8
-4	__D0selectGame	6	1	16	4	118
-5	__signed_stack_001senseButton	6	1	20	4	20
-6	__signed_stack_004selectGame	6	1	24	4	4
-7	__DU0main	5	1	28	4	6
-8	__D0main	6	1	32	4	17
-9	speedup	10	1	36	4	3
-10	__signed_stack_001selectGame	6	1	40	4	68
-11	__Wait_7qG2_ms_7qG2_000_inline_selectGame	5	1	44	4	4
-12	__constValf0P975	10	0	48	4	1
-13	__DU0senseButton	5	1	52	4	4
-14	__constValf0P9	10	0	56	4	1
-15	__RBtnMutex	9	0	60	4	16
-16	__D0senseButton	6	1	64	4	67
-17	__constValf0P9375	10	0	68	4	1
-18	gametype	4	1	72	2	9
-19	__senseButton_7qG2_rd_7qG2_000	4	1	74	2	4
-20	delaytime	4	1	76	2	3
-21	gamespeed	4	1	78	2	5
-22	__senseButton_7qG2_add_7qG2_000	4	1	80	2	4
-23	__senseButton_7qG2_val_7qG2_000	4	1	82	2	15
-24	__senseButton_7qG2_lu_7qG2_000	4	1	84	2	4
-25	__senseButton_7qG2_high_7qG2_000	4	1	86	2	6
-26	__constVal200	4	0	88	2	6
-27	____initialize_global_data_return	1	1	90	1	3
-28	__constVal2	2	0	91	1	8
-29	__constVal25	2	0	92	1	1
-30	__constVal40	2	0	93	1	4
-31	__constVal3	2	0	94	1	1
-32	__constVal0	2	1	95	1	33
-33	__selectGame_return	1	1	96	1	3
-34	__constVal4	2	0	97	1	2
-35	__senseButton_return	1	1	98	1	5
-36	__main_7qG2_alive_7qG2_000	1	1	99	1	2
-37	__main_7qG2_playagain_7qG2_000	1	1	100	1	2
-38	__main_7qG2_piecemoving_7qG2_000	1	1	101	1	2
-39	__senseButton_7qG2_lr_ud_7qG2_000	1	1	102	1	3
-40	__constVal1	2	0	103	1	29
-41	__senseButton_7qG2_cut_7qG2_000	1	1	104	1	3
-42	__constVal10	2	0	105	1	1
-43	__constVal7	2	0	106	1	1
-44	__RectOutArgs	8	0	4	16	12
-45	__RectOutArgs.Result	2	1	108	1	12
-46	__RectOutArgs.Location	8	0	2	4	12
-47	__RectOutArgs.Location.X	4	1	112	2	12
-48	__RectOutArgs.Location.Y	4	1	114	2	12
-49	__RectOutArgs.Size	8	0	2	4	12
-50	__RectOutArgs.Size.Width	4	1	116	2	12
-51	__RectOutArgs.Size.Height	4	1	118	2	12
-52	__RectOutArgs.Options	5	1	120	4	12
-53	__TextOutArgs	8	0	4	16	82
-54	__TextOutArgs.Result	2	1	124	1	82
-55	__TextOutArgs.Location	8	0	2	4	82
-56	__TextOutArgs.Location.X	4	1	128	2	82
-57	__TextOutArgs.Location.Y	4	1	130	2	82
-58	__TextOutArgs.Text	7	0	132	4	82
-59	__TextOutArgs.Text.Text_type	1	0	0	1	0
-60	__TextOutArgs.Options	5	1	136	4	82
-61	__PointOutArgs	8	0	3	12	12
-62	__PointOutArgs.Result	2	1	140	1	12
-63	__PointOutArgs.Location	8	0	2	4	12
-64	__PointOutArgs.Location.X	4	1	144	2	12
-65	__PointOutArgs.Location.Y	4	1	146	2	12
-66	__PointOutArgs.Options	5	1	148	4	12
-67	__RBtnArgs	8	0	5	8	32
-68	__RBtnArgs.Result	2	1	152	1	32
-69	__RBtnArgs.Index	1	1	153	1	32
-70	__RBtnArgs.Pressed	1	1	154	1	32
-71	__RBtnArgs.Count	1	1	155	1	32
-72	__RBtnArgs.Reset	1	1	156	1	32
-73	__IOMWBIArgs	8	0	4	16	16
-74	__IOMWBIArgs.Result	2	1	160	1	16
-75	__IOMWBIArgs.ModuleID	5	1	164	4	16
-76	__IOMWBIArgs.Offset	3	1	168	2	16
-77	__IOMWBIArgs.Buffer	7	0	170	4	16
-78	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
-79	__constStr0021	7	0	172	4	1
-80	__constStr0021.__constStr0021_type	1	1	0	1	0
-81	__constStr0017	7	0	174	4	1
-82	__constStr0017.__constStr0017_type	1	1	0	1	0
-83	__constStr0016	7	0	176	4	1
-84	__constStr0016.__constStr0016_type	1	1	0	1	0
-85	__constStr0018	7	0	178	4	1
-86	__constStr0018.__constStr0018_type	1	1	0	1	0
-87	__constStr0020	7	0	180	4	1
-88	__constStr0020.__constStr0020_type	1	1	0	1	0
-89	__constStr0019	7	0	182	4	1
-90	__constStr0019.__constStr0019_type	1	1	0	1	0
-91	__constStr0026	7	0	184	4	1
-92	__constStr0026.__constStr0026_type	1	1	0	1	0
-93	__constStr0027	7	0	186	4	1
-94	__constStr0027.__constStr0027_type	1	1	0	1	0
-95	__area_2	7	0	188	4	2
-96	__area_2.__area_2_type	1	0	0	1	0
-97	__constStr0025	7	0	190	4	1
-98	__constStr0025.__constStr0025_type	1	1	0	1	0
-99	__constStr0022	7	0	192	4	1
-100	__constStr0022.__constStr0022_type	1	1	0	1	0
-101	__constStr0023	7	0	194	4	1
-102	__constStr0023.__constStr0023_type	1	1	0	1	0
-103	__constStr0024	7	0	196	4	1
-104	__constStr0024.__constStr0024_type	1	1	0	1	0
-105	L	7	0	198	4	1
-106	L.L_type	4	0	0	2	0
-107	J	7	0	200	4	1
-108	J.J_type	4	0	0	2	0
-109	O	7	0	202	4	1
-110	O.O_type	4	0	0	2	0
-111	T	7	0	204	4	1
-112	T.T_type	4	0	0	2	0
-113	S	7	0	206	4	1
-114	S.S_type	4	0	0	2	0
-115	I	7	0	208	4	1
-116	I.I_type	4	0	0	2	0
-117	__ArrHelper__selectGame_244_0	7	0	210	4	16
-118	__ArrHelper__selectGame_244_0.__ArrHelper__selectGame_244_0_type	1	0	0	1	0
-119	__IOMWFlattenBuf	7	0	212	4	8
-120	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
-121	__ArrHelper__selectGame_244_1	7	0	214	4	16
-122	__ArrHelper__selectGame_244_1.__ArrHelper__selectGame_244_1_type	1	0	0	1	0
-123	__strretvalselectGame	7	0	216	4	16
-124	__strretvalselectGame.__strretvalselectGame_type	1	0	0	1	0
-125	__strbufselectGame	7	0	218	4	82
-126	__strbufselectGame.__strbufselectGame_type	1	0	0	1	0
-127	__constStr0012	7	0	220	4	2
-128	__constStr0012.__constStr0012_type	1	1	0	1	0
-129	__constStr0011	7	0	222	4	1
-130	__constStr0011.__constStr0011_type	1	1	0	1	0
-131	__constStr0013	7	0	224	4	1
-132	__constStr0013.__constStr0013_type	1	1	0	1	0
-133	__constStr0015	7	0	226	4	2
-134	__constStr0015.__constStr0015_type	1	1	0	1	0
-135	__constStr0014	7	0	228	4	2
-136	__constStr0014.__constStr0014_type	1	1	0	1	0
-137	__constStr0010	7	0	230	4	4
-138	__constStr0010.__constStr0010_type	1	1	0	1	0
-139	accesshigh	7	0	232	4	17
-140	accesshigh.accesshigh_type	1	0	0	1	0
-141	Z	7	0	234	4	1
-142	Z.Z_type	4	0	0	2	0
-143	area	7	0	236	4	1
-144	area.area_type	7	0	0	4	0
-145	area.area_type.area_type_type	1	0	0	1	0
-146	__constStr0009	7	0	238	4	1
+0	__DU0senseButton	5	1	0	4	4
+1	__D0senseButton	6	1	4	4	67
+2	__signed_stack_001getInput	6	1	8	4	16
+3	__signed_stack_001pieceCreate	6	1	12	4	8
+4	__signed_stack_001main	6	1	16	4	2
+5	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	20	4	2
+6	__D0main	6	1	24	4	19
+7	__D0getInput	6	1	28	4	36
+8	__DU0main	5	1	32	4	8
+9	__D0selectGame	6	1	36	4	198
+10	__D0pieceCreate	6	1	40	4	14
+11	__signed_stack_002pieceCreate	6	1	44	4	2
+12	__constValf0P9	10	0	48	4	1
+13	speedup	10	1	52	4	3
+14	__constValf0P9375	10	0	56	4	1
+15	__constValf0P975	10	0	60	4	1
+16	__Wait_7qG2_ms_7qG2_000_inline_selectGame	5	1	64	4	4
+17	__constVal65536	6	0	68	4	1
+18	__signed_stack_002selectGame	6	1	72	4	40
+19	__signed_stack_001selectGame	6	1	76	4	148
+20	__signed_stack_003selectGame	6	1	80	4	8
+21	__signed_stack_001senseButton	6	1	84	4	20
+22	__signed_stack_004selectGame	6	1	88	4	4
+23	__constVal32768	6	0	92	4	1
+24	__RBtnMutex	9	0	96	4	24
+25	__IOMWMutex	9	0	100	4	8
+26	__DU0checkFullRows	5	1	104	4	2
+27	__RandomTmp	5	1	108	4	6
+28	gamespeed	4	1	112	2	5
+29	__senseButton_7qG2_val_7qG2_000	4	1	114	2	15
+30	prevC	4	1	116	2	5
+31	delaytime	4	1	118	2	4
+32	__senseButton_7qG2_lu_7qG2_000	4	1	120	2	4
+33	__senseButton_7qG2_rd_7qG2_000	4	1	122	2	4
+34	__pieceCreate_7qG2_i_7qG2_001	4	1	124	2	6
+35	__pieceCreate_7qG2_create_7qG2_000	4	1	126	2	3
+36	__senseButton_7qG2_add_7qG2_000	4	1	128	2	4
+37	__senseButton_7qG2_high_7qG2_000	4	1	130	2	6
+38	gametype	4	1	132	2	9
+39	__main_7qG2_i_7qG2_004	4	1	134	2	4
+40	__constVal200	4	0	136	2	6
+41	__pieceCreate_7qG2_rndm_7qG2_000	4	1	138	2	2
+42	prevE	4	1	140	2	5
+43	__constVal1	2	0	142	1	33
+44	__constVal0	2	1	143	1	37
+45	____initialize_global_data_return	1	1	144	1	3
+46	__checkFullRows_7qG2_anyFullRows_7qG2_000	1	1	145	1	2
+47	__checkFullRows_return	1	1	146	1	4
+48	__getInput_return	1	1	147	1	3
+49	__pieceCreate_return	1	1	148	1	3
+50	__selectGame_return	1	1	149	1	3
+51	__constVal3	2	0	150	1	1
+52	__constVal4	2	0	151	1	2
+53	__PFTmp	1	1	152	1	1
+54	__constVal7	2	0	153	1	1
+55	__senseButton_7qG2_lr_ud_7qG2_000	1	1	154	1	3
+56	__constVal25	2	0	155	1	1
+57	__constVal10	2	0	156	1	1
+58	__constVal2	2	0	157	1	8
+59	__senseButton_7qG2_cut_7qG2_000	1	1	158	1	3
+60	__constVal40	2	0	159	1	4
+61	__main_7qG2_alive_7qG2_000	1	1	160	1	2
+62	__main_7qG2_playagain_7qG2_000	1	1	161	1	2
+63	__senseButton_return	1	1	162	1	5
+64	__constValNeg1	2	0	163	1	4
+65	__main_7qG2_piecemoving_7qG2_000	1	1	164	1	2
+66	__IOMWArgs	8	0	4	16	16
+67	__IOMWArgs.Result	2	1	168	1	16
+68	__IOMWArgs.ModuleName	7	0	170	4	16
+69	__IOMWArgs.ModuleName.ModuleName_type	1	0	0	1	0
+70	__IOMWArgs.Offset	3	1	172	2	16
+71	__IOMWArgs.Buffer	7	0	174	4	16
+72	__IOMWArgs.Buffer.Buffer_type	1	0	0	1	0
+73	__PointOutArgs	8	0	3	12	12
+74	__PointOutArgs.Result	2	1	176	1	12
+75	__PointOutArgs.Location	8	0	2	4	12
+76	__PointOutArgs.Location.X	4	1	180	2	12
+77	__PointOutArgs.Location.Y	4	1	182	2	12
+78	__PointOutArgs.Options	5	1	184	4	12
+79	__TextOutArgs	8	0	4	16	82
+80	__TextOutArgs.Result	2	1	188	1	82
+81	__TextOutArgs.Location	8	0	2	4	82
+82	__TextOutArgs.Location.X	4	1	192	2	82
+83	__TextOutArgs.Location.Y	4	1	194	2	82
+84	__TextOutArgs.Text	7	0	196	4	82
+85	__TextOutArgs.Text.Text_type	1	0	0	1	0
+86	__TextOutArgs.Options	5	1	200	4	82
+87	__RectOutArgs	8	0	4	16	12
+88	__RectOutArgs.Result	2	1	204	1	12
+89	__RectOutArgs.Location	8	0	2	4	12
+90	__RectOutArgs.Location.X	4	1	208	2	12
+91	__RectOutArgs.Location.Y	4	1	210	2	12
+92	__RectOutArgs.Size	8	0	2	4	12
+93	__RectOutArgs.Size.Width	4	1	212	2	12
+94	__RectOutArgs.Size.Height	4	1	214	2	12
+95	__RectOutArgs.Options	5	1	216	4	12
+96	__RandomArgs	8	0	1	4	2
+97	__RandomArgs.Result	4	1	220	2	2
+98	__RBtnArgs	8	0	5	8	48
+99	__RBtnArgs.Result	2	1	224	1	48
+100	__RBtnArgs.Index	1	1	225	1	48
+101	__RBtnArgs.Pressed	1	1	226	1	48
+102	__RBtnArgs.Count	1	1	227	1	48
+103	__RBtnArgs.Reset	1	1	228	1	48
+104	__area_2	7	0	230	4	2
+105	__area_2.__area_2_type	1	0	0	1	0
+106	__constStr0022	7	0	232	4	1
+107	__constStr0022.__constStr0022_type	1	1	0	1	0
+108	__constStr0021	7	0	234	4	1
+109	__constStr0021.__constStr0021_type	1	1	0	1	0
+110	__constStr0023	7	0	236	4	1
+111	__constStr0023.__constStr0023_type	1	1	0	1	0
+112	__constStr0027	7	0	238	4	1
+113	__constStr0027.__constStr0027_type	1	1	0	1	0
+114	__constStr0028	7	0	240	4	1
+115	__constStr0028.__constStr0028_type	1	1	0	1	0
+116	__constStr0026	7	0	242	4	1
+117	__constStr0026.__constStr0026_type	1	1	0	1	0
+118	__constStr0024	7	0	244	4	1
+119	__constStr0024.__constStr0024_type	1	1	0	1	0
+120	__constStr0025	7	0	246	4	1
+121	__constStr0025.__constStr0025_type	1	1	0	1	0
+122	O	7	0	248	4	1
+123	O.O_type	4	0	0	2	0
+124	L	7	0	250	4	1
+125	L.L_type	4	0	0	2	0
+126	J	7	0	252	4	1
+127	J.J_type	4	0	0	2	0
+128	S	7	0	254	4	1
+129	S.S_type	4	0	0	2	0
+130	accesshigh	7	0	256	4	17
+131	accesshigh.accesshigh_type	1	0	0	1	0
+132	Z	7	0	258	4	1
+133	Z.Z_type	4	0	0	2	0
+134	T	7	0	260	4	1
+135	T.T_type	4	0	0	2	0
+136	__ArrHelper__selectGame_244_1	7	0	262	4	16
+137	__ArrHelper__selectGame_244_1.__ArrHelper__selectGame_244_1_type	1	0	0	1	0
+138	__ArrHelper__selectGame_244_0	7	0	264	4	16
+139	__ArrHelper__selectGame_244_0.__ArrHelper__selectGame_244_0_type	1	0	0	1	0
+140	__IOMWFlattenBuf	7	0	266	4	8
+141	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+142	__strbufselectGame	7	0	268	4	82
+143	__strbufselectGame.__strbufselectGame_type	1	0	0	1	0
+144	I	7	0	270	4	1
+145	I.I_type	4	0	0	2	0
+146	__constStr0009	7	0	272	4	4
 147	__constStr0009.__constStr0009_type	1	1	0	1	0
-148	allow	7	0	240	4	1
-149	allow.allow_type	1	0	0	1	0
+148	__strretvalselectGame	7	0	274	4	16
+149	__strretvalselectGame.__strretvalselectGame_type	1	0	0	1	0
+150	__constStr0016	7	0	276	4	2
+151	__constStr0016.__constStr0016_type	1	1	0	1	0
+152	__constStr0015	7	0	278	4	2
+153	__constStr0015.__constStr0015_type	1	1	0	1	0
+154	__constStr0014	7	0	280	4	1
+155	__constStr0014.__constStr0014_type	1	1	0	1	0
+156	__constStr0017	7	0	282	4	1
+157	__constStr0017.__constStr0017_type	1	1	0	1	0
+158	__constStr0020	7	0	284	4	1
+159	__constStr0020.__constStr0020_type	1	1	0	1	0
+160	__constStr0019	7	0	286	4	1
+161	__constStr0019.__constStr0019_type	1	1	0	1	0
+162	__constStr0018	7	0	288	4	1
+163	__constStr0018.__constStr0018_type	1	1	0	1	0
+164	chnc	7	0	290	4	83
+165	chnc.chnc_type	4	0	0	2	0
+166	area	7	0	292	4	1
+167	area.area_type	7	0	0	4	0
+168	area.area_type.area_type_type	1	0	0	1	0
+169	fullRowArray	7	0	294	4	1
+170	fullRowArray.fullRowArray_type	4	0	0	2	0
+171	__constStr0010	7	0	296	4	1
+172	__constStr0010.__constStr0010_type	1	1	0	1	0
+173	__constStr0013	7	0	298	4	2
+174	__constStr0013.__constStr0013_type	1	1	0	1	0
+175	__constStr0012	7	0	300	4	1
+176	__constStr0012.__constStr0012_type	1	1	0	1	0
+177	__constStr0011	7	0	302	4	4
+178	__constStr0011.__constStr0011_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	140	0	#line 140 "C:\Github\NXC_Source\#Tetris.nxc"
-0	141	0	#pragma macro 7
-0	140	0	#line 140 "C:\Github\NXC_Source\#Tetris.nxc"
-0	140	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	140	2	#line 140 "C:\Github\NXC_Source\#Tetris.nxc"
-0	141	2	#line 141 "C:\Github\NXC_Source\#Tetris.nxc"
-0	141	2		set __D0main, 1
-0	142	5	#line 142 "C:\Github\NXC_Source\#Tetris.nxc"
-0	143	5		tst 5, __D0main, __D0main
-0	142	8	#line 142 "C:\Github\NXC_Source\#Tetris.nxc"
-0	143	8		brtst 4, __ASM_Label_902, __D0main
-0	142	11	#line 142 "C:\Github\NXC_Source\#Tetris.nxc"
-0	143	11	#pragma macro 8
-0	143	11		acquire __IOMWMutex
-0	143	12		mov __IOMWBIArgs.ModuleID, __constVal786433
-0	143	14		mov __IOMWBIArgs.Offset, __constVal40
-0	143	16		flatten __IOMWFlattenBuf, __constVal4
-0	143	19		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-0	143	22		syscall 79, __IOMWBIArgs
-0	143	25		release __IOMWMutex
-0	7744	26	#line 7744 "C:\Github\NXC_Source\#Tetris.nxc"
-0	143	26	#line 143 "C:\Github\NXC_Source\#Tetris.nxc"
-0	144	26	#line 144 "C:\Github\NXC_Source\#Tetris.nxc"
-0	145	26		jmp __ASM_Label_903
-0	144	28	#line 144 "C:\Github\NXC_Source\#Tetris.nxc"
-0	145	28	#pragma macro 8
-0	145	28		acquire __IOMWMutex
-0	145	29		mov __IOMWBIArgs.ModuleID, __constVal786433
-0	145	31		mov __IOMWBIArgs.Offset, __constVal40
-0	145	33		flatten __IOMWFlattenBuf, __constVal1
-0	145	36		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-0	145	39		syscall 79, __IOMWBIArgs
-0	145	42		release __IOMWMutex
-0	7750	43	#line 7750 "C:\Github\NXC_Source\#Tetris.nxc"
-0	145	43	#line 145 "C:\Github\NXC_Source\#Tetris.nxc"
-0	146	43	#line 146 "C:\Github\NXC_Source\#Tetris.nxc"
-0	147	43	#line 147 "C:\Github\NXC_Source\#Tetris.nxc"
-0	148	43		set __D0main, 0
-0	139	46	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	139	46	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	139	46	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	140	46		tst 5, __D0main, __D0main
-0	139	49	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	140	49		brtst 4, __ASM_Label_899, __D0main
-0	139	52	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	140	52		jmp __ASM_Label_898
-0	139	54	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	139	54	#line 139 "C:\Github\NXC_Source\#Tetris.nxc"
-0	142	54	#line 142 "C:\Github\NXC_Source\#Tetris.nxc"
-0	140	54	#line 140 "C:\Github\NXC_Source\#Tetris.nxc"
-0	142	54	#line 142 "C:\Github\NXC_Source\#Tetris.nxc"
-0	143	54		subcall selectGame, __selectGame_return
-0	142	56	#line 142 "C:\Github\NXC_Source\#Tetris.nxc"
-0	145	56	#line 145 "C:\Github\NXC_Source\#Tetris.nxc"
-0	146	56		set __main_7qG2_playagain_7qG2_000, 1
-0	145	59	#line 145 "C:\Github\NXC_Source\#Tetris.nxc"
-0	145	59	#line 145 "C:\Github\NXC_Source\#Tetris.nxc"
-0	147	59	#line 147 "C:\Github\NXC_Source\#Tetris.nxc"
-0	148	59		mov __DU0main, __main_7qG2_playagain_7qG2_000
-0	150	61	#line 150 "C:\Github\NXC_Source\#Tetris.nxc"
-0	151	61		tst 5, __D0main, __DU0main
-0	150	64	#line 150 "C:\Github\NXC_Source\#Tetris.nxc"
-0	151	64		brtst 4, __ASM_Label_909, __D0main
-0	150	67	#line 150 "C:\Github\NXC_Source\#Tetris.nxc"
-0	151	67		set __main_7qG2_alive_7qG2_000, 1
-0	150	70	#line 150 "C:\Github\NXC_Source\#Tetris.nxc"
-0	150	70	#line 150 "C:\Github\NXC_Source\#Tetris.nxc"
-0	152	70	#line 152 "C:\Github\NXC_Source\#Tetris.nxc"
-0	153	70		mov __DU0main, __main_7qG2_alive_7qG2_000
-0	153	72	#line 153 "C:\Github\NXC_Source\#Tetris.nxc"
-0	154	72		tst 5, __D0main, __DU0main
-0	153	75	#line 153 "C:\Github\NXC_Source\#Tetris.nxc"
-0	154	75		brtst 4, __ASM_Label_915, __D0main
-0	153	78	#line 153 "C:\Github\NXC_Source\#Tetris.nxc"
-0	154	78		set __main_7qG2_piecemoving_7qG2_000, 1
-0	153	81	#line 153 "C:\Github\NXC_Source\#Tetris.nxc"
-0	153	81	#line 153 "C:\Github\NXC_Source\#Tetris.nxc"
-0	155	81	#line 155 "C:\Github\NXC_Source\#Tetris.nxc"
-0	156	81		mov __DU0main, __main_7qG2_piecemoving_7qG2_000
-0	159	83	#line 159 "C:\Github\NXC_Source\#Tetris.nxc"
-0	160	83		tst 5, __D0main, __DU0main
-0	159	86	#line 159 "C:\Github\NXC_Source\#Tetris.nxc"
-0	160	86		brtst 4, __ASM_Label_921, __D0main
-0	161	89	#line 161 "C:\Github\NXC_Source\#Tetris.nxc"
-0	162	89		jmp __ASM_Label_920
-0	161	91	#line 161 "C:\Github\NXC_Source\#Tetris.nxc"
-0	162	91	#line 162 "C:\Github\NXC_Source\#Tetris.nxc"
-0	163	91		set __D0main, 1
-0	166	94	#line 166 "C:\Github\NXC_Source\#Tetris.nxc"
-0	167	94		tst 5, __D0main, __D0main
-0	166	97	#line 166 "C:\Github\NXC_Source\#Tetris.nxc"
-0	169	97	#line 169 "C:\Github\NXC_Source\#Tetris.nxc"
-0	170	97	#line 170 "C:\Github\NXC_Source\#Tetris.nxc"
-0	171	97		jmp __ASM_Label_914
-0	170	99	#line 170 "C:\Github\NXC_Source\#Tetris.nxc"
-0	176	99	#line 176 "C:\Github\NXC_Source\#Tetris.nxc"
-0	177	99		jmp __ASM_Label_908
-0	176	101	#line 176 "C:\Github\NXC_Source\#Tetris.nxc"
-0	177	101		exit -1, -1
-1	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+0	240	0	#line 240 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	241	0	#pragma macro 7
+0	240	0	#line 240 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	240	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	240	2	#line 240 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	241	2	#line 241 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	241	2		set __D0main, 1
+0	242	5	#line 242 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	243	5		tst 5, __D0main, __D0main
+0	242	8	#line 242 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	243	8		brtst 4, __ASM_Label_1085, __D0main
+0	242	11	#line 242 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	243	11	#pragma macro 8
+0	243	11		acquire __IOMWMutex
+0	243	12		mov __IOMWArgs.ModuleName, __constStr0009
+0	243	14		mov __IOMWArgs.Offset, __constVal40
+0	243	16		flatten __IOMWFlattenBuf, __constVal4
+0	243	19		strtoarr __IOMWArgs.Buffer, __IOMWFlattenBuf
+0	243	22		syscall 33, __IOMWArgs
+0	243	25		release __IOMWMutex
+0	6763	26	#line 6763 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	243	26	#line 243 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	244	26	#line 244 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	245	26		jmp __ASM_Label_1086
+0	244	28	#line 244 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	245	28	#pragma macro 8
+0	245	28		acquire __IOMWMutex
+0	245	29		mov __IOMWArgs.ModuleName, __constStr0009
+0	245	31		mov __IOMWArgs.Offset, __constVal40
+0	245	33		flatten __IOMWFlattenBuf, __constVal1
+0	245	36		strtoarr __IOMWArgs.Buffer, __IOMWFlattenBuf
+0	245	39		syscall 33, __IOMWArgs
+0	245	42		release __IOMWMutex
+0	6769	43	#line 6769 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	245	43	#line 245 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	246	43	#line 246 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	247	43	#line 247 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	248	43		set __D0main, 0
+0	239	46	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	239	46	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	239	46	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	240	46		tst 5, __D0main, __D0main
+0	239	49	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	240	49		brtst 4, __ASM_Label_1082, __D0main
+0	239	52	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	240	52		jmp __ASM_Label_1081
+0	239	54	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	239	54	#line 239 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	240	54	#line 240 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	240	54	#line 240 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	242	54	#line 242 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	243	54		set __main_7qG2_playagain_7qG2_000, 1
+0	242	57	#line 242 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	242	57	#line 242 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	244	57	#line 244 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	245	57		mov __DU0main, __main_7qG2_playagain_7qG2_000
+0	245	59	#line 245 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	246	59		tst 5, __D0main, __DU0main
+0	245	62	#line 245 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	246	62		brtst 4, __ASM_Label_1092, __D0main
+0	245	65	#line 245 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	246	65		subcall selectGame, __selectGame_return
+0	245	67	#line 245 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	247	67	#line 247 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	248	67		set __main_7qG2_alive_7qG2_000, 1
+0	247	70	#line 247 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	247	70	#line 247 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	249	70	#line 249 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	250	70		mov __DU0main, __main_7qG2_alive_7qG2_000
+0	250	72	#line 250 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	251	72		tst 5, __D0main, __DU0main
+0	250	75	#line 250 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	251	75		brtst 4, __ASM_Label_1098, __D0main
+0	250	78	#line 250 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	251	78		subcall pieceCreate, __pieceCreate_return
+0	250	80	#line 250 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	251	80	#line 251 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	252	80		set __main_7qG2_piecemoving_7qG2_000, 1
+0	251	83	#line 251 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	251	83	#line 251 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	253	83	#line 253 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	254	83		mov __DU0main, __main_7qG2_piecemoving_7qG2_000
+0	254	85	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	85		tst 5, __D0main, __DU0main
+0	254	88	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	88		brtst 4, __ASM_Label_1104, __D0main
+0	254	91	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	91		set __main_7qG2_i_7qG2_004, 0
+0	254	94	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	254	94	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	94		mov __signed_stack_001main, __main_7qG2_i_7qG2_004
+0	254	96	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	254	96	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	96		mov __D0main, delaytime
+0	254	98	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	98		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	254	102	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	102		brtst 4, __ASM_Label_1108, __D0main
+0	254	105	#line 254 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	255	105		jmp __ASM_Label_1109
+0	255	107	#line 255 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	256	107		add __main_7qG2_i_7qG2_004, __main_7qG2_i_7qG2_004, __constVal1
+0	256	111	#line 256 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	257	111		jmp __ASM_Label_1107
+0	256	113	#line 256 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	257	113		subcall getInput, __getInput_return
+0	256	115	#line 256 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	257	115	#line 257 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	258	115		set __Wait_7qG2_ms_7qG2_000_inline_main, 10
+0	257	118	#line 257 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	8771	118	#line 8771 "NXCDefs.h"
+0	8772	118		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	121	#line 8771 "NXCDefs.h"
+0	257	121	#line 257 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	262	121	#line 262 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	263	121		jmp __ASM_Label_1110
+0	262	123	#line 262 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	262	123	#line 262 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	263	123		jmp __ASM_Label_1103
+0	262	125	#line 262 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	263	125	#line 263 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	264	125		subcall checkFullRows, __checkFullRows_return
+0	263	127	#line 263 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	264	127		mov __DU0main, __DU0checkFullRows
+0	267	129	#line 267 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	268	129		tst 5, __D0main, __DU0main
+0	267	132	#line 267 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	270	132	#line 270 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	271	132	#line 271 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	272	132		jmp __ASM_Label_1097
+0	271	134	#line 271 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	277	134	#line 277 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	278	134		jmp __ASM_Label_1091
+0	277	136	#line 277 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+0	278	136		exit -1, -1
+1	4	0	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
 1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
-1	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	2	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
 1	5	2		tst 5, __D0senseButton, __DU0senseButton
-1	4	5	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	5	5		brtst 4, __ASM_Label_606, __D0senseButton
-1	4	8	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	5	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
+1	5	5		brtst 4, __ASM_Label_550, __D0senseButton
+1	4	8	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
 1	5	8		set __senseButton_7qG2_lu_7qG2_000, 2
-1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
 1	5	11		set __senseButton_7qG2_rd_7qG2_000, 1
-1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	14	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	14		jmp __ASM_Label_611
-1	6	16	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	14	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
+1	4	14	#line 4 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	14	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	14		jmp __ASM_Label_555
+1	6	16	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
 1	7	16		set __senseButton_7qG2_lu_7qG2_000, 3
-1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
 1	7	19		set __senseButton_7qG2_rd_7qG2_000, 0
-1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	8	22	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	22	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	22	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	8	22	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	22	#pragma macro 7
-1	9	22	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	22		set __D0senseButton, 1
-1	10	25	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	25	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	25		tst 5, __D0senseButton, __D0senseButton
-1	10	28	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	10	28		brtst 4, __ASM_Label_620, __D0senseButton
-1	10	31	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	28	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
+1	10	28		brtst 4, __ASM_Label_564, __D0senseButton
+1	10	31	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	31	#pragma macro 8
 1	11	31		acquire __IOMWMutex
-1	11	32		mov __IOMWBIArgs.ModuleID, __constVal786433
-1	11	34		mov __IOMWBIArgs.Offset, __constVal40
+1	11	32		mov __IOMWArgs.ModuleName, __constStr0009
+1	11	34		mov __IOMWArgs.Offset, __constVal40
 1	11	36		flatten __IOMWFlattenBuf, __constVal4
-1	11	39		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-1	11	42		syscall 79, __IOMWBIArgs
+1	11	39		strtoarr __IOMWArgs.Buffer, __IOMWFlattenBuf
+1	11	42		syscall 33, __IOMWArgs
 1	11	45		release __IOMWMutex
-1	6118	46	#line 6118 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	11	46	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	46	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	46		jmp __ASM_Label_621
-1	12	48	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4286	46	#line 4286 "C:\Github\NXC_Source\+Button+-.nxc"
+1	11	46	#line 11 "C:\Github\NXC_Source\+Button+-.nxc"
+1	12	46	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	46		jmp __ASM_Label_565
+1	12	48	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	48	#pragma macro 8
 1	13	48		acquire __IOMWMutex
-1	13	49		mov __IOMWBIArgs.ModuleID, __constVal786433
-1	13	51		mov __IOMWBIArgs.Offset, __constVal40
+1	13	49		mov __IOMWArgs.ModuleName, __constStr0009
+1	13	51		mov __IOMWArgs.Offset, __constVal40
 1	13	53		flatten __IOMWFlattenBuf, __constVal1
-1	13	56		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-1	13	59		syscall 79, __IOMWBIArgs
+1	13	56		strtoarr __IOMWArgs.Buffer, __IOMWFlattenBuf
+1	13	59		syscall 33, __IOMWArgs
 1	13	62		release __IOMWMutex
-1	6124	63	#line 6124 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	63	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	63	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	63	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4292	63	#line 4292 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	63	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
+1	14	63	#line 14 "C:\Github\NXC_Source\+Button+-.nxc"
+1	15	63	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
 1	16	63		set __D0senseButton, 0
-1	6	66	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	66	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	66	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	66	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	66	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	66	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
 1	7	66		tst 5, __D0senseButton, __D0senseButton
-1	6	69	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	69		brtst 4, __ASM_Label_617, __D0senseButton
-1	6	72	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	72		jmp __ASM_Label_616
-1	6	74	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	6	74	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	69	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	69		brtst 4, __ASM_Label_561, __D0senseButton
+1	6	72	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	72		jmp __ASM_Label_560
+1	6	74	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	6	74	#line 6 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	74	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	74	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	74	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	74	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	74		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
-1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	76	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	76	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	76		mov __D0senseButton, __constVal0
-1	7	78	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	78	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	78		acquire __RBtnMutex
-1	7	79	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	79	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	79		mov __RBtnArgs.Index, __signed_stack_001senseButton
-1	7	81	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	81	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	81		mov __RBtnArgs.Reset, __D0senseButton
-1	7	83	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	83	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	83		syscall 20, __RBtnArgs
-1	7	86	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	86	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	86		mov __D0senseButton, __RBtnArgs.Pressed
-1	7	88	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	88	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	88		release __RBtnMutex
-1	7	89	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	89	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	89		tst 5, __D0senseButton, __D0senseButton
-1	7	92	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	8	92		brtst 4, __ASM_Label_628, __D0senseButton
-1	7	95	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	7	95	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	92	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	8	92		brtst 4, __ASM_Label_572, __D0senseButton
+1	7	95	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	7	95	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
 1	8	95		sub __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
-1	7	99	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	8	99	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	8	99	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	99	#line 7 "C:\Github\NXC_Source\+Button+-.nxc"
+1	8	99	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
+1	8	99	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	99		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
-1	8	101	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	8	101	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	101	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
+1	8	101	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	101		mov __D0senseButton, __constVal0
-1	8	103	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	103	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	103		acquire __RBtnMutex
-1	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	104	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	104		mov __RBtnArgs.Index, __signed_stack_001senseButton
-1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	106	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	106		mov __RBtnArgs.Reset, __D0senseButton
-1	8	108	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	108	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	108		syscall 20, __RBtnArgs
-1	8	111	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	111	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	111		mov __D0senseButton, __RBtnArgs.Pressed
-1	8	113	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	113	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	113		release __RBtnMutex
-1	8	114	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	114	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	114		mov __signed_stack_001senseButton, __D0senseButton
-1	8	116	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	116	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	116		set __D0senseButton, 0
-1	8	119	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	119	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	119		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	8	123	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	123	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	123		not __D0senseButton, __D0senseButton
-1	8	126	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	126	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
 1	9	126		tst 5, __D0senseButton, __D0senseButton
-1	8	129	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	9	129		brtst 4, __ASM_Label_632, __D0senseButton
-1	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	10	132		jmp __ASM_Label_631
-1	9	134	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	9	134	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	129	#line 8 "C:\Github\NXC_Source\+Button+-.nxc"
+1	9	129		brtst 4, __ASM_Label_576, __D0senseButton
+1	9	132	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
+1	10	132		jmp __ASM_Label_575
+1	9	134	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
+1	9	134	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	134		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
-1	9	136	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	9	136	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	136	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
+1	9	136	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	136		mov __D0senseButton, __constVal0
-1	9	138	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	138	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	138		acquire __RBtnMutex
-1	9	139	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	139	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	139		mov __RBtnArgs.Index, __signed_stack_001senseButton
-1	9	141	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	141	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	141		mov __RBtnArgs.Reset, __D0senseButton
-1	9	143	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	143	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	143		syscall 20, __RBtnArgs
-1	9	146	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	146	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	146		mov __D0senseButton, __RBtnArgs.Pressed
-1	9	148	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	148	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	148		release __RBtnMutex
-1	9	149	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	149	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	149		tst 5, __D0senseButton, __D0senseButton
-1	9	152	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	10	152		brtst 4, __ASM_Label_643, __D0senseButton
-1	9	155	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	9	155	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	152	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
+1	10	152		brtst 4, __ASM_Label_587, __D0senseButton
+1	9	155	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
+1	9	155	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
 1	10	155		add __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
-1	9	159	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	10	159	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	10	159	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	159	#line 9 "C:\Github\NXC_Source\+Button+-.nxc"
+1	10	159	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
+1	10	159	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	159		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
-1	10	161	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	10	161	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	161	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
+1	10	161	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	161		mov __D0senseButton, __constVal0
-1	10	163	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	163	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	163		acquire __RBtnMutex
-1	10	164	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	164	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	164		mov __RBtnArgs.Index, __signed_stack_001senseButton
-1	10	166	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	166	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	166		mov __RBtnArgs.Reset, __D0senseButton
-1	10	168	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	168	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	168		syscall 20, __RBtnArgs
-1	10	171	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	171	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	171		mov __D0senseButton, __RBtnArgs.Pressed
-1	10	173	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	173	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	173		release __RBtnMutex
-1	10	174	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	174	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	174		mov __signed_stack_001senseButton, __D0senseButton
-1	10	176	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	176	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	176		set __D0senseButton, 0
-1	10	179	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	179	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	179		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	10	183	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	183	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	183		not __D0senseButton, __D0senseButton
-1	10	186	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	186	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
 1	11	186		tst 5, __D0senseButton, __D0senseButton
-1	10	189	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	11	189		brtst 4, __ASM_Label_647, __D0senseButton
-1	11	192	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	192		jmp __ASM_Label_646
-1	11	194	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	194	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	189	#line 10 "C:\Github\NXC_Source\+Button+-.nxc"
+1	11	189		brtst 4, __ASM_Label_591, __D0senseButton
+1	11	192	#line 11 "C:\Github\NXC_Source\+Button+-.nxc"
+1	12	192		jmp __ASM_Label_590
+1	11	194	#line 11 "C:\Github\NXC_Source\+Button+-.nxc"
+1	12	194	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	194		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
-1	12	196	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	196	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	196		tst 5, __D0senseButton, __DU0senseButton
-1	12	199	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	199		brtst 4, __ASM_Label_656, __D0senseButton
-1	12	202	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	199	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	199		brtst 4, __ASM_Label_600, __D0senseButton
+1	12	202	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	202		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	12	204	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	204	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	204	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
+1	12	204	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	204		set __D0senseButton, 0
-1	12	207	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	207	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	207		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	12	211	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	211		brtst 4, __ASM_Label_659, __D0senseButton
-1	12	214	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	211	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	211		brtst 4, __ASM_Label_603, __D0senseButton
+1	12	214	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
 1	13	214		set __senseButton_7qG2_val_7qG2_000, 0
-1	12	217	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	217	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	217	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	217	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	217	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
+1	12	217	#line 12 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	217	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	217	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
 1	14	217		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	13	219	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	219	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	219	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	219	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
 1	14	219		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
-1	13	221	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	221	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
 1	14	221		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	13	225	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	225		brtst 4, __ASM_Label_664, __D0senseButton
-1	13	228	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	225	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
+1	14	225		brtst 4, __ASM_Label_608, __D0senseButton
+1	13	228	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
 1	14	228		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
-1	13	230	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	230	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	230	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	230		jmp __ASM_Label_667
-1	15	232	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	230	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
+1	13	230	#line 13 "C:\Github\NXC_Source\+Button+-.nxc"
+1	14	230	#line 14 "C:\Github\NXC_Source\+Button+-.nxc"
+1	15	230	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
+1	16	230		jmp __ASM_Label_611
+1	15	232	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
 1	16	232		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	15	234	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	234	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	234	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
+1	15	234	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
 1	16	234		set __D0senseButton, 0
-1	15	237	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	237	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
 1	16	237		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	15	241	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	241		brtst 4, __ASM_Label_670, __D0senseButton
-1	15	244	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	241	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
+1	16	241		brtst 4, __ASM_Label_614, __D0senseButton
+1	15	244	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
 1	16	244		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
-1	15	246	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	246	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	246	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	246	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	246	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
+1	15	246	#line 15 "C:\Github\NXC_Source\+Button+-.nxc"
+1	16	246	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
+1	16	246	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
 1	17	246		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	16	248	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	248	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	248	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
+1	16	248	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
 1	17	248		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
-1	16	250	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	250	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
 1	17	250		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	16	254	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	254		brtst 4, __ASM_Label_675, __D0senseButton
-1	16	257	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	254	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
+1	17	254		brtst 4, __ASM_Label_619, __D0senseButton
+1	16	257	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
 1	17	257		set __senseButton_7qG2_val_7qG2_000, 0
-1	16	260	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	260	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	260	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	260	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	260	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	260	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
+1	16	260	#line 16 "C:\Github\NXC_Source\+Button+-.nxc"
+1	17	260	#line 17 "C:\Github\NXC_Source\+Button+-.nxc"
+1	17	260	#line 17 "C:\Github\NXC_Source\+Button+-.nxc"
+1	17	260	#line 17 "C:\Github\NXC_Source\+Button+-.nxc"
 1	18	260		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
-1	17	262	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	262	#line 17 "C:\Github\NXC_Source\+Button+-.nxc"
 1	18	262		subret __senseButton_return
-1	17	264	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	19	264	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	264	#line 17 "C:\Github\NXC_Source\+Button+-.nxc"
+1	19	264	#line 19 "C:\Github\NXC_Source\+Button+-.nxc"
 1	20	264		subret __senseButton_return
-2	53	0	#line 53 "C:\Github\NXC_Source\#Tetris.nxc"
-2	54	0		strcat __strbufselectGame, __constStr0009
-2	53	4	#line 53 "C:\Github\NXC_Source\#Tetris.nxc"
-2	54	4		mov accesshigh, __strbufselectGame
-2	53	6	#line 53 "C:\Github\NXC_Source\#Tetris.nxc"
-2	54	6	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	6		set __signed_stack_001selectGame, 1
-2	54	9	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	54	9	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	9		mov __D0selectGame, __constVal0
-2	54	11	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	11		acquire __RBtnMutex
-2	54	12	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	12		mov __RBtnArgs.Index, __signed_stack_001selectGame
-2	54	14	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	14		mov __RBtnArgs.Reset, __D0selectGame
-2	54	16	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	16		syscall 20, __RBtnArgs
-2	54	19	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	19		mov __D0selectGame, __RBtnArgs.Pressed
-2	54	21	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	21		release __RBtnMutex
-2	54	22	#line 54 "C:\Github\NXC_Source\#Tetris.nxc"
-2	55	22		mov __signed_stack_001selectGame, __D0selectGame
-2	55	24	#line 55 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	24		set __D0selectGame, 0
-2	55	27	#line 55 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	27		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	56	31	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	31		brtst 4, __ASM_Label_681, __D0selectGame
-2	56	34	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	34		mov __senseButton_7qG2_val_7qG2_000, gamespeed
-2	56	36	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	36	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	36		set __senseButton_7qG2_lr_ud_7qG2_000, 0
-2	56	39	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	39	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	39		set __senseButton_7qG2_add_7qG2_000, 1
-2	56	42	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	42	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	42		set __senseButton_7qG2_high_7qG2_000, 2
-2	56	45	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	45	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	45		set __senseButton_7qG2_cut_7qG2_000, 0
-2	56	48	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	48	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	48		subcall senseButton, __senseButton_return
-2	56	50	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	57	50		mov gametype, __D0senseButton
-2	56	52	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
-2	56	52	#line 56 "C:\Github\NXC_Source\#Tetris.nxc"
+2	68	0	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	69	0		strcat __strbufselectGame, __constStr0010
+2	68	4	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	69	4		mov accesshigh, __strbufselectGame
+2	68	6	#line 68 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	69	6	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	6		set __signed_stack_001selectGame, 1
+2	69	9	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	69	9	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	9		mov __D0selectGame, __constVal0
+2	69	11	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	11		acquire __RBtnMutex
+2	69	12	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	12		mov __RBtnArgs.Index, __signed_stack_001selectGame
+2	69	14	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	14		mov __RBtnArgs.Reset, __D0selectGame
+2	69	16	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	16		syscall 20, __RBtnArgs
+2	69	19	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	19		mov __D0selectGame, __RBtnArgs.Pressed
+2	69	21	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	21		release __RBtnMutex
+2	69	22	#line 69 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	70	22		mov __signed_stack_001selectGame, __D0selectGame
+2	70	24	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	24		set __D0selectGame, 0
+2	70	27	#line 70 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	27		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	71	31	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	31		brtst 4, __ASM_Label_625, __D0selectGame
+2	71	34	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	34		mov __senseButton_7qG2_val_7qG2_000, gamespeed
+2	71	36	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	36	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	36		set __senseButton_7qG2_lr_ud_7qG2_000, 0
+2	71	39	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	39	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	39		set __senseButton_7qG2_add_7qG2_000, 1
+2	71	42	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	42	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	42		set __senseButton_7qG2_high_7qG2_000, 2
+2	71	45	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	45	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	45		set __senseButton_7qG2_cut_7qG2_000, 0
+2	71	48	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	48	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	48		subcall senseButton, __senseButton_return
+2	71	50	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	72	50		mov gametype, __D0senseButton
+2	71	52	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	71	52	#line 71 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
 2	6896	52	#line 6896 "NXCDefs.h"
 2	6897	52	#pragma macro 6
 2	6897	52		mov __PointOutArgs.Location.X, __constVal200
 2	6897	54		mov __PointOutArgs.Location.Y, __constVal200
 2	6897	56		mov __PointOutArgs.Options, __constVal1
 2	6897	58		syscall 14, __PointOutArgs
-2	6550	61	#line 6550 "NXCDefs.h"
+2	4754	61	#line 4754 "NXCDefs.h"
 2	6896	61	#line 6896 "NXCDefs.h"
-2	57	61	#line 57 "C:\Github\NXC_Source\#Tetris.nxc"
-2	58	61	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	61		set __signed_stack_001selectGame, 35
-2	58	64	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	58	64	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	64		set __signed_stack_002selectGame, 56
-2	58	67	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	58	67	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	67		strcat __strbufselectGame, __constStr0010
-2	58	71	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	71		set __D0selectGame, 0
-2	58	74	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	58	74	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	74		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	58	76	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	76		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	58	78	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	78		mov __TextOutArgs.Options, __D0selectGame
-2	58	80	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	80		mov __TextOutArgs.Text, __strbufselectGame
-2	58	82	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	82		syscall 13, __TextOutArgs
-2	58	85	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	58	85	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	58	85	#line 58 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	85	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	85		set __signed_stack_001selectGame, 2
-2	59	88	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	88	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	88		set __signed_stack_002selectGame, 48
-2	59	91	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	91	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	91		strcat __strbufselectGame, __constStr0011
-2	59	95	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	95		set __D0selectGame, 0
-2	59	98	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	98	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	98		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	59	100	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	100		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	59	102	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	102		mov __TextOutArgs.Options, __D0selectGame
-2	59	104	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	104		mov __TextOutArgs.Text, __strbufselectGame
-2	59	106	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	106		syscall 13, __TextOutArgs
-2	59	109	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	109	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	59	109	#line 59 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	109	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	109		set __signed_stack_001selectGame, 2
-2	60	112	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	112	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	112		set __signed_stack_002selectGame, 40
-2	60	115	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	115	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	115		strcat __strbufselectGame, __constStr0012
-2	60	119	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	119		set __D0selectGame, 0
-2	60	122	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	122	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	122		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	60	124	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	124		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	60	126	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	126		mov __TextOutArgs.Options, __D0selectGame
-2	60	128	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	128		mov __TextOutArgs.Text, __strbufselectGame
-2	60	130	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	130		syscall 13, __TextOutArgs
-2	60	133	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	133	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	60	133	#line 60 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	133	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	133		set __signed_stack_001selectGame, 2
-2	61	136	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	136	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	136		set __signed_stack_002selectGame, 32
-2	61	139	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	139	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	139		strcat __strbufselectGame, __constStr0013
-2	61	143	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	143		set __D0selectGame, 0
-2	61	146	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	146	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	146		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	61	148	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	148		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	61	150	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	150		mov __TextOutArgs.Options, __D0selectGame
-2	61	152	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	152		mov __TextOutArgs.Text, __strbufselectGame
-2	61	154	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	154		syscall 13, __TextOutArgs
-2	61	157	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	157	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	61	157	#line 61 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	157	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	157		set __signed_stack_001selectGame, 2
-2	62	160	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	160	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	160		set __signed_stack_002selectGame, 24
-2	62	163	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	163	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	163		strcat __strbufselectGame, __constStr0014
-2	62	167	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	167		set __D0selectGame, 0
-2	62	170	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	170	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	170		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	62	172	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	172		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	62	174	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	174		mov __TextOutArgs.Options, __D0selectGame
-2	62	176	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	176		mov __TextOutArgs.Text, __strbufselectGame
-2	62	178	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	178		syscall 13, __TextOutArgs
-2	62	181	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	181	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	62	181	#line 62 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	181	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	181		set __signed_stack_001selectGame, 88
-2	63	184	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	184	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	184		set __signed_stack_002selectGame, 0
-2	63	187	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	187	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	187		strcat __strbufselectGame, __constStr0015
-2	63	191	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	191		set __D0selectGame, 0
-2	63	194	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	194	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	194		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	63	196	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	196		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	63	198	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	198		mov __TextOutArgs.Options, __D0selectGame
-2	63	200	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	200		mov __TextOutArgs.Text, __strbufselectGame
-2	63	202	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	202		syscall 13, __TextOutArgs
-2	63	205	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	205	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	63	205	#line 63 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	205	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	205		set __signed_stack_001selectGame, 0
-2	64	208	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	208	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	208		set __signed_stack_002selectGame, 40
-2	64	211	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	211	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	211		mov __signed_stack_003selectGame, gamespeed
-2	64	213	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	213	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	213		set __D0selectGame, 8
-2	64	216	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	216		mul __D0selectGame, __signed_stack_003selectGame, __D0selectGame
-2	64	220	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	220		sub __signed_stack_002selectGame, __signed_stack_002selectGame, __D0selectGame
-2	64	224	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	224	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	224		set __signed_stack_003selectGame, 49
-2	64	227	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	227	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	227		set __signed_stack_004selectGame, 8
-2	64	230	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	230	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	230		set __D0selectGame, 0
-2	64	233	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	233	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	233		mov __RectOutArgs.Location.X, __signed_stack_001selectGame
-2	64	235	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	235		mov __RectOutArgs.Location.Y, __signed_stack_002selectGame
-2	64	237	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	237		mov __RectOutArgs.Size.Width, __signed_stack_003selectGame
-2	64	239	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	239		mov __RectOutArgs.Size.Height, __signed_stack_004selectGame
-2	64	241	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	241		mov __RectOutArgs.Options, __D0selectGame
-2	64	243	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	243		syscall 17, __RectOutArgs
-2	64	246	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	246	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	64	246	#line 64 "C:\Github\NXC_Source\#Tetris.nxc"
-2	65	246	#line 65 "C:\Github\NXC_Source\#Tetris.nxc"
-2	66	246		set __Wait_7qG2_ms_7qG2_000_inline_selectGame, 50
-2	65	249	#line 65 "C:\Github\NXC_Source\#Tetris.nxc"
+2	72	61	#line 72 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	61	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	61		set __signed_stack_001selectGame, 35
+2	73	64	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	64	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	64		set __signed_stack_002selectGame, 56
+2	73	67	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	67	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	67		strcat __strbufselectGame, __constStr0011
+2	73	71	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	71		set __D0selectGame, 0
+2	73	74	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	74	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	74		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	73	76	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	76		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	73	78	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	78		mov __TextOutArgs.Options, __D0selectGame
+2	73	80	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	80		mov __TextOutArgs.Text, __strbufselectGame
+2	73	82	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	82		syscall 13, __TextOutArgs
+2	73	85	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	85	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	73	85	#line 73 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	85	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	85		set __signed_stack_001selectGame, 2
+2	74	88	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	88	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	88		set __signed_stack_002selectGame, 48
+2	74	91	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	91	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	91		strcat __strbufselectGame, __constStr0012
+2	74	95	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	95		set __D0selectGame, 0
+2	74	98	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	98	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	98		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	74	100	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	100		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	74	102	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	102		mov __TextOutArgs.Options, __D0selectGame
+2	74	104	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	104		mov __TextOutArgs.Text, __strbufselectGame
+2	74	106	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	106		syscall 13, __TextOutArgs
+2	74	109	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	109	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	74	109	#line 74 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	109	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	109		set __signed_stack_001selectGame, 2
+2	75	112	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	112	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	112		set __signed_stack_002selectGame, 40
+2	75	115	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	115	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	115		strcat __strbufselectGame, __constStr0013
+2	75	119	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	119		set __D0selectGame, 0
+2	75	122	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	122	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	122		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	75	124	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	124		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	75	126	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	126		mov __TextOutArgs.Options, __D0selectGame
+2	75	128	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	128		mov __TextOutArgs.Text, __strbufselectGame
+2	75	130	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	130		syscall 13, __TextOutArgs
+2	75	133	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	133	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	75	133	#line 75 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	133	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	133		set __signed_stack_001selectGame, 2
+2	76	136	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	136	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	136		set __signed_stack_002selectGame, 32
+2	76	139	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	139	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	139		strcat __strbufselectGame, __constStr0014
+2	76	143	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	143		set __D0selectGame, 0
+2	76	146	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	146	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	146		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	76	148	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	148		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	76	150	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	150		mov __TextOutArgs.Options, __D0selectGame
+2	76	152	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	152		mov __TextOutArgs.Text, __strbufselectGame
+2	76	154	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	154		syscall 13, __TextOutArgs
+2	76	157	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	157	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	76	157	#line 76 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	157	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	157		set __signed_stack_001selectGame, 2
+2	77	160	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	160	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	160		set __signed_stack_002selectGame, 24
+2	77	163	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	163	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	163		strcat __strbufselectGame, __constStr0015
+2	77	167	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	167		set __D0selectGame, 0
+2	77	170	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	170	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	170		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	77	172	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	172		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	77	174	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	174		mov __TextOutArgs.Options, __D0selectGame
+2	77	176	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	176		mov __TextOutArgs.Text, __strbufselectGame
+2	77	178	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	178		syscall 13, __TextOutArgs
+2	77	181	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	181	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	77	181	#line 77 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	181	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	181		set __signed_stack_001selectGame, 88
+2	78	184	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	184	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	184		set __signed_stack_002selectGame, 0
+2	78	187	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	187	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	187		strcat __strbufselectGame, __constStr0016
+2	78	191	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	191		set __D0selectGame, 0
+2	78	194	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	194	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	194		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	78	196	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	196		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	78	198	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	198		mov __TextOutArgs.Options, __D0selectGame
+2	78	200	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	200		mov __TextOutArgs.Text, __strbufselectGame
+2	78	202	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	202		syscall 13, __TextOutArgs
+2	78	205	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	205	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	78	205	#line 78 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	205	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	205		set __signed_stack_001selectGame, 0
+2	79	208	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	208	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	208		set __signed_stack_002selectGame, 40
+2	79	211	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	211	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	211		mov __signed_stack_003selectGame, gamespeed
+2	79	213	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	213	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	213		set __D0selectGame, 8
+2	79	216	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	216		mul __D0selectGame, __signed_stack_003selectGame, __D0selectGame
+2	79	220	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	220		sub __signed_stack_002selectGame, __signed_stack_002selectGame, __D0selectGame
+2	79	224	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	224	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	224		set __signed_stack_003selectGame, 49
+2	79	227	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	227	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	227		set __signed_stack_004selectGame, 8
+2	79	230	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	230	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	230		set __D0selectGame, 0
+2	79	233	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	233	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	233		mov __RectOutArgs.Location.X, __signed_stack_001selectGame
+2	79	235	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	235		mov __RectOutArgs.Location.Y, __signed_stack_002selectGame
+2	79	237	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	237		mov __RectOutArgs.Size.Width, __signed_stack_003selectGame
+2	79	239	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	239		mov __RectOutArgs.Size.Height, __signed_stack_004selectGame
+2	79	241	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	241		mov __RectOutArgs.Options, __D0selectGame
+2	79	243	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	243		syscall 17, __RectOutArgs
+2	79	246	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	246	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	79	246	#line 79 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	80	246	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	81	246		set __Wait_7qG2_ms_7qG2_000_inline_selectGame, 50
+2	80	249	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
 2	8771	249	#line 8771 "NXCDefs.h"
-2	8772	249		waitv __Wait_7qG2_ms_7qG2_000_inline_selectGame
-2	8771	251	#line 8771 "NXCDefs.h"
-2	65	251	#line 65 "C:\Github\NXC_Source\#Tetris.nxc"
-2	67	251	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	251		jmp __ASM_Label_680
-2	67	253	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	67	253	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	253		set __signed_stack_001selectGame, 35
-2	67	256	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	67	256	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	256		set __signed_stack_002selectGame, 56
-2	67	259	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	67	259	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	259		strcat __strbufselectGame, __constStr0010
-2	67	263	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	263		set __D0selectGame, 0
-2	67	266	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	67	266	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	266		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	67	268	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	268		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	67	270	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	270		mov __TextOutArgs.Options, __D0selectGame
-2	67	272	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	272		mov __TextOutArgs.Text, __strbufselectGame
-2	67	274	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	274		syscall 13, __TextOutArgs
-2	67	277	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	277		mov __D0selectGame, __TextOutArgs.Result
-2	67	279	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	67	279	#line 67 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	279	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	279		set __signed_stack_001selectGame, 1
-2	68	282	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	68	282	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	282		mov __D0selectGame, __constVal0
-2	68	284	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	284		acquire __RBtnMutex
-2	68	285	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	285		mov __RBtnArgs.Index, __signed_stack_001selectGame
-2	68	287	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	287		mov __RBtnArgs.Reset, __D0selectGame
-2	68	289	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	289		syscall 20, __RBtnArgs
-2	68	292	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	292		mov __D0selectGame, __RBtnArgs.Pressed
-2	68	294	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	294		release __RBtnMutex
-2	68	295	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	295		mov __signed_stack_001selectGame, __D0selectGame
-2	68	297	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	297		set __D0selectGame, 0
-2	68	300	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	300		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	68	304	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	304		not __D0selectGame, __D0selectGame
-2	68	307	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	307		tst 5, __D0selectGame, __D0selectGame
-2	68	310	#line 68 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	310		brtst 4, __ASM_Label_755, __D0selectGame
-2	69	313	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	313		jmp __ASM_Label_754
-2	69	315	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	315	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	315		set __signed_stack_001selectGame, 1
-2	69	318	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	69	318	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	318		mov __D0selectGame, __constVal0
-2	69	320	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	320		acquire __RBtnMutex
-2	69	321	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	321		mov __RBtnArgs.Index, __signed_stack_001selectGame
-2	69	323	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	323		mov __RBtnArgs.Reset, __D0selectGame
-2	69	325	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	325		syscall 20, __RBtnArgs
-2	69	328	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	328		mov __D0selectGame, __RBtnArgs.Pressed
-2	69	330	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	330		release __RBtnMutex
-2	69	331	#line 69 "C:\Github\NXC_Source\#Tetris.nxc"
-2	70	331		mov __signed_stack_001selectGame, __D0selectGame
-2	70	333	#line 70 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	333		set __D0selectGame, 0
-2	70	336	#line 70 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	336		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	71	340	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	340		brtst 4, __ASM_Label_763, __D0selectGame
-2	71	343	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	343		mov __senseButton_7qG2_val_7qG2_000, gametype
-2	71	345	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	345	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	345		set __senseButton_7qG2_lr_ud_7qG2_000, 0
-2	71	348	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	348	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	348		set __senseButton_7qG2_add_7qG2_000, 1
-2	71	351	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	351	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	351		set __senseButton_7qG2_high_7qG2_000, 3
-2	71	354	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	354	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	354		set __senseButton_7qG2_cut_7qG2_000, 0
-2	71	357	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	357	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	357		subcall senseButton, __senseButton_return
-2	71	359	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	72	359		mov gametype, __D0senseButton
-2	71	361	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	71	361	#line 71 "C:\Github\NXC_Source\#Tetris.nxc"
-2	6896	361	#line 6896 "NXCDefs.h"
-2	6897	361	#pragma macro 6
-2	6897	361		mov __PointOutArgs.Location.X, __constVal200
-2	6897	363		mov __PointOutArgs.Location.Y, __constVal200
-2	6897	365		mov __PointOutArgs.Options, __constVal1
-2	6897	367		syscall 14, __PointOutArgs
-2	6973	370	#line 6973 "NXCDefs.h"
-2	6896	370	#line 6896 "NXCDefs.h"
-2	72	370	#line 72 "C:\Github\NXC_Source\#Tetris.nxc"
-2	73	370	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	370		set __signed_stack_001selectGame, 35
-2	73	373	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	73	373	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	373		set __signed_stack_002selectGame, 56
-2	73	376	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	73	376	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	376		strcat __strbufselectGame, __constStr0010
-2	73	380	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	380		set __D0selectGame, 0
-2	73	383	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	73	383	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	383		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	73	385	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	385		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	73	387	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	387		mov __TextOutArgs.Options, __D0selectGame
-2	73	389	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	389		mov __TextOutArgs.Text, __strbufselectGame
-2	73	391	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	391		syscall 13, __TextOutArgs
-2	73	394	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	73	394	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	73	394	#line 73 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	394	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	394		set __signed_stack_001selectGame, 2
-2	74	397	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	397	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	397		set __signed_stack_002selectGame, 48
-2	74	400	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	400	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	400		strcat __strbufselectGame, __constStr0016
-2	74	404	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	404		set __D0selectGame, 0
-2	74	407	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	407	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	407		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	74	409	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	409		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	74	411	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	411		mov __TextOutArgs.Options, __D0selectGame
-2	74	413	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	413		mov __TextOutArgs.Text, __strbufselectGame
-2	74	415	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	415		syscall 13, __TextOutArgs
-2	74	418	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	418	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	74	418	#line 74 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	418	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	418		set __signed_stack_001selectGame, 2
-2	75	421	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	421	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	421		set __signed_stack_002selectGame, 40
-2	75	424	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	424	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	424		strcat __strbufselectGame, __constStr0017
-2	75	428	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	428		set __D0selectGame, 0
-2	75	431	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	431	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	431		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	75	433	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	433		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	75	435	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	435		mov __TextOutArgs.Options, __D0selectGame
-2	75	437	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	437		mov __TextOutArgs.Text, __strbufselectGame
-2	75	439	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	439		syscall 13, __TextOutArgs
-2	75	442	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	442	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	75	442	#line 75 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	442	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	442		set __signed_stack_001selectGame, 2
-2	76	445	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	445	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	445		set __signed_stack_002selectGame, 32
-2	76	448	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	448	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	448		strcat __strbufselectGame, __constStr0018
-2	76	452	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	452		set __D0selectGame, 0
-2	76	455	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	455	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	455		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	76	457	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	457		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	76	459	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	459		mov __TextOutArgs.Options, __D0selectGame
-2	76	461	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	461		mov __TextOutArgs.Text, __strbufselectGame
-2	76	463	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	463		syscall 13, __TextOutArgs
-2	76	466	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	466	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	76	466	#line 76 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	466	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	466		set __signed_stack_001selectGame, 2
-2	77	469	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	469	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	469		set __signed_stack_002selectGame, 24
-2	77	472	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	472	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	472		strcat __strbufselectGame, __constStr0019
-2	77	476	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	476		set __D0selectGame, 0
-2	77	479	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	479	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	479		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	77	481	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	481		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	77	483	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	483		mov __TextOutArgs.Options, __D0selectGame
-2	77	485	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	485		mov __TextOutArgs.Text, __strbufselectGame
-2	77	487	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	487		syscall 13, __TextOutArgs
-2	77	490	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	490	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	77	490	#line 77 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	490	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	490		set __signed_stack_001selectGame, 2
-2	78	493	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	493	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	493		set __signed_stack_002selectGame, 16
-2	78	496	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	496	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	496		strcat __strbufselectGame, __constStr0020
-2	78	500	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	500		set __D0selectGame, 0
-2	78	503	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	503	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	503		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	78	505	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	505		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	78	507	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	507		mov __TextOutArgs.Options, __D0selectGame
-2	78	509	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	509		mov __TextOutArgs.Text, __strbufselectGame
-2	78	511	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	511		syscall 13, __TextOutArgs
-2	78	514	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	514	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	78	514	#line 78 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	514	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	514		set __signed_stack_001selectGame, 2
-2	79	517	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	517	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	517		set __signed_stack_002selectGame, 8
-2	79	520	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	520	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	520		strcat __strbufselectGame, __constStr0021
-2	79	524	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	524		set __D0selectGame, 0
-2	79	527	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	527	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	527		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	79	529	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	529		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	79	531	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	531		mov __TextOutArgs.Options, __D0selectGame
-2	79	533	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	533		mov __TextOutArgs.Text, __strbufselectGame
-2	79	535	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	535		syscall 13, __TextOutArgs
-2	79	538	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	538	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	79	538	#line 79 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	538	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	538		set __signed_stack_001selectGame, 88
-2	80	541	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	541	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	541		set __signed_stack_002selectGame, 0
-2	80	544	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	544	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	544		strcat __strbufselectGame, __constStr0015
-2	80	548	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	548		set __D0selectGame, 0
-2	80	551	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	551	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	551		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	80	553	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	553		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	80	555	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	555		mov __TextOutArgs.Options, __D0selectGame
-2	80	557	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	557		mov __TextOutArgs.Text, __strbufselectGame
-2	80	559	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	559		syscall 13, __TextOutArgs
-2	80	562	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	562	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	80	562	#line 80 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	562	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	562		set __signed_stack_001selectGame, 0
-2	81	565	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	565	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	565		set __signed_stack_002selectGame, 40
-2	81	568	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	568	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	568		mov __signed_stack_003selectGame, gametype
-2	81	570	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	570	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	570		set __D0selectGame, 8
-2	81	573	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	573		mul __D0selectGame, __signed_stack_003selectGame, __D0selectGame
-2	81	577	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	577		sub __signed_stack_002selectGame, __signed_stack_002selectGame, __D0selectGame
-2	81	581	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	581	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	581		set __signed_stack_003selectGame, 49
-2	81	584	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	584	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	584		set __signed_stack_004selectGame, 8
-2	81	587	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	587	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	587		set __D0selectGame, 0
-2	81	590	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	590	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	590		mov __RectOutArgs.Location.X, __signed_stack_001selectGame
-2	81	592	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	592		mov __RectOutArgs.Location.Y, __signed_stack_002selectGame
-2	81	594	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	594		mov __RectOutArgs.Size.Width, __signed_stack_003selectGame
-2	81	596	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	596		mov __RectOutArgs.Size.Height, __signed_stack_004selectGame
-2	81	598	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	598		mov __RectOutArgs.Options, __D0selectGame
-2	81	600	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	600		syscall 17, __RectOutArgs
-2	81	603	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	603	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	81	603	#line 81 "C:\Github\NXC_Source\#Tetris.nxc"
-2	82	603	#line 82 "C:\Github\NXC_Source\#Tetris.nxc"
-2	83	603		set __Wait_7qG2_ms_7qG2_000_inline_selectGame, 50
-2	82	606	#line 82 "C:\Github\NXC_Source\#Tetris.nxc"
-2	8771	606	#line 8771 "NXCDefs.h"
-2	8772	606		waitv __Wait_7qG2_ms_7qG2_000_inline_selectGame
-2	8771	608	#line 8771 "NXCDefs.h"
-2	82	608	#line 82 "C:\Github\NXC_Source\#Tetris.nxc"
-2	84	608	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	608		jmp __ASM_Label_762
-2	84	610	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	84	610	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	610		set __signed_stack_001selectGame, 35
-2	84	613	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	84	613	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	613		set __signed_stack_002selectGame, 56
-2	84	616	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	84	616	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	616		strcat __strbufselectGame, __constStr0010
-2	84	620	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	620		set __D0selectGame, 0
-2	84	623	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	84	623	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	623		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
-2	84	625	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	625		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
-2	84	627	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	627		mov __TextOutArgs.Options, __D0selectGame
-2	84	629	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	629		mov __TextOutArgs.Text, __strbufselectGame
-2	84	631	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	631		syscall 13, __TextOutArgs
-2	84	634	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	634		mov __D0selectGame, __TextOutArgs.Result
-2	84	636	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	84	636	#line 84 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	636	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	636		set __signed_stack_001selectGame, 1
-2	85	639	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	85	639	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	639		mov __D0selectGame, __constVal0
-2	85	641	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	641		acquire __RBtnMutex
-2	85	642	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	642		mov __RBtnArgs.Index, __signed_stack_001selectGame
-2	85	644	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	644		mov __RBtnArgs.Reset, __D0selectGame
-2	85	646	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	646		syscall 20, __RBtnArgs
-2	85	649	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	649		mov __D0selectGame, __RBtnArgs.Pressed
-2	85	651	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	651		release __RBtnMutex
-2	85	652	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	652		mov __signed_stack_001selectGame, __D0selectGame
-2	85	654	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	654		set __D0selectGame, 0
-2	85	657	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	657		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	85	661	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	661		not __D0selectGame, __D0selectGame
-2	85	664	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	664		tst 5, __D0selectGame, __D0selectGame
-2	85	667	#line 85 "C:\Github\NXC_Source\#Tetris.nxc"
-2	86	667		brtst 4, __ASM_Label_849, __D0selectGame
-2	97	670	#line 97 "C:\Github\NXC_Source\#Tetris.nxc"
-2	98	670		jmp __ASM_Label_848
-2	97	672	#line 97 "C:\Github\NXC_Source\#Tetris.nxc"
-2	97	672	#line 97 "C:\Github\NXC_Source\#Tetris.nxc"
-2	98	672		mov __signed_stack_001selectGame, gamespeed
-2	97	674	#line 97 "C:\Github\NXC_Source\#Tetris.nxc"
-2	98	674	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	674		set __D0selectGame, 0
-2	98	677	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	677		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	98	681	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	681		brtst 4, __ASM_Label_858, __D0selectGame
-2	98	684	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	684		strcat __strbufselectGame, accesshigh
-2	98	688	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	688		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	98	690	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	690		strcat __strbufselectGame, __constStr0012
-2	98	694	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	694		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	98	696	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	696		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	98	701	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	701		strcat __strbufselectGame, __strretvalselectGame
-2	98	705	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	705		mov accesshigh, __strbufselectGame
-2	98	707	#line 98 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	707	#line 99 "C:\Github\NXC_Source\#Tetris.nxc"
-2	100	707		mov speedup, __constValf0P975
-2	99	709	#line 99 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	709	#line 99 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	709	#line 99 "C:\Github\NXC_Source\#Tetris.nxc"
-2	100	709		set delaytime, 200
-2	99	712	#line 99 "C:\Github\NXC_Source\#Tetris.nxc"
-2	99	712	#line 99 "C:\Github\NXC_Source\#Tetris.nxc"
-2	100	712	#line 100 "C:\Github\NXC_Source\#Tetris.nxc"
-2	101	712		jmp __ASM_Label_863
-2	100	714	#line 100 "C:\Github\NXC_Source\#Tetris.nxc"
-2	101	714		mov __signed_stack_001selectGame, gamespeed
-2	100	716	#line 100 "C:\Github\NXC_Source\#Tetris.nxc"
-2	101	716	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	716		set __D0selectGame, 1
-2	101	719	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	719		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	101	723	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	723		brtst 4, __ASM_Label_866, __D0selectGame
-2	101	726	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	726		strcat __strbufselectGame, accesshigh
-2	101	730	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	730		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	101	732	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	732		strcat __strbufselectGame, __constStr0022
-2	101	736	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	736		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	101	738	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	738		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	101	743	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	743		strcat __strbufselectGame, __strretvalselectGame
-2	101	747	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	747		mov accesshigh, __strbufselectGame
-2	101	749	#line 101 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	749	#line 102 "C:\Github\NXC_Source\#Tetris.nxc"
-2	103	749		mov speedup, __constValf0P9375
-2	102	751	#line 102 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	751	#line 102 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	751	#line 102 "C:\Github\NXC_Source\#Tetris.nxc"
-2	103	751		set delaytime, 140
-2	102	754	#line 102 "C:\Github\NXC_Source\#Tetris.nxc"
-2	102	754	#line 102 "C:\Github\NXC_Source\#Tetris.nxc"
-2	103	754	#line 103 "C:\Github\NXC_Source\#Tetris.nxc"
-2	104	754		jmp __ASM_Label_871
-2	103	756	#line 103 "C:\Github\NXC_Source\#Tetris.nxc"
-2	104	756		mov __signed_stack_001selectGame, gamespeed
-2	103	758	#line 103 "C:\Github\NXC_Source\#Tetris.nxc"
-2	104	758	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	758		set __D0selectGame, 2
-2	104	761	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	761		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	104	765	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	765		brtst 4, __ASM_Label_874, __D0selectGame
-2	104	768	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	768		strcat __strbufselectGame, accesshigh
-2	104	772	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	772		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	104	774	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	774		strcat __strbufselectGame, __constStr0014
-2	104	778	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	778		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	104	780	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	780		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	104	785	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	785		strcat __strbufselectGame, __strretvalselectGame
-2	104	789	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	789		mov accesshigh, __strbufselectGame
-2	104	791	#line 104 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	791	#line 105 "C:\Github\NXC_Source\#Tetris.nxc"
-2	106	791		mov speedup, __constValf0P9
-2	105	793	#line 105 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	793	#line 105 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	793	#line 105 "C:\Github\NXC_Source\#Tetris.nxc"
-2	106	793		set delaytime, 80
-2	105	796	#line 105 "C:\Github\NXC_Source\#Tetris.nxc"
-2	105	796	#line 105 "C:\Github\NXC_Source\#Tetris.nxc"
-2	107	796	#line 107 "C:\Github\NXC_Source\#Tetris.nxc"
-2	107	796	#line 107 "C:\Github\NXC_Source\#Tetris.nxc"
-2	107	796	#line 107 "C:\Github\NXC_Source\#Tetris.nxc"
-2	107	796	#line 107 "C:\Github\NXC_Source\#Tetris.nxc"
-2	108	796		mov __signed_stack_001selectGame, gametype
-2	107	798	#line 107 "C:\Github\NXC_Source\#Tetris.nxc"
-2	108	798	#line 108 "C:\Github\NXC_Source\#Tetris.nxc"
-2	109	798		set __D0selectGame, 0
-2	108	801	#line 108 "C:\Github\NXC_Source\#Tetris.nxc"
-2	109	801		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	109	805	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	805		brtst 4, __ASM_Label_881, __D0selectGame
-2	109	808	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	808		strcat __strbufselectGame, accesshigh
-2	109	812	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	812		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	109	814	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	814		strcat __strbufselectGame, __constStr0023
-2	109	818	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	818		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	109	820	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	820		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	109	825	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	825		strcat __strbufselectGame, __strretvalselectGame
-2	109	829	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	110	829		mov accesshigh, __strbufselectGame
-2	109	831	#line 109 "C:\Github\NXC_Source\#Tetris.nxc"
-2	112	831	#line 112 "C:\Github\NXC_Source\#Tetris.nxc"
-2	113	831		jmp __ASM_Label_882
-2	112	833	#line 112 "C:\Github\NXC_Source\#Tetris.nxc"
-2	113	833		mov __signed_stack_001selectGame, gametype
-2	112	835	#line 112 "C:\Github\NXC_Source\#Tetris.nxc"
-2	113	835	#line 113 "C:\Github\NXC_Source\#Tetris.nxc"
-2	114	835		set __D0selectGame, 1
-2	113	838	#line 113 "C:\Github\NXC_Source\#Tetris.nxc"
-2	114	838		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	114	842	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	842		brtst 4, __ASM_Label_885, __D0selectGame
-2	114	845	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	845		strcat __strbufselectGame, accesshigh
-2	114	849	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	849		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	114	851	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	851		strcat __strbufselectGame, __constStr0024
-2	114	855	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	855		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	114	857	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	857		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	114	862	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	862		strcat __strbufselectGame, __strretvalselectGame
-2	114	866	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	115	866		mov accesshigh, __strbufselectGame
-2	114	868	#line 114 "C:\Github\NXC_Source\#Tetris.nxc"
-2	117	868	#line 117 "C:\Github\NXC_Source\#Tetris.nxc"
-2	118	868		jmp __ASM_Label_886
-2	117	870	#line 117 "C:\Github\NXC_Source\#Tetris.nxc"
-2	118	870		mov __signed_stack_001selectGame, gametype
-2	117	872	#line 117 "C:\Github\NXC_Source\#Tetris.nxc"
-2	118	872	#line 118 "C:\Github\NXC_Source\#Tetris.nxc"
-2	119	872		set __D0selectGame, 2
-2	118	875	#line 118 "C:\Github\NXC_Source\#Tetris.nxc"
-2	119	875		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	119	879	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	879		brtst 4, __ASM_Label_889, __D0selectGame
-2	119	882	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	882		strcat __strbufselectGame, accesshigh
-2	119	886	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	886		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	119	888	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	888		strcat __strbufselectGame, __constStr0025
-2	119	892	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	892		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	119	894	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	894		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	119	899	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	899		strcat __strbufselectGame, __strretvalselectGame
-2	119	903	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	120	903		mov accesshigh, __strbufselectGame
-2	119	905	#line 119 "C:\Github\NXC_Source\#Tetris.nxc"
-2	122	905	#line 122 "C:\Github\NXC_Source\#Tetris.nxc"
-2	123	905		jmp __ASM_Label_890
-2	122	907	#line 122 "C:\Github\NXC_Source\#Tetris.nxc"
-2	123	907		mov __signed_stack_001selectGame, gametype
-2	122	909	#line 122 "C:\Github\NXC_Source\#Tetris.nxc"
-2	123	909	#line 123 "C:\Github\NXC_Source\#Tetris.nxc"
-2	124	909		set __D0selectGame, 3
-2	123	912	#line 123 "C:\Github\NXC_Source\#Tetris.nxc"
-2	124	912		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	124	916	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	916		brtst 4, __ASM_Label_893, __D0selectGame
-2	124	919	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	919		strcat __strbufselectGame, accesshigh
-2	124	923	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	923		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	124	925	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	925		strcat __strbufselectGame, __constStr0026
-2	124	929	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	929		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	124	931	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	931		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	124	936	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	936		strcat __strbufselectGame, __strretvalselectGame
-2	124	940	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	125	940		mov accesshigh, __strbufselectGame
-2	124	942	#line 124 "C:\Github\NXC_Source\#Tetris.nxc"
-2	127	942	#line 127 "C:\Github\NXC_Source\#Tetris.nxc"
-2	128	942		jmp __ASM_Label_894
-2	127	944	#line 127 "C:\Github\NXC_Source\#Tetris.nxc"
-2	128	944		mov __signed_stack_001selectGame, gametype
-2	127	946	#line 127 "C:\Github\NXC_Source\#Tetris.nxc"
-2	128	946	#line 128 "C:\Github\NXC_Source\#Tetris.nxc"
-2	129	946		set __D0selectGame, 4
-2	128	949	#line 128 "C:\Github\NXC_Source\#Tetris.nxc"
-2	129	949		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
-2	129	953	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	953		brtst 4, __ASM_Label_897, __D0selectGame
-2	129	956	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	956		strcat __strbufselectGame, accesshigh
-2	129	960	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	960		mov __ArrHelper__selectGame_244_0, __strbufselectGame
-2	129	962	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	962		strcat __strbufselectGame, __constStr0027
-2	129	966	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	966		mov __ArrHelper__selectGame_244_1, __strbufselectGame
-2	129	968	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	968		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
-2	129	973	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	973		strcat __strbufselectGame, __strretvalselectGame
-2	129	977	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	130	977		mov accesshigh, __strbufselectGame
-2	129	979	#line 129 "C:\Github\NXC_Source\#Tetris.nxc"
-2	132	979	#line 132 "C:\Github\NXC_Source\#Tetris.nxc"
-2	132	979	#line 132 "C:\Github\NXC_Source\#Tetris.nxc"
-2	132	979	#line 132 "C:\Github\NXC_Source\#Tetris.nxc"
-2	132	979	#line 132 "C:\Github\NXC_Source\#Tetris.nxc"
-2	132	979	#line 132 "C:\Github\NXC_Source\#Tetris.nxc"
-2	6896	979	#line 6896 "NXCDefs.h"
-2	6897	979	#pragma macro 6
-2	6897	979		mov __PointOutArgs.Location.X, __constVal200
-2	6897	981		mov __PointOutArgs.Location.Y, __constVal200
-2	6897	983		mov __PointOutArgs.Options, __constVal1
-2	6897	985		syscall 14, __PointOutArgs
-2	7722	988	#line 7722 "NXCDefs.h"
-2	6896	988	#line 6896 "NXCDefs.h"
-2	132	988	#line 132 "C:\Github\NXC_Source\#Tetris.nxc"
-2	136	988	#line 136 "C:\Github\NXC_Source\#Tetris.nxc"
-2	137	988		subret __selectGame_return
-3	177	0	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	0		arrbuild I, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal1, __constVal2, __constVal3
-3	177	11	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	11		arrbuild J, __constVal1, __constVal1, __constVal1, __constVal0, __constVal0, __constVal1, __constVal2, __constVal2
-3	177	22	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	22		arrbuild L, __constVal0, __constVal0, __constVal0, __constVal1, __constVal0, __constVal1, __constVal2, __constVal2
-3	177	33	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	33		arrbuild O, __constVal0, __constVal0, __constVal1, __constVal1, __constVal0, __constVal1, __constVal0, __constVal1
-3	177	44	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	44		arrbuild S, __constVal2, __constVal1, __constVal1, __constVal0, __constVal0, __constVal0, __constVal1, __constVal1
-3	177	55	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	55		arrbuild T, __constVal0, __constVal1, __constVal1, __constVal1, __constVal1, __constVal0, __constVal1, __constVal2
-3	177	66	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	66		arrbuild Z, __constVal0, __constVal1, __constVal1, __constVal2, __constVal0, __constVal0, __constVal1, __constVal1
-3	177	77	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	177	77	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	77		arrinit __area_2, __constVal0, __constVal25
-3	177	81	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	81		arrinit area, __area_2, __constVal10
-3	177	85	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	85		arrinit allow, __constVal0, __constVal7
-3	177	89	#line 177 "C:\Github\NXC_Source\#Tetris.nxc"
-3	178	89		subret ____initialize_global_data_return
+2	8772	249		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_selectGame
+2	8771	252	#line 8771 "NXCDefs.h"
+2	80	252	#line 80 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	252	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	252		jmp __ASM_Label_624
+2	82	254	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	254	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	254		set __signed_stack_001selectGame, 35
+2	82	257	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	257	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	257		set __signed_stack_002selectGame, 56
+2	82	260	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	260	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	260		strcat __strbufselectGame, __constStr0011
+2	82	264	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	264		set __D0selectGame, 0
+2	82	267	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	267	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	267		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	82	269	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	269		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	82	271	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	271		mov __TextOutArgs.Options, __D0selectGame
+2	82	273	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	273		mov __TextOutArgs.Text, __strbufselectGame
+2	82	275	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	275		syscall 13, __TextOutArgs
+2	82	278	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	278		mov __D0selectGame, __TextOutArgs.Result
+2	82	280	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	82	280	#line 82 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	280	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	280		set __signed_stack_001selectGame, 1
+2	83	283	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	83	283	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	283		mov __D0selectGame, __constVal0
+2	83	285	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	285		acquire __RBtnMutex
+2	83	286	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	286		mov __RBtnArgs.Index, __signed_stack_001selectGame
+2	83	288	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	288		mov __RBtnArgs.Reset, __D0selectGame
+2	83	290	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	290		syscall 20, __RBtnArgs
+2	83	293	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	293		mov __D0selectGame, __RBtnArgs.Pressed
+2	83	295	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	295		release __RBtnMutex
+2	83	296	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	296		mov __signed_stack_001selectGame, __D0selectGame
+2	83	298	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	298		set __D0selectGame, 0
+2	83	301	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	301		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	83	305	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	305		not __D0selectGame, __D0selectGame
+2	83	308	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	308		tst 5, __D0selectGame, __D0selectGame
+2	83	311	#line 83 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	311		brtst 4, __ASM_Label_699, __D0selectGame
+2	84	314	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	314		jmp __ASM_Label_698
+2	84	316	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	316	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	316		set __signed_stack_001selectGame, 1
+2	84	319	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	84	319	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	319		mov __D0selectGame, __constVal0
+2	84	321	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	321		acquire __RBtnMutex
+2	84	322	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	322		mov __RBtnArgs.Index, __signed_stack_001selectGame
+2	84	324	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	324		mov __RBtnArgs.Reset, __D0selectGame
+2	84	326	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	326		syscall 20, __RBtnArgs
+2	84	329	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	329		mov __D0selectGame, __RBtnArgs.Pressed
+2	84	331	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	331		release __RBtnMutex
+2	84	332	#line 84 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	85	332		mov __signed_stack_001selectGame, __D0selectGame
+2	85	334	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	334		set __D0selectGame, 0
+2	85	337	#line 85 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	337		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	86	341	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	341		brtst 4, __ASM_Label_707, __D0selectGame
+2	86	344	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	344		mov __senseButton_7qG2_val_7qG2_000, gametype
+2	86	346	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	346	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	346		set __senseButton_7qG2_lr_ud_7qG2_000, 0
+2	86	349	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	349	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	349		set __senseButton_7qG2_add_7qG2_000, 1
+2	86	352	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	352	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	352		set __senseButton_7qG2_high_7qG2_000, 3
+2	86	355	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	355	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	355		set __senseButton_7qG2_cut_7qG2_000, 0
+2	86	358	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	358	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	358		subcall senseButton, __senseButton_return
+2	86	360	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	87	360		mov gametype, __D0senseButton
+2	86	362	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	86	362	#line 86 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	6896	362	#line 6896 "NXCDefs.h"
+2	6897	362	#pragma macro 6
+2	6897	362		mov __PointOutArgs.Location.X, __constVal200
+2	6897	364		mov __PointOutArgs.Location.Y, __constVal200
+2	6897	366		mov __PointOutArgs.Options, __constVal1
+2	6897	368		syscall 14, __PointOutArgs
+2	5177	371	#line 5177 "NXCDefs.h"
+2	6896	371	#line 6896 "NXCDefs.h"
+2	87	371	#line 87 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	371	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	371		set __signed_stack_001selectGame, 35
+2	88	374	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	374	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	374		set __signed_stack_002selectGame, 56
+2	88	377	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	377	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	377		strcat __strbufselectGame, __constStr0011
+2	88	381	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	381		set __D0selectGame, 0
+2	88	384	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	384	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	384		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	88	386	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	386		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	88	388	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	388		mov __TextOutArgs.Options, __D0selectGame
+2	88	390	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	390		mov __TextOutArgs.Text, __strbufselectGame
+2	88	392	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	392		syscall 13, __TextOutArgs
+2	88	395	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	395	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	88	395	#line 88 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	395	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	395		set __signed_stack_001selectGame, 2
+2	89	398	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	398	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	398		set __signed_stack_002selectGame, 48
+2	89	401	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	401	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	401		strcat __strbufselectGame, __constStr0017
+2	89	405	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	405		set __D0selectGame, 0
+2	89	408	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	408	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	408		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	89	410	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	410		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	89	412	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	412		mov __TextOutArgs.Options, __D0selectGame
+2	89	414	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	414		mov __TextOutArgs.Text, __strbufselectGame
+2	89	416	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	416		syscall 13, __TextOutArgs
+2	89	419	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	419	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	89	419	#line 89 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	419	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	419		set __signed_stack_001selectGame, 2
+2	90	422	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	422	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	422		set __signed_stack_002selectGame, 40
+2	90	425	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	425	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	425		strcat __strbufselectGame, __constStr0018
+2	90	429	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	429		set __D0selectGame, 0
+2	90	432	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	432	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	432		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	90	434	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	434		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	90	436	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	436		mov __TextOutArgs.Options, __D0selectGame
+2	90	438	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	438		mov __TextOutArgs.Text, __strbufselectGame
+2	90	440	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	440		syscall 13, __TextOutArgs
+2	90	443	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	443	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	90	443	#line 90 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	443	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	443		set __signed_stack_001selectGame, 2
+2	91	446	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	446	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	446		set __signed_stack_002selectGame, 32
+2	91	449	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	449	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	449		strcat __strbufselectGame, __constStr0019
+2	91	453	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	453		set __D0selectGame, 0
+2	91	456	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	456	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	456		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	91	458	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	458		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	91	460	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	460		mov __TextOutArgs.Options, __D0selectGame
+2	91	462	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	462		mov __TextOutArgs.Text, __strbufselectGame
+2	91	464	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	464		syscall 13, __TextOutArgs
+2	91	467	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	467	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	91	467	#line 91 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	467	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	467		set __signed_stack_001selectGame, 2
+2	92	470	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	470	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	470		set __signed_stack_002selectGame, 24
+2	92	473	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	473	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	473		strcat __strbufselectGame, __constStr0020
+2	92	477	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	477		set __D0selectGame, 0
+2	92	480	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	480	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	480		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	92	482	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	482		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	92	484	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	484		mov __TextOutArgs.Options, __D0selectGame
+2	92	486	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	486		mov __TextOutArgs.Text, __strbufselectGame
+2	92	488	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	488		syscall 13, __TextOutArgs
+2	92	491	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	491	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	92	491	#line 92 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	491	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	491		set __signed_stack_001selectGame, 2
+2	93	494	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	494	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	494		set __signed_stack_002selectGame, 16
+2	93	497	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	497	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	497		strcat __strbufselectGame, __constStr0021
+2	93	501	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	501		set __D0selectGame, 0
+2	93	504	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	504	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	504		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	93	506	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	506		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	93	508	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	508		mov __TextOutArgs.Options, __D0selectGame
+2	93	510	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	510		mov __TextOutArgs.Text, __strbufselectGame
+2	93	512	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	512		syscall 13, __TextOutArgs
+2	93	515	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	515	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	93	515	#line 93 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	515	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	515		set __signed_stack_001selectGame, 2
+2	94	518	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	518	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	518		set __signed_stack_002selectGame, 8
+2	94	521	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	521	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	521		strcat __strbufselectGame, __constStr0022
+2	94	525	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	525		set __D0selectGame, 0
+2	94	528	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	528	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	528		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	94	530	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	530		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	94	532	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	532		mov __TextOutArgs.Options, __D0selectGame
+2	94	534	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	534		mov __TextOutArgs.Text, __strbufselectGame
+2	94	536	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	536		syscall 13, __TextOutArgs
+2	94	539	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	539	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	94	539	#line 94 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	539	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	539		set __signed_stack_001selectGame, 88
+2	95	542	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	542	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	542		set __signed_stack_002selectGame, 0
+2	95	545	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	545	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	545		strcat __strbufselectGame, __constStr0016
+2	95	549	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	549		set __D0selectGame, 0
+2	95	552	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	552	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	552		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	95	554	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	554		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	95	556	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	556		mov __TextOutArgs.Options, __D0selectGame
+2	95	558	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	558		mov __TextOutArgs.Text, __strbufselectGame
+2	95	560	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	560		syscall 13, __TextOutArgs
+2	95	563	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	563	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	95	563	#line 95 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	563	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	563		set __signed_stack_001selectGame, 0
+2	96	566	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	566	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	566		set __signed_stack_002selectGame, 40
+2	96	569	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	569	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	569		mov __signed_stack_003selectGame, gametype
+2	96	571	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	571	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	571		set __D0selectGame, 8
+2	96	574	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	574		mul __D0selectGame, __signed_stack_003selectGame, __D0selectGame
+2	96	578	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	578		sub __signed_stack_002selectGame, __signed_stack_002selectGame, __D0selectGame
+2	96	582	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	582	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	582		set __signed_stack_003selectGame, 49
+2	96	585	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	585	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	585		set __signed_stack_004selectGame, 8
+2	96	588	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	588	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	588		set __D0selectGame, 0
+2	96	591	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	591	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	591		mov __RectOutArgs.Location.X, __signed_stack_001selectGame
+2	96	593	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	593		mov __RectOutArgs.Location.Y, __signed_stack_002selectGame
+2	96	595	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	595		mov __RectOutArgs.Size.Width, __signed_stack_003selectGame
+2	96	597	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	597		mov __RectOutArgs.Size.Height, __signed_stack_004selectGame
+2	96	599	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	599		mov __RectOutArgs.Options, __D0selectGame
+2	96	601	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	601		syscall 17, __RectOutArgs
+2	96	604	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	604	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	96	604	#line 96 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	97	604	#line 97 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	98	604		set __Wait_7qG2_ms_7qG2_000_inline_selectGame, 50
+2	97	607	#line 97 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	8771	607	#line 8771 "NXCDefs.h"
+2	8772	607		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_selectGame
+2	8771	610	#line 8771 "NXCDefs.h"
+2	97	610	#line 97 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	610	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	610		jmp __ASM_Label_706
+2	99	612	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	612	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	612		set __signed_stack_001selectGame, 35
+2	99	615	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	615	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	615		set __signed_stack_002selectGame, 56
+2	99	618	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	618	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	618		strcat __strbufselectGame, __constStr0011
+2	99	622	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	622		set __D0selectGame, 0
+2	99	625	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	625	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	625		mov __TextOutArgs.Location.X, __signed_stack_001selectGame
+2	99	627	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	627		mov __TextOutArgs.Location.Y, __signed_stack_002selectGame
+2	99	629	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	629		mov __TextOutArgs.Options, __D0selectGame
+2	99	631	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	631		mov __TextOutArgs.Text, __strbufselectGame
+2	99	633	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	633		syscall 13, __TextOutArgs
+2	99	636	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	636		mov __D0selectGame, __TextOutArgs.Result
+2	99	638	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	99	638	#line 99 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	638	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	638		set __signed_stack_001selectGame, 1
+2	100	641	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	100	641	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	641		mov __D0selectGame, __constVal0
+2	100	643	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	643		acquire __RBtnMutex
+2	100	644	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	644		mov __RBtnArgs.Index, __signed_stack_001selectGame
+2	100	646	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	646		mov __RBtnArgs.Reset, __D0selectGame
+2	100	648	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	648		syscall 20, __RBtnArgs
+2	100	651	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	651		mov __D0selectGame, __RBtnArgs.Pressed
+2	100	653	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	653		release __RBtnMutex
+2	100	654	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	654		mov __signed_stack_001selectGame, __D0selectGame
+2	100	656	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	656		set __D0selectGame, 0
+2	100	659	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	659		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	100	663	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	663		not __D0selectGame, __D0selectGame
+2	100	666	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	666		tst 5, __D0selectGame, __D0selectGame
+2	100	669	#line 100 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	101	669		brtst 4, __ASM_Label_793, __D0selectGame
+2	102	672	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	103	672		jmp __ASM_Label_792
+2	102	674	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	102	674	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	103	674		mov __signed_stack_001selectGame, gamespeed
+2	102	676	#line 102 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	103	676	#line 103 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	104	676		set __D0selectGame, 0
+2	103	679	#line 103 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	104	679		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	104	683	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	683		brtst 4, __ASM_Label_802, __D0selectGame
+2	104	686	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	686		strcat __strbufselectGame, accesshigh
+2	104	690	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	690		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	104	692	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	692		strcat __strbufselectGame, __constStr0013
+2	104	696	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	696		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	104	698	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	698		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	104	703	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	703		strcat __strbufselectGame, __strretvalselectGame
+2	104	707	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	707		mov accesshigh, __strbufselectGame
+2	104	709	#line 104 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	709	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	106	709		mov speedup, __constValf0P975
+2	105	711	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	105	711	#line 105 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	106	711	#line 106 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	107	711		set delaytime, 800
+2	106	714	#line 106 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	106	714	#line 106 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	108	714	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	109	714		jmp __ASM_Label_807
+2	108	716	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	109	716		mov __signed_stack_001selectGame, gamespeed
+2	108	718	#line 108 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	109	718	#line 109 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	110	718		set __D0selectGame, 1
+2	109	721	#line 109 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	110	721		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	110	725	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	725		brtst 4, __ASM_Label_810, __D0selectGame
+2	110	728	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	728		strcat __strbufselectGame, accesshigh
+2	110	732	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	732		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	110	734	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	734		strcat __strbufselectGame, __constStr0023
+2	110	738	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	738		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	110	740	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	740		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	110	745	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	745		strcat __strbufselectGame, __strretvalselectGame
+2	110	749	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	749		mov accesshigh, __strbufselectGame
+2	110	751	#line 110 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	751	#line 111 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	112	751		mov speedup, __constValf0P9375
+2	111	753	#line 111 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	111	753	#line 111 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	112	753	#line 112 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	113	753		set delaytime, 600
+2	112	756	#line 112 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	112	756	#line 112 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	114	756	#line 114 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	115	756		jmp __ASM_Label_815
+2	114	758	#line 114 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	115	758		mov __signed_stack_001selectGame, gamespeed
+2	114	760	#line 114 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	115	760	#line 115 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	116	760		set __D0selectGame, 2
+2	115	763	#line 115 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	116	763		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	116	767	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	767		brtst 4, __ASM_Label_818, __D0selectGame
+2	116	770	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	770		strcat __strbufselectGame, accesshigh
+2	116	774	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	774		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	116	776	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	776		strcat __strbufselectGame, __constStr0015
+2	116	780	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	780		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	116	782	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	782		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	116	787	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	787		strcat __strbufselectGame, __strretvalselectGame
+2	116	791	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	791		mov accesshigh, __strbufselectGame
+2	116	793	#line 116 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	793	#line 117 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	118	793		mov speedup, __constValf0P9
+2	117	795	#line 117 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	117	795	#line 117 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	118	795	#line 118 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	119	795		set delaytime, 400
+2	118	798	#line 118 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	118	798	#line 118 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	121	798	#line 121 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	121	798	#line 121 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	121	798	#line 121 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	121	798	#line 121 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	122	798		mov __signed_stack_001selectGame, gametype
+2	121	800	#line 121 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	122	800	#line 122 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	123	800		set __D0selectGame, 0
+2	122	803	#line 122 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	123	803		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	123	807	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	807		brtst 4, __ASM_Label_825, __D0selectGame
+2	123	810	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	810		strcat __strbufselectGame, accesshigh
+2	123	814	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	814		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	123	816	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	816		strcat __strbufselectGame, __constStr0024
+2	123	820	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	820		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	123	822	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	822		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	123	827	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	827		strcat __strbufselectGame, __strretvalselectGame
+2	123	831	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	831		mov accesshigh, __strbufselectGame
+2	123	833	#line 123 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	833	#line 124 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	125	833		set __signed_stack_001selectGame, 7
+2	124	836	#line 124 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	124	836	#line 124 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	125	836		set __D0selectGame, 7
+2	124	839	#line 124 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	125	839		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	124	844	#line 124 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	125	844	#line 125 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	126	844		set __signed_stack_001selectGame, 0
+2	125	847	#line 125 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	125	847	#line 125 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	126	847		set __D0selectGame, 2
+2	125	850	#line 125 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	126	850		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	125	855	#line 125 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	126	855	#line 126 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	127	855		set __signed_stack_001selectGame, 1
+2	126	858	#line 126 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	126	858	#line 126 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	127	858		set __D0selectGame, 1
+2	126	861	#line 126 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	127	861		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	126	866	#line 126 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	127	866	#line 127 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	128	866		set __signed_stack_001selectGame, 2
+2	127	869	#line 127 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	127	869	#line 127 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	128	869		set __D0selectGame, 1
+2	127	872	#line 127 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	128	872		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	127	877	#line 127 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	128	877	#line 128 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	129	877		set __signed_stack_001selectGame, 3
+2	128	880	#line 128 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	128	880	#line 128 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	129	880		set __D0selectGame, 2
+2	128	883	#line 128 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	129	883		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	128	888	#line 128 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	129	888	#line 129 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	130	888		set __signed_stack_001selectGame, 4
+2	129	891	#line 129 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	129	891	#line 129 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	130	891		set __D0selectGame, 0
+2	129	894	#line 129 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	130	894		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	129	899	#line 129 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	130	899	#line 130 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	131	899		set __signed_stack_001selectGame, 5
+2	130	902	#line 130 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	130	902	#line 130 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	131	902		set __D0selectGame, 1
+2	130	905	#line 130 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	131	905		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	130	910	#line 130 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	131	910	#line 131 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	132	910		set __signed_stack_001selectGame, 6
+2	131	913	#line 131 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	131	913	#line 131 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	132	913		set __D0selectGame, 0
+2	131	916	#line 131 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	132	916		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	131	921	#line 131 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	133	921	#line 133 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	134	921		jmp __ASM_Label_858
+2	133	923	#line 133 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	134	923		mov __signed_stack_001selectGame, gametype
+2	133	925	#line 133 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	134	925	#line 134 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	135	925		set __D0selectGame, 1
+2	134	928	#line 134 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	135	928		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	135	932	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	932		brtst 4, __ASM_Label_861, __D0selectGame
+2	135	935	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	935		strcat __strbufselectGame, accesshigh
+2	135	939	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	939		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	135	941	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	941		strcat __strbufselectGame, __constStr0025
+2	135	945	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	945		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	135	947	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	947		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	135	952	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	952		strcat __strbufselectGame, __strretvalselectGame
+2	135	956	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	956		mov accesshigh, __strbufselectGame
+2	135	958	#line 135 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	958	#line 136 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	137	958		set __signed_stack_001selectGame, 7
+2	136	961	#line 136 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	136	961	#line 136 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	137	961		set __D0selectGame, 12
+2	136	964	#line 136 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	137	964		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	136	969	#line 136 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	137	969	#line 137 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	138	969		set __signed_stack_001selectGame, 0
+2	137	972	#line 137 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	137	972	#line 137 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	138	972		set __D0selectGame, 3
+2	137	975	#line 137 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	138	975		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	137	980	#line 137 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	138	980	#line 138 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	139	980		set __signed_stack_001selectGame, 1
+2	138	983	#line 138 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	138	983	#line 138 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	139	983		set __D0selectGame, 1
+2	138	986	#line 138 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	139	986		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	138	991	#line 138 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	139	991	#line 139 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	140	991		set __signed_stack_001selectGame, 2
+2	139	994	#line 139 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	139	994	#line 139 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	140	994		set __D0selectGame, 1
+2	139	997	#line 139 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	140	997		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	139	1002	#line 139 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	140	1002	#line 140 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	141	1002		set __signed_stack_001selectGame, 3
+2	140	1005	#line 140 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	140	1005	#line 140 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	141	1005		set __D0selectGame, 3
+2	140	1008	#line 140 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	141	1008		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	140	1013	#line 140 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	141	1013	#line 141 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	142	1013		set __signed_stack_001selectGame, 4
+2	141	1016	#line 141 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	141	1016	#line 141 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	142	1016		set __D0selectGame, 1
+2	141	1019	#line 141 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	142	1019		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	141	1024	#line 141 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	142	1024	#line 142 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	143	1024		set __signed_stack_001selectGame, 5
+2	142	1027	#line 142 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	142	1027	#line 142 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	143	1027		set __D0selectGame, 2
+2	142	1030	#line 142 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	143	1030		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	142	1035	#line 142 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	143	1035	#line 143 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	144	1035		set __signed_stack_001selectGame, 6
+2	143	1038	#line 143 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	143	1038	#line 143 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	144	1038		set __D0selectGame, 1
+2	143	1041	#line 143 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	144	1041		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	143	1046	#line 143 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	145	1046	#line 145 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	146	1046		jmp __ASM_Label_894
+2	145	1048	#line 145 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	146	1048		mov __signed_stack_001selectGame, gametype
+2	145	1050	#line 145 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	146	1050	#line 146 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	147	1050		set __D0selectGame, 2
+2	146	1053	#line 146 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	147	1053		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	147	1057	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1057		brtst 4, __ASM_Label_897, __D0selectGame
+2	147	1060	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1060		strcat __strbufselectGame, accesshigh
+2	147	1064	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1064		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	147	1066	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1066		strcat __strbufselectGame, __constStr0026
+2	147	1070	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1070		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	147	1072	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1072		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	147	1077	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1077		strcat __strbufselectGame, __strretvalselectGame
+2	147	1081	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1081		mov accesshigh, __strbufselectGame
+2	147	1083	#line 147 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1083	#line 148 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	149	1083		set __signed_stack_001selectGame, 7
+2	148	1086	#line 148 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	148	1086	#line 148 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	149	1086		set __D0selectGame, 7
+2	148	1089	#line 148 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	149	1089		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	148	1094	#line 148 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	149	1094	#line 149 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	150	1094		set __signed_stack_001selectGame, 0
+2	149	1097	#line 149 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	149	1097	#line 149 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	150	1097		set __D0selectGame, 1
+2	149	1100	#line 149 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	150	1100		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	149	1105	#line 149 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	150	1105	#line 150 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	151	1105		set __signed_stack_001selectGame, 1
+2	150	1108	#line 150 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	150	1108	#line 150 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	151	1108		set __D0selectGame, 1
+2	150	1111	#line 150 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	151	1111		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	150	1116	#line 150 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	151	1116	#line 151 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	152	1116		set __signed_stack_001selectGame, 2
+2	151	1119	#line 151 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	151	1119	#line 151 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	152	1119		set __D0selectGame, 1
+2	151	1122	#line 151 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	152	1122		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	151	1127	#line 151 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	152	1127	#line 152 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	153	1127		set __signed_stack_001selectGame, 3
+2	152	1130	#line 152 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	152	1130	#line 152 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	153	1130		set __D0selectGame, 1
+2	152	1133	#line 152 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	153	1133		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	152	1138	#line 152 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	153	1138	#line 153 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	154	1138		set __signed_stack_001selectGame, 4
+2	153	1141	#line 153 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	153	1141	#line 153 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	154	1141		set __D0selectGame, 1
+2	153	1144	#line 153 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	154	1144		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	153	1149	#line 153 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	154	1149	#line 154 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	155	1149		set __signed_stack_001selectGame, 5
+2	154	1152	#line 154 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	154	1152	#line 154 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	155	1152		set __D0selectGame, 1
+2	154	1155	#line 154 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	155	1155		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	154	1160	#line 154 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	155	1160	#line 155 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	156	1160		set __signed_stack_001selectGame, 6
+2	155	1163	#line 155 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	155	1163	#line 155 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	156	1163		set __D0selectGame, 1
+2	155	1166	#line 155 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	156	1166		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	155	1171	#line 155 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	157	1171	#line 157 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	158	1171		jmp __ASM_Label_930
+2	157	1173	#line 157 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	158	1173		mov __signed_stack_001selectGame, gametype
+2	157	1175	#line 157 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	158	1175	#line 158 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	159	1175		set __D0selectGame, 3
+2	158	1178	#line 158 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	159	1178		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	159	1182	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1182		brtst 4, __ASM_Label_933, __D0selectGame
+2	159	1185	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1185		strcat __strbufselectGame, accesshigh
+2	159	1189	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1189		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	159	1191	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1191		strcat __strbufselectGame, __constStr0027
+2	159	1195	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1195		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	159	1197	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1197		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	159	1202	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1202		strcat __strbufselectGame, __strretvalselectGame
+2	159	1206	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1206		mov accesshigh, __strbufselectGame
+2	159	1208	#line 159 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1208	#line 160 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	161	1208		set __signed_stack_001selectGame, 7
+2	160	1211	#line 160 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	160	1211	#line 160 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	161	1211		set __D0selectGame, 21
+2	160	1214	#line 160 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	161	1214		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	160	1219	#line 160 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	161	1219	#line 161 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	162	1219		set __signed_stack_001selectGame, 0
+2	161	1222	#line 161 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	161	1222	#line 161 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	162	1222		set __D0selectGame, 2
+2	161	1225	#line 161 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	162	1225		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	161	1230	#line 161 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	162	1230	#line 162 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	163	1230		set __signed_stack_001selectGame, 1
+2	162	1233	#line 162 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	162	1233	#line 162 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	163	1233		set __D0selectGame, 3
+2	162	1236	#line 162 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	163	1236		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	162	1241	#line 162 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	163	1241	#line 163 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	164	1241		set __signed_stack_001selectGame, 2
+2	163	1244	#line 163 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	163	1244	#line 163 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	164	1244		set __D0selectGame, 3
+2	163	1247	#line 163 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	164	1247		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	163	1252	#line 163 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	164	1252	#line 164 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	165	1252		set __signed_stack_001selectGame, 3
+2	164	1255	#line 164 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	164	1255	#line 164 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	165	1255		set __D0selectGame, 2
+2	164	1258	#line 164 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	165	1258		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	164	1263	#line 164 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	165	1263	#line 165 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	166	1263		set __signed_stack_001selectGame, 4
+2	165	1266	#line 165 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	165	1266	#line 165 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	166	1266		set __D0selectGame, 4
+2	165	1269	#line 165 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	166	1269		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	165	1274	#line 165 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	166	1274	#line 166 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	167	1274		set __signed_stack_001selectGame, 5
+2	166	1277	#line 166 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	166	1277	#line 166 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	167	1277		set __D0selectGame, 3
+2	166	1280	#line 166 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	167	1280		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	166	1285	#line 166 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	167	1285	#line 167 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	168	1285		set __signed_stack_001selectGame, 6
+2	167	1288	#line 167 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	167	1288	#line 167 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	168	1288		set __D0selectGame, 4
+2	167	1291	#line 167 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	168	1291		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	167	1296	#line 167 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	169	1296	#line 169 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	170	1296		jmp __ASM_Label_966
+2	169	1298	#line 169 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	170	1298		mov __signed_stack_001selectGame, gametype
+2	169	1300	#line 169 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	170	1300	#line 170 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	171	1300		set __D0selectGame, 4
+2	170	1303	#line 170 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	171	1303		cmp 4, __D0selectGame, __signed_stack_001selectGame, __D0selectGame
+2	171	1307	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1307		brtst 4, __ASM_Label_969, __D0selectGame
+2	171	1310	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1310		strcat __strbufselectGame, accesshigh
+2	171	1314	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1314		mov __ArrHelper__selectGame_244_0, __strbufselectGame
+2	171	1316	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1316		strcat __strbufselectGame, __constStr0028
+2	171	1320	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1320		mov __ArrHelper__selectGame_244_1, __strbufselectGame
+2	171	1322	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1322		strcat __strretvalselectGame, __ArrHelper__selectGame_244_0, __ArrHelper__selectGame_244_1
+2	171	1327	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1327		strcat __strbufselectGame, __strretvalselectGame
+2	171	1331	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1331		mov accesshigh, __strbufselectGame
+2	171	1333	#line 171 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1333	#line 172 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	173	1333		set __signed_stack_001selectGame, 7
+2	172	1336	#line 172 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	172	1336	#line 172 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	173	1336		set __D0selectGame, 19
+2	172	1339	#line 172 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	173	1339		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	172	1344	#line 172 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	173	1344	#line 173 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	174	1344		set __signed_stack_001selectGame, 0
+2	173	1347	#line 173 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	173	1347	#line 173 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	174	1347		set __D0selectGame, 1
+2	173	1350	#line 173 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	174	1350		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	173	1355	#line 173 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	174	1355	#line 174 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	175	1355		set __signed_stack_001selectGame, 1
+2	174	1358	#line 174 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	174	1358	#line 174 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	175	1358		set __D0selectGame, 3
+2	174	1361	#line 174 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	175	1361		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	174	1366	#line 174 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	175	1366	#line 175 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	176	1366		set __signed_stack_001selectGame, 2
+2	175	1369	#line 175 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	175	1369	#line 175 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	176	1369		set __D0selectGame, 3
+2	175	1372	#line 175 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	176	1372		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	175	1377	#line 175 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	176	1377	#line 176 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	177	1377		set __signed_stack_001selectGame, 3
+2	176	1380	#line 176 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	176	1380	#line 176 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	177	1380		set __D0selectGame, 2
+2	176	1383	#line 176 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	177	1383		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	176	1388	#line 176 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	177	1388	#line 177 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	178	1388		set __signed_stack_001selectGame, 4
+2	177	1391	#line 177 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	177	1391	#line 177 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	178	1391		set __D0selectGame, 4
+2	177	1394	#line 177 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	178	1394		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	177	1399	#line 177 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	178	1399	#line 178 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	179	1399		set __signed_stack_001selectGame, 5
+2	178	1402	#line 178 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	178	1402	#line 178 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	179	1402		set __D0selectGame, 2
+2	178	1405	#line 178 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	179	1405		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	178	1410	#line 178 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	179	1410	#line 179 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	180	1410		set __signed_stack_001selectGame, 6
+2	179	1413	#line 179 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	179	1413	#line 179 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	180	1413		set __D0selectGame, 4
+2	179	1416	#line 179 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	180	1416		replace chnc, chnc, __signed_stack_001selectGame, __D0selectGame
+2	179	1421	#line 179 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	181	1421	#line 181 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	181	1421	#line 181 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	181	1421	#line 181 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	181	1421	#line 181 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	181	1421	#line 181 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	6896	1421	#line 6896 "NXCDefs.h"
+2	6897	1421	#pragma macro 6
+2	6897	1421		mov __PointOutArgs.Location.X, __constVal200
+2	6897	1423		mov __PointOutArgs.Location.Y, __constVal200
+2	6897	1425		mov __PointOutArgs.Options, __constVal1
+2	6897	1427		syscall 14, __PointOutArgs
+2	6366	1430	#line 6366 "NXCDefs.h"
+2	6896	1430	#line 6896 "NXCDefs.h"
+2	181	1430	#line 181 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	185	1430	#line 185 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+2	186	1430		subret __selectGame_return
+3	187	0	#line 187 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	188	0		set __signed_stack_001getInput, 2
+3	187	3	#line 187 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	187	3	#line 187 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	188	3		mov __D0getInput, __constVal0
+3	188	5	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	5		acquire __RBtnMutex
+3	188	6	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	6		mov __RBtnArgs.Index, __signed_stack_001getInput
+3	188	8	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	8		mov __RBtnArgs.Reset, __D0getInput
+3	188	10	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	10		syscall 20, __RBtnArgs
+3	188	13	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	13		mov __D0getInput, __RBtnArgs.Pressed
+3	188	15	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	15		release __RBtnMutex
+3	188	16	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	16		tst 5, __D0getInput, __D0getInput
+3	188	19	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	188	19	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	188	19	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	188	19	#line 188 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	19	#line 189 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	19	#line 189 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	190	19		set __signed_stack_001getInput, 1
+3	189	22	#line 189 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	189	22	#line 189 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	190	22		mov __D0getInput, __constVal0
+3	190	24	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	24		acquire __RBtnMutex
+3	190	25	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	25		mov __RBtnArgs.Index, __signed_stack_001getInput
+3	190	27	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	27		mov __RBtnArgs.Reset, __D0getInput
+3	190	29	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	29		syscall 20, __RBtnArgs
+3	190	32	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	32		mov __D0getInput, __RBtnArgs.Pressed
+3	190	34	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	34		release __RBtnMutex
+3	190	35	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	35		tst 5, __D0getInput, __D0getInput
+3	190	38	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	190	38	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	190	38	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	190	38	#line 190 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	38	#line 191 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	38	#line 191 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	192	38		set __signed_stack_001getInput, 3
+3	191	41	#line 191 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	191	41	#line 191 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	192	41		mov __D0getInput, __constVal0
+3	192	43	#line 192 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	193	43		acquire __RBtnMutex
+3	192	44	#line 192 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	193	44		mov __RBtnArgs.Index, __signed_stack_001getInput
+3	192	46	#line 192 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	193	46		mov __RBtnArgs.Reset, __D0getInput
+3	192	48	#line 192 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	193	48		syscall 20, __RBtnArgs
+3	192	51	#line 192 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	193	51		mov __D0getInput, __RBtnArgs.Pressed
+3	192	53	#line 192 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	193	53		release __RBtnMutex
+3	193	54	#line 193 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	194	54		tst 5, __D0getInput, __D0getInput
+3	193	57	#line 193 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	194	57		brtst 4, __ASM_Label_1020, __D0getInput
+3	193	60	#line 193 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	194	60		mov __signed_stack_001getInput, prevC
+3	193	62	#line 193 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	194	62	#line 194 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	195	62		set __D0getInput, 0
+3	194	65	#line 194 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	195	65		cmp 4, __D0getInput, __signed_stack_001getInput, __D0getInput
+3	195	69	#line 195 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	195	69	#line 195 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	195	69	#line 195 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	195	69	#line 195 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	197	69	#line 197 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	197	69	#line 197 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	198	69		add prevC, prevC, __constVal1
+3	197	73	#line 197 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	198	73	#line 198 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	199	73		mov __signed_stack_001getInput, prevC
+3	198	75	#line 198 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	199	75	#line 199 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	200	75		set __D0getInput, 100
+3	199	78	#line 199 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	200	78		cmp 0, __D0getInput, __signed_stack_001getInput, __D0getInput
+3	199	82	#line 199 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	200	82		brtst 4, __ASM_Label_1028, __D0getInput
+3	199	85	#line 199 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	200	85		set prevC, 0
+3	199	88	#line 199 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	199	88	#line 199 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	201	88	#line 201 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	201	88	#line 201 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	201	88	#line 201 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	202	88		set __signed_stack_001getInput, 0
+3	201	91	#line 201 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	201	91	#line 201 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	202	91		mov __D0getInput, __constVal0
+3	202	93	#line 202 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	203	93		acquire __RBtnMutex
+3	202	94	#line 202 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	203	94		mov __RBtnArgs.Index, __signed_stack_001getInput
+3	202	96	#line 202 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	203	96		mov __RBtnArgs.Reset, __D0getInput
+3	202	98	#line 202 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	203	98		syscall 20, __RBtnArgs
+3	202	101	#line 202 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	203	101		mov __D0getInput, __RBtnArgs.Pressed
+3	202	103	#line 202 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	203	103		release __RBtnMutex
+3	203	104	#line 203 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	204	104		tst 5, __D0getInput, __D0getInput
+3	203	107	#line 203 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	204	107		brtst 4, __ASM_Label_1035, __D0getInput
+3	203	110	#line 203 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	204	110		mov __signed_stack_001getInput, prevE
+3	203	112	#line 203 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	204	112	#line 204 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	205	112		set __D0getInput, 0
+3	204	115	#line 204 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	205	115		cmp 4, __D0getInput, __signed_stack_001getInput, __D0getInput
+3	205	119	#line 205 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	205	119	#line 205 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	205	119	#line 205 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	205	119	#line 205 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	207	119	#line 207 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	207	119	#line 207 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	208	119		add prevE, prevE, __constVal1
+3	207	123	#line 207 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	208	123	#line 208 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	209	123		mov __signed_stack_001getInput, prevE
+3	208	125	#line 208 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	209	125	#line 209 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	210	125		set __D0getInput, 100
+3	209	128	#line 209 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	210	128		cmp 0, __D0getInput, __signed_stack_001getInput, __D0getInput
+3	209	132	#line 209 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	210	132		brtst 4, __ASM_Label_1043, __D0getInput
+3	209	135	#line 209 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	210	135		set prevE, 0
+3	209	138	#line 209 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	209	138	#line 209 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	211	138	#line 211 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	214	138	#line 214 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	214	138	#line 214 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+3	215	138		subret __getInput_return
+4	216	0	#line 216 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	216	0	#line 216 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	216	0	#line 216 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	218	0	#line 218 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	219	0		set __pieceCreate_7qG2_create_7qG2_000, 0
+4	218	3	#line 218 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	219	3	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	3		set __signed_stack_001pieceCreate, 7
+4	219	6	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	219	6	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	6		index __D0pieceCreate, chnc, __signed_stack_001pieceCreate
+4	219	10	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	219	10	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	10	#pragma macro 7
+4	220	10		syscall 24, __RandomArgs
+4	220	13		add __RandomTmp, __RandomArgs.Result, __constVal32768
+4	220	17		mul __RandomTmp, __RandomTmp, __D0pieceCreate
+4	220	21		div __RandomTmp, __RandomTmp, __constVal65536
+4	220	25		mov __pieceCreate_7qG2_rndm_7qG2_000, __RandomTmp
+4	6625	27	#line 6625 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	219	27	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	219	27	#line 219 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	27	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	27		set __pieceCreate_7qG2_i_7qG2_001, 0
+4	220	30	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	30	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	30		mov __signed_stack_001pieceCreate, __pieceCreate_7qG2_i_7qG2_001
+4	220	32	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	32	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	32		set __D0pieceCreate, 6
+4	220	35	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	35		cmp 0, __D0pieceCreate, __signed_stack_001pieceCreate, __D0pieceCreate
+4	220	39	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	39		brtst 4, __ASM_Label_1063, __D0pieceCreate
+4	220	42	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	42		mov __signed_stack_001pieceCreate, __pieceCreate_7qG2_create_7qG2_000
+4	220	44	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	220	44	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	44		set __D0pieceCreate, 0
+4	220	47	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	47		cmp 4, __D0pieceCreate, __signed_stack_001pieceCreate, __D0pieceCreate
+4	220	51	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	51		brtst 4, __ASM_Label_1057, __D0pieceCreate
+4	220	54	#line 220 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	221	54		jmp __ASM_Label_1058
+4	221	56	#line 221 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	222	56		add __pieceCreate_7qG2_i_7qG2_001, __pieceCreate_7qG2_i_7qG2_001, __constVal1
+4	222	60	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	223	60		jmp __ASM_Label_1056
+4	222	62	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	223	62		mov __signed_stack_001pieceCreate, __pieceCreate_7qG2_rndm_7qG2_000
+4	222	64	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	222	64	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	223	64		mov __signed_stack_002pieceCreate, __pieceCreate_7qG2_i_7qG2_001
+4	222	66	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	222	66	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	223	66		index __D0pieceCreate, chnc, __signed_stack_002pieceCreate
+4	222	70	#line 222 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	223	70	#line 223 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	224	70		cmp 0, __D0pieceCreate, __signed_stack_001pieceCreate, __D0pieceCreate
+4	223	74	#line 223 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	224	74		brtst 4, __ASM_Label_1072, __D0pieceCreate
+4	223	77	#line 223 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	224	77		mov __pieceCreate_7qG2_create_7qG2_000, __pieceCreate_7qG2_i_7qG2_001
+4	223	79	#line 223 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	223	79	#line 223 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	225	79	#line 225 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	225	79	#line 225 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	226	79		jmp __ASM_Label_1059
+4	225	81	#line 225 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	225	81	#line 225 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	225	81	#line 225 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	225	81	#line 225 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	229	81	#line 229 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+4	230	81		subret __pieceCreate_return
+5	231	0	#line 231 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+5	232	0		set __checkFullRows_7qG2_anyFullRows_7qG2_000, 0
+5	231	3	#line 231 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+5	233	3	#line 233 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+5	234	3		mov __DU0checkFullRows, __checkFullRows_7qG2_anyFullRows_7qG2_000
+5	233	5	#line 233 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+5	234	5		subret __checkFullRows_return
+5	233	7	#line 233 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+5	237	7	#line 237 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+5	238	7		subret __checkFullRows_return
+6	278	0	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	0		arrbuild I, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal1, __constVal2, __constVal3
+6	278	11	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	11		arrbuild J, __constVal1, __constVal1, __constVal1, __constVal0, __constVal0, __constVal1, __constVal2, __constVal2
+6	278	22	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	22		arrbuild L, __constVal0, __constVal0, __constVal0, __constVal1, __constVal0, __constVal1, __constVal2, __constVal2
+6	278	33	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	33		arrbuild O, __constVal0, __constVal0, __constVal1, __constVal1, __constVal0, __constVal1, __constVal0, __constVal1
+6	278	44	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	44		arrbuild S, __constVal2, __constVal1, __constVal1, __constVal0, __constVal0, __constVal0, __constVal1, __constVal1
+6	278	55	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	55		arrbuild T, __constVal0, __constVal1, __constVal1, __constVal1, __constVal1, __constVal0, __constVal1, __constVal2
+6	278	66	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	66		arrbuild Z, __constVal0, __constVal1, __constVal1, __constVal2, __constVal0, __constVal0, __constVal1, __constVal1
+6	278	77	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	77		arrbuild fullRowArray, __constValNeg1, __constValNeg1, __constValNeg1, __constValNeg1
+6	278	84	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	278	84	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	84		arrinit __area_2, __constVal0, __constVal25
+6	278	88	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	88		arrinit area, __area_2, __constVal10
+6	278	92	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	92		arrinit chnc, __constVal0, __constVal7
+6	278	96	#line 278 "C:\Users\Michael\AppData\Local\Temp\temp.nxc"
+6	279	96		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Github\NXC_Source\#Tetris.nxc
-1	senseButton	104	C:\Github\NXC_Source\.\+Button+-.nxc
-2	selectGame	370	C:\Github\NXC_Source\#Tetris.nxc
-3	__initialize_global_data	1360	C:\Github\NXC_Source\#Tetris.nxc
+0	main	0	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+1	senseButton	139	C:\Github\NXC_Source\+Button+-.nxc
+2	selectGame	405	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+3	getInput	1837	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+4	pieceCreate	1977	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+5	checkFullRows	2060	C:\Users\Michael\AppData\Local\Temp\temp.nxc
+6	__initialize_global_data	2069	C:\Users\Michael\AppData\Local\Temp\temp.nxc

@@ -45,10 +45,19 @@ const int Z[8]=
 
 /*            GLOBAL VARIABLES            */
 string accesshigh;
-int gametype, gamespeed, delaytime;
+int gametype;
+int gamespeed;
+int delaytime;
 float speedup;
-int prevC=0, prevE=0;
-bool moveL, moveR, rotate, drop;
+int prevC=0;
+int prevE=0;
+bool moveL;
+bool moveR;
+bool rotate;
+bool drop;
+int currentPiece=-1;
+int comingPiece;
+int fullRowArray[4]={-1,-1,-1,-1};
 
 bool area[width][height];
 int chnc[7];
@@ -174,7 +183,7 @@ void selectGame()
   }
 
 
-getInput()
+void getInput()
   {
   if (ButtonPressed(BTNLEFT))
     {drop=true;}
@@ -201,17 +210,36 @@ getInput()
       {prevE=0;}
     }
   }
+  
+
+void pieceCreate()
+  {
+  comingPiece=currentPiece;
+  int rndm;
+  int create=0;
+  rndm=Random(chnc[prob]);
+  for (int i=0; (i<Ztet)&&(create==0); i++)
+    {
+    if (rndm<chnc[i])
+      {create=i;}
+    }
+  currentPiece=create;
+  }
+  
+  
+bool checkFullRows()
+  {
+  bool anyFullRows=false;
+  //ADD CODE HERE
+  return anyFullRows;
+  }
 
 
 task main()
   {
-  //init
   SetLongAbort(true);
-  
-  
-
-  
   bool playagain, alive, piecemoving;
+
   playagain=true;
   while (playagain)
     {
@@ -220,19 +248,19 @@ task main()
     alive=true;
     while (alive)
       {
+      pieceCreate();
       piecemoving=true;
       while (piecemoving)
         {
-        getInput();
-
+        for (int i=0;i<delaytime;i++) //waiting
+          {
+          getInput();
+          Wait(10);
+          }
         //do output
-        
-        //Waiting Function
-        
         //debugging
         }
-      //create new piece
-      if (1) //rows filled
+      if (checkFullRows()) //rows filled
         {
         //destroy them
         //add to score
