@@ -4,10 +4,11 @@
 
 /*                 DEFINES                */
 #include "+Button+-.nxc"
-#define blocksize 4
-#define width     10
-#define height    25
-#define TX        35
+#define blocksize  4
+#define width   10
+#define height  25
+#define waitLR     100
+#define TX      35
 #define Itet 0
 #define Jtet 1
 #define Ltet 2
@@ -46,6 +47,8 @@ const int Z[8]=
 string accesshigh;
 int gametype, gamespeed, delaytime;
 float speedup;
+int prevC=0, prevE=0;
+bool moveL, moveR, rotate, drop;
 
 bool area[width][height];
 int chnc[7];
@@ -87,38 +90,48 @@ void selectGame()
     }
   TextOut(TX,LCD_LINE1,"TETRIS",  0);
   until (ButtonPressed(BTNRIGHT)==false) {}
-
+  //
   if      (gamespeed==0)
-    {accesshigh=StrCat(accesshigh,"Slow");
-    speedup=0.975;  delaytime=200;}
+    {
+    accesshigh=StrCat(accesshigh,"Slow");
+    speedup=0.975;
+    delaytime=800;
+    }
   else if (gamespeed==1)
-    {accesshigh=StrCat(accesshigh,"Med");
-    speedup=0.9375; delaytime=140;}
+    {
+    accesshigh=StrCat(accesshigh,"Med");
+    speedup=0.9375;
+    delaytime=600;
+    }
   else if (gamespeed==2)
-    {accesshigh=StrCat(accesshigh,"Fast");
-    speedup=0.9;    delaytime=80;}
+    {
+    accesshigh=StrCat(accesshigh,"Fast");
+    speedup=0.9;
+    delaytime=400;
+    }
   
   if      (gametype==0)
     {
     accesshigh=StrCat(accesshigh,"Give.dat");
-    chnc[prob]=16;
-    chnc[Itet]=4;
-    chnc[Jtet]=2;
-    chnc[Ltet]=2;
-    chnc[Otet]=4;
-    chnc[Stet]=1;
-    chnc[Ttet]=2;
-    chnc[Ztet]=1;
+    chnc[prob]=7;
+    chnc[Itet]=2;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=2;
+    chnc[Stet]=0;
+    chnc[Ttet]=1;
+    chnc[Ztet]=0;
     }
   else if (gametype==1)
     {
     accesshigh=StrCat(accesshigh,"Simp.dat");
-    chnc[Itet]=1;
+    chnc[prob]=12;
+    chnc[Itet]=3;
     chnc[Jtet]=1;
     chnc[Ltet]=1;
-    chnc[Otet]=1;
+    chnc[Otet]=3;
     chnc[Stet]=1;
-    chnc[Ttet]=1;
+    chnc[Ttet]=2;
     chnc[Ztet]=1;
     }
   else if (gametype==2)
@@ -136,26 +149,57 @@ void selectGame()
   else if (gametype==3)
     {
     accesshigh=StrCat(accesshigh,"Hard.dat");
-    chnc[Itet]=1;
-    chnc[Jtet]=1;
-    chnc[Ltet]=1;
-    chnc[Otet]=1;
-    chnc[Stet]=1;
-    chnc[Ttet]=1;
-    chnc[Ztet]=1;
+    chnc[prob]=21;
+    chnc[Itet]=2;
+    chnc[Jtet]=3;
+    chnc[Ltet]=3;
+    chnc[Otet]=2;
+    chnc[Stet]=4;
+    chnc[Ttet]=3;
+    chnc[Ztet]=4;
     }
   else if (gametype==4)
     {
     accesshigh=StrCat(accesshigh,"Death.dat");
+    chnc[prob]=19;
     chnc[Itet]=1;
-    chnc[Jtet]=1;
-    chnc[Ltet]=1;
-    chnc[Otet]=1;
-    chnc[Stet]=1;
-    chnc[Ttet]=1;
-    chnc[Ztet]=1;
+    chnc[Jtet]=3;
+    chnc[Ltet]=3;
+    chnc[Otet]=2;
+    chnc[Stet]=4;
+    chnc[Ttet]=2;
+    chnc[Ztet]=4;
     }
   ClearScreen();
+  }
+
+
+getInput()
+  {
+  if (ButtonPressed(BTNLEFT))
+    {drop=true;}
+  if (ButtonPressed(BTNRIGHT))
+    {rotate=true;}
+  if (ButtonPressed(BTNCENTER))
+    {
+    if (prevC==0)
+      {
+      moveL=true;
+      }
+    prevC++;
+    if (prevC<waitLR)
+      {prevC=0;}
+    }
+  if (ButtonPressed(BTNEXIT))
+    {
+    if (prevE==0)
+      {
+      moveR=true;
+      }
+    prevE++;
+    if (prevE<waitLR)
+      {prevE=0;}
+    }
   }
 
 
@@ -165,13 +209,13 @@ task main()
   SetLongAbort(true);
   
   
-  selectGame();
+
   
   bool playagain, alive, piecemoving;
   playagain=true;
   while (playagain)
     {
-    //choose gametype
+    selectGame();
 
     alive=true;
     while (alive)
@@ -179,9 +223,13 @@ task main()
       piecemoving=true;
       while (piecemoving)
         {
-        //get input
-        //debugging
+        getInput();
+
         //do output
+        
+        //Waiting Function
+        
+        //debugging
         }
       //create new piece
       if (1) //rows filled
