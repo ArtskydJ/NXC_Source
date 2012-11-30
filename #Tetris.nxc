@@ -4,11 +4,14 @@
 
 /*                 DEFINES                */
 #include "+Button+-.nxc"
+//Dimensions / Graphics
 #define blocksize  4
 #define width   10
 #define height  25
-#define waitLR     100
 #define TX      35
+//Other
+#define waitLR     100
+//tetrimino
 #define Itet 0
 #define Jtet 1
 #define Ltet 2
@@ -57,7 +60,7 @@ bool rotate;
 bool drop;
 int currentPiece=-1;
 int comingPiece;
-int fullRowArray[4]={-1,-1,-1,-1};
+int fullRowsArray[4]={-1,-1,-1,-1};
 
 bool area[width][height];
 int chnc[7];
@@ -122,7 +125,6 @@ void selectGame()
   if      (gametype==0)
     {
     accesshigh=StrCat(accesshigh,"Give.dat");
-    chnc[prob]=7;
     chnc[Itet]=2;
     chnc[Jtet]=1;
     chnc[Ltet]=1;
@@ -130,11 +132,11 @@ void selectGame()
     chnc[Stet]=0;
     chnc[Ttet]=1;
     chnc[Ztet]=0;
+    chnc[prob]=7;
     }
   else if (gametype==1)
     {
     accesshigh=StrCat(accesshigh,"Simp.dat");
-    chnc[prob]=12;
     chnc[Itet]=3;
     chnc[Jtet]=1;
     chnc[Ltet]=1;
@@ -142,11 +144,11 @@ void selectGame()
     chnc[Stet]=1;
     chnc[Ttet]=2;
     chnc[Ztet]=1;
+    chnc[prob]=12;
     }
   else if (gametype==2)
     {
     accesshigh=StrCat(accesshigh,"Norm.dat");
-    chnc[prob]=7;
     chnc[Itet]=1;
     chnc[Jtet]=1;
     chnc[Ltet]=1;
@@ -154,11 +156,11 @@ void selectGame()
     chnc[Stet]=1;
     chnc[Ttet]=1;
     chnc[Ztet]=1;
+    chnc[prob]=7;
     }
   else if (gametype==3)
     {
     accesshigh=StrCat(accesshigh,"Hard.dat");
-    chnc[prob]=21;
     chnc[Itet]=2;
     chnc[Jtet]=3;
     chnc[Ltet]=3;
@@ -166,11 +168,11 @@ void selectGame()
     chnc[Stet]=4;
     chnc[Ttet]=3;
     chnc[Ztet]=4;
+    chnc[prob]=21;
     }
   else if (gametype==4)
     {
     accesshigh=StrCat(accesshigh,"Death.dat");
-    chnc[prob]=19;
     chnc[Itet]=1;
     chnc[Jtet]=3;
     chnc[Ltet]=3;
@@ -178,6 +180,7 @@ void selectGame()
     chnc[Stet]=4;
     chnc[Ttet]=2;
     chnc[Ztet]=4;
+    chnc[prob]=19;
     }
   ClearScreen();
   }
@@ -216,12 +219,14 @@ void pieceCreate()
   {
   comingPiece=currentPiece;
   int rndm;
-  int create=0;
+  int pieceToCreate=0;
   rndm=Random(chnc[prob]);
-  for (int i=0; (i<Ztet)&&(create==0); i++)
+  for (int i=0; (i<Ztet)&&(pieceToCreate==0); i++)
     {
     if (rndm<chnc[i])
-      {create=i;}
+      {
+      pieceToCreate=i;
+      }
     }
   currentPiece=create;
   }
@@ -229,9 +234,25 @@ void pieceCreate()
   
 bool checkFullRows()
   {
-  bool anyFullRows=false;
-  //ADD CODE HERE
-  return anyFullRows;
+  int blocksInRow=0;
+  int killNum=0;
+  for (int i=0;i<4;i++)
+    {
+    fullRowsArray[i]=0;
+    }
+  for (int i=0; i<height; i++)
+    {
+    for (int j=0; j<width; j++)
+      {
+      blocksInRow+=(area[i][j]); //switch i & j???
+      }
+    if (blocksInRow==width)
+      {
+      fullRowArray[killNum]=i;
+      killNum++;
+      }
+    }
+  return (killNum>0);
   }
 
 
@@ -239,7 +260,13 @@ task main()
   {
   SetLongAbort(true);
   bool playagain, alive, piecemoving;
-
+  for (int i=0; i<height; i++)
+    {
+    for (int j=0; j<width; j++)
+      {
+      area[i][j]=0; //switch i & j???
+      }
+    }
   playagain=true;
   while (playagain)
     {
@@ -260,6 +287,7 @@ task main()
         //do output
         //debugging
         }
+      //set piece into area
       if (checkFullRows()) //rows filled
         {
         //destroy them
