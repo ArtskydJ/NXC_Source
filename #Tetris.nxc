@@ -9,9 +9,11 @@
 #define width   10
 #define height  25
 #define TX      35
-//Other
-#define waitLR     100
-//tetrimino
+//Timing
+#define waitMove    100
+#define waitRotate  100
+#define waitDrop    100
+//tetriminos
 #define Itet 0
 #define Jtet 1
 #define Ltet 2
@@ -54,6 +56,8 @@ int gamespeed;
 int delaytime;
 int prevC;
 int prevE;
+int prevL;
+int prevR;
 int currentPiece;
 int comingPiece;
 bool moveL;
@@ -63,7 +67,6 @@ bool drop;
 bool prevQuadClear;
 
 
-int fullRowsArray[4]={-1,-1,-1,-1};
 bool area[width][height];
 int chnc[7];
 
@@ -191,9 +194,29 @@ void selectGame()
 void getInput()
   {
   if (ButtonPressed(BTNLEFT))
-    {drop=true;}
+    {
+    if (prevL==0)
+      {
+      drop=true;
+      }
+    prevL++;
+    if (prevL<waitDrop)
+      {
+      prevL=0;
+      }
+    }
   if (ButtonPressed(BTNRIGHT))
-    {rotate=true;}
+    {
+    if (prevR==0)
+      {
+      rotate=true;
+      }
+    prevR++;
+    if (prevR<waitRotate)
+      {
+      prevR=0;
+      }
+    }
   if (ButtonPressed(BTNCENTER))
     {
     if (prevC==0)
@@ -201,8 +224,10 @@ void getInput()
       moveL=true;
       }
     prevC++;
-    if (prevC<waitLR)
-      {prevC=0;}
+    if (prevC<waitMove)
+      {
+      prevC=0;
+      }
     }
   if (ButtonPressed(BTNEXIT))
     {
@@ -211,8 +236,10 @@ void getInput()
       moveR=true;
       }
     prevE++;
-    if (prevE<waitLR)
-      {prevE=0;}
+    if (prevE<waitMove)
+      {
+      prevE=0;
+      }
     }
   }
   
