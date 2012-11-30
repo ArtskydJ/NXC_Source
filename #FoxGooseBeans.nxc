@@ -16,17 +16,17 @@
 #define    boatWidth       20 //sizes [drawShapes only]
 #define    riverWidth      boatWidth+(boatSteps*boatSpeed)
 #define    riverStart      (100-riverWidth)/2
-//#download "FGB-river.ric"  //Images
-//#download "FGB-boat.ric"
-//#download "FGB-farmer.ric"
-//#download "FGB-fox.ric"
-//#download "FGB-goose.ric"
-//#download "FGB-sack.ric"
+#download "FGBriver.ric"  //Images
+#download "FGBboat.ric"
+#download "FGBfarmer.ric"
+#download "FGBfox.ric"
+#download "FGBgoose.ric"
+#download "FGBsack.ric"
 
 ///////////////------ARRAYS------///////////////
 //objectWhatever(What+Where)
-const int xpos[2][3]={{8,8,8}{88,84,88}};
-const int ypos[3]={56,30,6};
+const int xpos[2][3]={{0,0,0}{88,84,88}};
+const int ypos[3]={52,30,10};
 int objectStatus[4]={left,left,left,left};
 //int objectDrawPosition[3]={foxStart,gooseStart,beansStart}
 
@@ -110,7 +110,7 @@ void inputOutput()
     }
   }
   
-
+/*
 void drawShapes()
   {
   ClearScreen();
@@ -153,9 +153,8 @@ void drawShapes()
   RectOut(movingX,movingObject*-25+50,boatWidth,15,0);
   //DRAW RIVER
   RectOut(riverStart,0,riverWidth,99,0);
-
   }
-
+*/
 
 void drawGraphics()
   {
@@ -176,20 +175,20 @@ void drawGraphics()
       }
     if (k==fox)
       {
-      GraphicOut(i,j,"FGB-fox.ric",0);
+      GraphicOut(i,j,"FGBfox.ric");
       }
     if (k==goose)
       {
-      GraphicOut(i,j,"FGB-goose.ric",0);
+      GraphicOut(i,j,"FGBgoose.ric");
       }
     if (k==beans)
       {
-      GraphicOut(i,j,"FGB-beans.ric",0);
+      GraphicOut(i,j,"FGBbeans.ric");
       }
     }
-  GraphicOut(i,j,"FGB-boat.ric",0);
-  GraphicOut(i,j,"FGB-river.ric",0);
-  GraphicOut(i,j,"FGB-farmer.ric",0);
+  //GraphicOut(i,j,"FGBboat.ric",0);
+  //GraphicOut(riverStart,0,"FGBriver.ric",0);
+  //GraphicOut(i,j,"FGBfarmer.ric",0);
   }
 
 
@@ -208,7 +207,7 @@ void debugStreamOut()
 int checkGame()
   {
   int returngame=1;
-  if ((objectStatus[fox])&&(objectStatus[goose])&&(objectStatus[beans])&&(objectStatus[boat]))
+  if ((objectStatus[fox]==1)&&(objectStatus[goose]==1)&&(objectStatus[beans]==1)&&(objectStatus[boat]==1))
     {returngame=0;PlayTone(500,2000);}
   if ((objectStatus[fox]  ==objectStatus[goose])&&(objectStatus[goose]!=objectStatus[boat])) {returngame=2;}
   if ((objectStatus[goose]==objectStatus[beans])&&(objectStatus[goose]!=objectStatus[boat])) {returngame=3;}
@@ -241,10 +240,10 @@ task main()
   while (game)
     {
     inputOutput();
-    //drawGraphics();
-    drawShapes();
+    drawGraphics();
+    //drawShapes();
     Wait(100);
-    //debugStreamOut();
+    debugStreamOut();
     game=checkGame();
     }
   }
