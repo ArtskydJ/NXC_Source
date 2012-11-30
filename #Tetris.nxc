@@ -5,7 +5,7 @@
 /*                 DEFINES                */
 #include "+Button+-.nxc"
 //Dimensions / Graphics
-#define blocksize  4
+#define b       4
 #define width   10
 #define height  25
 #define TX      35
@@ -49,6 +49,7 @@ const int Z[8]=
 
 
 /*            GLOBAL VARIABLES            */
+string msg;
 string accesshigh;
 float speedup;
 int gametype;
@@ -291,6 +292,40 @@ bool clearFullRows()
   }
 
 
+void redraw()
+  {
+  string scoreString;
+  string tempStr;
+  string tempOut;
+  for (int i=0; i<height; i++)
+    {
+    for (int j=0; j<width; j++)
+      {
+      RectOut(i*b,j*b,b,b,( (area[j][i]*28) +4));
+      }
+    }
+  scoreString=NumToStr(score);
+  msg=scoreString;
+  for (int i=0; i<StrLen(scoreString); i++)
+    {
+    tempStr=SubStr(scoreString,i,1);
+    if      (tempStr=="0") tempOut="{}"; //BAD?
+    else if (tempStr=="1") tempOut="--";
+    else if (tempStr=="2") tempOut="L/"; //BAD
+    else if (tempStr=="3") tempOut="UU";
+    else if (tempStr=="4") tempOut="_[";
+    else if (tempStr=="5") tempOut="u7";  //BAD
+    else if (tempStr=="6") tempOut="O\\"; //GOOD
+    else if (tempStr=="7") tempOut="\\|";
+    else if (tempStr=="8") tempOut="OO";
+    else if (tempStr=="9") tempOut="_O";
+    TextOut(86,54-i*10,tempOut,4096);
+    msg=StrCat(msg,tempOut);
+    }
+  SendResponseString(MAILBOX10,msg);
+  }
+
+
 task main()
   {
   SetLongAbort(true);
@@ -299,7 +334,8 @@ task main()
     {
     for (int j=0; j<width; j++)
       {
-      area[j][i]=0; //switch i & j???
+      area[j][i]=Random(3)%2;
+      //area[j][i]=0;
       }
     }
   playagain=true;
@@ -309,7 +345,8 @@ task main()
     prevQuadClear=false;
     prevC=0;
     prevE=0;
-    score=0;
+    score=Random(8999)+1000;//score=0;
+
     currentPiece=-1;
     alive=true;
     while (alive)
@@ -318,12 +355,13 @@ task main()
       piecemoving=true;
       while (piecemoving)
         {
-        for (int i=0;i<delaytime;i++) //waiting
+        for (int i=0;i<delaytime/10;i++) //waiting
           {
           getInput();
           Wait(10);
           }
         //do output
+        redraw();
         //debugging
         }
       //set piece into area
