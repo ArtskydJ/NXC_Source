@@ -60,6 +60,7 @@ int prevL;
 int prevR;
 int currentPiece;
 int comingPiece;
+int score;
 bool moveL;
 bool moveR;
 bool rotate;
@@ -68,7 +69,7 @@ bool prevQuadClear;
 
 
 bool area[width][height];
-int chnc[7];
+int chnc[8];
 
 
 /*               SUBROUTINES              */
@@ -77,7 +78,7 @@ void selectGame()
   accesshigh="Snake";
   while (ButtonPressed(BTNRIGHT)==false)
     {
-    gametype=senseButton(gamespeed,false,1,2,false);
+    gamespeed=senseButton(gamespeed,false,1,2,false);
     ClearScreen();
     TextOut(TX,LCD_LINE1,"TETRIS", 0);
     TextOut(2, LCD_LINE2,"Speed:", 0);
@@ -92,7 +93,7 @@ void selectGame()
   until (ButtonPressed(BTNRIGHT)==false) {}
   while (ButtonPressed(BTNRIGHT)==false)
     {
-    gametype=senseButton(gametype,false,1,3,false);
+    gametype=senseButton(gametype,false,1,4,false);
     ClearScreen();
     TextOut(TX,LCD_LINE1,"TETRIS",   0);
     TextOut(2, LCD_LINE2,"Type:",    0);
@@ -257,7 +258,7 @@ void pieceCreate()
       pieceToCreate=i;
       }
     }
-  currentPiece=create;
+  currentPiece=pieceToCreate;
   }
   
   
@@ -265,26 +266,17 @@ bool clearFullRows()
   {
   int blocksInRow=0;
   int killNum=0;
-  for (int i=0;i<4;i++)
-    {
-    fullRowsArray[i]=0;
-    }
   for (int i=0; i<height; i++)
     {
     for (int j=0; j<width; j++)
       {
-      blocksInRow+=(area[i][j]); //switch i & j???
+      blocksInRow+=(area[j][i]); //switch i & j???
       }
     if (blocksInRow==width)
       {
-      fullRowArray[killNum]=i;
+      //destroy it & move higher rows down
       killNum++;
       }
-    }
-  //destroy them & move higher rows down
-  for (int i=0;i<4;i++)
-    {
-    //fullRowsArray[i];
     }
   //add to score
   if      (killNum==1)    {score+=100; prevQuadClear=false;}
@@ -307,7 +299,7 @@ task main()
     {
     for (int j=0; j<width; j++)
       {
-      area[i][j]=0; //switch i & j???
+      area[j][i]=0; //switch i & j???
       }
     }
   playagain=true;
@@ -317,6 +309,7 @@ task main()
     prevQuadClear=false;
     prevC=0;
     prevE=0;
+    score=0;
     currentPiece=-1;
     alive=true;
     while (alive)
@@ -334,7 +327,7 @@ task main()
         //debugging
         }
       //set piece into area
-      clearFullRows()
+      clearFullRows();
       }
     //play again?
     }
