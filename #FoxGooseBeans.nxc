@@ -3,6 +3,7 @@
 //10-25-2012 to  1_-__-2012
 
 ///////////////---PREPROCESSOR---///////////////
+#include   "+SoundEnd.nxc"
 #define    fox             0 //Objects
 #define    goose           1
 #define    beans           2
@@ -13,7 +14,7 @@
 #define    boatSteps       20 //performance
 #define    boatSpeed       2
 #define    frameDuration   100
-#define    boatWidth       20 //sizes [drawShapes only]
+#define    boatWidth       20 //sizes
 #define    riverWidth      boatWidth+(boatSteps*boatSpeed)
 #define    riverStart      (100-riverWidth)/2
 #download "FGBriver.ric"  //Images
@@ -26,13 +27,13 @@
 ///////////////------ARRAYS------///////////////
 //objectWhatever(What+Where)
 const int xpos[2][3]={{0,0,0}{88,84,88}};
-const int ypos[3]={52,30,10};
+const int ypos[3]={40,25,10};
 int objectStatus[4]={left,left,left,left};
 //int objectDrawPosition[3]={foxStart,gooseStart,beansStart}
 
 
 //////////////-----VARIABLES-----///////////////
-int movingX=riverStart, movingStep=0, movingObject=fox,boatStepsTaken=0;
+int movingX=riverStart, movingStep=0, objectInBoat=fox,boatStepsTaken=0;
 int i,j;
 bool movingLeft=false;
 
@@ -80,17 +81,17 @@ void inputOutput()
   {
   if (objectStatus[boat]<moving) //if still, select object
     {
-    if (ButtonPressed(BTNLEFT))  {movingObject--;}
+    if (ButtonPressed(BTNLEFT))  {objectInBoat--;}
     until (ButtonPressed(BTNLEFT)==false)  {}
-    if (ButtonPressed(BTNRIGHT)) {movingObject++;}
+    if (ButtonPressed(BTNRIGHT)) {objectInBoat++;}
     until (ButtonPressed(BTNRIGHT)==false) {}
-    if (movingObject<0) {movingObject=2;}
-    if (movingObject>2) {movingObject=0;}
+    if (objectInBoat<0) {objectInBoat=2;}
+    if (objectInBoat>2) {objectInBoat=0;}
     if (ButtonPressed(BTNCENTER)) // or allow to move
       {
-      if (objectStatus[boat]==objectStatus[movingObject])
-        {objectStatus[movingObject]=moving;}
-      objectStatus[boat]=moving;  //NumOut(0,56,movingObject,0);
+      if (objectStatus[boat]==objectStatus[objectInBoat])
+        {objectStatus[objectInBoat]=moving;}
+      objectStatus[boat]=moving;  //NumOut(0,56,objectInBoat,0);
       }
     }
   if (objectStatus[boat]==moving)
@@ -104,7 +105,7 @@ void inputOutput()
   if (boatStepsTaken>=boatSteps)
     {
     objectStatus[boat]=!movingLeft;
-    objectStatus[movingObject]=!movingLeft;
+    objectStatus[objectInBoat]=!movingLeft;
     movingLeft=!movingLeft;
     boatStepsTaken=0;
     }
@@ -120,7 +121,7 @@ void drawShapes()
     j=ypos[k];
     if (objectStatus[k]==moving)  //if object is moving
       {i=movingX+xpos[left][k];}
-    else if ((movingObject==k)&&(objectStatus[boat]==objectStatus[k]))     //if object is not moving, but in boat
+    else if ((objectInBoat==k)&&(objectStatus[boat]==objectStatus[k]))     //if object is not moving, but in boat
       {
       if (objectStatus[boat]) {i=xpos[objectStatus[k]][k]-15;} //right
       else                    {i=xpos[objectStatus[k]][k]+20;} //left
@@ -150,7 +151,7 @@ void drawShapes()
       }
     }
   //DRAW BOAT
-  RectOut(movingX,movingObject*-25+50,boatWidth,15,0);
+  RectOut(movingX,objectInBoat*-25+50,boatWidth,15,0);
   //DRAW RIVER
   RectOut(riverStart,0,riverWidth,99,0);
   }
@@ -158,21 +159,33 @@ void drawShapes()
 
 void drawGraphics()
   {
+  bool drawboat;
   ClearScreen();
+  GraphicOut(riverStart,0,"FGBriver.ric",0);
   for (int k=0;k<3;k++)
     {
     j=ypos[k];
-    if (objectStatus[k]==moving)  //if object is moving
-      {i=movingX+xpos[left][k];}
-    else if ((movingObject==k)&&(objectStatus[boat]==objectStatus[k]))     //if object is not moving, but in boat
+    if (objectStatus[k]==moving)                                                //if object is moving
       {
-      if (objectStatus[boat]) {i=xpos[objectStatus[k]][k]-15;} //right
-      else                    {i=xpos[objectStatus[k]][k]+20;} //left
+      i=movingX+xpos[left][k];
+      drawboat=true;
       }
-    else
+    else if ((objectInBoat==k)&&(objectStatus[boat]==objectStatus[k]))          //if object is not moving, but is in the boat
       {
-      i=xpos[objectStatus[k]][k];   //if object is not moving, not in boat
+      if      (objectStatus[boat]==left)  {i=xpos[ objectStatus[k] ][k]+20;}
+      else if (objectStatus[boat]==right) {i=xpos[ objectStatus[k] ][k]-20;}
+      drawboat=true;
       }
+    else if ((objectInBoat==k)&&(objectStatus[boat]!=objectStatus[k]))          //if object is not moving and is on opposite side then the boat
+      {
+      drawboat=true;
+      }
+    else                                                                        //if object is not moving, not in boat
+      {
+      i=xpos[objectStatus[k]][k];
+      drawboat=false;
+      }
+
     if (k==fox)
       {
       GraphicOut(i,j,"FGBfox.ric");
@@ -183,12 +196,18 @@ void drawGraphics()
       }
     if (k==beans)
       {
-      GraphicOut(i,j,"FGBbeans.ric");
+      GraphicOut(i,j,"FGBsack.ric");
+      }
+    if (drawboat)
+      {
+      //GraphicOut(i+19,j,"FGBfarmer.ric",0);
+      //GraphicOut(i,   j,"FGBboat.ric",0);
+      //GraphicOut(movingX+19,objectInBoat*-25+50,"FGBfarmer.ric",0);
+      //GraphicOut(movingX,   objectInBoat*-25+50,"FGBboat.ric",0);
+      GraphicOut(movingX+19,j,"FGBfarmer.ric",0);
+      GraphicOut(movingX,   j,"FGBboat.ric",0);
       }
     }
-  //GraphicOut(i,j,"FGBboat.ric",0);
-  //GraphicOut(riverStart,0,"FGBriver.ric",0);
-  //GraphicOut(i,j,"FGBfarmer.ric",0);
   }
 
 
@@ -207,10 +226,17 @@ void debugStreamOut()
 int checkGame()
   {
   int returngame=1;
-  if ((objectStatus[fox]==1)&&(objectStatus[goose]==1)&&(objectStatus[beans]==1)&&(objectStatus[boat]==1))
-    {returngame=0;PlayTone(500,2000);}
-  if ((objectStatus[fox]  ==objectStatus[goose])&&(objectStatus[goose]!=objectStatus[boat])) {returngame=2;}
-  if ((objectStatus[goose]==objectStatus[beans])&&(objectStatus[goose]!=objectStatus[boat])) {returngame=3;}
+  if ((objectStatus[fox]==1)&&(objectStatus[goose]==1)
+    &&(objectStatus[beans]==1)&&(objectStatus[boat]==1))
+    {returngame=0;SoundEnd(soundWin);}
+  if ((objectStatus[fox]  ==objectStatus[goose])
+    &&(objectStatus[goose]!=objectStatus[boat])
+    &&(objectStatus[boat])!=moving)
+    {returngame=2;SoundEnd(soundLose);}
+  if ((objectStatus[goose]==objectStatus[beans])
+    &&(objectStatus[goose]!=objectStatus[boat])
+    &&(objectStatus[boat])!=moving)
+    {returngame=3;SoundEnd(soundLose);}
   if (returngame==0)
     {
     TextOut(20,LCD_LINE4," Success! ",0);
@@ -229,7 +255,7 @@ int checkGame()
     TextOut(5,LCD_LINE5,"Goose ate Beans!",0);
     Wait(1000);
     }
-  return returngame;
+  return (returngame==1);
   }
   
   
@@ -243,7 +269,7 @@ task main()
     drawGraphics();
     //drawShapes();
     Wait(100);
-    debugStreamOut();
+    //debugStreamOut();
     game=checkGame();
     }
   }
