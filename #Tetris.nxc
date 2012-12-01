@@ -2,8 +2,10 @@
 //Joseph Dykstra
 
 
-/*                 DEFINES                */
+/*              PREPROCESSOR              */
 #include "+Button+-.nxc"
+#include "+Highscore.nxc"
+#download "PropTiny.ric"
 //Dimensions / Graphics
 #define b       4
 #define width   10
@@ -309,7 +311,7 @@ void redraw()
   for (int i=0; i<StrLen(scoreString); i++)
     {
     tempStr=SubStr(scoreString,i,1);
-    if      (tempStr=="0") tempOut="{}"; //BAD?
+    /*if      (tempStr=="0") tempOut="{}"; //BAD?
     else if (tempStr=="1") tempOut="--";
     else if (tempStr=="2") tempOut="L/"; //BAD
     else if (tempStr=="3") tempOut="UU";
@@ -318,8 +320,8 @@ void redraw()
     else if (tempStr=="6") tempOut="O\\"; //GOOD
     else if (tempStr=="7") tempOut="\\|";
     else if (tempStr=="8") tempOut="OO";
-    else if (tempStr=="9") tempOut="_O";
-    TextOut(86,54-i*10,tempOut,4096);
+    else if (tempStr=="9") tempOut="_O";*/
+    FontTextOut(86,54-i*10,"PropTiny.ric",tempOut,DRAW_OPT_FONT_DIR_T2BR);
     msg=StrCat(msg,tempOut);
     }
   SendResponseString(MAILBOX10,msg);
