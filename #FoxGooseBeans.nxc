@@ -11,12 +11,9 @@
 #define    left            0 //Locations
 #define    right           1
 #define    moving          2
-#define    boatSteps       20 //performance
+#define    boatSteps       15 //performance
 #define    boatSpeed       2
-#define    frameDuration   100
-#define    boatWidth       20 //sizes
-#define    riverWidth      boatWidth+(boatSteps*boatSpeed)
-#define    riverStart      (100-riverWidth)/2
+#define    frameDuration   75
 #download "FGBriver.ric"  //Images
 #download "FGBboat.ric"
 #download "FGBfarmer.ric"
@@ -33,7 +30,7 @@ int objectStatus[4]={left,left,left,left};
 
 
 //////////////-----VARIABLES-----///////////////
-int movingX=riverStart, movingStep=0, objectInBoat=fox,boatStepsTaken=0;
+int movingX=20, movingStep=0, objectInBoat=fox,boatStepsTaken=0;
 int i,j;
 bool movingLeft=false;
 
@@ -161,28 +158,29 @@ void drawGraphics()
   {
   bool drawboat;
   ClearScreen();
-  GraphicOut(riverStart,0,"FGBriver.ric",0);
+  GraphicOut(20,0,"FGBriver.ric",0);
   for (int k=0;k<3;k++)
     {
     j=ypos[k];
-    if (objectStatus[k]==moving)                                                //if object is moving
-      {
+    if (objectStatus[k]==moving)
+      {  //if object is moving
       i=movingX+xpos[left][k];
       drawboat=true;
       }
-    else if ((objectInBoat==k)&&(objectStatus[boat]==objectStatus[k]))          //if object is not moving, but is in the boat
-      {
+    else if ((objectInBoat==k)&&(objectStatus[boat]==objectStatus[k]))
+      {  //if object is not moving, is on the same side as the boat, and is in the boat.
       if      (objectStatus[boat]==left)  {i=xpos[ objectStatus[k] ][k]+20;}
-      else if (objectStatus[boat]==right) {i=xpos[ objectStatus[k] ][k]-20;}
+      else if (objectStatus[boat]==right) {i=xpos[ objectStatus[k] ][k]-34;}
       drawboat=true;
       }
-    else if ((objectInBoat==k)&&(objectStatus[boat]!=objectStatus[k]))          //if object is not moving and is on opposite side then the boat
-      {
+    else if ((objectInBoat==k)&&(objectStatus[boat]!=objectStatus[k]))
+      {  //if object is not moving and is on opposite side then the boat
+      i=xpos[ objectStatus[k] ][k];
       drawboat=true;
       }
-    else                                                                        //if object is not moving, not in boat
-      {
-      i=xpos[objectStatus[k]][k];
+    else
+      {  //if object is not moving, not in boat
+      i=xpos[ objectStatus[k] ][k];
       drawboat=false;
       }
 
@@ -200,12 +198,8 @@ void drawGraphics()
       }
     if (drawboat)
       {
-      //GraphicOut(i+19,j,"FGBfarmer.ric",0);
-      //GraphicOut(i,   j,"FGBboat.ric",0);
-      //GraphicOut(movingX+19,objectInBoat*-25+50,"FGBfarmer.ric",0);
-      //GraphicOut(movingX,   objectInBoat*-25+50,"FGBboat.ric",0);
       GraphicOut(movingX+19,j,"FGBfarmer.ric",0);
-      GraphicOut(movingX,   j,"FGBboat.ric",0);
+      GraphicOut(movingX, j-2,"FGBboat.ric",0);
       }
     }
   }
