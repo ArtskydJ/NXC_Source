@@ -3,7 +3,7 @@
 //Snake.bas, developed by Joseph Dykstra and Josiah K, finished on 04-30-2012.
 //Snake.cpp, ported from Snake.bas by Joseph Dykstra,  finished on 07-13-2012.
 //Snake.nxc, ported from Snake.cpp by Joseph Dykstra,  finished on 10-02-2012.
-//Many modifications since, though
+//Many modifications since, though...
 
 #include "+Button+-.nxc"
 #include "+HighScore.nxc"
