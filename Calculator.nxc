@@ -1,5 +1,9 @@
 //Calculator
 
+#include "+Button+-.nxc"
+
+byte line1=56, line2=48, line3=40;
+
 int SetNum()
     {
     bool reloop=true;
@@ -7,12 +11,10 @@ int SetNum()
     while (reloop)
         {
         ResetTachoCount(OUT_A);
-        if (ButtonState(BTNLEFT))
-            {temp-=1;}
-        if (ButtonState(BTNRIGHT))
-            {temp+=1;}
+        if (ButtonState(BTNLEFT))  temp-=1;
+        if (ButtonState(BTNRIGHT)) temp+=1;
         ClearLine(LCD_LINE1);
-        TextOut(0,LCD_LINE1,NumToStr(temp),DRAW_OPT_NORMAL);
+        TextOut(0,LCD_LINE1,NumToStr(temp),0);
         Wait(100);
         if (ButtonState(BTNLEFT)||ButtonState(BTNRIGHT))
             {Wait(100);}
@@ -29,14 +31,12 @@ int SetOp()
     int temp=0;
     while (reloop)
         {
-        if (ButtonState(BTNRIGHT)) {temp+=1;}
-        until(ButtonState(BTNRIGHT)==false)
-        if (temp>=4) {temp-=4;}
+        temp=senseButton(temp,true,1,3,false);
         ClearLine(LCD_LINE2);
-        if (temp==0) {TextOut(0,LCD_LINE2,"+",DRAW_OPT_NORMAL);}
-        if (temp==1) {TextOut(0,LCD_LINE2,"-",DRAW_OPT_NORMAL);}
-        if (temp==2) {TextOut(0,LCD_LINE2,"*",DRAW_OPT_NORMAL);}
-        if (temp==3) {TextOut(0,LCD_LINE2,"/",DRAW_OPT_NORMAL);}
+        if (temp==0) {TextOut(0,LCD_LINE2,"+",0);}
+        if (temp==1) {TextOut(0,LCD_LINE2,"-",0);}
+        if (temp==2) {TextOut(0,LCD_LINE2,"*",0);}
+        if (temp==3) {TextOut(0,LCD_LINE2,"/",0);}
         Wait(100);
         reloop=!(ButtonState(BTNCENTER));
         }
@@ -46,23 +46,22 @@ int SetOp()
 
 task main()
     {
-    int Num1, Num2, operation;
-    TextOut(45,LCD_LINE8,"OK",DRAW_OPT_NORMAL);
+    float Num1, Num2;
+    byte operation;
+    TextOut(45,LCD_LINE8,"OK",0);
     Num1=SetNum();
+    ClearLine(LCD_LINE8);
     while(true)
         {
-        ClearLine(LCD_LINE8);
-        TextOut(45,LCD_LINE8,"OK",DRAW_OPT_NORMAL);
+        ClearLine(line1);ClearLine(line2);ClearLine(line3);
+        TextOut(45,LCD_LINE8,"OK",0);
         operation=SetOp();
+        ClearLine(line1);ClearLine(line2);ClearLine(line3);
         Num2=SetNum();
-        ClearLine(LCD_LINE2);
         if (operation==0) {Num1+=Num2;}
         if (operation==1) {Num1-=Num2;}
         if (operation==2) {Num1*=Num2;}
         if (operation==3) {Num1/=Num2;}
-        TextOut(0,LCD_LINE1,NumToStr(Num1),DRAW_OPT_NORMAL);
-        TextOut(40,LCD_LINE8,"Next",DRAW_OPT_NORMAL);
-        until (ButtonState(BTNCENTER)){}
-        until (ButtonState(BTNCENTER)==false){}
+        NumOut(0,0,Num1,0);
         }
     }
