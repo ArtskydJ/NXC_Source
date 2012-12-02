@@ -12,29 +12,11 @@
 #define  width   16 //width  of field
 
 
-int n, x, y, z, fx, fy, lx, ly, dir=1, cdir=1, clrx1, clry1;
+int n, x, y, z, fx, fy, lx, ly, dir=1, cdir=1, clrx1, clry1, score;
 int clrx2, clry2, length, grow, startlength, delaytime, board[width+1][height+1];
 float speedup;
 bool foodate=0,dead=0,wrap=0,playagain=1,newsettings=0,highmade=false;
 string msg="", accesshigh="";
-
-void boardInit()
-  {
-  for (x=0;x<=width;x++)
-    {for (y=0;y<=height;y++)
-      {board[x][y]=0;}}
-  for (x=0;x<startlength;x++)
-    {board[x][0]=x+1;}
-  score=0;
-  foodate=0; dead=0;
-  dir=1; cdir=1;
-  length=startlength;
-  fx=startlength-1;
-  fy=0; lx=0; ly=0;
-  delaytime=200;
-  SetLongAbort(true);
-  }
-
 
 void snakeMove()
   {
@@ -104,7 +86,6 @@ void snakeMove()
     }
   }
 
-
 void snakeDraw()
   {
   for (x=0;x<=b;x++)
@@ -126,50 +107,59 @@ void snakeDraw()
         {CircleOut(x*b+1,62-y*b,(b-1)/2,32);}
       }
     }
+  TextOut(65,LCD_LINE1,"Score",0);
+  NumOut( 65,LCD_LINE2,score,0);
   }
-
-
-void foodMake()
-  {
-  z=1;
-  while (z)
-    {
-    x=(Random(width-1)+1);
-    y=(Random(height-1)+1);
-    if (board[x][y]==0) {z=0; board[x][y]=-1;}
-    }
-  foodate=0;
-  dead=0;
-  }
-
-
-void snakeGrow()
-  {
-  if  (dead==false)
-    {
-    for (y=0;y<height;y++)
-      {
-      for (x=0;x<width;x++)
-        {if (board[x][y]>=1) {board[x][y]+=grow;} }
-      }
-    score+=1;
-    delaytime*=speedup;
-    }
-  }
-
 
 task main()
   {
-  boardInit();
+  score=0;
+  foodate=0; dead=0;
+  dir=1; cdir=1;
+  length=startlength;
+  fx=startlength-1;
+  fy=0; lx=0; ly=0;
+  delaytime=200;
+  for (x=0;x<=width;x++)
+    {
+    for (y=0;y<=height;y++)
+      {
+      board[x][y]=0;
+      }
+    }
+  for (x=0;x<startlength;x++)
+    {board[x][0]=x+1;}
+  SetLongAbort(true);
   while (dead==false)
     {
-    foodMake();
+    z=1;
+    while (z)
+      {
+      x=(Random(width-1)+1);
+      y=(Random(height-1)+1);
+      if (board[x][y]==0) {z=0; board[x][y]=-1;}
+      }
+    foodate=0;
+    dead=0;
     while (foodate==0&&dead==0)
       {
       snakeDraw();
       snakeMove();
       }
-    snakeGrow();
+    if  (dead==false)
+      {
+      for (y=0;y<height;y++)
+        {
+        for (x=0;x<width;x++)
+          {if (board[x][y]>=1) {board[x][y]+=grow;} }
+        }
+      score+=1;
+      delaytime*=speedup;
+      }
     }
   PlayTone(500,500); Wait(2000);
   }
+  
+  
+//CANT SEE SNAKE!!!
+//REASON UNKNOWN!!!

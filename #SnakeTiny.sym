@@ -1,0 +1,2002 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__unsigned_stack_001main	5	1	0	4	8
+1	__signed_stack_003main	6	1	4	4	8
+2	__signed_stack_001snakeDraw	6	1	8	4	48
+3	__signed_stack_003snakeDraw	6	1	12	4	28
+4	__signed_stack_002snakeDraw	6	1	16	4	26
+5	__D0snakeMove	6	1	20	4	204
+6	__D0snakeDraw	6	1	24	4	93
+7	__DU0snakeMove	5	1	28	4	10
+8	__signed_stack_002main	6	1	32	4	15
+9	__signed_stack_001main	6	1	36	4	38
+10	__signed_stack_004snakeDraw	6	1	40	4	12
+11	speedup	10	1	44	4	1
+12	__constVal786433	6	0	48	4	2
+13	__Wait_7qG2_ms_7qG2_000_inline_snakeMove	5	1	52	4	2
+14	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	56	4	2
+15	__constVal65536	6	0	60	4	2
+16	__signed_stack_001snakeMove	6	1	64	4	117
+17	__signed_stack_005snakeDraw	6	1	68	4	8
+18	__signed_stack_002snakeMove	6	1	72	4	33
+19	__unsigned_stack_001snakeMove	5	1	76	4	2
+20	__signed_stack_003snakeMove	6	1	80	4	12
+21	__constVal32768	6	0	84	4	2
+22	__SPTArgsMutex	9	0	88	4	2
+23	__IOMWMutex	9	0	92	4	4
+24	__RandomTmp	5	1	96	4	12
+25	__RBtnMutex	9	0	100	4	8
+26	__D0main	6	1	104	4	79
+27	ly	4	1	108	2	2
+28	dir	4	0	110	2	9
+29	cdir	4	0	112	2	9
+30	fx	4	1	114	2	17
+31	z	4	1	116	2	3
+32	lx	4	1	118	2	2
+33	fy	4	1	120	2	17
+34	clrx1	4	1	122	2	3
+35	grow	4	1	124	2	5
+36	clrx2	4	1	126	2	5
+37	length	4	1	128	2	13
+38	clry2	4	1	130	2	5
+39	clry1	4	1	132	2	3
+40	delaytime	4	1	134	2	4
+41	score	4	1	136	2	4
+42	startlength	4	1	138	2	3
+43	n	4	1	140	2	16
+44	x	4	1	142	2	60
+45	y	4	1	144	2	38
+46	__snakeDraw_return	1	1	146	1	3
+47	__constVal4	2	0	147	1	1
+48	__constVal17	2	0	148	1	2
+49	____initialize_global_data_return	1	1	149	1	3
+50	__constVal0	2	1	150	1	5
+51	__constVal1	2	0	151	1	16
+52	__snakeMove_return	1	1	152	1	3
+53	__constValNeg1	2	0	153	1	12
+54	__constVal40	2	0	154	1	2
+55	wrap	1	1	155	1	8
+56	foodate	1	1	156	1	9
+57	dead	1	1	157	1	22
+58	__TextOutArgs	8	0	4	16	11
+59	__TextOutArgs.Result	2	1	160	1	11
+60	__TextOutArgs.Location	8	0	2	4	11
+61	__TextOutArgs.Location.X	4	1	164	2	11
+62	__TextOutArgs.Location.Y	4	1	166	2	11
+63	__TextOutArgs.Text	7	0	168	4	11
+64	__TextOutArgs.Text.Text_type	1	0	0	1	0
+65	__TextOutArgs.Options	5	1	172	4	11
+66	__CircleOutArgs	8	0	4	16	6
+67	__CircleOutArgs.Result	2	1	176	1	6
+68	__CircleOutArgs.Center	8	0	2	4	6
+69	__CircleOutArgs.Center.X	4	1	180	2	6
+70	__CircleOutArgs.Center.Y	4	1	182	2	6
+71	__CircleOutArgs.Size	1	1	184	1	6
+72	__CircleOutArgs.Options	5	1	188	4	6
+73	__RectOutArgs	8	0	4	16	7
+74	__RectOutArgs.Result	2	1	192	1	7
+75	__RectOutArgs.Location	8	0	2	4	7
+76	__RectOutArgs.Location.X	4	1	196	2	7
+77	__RectOutArgs.Location.Y	4	1	198	2	7
+78	__RectOutArgs.Size	8	0	2	4	7
+79	__RectOutArgs.Size.Width	4	1	200	2	7
+80	__RectOutArgs.Size.Height	4	1	202	2	7
+81	__RectOutArgs.Options	5	1	204	4	7
+82	__LineOutArgs	8	0	4	16	20
+83	__LineOutArgs.Result	2	1	208	1	20
+84	__LineOutArgs.StartLoc	8	0	2	4	20
+85	__LineOutArgs.StartLoc.X	4	1	212	2	20
+86	__LineOutArgs.StartLoc.Y	4	1	214	2	20
+87	__LineOutArgs.EndLoc	8	0	2	4	20
+88	__LineOutArgs.EndLoc.X	4	1	216	2	20
+89	__LineOutArgs.EndLoc.Y	4	1	218	2	20
+90	__LineOutArgs.Options	5	1	220	4	20
+91	__RandomArgs	8	0	1	4	4
+92	__RandomArgs.Result	4	1	224	2	4
+93	__SPTArgs	8	0	5	8	6
+94	__SPTArgs.Result	2	1	228	1	6
+95	__SPTArgs.Frequency	3	1	230	2	6
+96	__SPTArgs.Duration	3	1	232	2	6
+97	__SPTArgs.Loop	1	1	234	1	6
+98	__SPTArgs.Volume	1	1	235	1	6
+99	__IOMWBIArgs	8	0	4	16	8
+100	__IOMWBIArgs.Result	2	1	236	1	8
+101	__IOMWBIArgs.ModuleID	5	1	240	4	8
+102	__IOMWBIArgs.Offset	3	1	244	2	8
+103	__IOMWBIArgs.Buffer	7	0	246	4	8
+104	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+105	__RBtnArgs	8	0	5	8	16
+106	__RBtnArgs.Result	2	1	248	1	16
+107	__RBtnArgs.Index	1	1	249	1	16
+108	__RBtnArgs.Pressed	1	1	250	1	16
+109	__RBtnArgs.Count	1	1	251	1	16
+110	__RBtnArgs.Reset	1	1	252	1	16
+111	__board_2	7	0	254	4	2
+112	__board_2.__board_2_type	4	0	0	2	0
+113	__constStr0009	7	0	256	4	1
+114	__constStr0009.__constStr0009_type	1	1	0	1	0
+115	__ArrHelper__snakeDraw_236_0	7	0	258	4	4
+116	__ArrHelper__snakeDraw_236_0.__ArrHelper__snakeDraw_236_0_type	4	0	0	2	0
+117	__ArrHelper__snakeMove_236_0	7	0	260	4	37
+118	__ArrHelper__snakeMove_236_0.__ArrHelper__snakeMove_236_0_type	4	0	0	2	0
+119	__IOMWFlattenBuf	7	0	262	4	4
+120	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+121	board	7	0	264	4	40
+122	board.board_type	7	0	0	4	0
+123	board.board_type.board_type_type	4	0	0	2	0
+124	__strbufsnakeDraw	7	0	266	4	2
+125	__strbufsnakeDraw.__strbufsnakeDraw_type	1	0	0	1	0
+126	__ArrHelper__main_236_0	7	0	268	4	21
+127	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	115	0	#line 115 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	116	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	115	2	#line 115 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	115	2	#line 115 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	116	2		set score, 0
+0	115	5	#line 115 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	115	5	#line 115 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	116	5	#line 116 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	117	5		set foodate, 0
+0	116	8	#line 116 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	116	8	#line 116 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	116	8	#line 116 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	117	8		set dead, 0
+0	116	11	#line 116 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	116	11	#line 116 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	117	11	#line 117 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	118	11		set dir, 1
+0	117	14	#line 117 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	117	14	#line 117 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	117	14	#line 117 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	118	14		set cdir, 1
+0	117	17	#line 117 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	117	17	#line 117 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	118	17	#line 118 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	119	17		mov length, startlength
+0	118	19	#line 118 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	118	19	#line 118 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	119	19	#line 119 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	19		mov __signed_stack_001main, startlength
+0	119	21	#line 119 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	119	21	#line 119 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	21		set __D0main, 1
+0	119	24	#line 119 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	24		sub fx, __signed_stack_001main, __D0main
+0	119	28	#line 119 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	119	28	#line 119 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	28	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	121	28		set fy, 0
+0	120	31	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	31	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	31	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	121	31		set lx, 0
+0	120	34	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	34	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	34	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	121	34		set ly, 0
+0	120	37	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	120	37	#line 120 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	121	37	#line 121 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	122	37		set delaytime, 200
+0	121	40	#line 121 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	121	40	#line 121 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	122	40	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	123	40		set x, 0
+0	122	43	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	122	43	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	123	43		mov __signed_stack_001main, x
+0	122	45	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	122	45	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	123	45		set __D0main, 16
+0	122	48	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	123	48		cmp 2, __D0main, __signed_stack_001main, __D0main
+0	122	52	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	123	52		brtst 4, __ASM_Label_1128, __D0main
+0	122	55	#line 122 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	123	55		jmp __ASM_Label_1129
+0	123	57	#line 123 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	124	57		add x, x, __constVal1
+0	124	61	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	61		jmp __ASM_Label_1127
+0	124	63	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	63		set y, 0
+0	124	66	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	124	66	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	66		mov __signed_stack_001main, y
+0	124	68	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	124	68	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	68		set __D0main, 16
+0	124	71	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	71		cmp 2, __D0main, __signed_stack_001main, __D0main
+0	124	75	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	75		brtst 4, __ASM_Label_1136, __D0main
+0	124	78	#line 124 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	125	78		jmp __ASM_Label_1137
+0	125	80	#line 125 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	126	80		add y, y, __constVal1
+0	126	84	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	84		jmp __ASM_Label_1135
+0	126	86	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	86		mov __signed_stack_001main, x
+0	126	88	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	126	88	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	88		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	126	92	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	92		mov __signed_stack_002main, y
+0	126	94	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	126	94	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	94		set __D0main, 0
+0	126	97	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	97		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	126	102	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	127	102		replace board, board, __signed_stack_001main, __ArrHelper__main_236_0
+0	126	107	#line 126 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	129	107	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	107		jmp __ASM_Label_1138
+0	129	109	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	129	109	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	109		jmp __ASM_Label_1130
+0	129	111	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	129	111	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	111		set x, 0
+0	129	114	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	129	114	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	114		mov __signed_stack_001main, x
+0	129	116	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	129	116	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	116		mov __D0main, startlength
+0	129	118	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	118		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	129	122	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	122		brtst 4, __ASM_Label_1150, __D0main
+0	129	125	#line 129 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	125		jmp __ASM_Label_1151
+0	130	127	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	127		add x, x, __constVal1
+0	130	131	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	131		jmp __ASM_Label_1149
+0	130	133	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	133		mov __signed_stack_001main, x
+0	130	135	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	135	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	135		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	130	139	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	139		set __signed_stack_002main, 0
+0	130	142	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	142	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	142		mov __signed_stack_003main, x
+0	130	144	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	130	144	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	144		set __D0main, 1
+0	130	147	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	147		add __D0main, __signed_stack_003main, __D0main
+0	130	151	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	151		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	130	156	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	156		replace board, board, __signed_stack_001main, __ArrHelper__main_236_0
+0	130	161	#line 130 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	161	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	133	161	#pragma macro 7
+0	132	161	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	161		jmp __ASM_Label_1152
+0	132	163	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	133	163	#line 133 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	133	163		set __D0main, 1
+0	134	166	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	135	166		tst 5, __D0main, __D0main
+0	134	169	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	135	169		brtst 4, __ASM_Label_1167, __D0main
+0	134	172	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	135	172	#pragma macro 8
+0	135	172		acquire __IOMWMutex
+0	135	173		mov __IOMWBIArgs.ModuleID, __constVal786433
+0	135	175		mov __IOMWBIArgs.Offset, __constVal40
+0	135	177		flatten __IOMWFlattenBuf, __constVal4
+0	135	180		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	135	183		syscall 79, __IOMWBIArgs
+0	135	186		release __IOMWMutex
+0	9147	187	#line 9147 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	135	187	#line 135 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	136	187	#line 136 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	187		jmp __ASM_Label_1168
+0	136	189	#line 136 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	189	#pragma macro 8
+0	137	189		acquire __IOMWMutex
+0	137	190		mov __IOMWBIArgs.ModuleID, __constVal786433
+0	137	192		mov __IOMWBIArgs.Offset, __constVal40
+0	137	194		flatten __IOMWFlattenBuf, __constVal1
+0	137	197		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	137	200		syscall 79, __IOMWBIArgs
+0	137	203		release __IOMWMutex
+0	9153	204	#line 9153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	204	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	204	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	204	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	204		set __D0main, 0
+0	131	207	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	207	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	207	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	207		tst 5, __D0main, __D0main
+0	131	210	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	210		brtst 4, __ASM_Label_1164, __D0main
+0	131	213	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	213		jmp __ASM_Label_1163
+0	131	215	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	131	215	#line 131 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	215	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	215	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	132	215	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	133	215		mov __unsigned_stack_001main, dead
+0	132	217	#line 132 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	133	217	#line 133 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	134	217		set __D0main, 0
+0	133	220	#line 133 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	134	220		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	134	224	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	135	224		brtst 4, __ASM_Label_1172, __D0main
+0	134	227	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	135	227		set z, 1
+0	134	230	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	134	230	#line 134 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	136	230	#line 136 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	230		mov __D0main, z
+0	137	232	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	232		tst 5, __D0main, __D0main
+0	137	235	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	235		brtst 4, __ASM_Label_1178, __D0main
+0	137	238	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	238		set __D0main, 15
+0	137	241	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	241	#pragma macro 7
+0	138	241		syscall 24, __RandomArgs
+0	138	244		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	138	248		mul __RandomTmp, __RandomTmp, __D0main
+0	138	252		div __RandomTmp, __RandomTmp, __constVal65536
+0	138	256		mov __signed_stack_001main, __RandomTmp
+0	9204	258	#line 9204 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	258	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	258	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	258		set __D0main, 1
+0	137	261	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	261		add x, __signed_stack_001main, __D0main
+0	137	265	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	137	265	#line 137 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	265	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	265		set __D0main, 15
+0	138	268	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	268	#pragma macro 7
+0	139	268		syscall 24, __RandomArgs
+0	139	271		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	139	275		mul __RandomTmp, __RandomTmp, __D0main
+0	139	279		div __RandomTmp, __RandomTmp, __constVal65536
+0	139	283		mov __signed_stack_001main, __RandomTmp
+0	9223	285	#line 9223 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	285	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	285	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	285		set __D0main, 1
+0	138	288	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	288		add y, __signed_stack_001main, __D0main
+0	138	292	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	138	292	#line 138 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	292	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	292		mov __signed_stack_001main, x
+0	139	294	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	294	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	294		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	139	298	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	298		mov __signed_stack_002main, y
+0	139	300	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	300	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	300		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	139	304	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	304	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	304	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	304		set __D0main, 0
+0	139	307	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	307		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	139	311	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	311		brtst 4, __ASM_Label_1199, __D0main
+0	139	314	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	314		set z, 0
+0	139	317	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	317	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	317	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	317		mov __signed_stack_001main, x
+0	139	319	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	319	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	319		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	139	323	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	323		mov __signed_stack_002main, y
+0	139	325	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	139	325	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	325		mov __D0main, __constValNeg1
+0	139	327	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	327		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	139	332	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	140	332		replace board, board, __signed_stack_001main, __ArrHelper__main_236_0
+0	139	337	#line 139 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	141	337	#line 141 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	141	337	#line 141 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	142	337		jmp __ASM_Label_1177
+0	141	339	#line 141 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	141	339	#line 141 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	142	339		set foodate, 0
+0	141	342	#line 141 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	141	342	#line 141 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	142	342	#line 142 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	143	342		set dead, 0
+0	142	345	#line 142 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	142	345	#line 142 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	143	345	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	144	345		mov __unsigned_stack_001main, foodate
+0	143	347	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	143	347	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	144	347		set __D0main, 0
+0	143	350	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	144	350		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	143	354	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	144	354		brtst 4, __ASM_Label_1215, __D0main
+0	143	357	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	144	357		mov __unsigned_stack_001main, dead
+0	143	359	#line 143 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	144	359	#line 144 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	145	359		set __D0main, 0
+0	144	362	#line 144 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	145	362		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	145	366	#line 145 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	146	366		brtst 4, __ASM_Label_1213, __D0main
+0	145	369	#line 145 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	146	369		subcall snakeDraw, __snakeDraw_return
+0	145	371	#line 145 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	146	371	#line 146 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	147	371		subcall snakeMove, __snakeMove_return
+0	146	373	#line 146 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	148	373	#line 148 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	149	373		jmp __ASM_Label_1212
+0	148	375	#line 148 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	148	375	#line 148 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	149	375		mov __unsigned_stack_001main, dead
+0	148	377	#line 148 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	149	377	#line 149 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	150	377		set __D0main, 0
+0	149	380	#line 149 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	150	380		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	150	384	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	384		brtst 4, __ASM_Label_1218, __D0main
+0	150	387	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	387		set y, 0
+0	150	390	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	150	390	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	390		mov __signed_stack_001main, y
+0	150	392	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	150	392	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	392		set __D0main, 16
+0	150	395	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	395		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	150	399	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	399		brtst 4, __ASM_Label_1220, __D0main
+0	150	402	#line 150 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	151	402		jmp __ASM_Label_1221
+0	151	404	#line 151 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	152	404		add y, y, __constVal1
+0	152	408	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	408		jmp __ASM_Label_1219
+0	152	410	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	410		set x, 0
+0	152	413	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	152	413	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	413		mov __signed_stack_001main, x
+0	152	415	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	152	415	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	415		set __D0main, 16
+0	152	418	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	418		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	152	422	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	422		brtst 4, __ASM_Label_1228, __D0main
+0	152	425	#line 152 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	425		jmp __ASM_Label_1229
+0	153	427	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	427		add x, x, __constVal1
+0	153	431	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	431		jmp __ASM_Label_1227
+0	153	433	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	433		mov __signed_stack_001main, x
+0	153	435	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	435	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	435		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	153	439	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	439		mov __signed_stack_002main, y
+0	153	441	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	441	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	441		index __signed_stack_001main, __ArrHelper__main_236_0, __signed_stack_002main
+0	153	445	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	445	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	445	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	445		set __D0main, 1
+0	153	448	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	448		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	153	452	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	452		brtst 4, __ASM_Label_1241, __D0main
+0	153	455	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	455		mov __signed_stack_001main, x
+0	153	457	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	457	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	457		index __ArrHelper__main_236_0, board, __signed_stack_001main
+0	153	461	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	461		mov __signed_stack_002main, y
+0	153	463	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	463	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	463		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	153	467	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	153	467	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	467		add __signed_stack_003main, __signed_stack_003main, grow
+0	153	471	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	471		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	153	476	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	476		replace board, board, __signed_stack_001main, __ArrHelper__main_236_0
+0	153	481	#line 153 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	154	481	#line 154 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	155	481	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	156	481		jmp __ASM_Label_1230
+0	155	483	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	155	483	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	156	483		jmp __ASM_Label_1222
+0	155	485	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	155	485	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	156	485		set __D0main, 1
+0	155	488	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	156	488		add score, score, __D0main
+0	155	492	#line 155 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	156	492	#line 156 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	156	492	#line 156 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	157	492		mul delaytime, delaytime, speedup
+0	156	496	#line 156 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	496	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	496	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	496		jmp __ASM_Label_1171
+0	159	498	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	498	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	498		set __signed_stack_001main, 500
+0	159	501	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	501	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	501		set __signed_stack_002main, 500
+0	159	504	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	504	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	504		set __signed_stack_003main, 4
+0	159	507	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	507	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	507		set __D0main, 0
+0	159	510	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	510		acquire __SPTArgsMutex
+0	159	511	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	511		mov __SPTArgs.Frequency, __signed_stack_001main
+0	159	513	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	513		mov __SPTArgs.Duration, __signed_stack_002main
+0	159	515	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	515		mov __SPTArgs.Volume, __signed_stack_003main
+0	159	517	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	517		mov __SPTArgs.Loop, __D0main
+0	159	519	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	519		syscall 10, __SPTArgs
+0	159	522	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	522		mov __D0main, __SPTArgs.Result
+0	159	524	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	524		release __SPTArgsMutex
+0	159	525	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	159	525	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	525		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	159	528	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	8771	528	#line 8771 "NXCDefs.h"
+0	8772	528		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	530	#line 8771 "NXCDefs.h"
+0	159	530	#line 159 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+0	160	530		exit -1, -1
+1	22	0	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	23	0		set x, 0
+1	22	3	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	22	3	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	23	3		mov __signed_stack_001snakeMove, x
+1	22	5	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	22	5	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	23	5		set __D0snakeMove, 16
+1	22	8	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	23	8		cmp 0, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	22	12	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	23	12		brtst 4, __ASM_Label_681, __D0snakeMove
+1	22	15	#line 22 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	23	15		jmp __ASM_Label_682
+1	23	17	#line 23 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	24	17		add x, x, __constVal1
+1	24	21	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	21		jmp __ASM_Label_680
+1	24	23	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	23		set y, 0
+1	24	26	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	24	26	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	26		mov __signed_stack_001snakeMove, y
+1	24	28	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	24	28	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	28		set __D0snakeMove, 16
+1	24	31	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	31		cmp 0, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	24	35	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	35		brtst 4, __ASM_Label_689, __D0snakeMove
+1	24	38	#line 24 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	25	38		jmp __ASM_Label_690
+1	25	40	#line 25 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	40		add y, y, __constVal1
+1	26	44	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	44		jmp __ASM_Label_688
+1	26	46	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	46		mov __signed_stack_001snakeMove, x
+1	26	48	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	48	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	48		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	26	52	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	52		mov __signed_stack_002snakeMove, y
+1	26	54	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	54	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	54		index __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	26	58	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	58	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	58	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	58		set __D0snakeMove, 1
+1	26	61	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	61		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	26	65	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	65		brtst 4, __ASM_Label_702, __D0snakeMove
+1	26	68	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	68		mov clrx1, x
+1	26	70	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	70	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	70	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	70		mov clry1, y
+1	26	72	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	26	72	#line 26 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	72	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	72	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	72		mov __signed_stack_001snakeMove, x
+1	27	74	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	74	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	74		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	27	78	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	78		mov __signed_stack_002snakeMove, y
+1	27	80	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	80	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	80		index __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	27	84	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	84	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	84	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	84		mov __D0snakeMove, __constValNeg1
+1	27	86	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	86		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	27	90	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	90		brtst 4, __ASM_Label_713, __D0snakeMove
+1	27	93	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	93		mov clrx2, x
+1	27	95	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	95	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	95	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	28	95		mov clry2, y
+1	27	97	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	27	97	#line 27 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	29	97	#line 29 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	30	97	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	97		jmp __ASM_Label_691
+1	30	99	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	30	99	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	99		jmp __ASM_Label_683
+1	30	101	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	30	101	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	101		set x, 0
+1	30	104	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	30	104	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	104		mov __signed_stack_001snakeMove, x
+1	30	106	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	30	106	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	106		mov __signed_stack_002snakeMove, delaytime
+1	30	108	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	30	108	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	108		set __D0snakeMove, 5
+1	30	111	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	111		div __D0snakeMove, __signed_stack_002snakeMove, __D0snakeMove
+1	30	115	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	115		cmp 0, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	30	119	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	119		brtst 4, __ASM_Label_719, __D0snakeMove
+1	30	122	#line 30 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	31	122		jmp __ASM_Label_720
+1	31	124	#line 31 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	32	124		add x, x, __constVal1
+1	32	128	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	128		jmp __ASM_Label_718
+1	32	130	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	130		set __signed_stack_001snakeMove, 0
+1	32	133	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	32	133	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	133		mov __D0snakeMove, __constVal0
+1	32	135	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	135		acquire __RBtnMutex
+1	32	136	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	136		mov __RBtnArgs.Index, __signed_stack_001snakeMove
+1	32	138	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	138		mov __RBtnArgs.Reset, __D0snakeMove
+1	32	140	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	140		syscall 20, __RBtnArgs
+1	32	143	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	143		mov __D0snakeMove, __RBtnArgs.Pressed
+1	32	145	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	145		release __RBtnMutex
+1	32	146	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	146		tst 5, __D0snakeMove, __D0snakeMove
+1	32	149	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	149		brtst 4, __ASM_Label_727, __D0snakeMove
+1	32	152	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	152		mov __signed_stack_001snakeMove, cdir
+1	32	154	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	32	154	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	154		set __D0snakeMove, 3
+1	32	157	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	157		cmp 5, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	32	161	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	161		brtst 4, __ASM_Label_732, __D0snakeMove
+1	32	164	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	164		set dir, 0
+1	32	167	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	32	167	#line 32 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	167	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	167	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	167		set __signed_stack_001snakeMove, 1
+1	33	170	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	170	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	170		mov __D0snakeMove, __constVal0
+1	33	172	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	172		acquire __RBtnMutex
+1	33	173	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	173		mov __RBtnArgs.Index, __signed_stack_001snakeMove
+1	33	175	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	175		mov __RBtnArgs.Reset, __D0snakeMove
+1	33	177	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	177		syscall 20, __RBtnArgs
+1	33	180	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	180		mov __D0snakeMove, __RBtnArgs.Pressed
+1	33	182	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	182		release __RBtnMutex
+1	33	183	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	183		tst 5, __D0snakeMove, __D0snakeMove
+1	33	186	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	186		brtst 4, __ASM_Label_736, __D0snakeMove
+1	33	189	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	189		mov __signed_stack_001snakeMove, cdir
+1	33	191	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	191	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	191		set __D0snakeMove, 2
+1	33	194	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	194		cmp 5, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	33	198	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	198		brtst 4, __ASM_Label_741, __D0snakeMove
+1	33	201	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	201		set dir, 1
+1	33	204	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	33	204	#line 33 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	204	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	204	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	204		set __signed_stack_001snakeMove, 2
+1	34	207	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	207	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	207		mov __D0snakeMove, __constVal0
+1	34	209	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	209		acquire __RBtnMutex
+1	34	210	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	210		mov __RBtnArgs.Index, __signed_stack_001snakeMove
+1	34	212	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	212		mov __RBtnArgs.Reset, __D0snakeMove
+1	34	214	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	214		syscall 20, __RBtnArgs
+1	34	217	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	217		mov __D0snakeMove, __RBtnArgs.Pressed
+1	34	219	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	219		release __RBtnMutex
+1	34	220	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	220		tst 5, __D0snakeMove, __D0snakeMove
+1	34	223	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	223		brtst 4, __ASM_Label_745, __D0snakeMove
+1	34	226	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	226		mov __signed_stack_001snakeMove, cdir
+1	34	228	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	228	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	228		set __D0snakeMove, 1
+1	34	231	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	231		cmp 5, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	34	235	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	235		brtst 4, __ASM_Label_750, __D0snakeMove
+1	34	238	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	238		set dir, 2
+1	34	241	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	34	241	#line 34 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	241	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	241	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	241		set __signed_stack_001snakeMove, 3
+1	35	244	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	244	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	244		mov __D0snakeMove, __constVal0
+1	35	246	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	246		acquire __RBtnMutex
+1	35	247	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	247		mov __RBtnArgs.Index, __signed_stack_001snakeMove
+1	35	249	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	249		mov __RBtnArgs.Reset, __D0snakeMove
+1	35	251	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	251		syscall 20, __RBtnArgs
+1	35	254	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	254		mov __D0snakeMove, __RBtnArgs.Pressed
+1	35	256	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	256		release __RBtnMutex
+1	35	257	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	257		tst 5, __D0snakeMove, __D0snakeMove
+1	35	260	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	260		brtst 4, __ASM_Label_754, __D0snakeMove
+1	35	263	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	263		mov __signed_stack_001snakeMove, cdir
+1	35	265	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	265	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	265		set __D0snakeMove, 0
+1	35	268	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	268		cmp 5, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	35	272	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	272		brtst 4, __ASM_Label_759, __D0snakeMove
+1	35	275	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	275		set dir, 3
+1	35	278	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	35	278	#line 35 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	278	#line 36 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	36	278	#line 36 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	37	278		set __Wait_7qG2_ms_7qG2_000_inline_snakeMove, 5
+1	36	281	#line 36 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	8771	281	#line 8771 "NXCDefs.h"
+1	8772	281		waitv __Wait_7qG2_ms_7qG2_000_inline_snakeMove
+1	8771	283	#line 8771 "NXCDefs.h"
+1	36	283	#line 36 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	38	283	#line 38 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	39	283		jmp __ASM_Label_721
+1	38	285	#line 38 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	38	285	#line 38 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	39	285		mov __signed_stack_001snakeMove, dir
+1	38	287	#line 38 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	39	287	#line 39 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	40	287		set __D0snakeMove, 2
+1	39	290	#line 39 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	40	290		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	40	294	#line 40 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	294		brtst 4, __ASM_Label_766, __D0snakeMove
+1	40	297	#line 40 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	297		set cdir, 2
+1	40	300	#line 40 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	40	300	#line 40 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	300	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	300		mov __signed_stack_001snakeMove, fx
+1	41	302	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	302	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	302		set __D0snakeMove, 0
+1	41	305	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	305		cmp 2, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	41	309	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	309		brtst 4, __ASM_Label_771, __D0snakeMove
+1	41	312	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	312	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	312		not dead, wrap
+1	41	315	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	315	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	315	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	315		set fx, 16
+1	41	318	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	41	318	#line 41 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	318	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	318	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	318	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	318		not __DU0snakeMove, dead
+1	42	321	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	321		tst 5, __D0snakeMove, __DU0snakeMove
+1	42	324	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	324		brtst 4, __ASM_Label_778, __D0snakeMove
+1	42	327	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	327		mov __signed_stack_001snakeMove, fx
+1	42	329	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	329	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	329		set __D0snakeMove, 1
+1	42	332	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	332		sub __signed_stack_001snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	42	336	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	336	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	336		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	42	340	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	340		mov __signed_stack_002snakeMove, fy
+1	42	342	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	342	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	342		index n, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	42	346	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	346	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	42	346	#line 42 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	346	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	346	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	346		mov __signed_stack_001snakeMove, n
+1	43	348	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	348	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	348		set __D0snakeMove, 1
+1	43	351	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	351		cmp 1, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	43	355	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	355		brtst 4, __ASM_Label_787, __D0snakeMove
+1	43	358	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	358		set dead, 1
+1	43	361	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	43	361	#line 43 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	361	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	361	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	361		mov __signed_stack_001snakeMove, n
+1	44	363	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	363	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	363		set __D0snakeMove, 1
+1	44	366	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	366		cmp 2, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	44	370	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	370		brtst 4, __ASM_Label_792, __D0snakeMove
+1	44	373	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	373		mov __signed_stack_001snakeMove, fx
+1	44	375	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	375	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	375		set __D0snakeMove, 1
+1	44	378	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	378		sub fx, __signed_stack_001snakeMove, __D0snakeMove
+1	44	382	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	382	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	382	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	382		mov __signed_stack_001snakeMove, fx
+1	44	384	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	384	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	384		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	44	388	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	388		mov __signed_stack_002snakeMove, fy
+1	44	390	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	390	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	390		mov __signed_stack_003snakeMove, length
+1	44	392	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	44	392	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	392		set __D0snakeMove, 1
+1	44	395	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	395		add __D0snakeMove, __signed_stack_003snakeMove, __D0snakeMove
+1	44	399	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	399		replace __ArrHelper__snakeMove_236_0, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove, __D0snakeMove
+1	44	404	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	404		replace board, board, __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0
+1	44	409	#line 44 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	409	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	409	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	46	409		mov __signed_stack_001snakeMove, n
+1	45	411	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	411	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	46	411		mov __D0snakeMove, __constValNeg1
+1	45	413	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	46	413		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	45	417	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	46	417		brtst 4, __ASM_Label_803, __D0snakeMove
+1	45	420	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	46	420		set foodate, 1
+1	45	423	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	423	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	423	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	423	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	423	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	423	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	46	423		add length, length, grow
+1	45	427	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	45	427	#line 45 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	47	427	#line 47 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	47	427	#line 47 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	47	427	#line 47 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	48	427		mov __signed_stack_001snakeMove, dir
+1	47	429	#line 47 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	48	429	#line 48 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	49	429		set __D0snakeMove, 3
+1	48	432	#line 48 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	49	432		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	49	436	#line 49 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	436		brtst 4, __ASM_Label_810, __D0snakeMove
+1	49	439	#line 49 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	439		set cdir, 3
+1	49	442	#line 49 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	49	442	#line 49 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	442	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	442		mov __signed_stack_001snakeMove, fy
+1	50	444	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	444	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	444		set __D0snakeMove, 0
+1	50	447	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	447		cmp 2, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	50	451	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	451		brtst 4, __ASM_Label_815, __D0snakeMove
+1	50	454	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	454	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	454		not dead, wrap
+1	50	457	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	457	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	457	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	457		set fy, 16
+1	50	460	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	50	460	#line 50 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	460	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	460	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	460	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	460		not __DU0snakeMove, dead
+1	51	463	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	463		tst 5, __D0snakeMove, __DU0snakeMove
+1	51	466	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	466		brtst 4, __ASM_Label_822, __D0snakeMove
+1	51	469	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	469		mov __signed_stack_001snakeMove, fx
+1	51	471	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	471	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	471		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	51	475	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	475		mov __signed_stack_002snakeMove, fy
+1	51	477	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	477	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	477		set __D0snakeMove, 1
+1	51	480	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	480		sub __signed_stack_002snakeMove, __signed_stack_002snakeMove, __D0snakeMove
+1	51	484	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	484	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	484		index n, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	51	488	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	488	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	51	488	#line 51 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	488	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	488	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	488		mov __signed_stack_001snakeMove, n
+1	52	490	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	490	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	490		set __D0snakeMove, 1
+1	52	493	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	493		cmp 1, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	52	497	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	497		brtst 4, __ASM_Label_831, __D0snakeMove
+1	52	500	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	500		set dead, 1
+1	52	503	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	52	503	#line 52 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	503	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	503	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	503		mov __signed_stack_001snakeMove, n
+1	53	505	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	505	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	505		set __D0snakeMove, 1
+1	53	508	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	508		cmp 2, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	53	512	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	512		brtst 4, __ASM_Label_836, __D0snakeMove
+1	53	515	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	515		mov __signed_stack_001snakeMove, fy
+1	53	517	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	517	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	517		set __D0snakeMove, 1
+1	53	520	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	520		sub fy, __signed_stack_001snakeMove, __D0snakeMove
+1	53	524	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	524	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	524	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	524		mov __signed_stack_001snakeMove, fx
+1	53	526	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	526	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	526		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	53	530	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	530		mov __signed_stack_002snakeMove, fy
+1	53	532	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	532	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	532		mov __signed_stack_003snakeMove, length
+1	53	534	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	53	534	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	534		set __D0snakeMove, 1
+1	53	537	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	537		add __D0snakeMove, __signed_stack_003snakeMove, __D0snakeMove
+1	53	541	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	541		replace __ArrHelper__snakeMove_236_0, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove, __D0snakeMove
+1	53	546	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	546		replace board, board, __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0
+1	53	551	#line 53 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	551	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	551	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	55	551		mov __signed_stack_001snakeMove, n
+1	54	553	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	553	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	55	553		mov __D0snakeMove, __constValNeg1
+1	54	555	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	55	555		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	54	559	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	55	559		brtst 4, __ASM_Label_847, __D0snakeMove
+1	54	562	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	55	562		set foodate, 1
+1	54	565	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	565	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	565	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	565	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	565	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	565	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	55	565		add length, length, grow
+1	54	569	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	54	569	#line 54 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	56	569	#line 56 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	56	569	#line 56 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	56	569	#line 56 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	57	569		mov __signed_stack_001snakeMove, dir
+1	56	571	#line 56 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	57	571	#line 57 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	58	571		set __D0snakeMove, 1
+1	57	574	#line 57 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	58	574		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	58	578	#line 58 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	578		brtst 4, __ASM_Label_854, __D0snakeMove
+1	58	581	#line 58 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	581		set cdir, 1
+1	58	584	#line 58 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	58	584	#line 58 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	584	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	584		mov __signed_stack_001snakeMove, fx
+1	59	586	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	586	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	586		set __D0snakeMove, 15
+1	59	589	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	589		cmp 3, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	59	593	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	593		brtst 4, __ASM_Label_859, __D0snakeMove
+1	59	596	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	596	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	596		not dead, wrap
+1	59	599	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	599	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	599	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	599		mov fx, __constValNeg1
+1	59	601	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	59	601	#line 59 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	601	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	601	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	601	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	601		not __DU0snakeMove, dead
+1	60	604	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	604		tst 5, __D0snakeMove, __DU0snakeMove
+1	60	607	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	607		brtst 4, __ASM_Label_866, __D0snakeMove
+1	60	610	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	610		mov __signed_stack_001snakeMove, fx
+1	60	612	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	612	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	612		set __D0snakeMove, 1
+1	60	615	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	615		add __signed_stack_001snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	60	619	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	619	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	619		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	60	623	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	623		mov __signed_stack_002snakeMove, fy
+1	60	625	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	625	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	625		index n, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	60	629	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	629	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	60	629	#line 60 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	629	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	629	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	629		mov __signed_stack_001snakeMove, n
+1	61	631	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	631	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	631		set __D0snakeMove, 1
+1	61	634	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	634		cmp 1, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	61	638	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	638		brtst 4, __ASM_Label_875, __D0snakeMove
+1	61	641	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	641		set dead, 1
+1	61	644	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	61	644	#line 61 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	644	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	644	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	644		mov __signed_stack_001snakeMove, n
+1	62	646	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	646	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	646		set __D0snakeMove, 1
+1	62	649	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	649		cmp 2, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	62	653	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	653		brtst 4, __ASM_Label_880, __D0snakeMove
+1	62	656	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	656		mov __signed_stack_001snakeMove, fx
+1	62	658	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	658	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	658		set __D0snakeMove, 1
+1	62	661	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	661		add fx, __signed_stack_001snakeMove, __D0snakeMove
+1	62	665	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	665	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	665	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	665		mov __signed_stack_001snakeMove, fx
+1	62	667	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	667	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	667		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	62	671	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	671		mov __signed_stack_002snakeMove, fy
+1	62	673	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	673	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	673		mov __signed_stack_003snakeMove, length
+1	62	675	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	62	675	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	675		set __D0snakeMove, 1
+1	62	678	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	678		add __D0snakeMove, __signed_stack_003snakeMove, __D0snakeMove
+1	62	682	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	682		replace __ArrHelper__snakeMove_236_0, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove, __D0snakeMove
+1	62	687	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	687		replace board, board, __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0
+1	62	692	#line 62 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	692	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	692	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	64	692		mov __signed_stack_001snakeMove, n
+1	63	694	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	694	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	64	694		mov __D0snakeMove, __constValNeg1
+1	63	696	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	64	696		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	63	700	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	64	700		brtst 4, __ASM_Label_891, __D0snakeMove
+1	63	703	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	64	703		set foodate, 1
+1	63	706	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	706	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	706	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	706	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	706	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	706	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	64	706		add length, length, grow
+1	63	710	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	63	710	#line 63 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	65	710	#line 65 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	65	710	#line 65 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	65	710	#line 65 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	66	710		mov __signed_stack_001snakeMove, dir
+1	65	712	#line 65 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	66	712	#line 66 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	67	712		set __D0snakeMove, 0
+1	66	715	#line 66 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	67	715		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	67	719	#line 67 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	719		brtst 4, __ASM_Label_898, __D0snakeMove
+1	67	722	#line 67 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	722		set cdir, 0
+1	67	725	#line 67 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	67	725	#line 67 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	725	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	725		mov __signed_stack_001snakeMove, fy
+1	68	727	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	727	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	727		set __D0snakeMove, 15
+1	68	730	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	730		cmp 3, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	68	734	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	734		brtst 4, __ASM_Label_903, __D0snakeMove
+1	68	737	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	737	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	737		not dead, wrap
+1	68	740	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	740	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	740	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	740		mov fy, __constValNeg1
+1	68	742	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	68	742	#line 68 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	742	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	742	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	742	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	742		not __DU0snakeMove, dead
+1	69	745	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	745		tst 5, __D0snakeMove, __DU0snakeMove
+1	69	748	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	748		brtst 4, __ASM_Label_910, __D0snakeMove
+1	69	751	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	751		mov __signed_stack_001snakeMove, fx
+1	69	753	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	753	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	753		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	69	757	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	757		mov __signed_stack_002snakeMove, fy
+1	69	759	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	759	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	759		set __D0snakeMove, 1
+1	69	762	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	762		add __signed_stack_002snakeMove, __signed_stack_002snakeMove, __D0snakeMove
+1	69	766	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	766	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	766		index n, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	69	770	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	770	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	69	770	#line 69 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	770	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	770	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	770		mov __signed_stack_001snakeMove, n
+1	70	772	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	772	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	772		set __D0snakeMove, 1
+1	70	775	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	775		cmp 1, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	70	779	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	779		brtst 4, __ASM_Label_919, __D0snakeMove
+1	70	782	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	782		set dead, 1
+1	70	785	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	70	785	#line 70 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	785	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	785	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	785		mov __signed_stack_001snakeMove, n
+1	71	787	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	787	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	787		set __D0snakeMove, 1
+1	71	790	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	790		cmp 2, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	71	794	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	794		brtst 4, __ASM_Label_924, __D0snakeMove
+1	71	797	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	797		mov __signed_stack_001snakeMove, fy
+1	71	799	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	799	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	799		set __D0snakeMove, 1
+1	71	802	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	802		add fy, __signed_stack_001snakeMove, __D0snakeMove
+1	71	806	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	806	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	806	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	806		mov __signed_stack_001snakeMove, fx
+1	71	808	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	808	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	808		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	71	812	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	812		mov __signed_stack_002snakeMove, fy
+1	71	814	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	814	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	814		mov __signed_stack_003snakeMove, length
+1	71	816	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	71	816	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	816		set __D0snakeMove, 1
+1	71	819	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	819		add __D0snakeMove, __signed_stack_003snakeMove, __D0snakeMove
+1	71	823	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	823		replace __ArrHelper__snakeMove_236_0, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove, __D0snakeMove
+1	71	828	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	828		replace board, board, __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0
+1	71	833	#line 71 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	833	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	833	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	73	833		mov __signed_stack_001snakeMove, n
+1	72	835	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	835	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	73	835		mov __D0snakeMove, __constValNeg1
+1	72	837	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	73	837		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	72	841	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	73	841		brtst 4, __ASM_Label_935, __D0snakeMove
+1	72	844	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	73	844		set foodate, 1
+1	72	847	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	847	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	847	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	72	847	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	73	847		add length, length, grow
+1	72	851	#line 72 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	74	851	#line 74 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	74	851	#line 74 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	74	851	#line 74 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	75	851		mov __unsigned_stack_001snakeMove, dead
+1	74	853	#line 74 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	75	853	#line 75 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	76	853		set __D0snakeMove, 0
+1	75	856	#line 75 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	76	856		cmp 4, __D0snakeMove, __unsigned_stack_001snakeMove, __D0snakeMove
+1	76	860	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	860		brtst 4, __ASM_Label_942, __D0snakeMove
+1	76	863	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	863		set x, 0
+1	76	866	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	76	866	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	866		mov __signed_stack_001snakeMove, x
+1	76	868	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	76	868	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	868		set __D0snakeMove, 16
+1	76	871	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	871		cmp 0, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	76	875	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	875		brtst 4, __ASM_Label_944, __D0snakeMove
+1	76	878	#line 76 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	77	878		jmp __ASM_Label_945
+1	77	880	#line 77 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	78	880		add x, x, __constVal1
+1	78	884	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	884		jmp __ASM_Label_943
+1	78	886	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	886		set y, 0
+1	78	889	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	78	889	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	889		mov __signed_stack_001snakeMove, y
+1	78	891	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	78	891	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	891		set __D0snakeMove, 16
+1	78	894	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	894		cmp 0, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	78	898	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	898		brtst 4, __ASM_Label_952, __D0snakeMove
+1	78	901	#line 78 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	79	901		jmp __ASM_Label_953
+1	79	903	#line 79 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	80	903		add y, y, __constVal1
+1	80	907	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	907		jmp __ASM_Label_951
+1	80	909	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	80	909	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	909		not __DU0snakeMove, foodate
+1	80	912	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	912		tst 5, __D0snakeMove, __DU0snakeMove
+1	80	915	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	915		brtst 4, __ASM_Label_961, __D0snakeMove
+1	80	918	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	918		mov clrx2, __constValNeg1
+1	80	920	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	80	920	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	80	920	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	920		mov clry2, __constValNeg1
+1	80	922	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	80	922	#line 80 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	922	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	922	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	922		mov __signed_stack_001snakeMove, x
+1	81	924	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	924	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	924		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	81	928	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	928		mov __signed_stack_002snakeMove, y
+1	81	930	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	930	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	930		index __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	81	934	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	934	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	934	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	934		set __D0snakeMove, 1
+1	81	937	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	937		cmp 4, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	81	941	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	941		brtst 4, __ASM_Label_972, __D0snakeMove
+1	81	944	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	944		mov lx, x
+1	81	946	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	946	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	946	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	946		mov ly, y
+1	81	948	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	81	948	#line 81 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	948	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	948	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	948		mov __signed_stack_001snakeMove, x
+1	82	950	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	950	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	950		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	82	954	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	954		mov __signed_stack_002snakeMove, y
+1	82	956	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	956	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	956		index __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	82	960	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	960	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	960	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	960		set __D0snakeMove, 1
+1	82	963	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	963		cmp 3, __D0snakeMove, __signed_stack_001snakeMove, __D0snakeMove
+1	82	967	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	967		brtst 4, __ASM_Label_983, __D0snakeMove
+1	82	970	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	970		mov __signed_stack_001snakeMove, x
+1	82	972	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	972	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	972		index __ArrHelper__snakeMove_236_0, board, __signed_stack_001snakeMove
+1	82	976	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	976		mov __signed_stack_002snakeMove, y
+1	82	978	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	82	978	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	978		index __signed_stack_003snakeMove, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove
+1	82	982	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	982		sub __signed_stack_003snakeMove, __signed_stack_003snakeMove, __constVal1
+1	82	986	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	986		replace __ArrHelper__snakeMove_236_0, __ArrHelper__snakeMove_236_0, __signed_stack_002snakeMove, __signed_stack_003snakeMove
+1	82	991	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	83	991		replace board, board, __signed_stack_001snakeMove, __ArrHelper__snakeMove_236_0
+1	82	996	#line 82 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	84	996	#line 84 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	85	996	#line 85 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	86	996		jmp __ASM_Label_954
+1	85	998	#line 85 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	86	998	#line 86 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	87	998		jmp __ASM_Label_946
+1	86	1000	#line 86 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	88	1000	#line 88 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	88	1000	#line 88 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+1	89	1000		subret __snakeMove_return
+2	90	0	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	0		set x, 0
+2	90	3	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	90	3	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	3		mov __signed_stack_001snakeDraw, x
+2	90	5	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	90	5	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	5		set __D0snakeDraw, 4
+2	90	8	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	8		cmp 2, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	90	12	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	12		brtst 4, __ASM_Label_989, __D0snakeDraw
+2	90	15	#line 90 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	15		jmp __ASM_Label_990
+2	91	17	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	17		add x, x, __constVal1
+2	91	21	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	21		jmp __ASM_Label_988
+2	91	23	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	23		mov __signed_stack_001snakeDraw, clrx1
+2	91	25	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	25	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	25		set __D0snakeDraw, 4
+2	91	28	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	28		mul __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	91	32	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	32	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	32	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	32		add __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, x
+2	91	36	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	36	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	36		set __signed_stack_002snakeDraw, 63
+2	91	39	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	39	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	39		mov __signed_stack_003snakeDraw, clry1
+2	91	41	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	41	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	41		set __D0snakeDraw, 4
+2	91	44	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	44		mul __D0snakeDraw, __signed_stack_003snakeDraw, __D0snakeDraw
+2	91	48	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	48		sub __signed_stack_002snakeDraw, __signed_stack_002snakeDraw, __D0snakeDraw
+2	91	52	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	52	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	52		mov __signed_stack_003snakeDraw, clrx1
+2	91	54	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	54	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	54		set __D0snakeDraw, 4
+2	91	57	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	57		mul __signed_stack_003snakeDraw, __signed_stack_003snakeDraw, __D0snakeDraw
+2	91	61	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	61	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	61	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	61		add __signed_stack_003snakeDraw, __signed_stack_003snakeDraw, x
+2	91	65	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	65	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	65		set __signed_stack_004snakeDraw, 63
+2	91	68	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	68	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	68		mov __signed_stack_005snakeDraw, clry1
+2	91	70	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	70	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	70		set __D0snakeDraw, 1
+2	91	73	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	73		add __signed_stack_005snakeDraw, __signed_stack_005snakeDraw, __D0snakeDraw
+2	91	77	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	77	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	77		set __D0snakeDraw, 4
+2	91	80	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	80		mul __D0snakeDraw, __signed_stack_005snakeDraw, __D0snakeDraw
+2	91	84	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	84		sub __signed_stack_004snakeDraw, __signed_stack_004snakeDraw, __D0snakeDraw
+2	91	88	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	88	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	88		set __D0snakeDraw, 4
+2	91	91	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	91	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	91		mov __LineOutArgs.StartLoc.X, __signed_stack_001snakeDraw
+2	91	93	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	93		mov __LineOutArgs.StartLoc.Y, __signed_stack_002snakeDraw
+2	91	95	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	95		mov __LineOutArgs.EndLoc.X, __signed_stack_003snakeDraw
+2	91	97	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	97		mov __LineOutArgs.EndLoc.Y, __signed_stack_004snakeDraw
+2	91	99	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	99		mov __LineOutArgs.Options, __D0snakeDraw
+2	91	101	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	101		syscall 15, __LineOutArgs
+2	91	104	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	104		mov __D0snakeDraw, __LineOutArgs.Result
+2	91	106	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	91	106	#line 91 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	106	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	106		jmp __ASM_Label_991
+2	92	108	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	108	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	108		mov __signed_stack_001snakeDraw, clrx2
+2	92	110	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	92	110	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	110		mov __D0snakeDraw, __constValNeg1
+2	92	112	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	112		cmp 5, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	92	116	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	116		brtst 4, __ASM_Label_1009, __D0snakeDraw
+2	92	119	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	119		mov __signed_stack_001snakeDraw, clry2
+2	92	121	#line 92 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	93	121	#line 93 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	94	121		mov __D0snakeDraw, __constValNeg1
+2	93	123	#line 93 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	94	123		cmp 5, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	94	127	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	127		brtst 4, __ASM_Label_1010, __D0snakeDraw
+2	94	130	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	130		set x, 0
+2	94	133	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	94	133	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	133		mov __signed_stack_001snakeDraw, x
+2	94	135	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	94	135	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	135		set __D0snakeDraw, 4
+2	94	138	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	138		cmp 2, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	94	142	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	142		brtst 4, __ASM_Label_1012, __D0snakeDraw
+2	94	145	#line 94 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	145		jmp __ASM_Label_1013
+2	95	147	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	147		add x, x, __constVal1
+2	95	151	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	151		jmp __ASM_Label_1011
+2	95	153	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	153		mov __signed_stack_001snakeDraw, clrx2
+2	95	155	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	155	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	155		set __D0snakeDraw, 4
+2	95	158	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	158		mul __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	95	162	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	162	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	162	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	162		add __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, x
+2	95	166	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	166	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	166		set __signed_stack_002snakeDraw, 63
+2	95	169	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	169	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	169		mov __signed_stack_003snakeDraw, clry2
+2	95	171	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	171	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	171		set __D0snakeDraw, 4
+2	95	174	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	174		mul __D0snakeDraw, __signed_stack_003snakeDraw, __D0snakeDraw
+2	95	178	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	178		sub __signed_stack_002snakeDraw, __signed_stack_002snakeDraw, __D0snakeDraw
+2	95	182	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	182	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	182		mov __signed_stack_003snakeDraw, clrx2
+2	95	184	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	184	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	184		set __D0snakeDraw, 4
+2	95	187	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	187		mul __signed_stack_003snakeDraw, __signed_stack_003snakeDraw, __D0snakeDraw
+2	95	191	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	191	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	191	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	191		add __signed_stack_003snakeDraw, __signed_stack_003snakeDraw, x
+2	95	195	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	195	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	195		set __signed_stack_004snakeDraw, 63
+2	95	198	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	198	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	198		mov __signed_stack_005snakeDraw, clry2
+2	95	200	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	200	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	200		set __D0snakeDraw, 1
+2	95	203	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	203		add __signed_stack_005snakeDraw, __signed_stack_005snakeDraw, __D0snakeDraw
+2	95	207	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	207	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	207		set __D0snakeDraw, 4
+2	95	210	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	210		mul __D0snakeDraw, __signed_stack_005snakeDraw, __D0snakeDraw
+2	95	214	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	214		sub __signed_stack_004snakeDraw, __signed_stack_004snakeDraw, __D0snakeDraw
+2	95	218	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	218	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	218		set __D0snakeDraw, 4
+2	95	221	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	221	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	221		mov __LineOutArgs.StartLoc.X, __signed_stack_001snakeDraw
+2	95	223	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	223		mov __LineOutArgs.StartLoc.Y, __signed_stack_002snakeDraw
+2	95	225	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	225		mov __LineOutArgs.EndLoc.X, __signed_stack_003snakeDraw
+2	95	227	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	227		mov __LineOutArgs.EndLoc.Y, __signed_stack_004snakeDraw
+2	95	229	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	229		mov __LineOutArgs.Options, __D0snakeDraw
+2	95	231	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	231		syscall 15, __LineOutArgs
+2	95	234	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	96	234		mov __D0snakeDraw, __LineOutArgs.Result
+2	95	236	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	95	236	#line 95 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	236	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	236		jmp __ASM_Label_1014
+2	97	238	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	238	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	238	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	238		set __signed_stack_001snakeDraw, 64
+2	97	241	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	241	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	241		set __signed_stack_002snakeDraw, 0
+2	97	244	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	244	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	244		set __signed_stack_003snakeDraw, 64
+2	97	247	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	247	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	247		set __signed_stack_004snakeDraw, 64
+2	97	250	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	250	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	250		set __D0snakeDraw, 0
+2	97	253	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	253	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	253		mov __LineOutArgs.StartLoc.X, __signed_stack_001snakeDraw
+2	97	255	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	255		mov __LineOutArgs.StartLoc.Y, __signed_stack_002snakeDraw
+2	97	257	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	257		mov __LineOutArgs.EndLoc.X, __signed_stack_003snakeDraw
+2	97	259	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	259		mov __LineOutArgs.EndLoc.Y, __signed_stack_004snakeDraw
+2	97	261	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	261		mov __LineOutArgs.Options, __D0snakeDraw
+2	97	263	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	263		syscall 15, __LineOutArgs
+2	97	266	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	266	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	97	266	#line 97 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	266	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	99	266		set y, 0
+2	98	269	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	269	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	99	269		mov __signed_stack_001snakeDraw, y
+2	98	271	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	98	271	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	99	271		set __D0snakeDraw, 16
+2	98	274	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	99	274		cmp 0, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	98	278	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	99	278		brtst 4, __ASM_Label_1042, __D0snakeDraw
+2	98	281	#line 98 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	99	281		jmp __ASM_Label_1043
+2	99	283	#line 99 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	100	283		add y, y, __constVal1
+2	100	287	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	287		jmp __ASM_Label_1041
+2	100	289	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	289		set x, 0
+2	100	292	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	100	292	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	292		mov __signed_stack_001snakeDraw, x
+2	100	294	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	100	294	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	294		set __D0snakeDraw, 16
+2	100	297	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	297		cmp 0, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	100	301	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	301		brtst 4, __ASM_Label_1050, __D0snakeDraw
+2	100	304	#line 100 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	101	304		jmp __ASM_Label_1051
+2	101	306	#line 101 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	102	306		add x, x, __constVal1
+2	102	310	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	103	310		jmp __ASM_Label_1049
+2	102	312	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	103	312		mov __signed_stack_001snakeDraw, x
+2	102	314	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	102	314	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	103	314		index __ArrHelper__snakeDraw_236_0, board, __signed_stack_001snakeDraw
+2	102	318	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	103	318		mov __signed_stack_002snakeDraw, y
+2	102	320	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	102	320	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	103	320		index __signed_stack_001snakeDraw, __ArrHelper__snakeDraw_236_0, __signed_stack_002snakeDraw
+2	102	324	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	102	324	#line 102 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	324	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	324		set __D0snakeDraw, 0
+2	104	327	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	327		cmp 1, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	104	331	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	331		brtst 4, __ASM_Label_1063, __D0snakeDraw
+2	104	334	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	334		mov __signed_stack_001snakeDraw, x
+2	104	336	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	336	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	336		set __D0snakeDraw, 4
+2	104	339	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	339		mul __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	104	343	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	343	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	343		set __signed_stack_002snakeDraw, 61
+2	104	346	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	346	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	346		mov __signed_stack_003snakeDraw, y
+2	104	348	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	348	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	348		set __D0snakeDraw, 4
+2	104	351	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	351		mul __D0snakeDraw, __signed_stack_003snakeDraw, __D0snakeDraw
+2	104	355	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	355		sub __signed_stack_002snakeDraw, __signed_stack_002snakeDraw, __D0snakeDraw
+2	104	359	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	359	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	359		set __signed_stack_003snakeDraw, 2
+2	104	362	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	362	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	362		set __signed_stack_004snakeDraw, 2
+2	104	365	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	365	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	365		set __D0snakeDraw, 32
+2	104	368	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	368	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	368		mov __RectOutArgs.Location.X, __signed_stack_001snakeDraw
+2	104	370	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	370		mov __RectOutArgs.Location.Y, __signed_stack_002snakeDraw
+2	104	372	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	372		mov __RectOutArgs.Size.Width, __signed_stack_003snakeDraw
+2	104	374	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	374		mov __RectOutArgs.Size.Height, __signed_stack_004snakeDraw
+2	104	376	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	376		mov __RectOutArgs.Options, __D0snakeDraw
+2	104	378	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	378		syscall 17, __RectOutArgs
+2	104	381	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	381		mov __D0snakeDraw, __RectOutArgs.Result
+2	104	383	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	104	383	#line 104 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	383	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	383	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	383		mov __signed_stack_001snakeDraw, x
+2	105	385	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	385	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	385		index __ArrHelper__snakeDraw_236_0, board, __signed_stack_001snakeDraw
+2	105	389	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	389		mov __signed_stack_002snakeDraw, y
+2	105	391	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	391	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	391		index __signed_stack_001snakeDraw, __ArrHelper__snakeDraw_236_0, __signed_stack_002snakeDraw
+2	105	395	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	105	395	#line 105 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	395	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	395		set __D0snakeDraw, 0
+2	106	398	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	398		cmp 0, __D0snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	106	402	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	402		brtst 4, __ASM_Label_1080, __D0snakeDraw
+2	106	405	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	405		mov __signed_stack_001snakeDraw, x
+2	106	407	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	407	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	407		set __D0snakeDraw, 4
+2	106	410	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	410		mul __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	106	414	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	414	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	414		set __D0snakeDraw, 1
+2	106	417	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	417		add __signed_stack_001snakeDraw, __signed_stack_001snakeDraw, __D0snakeDraw
+2	106	421	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	421	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	421		set __signed_stack_002snakeDraw, 62
+2	106	424	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	424	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	424		mov __signed_stack_003snakeDraw, y
+2	106	426	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	426	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	426		set __D0snakeDraw, 4
+2	106	429	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	429		mul __D0snakeDraw, __signed_stack_003snakeDraw, __D0snakeDraw
+2	106	433	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	433		sub __signed_stack_002snakeDraw, __signed_stack_002snakeDraw, __D0snakeDraw
+2	106	437	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	437	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	437		set __signed_stack_003snakeDraw, 1
+2	106	440	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	440	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	440		set __D0snakeDraw, 32
+2	106	443	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	443	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	443		mov __CircleOutArgs.Center.X, __signed_stack_001snakeDraw
+2	106	445	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	445		mov __CircleOutArgs.Center.Y, __signed_stack_002snakeDraw
+2	106	447	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	447		mov __CircleOutArgs.Size, __signed_stack_003snakeDraw
+2	106	449	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	449		mov __CircleOutArgs.Options, __D0snakeDraw
+2	106	451	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	451		syscall 16, __CircleOutArgs
+2	106	454	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	107	454		mov __D0snakeDraw, __CircleOutArgs.Result
+2	106	456	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	106	456	#line 106 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	108	456	#line 108 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	456	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	456		jmp __ASM_Label_1052
+2	109	458	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	458	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	458		jmp __ASM_Label_1044
+2	109	460	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	460	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	460		set __signed_stack_001snakeDraw, 65
+2	109	463	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	463	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	463		set __signed_stack_002snakeDraw, 56
+2	109	466	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	466	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	466		strcat __strbufsnakeDraw, __constStr0009
+2	109	470	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	470		set __D0snakeDraw, 0
+2	109	473	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	473	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	473		mov __TextOutArgs.Location.X, __signed_stack_001snakeDraw
+2	109	475	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	475		mov __TextOutArgs.Location.Y, __signed_stack_002snakeDraw
+2	109	477	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	477		mov __TextOutArgs.Options, __D0snakeDraw
+2	109	479	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	479		mov __TextOutArgs.Text, __strbufsnakeDraw
+2	109	481	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	481		syscall 13, __TextOutArgs
+2	109	484	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	484	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	109	484	#line 109 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	484	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	484		set __signed_stack_001snakeDraw, 65
+2	110	487	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	487	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	487		set __signed_stack_002snakeDraw, 48
+2	110	490	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	490	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	490		mov __signed_stack_003snakeDraw, score
+2	110	492	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	492	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	492		set __D0snakeDraw, 0
+2	110	495	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	495	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	495		mov __TextOutArgs.Location.X, __signed_stack_001snakeDraw
+2	110	497	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	497		mov __TextOutArgs.Location.Y, __signed_stack_002snakeDraw
+2	110	499	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	499		mov __TextOutArgs.Options, __D0snakeDraw
+2	110	501	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	501		numtostr __TextOutArgs.Text, __signed_stack_003snakeDraw
+2	110	504	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	504		syscall 13, __TextOutArgs
+2	110	507	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	111	507		mov __D0snakeDraw, __TextOutArgs.Result
+2	110	509	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	110	509	#line 110 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	113	509	#line 113 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+2	114	509		subret __snakeDraw_return
+3	166	0	#line 166 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+3	166	0	#line 166 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+3	167	0		arrinit __board_2, __constVal0, __constVal17
+3	166	4	#line 166 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+3	167	4		arrinit board, __board_2, __constVal17
+3	166	8	#line 166 "C:\Github\NXC_Source\#SnakeTiny.nxc"
+3	167	8		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\#SnakeTiny.nxc
+1	snakeMove	533	C:\Github\NXC_Source\#SnakeTiny.nxc
+2	snakeDraw	1535	C:\Github\NXC_Source\#SnakeTiny.nxc
+3	__initialize_global_data	2046	C:\Github\NXC_Source\#SnakeTiny.nxc
