@@ -363,6 +363,8 @@ task main()
           Wait(10);
           }
         //do output
+          //drop peice
+          //subtract score, time taken?
         redraw();
         //debugging
         }
