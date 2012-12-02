@@ -1,0 +1,1106 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	6
+1	__signed_stack_001main	6	1	4	4	6
+2	__unsigned_stack_001main	5	1	8	4	8
+3	__signed_stack_001senseButton	6	1	12	4	20
+4	__float_stack_003main	10	1	16	4	2
+5	__DU0SetNum	5	1	20	4	2
+6	__D0SetNum	6	1	24	4	38
+7	__D0SetOp	6	1	28	4	40
+8	__D0SubSixteen	6	1	32	4	11
+9	__DU0SetOp	5	1	36	4	2
+10	__signed_stack_001SetNum	6	1	40	4	4
+11	__Wait_7qG2_ms_7qG2_000_inline_SetNum	5	1	44	4	4
+12	__constVal262145	6	0	48	4	8
+13	__Wait_7qG2_ms_7qG2_000_inline_SetOp	5	1	52	4	2
+14	__main_7qG2_Num2_7qG2_000	10	1	56	4	5
+15	__main_7qG2_Num1_7qG2_000	10	1	60	4	10
+16	__signed_stack_001SetOp	6	1	64	4	18
+17	__unsigned_stack_002SetNum	5	1	68	4	2
+18	__unsigned_stack_002SetOp	5	1	72	4	8
+19	__constVal786433	6	0	76	4	2
+20	__signed_stack_001SubSixteen	6	1	80	4	2
+21	__DF0main	10	1	84	4	2
+22	__TextOutMutex	9	0	88	4	22
+23	__IOMRMutex	9	0	92	4	16
+24	__D0main	6	1	96	4	27
+25	__D0senseButton	6	1	100	4	62
+26	__DU0senseButton	5	1	104	4	4
+27	__senseButton_7qG2_high_7qG2_000	4	1	108	2	5
+28	__SubSixteen_7qG2_in_7qG2_000	4	1	110	2	8
+29	__senseButton_7qG2_val_7qG2_000	4	1	112	2	14
+30	__senseButton_7qG2_add_7qG2_000	4	1	114	2	3
+31	__SetNum_7qG2_temp_7qG2_000	4	1	116	2	9
+32	__SetOp_7qG2_temp_7qG2_000	4	1	118	2	8
+33	__senseButton_7qG2_lu_7qG2_000	4	1	120	2	4
+34	__senseButton_7qG2_rd_7qG2_000	4	1	122	2	4
+35	__constVal200	4	0	124	2	4
+36	__tmpsbyteSetOp	2	1	126	1	7
+37	__constVal34	2	0	127	1	2
+38	__constVal33	2	0	128	1	2
+39	line2	1	0	129	1	6
+40	line1	1	0	130	1	4
+41	__SetNum_7qG2_reloop_7qG2_000	1	1	131	1	3
+42	__SetNum_return	1	1	132	1	5
+43	__ClearLine_7qG2_line_7qG2_000_inline_SetOp	1	1	133	1	2
+44	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	134	1	2
+45	__constVal4	2	0	135	1	1
+46	__tmpsbyteSetNum	2	1	136	1	19
+47	__constVal35	2	0	137	1	4
+48	__ClearLine_7qG2_line_7qG2_000_inline_SetNum	1	1	138	1	2
+49	__SetOp_7qG2_reloop_7qG2_000	1	1	139	1	3
+50	__SetOp_return	1	1	140	1	4
+51	__senseButton_7qG2_lr_ud_7qG2_000	1	1	141	1	2
+52	__constVal8	2	0	142	1	1
+53	__senseButton_7qG2_cut_7qG2_000	1	1	143	1	2
+54	____initialize_global_data_return	1	1	144	1	3
+55	__IOMRUnflattenErr	1	1	145	1	8
+56	__constVal0	2	1	146	1	13
+57	__constVal40	2	0	147	1	2
+58	__SubSixteen_return	1	1	148	1	5
+59	__main_7qG2_operation_7qG2_000	1	1	149	1	5
+60	__senseButton_return	1	1	150	1	4
+61	__constVal1	2	0	151	1	3
+62	__IOMRBIArgs	8	0	5	16	40
+63	__IOMRBIArgs.Result	2	1	152	1	40
+64	__IOMRBIArgs.ModuleID	5	1	156	4	40
+65	__IOMRBIArgs.Offset	3	1	160	2	40
+66	__IOMRBIArgs.Count	3	1	162	2	40
+67	__IOMRBIArgs.Buffer	7	0	164	4	40
+68	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
+69	__RBtnArgs	8	0	5	8	16
+70	__RBtnArgs.Result	2	1	168	1	16
+71	__RBtnArgs.Index	1	1	169	1	16
+72	__RBtnArgs.Pressed	1	1	170	1	16
+73	__RBtnArgs.Count	1	1	171	1	16
+74	__RBtnArgs.Reset	1	1	172	1	16
+75	__TextOutArgs	8	0	4	16	63
+76	__TextOutArgs.Result	2	1	176	1	63
+77	__TextOutArgs.Location	8	0	2	4	63
+78	__TextOutArgs.Location.X	4	1	180	2	63
+79	__TextOutArgs.Location.Y	4	1	182	2	63
+80	__TextOutArgs.Text	7	0	184	4	63
+81	__TextOutArgs.Text.Text_type	1	0	0	1	0
+82	__TextOutArgs.Options	5	1	188	4	63
+83	__IOMWBIArgs	8	0	4	16	8
+84	__IOMWBIArgs.Result	2	1	192	1	8
+85	__IOMWBIArgs.ModuleID	5	1	196	4	8
+86	__IOMWBIArgs.Offset	3	1	200	2	8
+87	__IOMWBIArgs.Buffer	7	0	202	4	8
+88	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+89	__PointOutArgs	8	0	3	12	8
+90	__PointOutArgs.Result	2	1	204	1	8
+91	__PointOutArgs.Location	8	0	2	4	8
+92	__PointOutArgs.Location.X	4	1	208	2	8
+93	__PointOutArgs.Location.Y	4	1	210	2	8
+94	__PointOutArgs.Options	5	1	212	4	8
+95	__constStr0012	7	0	216	4	1
+96	__constStr0012.__constStr0012_type	1	1	0	1	0
+97	__constStr0013	7	0	218	4	2
+98	__constStr0013.__constStr0013_type	1	1	0	1	0
+99	__strbufSetOp	7	0	220	4	8
+100	__strbufSetOp.__strbufSetOp_type	1	0	0	1	0
+101	__IOMWFlattenBuf	7	0	222	4	4
+102	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+103	__strbufmain	7	0	224	4	4
+104	__strbufmain.__strbufmain_type	1	0	0	1	0
+105	__strbufSetNum	7	0	226	4	2
+106	__strbufSetNum.__strbufSetNum_type	1	0	0	1	0
+107	__strretvalSetNum	7	0	228	4	2
+108	__strretvalSetNum.__strretvalSetNum_type	1	0	0	1	0
+109	__constStr0010	7	0	230	4	1
+110	__constStr0010.__constStr0010_type	1	1	0	1	0
+111	__constStr0011	7	0	232	4	1
+112	__constStr0011.__constStr0011_type	1	1	0	1	0
+113	__constStr0009	7	0	234	4	1
+114	__constStr0009.__constStr0009_type	1	1	0	1	0
+115	__IOMRUnflattenBuf	7	0	236	4	16
+116	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+117	__BlankLine	7	0	238	4	3
+118	__BlankLine.__BlankLine_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	55	0	#line 55 "C:\Github\NXC_Source\#Calculator.nxc"
+0	56	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	55	2	#line 55 "C:\Github\NXC_Source\#Calculator.nxc"
+0	57	2	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	2		set __signed_stack_001main, 45
+0	57	5	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	57	5	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	5		set __signed_stack_002main, 0
+0	57	8	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	57	8	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	8		strcat __strbufmain, __constStr0013
+0	57	12	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	12		set __D0main, 0
+0	57	15	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	15		acquire __TextOutMutex
+0	57	16	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	16		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	57	18	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	18		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	57	20	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	20		mov __TextOutArgs.Options, __D0main
+0	57	22	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	22		mov __TextOutArgs.Text, __strbufmain
+0	57	24	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	24		syscall 13, __TextOutArgs
+0	57	27	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	27		mov __D0main, __TextOutArgs.Result
+0	57	29	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	29		release __TextOutMutex
+0	57	30	#line 57 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	30	#line 58 "C:\Github\NXC_Source\#Calculator.nxc"
+0	59	30		subcall SetNum, __SetNum_return
+0	58	32	#line 58 "C:\Github\NXC_Source\#Calculator.nxc"
+0	59	32		mov __main_7qG2_Num1_7qG2_000, __D0SetNum
+0	58	34	#line 58 "C:\Github\NXC_Source\#Calculator.nxc"
+0	58	34	#line 58 "C:\Github\NXC_Source\#Calculator.nxc"
+0	59	34	#line 59 "C:\Github\NXC_Source\#Calculator.nxc"
+0	60	34		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
+0	59	37	#line 59 "C:\Github\NXC_Source\#Calculator.nxc"
+0	6903	37	#line 6903 "NXCDefs.h"
+0	6904	37	#pragma macro 7
+0	6904	37		acquire __TextOutMutex
+0	6904	38		mov __TextOutArgs.Location.X, __constVal0
+0	6904	40		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6904	42		mov __TextOutArgs.Options, __constVal0
+0	6904	44		mov __TextOutArgs.Text, __BlankLine
+0	6904	46		syscall 13, __TextOutArgs
+0	6904	49		release __TextOutMutex
+0	7572	50	#line 7572 "NXCDefs.h"
+0	6903	50	#line 6903 "NXCDefs.h"
+0	59	50	#line 59 "C:\Github\NXC_Source\#Calculator.nxc"
+0	61	50	#line 61 "C:\Github\NXC_Source\#Calculator.nxc"
+0	62	50		set __D0main, 1
+0	62	53	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	53		tst 5, __D0main, __D0main
+0	62	56	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	56		brtst 4, __ASM_Label_820, __D0main
+0	62	59	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	59		set __signed_stack_001main, 0
+0	62	62	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	62	62	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	62		set __signed_stack_002main, 0
+0	62	65	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	62	65	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	65		mov __float_stack_003main, __main_7qG2_Num1_7qG2_000
+0	62	67	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	62	67	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	67		mov __DF0main, __constVal0
+0	62	69	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	69		acquire __TextOutMutex
+0	62	70	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	70		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	62	72	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	72		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	62	74	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	74		mov __TextOutArgs.Options, __DF0main
+0	62	76	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	76		numtostr __TextOutArgs.Text, __float_stack_003main
+0	62	79	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	79		syscall 13, __TextOutArgs
+0	62	82	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	82		mov __D0main, __TextOutArgs.Result
+0	62	84	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	63	84		release __TextOutMutex
+0	62	85	#line 62 "C:\Github\NXC_Source\#Calculator.nxc"
+0	6896	85	#line 6896 "NXCDefs.h"
+0	6897	85	#pragma macro 6
+0	6897	85		mov __PointOutArgs.Location.X, __constVal200
+0	6897	87		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	89		mov __PointOutArgs.Options, __constVal1
+0	6897	91		syscall 14, __PointOutArgs
+0	7622	94	#line 7622 "NXCDefs.h"
+0	6896	94	#line 6896 "NXCDefs.h"
+0	63	94	#line 63 "C:\Github\NXC_Source\#Calculator.nxc"
+0	64	94	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	94		set __signed_stack_001main, 45
+0	64	97	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	64	97	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	97		set __signed_stack_002main, 0
+0	64	100	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	64	100	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	100		strcat __strbufmain, __constStr0013
+0	64	104	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	104		set __D0main, 0
+0	64	107	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	107		acquire __TextOutMutex
+0	64	108	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	108		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	64	110	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	110		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	64	112	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	112		mov __TextOutArgs.Options, __D0main
+0	64	114	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	114		mov __TextOutArgs.Text, __strbufmain
+0	64	116	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	116		syscall 13, __TextOutArgs
+0	64	119	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	119		mov __D0main, __TextOutArgs.Result
+0	64	121	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	121		release __TextOutMutex
+0	64	122	#line 64 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	122	#line 65 "C:\Github\NXC_Source\#Calculator.nxc"
+0	66	122		subcall SetOp, __SetOp_return
+0	65	124	#line 65 "C:\Github\NXC_Source\#Calculator.nxc"
+0	66	124		mov __main_7qG2_operation_7qG2_000, __D0SetOp
+0	65	126	#line 65 "C:\Github\NXC_Source\#Calculator.nxc"
+0	65	126	#line 65 "C:\Github\NXC_Source\#Calculator.nxc"
+0	6896	126	#line 6896 "NXCDefs.h"
+0	6897	126	#pragma macro 6
+0	6897	126		mov __PointOutArgs.Location.X, __constVal200
+0	6897	128		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	130		mov __PointOutArgs.Options, __constVal1
+0	6897	132		syscall 14, __PointOutArgs
+0	7668	135	#line 7668 "NXCDefs.h"
+0	6896	135	#line 6896 "NXCDefs.h"
+0	66	135	#line 66 "C:\Github\NXC_Source\#Calculator.nxc"
+0	67	135	#line 67 "C:\Github\NXC_Source\#Calculator.nxc"
+0	68	135		subcall SetNum, __SetNum_return
+0	67	137	#line 67 "C:\Github\NXC_Source\#Calculator.nxc"
+0	68	137		mov __main_7qG2_Num2_7qG2_000, __D0SetNum
+0	67	139	#line 67 "C:\Github\NXC_Source\#Calculator.nxc"
+0	67	139	#line 67 "C:\Github\NXC_Source\#Calculator.nxc"
+0	68	139	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	139		mov __unsigned_stack_001main, __main_7qG2_operation_7qG2_000
+0	68	141	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	68	141	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	141		set __D0main, 0
+0	68	144	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	144		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	68	148	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	148		brtst 4, __ASM_Label_843, __D0main
+0	68	151	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	68	151	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	151		add __main_7qG2_Num1_7qG2_000, __main_7qG2_Num1_7qG2_000, __main_7qG2_Num2_7qG2_000
+0	68	155	#line 68 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	155	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	155	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	155		mov __unsigned_stack_001main, __main_7qG2_operation_7qG2_000
+0	69	157	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	157	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	157		set __D0main, 1
+0	69	160	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	160		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	69	164	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	164		brtst 4, __ASM_Label_848, __D0main
+0	69	167	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	69	167	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	167		sub __main_7qG2_Num1_7qG2_000, __main_7qG2_Num1_7qG2_000, __main_7qG2_Num2_7qG2_000
+0	69	171	#line 69 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	171	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	171	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	171		mov __unsigned_stack_001main, __main_7qG2_operation_7qG2_000
+0	70	173	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	173	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	173		set __D0main, 2
+0	70	176	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	176		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	70	180	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	180		brtst 4, __ASM_Label_853, __D0main
+0	70	183	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	70	183	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	183		mul __main_7qG2_Num1_7qG2_000, __main_7qG2_Num1_7qG2_000, __main_7qG2_Num2_7qG2_000
+0	70	187	#line 70 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	187	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	187	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	187		mov __unsigned_stack_001main, __main_7qG2_operation_7qG2_000
+0	71	189	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	189	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	189		set __D0main, 3
+0	71	192	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	192		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	71	196	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	196		brtst 4, __ASM_Label_858, __D0main
+0	71	199	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	71	199	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	199		div __main_7qG2_Num1_7qG2_000, __main_7qG2_Num1_7qG2_000, __main_7qG2_Num2_7qG2_000
+0	71	203	#line 71 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	203	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	203	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	73	203		mov __SubSixteen_7qG2_in_7qG2_000, line1
+0	72	205	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	205	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	73	205		subcall SubSixteen, __SubSixteen_return
+0	72	207	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	73	207		mov line1, __D0SubSixteen
+0	72	209	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	72	209	#line 72 "C:\Github\NXC_Source\#Calculator.nxc"
+0	73	209	#line 73 "C:\Github\NXC_Source\#Calculator.nxc"
+0	74	209		mov __SubSixteen_7qG2_in_7qG2_000, line2
+0	73	211	#line 73 "C:\Github\NXC_Source\#Calculator.nxc"
+0	73	211	#line 73 "C:\Github\NXC_Source\#Calculator.nxc"
+0	74	211		subcall SubSixteen, __SubSixteen_return
+0	73	213	#line 73 "C:\Github\NXC_Source\#Calculator.nxc"
+0	74	213		mov line2, __D0SubSixteen
+0	73	215	#line 73 "C:\Github\NXC_Source\#Calculator.nxc"
+0	73	215	#line 73 "C:\Github\NXC_Source\#Calculator.nxc"
+0	77	215	#line 77 "C:\Github\NXC_Source\#Calculator.nxc"
+0	78	215		jmp __ASM_Label_819
+0	77	217	#line 77 "C:\Github\NXC_Source\#Calculator.nxc"
+0	78	217		exit -1, -1
+1	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
+1	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	2		tst 5, __D0senseButton, __DU0senseButton
+1	4	5	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	5		brtst 4, __ASM_Label_606, __D0senseButton
+1	4	8	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	8		set __senseButton_7qG2_lu_7qG2_000, 2
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	11		set __senseButton_7qG2_rd_7qG2_000, 1
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	14	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	14		jmp __ASM_Label_611
+1	6	16	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	16		set __senseButton_7qG2_lu_7qG2_000, 3
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	19		set __senseButton_7qG2_rd_7qG2_000, 0
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	22	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22	#pragma macro 7
+1	9	22	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22		set __D0senseButton, 1
+1	10	25	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	25		tst 5, __D0senseButton, __D0senseButton
+1	10	28	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	28		brtst 4, __ASM_Label_620, __D0senseButton
+1	10	31	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	31	#pragma macro 8
+1	11	31		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	11	33		mov __IOMWBIArgs.Offset, __constVal40
+1	11	35		flatten __IOMWFlattenBuf, __constVal4
+1	11	38		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	11	41		syscall 79, __IOMWBIArgs
+1	6582	44	#line 6582 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	44	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	44	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	44		jmp __ASM_Label_621
+1	12	46	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	46	#pragma macro 8
+1	13	46		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	13	48		mov __IOMWBIArgs.Offset, __constVal40
+1	13	50		flatten __IOMWFlattenBuf, __constVal1
+1	13	53		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	13	56		syscall 79, __IOMWBIArgs
+1	6588	59	#line 6588 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	59	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	59	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	59	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	59		set __D0senseButton, 0
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	62		tst 5, __D0senseButton, __D0senseButton
+1	6	65	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	65		brtst 4, __ASM_Label_617, __D0senseButton
+1	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	68		jmp __ASM_Label_616
+1	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	70		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	72		mov __D0senseButton, __constVal0
+1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	74		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	76		mov __RBtnArgs.Reset, __D0senseButton
+1	7	78	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	78		syscall 20, __RBtnArgs
+1	7	81	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	81		mov __D0senseButton, __RBtnArgs.Pressed
+1	7	83	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	83	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	83		tst 5, __D0senseButton, __D0senseButton
+1	7	86	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	86		brtst 4, __ASM_Label_628, __D0senseButton
+1	7	89	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	89	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	89		sub __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	7	93	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	93	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	93	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	93		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	95		mov __D0senseButton, __constVal0
+1	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	97		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	8	99	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	99		mov __RBtnArgs.Reset, __D0senseButton
+1	8	101	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	101		syscall 20, __RBtnArgs
+1	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	104		mov __signed_stack_001senseButton, __RBtnArgs.Pressed
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	106		set __D0senseButton, 0
+1	8	109	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	109		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	8	113	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	113		not __D0senseButton, __D0senseButton
+1	8	116	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	116		tst 5, __D0senseButton, __D0senseButton
+1	8	119	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	119		brtst 4, __ASM_Label_632, __D0senseButton
+1	9	122	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	122		jmp __ASM_Label_631
+1	9	124	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	124	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	124		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	9	126	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	126	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	126		mov __D0senseButton, __constVal0
+1	9	128	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	128	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	128		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	9	130	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	130		mov __RBtnArgs.Reset, __D0senseButton
+1	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	132		syscall 20, __RBtnArgs
+1	9	135	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	135		mov __D0senseButton, __RBtnArgs.Pressed
+1	9	137	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	137	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	137		tst 5, __D0senseButton, __D0senseButton
+1	9	140	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	140		brtst 4, __ASM_Label_643, __D0senseButton
+1	9	143	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	143	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	143		add __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	9	147	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	147	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	147	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	147		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	10	149	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	149	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	149		mov __D0senseButton, __constVal0
+1	10	151	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	151	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	151		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	10	153	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	153		mov __RBtnArgs.Reset, __D0senseButton
+1	10	155	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	155		syscall 20, __RBtnArgs
+1	10	158	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	158		mov __signed_stack_001senseButton, __RBtnArgs.Pressed
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	160		set __D0senseButton, 0
+1	10	163	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	163		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	10	167	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	167		not __D0senseButton, __D0senseButton
+1	10	170	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	170		tst 5, __D0senseButton, __D0senseButton
+1	10	173	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	173		brtst 4, __ASM_Label_647, __D0senseButton
+1	11	176	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	176		jmp __ASM_Label_646
+1	11	178	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	178	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	178		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
+1	12	180	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	180		tst 5, __D0senseButton, __DU0senseButton
+1	12	183	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	183		brtst 4, __ASM_Label_656, __D0senseButton
+1	12	186	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	186		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	12	188	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	188	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	188		set __D0senseButton, 0
+1	12	191	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	191		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	12	195	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	195		brtst 4, __ASM_Label_659, __D0senseButton
+1	12	198	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	198		set __senseButton_7qG2_val_7qG2_000, 0
+1	12	201	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	201	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	201	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	201	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	201		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	203		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	13	205	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	205		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	13	209	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	209		brtst 4, __ASM_Label_664, __D0senseButton
+1	13	212	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	212		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	13	214	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	214	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	214	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	214	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	214		jmp __ASM_Label_667
+1	15	216	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	216		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	15	218	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	218	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	218		set __D0senseButton, 0
+1	15	221	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	221		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	15	225	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	225		brtst 4, __ASM_Label_670, __D0senseButton
+1	15	228	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	228		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	230	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	230	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	230		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	16	232	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	232	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	232		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	16	234	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	234		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	16	238	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	238		brtst 4, __ASM_Label_675, __D0senseButton
+1	16	241	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	241		set __senseButton_7qG2_val_7qG2_000, 0
+1	16	244	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	244	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	244		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
+1	17	246	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	246		subret __senseButton_return
+1	17	248	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	248	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	248		subret __senseButton_return
+2	8	0	#line 8 "C:\Github\NXC_Source\#Calculator.nxc"
+2	9	0		set __SetNum_7qG2_reloop_7qG2_000, 1
+2	8	3	#line 8 "C:\Github\NXC_Source\#Calculator.nxc"
+2	9	3	#line 9 "C:\Github\NXC_Source\#Calculator.nxc"
+2	10	3		set __SetNum_7qG2_temp_7qG2_000, 0
+2	9	6	#line 9 "C:\Github\NXC_Source\#Calculator.nxc"
+2	11	6	#line 11 "C:\Github\NXC_Source\#Calculator.nxc"
+2	12	6		mov __DU0SetNum, __SetNum_7qG2_reloop_7qG2_000
+2	12	8	#line 12 "C:\Github\NXC_Source\#Calculator.nxc"
+2	13	8		tst 5, __D0SetNum, __DU0SetNum
+2	12	11	#line 12 "C:\Github\NXC_Source\#Calculator.nxc"
+2	13	11		brtst 4, __ASM_Label_685, __D0SetNum
+2	12	14	#line 12 "C:\Github\NXC_Source\#Calculator.nxc"
+2	13	14	#pragma macro 7
+2	13	14		setout __constVal0, 0, __constVal8
+2	6922	19	#line 6922 "C:\Github\NXC_Source\#Calculator.nxc"
+2	12	19	#line 12 "C:\Github\NXC_Source\#Calculator.nxc"
+2	13	19	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	19	#pragma macro 2
+2	14	19	#pragma macro 25
+2	14	19		acquire __IOMRMutex
+2	14	20		mov __IOMRBIArgs.ModuleID, __constVal262145
+2	14	22		mov __IOMRBIArgs.Offset, __constVal34
+2	14	24		set __IOMRBIArgs.Count, 1
+2	14	27		syscall 78, __IOMRBIArgs
+2	14	30		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+2	14	33		unflatten __tmpsbyteSetNum, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetNum
+2	14	38		release __IOMRMutex
+2	6926	39	#line 6926 "C:\Github\NXC_Source\#Calculator.nxc"
+2	6927	39		mov __D0SetNum, __tmpsbyteSetNum
+2	13	41	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	13	41	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	41		tst 5, __D0SetNum, __D0SetNum
+2	13	44	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	44		brtst 4, __ASM_Label_690, __D0SetNum
+2	13	47	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	47		set __D0SetNum, 1
+2	13	50	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	50		sub __SetNum_7qG2_temp_7qG2_000, __SetNum_7qG2_temp_7qG2_000, __D0SetNum
+2	13	54	#line 13 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	54	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	54	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	54	#pragma macro 2
+2	15	54	#pragma macro 25
+2	15	54		acquire __IOMRMutex
+2	15	55		mov __IOMRBIArgs.ModuleID, __constVal262145
+2	15	57		mov __IOMRBIArgs.Offset, __constVal33
+2	15	59		set __IOMRBIArgs.Count, 1
+2	15	62		syscall 78, __IOMRBIArgs
+2	15	65		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+2	15	68		unflatten __tmpsbyteSetNum, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetNum
+2	15	73		release __IOMRMutex
+2	6944	74	#line 6944 "C:\Github\NXC_Source\#Calculator.nxc"
+2	6945	74		mov __D0SetNum, __tmpsbyteSetNum
+2	14	76	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	14	76	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	76		tst 5, __D0SetNum, __D0SetNum
+2	14	79	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	79		brtst 4, __ASM_Label_695, __D0SetNum
+2	14	82	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	82		set __D0SetNum, 1
+2	14	85	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	85		add __SetNum_7qG2_temp_7qG2_000, __SetNum_7qG2_temp_7qG2_000, __D0SetNum
+2	14	89	#line 14 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	89	#line 15 "C:\Github\NXC_Source\#Calculator.nxc"
+2	15	89	#line 15 "C:\Github\NXC_Source\#Calculator.nxc"
+2	16	89		mov __ClearLine_7qG2_line_7qG2_000_inline_SetNum, line1
+2	15	91	#line 15 "C:\Github\NXC_Source\#Calculator.nxc"
+2	6903	91	#line 6903 "NXCDefs.h"
+2	6904	91	#pragma macro 7
+2	6904	91		acquire __TextOutMutex
+2	6904	92		mov __TextOutArgs.Location.X, __constVal0
+2	6904	94		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_SetNum
+2	6904	96		mov __TextOutArgs.Options, __constVal0
+2	6904	98		mov __TextOutArgs.Text, __BlankLine
+2	6904	100		syscall 13, __TextOutArgs
+2	6904	103		release __TextOutMutex
+2	6971	104	#line 6971 "NXCDefs.h"
+2	6903	104	#line 6903 "NXCDefs.h"
+2	15	104	#line 15 "C:\Github\NXC_Source\#Calculator.nxc"
+2	16	104	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	104		set __signed_stack_001SetNum, 0
+2	16	107	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	16	107	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	107		mov __unsigned_stack_002SetNum, line1
+2	16	109	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	16	109	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	109		mov __D0SetNum, __SetNum_7qG2_temp_7qG2_000
+2	16	111	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	111		numtostr __strretvalSetNum, __D0SetNum
+2	16	114	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	114		strcat __strbufSetNum, __strretvalSetNum
+2	16	118	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	118		set __D0SetNum, 0
+2	16	121	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	121		acquire __TextOutMutex
+2	16	122	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	122		mov __TextOutArgs.Location.X, __signed_stack_001SetNum
+2	16	124	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	124		mov __TextOutArgs.Location.Y, __unsigned_stack_002SetNum
+2	16	126	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	126		mov __TextOutArgs.Options, __D0SetNum
+2	16	128	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	128		mov __TextOutArgs.Text, __strbufSetNum
+2	16	130	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	130		syscall 13, __TextOutArgs
+2	16	133	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	133		mov __D0SetNum, __TextOutArgs.Result
+2	16	135	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	135		release __TextOutMutex
+2	16	136	#line 16 "C:\Github\NXC_Source\#Calculator.nxc"
+2	17	136	#line 17 "C:\Github\NXC_Source\#Calculator.nxc"
+2	18	136		set __Wait_7qG2_ms_7qG2_000_inline_SetNum, 100
+2	17	139	#line 17 "C:\Github\NXC_Source\#Calculator.nxc"
+2	8771	139	#line 8771 "NXCDefs.h"
+2	8772	139		waitv __Wait_7qG2_ms_7qG2_000_inline_SetNum
+2	8771	141	#line 8771 "NXCDefs.h"
+2	17	141	#line 17 "C:\Github\NXC_Source\#Calculator.nxc"
+2	18	141	#line 18 "C:\Github\NXC_Source\#Calculator.nxc"
+2	19	141	#pragma macro 2
+2	19	141	#pragma macro 25
+2	19	141		acquire __IOMRMutex
+2	19	142		mov __IOMRBIArgs.ModuleID, __constVal262145
+2	19	144		mov __IOMRBIArgs.Offset, __constVal34
+2	19	146		set __IOMRBIArgs.Count, 1
+2	19	149		syscall 78, __IOMRBIArgs
+2	19	152		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+2	19	155		unflatten __tmpsbyteSetNum, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetNum
+2	19	160		release __IOMRMutex
+2	7029	161	#line 7029 "C:\Github\NXC_Source\#Calculator.nxc"
+2	7030	161		mov __D0SetNum, __tmpsbyteSetNum
+2	18	163	#line 18 "C:\Github\NXC_Source\#Calculator.nxc"
+2	18	163	#line 18 "C:\Github\NXC_Source\#Calculator.nxc"
+2	19	163		tst 5, __D0SetNum, __D0SetNum
+2	18	166	#line 18 "C:\Github\NXC_Source\#Calculator.nxc"
+2	19	166		brtst 5, __ASM_Label_710, __D0SetNum
+2	18	169	#line 18 "C:\Github\NXC_Source\#Calculator.nxc"
+2	19	169	#pragma macro 2
+2	19	169	#pragma macro 25
+2	19	169		acquire __IOMRMutex
+2	19	170		mov __IOMRBIArgs.ModuleID, __constVal262145
+2	19	172		mov __IOMRBIArgs.Offset, __constVal33
+2	19	174		set __IOMRBIArgs.Count, 1
+2	19	177		syscall 78, __IOMRBIArgs
+2	19	180		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+2	19	183		unflatten __tmpsbyteSetNum, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetNum
+2	19	188		release __IOMRMutex
+2	7039	189	#line 7039 "C:\Github\NXC_Source\#Calculator.nxc"
+2	7040	189		mov __D0SetNum, __tmpsbyteSetNum
+2	18	191	#line 18 "C:\Github\NXC_Source\#Calculator.nxc"
+2	19	191	#line 19 "C:\Github\NXC_Source\#Calculator.nxc"
+2	20	191		brtst 4, __ASM_Label_713, __D0SetNum
+2	19	194	#line 19 "C:\Github\NXC_Source\#Calculator.nxc"
+2	20	194		set __Wait_7qG2_ms_7qG2_000_inline_SetNum, 100
+2	19	197	#line 19 "C:\Github\NXC_Source\#Calculator.nxc"
+2	8771	197	#line 8771 "NXCDefs.h"
+2	8772	197		waitv __Wait_7qG2_ms_7qG2_000_inline_SetNum
+2	8771	199	#line 8771 "NXCDefs.h"
+2	19	199	#line 19 "C:\Github\NXC_Source\#Calculator.nxc"
+2	20	199	#line 20 "C:\Github\NXC_Source\#Calculator.nxc"
+2	20	199	#line 20 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	199		getout __D0SetNum, __constVal0, 4
+2	20	203	#line 20 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	203		add __SetNum_7qG2_temp_7qG2_000, __SetNum_7qG2_temp_7qG2_000, __D0SetNum
+2	20	207	#line 20 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	207	#line 21 "C:\Github\NXC_Source\#Calculator.nxc"
+2	22	207	#pragma macro 2
+2	22	207	#pragma macro 25
+2	22	207		acquire __IOMRMutex
+2	22	208		mov __IOMRBIArgs.ModuleID, __constVal262145
+2	22	210		mov __IOMRBIArgs.Offset, __constVal35
+2	22	212		set __IOMRBIArgs.Count, 1
+2	22	215		syscall 78, __IOMRBIArgs
+2	22	218		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+2	22	221		unflatten __tmpsbyteSetNum, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetNum
+2	22	226		release __IOMRMutex
+2	7065	227	#line 7065 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	227	#line 21 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	227	#line 21 "C:\Github\NXC_Source\#Calculator.nxc"
+2	22	227		not __SetNum_7qG2_reloop_7qG2_000, __tmpsbyteSetNum
+2	21	230	#line 21 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	230	#line 21 "C:\Github\NXC_Source\#Calculator.nxc"
+2	21	230	#line 21 "C:\Github\NXC_Source\#Calculator.nxc"
+2	23	230	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	230		jmp __ASM_Label_684
+2	23	232	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	23	232	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	232	#pragma macro 2
+2	24	232	#pragma macro 25
+2	24	232		acquire __IOMRMutex
+2	24	233		mov __IOMRBIArgs.ModuleID, __constVal262145
+2	24	235		mov __IOMRBIArgs.Offset, __constVal35
+2	24	237		set __IOMRBIArgs.Count, 1
+2	24	240		syscall 78, __IOMRBIArgs
+2	24	243		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+2	24	246		unflatten __tmpsbyteSetNum, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetNum
+2	24	251		release __IOMRMutex
+2	7083	252	#line 7083 "C:\Github\NXC_Source\#Calculator.nxc"
+2	7084	252		mov __signed_stack_001SetNum, __tmpsbyteSetNum
+2	23	254	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	23	254	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	23	254	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	254		set __D0SetNum, 0
+2	23	257	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	257		cmp 4, __D0SetNum, __signed_stack_001SetNum, __D0SetNum
+2	23	261	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	261		not __D0SetNum, __D0SetNum
+2	23	264	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	264		tst 5, __D0SetNum, __D0SetNum
+2	23	267	#line 23 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	267		brtst 4, __ASM_Label_721, __D0SetNum
+2	24	270	#line 24 "C:\Github\NXC_Source\#Calculator.nxc"
+2	25	270		jmp __ASM_Label_720
+2	24	272	#line 24 "C:\Github\NXC_Source\#Calculator.nxc"
+2	24	272	#line 24 "C:\Github\NXC_Source\#Calculator.nxc"
+2	25	272		mov __D0SetNum, __SetNum_7qG2_temp_7qG2_000
+2	24	274	#line 24 "C:\Github\NXC_Source\#Calculator.nxc"
+2	25	274		subret __SetNum_return
+2	24	276	#line 24 "C:\Github\NXC_Source\#Calculator.nxc"
+2	27	276	#line 27 "C:\Github\NXC_Source\#Calculator.nxc"
+2	28	276		subret __SetNum_return
+3	29	0	#line 29 "C:\Github\NXC_Source\#Calculator.nxc"
+3	30	0		set __SetOp_7qG2_reloop_7qG2_000, 1
+3	29	3	#line 29 "C:\Github\NXC_Source\#Calculator.nxc"
+3	30	3	#line 30 "C:\Github\NXC_Source\#Calculator.nxc"
+3	31	3		set __SetOp_7qG2_temp_7qG2_000, 0
+3	30	6	#line 30 "C:\Github\NXC_Source\#Calculator.nxc"
+3	32	6	#line 32 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	6		mov __DU0SetOp, __SetOp_7qG2_reloop_7qG2_000
+3	33	8	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	8		tst 5, __D0SetOp, __DU0SetOp
+3	33	11	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	11		brtst 4, __ASM_Label_733, __D0SetOp
+3	33	14	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	14		mov __senseButton_7qG2_val_7qG2_000, __SetOp_7qG2_temp_7qG2_000
+3	33	16	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	16	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	16		set __senseButton_7qG2_lr_ud_7qG2_000, 1
+3	33	19	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	19	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	19		set __senseButton_7qG2_add_7qG2_000, 1
+3	33	22	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	22	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	22		set __senseButton_7qG2_high_7qG2_000, 3
+3	33	25	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	25	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	25		set __senseButton_7qG2_cut_7qG2_000, 0
+3	33	28	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	28	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	28		subcall senseButton, __senseButton_return
+3	33	30	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	30		mov __SetOp_7qG2_temp_7qG2_000, __D0senseButton
+3	33	32	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	33	32	#line 33 "C:\Github\NXC_Source\#Calculator.nxc"
+3	34	32	#line 34 "C:\Github\NXC_Source\#Calculator.nxc"
+3	35	32		set __ClearLine_7qG2_line_7qG2_000_inline_SetOp, 48
+3	34	35	#line 34 "C:\Github\NXC_Source\#Calculator.nxc"
+3	6903	35	#line 6903 "NXCDefs.h"
+3	6904	35	#pragma macro 7
+3	6904	35		acquire __TextOutMutex
+3	6904	36		mov __TextOutArgs.Location.X, __constVal0
+3	6904	38		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_SetOp
+3	6904	40		mov __TextOutArgs.Options, __constVal0
+3	6904	42		mov __TextOutArgs.Text, __BlankLine
+3	6904	44		syscall 13, __TextOutArgs
+3	6904	47		release __TextOutMutex
+3	7185	48	#line 7185 "NXCDefs.h"
+3	6903	48	#line 6903 "NXCDefs.h"
+3	34	48	#line 34 "C:\Github\NXC_Source\#Calculator.nxc"
+3	35	48	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	48		mov __signed_stack_001SetOp, __SetOp_7qG2_temp_7qG2_000
+3	35	50	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	35	50	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	50		set __D0SetOp, 0
+3	35	53	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	53		cmp 4, __D0SetOp, __signed_stack_001SetOp, __D0SetOp
+3	35	57	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	57		brtst 4, __ASM_Label_752, __D0SetOp
+3	35	60	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	60		set __signed_stack_001SetOp, 0
+3	35	63	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	35	63	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	63		mov __unsigned_stack_002SetOp, line2
+3	35	65	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	35	65	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	65		strcat __strbufSetOp, __constStr0009
+3	35	69	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	69		set __D0SetOp, 0
+3	35	72	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	72		acquire __TextOutMutex
+3	35	73	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	73		mov __TextOutArgs.Location.X, __signed_stack_001SetOp
+3	35	75	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	75		mov __TextOutArgs.Location.Y, __unsigned_stack_002SetOp
+3	35	77	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	77		mov __TextOutArgs.Options, __D0SetOp
+3	35	79	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	79		mov __TextOutArgs.Text, __strbufSetOp
+3	35	81	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	81		syscall 13, __TextOutArgs
+3	35	84	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	84		mov __D0SetOp, __TextOutArgs.Result
+3	35	86	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	86		release __TextOutMutex
+3	35	87	#line 35 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	87	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	87	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	87		mov __signed_stack_001SetOp, __SetOp_7qG2_temp_7qG2_000
+3	36	89	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	89	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	89		set __D0SetOp, 1
+3	36	92	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	92		cmp 4, __D0SetOp, __signed_stack_001SetOp, __D0SetOp
+3	36	96	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	96		brtst 4, __ASM_Label_761, __D0SetOp
+3	36	99	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	99		set __signed_stack_001SetOp, 0
+3	36	102	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	102	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	102		mov __unsigned_stack_002SetOp, line2
+3	36	104	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	36	104	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	104		strcat __strbufSetOp, __constStr0010
+3	36	108	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	108		set __D0SetOp, 0
+3	36	111	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	111		acquire __TextOutMutex
+3	36	112	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	112		mov __TextOutArgs.Location.X, __signed_stack_001SetOp
+3	36	114	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	114		mov __TextOutArgs.Location.Y, __unsigned_stack_002SetOp
+3	36	116	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	116		mov __TextOutArgs.Options, __D0SetOp
+3	36	118	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	118		mov __TextOutArgs.Text, __strbufSetOp
+3	36	120	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	120		syscall 13, __TextOutArgs
+3	36	123	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	123		mov __D0SetOp, __TextOutArgs.Result
+3	36	125	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	125		release __TextOutMutex
+3	36	126	#line 36 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	126	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	126	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	126		mov __signed_stack_001SetOp, __SetOp_7qG2_temp_7qG2_000
+3	37	128	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	128	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	128		set __D0SetOp, 2
+3	37	131	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	131		cmp 4, __D0SetOp, __signed_stack_001SetOp, __D0SetOp
+3	37	135	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	135		brtst 4, __ASM_Label_770, __D0SetOp
+3	37	138	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	138		set __signed_stack_001SetOp, 0
+3	37	141	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	141	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	141		mov __unsigned_stack_002SetOp, line2
+3	37	143	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	37	143	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	143		strcat __strbufSetOp, __constStr0011
+3	37	147	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	147		set __D0SetOp, 0
+3	37	150	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	150		acquire __TextOutMutex
+3	37	151	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	151		mov __TextOutArgs.Location.X, __signed_stack_001SetOp
+3	37	153	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	153		mov __TextOutArgs.Location.Y, __unsigned_stack_002SetOp
+3	37	155	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	155		mov __TextOutArgs.Options, __D0SetOp
+3	37	157	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	157		mov __TextOutArgs.Text, __strbufSetOp
+3	37	159	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	159		syscall 13, __TextOutArgs
+3	37	162	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	162		mov __D0SetOp, __TextOutArgs.Result
+3	37	164	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	164		release __TextOutMutex
+3	37	165	#line 37 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	165	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	165	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	165		mov __signed_stack_001SetOp, __SetOp_7qG2_temp_7qG2_000
+3	38	167	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	167	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	167		set __D0SetOp, 3
+3	38	170	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	170		cmp 4, __D0SetOp, __signed_stack_001SetOp, __D0SetOp
+3	38	174	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	174		brtst 4, __ASM_Label_779, __D0SetOp
+3	38	177	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	177		set __signed_stack_001SetOp, 0
+3	38	180	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	180	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	180		mov __unsigned_stack_002SetOp, line2
+3	38	182	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	38	182	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	182		strcat __strbufSetOp, __constStr0012
+3	38	186	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	186		set __D0SetOp, 0
+3	38	189	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	189		acquire __TextOutMutex
+3	38	190	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	190		mov __TextOutArgs.Location.X, __signed_stack_001SetOp
+3	38	192	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	192		mov __TextOutArgs.Location.Y, __unsigned_stack_002SetOp
+3	38	194	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	194		mov __TextOutArgs.Options, __D0SetOp
+3	38	196	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	196		mov __TextOutArgs.Text, __strbufSetOp
+3	38	198	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	198		syscall 13, __TextOutArgs
+3	38	201	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	201		mov __D0SetOp, __TextOutArgs.Result
+3	38	203	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	203		release __TextOutMutex
+3	38	204	#line 38 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	204	#line 39 "C:\Github\NXC_Source\#Calculator.nxc"
+3	39	204	#line 39 "C:\Github\NXC_Source\#Calculator.nxc"
+3	40	204		set __Wait_7qG2_ms_7qG2_000_inline_SetOp, 100
+3	39	207	#line 39 "C:\Github\NXC_Source\#Calculator.nxc"
+3	8771	207	#line 8771 "NXCDefs.h"
+3	8772	207		waitv __Wait_7qG2_ms_7qG2_000_inline_SetOp
+3	8771	209	#line 8771 "NXCDefs.h"
+3	39	209	#line 39 "C:\Github\NXC_Source\#Calculator.nxc"
+3	40	209	#line 40 "C:\Github\NXC_Source\#Calculator.nxc"
+3	41	209	#pragma macro 2
+3	41	209	#pragma macro 25
+3	41	209		acquire __IOMRMutex
+3	41	210		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	41	212		mov __IOMRBIArgs.Offset, __constVal35
+3	41	214		set __IOMRBIArgs.Count, 1
+3	41	217		syscall 78, __IOMRBIArgs
+3	41	220		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	41	223		unflatten __tmpsbyteSetOp, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetOp
+3	41	228		release __IOMRMutex
+3	7406	229	#line 7406 "C:\Github\NXC_Source\#Calculator.nxc"
+3	40	229	#line 40 "C:\Github\NXC_Source\#Calculator.nxc"
+3	40	229	#line 40 "C:\Github\NXC_Source\#Calculator.nxc"
+3	41	229		not __SetOp_7qG2_reloop_7qG2_000, __tmpsbyteSetOp
+3	40	232	#line 40 "C:\Github\NXC_Source\#Calculator.nxc"
+3	40	232	#line 40 "C:\Github\NXC_Source\#Calculator.nxc"
+3	40	232	#line 40 "C:\Github\NXC_Source\#Calculator.nxc"
+3	42	232	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	232		jmp __ASM_Label_732
+3	42	234	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	42	234	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	234	#pragma macro 2
+3	43	234	#pragma macro 25
+3	43	234		acquire __IOMRMutex
+3	43	235		mov __IOMRBIArgs.ModuleID, __constVal262145
+3	43	237		mov __IOMRBIArgs.Offset, __constVal35
+3	43	239		set __IOMRBIArgs.Count, 1
+3	43	242		syscall 78, __IOMRBIArgs
+3	43	245		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+3	43	248		unflatten __tmpsbyteSetOp, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbyteSetOp
+3	43	253		release __IOMRMutex
+3	7426	254	#line 7426 "C:\Github\NXC_Source\#Calculator.nxc"
+3	7427	254		mov __signed_stack_001SetOp, __tmpsbyteSetOp
+3	42	256	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	42	256	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	42	256	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	256		set __D0SetOp, 0
+3	42	259	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	259		cmp 4, __D0SetOp, __signed_stack_001SetOp, __D0SetOp
+3	42	263	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	263		not __D0SetOp, __D0SetOp
+3	42	266	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	266		tst 5, __D0SetOp, __D0SetOp
+3	42	269	#line 42 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	269		brtst 4, __ASM_Label_793, __D0SetOp
+3	43	272	#line 43 "C:\Github\NXC_Source\#Calculator.nxc"
+3	44	272		jmp __ASM_Label_792
+3	43	274	#line 43 "C:\Github\NXC_Source\#Calculator.nxc"
+3	43	274	#line 43 "C:\Github\NXC_Source\#Calculator.nxc"
+3	44	274		mov __D0SetOp, __SetOp_7qG2_temp_7qG2_000
+3	43	276	#line 43 "C:\Github\NXC_Source\#Calculator.nxc"
+3	44	276		subret __SetOp_return
+3	43	278	#line 43 "C:\Github\NXC_Source\#Calculator.nxc"
+3	46	278	#line 46 "C:\Github\NXC_Source\#Calculator.nxc"
+3	47	278		subret __SetOp_return
+4	48	0	#line 48 "C:\Github\NXC_Source\#Calculator.nxc"
+4	49	0		set __D0SubSixteen, 16
+4	48	3	#line 48 "C:\Github\NXC_Source\#Calculator.nxc"
+4	49	3		sub __SubSixteen_7qG2_in_7qG2_000, __SubSixteen_7qG2_in_7qG2_000, __D0SubSixteen
+4	48	7	#line 48 "C:\Github\NXC_Source\#Calculator.nxc"
+4	49	7	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	7		mov __signed_stack_001SubSixteen, __SubSixteen_7qG2_in_7qG2_000
+4	49	9	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	49	9	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	9		set __D0SubSixteen, 8
+4	49	12	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	12		cmp 0, __D0SubSixteen, __signed_stack_001SubSixteen, __D0SubSixteen
+4	49	16	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	16		brtst 4, __ASM_Label_804, __D0SubSixteen
+4	49	19	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	19		set __D0SubSixteen, 48
+4	49	22	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	22		add __SubSixteen_7qG2_in_7qG2_000, __SubSixteen_7qG2_in_7qG2_000, __D0SubSixteen
+4	49	26	#line 49 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	26	#line 50 "C:\Github\NXC_Source\#Calculator.nxc"
+4	50	26	#line 50 "C:\Github\NXC_Source\#Calculator.nxc"
+4	51	26		mov __D0SubSixteen, __SubSixteen_7qG2_in_7qG2_000
+4	50	28	#line 50 "C:\Github\NXC_Source\#Calculator.nxc"
+4	51	28		subret __SubSixteen_return
+4	50	30	#line 50 "C:\Github\NXC_Source\#Calculator.nxc"
+4	53	30	#line 53 "C:\Github\NXC_Source\#Calculator.nxc"
+4	54	30		subret __SubSixteen_return
+5	78	0	#line 78 "C:\Github\NXC_Source\#Calculator.nxc"
+5	79	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\#Calculator.nxc
+1	senseButton	220	C:\Github\NXC_Source\.\+Button+-.nxc
+2	SetNum	470	C:\Github\NXC_Source\#Calculator.nxc
+3	SetOp	748	C:\Github\NXC_Source\#Calculator.nxc
+4	SubSixteen	1028	C:\Github\NXC_Source\#Calculator.nxc
+5	__initialize_global_data	1060	C:\Github\NXC_Source\#Calculator.nxc
