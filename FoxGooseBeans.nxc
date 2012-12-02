@@ -21,15 +21,26 @@
 #download "FGBgoose.ric"
 #download "FGBsack.ric"
 
+#ifndef __ENHANCED_FIRMWARE__
+  #define BTN_UP       3
+  #define BTN_DOWN     0
+  #define BTN_ACROSSL  1
+  #define BTN_ACROSSR  2
+#endif
+#ifdef  __ENHANCED_FIRMWARE__
+  #define BTN_UP       2
+  #define BTN_DOWN     1
+  #define BTN_ACROSSL  3
+  #define BTN_ACROSSR  3
+#endif
+
 ///////////////------ARRAYS------///////////////
-//objectWhatever(What+Where)
 const int xpos[2][3]={{0,0,0}{88,84,88}};
 const int ypos[3]={40,25,10};
 int objectStatus[4]={left,left,left,left};
 //int objectDrawPosition[3]={foxStart,gooseStart,beansStart}
 
-
-//////////////-----VARIABLES-----///////////////
+///////////////----VARIABLES-----///////////////
 int movingX=20, movingStep=0, objectInBoat=fox,boatStepsTaken=0;
 int i,j;
 bool movingLeft=false;
@@ -66,11 +77,11 @@ void howto()
   TextOut(0,LCD_LINE4,"can only hold   ",0);
   TextOut(0,LCD_LINE5,"himself and one ",0);
   TextOut(0,LCD_LINE6,"other object.   ",0);
-  //TextOut(0,LCD_LINE7,"",4096); //clear line
   TextOut(45,LCD_LINE8,      "OK"       ,0);
   while (!ButtonPressed(BTNCENTER)) {}
   until (!ButtonPressed(BTNCENTER)) {}
   ClearScreen();
+  if (BTN_DOWN==0) SetLongAbort(true);
   }
   
 
@@ -78,13 +89,14 @@ void inputOutput()
   {
   if (objectStatus[boat]<moving) //if still, select object
     {
-    if (ButtonPressed(BTNLEFT))  {objectInBoat--;}
-    until (ButtonPressed(BTNLEFT)==false)  {}
-    if (ButtonPressed(BTNRIGHT)) {objectInBoat++;}
-    until (ButtonPressed(BTNRIGHT)==false) {}
+    if (ButtonPressed(BTN_UP))  {objectInBoat--;}
+    until (ButtonPressed(BTN_UP)==false)  {}
+    if (ButtonPressed(BTN_DOWN)) {objectInBoat++;}
+    until (ButtonPressed(BTN_DOWN)==false) {}
     if (objectInBoat<0) {objectInBoat=2;}
     if (objectInBoat>2) {objectInBoat=0;}
-    if (ButtonPressed(BTNCENTER)) // or allow to move
+    if (ButtonPressed(BTN_ACROSSL)&&objectStatus[boat]==left
+      ||ButtonPressed(BTN_ACROSSR)&&objectStatus[boat]==right) // or allow to move
       {
       if (objectStatus[boat]==objectStatus[objectInBoat])
         {objectStatus[objectInBoat]=moving;}
@@ -235,19 +247,19 @@ int checkGame()
     {
     TextOut(20,LCD_LINE4," Success! ",0);
     TextOut(20,LCD_LINE4,"You Pwned!",0);
-    Wait(1000);
+    Wait(3000);
     }
   else if (returngame==2)
     {
     TextOut(10,LCD_LINE4,"   Failure!   ",0);
     TextOut(10,LCD_LINE5,"Fox ate Goose!",0);
-    Wait(1000);
+    Wait(3000);
     }
   else if (returngame==3)
     {
     TextOut(5,LCD_LINE4,"    Failure!    ",0);
     TextOut(5,LCD_LINE5,"Goose ate Beans!",0);
-    Wait(1000);
+    Wait(3000);
     }
   return (returngame==1);
   }
