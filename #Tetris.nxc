@@ -6,10 +6,11 @@
 #include "+Button+-.nxc"
 #include "+Highscore.nxc"
 #download "PropTiny.ric"
+#download "RotatedNumbers.ric"
 //Dimensions / Graphics
 #define b       4
 #define width   10
-#define height  25
+#define height  20 //change back to 25!
 #define TX      35
 //Timing
 #define waitMove    100
@@ -64,6 +65,8 @@ int prevR;
 int currentPiece;
 int comingPiece;
 int score;
+int tetX;
+int tetY;
 bool moveL;
 bool moveR;
 bool rotate;
@@ -71,14 +74,14 @@ bool drop;
 bool prevQuadClear;
 
 
-bool area[width][height];
+bool area[width][height+1];
 int chnc[8];
 
 
 /*               SUBROUTINES              */
 void selectGame()
   {
-  accesshigh="Snake";
+  accesshigh="Tetris";
   while (ButtonPressed(BTNRIGHT)==false)
     {
     gamespeed=senseButton(gamespeed,false,1,2,false);
@@ -269,15 +272,23 @@ bool clearFullRows()
   {
   int blocksInRow=0;
   int killNum=0;
-  for (int i=0; i<height; i++)
+  int i,j,k;
+  for (i=0; i<height; i++)
     {
-    for (int j=0; j<width; j++)
+    for (j=0; j<width; j++)         //add up blocks in row
       {
-      blocksInRow+=(area[j][i]); //switch i & j???
+      blocksInRow+=(area[j][i]);    //switch i & j???
       }
-    if (blocksInRow==width)
+    if (blocksInRow==width)         //if the row is full
       {
-      //destroy it & move higher rows down
+      for (k=i; k<height; k++)      //move higher rows down
+        {
+        for (j=0; j<width; j++)
+          {
+          area[j][k]=area[j][k+1];   //switch k & j???
+          }
+        }
+      i--; //redo row if it gets destroyed
       killNum++;
       }
     }
@@ -297,34 +308,25 @@ bool clearFullRows()
 void redraw()
   {
   string scoreString;
-  string tempStr;
+  //string tempStr;
   string tempOut;
-  for (int i=0; i<height; i++)
+  int i;
+  int j;
+  int tempInt;
+  for (i=0; i<height; i++)
     {
-    for (int j=0; j<width; j++)
+    for (j=0; j<width; j++)
       {
       RectOut(i*b,j*b,b,b,( (area[j][i]*28) +4));
       }
     }
   scoreString=NumToStr(score);
-  msg=scoreString;
   for (int i=0; i<StrLen(scoreString); i++)
     {
-    tempStr=SubStr(scoreString,i,1);
-    /*if      (tempStr=="0") tempOut="{}"; //BAD?
-    else if (tempStr=="1") tempOut="--";
-    else if (tempStr=="2") tempOut="L/"; //BAD
-    else if (tempStr=="3") tempOut="UU";
-    else if (tempStr=="4") tempOut="_[";
-    else if (tempStr=="5") tempOut="u7";  //BAD
-    else if (tempStr=="6") tempOut="O\\"; //GOOD
-    else if (tempStr=="7") tempOut="\\|";
-    else if (tempStr=="8") tempOut="OO";
-    else if (tempStr=="9") tempOut="_O";*/
-    FontTextOut(86,54-i*10,"PropTiny.ric",tempOut,DRAW_OPT_FONT_DIR_T2BR);
-    msg=StrCat(msg,tempOut);
+    tempInt=StrToNum(SubStr(scoreString,i,1));
+    GraphicOutEx(90,i*5,"RotatedNumbers.ric",tempInt,0);
     }
-  SendResponseString(MAILBOX10,msg);
+  SendResponseString(MAILBOX10,scoreString);
   }
 
 
@@ -343,12 +345,25 @@ task main()
   playagain=true;
   while (playagain)
     {
-    selectGame();
+    //selectGame();
+      //*
+      //No more of that slow stupid intro!!! Debugging time!
+      speedup=0.9;
+      delaytime=400;
+      accesshigh="TetrisFastGive.dat";
+      chnc[Itet]=2;
+      chnc[Jtet]=1;
+      chnc[Ltet]=1;
+      chnc[Otet]=2;
+      chnc[Stet]=0;
+      chnc[Ttet]=1;
+      chnc[Ztet]=0;
+      chnc[prob]=7;
+      //*/
     prevQuadClear=false;
     prevC=0;
     prevE=0;
     score=Random(8999)+1000;//score=0;
-
     currentPiece=-1;
     alive=true;
     while (alive)
@@ -377,4 +392,26 @@ task main()
   
   
   
+  /*
   
+  //Place at the end of redraw()
+  
+  msg=scoreString;
+  for (int i=0; i<StrLen(scoreString); i++)
+    {
+    tempStr=SubStr(scoreString,i,1);
+    /*if      (tempStr=="0") tempOut="0";
+    else if (tempStr=="1") tempOut="-";
+    else if (tempStr=="2") tempOut="µ";
+    else if (tempStr=="3") tempOut="w";
+    else if (tempStr=="4") tempOut="I";
+    else if (tempStr=="5") tempOut="N";
+    else if (tempStr=="6") tempOut="6";
+    else if (tempStr=="7") tempOut="7";
+    else if (tempStr=="8") tempOut="8";
+    else if (tempStr=="9") tempOut="9";
+    //FontTextOut(86,54-i*10,"PropTiny.ric",tempOut,DRAW_OPT_FONT_DIR_T2BR);
+    //TextOut(86,56,tempOut,0);
+
+    msg=StrCat(msg,tempOut);
+    }*/
