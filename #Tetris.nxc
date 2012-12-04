@@ -55,6 +55,7 @@ const int Z[8]=
 string msg;
 string accesshigh;
 float speedup;
+long score;
 int gametype;
 int gamespeed;
 int delaytime;
@@ -64,7 +65,6 @@ int prevL;
 int prevR;
 int currentPiece;
 int comingPiece;
-int score;
 int tetX;
 int tetY;
 bool moveL;
@@ -327,6 +327,8 @@ void redraw()
     GraphicOutEx(90,i*5,"RotatedNumbers.ric",tempInt,0);
     }
   SendResponseString(MAILBOX10,scoreString);
+  Wait(60);
+  SendResponseNumber(MAILBOX10,score);
   }
 
 

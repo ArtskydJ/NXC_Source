@@ -1,527 +1,529 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_003clearFullRows	6	1	0	4	2
+0	__constVal32768	6	0	0	4	3
 1	__signed_stack_004clearFullRows	6	1	4	4	4
-2	__constVal32768	6	0	8	4	3
-3	__signed_stack_002clearFullRows	6	1	12	4	4
-4	__MWMutex	9	0	16	4	2
-5	__signed_stack_001main	6	1	20	4	27
-6	__constVal65536	6	0	24	4	3
-7	__signed_stack_001getInput	6	1	28	4	24
-8	__signed_stack_001clearFullRows	6	1	32	4	25
-9	__D0main	6	1	36	4	58
-10	__D0getInput	6	1	40	4	52
-11	__D0pieceCreate	6	1	44	4	16
-12	__DU0main	5	1	48	4	7
-13	__D0redraw	6	1	52	4	35
-14	__constVal786433	6	0	56	4	2
-15	__DU0clearFullRows	5	1	60	4	8
-16	__D0clearFullRows	6	1	64	4	54
-17	__signed_stack_003redraw	6	1	68	4	2
-18	__signed_stack_004redraw	6	1	72	4	2
-19	__signed_stack_002redraw	6	1	76	4	8
-20	__RectOutMutex	9	0	80	4	2
-21	__unsigned_stack_005redraw	5	1	84	4	2
-22	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	88	4	2
-23	__signed_stack_005redraw	6	1	92	4	4
-24	__signed_stack_006redraw	6	1	96	4	2
-25	__signed_stack_001redraw	6	1	100	4	15
-26	__IOMWMutex	9	0	104	4	4
-27	__signed_stack_001pieceCreate	6	1	108	4	8
-28	__signed_stack_002main	6	1	112	4	4
-29	__signed_stack_003main	6	1	116	4	2
-30	__RBtnMutex	9	0	120	4	8
-31	__RandomTmp	5	1	124	4	18
-32	__signed_stack_002pieceCreate	6	1	128	4	2
-33	__RandomMutex	9	0	132	4	6
-34	delaytime	4	1	136	2	2
-35	__redraw_7qG2_i_7qG2_000	4	1	138	2	6
-36	__redraw_7qG2_j_7qG2_000	4	1	140	2	6
-37	__clearFullRows_7qG2_k_7qG2_000	4	1	142	2	6
-38	__clearFullRows_7qG2_i_7qG2_000	4	1	144	2	8
-39	__clearFullRows_7qG2_j_7qG2_000	4	1	146	2	11
-40	__main_7qG2_j_7qG2_003	4	1	148	2	5
-41	__main_7qG2_i_7qG2_004	4	1	150	2	4
-42	__main_7qG2_i_7qG2_001	4	1	152	2	5
-43	__redraw_7qG2_tempInt_7qG2_000	4	1	154	2	2
-44	__redraw_7qG2_i_7qG2_001	4	1	156	2	6
-45	__clearFullRows_7qG2_killNum_7qG2_000	4	1	158	2	8
-46	prevR	4	1	160	2	5
-47	currentPiece	4	1	162	2	2
-48	prevL	4	1	164	2	5
-49	prevC	4	1	166	2	6
-50	prevE	4	1	168	2	6
-51	__pieceCreate_7qG2_i_7qG2_001	4	1	170	2	6
-52	__clearFullRows_7qG2_blocksInRow_7qG2_000	4	1	172	2	4
-53	__pieceCreate_7qG2_pieceToCreate_7qG2_000	4	1	174	2	4
-54	score	4	1	176	2	12
-55	__pieceCreate_7qG2_rndm_7qG2_000	4	1	178	2	2
-56	__constVal107	2	0	180	1	1
-57	__constVal108	2	0	181	1	1
-58	__constVal106	2	0	182	1	1
-59	__constVal104	2	0	183	1	1
-60	__constVal105	2	0	184	1	1
-61	__constVal112	2	0	185	1	1
-62	__constVal113	2	0	186	1	1
-63	__constVal111	2	0	187	1	1
-64	__constVal109	2	0	188	1	1
-65	__constVal110	2	0	189	1	1
-66	__constVal103	2	0	190	1	1
-67	__constVal1	2	0	191	1	43
-68	__constVal32	2	0	192	1	1
-69	__constValNeg1	2	0	193	1	1
-70	__constVal3	2	0	194	1	1
-71	__constVal0	2	1	195	1	29
-72	__constVal101	2	0	196	1	1
-73	__constVal102	2	0	197	1	1
-74	__constVal99	2	0	198	1	1
-75	__constVal97	2	0	199	1	1
-76	__constVal98	2	0	200	1	1
-77	__constVal114	2	0	201	1	1
-78	__constVal52	2	0	202	1	1
-79	__constVal53	2	0	203	1	1
-80	__constVal51	2	0	204	1	1
-81	__constVal48	2	0	205	1	1
-82	__constVal49	2	0	206	1	1
-83	__constVal57	2	0	207	1	1
-84	__constVal21	2	0	208	1	1
-85	__constVal56	2	0	209	1	1
-86	__constVal54	2	0	210	1	1
-87	__constVal55	2	0	211	1	1
-88	__constVal63	2	0	212	1	1
-89	__constVal118	2	0	213	1	1
-90	__constVal119	2	0	214	1	1
-91	__constVal117	2	0	215	1	1
-92	__constVal115	2	0	216	1	1
-93	__constVal116	2	0	217	1	1
-94	__constVal44	2	0	218	1	1
-95	__constVal46	2	0	219	1	1
-96	__constVal122	2	0	220	1	1
-97	__constVal120	2	0	221	1	1
-98	__constVal121	2	0	222	1	1
-99	__constVal100	2	0	223	1	1
-100	__constVal8	2	0	224	1	1
-101	__clearFullRows_return	1	1	225	1	4
-102	__redraw_return	1	1	226	1	3
-103	__constVal10	2	0	227	1	2
-104	__constVal50	2	0	228	1	1
-105	__constVal9	2	0	229	1	1
-106	__constVal40	2	0	230	1	2
-107	prevQuadClear	1	1	231	1	8
-108	__pieceCreate_return	1	1	232	1	3
-109	__getInput_return	1	1	233	1	3
-110	____initialize_global_data_return	1	1	234	1	3
-111	__constVal4	2	0	235	1	1
-112	__main_7qG2_playagain_7qG2_000	1	1	236	1	2
-113	__main_7qG2_piecemoving_7qG2_000	1	1	237	1	2
-114	__main_7qG2_alive_7qG2_000	1	1	238	1	2
-115	__constVal2	2	0	239	1	8
-116	__IOMWBIArgs	8	0	4	16	8
-117	__IOMWBIArgs.Result	2	1	240	1	8
-118	__IOMWBIArgs.ModuleID	5	1	244	4	8
-119	__IOMWBIArgs.Offset	3	1	248	2	8
-120	__IOMWBIArgs.Buffer	7	0	250	4	8
-121	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
-122	__RandomArgs	8	0	1	4	6
-123	__RandomArgs.Result	4	1	252	2	6
-124	__RBtnArgs	8	0	5	8	16
-125	__RBtnArgs.Result	2	1	256	1	16
-126	__RBtnArgs.Index	1	1	257	1	16
-127	__RBtnArgs.Pressed	1	1	258	1	16
-128	__RBtnArgs.Count	1	1	259	1	16
-129	__RBtnArgs.Reset	1	1	260	1	16
-130	__GraphicOutArgs	8	0	5	20	7
-131	__GraphicOutArgs.Result	2	1	264	1	7
-132	__GraphicOutArgs.Location	8	0	2	4	7
-133	__GraphicOutArgs.Location.X	4	1	268	2	7
-134	__GraphicOutArgs.Location.Y	4	1	270	2	7
-135	__GraphicOutArgs.Filename	7	0	272	4	7
-136	__GraphicOutArgs.Filename.Filename_type	1	0	0	1	0
-137	__GraphicOutArgs.Variables	7	0	274	4	7
-138	__GraphicOutArgs.Variables.Variables_type	6	0	0	4	0
-139	__GraphicOutArgs.Options	5	1	276	4	7
-140	__MWArgs	8	0	3	8	4
-141	__MWArgs.Result	2	1	280	1	4
-142	__MWArgs.QueueID	1	1	281	1	4
-143	__MWArgs.Message	7	0	282	4	4
-144	__MWArgs.Message.Message_type	1	0	0	1	0
-145	__RectOutArgs	8	0	4	16	7
-146	__RectOutArgs.Result	2	1	284	1	7
-147	__RectOutArgs.Location	8	0	2	4	7
-148	__RectOutArgs.Location.X	4	1	288	2	7
-149	__RectOutArgs.Location.Y	4	1	290	2	7
-150	__RectOutArgs.Size	8	0	2	4	7
-151	__RectOutArgs.Size.Width	4	1	292	2	7
-152	__RectOutArgs.Size.Height	4	1	294	2	7
-153	__RectOutArgs.Options	5	1	296	4	7
-154	O	7	0	300	4	1
-155	O.O_type	4	0	0	2	0
-156	L	7	0	302	4	1
-157	L.L_type	4	0	0	2	0
-158	Z	7	0	304	4	1
-159	Z.Z_type	4	0	0	2	0
-160	T	7	0	306	4	1
-161	T.T_type	4	0	0	2	0
-162	S	7	0	308	4	1
-163	S.S_type	4	0	0	2	0
-164	J	7	0	310	4	1
-165	J.J_type	4	0	0	2	0
-166	__area_2	7	0	312	4	2
-167	__area_2.__area_2_type	1	0	0	1	0
-168	__strretvalredraw	7	0	314	4	4
-169	__strretvalredraw.__strretvalredraw_type	1	0	0	1	0
-170	__redraw_7qG2_scoreString_7qG2_000	7	0	316	4	4
+2	__signed_stack_002clearFullRows	6	1	8	4	4
+3	__signed_stack_003clearFullRows	6	1	12	4	2
+4	__signed_stack_001getInput	6	1	16	4	24
+5	__SRNTmpVal	6	1	20	4	2
+6	__signed_stack_002main	6	1	24	4	4
+7	__constVal65536	6	0	28	4	3
+8	__signed_stack_001main	6	1	32	4	27
+9	__DU0main	5	1	36	4	7
+10	__D0main	6	1	40	4	58
+11	__D0redraw	6	1	44	4	36
+12	__D0pieceCreate	6	1	48	4	16
+13	__D0getInput	6	1	52	4	52
+14	score	6	1	56	4	13
+15	__signed_stack_001clearFullRows	6	1	60	4	25
+16	__DU0clearFullRows	5	1	64	4	8
+17	__D0clearFullRows	6	1	68	4	54
+18	__MWMutex	9	0	72	4	4
+19	__RectOutMutex	9	0	76	4	2
+20	__signed_stack_005redraw	6	1	80	4	4
+21	__signed_stack_003redraw	6	1	84	4	2
+22	__signed_stack_004redraw	6	1	88	4	2
+23	__Wait_7qG2_ms_7qG2_000_inline_redraw	5	1	92	4	2
+24	__constVal786433	6	0	96	4	2
+25	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	100	4	2
+26	__signed_stack_006redraw	6	1	104	4	2
+27	__unsigned_stack_005redraw	5	1	108	4	2
+28	__signed_stack_002pieceCreate	6	1	112	4	2
+29	__IOMWMutex	9	0	116	4	4
+30	__signed_stack_003main	6	1	120	4	2
+31	__signed_stack_001pieceCreate	6	1	124	4	8
+32	__signed_stack_001redraw	6	1	128	4	15
+33	__RandomTmp	5	1	132	4	18
+34	__signed_stack_002redraw	6	1	136	4	8
+35	__RBtnMutex	9	0	140	4	8
+36	__RandomMutex	9	0	144	4	6
+37	delaytime	4	1	148	2	2
+38	__redraw_7qG2_i_7qG2_000	4	1	150	2	6
+39	__redraw_7qG2_j_7qG2_000	4	1	152	2	6
+40	__clearFullRows_7qG2_k_7qG2_000	4	1	154	2	6
+41	__clearFullRows_7qG2_i_7qG2_000	4	1	156	2	8
+42	__clearFullRows_7qG2_j_7qG2_000	4	1	158	2	11
+43	__main_7qG2_j_7qG2_003	4	1	160	2	5
+44	__main_7qG2_i_7qG2_004	4	1	162	2	4
+45	__main_7qG2_i_7qG2_001	4	1	164	2	5
+46	__redraw_7qG2_tempInt_7qG2_000	4	1	166	2	2
+47	__redraw_7qG2_i_7qG2_001	4	1	168	2	6
+48	prevR	4	1	170	2	5
+49	currentPiece	4	1	172	2	2
+50	prevL	4	1	174	2	5
+51	prevC	4	1	176	2	6
+52	prevE	4	1	178	2	6
+53	__clearFullRows_7qG2_blocksInRow_7qG2_000	4	1	180	2	4
+54	__clearFullRows_7qG2_killNum_7qG2_000	4	1	182	2	8
+55	__pieceCreate_7qG2_i_7qG2_001	4	1	184	2	6
+56	__pieceCreate_7qG2_rndm_7qG2_000	4	1	186	2	2
+57	__pieceCreate_7qG2_pieceToCreate_7qG2_000	4	1	188	2	4
+58	__constVal107	2	0	190	1	1
+59	__constVal108	2	0	191	1	1
+60	__constVal106	2	0	192	1	1
+61	__constVal104	2	0	193	1	1
+62	__constVal105	2	0	194	1	1
+63	__constVal112	2	0	195	1	1
+64	__constVal113	2	0	196	1	1
+65	__constVal111	2	0	197	1	1
+66	__constVal109	2	0	198	1	1
+67	__constVal110	2	0	199	1	1
+68	__constVal103	2	0	200	1	1
+69	__constVal1	2	0	201	1	43
+70	__constVal32	2	0	202	1	1
+71	__constValNeg1	2	0	203	1	1
+72	__constVal3	2	0	204	1	1
+73	__constVal0	2	1	205	1	29
+74	__constVal101	2	0	206	1	1
+75	__constVal102	2	0	207	1	1
+76	__constVal99	2	0	208	1	1
+77	__constVal97	2	0	209	1	1
+78	__constVal98	2	0	210	1	1
+79	__constVal114	2	0	211	1	1
+80	__constVal52	2	0	212	1	1
+81	__constVal53	2	0	213	1	1
+82	__constVal51	2	0	214	1	1
+83	__constVal48	2	0	215	1	1
+84	__constVal49	2	0	216	1	1
+85	__constVal57	2	0	217	1	1
+86	__constVal21	2	0	218	1	1
+87	__constVal56	2	0	219	1	1
+88	__constVal54	2	0	220	1	1
+89	__constVal55	2	0	221	1	1
+90	__constVal63	2	0	222	1	1
+91	__constVal118	2	0	223	1	1
+92	__constVal119	2	0	224	1	1
+93	__constVal117	2	0	225	1	1
+94	__constVal115	2	0	226	1	1
+95	__constVal116	2	0	227	1	1
+96	__constVal44	2	0	228	1	1
+97	__constVal46	2	0	229	1	1
+98	__constVal122	2	0	230	1	1
+99	__constVal120	2	0	231	1	1
+100	__constVal121	2	0	232	1	1
+101	__constVal100	2	0	233	1	1
+102	__constVal8	2	0	234	1	1
+103	__clearFullRows_return	1	1	235	1	4
+104	__redraw_return	1	1	236	1	3
+105	__constVal10	2	0	237	1	3
+106	__constVal50	2	0	238	1	1
+107	prevQuadClear	1	1	239	1	8
+108	__constVal40	2	0	240	1	2
+109	__getInput_return	1	1	241	1	3
+110	__constVal9	2	0	242	1	2
+111	__pieceCreate_return	1	1	243	1	3
+112	____initialize_global_data_return	1	1	244	1	3
+113	__constVal4	2	0	245	1	1
+114	__main_7qG2_playagain_7qG2_000	1	1	246	1	2
+115	__main_7qG2_piecemoving_7qG2_000	1	1	247	1	2
+116	__main_7qG2_alive_7qG2_000	1	1	248	1	2
+117	__constVal2	2	0	249	1	8
+118	__RandomArgs	8	0	1	4	6
+119	__RandomArgs.Result	4	1	252	2	6
+120	__IOMWBIArgs	8	0	4	16	8
+121	__IOMWBIArgs.Result	2	1	256	1	8
+122	__IOMWBIArgs.ModuleID	5	1	260	4	8
+123	__IOMWBIArgs.Offset	3	1	264	2	8
+124	__IOMWBIArgs.Buffer	7	0	266	4	8
+125	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+126	__RBtnArgs	8	0	5	8	16
+127	__RBtnArgs.Result	2	1	268	1	16
+128	__RBtnArgs.Index	1	1	269	1	16
+129	__RBtnArgs.Pressed	1	1	270	1	16
+130	__RBtnArgs.Count	1	1	271	1	16
+131	__RBtnArgs.Reset	1	1	272	1	16
+132	__MWArgs	8	0	3	8	8
+133	__MWArgs.Result	2	1	276	1	8
+134	__MWArgs.QueueID	1	1	277	1	8
+135	__MWArgs.Message	7	0	278	4	8
+136	__MWArgs.Message.Message_type	1	0	0	1	0
+137	__GraphicOutArgs	8	0	5	20	7
+138	__GraphicOutArgs.Result	2	1	280	1	7
+139	__GraphicOutArgs.Location	8	0	2	4	7
+140	__GraphicOutArgs.Location.X	4	1	284	2	7
+141	__GraphicOutArgs.Location.Y	4	1	286	2	7
+142	__GraphicOutArgs.Filename	7	0	288	4	7
+143	__GraphicOutArgs.Filename.Filename_type	1	0	0	1	0
+144	__GraphicOutArgs.Variables	7	0	290	4	7
+145	__GraphicOutArgs.Variables.Variables_type	6	0	0	4	0
+146	__GraphicOutArgs.Options	5	1	292	4	7
+147	__RectOutArgs	8	0	4	16	7
+148	__RectOutArgs.Result	2	1	296	1	7
+149	__RectOutArgs.Location	8	0	2	4	7
+150	__RectOutArgs.Location.X	4	1	300	2	7
+151	__RectOutArgs.Location.Y	4	1	302	2	7
+152	__RectOutArgs.Size	8	0	2	4	7
+153	__RectOutArgs.Size.Width	4	1	304	2	7
+154	__RectOutArgs.Size.Height	4	1	306	2	7
+155	__RectOutArgs.Options	5	1	308	4	7
+156	S	7	0	312	4	1
+157	S.S_type	4	0	0	2	0
+158	O	7	0	314	4	1
+159	O.O_type	4	0	0	2	0
+160	__strretvalredraw	7	0	316	4	4
+161	__strretvalredraw.__strretvalredraw_type	1	0	0	1	0
+162	Z	7	0	318	4	1
+163	Z.Z_type	4	0	0	2	0
+164	T	7	0	320	4	1
+165	T.T_type	4	0	0	2	0
+166	L	7	0	322	4	1
+167	L.L_type	4	0	0	2	0
+168	__area_2	7	0	324	4	2
+169	__area_2.__area_2_type	1	0	0	1	0
+170	__redraw_7qG2_scoreString_7qG2_000	7	0	326	4	4
 171	__redraw_7qG2_scoreString_7qG2_000.__redraw_7qG2_scoreString_7qG2_000_type	1	0	0	1	0
-172	I	7	0	318	4	1
-173	I.I_type	4	0	0	2	0
-174	layout	7	0	320	4	1
-175	layout.layout_type	1	0	0	1	0
-176	area	7	0	322	4	10
-177	area.area_type	7	0	0	4	0
-178	area.area_type.area_type_type	1	0	0	1	0
-179	__constStr0052	7	0	324	4	1
-180	__constStr0052.__constStr0052_type	1	1	0	1	0
-181	chnc	7	0	326	4	19
-182	chnc.chnc_type	4	0	0	2	0
-183	__constStr0051	7	0	328	4	1
-184	__constStr0051.__constStr0051_type	1	1	0	1	0
-185	__IOMWFlattenBuf	7	0	330	4	4
-186	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
-187	__ArrHelper__clearFullRows_244_0	7	0	332	4	6
-188	__ArrHelper__clearFullRows_244_0.__ArrHelper__clearFullRows_244_0_type	1	0	0	1	0
-189	__strbufmain	7	0	334	4	1
-190	__strbufmain.__strbufmain_type	1	0	0	1	0
-191	__strbufredraw	7	0	336	4	10
-192	__strbufredraw.__strbufredraw_type	1	0	0	1	0
-193	__ArrHelper__main_244_0	7	0	338	4	4
-194	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
-195	__ArrHelper__clearFullRows_244_1	7	0	340	4	2
-196	__ArrHelper__clearFullRows_244_1.__ArrHelper__clearFullRows_244_1_type	1	0	0	1	0
-197	__ArrHelper__redraw_244_0	7	0	342	4	4
-198	__ArrHelper__redraw_244_0.__ArrHelper__redraw_244_0_type	1	0	0	1	0
+172	layout	7	0	328	4	1
+173	layout.layout_type	1	0	0	1	0
+174	J	7	0	330	4	1
+175	J.J_type	4	0	0	2	0
+176	I	7	0	332	4	1
+177	I.I_type	4	0	0	2	0
+178	chnc	7	0	334	4	19
+179	chnc.chnc_type	4	0	0	2	0
+180	area	7	0	336	4	10
+181	area.area_type	7	0	0	4	0
+182	area.area_type.area_type_type	1	0	0	1	0
+183	__constStr0052	7	0	338	4	1
+184	__constStr0052.__constStr0052_type	1	1	0	1	0
+185	__constStr0051	7	0	340	4	1
+186	__constStr0051.__constStr0051_type	1	1	0	1	0
+187	__IOMWFlattenBuf	7	0	342	4	4
+188	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+189	__ArrHelper__clearFullRows_244_0	7	0	344	4	6
+190	__ArrHelper__clearFullRows_244_0.__ArrHelper__clearFullRows_244_0_type	1	0	0	1	0
+191	__strbufmain	7	0	346	4	1
+192	__strbufmain.__strbufmain_type	1	0	0	1	0
+193	__strbufredraw	7	0	348	4	10
+194	__strbufredraw.__strbufredraw_type	1	0	0	1	0
+195	__ArrHelper__main_244_0	7	0	350	4	4
+196	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+197	__ArrHelper__clearFullRows_244_1	7	0	352	4	2
+198	__ArrHelper__clearFullRows_244_1.__ArrHelper__clearFullRows_244_1_type	1	0	0	1	0
+199	__ArrHelper__redraw_244_0	7	0	354	4	4
+200	__ArrHelper__redraw_244_0.__ArrHelper__redraw_244_0_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	335	0	#line 335 "C:\Github\NXC_Source\#Tetris.nxc"
-0	336	0	#pragma macro 7
-0	335	0	#line 335 "C:\Github\NXC_Source\#Tetris.nxc"
-0	335	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	335	2	#line 335 "C:\Github\NXC_Source\#Tetris.nxc"
-0	336	2	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	336	2		set __D0main, 1
-0	337	5	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	5		tst 5, __D0main, __D0main
-0	337	8	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	8		brtst 4, __ASM_Label_1774, __D0main
-0	337	11	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	11	#pragma macro 8
-0	338	11		acquire __IOMWMutex
-0	338	12		mov __IOMWBIArgs.ModuleID, __constVal786433
-0	338	14		mov __IOMWBIArgs.Offset, __constVal40
-0	338	16		flatten __IOMWFlattenBuf, __constVal4
-0	338	19		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-0	338	22		syscall 79, __IOMWBIArgs
-0	338	25		release __IOMWMutex
-0	13946	26	#line 13946 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	26	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	26	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	26		jmp __ASM_Label_1775
-0	339	28	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	28	#pragma macro 8
-0	340	28		acquire __IOMWMutex
-0	340	29		mov __IOMWBIArgs.ModuleID, __constVal786433
-0	340	31		mov __IOMWBIArgs.Offset, __constVal40
-0	340	33		flatten __IOMWFlattenBuf, __constVal1
-0	340	36		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-0	340	39		syscall 79, __IOMWBIArgs
-0	340	42		release __IOMWMutex
-0	13952	43	#line 13952 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	43	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	43	#line 341 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	0	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
+0	338	0	#pragma macro 7
+0	337	0	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	337	2	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
+0	338	2	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	338	2		set __D0main, 1
+0	339	5	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	5		tst 5, __D0main, __D0main
+0	339	8	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	8		brtst 4, __ASM_Label_1776, __D0main
+0	339	11	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	11	#pragma macro 8
+0	340	11		acquire __IOMWMutex
+0	340	12		mov __IOMWBIArgs.ModuleID, __constVal786433
+0	340	14		mov __IOMWBIArgs.Offset, __constVal40
+0	340	16		flatten __IOMWFlattenBuf, __constVal4
+0	340	19		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	340	22		syscall 79, __IOMWBIArgs
+0	340	25		release __IOMWMutex
+0	14040	26	#line 14040 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	26	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	26	#line 341 "C:\Github\NXC_Source\#Tetris.nxc"
+0	342	26		jmp __ASM_Label_1777
+0	341	28	#line 341 "C:\Github\NXC_Source\#Tetris.nxc"
+0	342	28	#pragma macro 8
+0	342	28		acquire __IOMWMutex
+0	342	29		mov __IOMWBIArgs.ModuleID, __constVal786433
+0	342	31		mov __IOMWBIArgs.Offset, __constVal40
+0	342	33		flatten __IOMWFlattenBuf, __constVal1
+0	342	36		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	342	39		syscall 79, __IOMWBIArgs
+0	342	42		release __IOMWMutex
+0	14046	43	#line 14046 "C:\Github\NXC_Source\#Tetris.nxc"
 0	342	43	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
-0	343	43		set __D0main, 0
-0	334	46	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	334	46	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	334	46	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	335	46		tst 5, __D0main, __D0main
-0	334	49	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	335	49		brtst 4, __ASM_Label_1771, __D0main
-0	334	52	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	335	52		jmp __ASM_Label_1770
-0	334	54	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	334	54	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
-0	335	54	#line 335 "C:\Github\NXC_Source\#Tetris.nxc"
-0	335	54	#line 335 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	43	#line 343 "C:\Github\NXC_Source\#Tetris.nxc"
+0	344	43	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
+0	345	43		set __D0main, 0
+0	336	46	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
+0	336	46	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
+0	336	46	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	46		tst 5, __D0main, __D0main
+0	336	49	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	49		brtst 4, __ASM_Label_1773, __D0main
+0	336	52	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	52		jmp __ASM_Label_1772
 0	336	54	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	337	54		set __main_7qG2_i_7qG2_001, 0
-0	336	57	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	336	57	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	337	57		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
-0	336	59	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	336	59	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	337	59		set __D0main, 20
-0	336	62	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	337	62		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	336	66	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	337	66		brtst 4, __ASM_Label_1779, __D0main
-0	336	69	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
-0	337	69		jmp __ASM_Label_1780
-0	337	71	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	71		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
-0	338	75	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	75		jmp __ASM_Label_1778
-0	338	77	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	77		set __main_7qG2_j_7qG2_003, 0
-0	338	80	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	80	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	80		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
-0	338	82	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	338	82	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	82		set __D0main, 10
-0	338	85	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	85		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	338	89	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	89		brtst 4, __ASM_Label_1787, __D0main
-0	338	92	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
-0	339	92		jmp __ASM_Label_1788
-0	339	94	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	94		add __main_7qG2_j_7qG2_003, __main_7qG2_j_7qG2_003, __constVal1
-0	340	98	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	98		jmp __ASM_Label_1786
-0	340	100	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	100		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
-0	340	102	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	102	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	102		index __ArrHelper__main_244_0, area, __signed_stack_001main
-0	340	106	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	106		mov __signed_stack_002main, __main_7qG2_i_7qG2_001
-0	340	108	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	108	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	108		set __D0main, 3
-0	340	111	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	111	#pragma macro 7
-0	341	111		acquire __RandomMutex
-0	341	112		syscall 24, __RandomArgs
-0	341	115		add __RandomTmp, __RandomArgs.Result, __constVal32768
-0	341	119		mul __RandomTmp, __RandomTmp, __D0main
-0	341	123		div __RandomTmp, __RandomTmp, __constVal65536
-0	341	127		mov __D0main, __RandomTmp
-0	341	129		release __RandomMutex
-0	14065	130	#line 14065 "C:\Github\NXC_Source\#Tetris.nxc"
-0	340	130	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	130		mov __signed_stack_003main, __D0main
-0	340	132	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	132		set __D0main, 2
-0	340	135	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	135		mod __D0main, __signed_stack_003main, __D0main
-0	340	139	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	139		replace __ArrHelper__main_244_0, __ArrHelper__main_244_0, __signed_stack_002main, __D0main
-0	340	144	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	341	144		replace area, area, __signed_stack_001main, __ArrHelper__main_244_0
-0	340	149	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
-0	344	149	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
-0	345	149		jmp __ASM_Label_1789
-0	344	151	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
-0	344	151	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
-0	345	151		jmp __ASM_Label_1781
-0	344	153	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
-0	344	153	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
-0	345	153		set __main_7qG2_playagain_7qG2_000, 1
-0	344	156	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
-0	344	156	#line 344 "C:\Github\NXC_Source\#Tetris.nxc"
+0	336	54	#line 336 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	54	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
+0	337	54	#line 337 "C:\Github\NXC_Source\#Tetris.nxc"
+0	338	54	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	339	54		set __main_7qG2_i_7qG2_001, 0
+0	338	57	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	338	57	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	339	57		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	338	59	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	338	59	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	339	59		set __D0main, 20
+0	338	62	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	339	62		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	338	66	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	339	66		brtst 4, __ASM_Label_1781, __D0main
+0	338	69	#line 338 "C:\Github\NXC_Source\#Tetris.nxc"
+0	339	69		jmp __ASM_Label_1782
+0	339	71	#line 339 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	71		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
+0	340	75	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	75		jmp __ASM_Label_1780
+0	340	77	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	77		set __main_7qG2_j_7qG2_003, 0
+0	340	80	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	80	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	80		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	340	82	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	340	82	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	82		set __D0main, 10
+0	340	85	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	85		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	340	89	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	89		brtst 4, __ASM_Label_1789, __D0main
+0	340	92	#line 340 "C:\Github\NXC_Source\#Tetris.nxc"
+0	341	92		jmp __ASM_Label_1790
+0	341	94	#line 341 "C:\Github\NXC_Source\#Tetris.nxc"
+0	342	94		add __main_7qG2_j_7qG2_003, __main_7qG2_j_7qG2_003, __constVal1
+0	342	98	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	98		jmp __ASM_Label_1788
+0	342	100	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	100		mov __signed_stack_001main, __main_7qG2_j_7qG2_003
+0	342	102	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	342	102	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	102		index __ArrHelper__main_244_0, area, __signed_stack_001main
+0	342	106	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	106		mov __signed_stack_002main, __main_7qG2_i_7qG2_001
+0	342	108	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	342	108	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	108		set __D0main, 3
+0	342	111	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	111	#pragma macro 7
+0	343	111		acquire __RandomMutex
+0	343	112		syscall 24, __RandomArgs
+0	343	115		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	343	119		mul __RandomTmp, __RandomTmp, __D0main
+0	343	123		div __RandomTmp, __RandomTmp, __constVal65536
+0	343	127		mov __D0main, __RandomTmp
+0	343	129		release __RandomMutex
+0	14159	130	#line 14159 "C:\Github\NXC_Source\#Tetris.nxc"
+0	342	130	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	130		mov __signed_stack_003main, __D0main
+0	342	132	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	132		set __D0main, 2
+0	342	135	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	135		mod __D0main, __signed_stack_003main, __D0main
+0	342	139	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	139		replace __ArrHelper__main_244_0, __ArrHelper__main_244_0, __signed_stack_002main, __D0main
+0	342	144	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	343	144		replace area, area, __signed_stack_001main, __ArrHelper__main_244_0
+0	342	149	#line 342 "C:\Github\NXC_Source\#Tetris.nxc"
+0	346	149	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
+0	347	149		jmp __ASM_Label_1791
+0	346	151	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
+0	346	151	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
+0	347	151		jmp __ASM_Label_1783
+0	346	153	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
+0	346	153	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
+0	347	153		set __main_7qG2_playagain_7qG2_000, 1
 0	346	156	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
-0	347	156		mov __DU0main, __main_7qG2_playagain_7qG2_000
-0	350	158	#line 350 "C:\Github\NXC_Source\#Tetris.nxc"
-0	351	158		tst 5, __D0main, __DU0main
-0	350	161	#line 350 "C:\Github\NXC_Source\#Tetris.nxc"
-0	351	161		brtst 4, __ASM_Label_1805, __D0main
-0	350	164	#line 350 "C:\Github\NXC_Source\#Tetris.nxc"
-0	350	164	#line 350 "C:\Github\NXC_Source\#Tetris.nxc"
-0	350	164	#line 350 "C:\Github\NXC_Source\#Tetris.nxc"
-0	351	164	#line 351 "C:\Github\NXC_Source\#Tetris.nxc"
-0	352	164		set delaytime, 400
-0	351	167	#line 351 "C:\Github\NXC_Source\#Tetris.nxc"
-0	351	167	#line 351 "C:\Github\NXC_Source\#Tetris.nxc"
-0	352	167	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
-0	353	167		strcat __strbufmain, __constStr0052
-0	352	171	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
-0	352	171	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
-0	353	171	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
-0	354	171		set __signed_stack_001main, 0
-0	353	174	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
-0	353	174	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
-0	354	174		set __D0main, 2
-0	353	177	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
-0	354	177		replace chnc, chnc, __signed_stack_001main, __D0main
-0	353	182	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
-0	354	182	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
-0	355	182		set __signed_stack_001main, 1
-0	354	185	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
-0	354	185	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
-0	355	185		set __D0main, 1
-0	354	188	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
-0	355	188		replace chnc, chnc, __signed_stack_001main, __D0main
-0	354	193	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
-0	355	193	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
-0	356	193		set __signed_stack_001main, 2
-0	355	196	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
-0	355	196	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
-0	356	196		set __D0main, 1
-0	355	199	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
-0	356	199		replace chnc, chnc, __signed_stack_001main, __D0main
-0	355	204	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
-0	356	204	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
-0	357	204		set __signed_stack_001main, 3
-0	356	207	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
-0	356	207	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
-0	357	207		set __D0main, 2
-0	356	210	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
-0	357	210		replace chnc, chnc, __signed_stack_001main, __D0main
-0	356	215	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
-0	357	215	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
-0	358	215		set __signed_stack_001main, 4
-0	357	218	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
-0	357	218	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
-0	358	218		set __D0main, 0
-0	357	221	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
-0	358	221		replace chnc, chnc, __signed_stack_001main, __D0main
-0	357	226	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
-0	358	226	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
-0	359	226		set __signed_stack_001main, 5
-0	358	229	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
-0	358	229	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
-0	359	229		set __D0main, 1
-0	358	232	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
-0	359	232		replace chnc, chnc, __signed_stack_001main, __D0main
-0	358	237	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
-0	359	237	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
-0	360	237		set __signed_stack_001main, 6
-0	359	240	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
-0	359	240	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
-0	360	240		set __D0main, 0
-0	359	243	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
-0	360	243		replace chnc, chnc, __signed_stack_001main, __D0main
-0	359	248	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
-0	360	248	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
-0	361	248		set __signed_stack_001main, 7
-0	360	251	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
-0	360	251	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
-0	361	251		set __D0main, 7
-0	360	254	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
-0	361	254		replace chnc, chnc, __signed_stack_001main, __D0main
-0	360	259	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
+0	346	156	#line 346 "C:\Github\NXC_Source\#Tetris.nxc"
+0	348	156	#line 348 "C:\Github\NXC_Source\#Tetris.nxc"
+0	349	156		mov __DU0main, __main_7qG2_playagain_7qG2_000
+0	352	158	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
+0	353	158		tst 5, __D0main, __DU0main
+0	352	161	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
+0	353	161		brtst 4, __ASM_Label_1807, __D0main
+0	352	164	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
+0	352	164	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
+0	352	164	#line 352 "C:\Github\NXC_Source\#Tetris.nxc"
+0	353	164	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
+0	354	164		set delaytime, 400
+0	353	167	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
+0	353	167	#line 353 "C:\Github\NXC_Source\#Tetris.nxc"
+0	354	167	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
+0	355	167		strcat __strbufmain, __constStr0052
+0	354	171	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
+0	354	171	#line 354 "C:\Github\NXC_Source\#Tetris.nxc"
+0	355	171	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
+0	356	171		set __signed_stack_001main, 0
+0	355	174	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
+0	355	174	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
+0	356	174		set __D0main, 2
+0	355	177	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
+0	356	177		replace chnc, chnc, __signed_stack_001main, __D0main
+0	355	182	#line 355 "C:\Github\NXC_Source\#Tetris.nxc"
+0	356	182	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
+0	357	182		set __signed_stack_001main, 1
+0	356	185	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
+0	356	185	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
+0	357	185		set __D0main, 1
+0	356	188	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
+0	357	188		replace chnc, chnc, __signed_stack_001main, __D0main
+0	356	193	#line 356 "C:\Github\NXC_Source\#Tetris.nxc"
+0	357	193	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
+0	358	193		set __signed_stack_001main, 2
+0	357	196	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
+0	357	196	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
+0	358	196		set __D0main, 1
+0	357	199	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
+0	358	199		replace chnc, chnc, __signed_stack_001main, __D0main
+0	357	204	#line 357 "C:\Github\NXC_Source\#Tetris.nxc"
+0	358	204	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
+0	359	204		set __signed_stack_001main, 3
+0	358	207	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
+0	358	207	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
+0	359	207		set __D0main, 2
+0	358	210	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
+0	359	210		replace chnc, chnc, __signed_stack_001main, __D0main
+0	358	215	#line 358 "C:\Github\NXC_Source\#Tetris.nxc"
+0	359	215	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
+0	360	215		set __signed_stack_001main, 4
+0	359	218	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
+0	359	218	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
+0	360	218		set __D0main, 0
+0	359	221	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
+0	360	221		replace chnc, chnc, __signed_stack_001main, __D0main
+0	359	226	#line 359 "C:\Github\NXC_Source\#Tetris.nxc"
+0	360	226	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
+0	361	226		set __signed_stack_001main, 5
+0	360	229	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
+0	360	229	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
+0	361	229		set __D0main, 1
+0	360	232	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
+0	361	232		replace chnc, chnc, __signed_stack_001main, __D0main
+0	360	237	#line 360 "C:\Github\NXC_Source\#Tetris.nxc"
+0	361	237	#line 361 "C:\Github\NXC_Source\#Tetris.nxc"
+0	362	237		set __signed_stack_001main, 6
+0	361	240	#line 361 "C:\Github\NXC_Source\#Tetris.nxc"
+0	361	240	#line 361 "C:\Github\NXC_Source\#Tetris.nxc"
+0	362	240		set __D0main, 0
+0	361	243	#line 361 "C:\Github\NXC_Source\#Tetris.nxc"
+0	362	243		replace chnc, chnc, __signed_stack_001main, __D0main
+0	361	248	#line 361 "C:\Github\NXC_Source\#Tetris.nxc"
+0	362	248	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
+0	363	248		set __signed_stack_001main, 7
+0	362	251	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
+0	362	251	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
+0	363	251		set __D0main, 7
+0	362	254	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
+0	363	254		replace chnc, chnc, __signed_stack_001main, __D0main
 0	362	259	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
-0	363	259		set prevQuadClear, 0
-0	362	262	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
-0	362	262	#line 362 "C:\Github\NXC_Source\#Tetris.nxc"
-0	363	262	#line 363 "C:\Github\NXC_Source\#Tetris.nxc"
-0	364	262		set prevC, 0
-0	363	265	#line 363 "C:\Github\NXC_Source\#Tetris.nxc"
-0	363	265	#line 363 "C:\Github\NXC_Source\#Tetris.nxc"
-0	364	265	#line 364 "C:\Github\NXC_Source\#Tetris.nxc"
-0	365	265		set prevE, 0
-0	364	268	#line 364 "C:\Github\NXC_Source\#Tetris.nxc"
-0	364	268	#line 364 "C:\Github\NXC_Source\#Tetris.nxc"
-0	365	268	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	268		set __D0main, 8999
-0	365	271	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	271	#pragma macro 7
-0	366	271		acquire __RandomMutex
-0	366	272		syscall 24, __RandomArgs
-0	366	275		add __RandomTmp, __RandomArgs.Result, __constVal32768
-0	366	279		mul __RandomTmp, __RandomTmp, __D0main
-0	366	283		div __RandomTmp, __RandomTmp, __constVal65536
-0	366	287		mov __D0main, __RandomTmp
-0	366	289		release __RandomMutex
-0	14227	290	#line 14227 "C:\Github\NXC_Source\#Tetris.nxc"
-0	365	290	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	290		mov __signed_stack_001main, __D0main
-0	365	292	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	292		set __D0main, 1000
-0	365	295	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	295		add score, __signed_stack_001main, __D0main
-0	365	299	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	365	299	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	299	#line 366 "C:\Github\NXC_Source\#Tetris.nxc"
-0	367	299		mov currentPiece, __constValNeg1
-0	366	301	#line 366 "C:\Github\NXC_Source\#Tetris.nxc"
-0	366	301	#line 366 "C:\Github\NXC_Source\#Tetris.nxc"
-0	367	301	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
-0	368	301		set __main_7qG2_alive_7qG2_000, 1
-0	367	304	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
-0	367	304	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	364	259	#line 364 "C:\Github\NXC_Source\#Tetris.nxc"
+0	365	259		set prevQuadClear, 0
+0	364	262	#line 364 "C:\Github\NXC_Source\#Tetris.nxc"
+0	364	262	#line 364 "C:\Github\NXC_Source\#Tetris.nxc"
+0	365	262	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
+0	366	262		set prevC, 0
+0	365	265	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
+0	365	265	#line 365 "C:\Github\NXC_Source\#Tetris.nxc"
+0	366	265	#line 366 "C:\Github\NXC_Source\#Tetris.nxc"
+0	367	265		set prevE, 0
+0	366	268	#line 366 "C:\Github\NXC_Source\#Tetris.nxc"
+0	366	268	#line 366 "C:\Github\NXC_Source\#Tetris.nxc"
+0	367	268	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	268		set __D0main, 8999
+0	367	271	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	271	#pragma macro 7
+0	368	271		acquire __RandomMutex
+0	368	272		syscall 24, __RandomArgs
+0	368	275		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	368	279		mul __RandomTmp, __RandomTmp, __D0main
+0	368	283		div __RandomTmp, __RandomTmp, __constVal65536
+0	368	287		mov __D0main, __RandomTmp
+0	368	289		release __RandomMutex
+0	14321	290	#line 14321 "C:\Github\NXC_Source\#Tetris.nxc"
+0	367	290	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	290		mov __signed_stack_001main, __D0main
+0	367	292	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	292		set __D0main, 1000
+0	367	295	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	295		add score, __signed_stack_001main, __D0main
+0	367	299	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	367	299	#line 367 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	299	#line 368 "C:\Github\NXC_Source\#Tetris.nxc"
+0	369	299		mov currentPiece, __constValNeg1
+0	368	301	#line 368 "C:\Github\NXC_Source\#Tetris.nxc"
+0	368	301	#line 368 "C:\Github\NXC_Source\#Tetris.nxc"
+0	369	301	#line 369 "C:\Github\NXC_Source\#Tetris.nxc"
+0	370	301		set __main_7qG2_alive_7qG2_000, 1
 0	369	304	#line 369 "C:\Github\NXC_Source\#Tetris.nxc"
-0	370	304		mov __DU0main, __main_7qG2_alive_7qG2_000
-0	370	306	#line 370 "C:\Github\NXC_Source\#Tetris.nxc"
-0	371	306		tst 5, __D0main, __DU0main
-0	370	309	#line 370 "C:\Github\NXC_Source\#Tetris.nxc"
-0	371	309		brtst 4, __ASM_Label_1859, __D0main
-0	370	312	#line 370 "C:\Github\NXC_Source\#Tetris.nxc"
-0	371	312		subcall pieceCreate, __pieceCreate_return
-0	370	314	#line 370 "C:\Github\NXC_Source\#Tetris.nxc"
-0	371	314	#line 371 "C:\Github\NXC_Source\#Tetris.nxc"
-0	372	314		set __main_7qG2_piecemoving_7qG2_000, 1
-0	371	317	#line 371 "C:\Github\NXC_Source\#Tetris.nxc"
-0	371	317	#line 371 "C:\Github\NXC_Source\#Tetris.nxc"
+0	369	304	#line 369 "C:\Github\NXC_Source\#Tetris.nxc"
+0	371	304	#line 371 "C:\Github\NXC_Source\#Tetris.nxc"
+0	372	304		mov __DU0main, __main_7qG2_alive_7qG2_000
+0	372	306	#line 372 "C:\Github\NXC_Source\#Tetris.nxc"
+0	373	306		tst 5, __D0main, __DU0main
+0	372	309	#line 372 "C:\Github\NXC_Source\#Tetris.nxc"
+0	373	309		brtst 4, __ASM_Label_1861, __D0main
+0	372	312	#line 372 "C:\Github\NXC_Source\#Tetris.nxc"
+0	373	312		subcall pieceCreate, __pieceCreate_return
+0	372	314	#line 372 "C:\Github\NXC_Source\#Tetris.nxc"
+0	373	314	#line 373 "C:\Github\NXC_Source\#Tetris.nxc"
+0	374	314		set __main_7qG2_piecemoving_7qG2_000, 1
 0	373	317	#line 373 "C:\Github\NXC_Source\#Tetris.nxc"
-0	374	317		mov __DU0main, __main_7qG2_piecemoving_7qG2_000
-0	374	319	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	319		tst 5, __D0main, __DU0main
-0	374	322	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	322		brtst 4, __ASM_Label_1865, __D0main
-0	374	325	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	325		set __main_7qG2_i_7qG2_004, 0
-0	374	328	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	374	328	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	328		mov __signed_stack_001main, __main_7qG2_i_7qG2_004
-0	374	330	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	374	330	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	330		mov __signed_stack_002main, delaytime
-0	374	332	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	374	332	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	332		set __D0main, 10
-0	374	335	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	335		div __D0main, __signed_stack_002main, __D0main
-0	374	339	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	339		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	374	343	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	343		brtst 4, __ASM_Label_1869, __D0main
-0	374	346	#line 374 "C:\Github\NXC_Source\#Tetris.nxc"
-0	375	346		jmp __ASM_Label_1870
-0	375	348	#line 375 "C:\Github\NXC_Source\#Tetris.nxc"
-0	376	348		add __main_7qG2_i_7qG2_004, __main_7qG2_i_7qG2_004, __constVal1
-0	376	352	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
-0	377	352		jmp __ASM_Label_1868
-0	376	354	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
-0	377	354		subcall getInput, __getInput_return
-0	376	356	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
-0	377	356	#line 377 "C:\Github\NXC_Source\#Tetris.nxc"
-0	378	356		set __Wait_7qG2_ms_7qG2_000_inline_main, 10
-0	377	359	#line 377 "C:\Github\NXC_Source\#Tetris.nxc"
+0	373	317	#line 373 "C:\Github\NXC_Source\#Tetris.nxc"
+0	375	317	#line 375 "C:\Github\NXC_Source\#Tetris.nxc"
+0	376	317		mov __DU0main, __main_7qG2_piecemoving_7qG2_000
+0	376	319	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	319		tst 5, __D0main, __DU0main
+0	376	322	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	322		brtst 4, __ASM_Label_1867, __D0main
+0	376	325	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	325		set __main_7qG2_i_7qG2_004, 0
+0	376	328	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	376	328	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	328		mov __signed_stack_001main, __main_7qG2_i_7qG2_004
+0	376	330	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	376	330	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	330		mov __signed_stack_002main, delaytime
+0	376	332	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	376	332	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	332		set __D0main, 10
+0	376	335	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	335		div __D0main, __signed_stack_002main, __D0main
+0	376	339	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	339		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	376	343	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	343		brtst 4, __ASM_Label_1871, __D0main
+0	376	346	#line 376 "C:\Github\NXC_Source\#Tetris.nxc"
+0	377	346		jmp __ASM_Label_1872
+0	377	348	#line 377 "C:\Github\NXC_Source\#Tetris.nxc"
+0	378	348		add __main_7qG2_i_7qG2_004, __main_7qG2_i_7qG2_004, __constVal1
+0	378	352	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+0	379	352		jmp __ASM_Label_1870
+0	378	354	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+0	379	354		subcall getInput, __getInput_return
+0	378	356	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+0	379	356	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+0	380	356		set __Wait_7qG2_ms_7qG2_000_inline_main, 10
+0	379	359	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
 0	8771	359	#line 8771 "NXCDefs.h"
 0	8772	359		waitv __Wait_7qG2_ms_7qG2_000_inline_main
 0	8771	361	#line 8771 "NXCDefs.h"
-0	377	361	#line 377 "C:\Github\NXC_Source\#Tetris.nxc"
-0	382	361	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-0	383	361		jmp __ASM_Label_1871
-0	382	363	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-0	382	363	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-0	383	363		subcall redraw, __redraw_return
-0	382	365	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-0	386	365	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-0	387	365		jmp __ASM_Label_1864
-0	386	367	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-0	386	367	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-0	387	367		subcall clearFullRows, __clearFullRows_return
-0	386	369	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-0	387	369		mov __DU0main, __DU0clearFullRows
-0	386	371	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-0	390	371	#line 390 "C:\Github\NXC_Source\#Tetris.nxc"
-0	391	371		jmp __ASM_Label_1858
-0	390	373	#line 390 "C:\Github\NXC_Source\#Tetris.nxc"
-0	417	373	#line 417 "C:\Github\NXC_Source\#Tetris.nxc"
-0	418	373		jmp __ASM_Label_1804
-0	417	375	#line 417 "C:\Github\NXC_Source\#Tetris.nxc"
-0	418	375		exit -1, -1
+0	379	361	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+0	384	361	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+0	385	361		jmp __ASM_Label_1873
+0	384	363	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+0	384	363	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+0	385	363		subcall redraw, __redraw_return
+0	384	365	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+0	388	365	#line 388 "C:\Github\NXC_Source\#Tetris.nxc"
+0	389	365		jmp __ASM_Label_1866
+0	388	367	#line 388 "C:\Github\NXC_Source\#Tetris.nxc"
+0	388	367	#line 388 "C:\Github\NXC_Source\#Tetris.nxc"
+0	389	367		subcall clearFullRows, __clearFullRows_return
+0	388	369	#line 388 "C:\Github\NXC_Source\#Tetris.nxc"
+0	389	369		mov __DU0main, __DU0clearFullRows
+0	388	371	#line 388 "C:\Github\NXC_Source\#Tetris.nxc"
+0	392	371	#line 392 "C:\Github\NXC_Source\#Tetris.nxc"
+0	393	371		jmp __ASM_Label_1860
+0	392	373	#line 392 "C:\Github\NXC_Source\#Tetris.nxc"
+0	419	373	#line 419 "C:\Github\NXC_Source\#Tetris.nxc"
+0	420	373		jmp __ASM_Label_1806
+0	419	375	#line 419 "C:\Github\NXC_Source\#Tetris.nxc"
+0	420	375		exit -1, -1
 1	202	0	#line 202 "C:\Github\NXC_Source\#Tetris.nxc"
 1	203	0		set __signed_stack_001getInput, 2
 1	202	3	#line 202 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -749,7 +751,7 @@ Clump	Line	PC	Source
 2	259	22		div __RandomTmp, __RandomTmp, __constVal65536
 2	259	26		mov __D0pieceCreate, __RandomTmp
 2	259	28		release __RandomMutex
-2	13072	29	#line 13072 "C:\Github\NXC_Source\#Tetris.nxc"
+2	13150	29	#line 13150 "C:\Github\NXC_Source\#Tetris.nxc"
 2	258	29	#line 258 "C:\Github\NXC_Source\#Tetris.nxc"
 2	259	29		mov __pieceCreate_7qG2_rndm_7qG2_000, __D0pieceCreate
 2	258	31	#line 258 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -1156,94 +1158,94 @@ Clump	Line	PC	Source
 4	320	97		mov __RectOutArgs.Location.X, __signed_stack_001redraw
 4	319	99	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
 4	320	99		mov __RectOutArgs.Location.Y, __signed_stack_002redraw
-4	319	102	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	320	102		mov __RectOutArgs.Size.Width, __signed_stack_003redraw
-4	319	105	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	320	105		mov __RectOutArgs.Size.Height, __signed_stack_004redraw
-4	319	108	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	320	108		mov __RectOutArgs.Options, __D0redraw
-4	319	111	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	320	111		syscall 17, __RectOutArgs
-4	319	114	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	320	114		mov __D0redraw, __RectOutArgs.Result
+4	319	101	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
+4	320	101		mov __RectOutArgs.Size.Width, __signed_stack_003redraw
+4	319	104	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
+4	320	104		mov __RectOutArgs.Size.Height, __signed_stack_004redraw
+4	319	107	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
+4	320	107		mov __RectOutArgs.Options, __D0redraw
+4	319	110	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
+4	320	110		syscall 17, __RectOutArgs
+4	319	113	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
+4	320	113		mov __D0redraw, __RectOutArgs.Result
+4	319	116	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
+4	320	116		release __RectOutMutex
 4	319	117	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	320	117		release __RectOutMutex
-4	319	118	#line 319 "C:\Github\NXC_Source\#Tetris.nxc"
-4	322	118	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	118		jmp __ASM_Label_1725
-4	322	120	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	322	120	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	120		jmp __ASM_Label_1717
-4	322	122	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	322	122	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	122		mov __D0redraw, score
-4	322	124	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	124		numtostr __strretvalredraw, __D0redraw
-4	322	127	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	127		strcat __strbufredraw, __strretvalredraw
-4	322	131	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	131		mov __redraw_7qG2_scoreString_7qG2_000, __strbufredraw
-4	322	133	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	133	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	133		set __redraw_7qG2_i_7qG2_001, 0
-4	323	136	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	136	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	136		mov __signed_stack_001redraw, __redraw_7qG2_i_7qG2_001
-4	323	138	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	323	138	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	138		strcat __strbufredraw, __redraw_7qG2_scoreString_7qG2_000
-4	323	142	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	142		arrsize __D0redraw, __strbufredraw
-4	324	145		sub __D0redraw, __D0redraw, __constVal1
-4	323	149	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	149		cmp 0, __D0redraw, __signed_stack_001redraw, __D0redraw
-4	323	153	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	153		brtst 4, __ASM_Label_1751, __D0redraw
-4	323	156	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
-4	324	156		jmp __ASM_Label_1752
-4	324	158	#line 324 "C:\Github\NXC_Source\#Tetris.nxc"
-4	325	158		add __redraw_7qG2_i_7qG2_001, __redraw_7qG2_i_7qG2_001, __constVal1
-4	325	162	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	162		jmp __ASM_Label_1750
-4	325	164	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	164		strcat __strbufredraw, __redraw_7qG2_scoreString_7qG2_000
-4	325	168	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	168		mov __ArrHelper__redraw_244_0, __strbufredraw
-4	325	170	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	170		mov __signed_stack_001redraw, __redraw_7qG2_i_7qG2_001
-4	325	172	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	325	172	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	172		set __D0redraw, 1
-4	325	175	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	175		strsubset __strretvalredraw, __ArrHelper__redraw_244_0, __signed_stack_001redraw, __D0redraw
-4	325	180	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	180		strcat __strbufredraw, __strretvalredraw
-4	325	184	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	184		strtonum __redraw_7qG2_tempInt_7qG2_000, __signed_stack_001redraw, __strbufredraw, 65535, 65535
-4	325	190	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	325	190	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	190	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	190		set __signed_stack_001redraw, 90
-4	326	193	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	193	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	193		mov __signed_stack_002redraw, __redraw_7qG2_i_7qG2_001
-4	326	195	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	195	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	195		set __D0redraw, 5
-4	326	198	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	198		mul __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
-4	326	202	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	202	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	202		strcat __strbufredraw, __constStr0051
-4	326	206	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	206		set __D0redraw, 0
-4	326	209	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	326	209	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	209		mov __GraphicOutArgs.Location.X, __signed_stack_001redraw
-4	326	211	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	211		mov __GraphicOutArgs.Location.Y, __signed_stack_002redraw
-4	326	213	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
-4	327	213		mov __GraphicOutArgs.Options, __D0redraw
+4	322	117	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	117		jmp __ASM_Label_1725
+4	322	119	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	322	119	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	119		jmp __ASM_Label_1717
+4	322	121	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	322	121	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	121		mov __D0redraw, score
+4	322	123	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	123		numtostr __strretvalredraw, __D0redraw
+4	322	126	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	126		strcat __strbufredraw, __strretvalredraw
+4	322	130	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	130		mov __redraw_7qG2_scoreString_7qG2_000, __strbufredraw
+4	322	132	#line 322 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	132	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	132		set __redraw_7qG2_i_7qG2_001, 0
+4	323	135	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	135	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	135		mov __signed_stack_001redraw, __redraw_7qG2_i_7qG2_001
+4	323	137	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	323	137	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	137		strcat __strbufredraw, __redraw_7qG2_scoreString_7qG2_000
+4	323	141	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	141		arrsize __D0redraw, __strbufredraw
+4	324	144		sub __D0redraw, __D0redraw, __constVal1
+4	323	148	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	148		cmp 0, __D0redraw, __signed_stack_001redraw, __D0redraw
+4	323	152	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	152		brtst 4, __ASM_Label_1751, __D0redraw
+4	323	155	#line 323 "C:\Github\NXC_Source\#Tetris.nxc"
+4	324	155		jmp __ASM_Label_1752
+4	324	157	#line 324 "C:\Github\NXC_Source\#Tetris.nxc"
+4	325	157		add __redraw_7qG2_i_7qG2_001, __redraw_7qG2_i_7qG2_001, __constVal1
+4	325	161	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	161		jmp __ASM_Label_1750
+4	325	163	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	163		strcat __strbufredraw, __redraw_7qG2_scoreString_7qG2_000
+4	325	167	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	167		mov __ArrHelper__redraw_244_0, __strbufredraw
+4	325	169	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	169		mov __signed_stack_001redraw, __redraw_7qG2_i_7qG2_001
+4	325	171	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	325	171	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	171		set __D0redraw, 1
+4	325	174	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	174		strsubset __strretvalredraw, __ArrHelper__redraw_244_0, __signed_stack_001redraw, __D0redraw
+4	325	179	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	179		strcat __strbufredraw, __strretvalredraw
+4	325	183	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	183		strtonum __redraw_7qG2_tempInt_7qG2_000, __signed_stack_001redraw, __strbufredraw, 65535, 65535
+4	325	189	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	325	189	#line 325 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	189	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	189		set __signed_stack_001redraw, 90
+4	326	192	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	192	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	192		mov __signed_stack_002redraw, __redraw_7qG2_i_7qG2_001
+4	326	194	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	194	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	194		set __D0redraw, 5
+4	326	197	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	197		mul __signed_stack_002redraw, __signed_stack_002redraw, __D0redraw
+4	326	201	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	201	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	201		strcat __strbufredraw, __constStr0051
+4	326	205	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	205		set __D0redraw, 0
+4	326	208	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	326	208	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	208		mov __GraphicOutArgs.Location.X, __signed_stack_001redraw
+4	326	210	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	210		mov __GraphicOutArgs.Location.Y, __signed_stack_002redraw
+4	326	212	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
+4	327	212		mov __GraphicOutArgs.Options, __D0redraw
 4	326	215	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
 4	327	215		mov __GraphicOutArgs.Filename, __strbufredraw
 4	326	217	#line 326 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -1265,36 +1267,55 @@ Clump	Line	PC	Source
 4	329	233		syscall 26, __MWArgs
 4	329	236		mov __D0redraw, __MWArgs.Result
 4	329	238		release __MWMutex
-4	13924	239	#line 13924 "C:\Github\NXC_Source\#Tetris.nxc"
+4	14002	239	#line 14002 "C:\Github\NXC_Source\#Tetris.nxc"
 4	328	239	#line 328 "C:\Github\NXC_Source\#Tetris.nxc"
 4	328	239	#line 328 "C:\Github\NXC_Source\#Tetris.nxc"
-4	332	239	#line 332 "C:\Github\NXC_Source\#Tetris.nxc"
-4	333	239		subret __redraw_return
-5	418	0	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
-5	418	43	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	43		arrbuild I, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal1, __constVal2, __constVal3
-5	418	54	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	54		arrbuild J, __constVal1, __constVal1, __constVal1, __constVal0, __constVal0, __constVal1, __constVal2, __constVal2
-5	418	65	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	65		arrbuild L, __constVal0, __constVal0, __constVal0, __constVal1, __constVal0, __constVal1, __constVal2, __constVal2
-5	418	76	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	76		arrbuild O, __constVal0, __constVal0, __constVal1, __constVal1, __constVal0, __constVal1, __constVal0, __constVal1
-5	418	87	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	87		arrbuild S, __constVal2, __constVal1, __constVal1, __constVal0, __constVal0, __constVal0, __constVal1, __constVal1
-5	418	98	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	98		arrbuild T, __constVal0, __constVal1, __constVal1, __constVal1, __constVal1, __constVal0, __constVal1, __constVal2
-5	418	109	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	109		arrbuild Z, __constVal0, __constVal1, __constVal1, __constVal2, __constVal0, __constVal0, __constVal1, __constVal1
-5	418	120	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	418	120	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	120		arrinit __area_2, __constVal0, __constVal21
-5	418	124	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	124		arrinit area, __area_2, __constVal10
-5	418	128	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	128		arrinit chnc, __constVal0, __constVal8
-5	418	132	#line 418 "C:\Github\NXC_Source\#Tetris.nxc"
-5	419	132		subret ____initialize_global_data_return
+4	329	239	#line 329 "C:\Github\NXC_Source\#Tetris.nxc"
+4	330	239		set __Wait_7qG2_ms_7qG2_000_inline_redraw, 60
+4	329	242	#line 329 "C:\Github\NXC_Source\#Tetris.nxc"
+4	8771	242	#line 8771 "NXCDefs.h"
+4	8772	242		waitv __Wait_7qG2_ms_7qG2_000_inline_redraw
+4	8771	244	#line 8771 "NXCDefs.h"
+4	329	244	#line 329 "C:\Github\NXC_Source\#Tetris.nxc"
+4	330	244	#line 330 "C:\Github\NXC_Source\#Tetris.nxc"
+4	331	244	#pragma macro 7
+4	331	244		acquire __MWMutex
+4	331	245		add __MWArgs.QueueID, __constVal9, __constVal10
+4	331	249		mov __SRNTmpVal, score
+4	331	251		flatten __MWArgs.Message, __SRNTmpVal
+4	331	254		syscall 26, __MWArgs
+4	331	257		mov __D0redraw, __MWArgs.Result
+4	331	259		release __MWMutex
+4	14018	260	#line 14018 "C:\Github\NXC_Source\#Tetris.nxc"
+4	330	260	#line 330 "C:\Github\NXC_Source\#Tetris.nxc"
+4	330	260	#line 330 "C:\Github\NXC_Source\#Tetris.nxc"
+4	334	260	#line 334 "C:\Github\NXC_Source\#Tetris.nxc"
+4	335	260		subret __redraw_return
+5	420	0	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+5	420	43	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	43		arrbuild I, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal1, __constVal2, __constVal3
+5	420	54	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	54		arrbuild J, __constVal1, __constVal1, __constVal1, __constVal0, __constVal0, __constVal1, __constVal2, __constVal2
+5	420	65	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	65		arrbuild L, __constVal0, __constVal0, __constVal0, __constVal1, __constVal0, __constVal1, __constVal2, __constVal2
+5	420	76	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	76		arrbuild O, __constVal0, __constVal0, __constVal1, __constVal1, __constVal0, __constVal1, __constVal0, __constVal1
+5	420	87	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	87		arrbuild S, __constVal2, __constVal1, __constVal1, __constVal0, __constVal0, __constVal0, __constVal1, __constVal1
+5	420	98	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	98		arrbuild T, __constVal0, __constVal1, __constVal1, __constVal1, __constVal1, __constVal0, __constVal1, __constVal2
+5	420	109	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	109		arrbuild Z, __constVal0, __constVal1, __constVal1, __constVal2, __constVal0, __constVal0, __constVal1, __constVal1
+5	420	120	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	420	120	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	120		arrinit __area_2, __constVal0, __constVal21
+5	420	124	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	124		arrinit area, __area_2, __constVal10
+5	420	128	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	128		arrinit chnc, __constVal0, __constVal8
+5	420	132	#line 420 "C:\Github\NXC_Source\#Tetris.nxc"
+5	421	132		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\#Tetris.nxc
@@ -1302,4 +1323,4 @@ Clump	Name	Offset	File
 2	pieceCreate	580	C:\Github\NXC_Source\#Tetris.nxc
 3	clearFullRows	669	C:\Github\NXC_Source\#Tetris.nxc
 4	redraw	977	C:\Github\NXC_Source\#Tetris.nxc
-5	__initialize_global_data	1218	C:\Github\NXC_Source\#Tetris.nxc
+5	__initialize_global_data	1239	C:\Github\NXC_Source\#Tetris.nxc
