@@ -275,7 +275,7 @@ void pieceCreate()
   }
   
   
-bool clearFullRows()
+bool clearFullRows()   //////////////////// - - FIX - - ////////////////////
   {
   int blocksInRow=0;
   int killNum=0;
@@ -314,12 +314,8 @@ bool clearFullRows()
 
 void redraw()
   {
-  //string scoreString;
-  //string tempStr;
-  int tempScore;
   int i;
   int j;
-  int tempInt;
   for (i=0; i<height; i++)
     {
     for (j=0; j<width; j++)
@@ -328,27 +324,14 @@ void redraw()
       if (area[j][i]) RectOut(i*b,j*b,b,b,32);
       }
     }
-  score=8;
-  GraphicOutEx(50,50,"RotatedNumbers.ric",score,0);
-  /*
-  tempScore=1;
-  for (int i=0; i<tempScore; i++)
-    {
-    tempScore=( (score*10)%pow(10,i) )-(score%pow(10,i));
-    SendResponseNumber(MAILBOX10,tempScore); Wait(60);
-    tempInt=StrToNum(SubStr(NumToStr(score),i,1));
-    GraphicOutEx(90-i*5,i*5,"RotatedNumbers.ric",score,0); //x messed up purposefully
-    }
-  */
-
+  RotatedNumbersOut(94,60,score);
   }
 
 
 task main()
   {
-if (1) //DEBUGGING!!!
+if (1) //DEBUGGING ONLY!!!
   {
-  //SetLongAbort(true); //no waits in debugging, lol
   bool playagain, alive, piecemoving;
   for (int i=0; i<height; i++)
     {
