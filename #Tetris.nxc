@@ -5,12 +5,11 @@
 /*              PREPROCESSOR              */
 #include "+Button+-.nxc"
 #include "+Highscore.nxc"
-#download "PropTiny.ric"
-#download "RotatedNumbers.ric"
+#include "+RotatedNumbers.nxc"
 //Dimensions / Graphics
 #define b       4
 #define width   10
-#define height  20 //change back to 25!
+#define height  15 //change back to 25!
 #define TX      35
 //Timing
 #define waitMove    100
@@ -55,7 +54,7 @@ const int Z[8]=
 string msg;
 string accesshigh;
 float speedup;
-long score;
+int score;
 int gametype;
 int gamespeed;
 int delaytime;
@@ -250,6 +249,14 @@ void getInput()
     }
   }
   
+  
+                             //\\
+                           ////\\\\
+                         //////\\\\\\
+                     //////////\\\\\\\\\\
+ //////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//////////////////////////////  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  
 
 void pieceCreate()
   {
@@ -307,9 +314,9 @@ bool clearFullRows()
 
 void redraw()
   {
-  string scoreString;
+  //string scoreString;
   //string tempStr;
-  string tempOut;
+  int tempScore;
   int i;
   int j;
   int tempInt;
@@ -317,22 +324,57 @@ void redraw()
     {
     for (j=0; j<width; j++)
       {
-      RectOut(i*b,j*b,b,b,( (area[j][i]*28) +4));
+      //RectOut(i*b,j*b,b,b,( (area[j][i]*28) +4));
+      if (area[j][i]) RectOut(i*b,j*b,b,b,32);
       }
     }
-  scoreString=NumToStr(score);
-  for (int i=0; i<StrLen(scoreString); i++)
+  score=8;
+  GraphicOutEx(50,50,"RotatedNumbers.ric",score,0);
+  /*
+  tempScore=1;
+  for (int i=0; i<tempScore; i++)
     {
-    tempInt=StrToNum(SubStr(scoreString,i,1));
-    GraphicOutEx(90,i*5,"RotatedNumbers.ric",tempInt,0);
+    tempScore=( (score*10)%pow(10,i) )-(score%pow(10,i));
+    SendResponseNumber(MAILBOX10,tempScore); Wait(60);
+    tempInt=StrToNum(SubStr(NumToStr(score),i,1));
+    GraphicOutEx(90-i*5,i*5,"RotatedNumbers.ric",score,0); //x messed up purposefully
     }
-  SendResponseString(MAILBOX10,scoreString);
-  Wait(60);
-  SendResponseNumber(MAILBOX10,score);
+  */
+
   }
 
 
 task main()
+  {
+if (1) //DEBUGGING!!!
+  {
+  //SetLongAbort(true); //no waits in debugging, lol
+  bool playagain, alive, piecemoving;
+  for (int i=0; i<height; i++)
+    {
+    for (int j=0; j<width; j++)
+      {
+      area[j][i]=(Random(5)!=1);
+      }
+    }
+  prevQuadClear=false;
+  prevC=0;
+  prevE=0;
+  score=Random(8999)+1000;//score=0;
+  currentPiece=-1;
+  alive=true;
+  ClearScreen();
+  redraw();
+  Wait(5000);
+  ClearScreen();
+  PlayTone(2000,100);
+  clearFullRows();
+  redraw();
+  Wait(5000);
+  }
+  
+else
+
   {
   SetLongAbort(true);
   bool playagain, alive, piecemoving;
@@ -340,7 +382,7 @@ task main()
     {
     for (int j=0; j<width; j++)
       {
-      area[j][i]=Random(3)%2;
+      area[j][i]=(Random(3)+1)%2;
       //area[j][i]=0;
       }
     }
@@ -361,7 +403,7 @@ task main()
       chnc[Ttet]=1;
       chnc[Ztet]=0;
       chnc[prob]=7;
-      //*/
+      //        * /
     prevQuadClear=false;
     prevC=0;
     prevE=0;
@@ -391,7 +433,7 @@ task main()
     //play again?
     }
   }
-  
+  }
   
   
   /*
