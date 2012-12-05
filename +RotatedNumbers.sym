@@ -1,0 +1,214 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_003main	6	1	0	4	2
+1	__signed_stack_002main	6	1	4	4	2
+2	__signed_stack_001main	6	1	8	4	2
+3	__signed_stack_001RotatedNumbersOut	6	1	12	4	9
+4	__RotatedNumbersOut_7qG2_in_7qG2_000	6	1	16	4	2
+5	__signed_stack_003RotatedNumbersOut	6	1	20	4	2
+6	__signed_stack_002RotatedNumbersOut	6	1	24	4	6
+7	__D0RotatedNumbersOut	6	1	28	4	19
+8	__D0main	6	1	32	4	7
+9	__RotatedNumbersOut_7qG2_y_7qG2_000	4	1	36	2	2
+10	__RotatedNumbersOut_7qG2_x_7qG2_000	4	1	38	2	2
+11	__RotatedNumbersOut_7qG2_i_7qG2_001	4	1	40	2	6
+12	__RotatedNumbersOut_7qG2_tempInt_7qG2_002	4	1	42	2	2
+13	__main_7qG2_j_7qG2_000	4	1	44	2	3
+14	__constVal1	2	0	46	1	3
+15	__RotatedNumbersOut_return	1	1	47	1	3
+16	____initialize_global_data_return	1	1	48	1	3
+17	__constVal0	2	1	49	1	1
+18	__TextOutArgs	8	0	4	16	6
+19	__TextOutArgs.Result	2	1	52	1	6
+20	__TextOutArgs.Location	8	0	2	4	6
+21	__TextOutArgs.Location.X	4	1	56	2	6
+22	__TextOutArgs.Location.Y	4	1	58	2	6
+23	__TextOutArgs.Text	7	0	60	4	6
+24	__TextOutArgs.Text.Text_type	1	0	0	1	0
+25	__TextOutArgs.Options	5	1	64	4	6
+26	__GraphicOutArgs	8	0	5	20	7
+27	__GraphicOutArgs.Result	2	1	68	1	7
+28	__GraphicOutArgs.Location	8	0	2	4	7
+29	__GraphicOutArgs.Location.X	4	1	72	2	7
+30	__GraphicOutArgs.Location.Y	4	1	74	2	7
+31	__GraphicOutArgs.Filename	7	0	76	4	7
+32	__GraphicOutArgs.Filename.Filename_type	1	0	0	1	0
+33	__GraphicOutArgs.Variables	7	0	78	4	7
+34	__GraphicOutArgs.Variables.Variables_type	6	0	0	4	0
+35	__GraphicOutArgs.Options	5	1	80	4	7
+36	__constStr0009	7	0	84	4	1
+37	__constStr0009.__constStr0009_type	1	1	0	1	0
+38	__strbufRotatedNumbersOut	7	0	86	4	10
+39	__strbufRotatedNumbersOut.__strbufRotatedNumbersOut_type	1	0	0	1	0
+40	__strretvalRotatedNumbersOut	7	0	88	4	4
+41	__strretvalRotatedNumbersOut.__strretvalRotatedNumbersOut_type	1	0	0	1	0
+42	__RotatedNumbersOut_7qG2_inStr_7qG2_000	7	0	90	4	3
+43	__RotatedNumbersOut_7qG2_inStr_7qG2_000.__RotatedNumbersOut_7qG2_inStr_7qG2_000_type	1	0	0	1	0
+44	__RotatedNumbersOut_7qG2_currentDisp_7qG2_000	7	0	92	4	4
+45	__RotatedNumbersOut_7qG2_currentDisp_7qG2_000.__RotatedNumbersOut_7qG2_currentDisp_7qG2_000_type	1	0	0	1	0
+46	__ArrHelper__RotatedNumbersOut_244_0	7	0	94	4	2
+47	__ArrHelper__RotatedNumbersOut_244_0.__ArrHelper__RotatedNumbersOut_244_0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	17	0	#line 17 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	18	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	17	2	#line 17 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	17	2	#line 17 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	18	2		set __main_7qG2_j_7qG2_000, 18724
+0	17	5	#line 17 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	19	5	#line 19 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	20	5		set __D0main, 1
+0	20	8	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	8		tst 5, __D0main, __D0main
+0	20	11	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	11		brtst 4, __ASM_Label_637, __D0main
+0	20	14	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	14		set __RotatedNumbersOut_7qG2_x_7qG2_000, 94
+0	20	17	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	20	17	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	17		set __RotatedNumbersOut_7qG2_y_7qG2_000, 60
+0	20	20	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	20	20	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	20		mov __RotatedNumbersOut_7qG2_in_7qG2_000, __main_7qG2_j_7qG2_000
+0	20	22	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	20	22	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	22		subcall RotatedNumbersOut, __RotatedNumbersOut_return
+0	20	24	#line 20 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	24	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	24		set __signed_stack_001main, 0
+0	21	27	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	27	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	27		set __signed_stack_002main, 0
+0	21	30	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	30	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	30		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	21	32	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	32	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	32		set __D0main, 0
+0	21	35	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	35	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	35		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	21	37	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	37		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	21	39	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	39		mov __TextOutArgs.Options, __D0main
+0	21	41	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	41		numtostr __TextOutArgs.Text, __signed_stack_003main
+0	21	44	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	44		syscall 13, __TextOutArgs
+0	21	47	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	22	47		mov __D0main, __TextOutArgs.Result
+0	21	49	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	21	49	#line 21 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	36	49	#line 36 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	37	49		jmp __ASM_Label_636
+0	36	51	#line 36 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+0	37	51		exit -1, -1
+1	4	0	#line 4 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	5	0		mov __D0RotatedNumbersOut, __RotatedNumbersOut_7qG2_in_7qG2_000
+1	4	2	#line 4 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	5	2		numtostr __strretvalRotatedNumbersOut, __D0RotatedNumbersOut
+1	4	5	#line 4 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	5	5		strcat __strbufRotatedNumbersOut, __strretvalRotatedNumbersOut
+1	4	9	#line 4 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	5	9		mov __RotatedNumbersOut_7qG2_inStr_7qG2_000, __strbufRotatedNumbersOut
+1	5	11	#line 5 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	6	11		arrinit __RotatedNumbersOut_7qG2_currentDisp_7qG2_000, __constVal0, __constVal1
+1	6	15	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	15		set __RotatedNumbersOut_7qG2_i_7qG2_001, 0
+1	6	18	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	6	18	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	18		mov __signed_stack_001RotatedNumbersOut, __RotatedNumbersOut_7qG2_i_7qG2_001
+1	6	20	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	6	20	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	20		strcat __strbufRotatedNumbersOut, __RotatedNumbersOut_7qG2_inStr_7qG2_000
+1	6	24	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	24		arrsize __D0RotatedNumbersOut, __strbufRotatedNumbersOut
+1	7	27		sub __D0RotatedNumbersOut, __D0RotatedNumbersOut, __constVal1
+1	6	31	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	31		cmp 0, __D0RotatedNumbersOut, __signed_stack_001RotatedNumbersOut, __D0RotatedNumbersOut
+1	6	35	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	35		brtst 4, __ASM_Label_607, __D0RotatedNumbersOut
+1	6	38	#line 6 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	7	38		jmp __ASM_Label_608
+1	7	40	#line 7 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	8	40		add __RotatedNumbersOut_7qG2_i_7qG2_001, __RotatedNumbersOut_7qG2_i_7qG2_001, __constVal1
+1	8	44	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	44		jmp __ASM_Label_606
+1	8	46	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	46		strcat __strbufRotatedNumbersOut, __RotatedNumbersOut_7qG2_inStr_7qG2_000
+1	8	50	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	50		mov __ArrHelper__RotatedNumbersOut_244_0, __strbufRotatedNumbersOut
+1	8	52	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	52		mov __signed_stack_001RotatedNumbersOut, __RotatedNumbersOut_7qG2_i_7qG2_001
+1	8	54	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	8	54	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	54		set __D0RotatedNumbersOut, 1
+1	8	57	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	57		strsubset __strretvalRotatedNumbersOut, __ArrHelper__RotatedNumbersOut_244_0, __signed_stack_001RotatedNumbersOut, __D0RotatedNumbersOut
+1	8	62	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	62		strcat __strbufRotatedNumbersOut, __strretvalRotatedNumbersOut
+1	8	66	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	66		strtonum __RotatedNumbersOut_7qG2_tempInt_7qG2_002, __signed_stack_001RotatedNumbersOut, __strbufRotatedNumbersOut, 65535, 65535
+1	8	72	#line 8 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	72	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	72		set __signed_stack_001RotatedNumbersOut, 0
+1	9	75	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	75	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	75		mov __signed_stack_002RotatedNumbersOut, __RotatedNumbersOut_7qG2_tempInt_7qG2_002
+1	9	77	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	9	77	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	77		set __D0RotatedNumbersOut, 5
+1	9	80	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	80		mul __D0RotatedNumbersOut, __signed_stack_002RotatedNumbersOut, __D0RotatedNumbersOut
+1	9	84	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	84		replace __RotatedNumbersOut_7qG2_currentDisp_7qG2_000, __RotatedNumbersOut_7qG2_currentDisp_7qG2_000, __signed_stack_001RotatedNumbersOut, __D0RotatedNumbersOut
+1	9	89	#line 9 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	89	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	89		mov __signed_stack_001RotatedNumbersOut, __RotatedNumbersOut_7qG2_x_7qG2_000
+1	10	91	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	91	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	91		mov __signed_stack_002RotatedNumbersOut, __RotatedNumbersOut_7qG2_y_7qG2_000
+1	10	93	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	93	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	93		set __signed_stack_003RotatedNumbersOut, 4
+1	10	96	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	96	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	96	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	96		mul __D0RotatedNumbersOut, __signed_stack_003RotatedNumbersOut, __RotatedNumbersOut_7qG2_i_7qG2_001
+1	10	100	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	100		sub __signed_stack_002RotatedNumbersOut, __signed_stack_002RotatedNumbersOut, __D0RotatedNumbersOut
+1	10	104	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	104	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	104		strcat __strbufRotatedNumbersOut, __constStr0009
+1	10	108	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	108		set __D0RotatedNumbersOut, 0
+1	10	111	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	111	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	111		mov __GraphicOutArgs.Location.X, __signed_stack_001RotatedNumbersOut
+1	10	113	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	113		mov __GraphicOutArgs.Location.Y, __signed_stack_002RotatedNumbersOut
+1	10	115	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	115		mov __GraphicOutArgs.Options, __D0RotatedNumbersOut
+1	10	117	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	117		mov __GraphicOutArgs.Filename, __strbufRotatedNumbersOut
+1	10	119	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	119		mov __GraphicOutArgs.Variables, __RotatedNumbersOut_7qG2_currentDisp_7qG2_000
+1	10	121	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	121		syscall 18, __GraphicOutArgs
+1	10	124	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	11	124		mov __D0RotatedNumbersOut, __GraphicOutArgs.Result
+1	10	126	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	10	126	#line 10 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	15	126	#line 15 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	16	126		jmp __ASM_Label_609
+1	15	128	#line 15 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	15	128	#line 15 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+1	16	128		subret __RotatedNumbersOut_return
+2	37	0	#line 37 "C:\Github\NXC_Source\+RotatedNumbers.nxc"
+2	38	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\+RotatedNumbers.nxc
+1	RotatedNumbersOut	54	C:\Github\NXC_Source\+RotatedNumbers.nxc
+2	__initialize_global_data	184	C:\Github\NXC_Source\+RotatedNumbers.nxc
