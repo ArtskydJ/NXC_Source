@@ -3,19 +3,20 @@
 void RotatedNumbersOut(int x, int y, long in)
   {
   string inStr=NumToStr(in);
+  int tempInt;
   byte currentDisp[1];
   for (int i=0; i<StrLen(inStr); i++)
     {
-    int tempInt=(StrToNum(SubStr(inStr,i,1)));
+    tempInt=(StrToNum(SubStr(inStr,i,1)));
     currentDisp[0]=tempInt*5;
     GraphicOutEx(x,y-(4*i),"RotatedNumbers.ric",currentDisp,0);  //x,y-(4*i)
     }
   }
 
-//*
+/*
 task main()
   {
-  int j=18724;
+  long j=28173;
   while(1)
     {
     RotatedNumbersOut(94,60,j);
@@ -26,6 +27,8 @@ task main()
 
 
 /*
+    currentDisp[0]=((StrToNum( SubStr(inStr,i,1) ))*5);
+
     string tempString=SubStr(inStr,i,1);
     int tempInt=StrToNum(tempString);
     
