@@ -9,14 +9,17 @@
 //Dimensions / Graphics
 #define b       4
 #define width   10
-#define height  15 //change back to 25!
+#define height  27 //change back to 27, 2 are not seen
 #define TX      35
 #define SX      94 //change back to 94!
 #define SY      61
-//Timing
-#define waitMove    100
-#define waitRotate  100
-#define waitDrop    100
+#define previewPieces   3
+//Timing (all *10)
+#define waitGravity     20
+#define waitFastMove    10
+#define waitRotateAgain 10
+#define waitHardDrop    10
+#define fastRepeat      5
 //tetriminos
 #define Itet 0
 #define Jtet 1
@@ -66,7 +69,7 @@ int prevE;
 int prevL;
 int prevR;
 int currentPiece;
-int comingPiece;
+int prevWaited;
 int tetX;
 int tetY;
 bool moveL;
@@ -78,6 +81,7 @@ bool prevQuadClear;
 
 bool area[width][height+1];
 int chnc[8];
+int nextPiece[previewPieces];
 
 
 /*               SUBROUTINES              */
@@ -88,6 +92,8 @@ void selectGame(bool fastmode)
   prevE=0;
   score=0;
   currentPiece=-1;
+  disp="       ";
+  
   if (fastmode)
     {
     speedup=0.9;
@@ -221,9 +227,16 @@ void selectGame(bool fastmode)
     }
   }
 
+//  ______   ______   ______   ______   ______   ______   ______   ______
+//  |__  _|  |__  _|  |__  _|  |__  _|  |__  _|  |__  _|  |__  _|  |__  _|
+//  _  ||    _  ||    _  ||    _  ||    _  ||    _  ||    _  ||    _  ||
+//  \\_//    \\_//    \\_//    \\_//    \\_//    \\_//    \\_//    \\_//
+//   \_/      \_/      \_/      \_/      \_/      \_/      \_/      \_/
 
-void getInput()
+
+void inputOutput(int waited)
   {
+  /////  -  INPUT  -  /////
   if (ButtonPressed(BTNLEFT))
     {
     if (prevL==0)
@@ -231,7 +244,7 @@ void getInput()
       drop=true;
       }
     prevL++;
-    if (prevL<waitDrop)
+    if (prevL<waitHardDrop)
       {
       prevL=0;
       }
@@ -243,7 +256,7 @@ void getInput()
       rotate=true;
       }
     prevR++;
-    if (prevR<waitRotate)
+    if (prevR<waitRotateAgain)
       {
       prevR=0;
       }
@@ -255,9 +268,9 @@ void getInput()
       moveL=true;
       }
     prevC++;
-    if (prevC<waitMove)
+    if (prevC<waitFastMove)
       {
-      prevC=0;
+      prevC=waitFastMove-fastRepeat;
       }
     }
   if (ButtonPressed(BTNEXIT))
@@ -267,25 +280,49 @@ void getInput()
       moveR=true;
       }
     prevE++;
-    if (prevE<waitMove)
+    if (prevE<waitFastMove)
       {
-      prevE=0;
+      prevE=waitFastMove-fastRepeat;
       }
     }
+
+  /////  -  OUTPUT  -  /////
+  //Rotation
+
+  //Move/Drop
+  //Gravity
+  if (waited%waitGravity<prevWaited%waitGravity)
+    {
+    tetX--;
+    }
+
+  prevWaited=waited;
+  /////   -  DRAW  -   /////
+  int i;
+  int j;
+  for (i=0; i<height; i++)
+    {
+    for (j=0; j<width; j++)
+      {
+      //RectOut(i*b,j*b,b,b,( (area[j][i]*28) +4));
+      if (area[j][i]) RectOut(i*b,j*b,b,b,32);
+      }
+    }
+  if (disp=="       ")
+    {
+    for (i=0; i<previewPieces; i++)
+      {
+      //display nextPiece[i]
+      }
+    }
+  TextOut(0,56,disp,0);
+  disp="       ";
+  RotatedNumbersOut(SX,SY,score);
   }
-  
-  
-                             //\\
-                           ////\\\\
-                         //////\\\\\\
-                     //////////\\\\\\\\\\
- //////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-//////////////////////////////  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   
 
 void pieceCreate()
   {
-  comingPiece=currentPiece;
   int rndm;
   int pieceToCreate=0;
   rndm=Random(chnc[prob]);
@@ -296,20 +333,26 @@ void pieceCreate()
       pieceToCreate=i;
       }
     }
-  currentPiece=pieceToCreate;
+  currentPiece=nextPiece[0];
+  nextPiece[0]=nextPiece[1];
+  nextPiece[1]=nextPiece[2];
+  nextPiece[2]=pieceToCreate;
   }
   
   
-bool clearFullRows()   //////////////////// - - FIX - - ////////////////////
+int clearFullRows()   //////////////////// - - FIX - - ////////////////////
   {
   int blocksInRow=0;
   int numOfFilledLines=0;
   int i,j,k;
-  for (i=0; i<height; i++)
+  for (i=0; i<height; i++)          //Check All Rows
     {
     for (j=0; j<width; j++)         //add up blocks in row
       {
-      blocksInRow+=(area[j][i]);    //switch i & j???
+      blocksInRow+=(area[i][j]);    //switch i & j???
+      SendResponseNumber(9,blocksInRow);
+      PlayTone(2000,500);
+      Wait(500);
       }
     if (blocksInRow==width)         //if the row is full
       {
@@ -317,7 +360,7 @@ bool clearFullRows()   //////////////////// - - FIX - - ////////////////////
         {
         for (j=0; j<width; j++)
           {
-          area[j][k]=area[j][k+1];   //switch k & j???
+          area[j][k]=area[k][j+1];   //switch k & j???
           }
         }
       i--; //redo row if it gets destroyed
@@ -331,33 +374,20 @@ bool clearFullRows()   //////////////////// - - FIX - - ////////////////////
   else if (numOfFilledLines==4)
     {
     if (!prevQuadClear)   {score+=800;  prevQuadClear=true; disp="Tetris!";}
-    else                  {score+=1200; prevQuadClear=true; disp="Single!";}
+    else                  {score+=1200; prevQuadClear=true; disp="Cnsctv!";}
     }
-  return (numOfFilledLines>0);
+  return numOfFilledLines;
 
   }
-  
-  
-void nextStep()
-  {
-  tetX--;
-  }
-  
 
-
-void redraw()
+  
+void gameEnd()
   {
-  int i;
-  int j;
-  for (i=0; i<height; i++)
-    {
-    for (j=0; j<width; j++)
-      {
-      //RectOut(i*b,j*b,b,b,( (area[j][i]*28) +4));
-      if (area[j][i]) RectOut(i*b,j*b,b,b,32);
-      }
-    }
-  RotatedNumbersOut(SX,SY,score);
+  PlayTone(1500,1000);
+  Wait(1000);
+  ClearScreen();
+  TextOut(0,0,"Game Over!",4096);
+  
   }
 
 
@@ -365,12 +395,11 @@ void debug(int mode)
   {
   if (mode==2) //ClearFullRows
     {
-    bool playagain, alive, piecemoving;
     for (int i=0; i<height; i++)
       {
       for (int j=0; j<width; j++)
         {
-        area[j][i]=(Random(5)!=1);
+        area[j][i]=(Random(10)!=1);
         }
       }
     prevQuadClear=false;
@@ -383,8 +412,9 @@ void debug(int mode)
     Wait(5000);
     ClearScreen();
     PlayTone(2000,100);
-    clearFullRows();
+    int i=clearFullRows();
     redraw();
+    NumOut(0,0,i,0);
     Wait(5000);
     }
   }
@@ -393,6 +423,11 @@ void debug(int mode)
 task main()
   {
   int mode=2;
+  //modes:
+  //0  normal
+  //1  fast
+  //2  debug clearFullRows()
+  //3  dubug ???
   if (mode==0||mode==1)
     {
     SetLongAbort(true);
@@ -414,21 +449,16 @@ task main()
         {
         pieceCreate();
         piecemoving=true;
-        while (piecemoving)
+        for (int i=0;piecemoving; i++) //waiting
           {
-          for (int i=0;i<delaytime/10;i++) //waiting
-            {
-            getInput();
-            Wait(10);
-            }
-          nextStep();
-          redraw();
+          inputOutput(i);
+          Wait(10);
           //debugging
           }
         //set piece into area
         clearFullRows();
         }
-      //play again?
+      gameEnd();
       }
     }
   else
@@ -436,3 +466,33 @@ task main()
     debug(mode);
     }
   }
+  
+/*
+IMPLEMENT:
+Draw current tetromino (hollow rectangles)
+Draw ghost tetromino (hollow rectangles or circles?)
+Draw 3 pieces tetromino preview
+Fix Line Clearing
+Rotation
+Process Order:
+  Rotation
+  Move/Drop
+  Gravity
+
+
+Soft Drop
+Firm Drop-NO
+Hard Drop
+Delayed Auto Shift
+Wall kicks
+Clockwise Rotation
+Hold piece-NO
+Right Side Bias
+Allow only 1 floor kick
+Allow I wall kicking always.
+Allow I floor kicking even when not touching ground, (does not count?)
+Adhere to SRS guidelines, some ARS guidelines
+  http://tetris.wikia.com/wiki/SRS
+  http://tetris.wikia.com/wiki/ARS
+
+*/
