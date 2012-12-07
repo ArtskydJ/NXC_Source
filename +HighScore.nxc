@@ -7,14 +7,15 @@ int hsfsize, hshandle, hscount=10;
 /////////////////////////////   READ   //////////////////////////////
 int readHigh(string readme)
   {
-  int ARead = 0;
+  string ARead = "";
   int result = OpenFileRead(readme, hsfsize, hshandle);
   if (result == LDR_SUCCESS)
     {
     ReadLnString(hshandle, ARead);
     CloseFile(hshandle);
+    result=StrToNum(ARead);
     }
-  return ARead;
+  return result;
   }
   
 string readHighName(string readme)

@@ -10,7 +10,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 7	__signed_stack_004display	6	1	28	4	8
 8	__signed_stack_002display	6	1	32	4	28
 9	__signed_stack_003display	6	1	36	4	56
-10	__D0readHigh	6	1	40	4	11
+10	__D0readHigh	6	1	40	4	12
 11	__DU0display	5	1	44	4	4
 12	__DF0display	10	1	48	4	4
 13	__D0display	6	1	52	4	150
@@ -32,7 +32,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 29	__constVal65535	6	0	116	4	3
 30	__constVal786433	6	0	120	4	2
 31	__Wait_7qG2_ms_7qG2_000_inline_keyboard	5	1	124	4	2
-32	__signed_stack_001readHigh	6	1	128	4	2
+32	__signed_stack_001readHigh	6	1	128	4	3
 33	__signed_stack_001keyboard	6	1	132	4	24
 34	__signed_stack_002keyboard	6	1	136	4	14
 35	__signed_stack_002endGame	6	1	140	4	14
@@ -63,7 +63,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 60	hscount	4	0	222	2	2
 61	hshandle	4	1	224	2	11
 62	hsfsize	4	1	226	2	2
-63	__readHigh_7qG2_ARead_7qG2_000	4	1	228	2	3
+63	__readHigh_7qG2_result_7qG2_000	4	1	228	2	3
 64	__endGame_7qG2_myscore_7qG2_000	4	1	230	2	5
 65	__writeHighName_7qG2_NewHighscore_7qG2_000	4	1	232	2	2
 66	__constVal1024	4	0	234	2	1
@@ -78,29 +78,29 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 75	__constVal200	4	0	252	2	4
 76	__RLSByteCount	3	1	254	2	4
 77	__RLSMaxBytes	3	1	256	2	4
-78	__constVal48	2	0	258	1	1
+78	__senseButtonModded_return	1	1	258	1	5
 79	__constVal44	2	0	259	1	1
-80	__senseButtonModded_return	1	1	260	1	5
+80	__constVal48	2	0	260	1	1
 81	__constVal53	2	0	261	1	1
 82	__senseButtonModded_7qG2_lr_ud_7qG2_000	1	1	262	1	5
 83	__constVal52	2	0	263	1	1
 84	__keyboard_return	1	1	264	1	4
-85	__constVal46	2	0	265	1	1
-86	__constVal63	2	0	266	1	1
-87	__ClearLine_7qG2_line_7qG2_000_inline_keyboard	1	1	267	1	12
-88	__output_return	1	1	268	1	4
-89	__constVal103	2	0	269	1	1
-90	__output_7qG2_cptl_7qG2_000	1	1	270	1	2
-91	__constVal121	2	0	271	1	1
-92	__constVal122	2	0	272	1	1
+85	__ClearLine_7qG2_line_7qG2_000_inline_keyboard	1	1	265	1	12
+86	__constVal46	2	0	266	1	1
+87	__constVal63	2	0	267	1	1
+88	__output_7qG2_cptl_7qG2_000	1	1	268	1	2
+89	__output_return	1	1	269	1	4
+90	__constVal122	2	0	270	1	1
+91	__constVal4	2	0	271	1	2
+92	__constVal121	2	0	272	1	1
 93	__constVal102	2	0	273	1	1
 94	__constVal97	2	0	274	1	1
 95	__output_7qG2_layoutn_7qG2_002	1	1	275	1	6
 96	__constVal98	2	0	276	1	1
 97	__constVal101	2	0	277	1	1
 98	__constVal99	2	0	278	1	1
-99	__readHighName_return	1	1	279	1	4
-100	__constVal1	2	0	280	1	11
+99	__constVal1	2	0	279	1	11
+100	__readHighName_return	1	1	280	1	4
 101	__constVal0	2	1	281	1	19
 102	__readHigh_return	1	1	282	1	5
 103	__constVal9	2	0	283	1	1
@@ -117,271 +117,275 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 114	__keyboard_7qG2_loop_7qG2_000	1	1	294	1	3
 115	__constVal3	2	0	295	1	1
 116	__constVal100	2	0	296	1	1
-117	____initialize_global_data_return	1	1	297	1	3
-118	__constVal6	2	0	298	1	1
-119	__constVal40	2	0	299	1	2
-120	__constVal4	2	0	300	1	2
-121	__constVal2	2	0	301	1	1
-122	__constVal57	2	0	302	1	1
-123	__constVal56	2	0	303	1	1
-124	__constVal117	2	0	304	1	1
+117	__constVal40	2	0	297	1	2
+118	____initialize_global_data_return	1	1	298	1	3
+119	__constVal6	2	0	299	1	1
+120	__constVal103	2	0	300	1	1
+121	__constVal57	2	0	301	1	1
+122	__constVal54	2	0	302	1	1
+123	__constVal112	2	0	303	1	1
+124	__constVal55	2	0	304	1	1
 125	debugTiming	1	1	305	1	2
-126	__constVal111	2	0	306	1	1
+126	__constVal110	2	0	306	1	1
 127	____readStringLine_return	1	1	307	1	1
 128	__constVal5	2	0	308	1	1
-129	__constVal116	2	0	309	1	1
-130	__constVal55	2	0	310	1	1
-131	__constVal113	2	0	311	1	1
-132	__constVal114	2	0	312	1	1
-133	__constVal54	2	0	313	1	1
-134	__FReadTmpByte	1	1	314	1	3
-135	__constVal115	2	0	315	1	1
-136	__constVal112	2	0	316	1	1
-137	__RLSReturnAddress	1	1	317	1	4
-138	__constVal110	2	0	318	1	1
-139	__constVal109	2	0	319	1	1
-140	__constVal13	2	0	320	1	1
-141	__constVal10	2	0	321	1	1
-142	__display_7qG2_layouta_7qG2_000	1	1	322	1	6
-143	__constVal105	2	0	323	1	1
-144	__constVal104	2	0	324	1	1
+129	__FReadTmpByte	1	1	309	1	3
+130	__constVal56	2	0	310	1	1
+131	__constVal115	2	0	311	1	1
+132	__constVal116	2	0	312	1	1
+133	__constVal117	2	0	313	1	1
+134	__constVal2	2	0	314	1	1
+135	__constVal114	2	0	315	1	1
+136	__constVal111	2	0	316	1	1
+137	__constVal118	2	0	317	1	1
+138	__constVal109	2	0	318	1	1
+139	__constVal108	2	0	319	1	1
+140	__display_7qG2_layouta_7qG2_000	1	1	320	1	6
+141	__constVal13	2	0	321	1	1
+142	__constVal105	2	0	322	1	1
+143	__constVal104	2	0	323	1	1
+144	__constVal107	2	0	324	1	1
 145	__constVal106	2	0	325	1	1
-146	__constVal108	2	0	326	1	1
-147	__constVal107	2	0	327	1	1
-148	__constVal120	2	0	328	1	1
-149	__display_return	1	1	329	1	3
-150	__constVal118	2	0	330	1	1
-151	__display_7qG2_cptl_7qG2_000	1	1	331	1	3
-152	__display_7qG2_snd_7qG2_000	1	1	332	1	2
-153	__constVal119	2	0	333	1	1
-154	__FDArgs	8	0	2	8	3
-155	__FDArgs.Result	3	1	336	2	3
-156	__FDArgs.Filename	7	0	338	4	3
-157	__FDArgs.Filename.Filename_type	1	0	0	1	0
-158	__FReadArgs	8	0	4	12	8
-159	__FReadArgs.Result	3	1	340	2	8
-160	__FReadArgs.FileHandle	1	1	342	1	8
-161	__FReadArgs.Buffer	7	0	344	4	8
-162	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
-163	__FReadArgs.Length	5	1	348	4	8
-164	__TextOutArgs	8	0	4	16	132
-165	__TextOutArgs.Result	2	1	352	1	132
-166	__TextOutArgs.Location	8	0	2	4	132
-167	__TextOutArgs.Location.X	4	1	356	2	132
-168	__TextOutArgs.Location.Y	4	1	358	2	132
-169	__TextOutArgs.Text	7	0	360	4	132
-170	__TextOutArgs.Text.Text_type	1	0	0	1	0
-171	__TextOutArgs.Options	5	1	364	4	132
-172	__PointOutArgs	8	0	3	12	8
-173	__PointOutArgs.Result	2	1	368	1	8
-174	__PointOutArgs.Location	8	0	2	4	8
-175	__PointOutArgs.Location.X	4	1	372	2	8
-176	__PointOutArgs.Location.Y	4	1	374	2	8
-177	__PointOutArgs.Options	5	1	376	4	8
-178	__FCArgs	8	0	2	4	9
-179	__FCArgs.Result	3	1	380	2	9
-180	__FCArgs.FileHandle	1	1	382	1	9
-181	__IOMWBIArgs	8	0	4	16	8
-182	__IOMWBIArgs.Result	2	1	384	1	8
-183	__IOMWBIArgs.ModuleID	5	1	388	4	8
-184	__IOMWBIArgs.Offset	3	1	392	2	8
-185	__IOMWBIArgs.Buffer	7	0	394	4	8
-186	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
-187	__FWriteArgs	8	0	4	12	14
-188	__FWriteArgs.Result	3	1	396	2	14
-189	__FWriteArgs.FileHandle	1	1	398	1	14
-190	__FWriteArgs.Buffer	7	0	400	4	14
-191	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
-192	__FWriteArgs.Length	5	1	404	4	14
-193	__RandomArgs	8	0	1	4	4
-194	__RandomArgs.Result	4	1	408	2	4
-195	__RBtnArgs	8	0	5	8	16
-196	__RBtnArgs.Result	2	1	412	1	16
-197	__RBtnArgs.Index	1	1	413	1	16
-198	__RBtnArgs.Pressed	1	1	414	1	16
-199	__RBtnArgs.Count	1	1	415	1	16
-200	__RBtnArgs.Reset	1	1	416	1	16
-201	__SPTArgs	8	0	5	8	30
-202	__SPTArgs.Result	2	1	420	1	30
-203	__SPTArgs.Frequency	3	1	422	2	30
-204	__SPTArgs.Duration	3	1	424	2	30
-205	__SPTArgs.Loop	1	1	426	1	30
-206	__SPTArgs.Volume	1	1	427	1	30
-207	__LineOutArgs	8	0	4	16	13
-208	__LineOutArgs.Result	2	1	428	1	13
-209	__LineOutArgs.StartLoc	8	0	2	4	13
-210	__LineOutArgs.StartLoc.X	4	1	432	2	13
-211	__LineOutArgs.StartLoc.Y	4	1	434	2	13
-212	__LineOutArgs.EndLoc	8	0	2	4	13
-213	__LineOutArgs.EndLoc.X	4	1	436	2	13
-214	__LineOutArgs.EndLoc.Y	4	1	438	2	13
-215	__LineOutArgs.Options	5	1	440	4	13
-216	__FOArgs	8	0	4	12	15
-217	__FOArgs.Result	3	1	444	2	15
-218	__FOArgs.FileHandle	1	1	446	1	15
-219	__FOArgs.Filename	7	0	448	4	15
-220	__FOArgs.Filename.Filename_type	1	0	0	1	0
-221	__FOArgs.Length	5	1	452	4	15
-222	__endGame_7qG2_show_7qG2_000	7	0	456	4	8
-223	__endGame_7qG2_show_7qG2_000.__endGame_7qG2_show_7qG2_000_type	1	0	0	1	0
-224	__endGame_7qG2_readme_7qG2_000	7	0	458	4	5
-225	__endGame_7qG2_readme_7qG2_000.__endGame_7qG2_readme_7qG2_000_type	1	0	0	1	0
-226	__constStr0043	7	0	460	4	1
-227	__constStr0043.__constStr0043_type	1	1	0	1	0
-228	__constStr0042	7	0	462	4	1
-229	__constStr0042.__constStr0042_type	1	1	0	1	0
-230	__constStr0044	7	0	464	4	2
-231	__constStr0044.__constStr0044_type	1	1	0	1	0
-232	__constStr0048	7	0	466	4	1
-233	__constStr0048.__constStr0048_type	1	1	0	1	0
-234	__constStr0049	7	0	468	4	1
-235	__constStr0049.__constStr0049_type	1	1	0	1	0
-236	__constStr0050	7	0	470	4	1
-237	__constStr0050.__constStr0050_type	1	1	0	1	0
-238	__constStr0045	7	0	472	4	1
-239	__constStr0045.__constStr0045_type	1	1	0	1	0
-240	__constStr0046	7	0	474	4	1
-241	__constStr0046.__constStr0046_type	1	1	0	1	0
-242	__constStr0047	7	0	476	4	1
-243	__constStr0047.__constStr0047_type	1	1	0	1	0
-244	__constStr0041	7	0	478	4	1
-245	__constStr0041.__constStr0041_type	1	1	0	1	0
-246	__strretvalkeyboard	7	0	480	4	10
-247	__strretvalkeyboard.__strretvalkeyboard_type	1	0	0	1	0
+146	__display_7qG2_cptl_7qG2_000	1	1	326	1	3
+147	__RLSReturnAddress	1	1	327	1	4
+148	__constVal119	2	0	328	1	1
+149	__display_7qG2_snd_7qG2_000	1	1	329	1	2
+150	__constVal120	2	0	330	1	1
+151	__constVal10	2	0	331	1	1
+152	__constVal113	2	0	332	1	1
+153	__display_return	1	1	333	1	3
+154	__FCArgs	8	0	2	4	9
+155	__FCArgs.Result	3	1	336	2	9
+156	__FCArgs.FileHandle	1	1	338	1	9
+157	__FReadArgs	8	0	4	12	8
+158	__FReadArgs.Result	3	1	340	2	8
+159	__FReadArgs.FileHandle	1	1	342	1	8
+160	__FReadArgs.Buffer	7	0	344	4	8
+161	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+162	__FReadArgs.Length	5	1	348	4	8
+163	__FDArgs	8	0	2	8	3
+164	__FDArgs.Result	3	1	352	2	3
+165	__FDArgs.Filename	7	0	354	4	3
+166	__FDArgs.Filename.Filename_type	1	0	0	1	0
+167	__LineOutArgs	8	0	4	16	13
+168	__LineOutArgs.Result	2	1	356	1	13
+169	__LineOutArgs.StartLoc	8	0	2	4	13
+170	__LineOutArgs.StartLoc.X	4	1	360	2	13
+171	__LineOutArgs.StartLoc.Y	4	1	362	2	13
+172	__LineOutArgs.EndLoc	8	0	2	4	13
+173	__LineOutArgs.EndLoc.X	4	1	364	2	13
+174	__LineOutArgs.EndLoc.Y	4	1	366	2	13
+175	__LineOutArgs.Options	5	1	368	4	13
+176	__RandomArgs	8	0	1	4	4
+177	__RandomArgs.Result	4	1	372	2	4
+178	__RBtnArgs	8	0	5	8	16
+179	__RBtnArgs.Result	2	1	376	1	16
+180	__RBtnArgs.Index	1	1	377	1	16
+181	__RBtnArgs.Pressed	1	1	378	1	16
+182	__RBtnArgs.Count	1	1	379	1	16
+183	__RBtnArgs.Reset	1	1	380	1	16
+184	__FWriteArgs	8	0	4	12	14
+185	__FWriteArgs.Result	3	1	384	2	14
+186	__FWriteArgs.FileHandle	1	1	386	1	14
+187	__FWriteArgs.Buffer	7	0	388	4	14
+188	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+189	__FWriteArgs.Length	5	1	392	4	14
+190	__TextOutArgs	8	0	4	16	132
+191	__TextOutArgs.Result	2	1	396	1	132
+192	__TextOutArgs.Location	8	0	2	4	132
+193	__TextOutArgs.Location.X	4	1	400	2	132
+194	__TextOutArgs.Location.Y	4	1	402	2	132
+195	__TextOutArgs.Text	7	0	404	4	132
+196	__TextOutArgs.Text.Text_type	1	0	0	1	0
+197	__TextOutArgs.Options	5	1	408	4	132
+198	__PointOutArgs	8	0	3	12	8
+199	__PointOutArgs.Result	2	1	412	1	8
+200	__PointOutArgs.Location	8	0	2	4	8
+201	__PointOutArgs.Location.X	4	1	416	2	8
+202	__PointOutArgs.Location.Y	4	1	418	2	8
+203	__PointOutArgs.Options	5	1	420	4	8
+204	__FOArgs	8	0	4	12	15
+205	__FOArgs.Result	3	1	424	2	15
+206	__FOArgs.FileHandle	1	1	426	1	15
+207	__FOArgs.Filename	7	0	428	4	15
+208	__FOArgs.Filename.Filename_type	1	0	0	1	0
+209	__FOArgs.Length	5	1	432	4	15
+210	__SPTArgs	8	0	5	8	30
+211	__SPTArgs.Result	2	1	436	1	30
+212	__SPTArgs.Frequency	3	1	438	2	30
+213	__SPTArgs.Duration	3	1	440	2	30
+214	__SPTArgs.Loop	1	1	442	1	30
+215	__SPTArgs.Volume	1	1	443	1	30
+216	__IOMWBIArgs	8	0	4	16	8
+217	__IOMWBIArgs.Result	2	1	444	1	8
+218	__IOMWBIArgs.ModuleID	5	1	448	4	8
+219	__IOMWBIArgs.Offset	3	1	452	2	8
+220	__IOMWBIArgs.Buffer	7	0	454	4	8
+221	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+222	__constStr0050	7	0	456	4	1
+223	__constStr0050.__constStr0050_type	1	1	0	1	0
+224	__constStr0048	7	0	458	4	1
+225	__constStr0048.__constStr0048_type	1	1	0	1	0
+226	__endGame_7qG2_readme_7qG2_000	7	0	460	4	5
+227	__endGame_7qG2_readme_7qG2_000.__endGame_7qG2_readme_7qG2_000_type	1	0	0	1	0
+228	__constStr0041	7	0	462	4	1
+229	__constStr0041.__constStr0041_type	1	1	0	1	0
+230	__constStr0042	7	0	464	4	1
+231	__constStr0042.__constStr0042_type	1	1	0	1	0
+232	__constStr0043	7	0	466	4	1
+233	__constStr0043.__constStr0043_type	1	1	0	1	0
+234	__constStr0046	7	0	468	4	1
+235	__constStr0046.__constStr0046_type	1	1	0	1	0
+236	__constStr0045	7	0	470	4	1
+237	__constStr0045.__constStr0045_type	1	1	0	1	0
+238	__constStr0049	7	0	472	4	1
+239	__constStr0049.__constStr0049_type	1	1	0	1	0
+240	__endGame_7qG2_show_7qG2_000	7	0	474	4	8
+241	__endGame_7qG2_show_7qG2_000.__endGame_7qG2_show_7qG2_000_type	1	0	0	1	0
+242	__constStr0044	7	0	476	4	2
+243	__constStr0044.__constStr0044_type	1	1	0	1	0
+244	__constStr0047	7	0	478	4	1
+245	__constStr0047.__constStr0047_type	1	1	0	1	0
+246	__constStr0040	7	0	480	4	1
+247	__constStr0040.__constStr0040_type	1	1	0	1	0
 248	__strbufmain	7	0	482	4	2
 249	__strbufmain.__strbufmain_type	1	0	0	1	0
 250	__strbufoutput	7	0	484	4	14
 251	__strbufoutput.__strbufoutput_type	1	0	0	1	0
-252	__strretvalendGame	7	0	486	4	16
-253	__strretvalendGame.__strretvalendGame_type	1	0	0	1	0
+252	__strretvaloutput	7	0	486	4	2
+253	__strretvaloutput.__strretvaloutput_type	1	0	0	1	0
 254	__strtmpbufkeyboard	7	0	488	4	10
 255	__strtmpbufkeyboard.__strtmpbufkeyboard_type	1	0	0	1	0
 256	__strbufkeyboard	7	0	490	4	48
 257	__strbufkeyboard.__strbufkeyboard_type	1	0	0	1	0
-258	__strretvaloutput	7	0	492	4	2
-259	__strretvaloutput.__strretvaloutput_type	1	0	0	1	0
-260	layout	7	0	494	4	3
-261	layout.layout_type	1	0	0	1	0
-262	__constStr0009	7	0	496	4	1
-263	__constStr0009.__constStr0009_type	1	1	0	1	0
-264	__constStr0010	7	0	498	4	1
-265	__constStr0010.__constStr0010_type	1	1	0	1	0
-266	__strbufreadHighName	7	0	500	4	4
-267	__strbufreadHighName.__strbufreadHighName_type	1	0	0	1	0
-268	__strbufwriteHighName	7	0	502	4	26
-269	__strbufwriteHighName.__strbufwriteHighName_type	1	0	0	1	0
-270	__strretvalwriteHighName	7	0	504	4	4
-271	__strretvalwriteHighName.__strretvalwriteHighName_type	1	0	0	1	0
-272	__RLSOutput	7	0	506	4	6
-273	__RLSOutput.__RLSOutput_type	1	0	0	1	0
-274	__FWriteFlattenBuf	7	0	508	4	4
-275	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
-276	__FWriteLn	7	0	510	4	2
-277	__FWriteLn.__FWriteLn_type	1	0	0	1	0
-278	__BlankLine	7	0	512	4	6
-279	__BlankLine.__BlankLine_type	1	0	0	1	0
-280	__IOMWFlattenBuf	7	0	514	4	4
-281	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
-282	__RLSBuffer	7	0	516	4	2
-283	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
-284	__ArrHelper__keyboard_244_0	7	0	518	4	8
-285	__ArrHelper__keyboard_244_0.__ArrHelper__keyboard_244_0_type	1	0	0	1	0
-286	__strbufdisplay	7	0	520	4	16
-287	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
-288	__strretvaldisplay	7	0	522	4	2
-289	__strretvaldisplay.__strretvaldisplay_type	1	0	0	1	0
-290	__strbufendGame	7	0	524	4	46
-291	__strbufendGame.__strbufendGame_type	1	0	0	1	0
-292	__ArrHelper__keyboard_244_1	7	0	526	4	4
-293	__ArrHelper__keyboard_244_1.__ArrHelper__keyboard_244_1_type	1	0	0	1	0
-294	__ArrHelper__endGame_244_0	7	0	528	4	8
-295	__ArrHelper__endGame_244_0.__ArrHelper__endGame_244_0_type	1	0	0	1	0
-296	__ArrHelper__endGame_244_1	7	0	530	4	8
-297	__ArrHelper__endGame_244_1.__ArrHelper__endGame_244_1_type	1	0	0	1	0
-298	__constStr0011	7	0	532	4	1
-299	__constStr0011.__constStr0011_type	1	1	0	1	0
-300	__writeHighName_7qG2_readme_7qG2_000	7	0	534	4	3
-301	__writeHighName_7qG2_readme_7qG2_000.__writeHighName_7qG2_readme_7qG2_000_type	1	0	0	1	0
-302	__writeHighName_7qG2_tempStr_7qG2_000	7	0	536	4	15
-303	__writeHighName_7qG2_tempStr_7qG2_000.__writeHighName_7qG2_tempStr_7qG2_000_type	1	0	0	1	0
-304	__constStr0033	7	0	538	4	1
-305	__constStr0033.__constStr0033_type	1	1	0	1	0
-306	__readHigh_7qG2_readme_7qG2_000	7	0	540	4	3
-307	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
-308	__readHighName_7qG2_readme_7qG2_000	7	0	542	4	2
-309	__readHighName_7qG2_readme_7qG2_000.__readHighName_7qG2_readme_7qG2_000_type	1	0	0	1	0
-310	__readHighName_7qG2_ARead_7qG2_000	7	0	544	4	4
-311	__readHighName_7qG2_ARead_7qG2_000.__readHighName_7qG2_ARead_7qG2_000_type	1	0	0	1	0
-312	__constStr0034	7	0	546	4	1
-313	__constStr0034.__constStr0034_type	1	1	0	1	0
-314	__constStr0038	7	0	548	4	1
-315	__constStr0038.__constStr0038_type	1	1	0	1	0
-316	__constStr0039	7	0	550	4	1
-317	__constStr0039.__constStr0039_type	1	1	0	1	0
-318	__constStr0040	7	0	552	4	1
-319	__constStr0040.__constStr0040_type	1	1	0	1	0
-320	__constStr0035	7	0	554	4	1
-321	__constStr0035.__constStr0035_type	1	1	0	1	0
-322	__constStr0036	7	0	556	4	1
-323	__constStr0036.__constStr0036_type	1	1	0	1	0
-324	__constStr0037	7	0	558	4	1
-325	__constStr0037.__constStr0037_type	1	1	0	1	0
-326	__constStr0015	7	0	560	4	1
-327	__constStr0015.__constStr0015_type	1	1	0	1	0
-328	__output_7qG2_out_7qG2_000	7	0	562	4	7
-329	__output_7qG2_out_7qG2_000.__output_7qG2_out_7qG2_000_type	1	0	0	1	0
-330	__constStr0016	7	0	564	4	4
-331	__constStr0016.__constStr0016_type	1	1	0	1	0
-332	__constStr0012	7	0	566	4	1
-333	__constStr0012.__constStr0012_type	1	1	0	1	0
-334	__constStr0013	7	0	568	4	1
-335	__constStr0013.__constStr0013_type	1	1	0	1	0
-336	__constStr0014	7	0	570	4	1
-337	__constStr0014.__constStr0014_type	1	1	0	1	0
-338	__constStr0017	7	0	572	4	2
-339	__constStr0017.__constStr0017_type	1	1	0	1	0
-340	__keyboard_7qG2_outstring_7qG2_000	7	0	574	4	8
-341	__keyboard_7qG2_outstring_7qG2_000.__keyboard_7qG2_outstring_7qG2_000_type	1	0	0	1	0
-342	__keyboard_7qG2_temp_7qG2_000	7	0	576	4	9
-343	__keyboard_7qG2_temp_7qG2_000.__keyboard_7qG2_temp_7qG2_000_type	1	0	0	1	0
-344	__constStr0032	7	0	578	4	1
-345	__constStr0032.__constStr0032_type	1	1	0	1	0
-346	__constStr0018	7	0	580	4	2
-347	__constStr0018.__constStr0018_type	1	1	0	1	0
-348	__constStr0019	7	0	582	4	2
-349	__constStr0019.__constStr0019_type	1	1	0	1	0
-350	__constStr0020	7	0	584	4	2
-351	__constStr0020.__constStr0020_type	1	1	0	1	0
+258	__strretvalkeyboard	7	0	492	4	10
+259	__strretvalkeyboard.__strretvalkeyboard_type	1	0	0	1	0
+260	__strbufreadHigh	7	0	494	4	4
+261	__strbufreadHigh.__strbufreadHigh_type	1	0	0	1	0
+262	layout	7	0	496	4	3
+263	layout.layout_type	1	0	0	1	0
+264	__constStr0009	7	0	498	4	1
+265	__constStr0009.__constStr0009_type	1	1	0	1	0
+266	__constStr0010	7	0	500	4	1
+267	__constStr0010.__constStr0010_type	1	1	0	1	0
+268	__strbufreadHighName	7	0	502	4	4
+269	__strbufreadHighName.__strbufreadHighName_type	1	0	0	1	0
+270	__strbufwriteHighName	7	0	504	4	26
+271	__strbufwriteHighName.__strbufwriteHighName_type	1	0	0	1	0
+272	__strretvalwriteHighName	7	0	506	4	4
+273	__strretvalwriteHighName.__strretvalwriteHighName_type	1	0	0	1	0
+274	__strretvalendGame	7	0	508	4	16
+275	__strretvalendGame.__strretvalendGame_type	1	0	0	1	0
+276	__RLSOutput	7	0	510	4	6
+277	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+278	__FWriteFlattenBuf	7	0	512	4	4
+279	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+280	__FWriteLn	7	0	514	4	2
+281	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+282	__BlankLine	7	0	516	4	6
+283	__BlankLine.__BlankLine_type	1	0	0	1	0
+284	__IOMWFlattenBuf	7	0	518	4	4
+285	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+286	__RLSBuffer	7	0	520	4	2
+287	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+288	__ArrHelper__keyboard_244_0	7	0	522	4	8
+289	__ArrHelper__keyboard_244_0.__ArrHelper__keyboard_244_0_type	1	0	0	1	0
+290	__strbufdisplay	7	0	524	4	16
+291	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
+292	__strretvaldisplay	7	0	526	4	2
+293	__strretvaldisplay.__strretvaldisplay_type	1	0	0	1	0
+294	__strbufendGame	7	0	528	4	46
+295	__strbufendGame.__strbufendGame_type	1	0	0	1	0
+296	__ArrHelper__keyboard_244_1	7	0	530	4	4
+297	__ArrHelper__keyboard_244_1.__ArrHelper__keyboard_244_1_type	1	0	0	1	0
+298	__ArrHelper__endGame_244_0	7	0	532	4	8
+299	__ArrHelper__endGame_244_0.__ArrHelper__endGame_244_0_type	1	0	0	1	0
+300	__ArrHelper__endGame_244_1	7	0	534	4	8
+301	__ArrHelper__endGame_244_1.__ArrHelper__endGame_244_1_type	1	0	0	1	0
+302	__readHighName_7qG2_ARead_7qG2_000	7	0	536	4	4
+303	__readHighName_7qG2_ARead_7qG2_000.__readHighName_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+304	__writeHighName_7qG2_readme_7qG2_000	7	0	538	4	3
+305	__writeHighName_7qG2_readme_7qG2_000.__writeHighName_7qG2_readme_7qG2_000_type	1	0	0	1	0
+306	__writeHighName_7qG2_tempStr_7qG2_000	7	0	540	4	15
+307	__writeHighName_7qG2_tempStr_7qG2_000.__writeHighName_7qG2_tempStr_7qG2_000_type	1	0	0	1	0
+308	__readHigh_7qG2_readme_7qG2_000	7	0	542	4	3
+309	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+310	__readHigh_7qG2_ARead_7qG2_000	7	0	544	4	3
+311	__readHigh_7qG2_ARead_7qG2_000.__readHigh_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+312	__readHighName_7qG2_readme_7qG2_000	7	0	546	4	2
+313	__readHighName_7qG2_readme_7qG2_000.__readHighName_7qG2_readme_7qG2_000_type	1	0	0	1	0
+314	__constStr0033	7	0	548	4	1
+315	__constStr0033.__constStr0033_type	1	1	0	1	0
+316	__constStr0037	7	0	550	4	1
+317	__constStr0037.__constStr0037_type	1	1	0	1	0
+318	__constStr0038	7	0	552	4	1
+319	__constStr0038.__constStr0038_type	1	1	0	1	0
+320	__constStr0039	7	0	554	4	1
+321	__constStr0039.__constStr0039_type	1	1	0	1	0
+322	__constStr0034	7	0	556	4	1
+323	__constStr0034.__constStr0034_type	1	1	0	1	0
+324	__constStr0035	7	0	558	4	1
+325	__constStr0035.__constStr0035_type	1	1	0	1	0
+326	__constStr0036	7	0	560	4	1
+327	__constStr0036.__constStr0036_type	1	1	0	1	0
+328	__constStr0032	7	0	562	4	1
+329	__constStr0032.__constStr0032_type	1	1	0	1	0
+330	__constStr0014	7	0	564	4	1
+331	__constStr0014.__constStr0014_type	1	1	0	1	0
+332	__constStr0015	7	0	566	4	1
+333	__constStr0015.__constStr0015_type	1	1	0	1	0
+334	__output_7qG2_out_7qG2_000	7	0	568	4	7
+335	__output_7qG2_out_7qG2_000.__output_7qG2_out_7qG2_000_type	1	0	0	1	0
+336	__constStr0011	7	0	570	4	1
+337	__constStr0011.__constStr0011_type	1	1	0	1	0
+338	__constStr0012	7	0	572	4	1
+339	__constStr0012.__constStr0012_type	1	1	0	1	0
+340	__constStr0013	7	0	574	4	1
+341	__constStr0013.__constStr0013_type	1	1	0	1	0
+342	__constStr0016	7	0	576	4	5
+343	__constStr0016.__constStr0016_type	1	1	0	1	0
+344	__constStr0020	7	0	578	4	2
+345	__constStr0020.__constStr0020_type	1	1	0	1	0
+346	__keyboard_7qG2_outstring_7qG2_000	7	0	580	4	8
+347	__keyboard_7qG2_outstring_7qG2_000.__keyboard_7qG2_outstring_7qG2_000_type	1	0	0	1	0
+348	__keyboard_7qG2_temp_7qG2_000	7	0	582	4	9
+349	__keyboard_7qG2_temp_7qG2_000.__keyboard_7qG2_temp_7qG2_000_type	1	0	0	1	0
+350	__constStr0017	7	0	584	4	2
+351	__constStr0017.__constStr0017_type	1	1	0	1	0
+352	__constStr0018	7	0	586	4	2
+353	__constStr0018.__constStr0018_type	1	1	0	1	0
+354	__constStr0019	7	0	588	4	2
+355	__constStr0019.__constStr0019_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	120	0	#line 120 "C:\Github\NXC_Source\+Highscore.nxc"
-0	121	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	120	2	#line 120 "C:\Github\NXC_Source\+Highscore.nxc"
-0	120	2	#line 120 "C:\Github\NXC_Source\+Highscore.nxc"
-0	121	2		set __D0main, 100
-0	120	5	#line 120 "C:\Github\NXC_Source\+Highscore.nxc"
-0	121	5	#pragma macro 7
-0	121	5		acquire __RandomMutex
-0	121	6		syscall 24, __RandomArgs
-0	121	9		add __RandomTmp, __RandomArgs.Result, __constVal32768
-0	121	13		mul __RandomTmp, __RandomTmp, __D0main
-0	121	17		div __RandomTmp, __RandomTmp, __constVal65536
-0	121	21		mov __D0main, __RandomTmp
-0	121	23		release __RandomMutex
-0	10646	24	#line 10646 "C:\Github\NXC_Source\+Highscore.nxc"
-0	120	24	#line 120 "C:\Github\NXC_Source\+Highscore.nxc"
-0	121	24		mov __main_7qG2_score_7qG2_000, __D0main
-0	121	26	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
-0	122	26		strcat __strbufmain, __constStr0050
-0	121	30	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
-0	122	30		mov __endGame_7qG2_readme_7qG2_000, __strbufmain
-0	121	32	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
-0	122	32		mov __endGame_7qG2_myscore_7qG2_000, __main_7qG2_score_7qG2_000
-0	121	34	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
-0	121	34	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
-0	122	34		subcall endGame, __endGame_return
-0	121	36	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
-0	122	36		exit -1, -1
+0	121	0	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
+0	122	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	121	2	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
+0	121	2	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
+0	122	2		set __D0main, 100
+0	121	5	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
+0	122	5	#pragma macro 7
+0	122	5		acquire __RandomMutex
+0	122	6		syscall 24, __RandomArgs
+0	122	9		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	122	13		mul __RandomTmp, __RandomTmp, __D0main
+0	122	17		div __RandomTmp, __RandomTmp, __constVal65536
+0	122	21		mov __D0main, __RandomTmp
+0	122	23		release __RandomMutex
+0	10657	24	#line 10657 "C:\Github\NXC_Source\+Highscore.nxc"
+0	121	24	#line 121 "C:\Github\NXC_Source\+Highscore.nxc"
+0	122	24		mov __main_7qG2_score_7qG2_000, __D0main
+0	122	26	#line 122 "C:\Github\NXC_Source\+Highscore.nxc"
+0	123	26		strcat __strbufmain, __constStr0050
+0	122	30	#line 122 "C:\Github\NXC_Source\+Highscore.nxc"
+0	123	30		mov __endGame_7qG2_readme_7qG2_000, __strbufmain
+0	122	32	#line 122 "C:\Github\NXC_Source\+Highscore.nxc"
+0	123	32		mov __endGame_7qG2_myscore_7qG2_000, __main_7qG2_score_7qG2_000
+0	122	34	#line 122 "C:\Github\NXC_Source\+Highscore.nxc"
+0	122	34	#line 122 "C:\Github\NXC_Source\+Highscore.nxc"
+0	123	34		subcall endGame, __endGame_return
+0	122	36	#line 122 "C:\Github\NXC_Source\+Highscore.nxc"
+0	123	36		exit -1, -1
 1	8903	0		arrinit __RLSOutput, __constVal0, __constVal1
 1	8904	4		set __RLSByteCount, 0
 1	8906	7		set __FReadArgs.Length, 1
@@ -2090,684 +2094,692 @@ Clump	Line	PC	Source
 5	170	751	#line 170 "C:\Github\NXC_Source\.\+TextInput.nxc"
 5	171	751		subret __keyboard_return
 6	9	0	#line 9 "C:\Github\NXC_Source\+Highscore.nxc"
-6	10	0		set __readHigh_7qG2_ARead_7qG2_000, 0
-6	9	3	#line 9 "C:\Github\NXC_Source\+Highscore.nxc"
-6	10	3	#line 10 "C:\Github\NXC_Source\+Highscore.nxc"
-6	11	3	#pragma macro 7
-6	11	3		acquire __FOMutex
-6	11	4		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
-6	11	6		syscall 0, __FOArgs
-6	11	9		mov hsfsize, __FOArgs.Length
-6	11	12		mov hshandle, __FOArgs.FileHandle
-6	11	15		mov __D0readHigh, __FOArgs.Result
-6	11	18		release __FOMutex
-6	9862	19	#line 9862 "C:\Github\NXC_Source\+Highscore.nxc"
-6	10	19	#line 10 "C:\Github\NXC_Source\+Highscore.nxc"
-6	11	19	#line 11 "C:\Github\NXC_Source\+Highscore.nxc"
-6	11	19	#line 11 "C:\Github\NXC_Source\+Highscore.nxc"
-6	12	19		mov __signed_stack_001readHigh, __D0readHigh
-6	12	21	#line 12 "C:\Github\NXC_Source\+Highscore.nxc"
-6	13	21		set __D0readHigh, 0
-6	12	24	#line 12 "C:\Github\NXC_Source\+Highscore.nxc"
-6	13	24		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
-6	13	28	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
-6	14	28		brtst 4, __ASM_Label_1057, __D0readHigh
-6	13	31	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
-6	14	31	#pragma macro 7
-6	14	31		acquire __FReadMutex
-6	14	32		mov __FReadArgs.FileHandle, hshandle
-6	14	34		mov __RLSMaxBytes, __constVal65535
-6	14	36		subcall __readStringLine, __RLSReturnAddress
-6	14	39		mov __D0readHigh, __RLSReturn
-6	14	41		mov __readHigh_7qG2_ARead_7qG2_000, __RLSOutput
-6	14	44		release __FReadMutex
-6	9882	45	#line 9882 "C:\Github\NXC_Source\+Highscore.nxc"
-6	13	45	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
-6	13	45	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
-6	14	45	#line 14 "C:\Github\NXC_Source\+Highscore.nxc"
-6	15	45	#pragma macro 5
-6	15	45		acquire __FCMutex
-6	15	46		mov __FCArgs.FileHandle, hshandle
-6	15	48		syscall 5, __FCArgs
-6	15	51		mov __D0readHigh, __FCArgs.Result
-6	15	54		release __FCMutex
-6	9886	55	#line 9886 "C:\Github\NXC_Source\+Highscore.nxc"
-6	14	55	#line 14 "C:\Github\NXC_Source\+Highscore.nxc"
-6	14	55	#line 14 "C:\Github\NXC_Source\+Highscore.nxc"
-6	16	55	#line 16 "C:\Github\NXC_Source\+Highscore.nxc"
-6	16	55	#line 16 "C:\Github\NXC_Source\+Highscore.nxc"
-6	17	55		mov __D0readHigh, __readHigh_7qG2_ARead_7qG2_000
-6	16	57	#line 16 "C:\Github\NXC_Source\+Highscore.nxc"
-6	17	57		subret __readHigh_return
-6	16	59	#line 16 "C:\Github\NXC_Source\+Highscore.nxc"
-6	19	59	#line 19 "C:\Github\NXC_Source\+Highscore.nxc"
-6	20	59		subret __readHigh_return
-7	21	0	#line 21 "C:\Github\NXC_Source\+Highscore.nxc"
-7	22	0		strcat __strbufreadHighName, __constStr0016
-7	21	4	#line 21 "C:\Github\NXC_Source\+Highscore.nxc"
-7	22	4		mov __readHighName_7qG2_ARead_7qG2_000, __strbufreadHighName
-7	22	6	#line 22 "C:\Github\NXC_Source\+Highscore.nxc"
-7	23	6	#pragma macro 7
-7	23	6		acquire __FOMutex
-7	23	7		mov __FOArgs.Filename, __readHighName_7qG2_readme_7qG2_000
-7	23	9		syscall 0, __FOArgs
-7	23	12		mov hsfsize, __FOArgs.Length
-7	23	15		mov hshandle, __FOArgs.FileHandle
-7	23	18		mov __D0readHighName, __FOArgs.Result
-7	23	21		release __FOMutex
-7	9920	22	#line 9920 "C:\Github\NXC_Source\+Highscore.nxc"
-7	22	22	#line 22 "C:\Github\NXC_Source\+Highscore.nxc"
+6	10	0		strcat __strbufreadHigh, __constStr0016
+6	9	4	#line 9 "C:\Github\NXC_Source\+Highscore.nxc"
+6	10	4		mov __readHigh_7qG2_ARead_7qG2_000, __strbufreadHigh
+6	10	6	#line 10 "C:\Github\NXC_Source\+Highscore.nxc"
+6	11	6	#pragma macro 7
+6	11	6		acquire __FOMutex
+6	11	7		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
+6	11	9		syscall 0, __FOArgs
+6	11	12		mov hsfsize, __FOArgs.Length
+6	11	15		mov hshandle, __FOArgs.FileHandle
+6	11	18		mov __D0readHigh, __FOArgs.Result
+6	11	21		release __FOMutex
+6	9862	22	#line 9862 "C:\Github\NXC_Source\+Highscore.nxc"
+6	10	22	#line 10 "C:\Github\NXC_Source\+Highscore.nxc"
+6	11	22		mov __readHigh_7qG2_result_7qG2_000, __D0readHigh
+6	11	24	#line 11 "C:\Github\NXC_Source\+Highscore.nxc"
+6	11	24	#line 11 "C:\Github\NXC_Source\+Highscore.nxc"
+6	12	24		mov __signed_stack_001readHigh, __D0readHigh
+6	12	26	#line 12 "C:\Github\NXC_Source\+Highscore.nxc"
+6	13	26		set __D0readHigh, 0
+6	12	29	#line 12 "C:\Github\NXC_Source\+Highscore.nxc"
+6	13	29		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
+6	13	33	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
+6	14	33		brtst 4, __ASM_Label_1055, __D0readHigh
+6	13	36	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
+6	14	36	#pragma macro 7
+6	14	36		acquire __FReadMutex
+6	14	37		mov __FReadArgs.FileHandle, hshandle
+6	14	39		mov __RLSMaxBytes, __constVal65535
+6	14	41		subcall __readStringLine, __RLSReturnAddress
+6	14	44		mov __D0readHigh, __RLSReturn
+6	14	46		mov __readHigh_7qG2_ARead_7qG2_000, __RLSOutput
+6	14	48		release __FReadMutex
+6	9882	49	#line 9882 "C:\Github\NXC_Source\+Highscore.nxc"
+6	13	49	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
+6	13	49	#line 13 "C:\Github\NXC_Source\+Highscore.nxc"
+6	14	49	#line 14 "C:\Github\NXC_Source\+Highscore.nxc"
+6	15	49	#pragma macro 5
+6	15	49		acquire __FCMutex
+6	15	50		mov __FCArgs.FileHandle, hshandle
+6	15	52		syscall 5, __FCArgs
+6	15	55		mov __D0readHigh, __FCArgs.Result
+6	15	58		release __FCMutex
+6	9886	59	#line 9886 "C:\Github\NXC_Source\+Highscore.nxc"
+6	14	59	#line 14 "C:\Github\NXC_Source\+Highscore.nxc"
+6	14	59	#line 14 "C:\Github\NXC_Source\+Highscore.nxc"
+6	15	59	#line 15 "C:\Github\NXC_Source\+Highscore.nxc"
+6	16	59		strcat __strbufreadHigh, __readHigh_7qG2_ARead_7qG2_000
+6	15	63	#line 15 "C:\Github\NXC_Source\+Highscore.nxc"
+6	16	63		strtonum __readHigh_7qG2_result_7qG2_000, __signed_stack_001readHigh, __strbufreadHigh, 65535, 65535
+6	15	69	#line 15 "C:\Github\NXC_Source\+Highscore.nxc"
+6	15	69	#line 15 "C:\Github\NXC_Source\+Highscore.nxc"
+6	17	69	#line 17 "C:\Github\NXC_Source\+Highscore.nxc"
+6	17	69	#line 17 "C:\Github\NXC_Source\+Highscore.nxc"
+6	18	69		mov __D0readHigh, __readHigh_7qG2_result_7qG2_000
+6	17	71	#line 17 "C:\Github\NXC_Source\+Highscore.nxc"
+6	18	71		subret __readHigh_return
+6	17	73	#line 17 "C:\Github\NXC_Source\+Highscore.nxc"
+6	20	73	#line 20 "C:\Github\NXC_Source\+Highscore.nxc"
+6	21	73		subret __readHigh_return
+7	22	0	#line 22 "C:\Github\NXC_Source\+Highscore.nxc"
+7	23	0		strcat __strbufreadHighName, __constStr0016
+7	22	4	#line 22 "C:\Github\NXC_Source\+Highscore.nxc"
+7	23	4		mov __readHighName_7qG2_ARead_7qG2_000, __strbufreadHighName
+7	23	6	#line 23 "C:\Github\NXC_Source\+Highscore.nxc"
+7	24	6	#pragma macro 7
+7	24	6		acquire __FOMutex
+7	24	7		mov __FOArgs.Filename, __readHighName_7qG2_readme_7qG2_000
+7	24	9		syscall 0, __FOArgs
+7	24	12		mov hsfsize, __FOArgs.Length
+7	24	15		mov hshandle, __FOArgs.FileHandle
+7	24	18		mov __D0readHighName, __FOArgs.Result
+7	24	21		release __FOMutex
+7	9931	22	#line 9931 "C:\Github\NXC_Source\+Highscore.nxc"
 7	23	22	#line 23 "C:\Github\NXC_Source\+Highscore.nxc"
-7	23	22	#line 23 "C:\Github\NXC_Source\+Highscore.nxc"
-7	24	22		mov __signed_stack_001readHighName, __D0readHighName
-7	24	24	#line 24 "C:\Github\NXC_Source\+Highscore.nxc"
-7	25	24		set __D0readHighName, 0
-7	24	27	#line 24 "C:\Github\NXC_Source\+Highscore.nxc"
-7	25	27		cmp 4, __D0readHighName, __signed_stack_001readHighName, __D0readHighName
-7	25	31	#line 25 "C:\Github\NXC_Source\+Highscore.nxc"
-7	26	31		brtst 4, __ASM_Label_1064, __D0readHighName
-7	25	34	#line 25 "C:\Github\NXC_Source\+Highscore.nxc"
-7	26	34	#pragma macro 7
-7	26	34		acquire __FReadMutex
-7	26	35		mov __FReadArgs.FileHandle, hshandle
-7	26	37		mov __RLSMaxBytes, __constVal65535
-7	26	39		subcall __readStringLine, __RLSReturnAddress
-7	26	42		mov __D0readHighName, __RLSReturn
-7	26	44		mov __readHighName_7qG2_ARead_7qG2_000, __RLSOutput
-7	26	46		release __FReadMutex
-7	9940	47	#line 9940 "C:\Github\NXC_Source\+Highscore.nxc"
-7	25	47	#line 25 "C:\Github\NXC_Source\+Highscore.nxc"
-7	25	47	#line 25 "C:\Github\NXC_Source\+Highscore.nxc"
+7	24	22	#line 24 "C:\Github\NXC_Source\+Highscore.nxc"
+7	24	22	#line 24 "C:\Github\NXC_Source\+Highscore.nxc"
+7	25	22		mov __signed_stack_001readHighName, __D0readHighName
+7	25	24	#line 25 "C:\Github\NXC_Source\+Highscore.nxc"
+7	26	24		set __D0readHighName, 0
+7	25	27	#line 25 "C:\Github\NXC_Source\+Highscore.nxc"
+7	26	27		cmp 4, __D0readHighName, __signed_stack_001readHighName, __D0readHighName
+7	26	31	#line 26 "C:\Github\NXC_Source\+Highscore.nxc"
+7	27	31		brtst 4, __ASM_Label_1064, __D0readHighName
+7	26	34	#line 26 "C:\Github\NXC_Source\+Highscore.nxc"
+7	27	34	#pragma macro 7
+7	27	34		acquire __FReadMutex
+7	27	35		mov __FReadArgs.FileHandle, hshandle
+7	27	37		mov __RLSMaxBytes, __constVal65535
+7	27	39		subcall __readStringLine, __RLSReturnAddress
+7	27	42		mov __D0readHighName, __RLSReturn
+7	27	44		mov __readHighName_7qG2_ARead_7qG2_000, __RLSOutput
+7	27	46		release __FReadMutex
+7	9951	47	#line 9951 "C:\Github\NXC_Source\+Highscore.nxc"
 7	26	47	#line 26 "C:\Github\NXC_Source\+Highscore.nxc"
-7	27	47	#pragma macro 7
-7	27	47		acquire __FReadMutex
-7	27	48		mov __FReadArgs.FileHandle, hshandle
-7	27	50		mov __RLSMaxBytes, __constVal65535
-7	27	52		subcall __readStringLine, __RLSReturnAddress
-7	27	55		mov __D0readHighName, __RLSReturn
-7	27	57		mov __readHighName_7qG2_ARead_7qG2_000, __RLSOutput
-7	27	59		release __FReadMutex
-7	9944	60	#line 9944 "C:\Github\NXC_Source\+Highscore.nxc"
-7	26	60	#line 26 "C:\Github\NXC_Source\+Highscore.nxc"
-7	26	60	#line 26 "C:\Github\NXC_Source\+Highscore.nxc"
+7	26	47	#line 26 "C:\Github\NXC_Source\+Highscore.nxc"
+7	27	47	#line 27 "C:\Github\NXC_Source\+Highscore.nxc"
+7	28	47	#pragma macro 7
+7	28	47		acquire __FReadMutex
+7	28	48		mov __FReadArgs.FileHandle, hshandle
+7	28	50		mov __RLSMaxBytes, __constVal65535
+7	28	52		subcall __readStringLine, __RLSReturnAddress
+7	28	55		mov __D0readHighName, __RLSReturn
+7	28	57		mov __readHighName_7qG2_ARead_7qG2_000, __RLSOutput
+7	28	59		release __FReadMutex
+7	9955	60	#line 9955 "C:\Github\NXC_Source\+Highscore.nxc"
 7	27	60	#line 27 "C:\Github\NXC_Source\+Highscore.nxc"
-7	28	60	#pragma macro 5
-7	28	60		acquire __FCMutex
-7	28	61		mov __FCArgs.FileHandle, hshandle
-7	28	63		syscall 5, __FCArgs
-7	28	66		mov __D0readHighName, __FCArgs.Result
-7	28	69		release __FCMutex
-7	9948	70	#line 9948 "C:\Github\NXC_Source\+Highscore.nxc"
-7	27	70	#line 27 "C:\Github\NXC_Source\+Highscore.nxc"
-7	27	70	#line 27 "C:\Github\NXC_Source\+Highscore.nxc"
-7	38	70	#line 38 "C:\Github\NXC_Source\+Highscore.nxc"
-7	38	70	#line 38 "C:\Github\NXC_Source\+Highscore.nxc"
-7	39	70		strcat __strbufreadHighName, __readHighName_7qG2_ARead_7qG2_000
-7	38	74	#line 38 "C:\Github\NXC_Source\+Highscore.nxc"
-7	39	74		subret __readHighName_return
-7	38	76	#line 38 "C:\Github\NXC_Source\+Highscore.nxc"
-7	43	76	#line 43 "C:\Github\NXC_Source\+Highscore.nxc"
-7	44	76		subret __readHighName_return
-8	54	0	#line 54 "C:\Github\NXC_Source\+Highscore.nxc"
-8	55	0	#pragma macro 5
-8	55	0		acquire __FDMutex
-8	55	1		mov __FDArgs.Filename, __writeHighName_7qG2_readme_7qG2_000
-8	55	4		syscall 8, __FDArgs
-8	55	7		mov __D0writeHighName, __FDArgs.Result
-8	55	10		release __FDMutex
-8	10015	11	#line 10015 "C:\Github\NXC_Source\+Highscore.nxc"
-8	54	11	#line 54 "C:\Github\NXC_Source\+Highscore.nxc"
-8	54	11	#line 54 "C:\Github\NXC_Source\+Highscore.nxc"
+7	27	60	#line 27 "C:\Github\NXC_Source\+Highscore.nxc"
+7	28	60	#line 28 "C:\Github\NXC_Source\+Highscore.nxc"
+7	29	60	#pragma macro 5
+7	29	60		acquire __FCMutex
+7	29	61		mov __FCArgs.FileHandle, hshandle
+7	29	63		syscall 5, __FCArgs
+7	29	66		mov __D0readHighName, __FCArgs.Result
+7	29	69		release __FCMutex
+7	9959	70	#line 9959 "C:\Github\NXC_Source\+Highscore.nxc"
+7	28	70	#line 28 "C:\Github\NXC_Source\+Highscore.nxc"
+7	28	70	#line 28 "C:\Github\NXC_Source\+Highscore.nxc"
+7	39	70	#line 39 "C:\Github\NXC_Source\+Highscore.nxc"
+7	39	70	#line 39 "C:\Github\NXC_Source\+Highscore.nxc"
+7	40	70		strcat __strbufreadHighName, __readHighName_7qG2_ARead_7qG2_000
+7	39	74	#line 39 "C:\Github\NXC_Source\+Highscore.nxc"
+7	40	74		subret __readHighName_return
+7	39	76	#line 39 "C:\Github\NXC_Source\+Highscore.nxc"
+7	44	76	#line 44 "C:\Github\NXC_Source\+Highscore.nxc"
+7	45	76		subret __readHighName_return
+8	55	0	#line 55 "C:\Github\NXC_Source\+Highscore.nxc"
+8	56	0	#pragma macro 5
+8	56	0		acquire __FDMutex
+8	56	1		mov __FDArgs.Filename, __writeHighName_7qG2_readme_7qG2_000
+8	56	4		syscall 8, __FDArgs
+8	56	7		mov __D0writeHighName, __FDArgs.Result
+8	56	10		release __FDMutex
+8	10026	11	#line 10026 "C:\Github\NXC_Source\+Highscore.nxc"
 8	55	11	#line 55 "C:\Github\NXC_Source\+Highscore.nxc"
-8	56	11	#pragma macro 7
-8	56	11		acquire __FOMutex
-8	56	12		mov __FOArgs.Filename, __writeHighName_7qG2_readme_7qG2_000
-8	56	14		mov __FOArgs.Length, __constVal1024
-8	56	17		syscall 1, __FOArgs
-8	56	20		mov hshandle, __FOArgs.FileHandle
-8	56	23		mov __D0writeHighName, __FOArgs.Result
-8	56	26		release __FOMutex
-8	10019	27	#line 10019 "C:\Github\NXC_Source\+Highscore.nxc"
-8	55	27	#line 55 "C:\Github\NXC_Source\+Highscore.nxc"
-8	55	27	#line 55 "C:\Github\NXC_Source\+Highscore.nxc"
+8	55	11	#line 55 "C:\Github\NXC_Source\+Highscore.nxc"
+8	56	11	#line 56 "C:\Github\NXC_Source\+Highscore.nxc"
+8	57	11	#pragma macro 7
+8	57	11		acquire __FOMutex
+8	57	12		mov __FOArgs.Filename, __writeHighName_7qG2_readme_7qG2_000
+8	57	14		mov __FOArgs.Length, __constVal1024
+8	57	17		syscall 1, __FOArgs
+8	57	20		mov hshandle, __FOArgs.FileHandle
+8	57	23		mov __D0writeHighName, __FOArgs.Result
+8	57	26		release __FOMutex
+8	10030	27	#line 10030 "C:\Github\NXC_Source\+Highscore.nxc"
 8	56	27	#line 56 "C:\Github\NXC_Source\+Highscore.nxc"
-8	57	27		mov __D0writeHighName, __writeHighName_7qG2_NewHighscore_7qG2_000
-8	56	29	#line 56 "C:\Github\NXC_Source\+Highscore.nxc"
-8	57	29		numtostr __strretvalwriteHighName, __D0writeHighName
-8	56	32	#line 56 "C:\Github\NXC_Source\+Highscore.nxc"
-8	57	32		strcat __strbufwriteHighName, __strretvalwriteHighName
-8	56	36	#line 56 "C:\Github\NXC_Source\+Highscore.nxc"
-8	57	36		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	59	38	#line 59 "C:\Github\NXC_Source\+Highscore.nxc"
-8	60	38	#pragma macro 9
-8	60	38		acquire __FWriteMutex
-8	60	39		mov __FWriteArgs.FileHandle, hshandle
-8	60	42		strtoarr __FWriteFlattenBuf, __writeHighName_7qG2_tempStr_7qG2_000
-8	60	45		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
-8	60	50		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
-8	60	53		syscall 4, __FWriteArgs
-8	60	56		mov __D0writeHighName, __FWriteArgs.Result
-8	60	59		mov hscount, __FWriteArgs.Length
-8	60	62		release __FWriteMutex
-8	10037	63	#line 10037 "C:\Github\NXC_Source\+Highscore.nxc"
-8	59	63	#line 59 "C:\Github\NXC_Source\+Highscore.nxc"
-8	59	63	#line 59 "C:\Github\NXC_Source\+Highscore.nxc"
-8	61	63	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	63		set __D0writeHighName, 0
-8	61	66	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	66		tst 5, __D0writeHighName, __D0writeHighName
-8	61	69	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	69		brtst 4, __ASM_Label_1071, __D0writeHighName
-8	61	72	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	72		subcall keyboard, __keyboard_return
-8	61	74	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	74		mov __strretvalwriteHighName, __strbufkeyboard
-8	61	76	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	76		strcat __strbufwriteHighName, __strretvalwriteHighName
-8	61	80	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	62	80		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	61	82	#line 61 "C:\Github\NXC_Source\+Highscore.nxc"
-8	64	82	#line 64 "C:\Github\NXC_Source\+Highscore.nxc"
-8	65	82		jmp __ASM_Label_1072
-8	64	84	#line 64 "C:\Github\NXC_Source\+Highscore.nxc"
-8	65	84		set __D0writeHighName, 11
-8	65	87	#line 65 "C:\Github\NXC_Source\+Highscore.nxc"
-8	66	87	#pragma macro 7
-8	66	87		acquire __RandomMutex
-8	66	88		syscall 24, __RandomArgs
-8	66	91		add __RandomTmp, __RandomArgs.Result, __constVal32768
-8	66	95		mul __RandomTmp, __RandomTmp, __D0writeHighName
-8	66	99		div __RandomTmp, __RandomTmp, __constVal65536
-8	66	103		mov __D0writeHighName, __RandomTmp
-8	66	105		release __RandomMutex
-8	10061	106	#line 10061 "C:\Github\NXC_Source\+Highscore.nxc"
-8	10064	106		brcmp 4, __ASM_Label_1078, __constVal0, __D0writeHighName
-8	10065	110		brcmp 4, __ASM_Label_1079, __constVal1, __D0writeHighName
-8	10066	114		brcmp 4, __ASM_Label_1080, __constVal2, __D0writeHighName
-8	10067	118		brcmp 4, __ASM_Label_1081, __constVal3, __D0writeHighName
-8	10068	122		brcmp 4, __ASM_Label_1082, __constVal4, __D0writeHighName
-8	10069	126		brcmp 4, __ASM_Label_1083, __constVal5, __D0writeHighName
-8	10070	130		brcmp 4, __ASM_Label_1084, __constVal6, __D0writeHighName
-8	10071	134		brcmp 4, __ASM_Label_1085, __constVal7, __D0writeHighName
-8	10072	138		brcmp 4, __ASM_Label_1086, __constVal8, __D0writeHighName
-8	10073	142		brcmp 4, __ASM_Label_1087, __constVal9, __D0writeHighName
-8	10074	146		jmp __ASM_Label_1088
-8	66	148	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
-8	66	148	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
-8	67	148		strcat __strbufwriteHighName, __constStr0033
-8	66	152	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
-8	67	152		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	66	154	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
-8	66	154	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
-8	67	154		jmp __ASM_Label_1077
-8	66	156	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
-8	67	156	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
-8	67	156	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
-8	68	156		strcat __strbufwriteHighName, __constStr0034
-8	67	160	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
-8	68	160		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	67	162	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
-8	67	162	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
-8	68	162		jmp __ASM_Label_1077
-8	67	164	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
-8	68	164	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
-8	68	164	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
-8	69	164		strcat __strbufwriteHighName, __constStr0035
-8	68	168	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
-8	69	168		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	68	170	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
-8	68	170	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
-8	69	170		jmp __ASM_Label_1077
-8	68	172	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
-8	69	172	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
-8	69	172	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
-8	70	172		strcat __strbufwriteHighName, __constStr0036
-8	69	176	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
-8	70	176		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	69	178	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
-8	69	178	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
-8	70	178		jmp __ASM_Label_1077
-8	69	180	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
-8	70	180	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
-8	70	180	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
-8	71	180		strcat __strbufwriteHighName, __constStr0037
-8	70	184	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
-8	71	184		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	70	186	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
-8	70	186	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
-8	71	186		jmp __ASM_Label_1077
-8	70	188	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
-8	71	188	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
-8	71	188	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
-8	72	188		strcat __strbufwriteHighName, __constStr0038
-8	71	192	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
-8	72	192		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	71	194	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
-8	71	194	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
-8	72	194		jmp __ASM_Label_1077
-8	71	196	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
-8	72	196	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
-8	72	196	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
-8	73	196		strcat __strbufwriteHighName, __constStr0039
-8	72	200	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
-8	73	200		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	72	202	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
-8	72	202	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
-8	73	202		jmp __ASM_Label_1077
-8	72	204	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
-8	73	204	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
-8	73	204	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
-8	74	204		strcat __strbufwriteHighName, __constStr0040
-8	73	208	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
-8	74	208		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	73	210	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
-8	73	210	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
-8	74	210		jmp __ASM_Label_1077
-8	73	212	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
-8	74	212	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
-8	74	212	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
-8	75	212		strcat __strbufwriteHighName, __constStr0041
-8	74	216	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
-8	75	216		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	74	218	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
-8	74	218	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
-8	75	218		jmp __ASM_Label_1077
-8	74	220	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
-8	75	220	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
-8	75	220	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	220		strcat __strbufwriteHighName, __constStr0042
-8	75	224	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	224		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	75	226	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
-8	75	226	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	226		jmp __ASM_Label_1077
-8	75	228	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	228	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	228	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
-8	77	228		strcat __strbufwriteHighName, __constStr0043
-8	76	232	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
-8	77	232		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
-8	76	234	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	234	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
-8	76	234	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
-8	79	234	#line 79 "C:\Github\NXC_Source\+Highscore.nxc"
-8	79	234	#line 79 "C:\Github\NXC_Source\+Highscore.nxc"
-8	79	234	#line 79 "C:\Github\NXC_Source\+Highscore.nxc"
-8	80	234	#pragma macro 9
-8	80	234		acquire __FWriteMutex
-8	80	235		mov __FWriteArgs.FileHandle, hshandle
-8	80	238		strtoarr __FWriteFlattenBuf, __writeHighName_7qG2_tempStr_7qG2_000
-8	80	241		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
-8	80	246		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
-8	80	249		syscall 4, __FWriteArgs
-8	80	252		mov __D0writeHighName, __FWriteArgs.Result
-8	80	255		mov hscount, __FWriteArgs.Length
-8	80	258		release __FWriteMutex
-8	10190	259	#line 10190 "C:\Github\NXC_Source\+Highscore.nxc"
-8	79	259	#line 79 "C:\Github\NXC_Source\+Highscore.nxc"
-8	79	259	#line 79 "C:\Github\NXC_Source\+Highscore.nxc"
-8	80	259	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
-8	81	259	#pragma macro 5
-8	81	259		acquire __FCMutex
-8	81	260		mov __FCArgs.FileHandle, hshandle
-8	81	262		syscall 5, __FCArgs
-8	81	265		mov __D0writeHighName, __FCArgs.Result
-8	81	268		release __FCMutex
-8	10194	269	#line 10194 "C:\Github\NXC_Source\+Highscore.nxc"
-8	80	269	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
-8	80	269	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
-8	86	269	#line 86 "C:\Github\NXC_Source\+Highscore.nxc"
-8	87	269		subret __writeHighName_return
+8	56	27	#line 56 "C:\Github\NXC_Source\+Highscore.nxc"
+8	57	27	#line 57 "C:\Github\NXC_Source\+Highscore.nxc"
+8	58	27		mov __D0writeHighName, __writeHighName_7qG2_NewHighscore_7qG2_000
+8	57	29	#line 57 "C:\Github\NXC_Source\+Highscore.nxc"
+8	58	29		numtostr __strretvalwriteHighName, __D0writeHighName
+8	57	32	#line 57 "C:\Github\NXC_Source\+Highscore.nxc"
+8	58	32		strcat __strbufwriteHighName, __strretvalwriteHighName
+8	57	36	#line 57 "C:\Github\NXC_Source\+Highscore.nxc"
+8	58	36		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	60	38	#line 60 "C:\Github\NXC_Source\+Highscore.nxc"
+8	61	38	#pragma macro 9
+8	61	38		acquire __FWriteMutex
+8	61	39		mov __FWriteArgs.FileHandle, hshandle
+8	61	41		strtoarr __FWriteFlattenBuf, __writeHighName_7qG2_tempStr_7qG2_000
+8	61	44		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+8	61	49		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+8	61	52		syscall 4, __FWriteArgs
+8	61	55		mov __D0writeHighName, __FWriteArgs.Result
+8	61	58		mov hscount, __FWriteArgs.Length
+8	61	61		release __FWriteMutex
+8	10048	62	#line 10048 "C:\Github\NXC_Source\+Highscore.nxc"
+8	60	62	#line 60 "C:\Github\NXC_Source\+Highscore.nxc"
+8	60	62	#line 60 "C:\Github\NXC_Source\+Highscore.nxc"
+8	62	62	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	62		set __D0writeHighName, 0
+8	62	65	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	65		tst 5, __D0writeHighName, __D0writeHighName
+8	62	68	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	68		brtst 4, __ASM_Label_1071, __D0writeHighName
+8	62	71	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	71		subcall keyboard, __keyboard_return
+8	62	73	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	73		mov __strretvalwriteHighName, __strbufkeyboard
+8	62	75	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	75		strcat __strbufwriteHighName, __strretvalwriteHighName
+8	62	79	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	63	79		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	62	81	#line 62 "C:\Github\NXC_Source\+Highscore.nxc"
+8	65	81	#line 65 "C:\Github\NXC_Source\+Highscore.nxc"
+8	66	81		jmp __ASM_Label_1072
+8	65	83	#line 65 "C:\Github\NXC_Source\+Highscore.nxc"
+8	66	83		set __D0writeHighName, 11
+8	66	86	#line 66 "C:\Github\NXC_Source\+Highscore.nxc"
+8	67	86	#pragma macro 7
+8	67	86		acquire __RandomMutex
+8	67	87		syscall 24, __RandomArgs
+8	67	90		add __RandomTmp, __RandomArgs.Result, __constVal32768
+8	67	94		mul __RandomTmp, __RandomTmp, __D0writeHighName
+8	67	98		div __RandomTmp, __RandomTmp, __constVal65536
+8	67	102		mov __D0writeHighName, __RandomTmp
+8	67	104		release __RandomMutex
+8	10072	105	#line 10072 "C:\Github\NXC_Source\+Highscore.nxc"
+8	10075	105		brcmp 4, __ASM_Label_1078, __constVal0, __D0writeHighName
+8	10076	109		brcmp 4, __ASM_Label_1079, __constVal1, __D0writeHighName
+8	10077	113		brcmp 4, __ASM_Label_1080, __constVal2, __D0writeHighName
+8	10078	117		brcmp 4, __ASM_Label_1081, __constVal3, __D0writeHighName
+8	10079	121		brcmp 4, __ASM_Label_1082, __constVal4, __D0writeHighName
+8	10080	125		brcmp 4, __ASM_Label_1083, __constVal5, __D0writeHighName
+8	10081	129		brcmp 4, __ASM_Label_1084, __constVal6, __D0writeHighName
+8	10082	133		brcmp 4, __ASM_Label_1085, __constVal7, __D0writeHighName
+8	10083	137		brcmp 4, __ASM_Label_1086, __constVal8, __D0writeHighName
+8	10084	141		brcmp 4, __ASM_Label_1087, __constVal9, __D0writeHighName
+8	10085	145		jmp __ASM_Label_1088
+8	67	147	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
+8	67	147	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
+8	68	147		strcat __strbufwriteHighName, __constStr0033
+8	67	151	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
+8	68	151		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	67	153	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
+8	67	153	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
+8	68	153		jmp __ASM_Label_1077
+8	67	155	#line 67 "C:\Github\NXC_Source\+Highscore.nxc"
+8	68	155	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
+8	68	155	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
+8	69	155		strcat __strbufwriteHighName, __constStr0034
+8	68	159	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
+8	69	159		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	68	161	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
+8	68	161	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
+8	69	161		jmp __ASM_Label_1077
+8	68	163	#line 68 "C:\Github\NXC_Source\+Highscore.nxc"
+8	69	163	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
+8	69	163	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
+8	70	163		strcat __strbufwriteHighName, __constStr0035
+8	69	167	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
+8	70	167		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	69	169	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
+8	69	169	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
+8	70	169		jmp __ASM_Label_1077
+8	69	171	#line 69 "C:\Github\NXC_Source\+Highscore.nxc"
+8	70	171	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
+8	70	171	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
+8	71	171		strcat __strbufwriteHighName, __constStr0036
+8	70	175	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
+8	71	175		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	70	177	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
+8	70	177	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
+8	71	177		jmp __ASM_Label_1077
+8	70	179	#line 70 "C:\Github\NXC_Source\+Highscore.nxc"
+8	71	179	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
+8	71	179	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
+8	72	179		strcat __strbufwriteHighName, __constStr0037
+8	71	183	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
+8	72	183		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	71	185	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
+8	71	185	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
+8	72	185		jmp __ASM_Label_1077
+8	71	187	#line 71 "C:\Github\NXC_Source\+Highscore.nxc"
+8	72	187	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
+8	72	187	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
+8	73	187		strcat __strbufwriteHighName, __constStr0038
+8	72	191	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
+8	73	191		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	72	193	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
+8	72	193	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
+8	73	193		jmp __ASM_Label_1077
+8	72	195	#line 72 "C:\Github\NXC_Source\+Highscore.nxc"
+8	73	195	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
+8	73	195	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
+8	74	195		strcat __strbufwriteHighName, __constStr0039
+8	73	199	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
+8	74	199		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	73	201	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
+8	73	201	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
+8	74	201		jmp __ASM_Label_1077
+8	73	203	#line 73 "C:\Github\NXC_Source\+Highscore.nxc"
+8	74	203	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
+8	74	203	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
+8	75	203		strcat __strbufwriteHighName, __constStr0040
+8	74	207	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
+8	75	207		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	74	209	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
+8	74	209	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
+8	75	209		jmp __ASM_Label_1077
+8	74	211	#line 74 "C:\Github\NXC_Source\+Highscore.nxc"
+8	75	211	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
+8	75	211	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
+8	76	211		strcat __strbufwriteHighName, __constStr0041
+8	75	215	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
+8	76	215		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	75	217	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
+8	75	217	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
+8	76	217		jmp __ASM_Label_1077
+8	75	219	#line 75 "C:\Github\NXC_Source\+Highscore.nxc"
+8	76	219	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
+8	76	219	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	219		strcat __strbufwriteHighName, __constStr0042
+8	76	223	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	223		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	76	225	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
+8	76	225	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	225		jmp __ASM_Label_1077
+8	76	227	#line 76 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	227	#line 77 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	227	#line 77 "C:\Github\NXC_Source\+Highscore.nxc"
+8	78	227		strcat __strbufwriteHighName, __constStr0043
+8	77	231	#line 77 "C:\Github\NXC_Source\+Highscore.nxc"
+8	78	231		mov __writeHighName_7qG2_tempStr_7qG2_000, __strbufwriteHighName
+8	77	233	#line 77 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	233	#line 77 "C:\Github\NXC_Source\+Highscore.nxc"
+8	77	233	#line 77 "C:\Github\NXC_Source\+Highscore.nxc"
+8	80	233	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
+8	80	233	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
+8	80	233	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
+8	81	233	#pragma macro 9
+8	81	233		acquire __FWriteMutex
+8	81	234		mov __FWriteArgs.FileHandle, hshandle
+8	81	236		strtoarr __FWriteFlattenBuf, __writeHighName_7qG2_tempStr_7qG2_000
+8	81	239		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+8	81	244		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+8	81	247		syscall 4, __FWriteArgs
+8	81	250		mov __D0writeHighName, __FWriteArgs.Result
+8	81	253		mov hscount, __FWriteArgs.Length
+8	81	256		release __FWriteMutex
+8	10201	257	#line 10201 "C:\Github\NXC_Source\+Highscore.nxc"
+8	80	257	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
+8	80	257	#line 80 "C:\Github\NXC_Source\+Highscore.nxc"
+8	81	257	#line 81 "C:\Github\NXC_Source\+Highscore.nxc"
+8	82	257	#pragma macro 5
+8	82	257		acquire __FCMutex
+8	82	258		mov __FCArgs.FileHandle, hshandle
+8	82	260		syscall 5, __FCArgs
+8	82	263		mov __D0writeHighName, __FCArgs.Result
+8	82	266		release __FCMutex
+8	10205	267	#line 10205 "C:\Github\NXC_Source\+Highscore.nxc"
+8	81	267	#line 81 "C:\Github\NXC_Source\+Highscore.nxc"
+8	81	267	#line 81 "C:\Github\NXC_Source\+Highscore.nxc"
+8	87	267	#line 87 "C:\Github\NXC_Source\+Highscore.nxc"
+8	88	267		subret __writeHighName_return
 9	6896	0	#line 6896 "NXCDefs.h"
 9	6897	0	#pragma macro 6
 9	6897	0		mov __PointOutArgs.Location.X, __constVal200
 9	6897	2		mov __PointOutArgs.Location.Y, __constVal200
 9	6897	4		mov __PointOutArgs.Options, __constVal1
 9	6897	6		syscall 14, __PointOutArgs
-9	10211	9	#line 10211 "NXCDefs.h"
+9	10222	9	#line 10222 "NXCDefs.h"
 9	6896	9	#line 6896 "NXCDefs.h"
-9	88	9	#line 88 "C:\Github\NXC_Source\+Highscore.nxc"
-9	90	9	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	9		strcat __strbufendGame, __constStr0044
-9	90	13	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	13		mov __ArrHelper__endGame_244_0, __strbufendGame
-9	90	15	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	15		mov __D0endGame, __endGame_7qG2_myscore_7qG2_000
-9	90	17	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	17		numtostr __strretvalendGame, __D0endGame
-9	90	20	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	20		strcat __strbufendGame, __strretvalendGame
-9	90	24	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	24		mov __ArrHelper__endGame_244_1, __strbufendGame
-9	90	26	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	26		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
-9	90	31	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	31		strcat __strbufendGame, __strretvalendGame
-9	90	35	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	35		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
-9	90	37	#line 90 "C:\Github\NXC_Source\+Highscore.nxc"
+9	89	9	#line 89 "C:\Github\NXC_Source\+Highscore.nxc"
+9	91	9	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	9		strcat __strbufendGame, __constStr0044
+9	91	13	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	13		mov __ArrHelper__endGame_244_0, __strbufendGame
+9	91	15	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	15		mov __D0endGame, __endGame_7qG2_myscore_7qG2_000
+9	91	17	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	17		numtostr __strretvalendGame, __D0endGame
+9	91	20	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	20		strcat __strbufendGame, __strretvalendGame
+9	91	24	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	24		mov __ArrHelper__endGame_244_1, __strbufendGame
+9	91	26	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	26		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
+9	91	31	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	31		strcat __strbufendGame, __strretvalendGame
+9	91	35	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	35		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
 9	91	37	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	37		set __signed_stack_001endGame, 0
-9	91	40	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	40	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	40		set __signed_stack_002endGame, 0
-9	91	43	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	91	43	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	43		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
-9	91	47	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	47		set __D0endGame, 0
-9	91	50	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	50		acquire __TextOutMutex
-9	91	51	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	51		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	91	54	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	54		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	91	57	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	57		mov __TextOutArgs.Options, __D0endGame
-9	91	60	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	60		mov __TextOutArgs.Text, __strbufendGame
-9	91	62	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	62		syscall 13, __TextOutArgs
-9	91	65	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	65		mov __D0endGame, __TextOutArgs.Result
-9	91	68	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	92	68		release __TextOutMutex
-9	91	69	#line 91 "C:\Github\NXC_Source\+Highscore.nxc"
-9	93	69	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	69		set __signed_stack_001endGame, 25
-9	93	72	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	93	72	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	72		set __signed_stack_002endGame, 32
-9	93	75	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	93	75	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	75		strcat __strbufendGame, __constStr0045
-9	93	79	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	79		set __D0endGame, 0
-9	93	82	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	82		acquire __TextOutMutex
-9	93	83	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	83		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	93	86	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	86		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	93	89	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	89		mov __TextOutArgs.Options, __D0endGame
-9	93	92	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	92		mov __TextOutArgs.Text, __strbufendGame
-9	93	94	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	94		syscall 13, __TextOutArgs
-9	93	97	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	97		mov __D0endGame, __TextOutArgs.Result
-9	93	100	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	100		release __TextOutMutex
-9	93	101	#line 93 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	37	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	37		set __signed_stack_001endGame, 0
+9	92	40	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	40	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	40		set __signed_stack_002endGame, 0
+9	92	43	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	92	43	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	43		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
+9	92	47	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	47		set __D0endGame, 0
+9	92	50	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	50		acquire __TextOutMutex
+9	92	51	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	51		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	92	54	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	54		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	92	57	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	57		mov __TextOutArgs.Options, __D0endGame
+9	92	60	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	60		mov __TextOutArgs.Text, __strbufendGame
+9	92	62	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	62		syscall 13, __TextOutArgs
+9	92	65	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	65		mov __D0endGame, __TextOutArgs.Result
+9	92	68	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	93	68		release __TextOutMutex
+9	92	69	#line 92 "C:\Github\NXC_Source\+Highscore.nxc"
+9	94	69	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	69		set __signed_stack_001endGame, 25
+9	94	72	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	94	72	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	72		set __signed_stack_002endGame, 32
+9	94	75	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	94	75	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	75		strcat __strbufendGame, __constStr0045
+9	94	79	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	79		set __D0endGame, 0
+9	94	82	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	82		acquire __TextOutMutex
+9	94	83	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	83		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	94	86	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	86		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	94	89	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	89		mov __TextOutArgs.Options, __D0endGame
+9	94	92	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	92		mov __TextOutArgs.Text, __strbufendGame
+9	94	94	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	94		syscall 13, __TextOutArgs
+9	94	97	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	97		mov __D0endGame, __TextOutArgs.Result
+9	94	100	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	100		release __TextOutMutex
 9	94	101	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
-9	95	101		mov __signed_stack_001endGame, __endGame_7qG2_myscore_7qG2_000
-9	94	103	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
-9	94	103	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
-9	95	103		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
-9	94	107	#line 94 "C:\Github\NXC_Source\+Highscore.nxc"
-9	95	107		mov __readHigh_7qG2_readme_7qG2_000, __strbufendGame
-9	95	109	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
-9	96	109		subcall readHigh, __readHigh_return
-9	95	111	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
-9	96	111		mov __D0endGame, __D0readHigh
-9	95	113	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
-9	96	113		cmp 1, __D0endGame, __signed_stack_001endGame, __D0endGame
-9	96	117	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	117		brtst 4, __ASM_Label_1105, __D0endGame
-9	96	120	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	120		set __signed_stack_001endGame, 0
-9	96	123	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	96	123	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	123		set __signed_stack_002endGame, 56
-9	96	126	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	96	126	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	126		strcat __strbufendGame, __constStr0046
-9	96	130	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	130		set __D0endGame, 0
-9	96	133	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	133		acquire __TextOutMutex
-9	96	134	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	134		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	96	137	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	137		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	96	140	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	140		mov __TextOutArgs.Options, __D0endGame
-9	96	143	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	143		mov __TextOutArgs.Text, __strbufendGame
-9	96	145	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	145		syscall 13, __TextOutArgs
-9	96	148	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	148		mov __D0endGame, __TextOutArgs.Result
-9	96	151	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	97	151		release __TextOutMutex
-9	96	152	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
-9	98	152	#line 98 "C:\Github\NXC_Source\+Highscore.nxc"
-9	99	152		set __Wait_7qG2_ms_7qG2_000_inline_endGame, 1500
-9	98	155	#line 98 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	101	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
+9	96	101		mov __signed_stack_001endGame, __endGame_7qG2_myscore_7qG2_000
+9	95	103	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
+9	95	103	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
+9	96	103		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
+9	95	107	#line 95 "C:\Github\NXC_Source\+Highscore.nxc"
+9	96	107		mov __readHigh_7qG2_readme_7qG2_000, __strbufendGame
+9	96	109	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
+9	97	109		subcall readHigh, __readHigh_return
+9	96	111	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
+9	97	111		mov __D0endGame, __D0readHigh
+9	96	113	#line 96 "C:\Github\NXC_Source\+Highscore.nxc"
+9	97	113		cmp 1, __D0endGame, __signed_stack_001endGame, __D0endGame
+9	97	117	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	117		brtst 4, __ASM_Label_1105, __D0endGame
+9	97	120	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	120		set __signed_stack_001endGame, 0
+9	97	123	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	97	123	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	123		set __signed_stack_002endGame, 56
+9	97	126	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	97	126	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	126		strcat __strbufendGame, __constStr0046
+9	97	130	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	130		set __D0endGame, 0
+9	97	133	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	133		acquire __TextOutMutex
+9	97	134	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	134		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	97	137	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	137		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	97	140	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	140		mov __TextOutArgs.Options, __D0endGame
+9	97	143	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	143		mov __TextOutArgs.Text, __strbufendGame
+9	97	145	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	145		syscall 13, __TextOutArgs
+9	97	148	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	148		mov __D0endGame, __TextOutArgs.Result
+9	97	151	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	98	151		release __TextOutMutex
+9	97	152	#line 97 "C:\Github\NXC_Source\+Highscore.nxc"
+9	99	152	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
+9	100	152		set __Wait_7qG2_ms_7qG2_000_inline_endGame, 1500
+9	99	155	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
 9	8771	155	#line 8771 "NXCDefs.h"
 9	8772	155		waitv __Wait_7qG2_ms_7qG2_000_inline_endGame
 9	8771	157	#line 8771 "NXCDefs.h"
-9	98	157	#line 98 "C:\Github\NXC_Source\+Highscore.nxc"
 9	99	157	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
-9	100	157		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
-9	99	161	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
-9	100	161		mov __writeHighName_7qG2_readme_7qG2_000, __strbufendGame
-9	99	163	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
-9	100	163		mov __writeHighName_7qG2_NewHighscore_7qG2_000, __endGame_7qG2_myscore_7qG2_000
-9	99	165	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
-9	99	165	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
-9	100	165		subcall writeHighName, __writeHighName_return
-9	99	167	#line 99 "C:\Github\NXC_Source\+Highscore.nxc"
+9	100	157	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
+9	101	157		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
+9	100	161	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
+9	101	161		mov __writeHighName_7qG2_readme_7qG2_000, __strbufendGame
+9	100	163	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
+9	101	163		mov __writeHighName_7qG2_NewHighscore_7qG2_000, __endGame_7qG2_myscore_7qG2_000
+9	100	165	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
+9	100	165	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
+9	101	165		subcall writeHighName, __writeHighName_return
+9	100	167	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
 9	6896	167	#line 6896 "NXCDefs.h"
 9	6897	167	#pragma macro 6
 9	6897	167		mov __PointOutArgs.Location.X, __constVal200
 9	6897	169		mov __PointOutArgs.Location.Y, __constVal200
 9	6897	171		mov __PointOutArgs.Options, __constVal1
 9	6897	173		syscall 14, __PointOutArgs
-9	10388	176	#line 10388 "NXCDefs.h"
+9	10399	176	#line 10399 "NXCDefs.h"
 9	6896	176	#line 6896 "NXCDefs.h"
-9	100	176	#line 100 "C:\Github\NXC_Source\+Highscore.nxc"
-9	104	176	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	176		jmp __ASM_Label_1116
-9	104	178	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	178		set __signed_stack_001endGame, 0
-9	104	181	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	104	181	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	181		set __signed_stack_002endGame, 56
-9	104	184	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	104	184	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	184		strcat __strbufendGame, __constStr0047
-9	104	188	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	188		set __D0endGame, 0
-9	104	191	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	191		acquire __TextOutMutex
-9	104	192	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	192		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	104	195	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	195		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	104	198	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	198		mov __TextOutArgs.Options, __D0endGame
-9	104	201	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	201		mov __TextOutArgs.Text, __strbufendGame
-9	104	203	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	203		syscall 13, __TextOutArgs
-9	104	206	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	206		mov __D0endGame, __TextOutArgs.Result
-9	104	209	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
-9	105	209		release __TextOutMutex
-9	104	210	#line 104 "C:\Github\NXC_Source\+Highscore.nxc"
+9	101	176	#line 101 "C:\Github\NXC_Source\+Highscore.nxc"
+9	105	176	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	176		jmp __ASM_Label_1116
+9	105	178	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	178		set __signed_stack_001endGame, 0
+9	105	181	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	105	181	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	181		set __signed_stack_002endGame, 56
+9	105	184	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	105	184	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	184		strcat __strbufendGame, __constStr0047
+9	105	188	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	188		set __D0endGame, 0
+9	105	191	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	191		acquire __TextOutMutex
+9	105	192	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	192		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	105	195	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	195		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	105	198	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	198		mov __TextOutArgs.Options, __D0endGame
+9	105	201	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	201		mov __TextOutArgs.Text, __strbufendGame
+9	105	203	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	203		syscall 13, __TextOutArgs
+9	105	206	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	206		mov __D0endGame, __TextOutArgs.Result
+9	105	209	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	209		release __TextOutMutex
 9	105	210	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
-9	106	210		set __Wait_7qG2_ms_7qG2_000_inline_endGame, 1500
-9	105	213	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	210	#line 106 "C:\Github\NXC_Source\+Highscore.nxc"
+9	107	210		set __Wait_7qG2_ms_7qG2_000_inline_endGame, 1500
+9	106	213	#line 106 "C:\Github\NXC_Source\+Highscore.nxc"
 9	8771	213	#line 8771 "NXCDefs.h"
 9	8772	213		waitv __Wait_7qG2_ms_7qG2_000_inline_endGame
 9	8771	215	#line 8771 "NXCDefs.h"
-9	105	215	#line 105 "C:\Github\NXC_Source\+Highscore.nxc"
-9	108	215	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	108	215	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	215		strcat __strbufendGame, __constStr0044
-9	108	219	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	219		mov __ArrHelper__endGame_244_0, __strbufendGame
-9	108	221	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	221		mov __D0endGame, __endGame_7qG2_myscore_7qG2_000
-9	108	223	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	223		numtostr __strretvalendGame, __D0endGame
-9	108	226	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	226		strcat __strbufendGame, __strretvalendGame
-9	108	230	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	230		mov __ArrHelper__endGame_244_1, __strbufendGame
-9	108	232	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	232		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
-9	108	237	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	237		strcat __strbufendGame, __strretvalendGame
-9	108	241	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	241		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
-9	108	243	#line 108 "C:\Github\NXC_Source\+Highscore.nxc"
+9	106	215	#line 106 "C:\Github\NXC_Source\+Highscore.nxc"
+9	109	215	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	109	215	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	215		strcat __strbufendGame, __constStr0044
+9	109	219	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	219		mov __ArrHelper__endGame_244_0, __strbufendGame
+9	109	221	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	221		mov __D0endGame, __endGame_7qG2_myscore_7qG2_000
+9	109	223	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	223		numtostr __strretvalendGame, __D0endGame
+9	109	226	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	226		strcat __strbufendGame, __strretvalendGame
+9	109	230	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	230		mov __ArrHelper__endGame_244_1, __strbufendGame
+9	109	232	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	232		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
+9	109	237	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	237		strcat __strbufendGame, __strretvalendGame
+9	109	241	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	241		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
 9	109	243	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	243		set __signed_stack_001endGame, 0
-9	109	246	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	246	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	246		set __signed_stack_002endGame, 0
-9	109	249	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	109	249	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	249		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
-9	109	253	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	253		set __D0endGame, 0
-9	109	256	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	256		acquire __TextOutMutex
-9	109	257	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	257		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	109	260	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	260		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	109	263	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	263		mov __TextOutArgs.Options, __D0endGame
-9	109	266	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	266		mov __TextOutArgs.Text, __strbufendGame
-9	109	268	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	268		syscall 13, __TextOutArgs
-9	109	271	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	271		mov __D0endGame, __TextOutArgs.Result
-9	109	274	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
-9	110	274		release __TextOutMutex
-9	109	275	#line 109 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	243	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	243		set __signed_stack_001endGame, 0
+9	110	246	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	246	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	246		set __signed_stack_002endGame, 0
+9	110	249	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	110	249	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	249		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
+9	110	253	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	253		set __D0endGame, 0
+9	110	256	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	256		acquire __TextOutMutex
+9	110	257	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	257		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	110	260	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	260		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	110	263	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	263		mov __TextOutArgs.Options, __D0endGame
+9	110	266	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	266		mov __TextOutArgs.Text, __strbufendGame
+9	110	268	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	268		syscall 13, __TextOutArgs
+9	110	271	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	271		mov __D0endGame, __TextOutArgs.Result
+9	110	274	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	274		release __TextOutMutex
 9	110	275	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	275		strcat __strbufendGame, __constStr0048
-9	110	279	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	279		mov __ArrHelper__endGame_244_0, __strbufendGame
-9	110	281	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	281		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
-9	110	285	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	285		mov __readHigh_7qG2_readme_7qG2_000, __strbufendGame
-9	110	287	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	287		subcall readHigh, __readHigh_return
-9	110	289	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	289		mov __D0endGame, __D0readHigh
-9	110	291	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	291		numtostr __strretvalendGame, __D0endGame
-9	110	294	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	294		strcat __strbufendGame, __strretvalendGame
-9	110	298	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	298		mov __ArrHelper__endGame_244_1, __strbufendGame
-9	110	300	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	300		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
-9	110	305	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	305		strcat __strbufendGame, __strretvalendGame
-9	110	309	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	309		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
-9	110	311	#line 110 "C:\Github\NXC_Source\+Highscore.nxc"
+9	111	275	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	275		strcat __strbufendGame, __constStr0048
+9	111	279	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	279		mov __ArrHelper__endGame_244_0, __strbufendGame
+9	111	281	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	281		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
+9	111	285	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	285		mov __readHigh_7qG2_readme_7qG2_000, __strbufendGame
+9	111	287	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	287		subcall readHigh, __readHigh_return
+9	111	289	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	289		mov __D0endGame, __D0readHigh
+9	111	291	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	291		numtostr __strretvalendGame, __D0endGame
+9	111	294	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	294		strcat __strbufendGame, __strretvalendGame
+9	111	298	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	298		mov __ArrHelper__endGame_244_1, __strbufendGame
+9	111	300	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	300		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
+9	111	305	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	305		strcat __strbufendGame, __strretvalendGame
+9	111	309	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	309		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
 9	111	311	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	311		set __signed_stack_001endGame, 0
-9	111	314	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	314	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	314		set __signed_stack_002endGame, 8
-9	111	317	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	111	317	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	317		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
-9	111	321	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	321		set __D0endGame, 0
-9	111	324	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	324		acquire __TextOutMutex
-9	111	325	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	325		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	111	328	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	328		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	111	331	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	331		mov __TextOutArgs.Options, __D0endGame
-9	111	334	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	334		mov __TextOutArgs.Text, __strbufendGame
-9	111	336	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	336		syscall 13, __TextOutArgs
-9	111	339	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	339		mov __D0endGame, __TextOutArgs.Result
-9	111	342	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
-9	112	342		release __TextOutMutex
-9	111	343	#line 111 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	311	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	311		set __signed_stack_001endGame, 0
+9	112	314	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	314	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	314		set __signed_stack_002endGame, 8
+9	112	317	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	112	317	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	317		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
+9	112	321	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	321		set __D0endGame, 0
+9	112	324	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	324		acquire __TextOutMutex
+9	112	325	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	325		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	112	328	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	328		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	112	331	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	331		mov __TextOutArgs.Options, __D0endGame
+9	112	334	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	334		mov __TextOutArgs.Text, __strbufendGame
+9	112	336	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	336		syscall 13, __TextOutArgs
+9	112	339	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	339		mov __D0endGame, __TextOutArgs.Result
+9	112	342	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	342		release __TextOutMutex
 9	112	343	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	343		strcat __strbufendGame, __constStr0049
-9	112	347	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	347		mov __ArrHelper__endGame_244_0, __strbufendGame
-9	112	349	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	349		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
-9	112	353	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	353		mov __readHighName_7qG2_readme_7qG2_000, __strbufendGame
-9	112	355	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	355		subcall readHighName, __readHighName_return
-9	112	357	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	357		mov __strretvalendGame, __strbufreadHighName
-9	112	359	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	359		strcat __strbufendGame, __strretvalendGame
-9	112	363	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	363		mov __ArrHelper__endGame_244_1, __strbufendGame
-9	112	365	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	365		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
-9	112	370	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	370		strcat __strbufendGame, __strretvalendGame
-9	112	374	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	374		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
-9	112	376	#line 112 "C:\Github\NXC_Source\+Highscore.nxc"
+9	113	343	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	343		strcat __strbufendGame, __constStr0049
+9	113	347	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	347		mov __ArrHelper__endGame_244_0, __strbufendGame
+9	113	349	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	349		strcat __strbufendGame, __endGame_7qG2_readme_7qG2_000
+9	113	353	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	353		mov __readHighName_7qG2_readme_7qG2_000, __strbufendGame
+9	113	355	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	355		subcall readHighName, __readHighName_return
+9	113	357	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	357		mov __strretvalendGame, __strbufreadHighName
+9	113	359	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	359		strcat __strbufendGame, __strretvalendGame
+9	113	363	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	363		mov __ArrHelper__endGame_244_1, __strbufendGame
+9	113	365	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	365		strcat __strretvalendGame, __ArrHelper__endGame_244_0, __ArrHelper__endGame_244_1
+9	113	370	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	370		strcat __strbufendGame, __strretvalendGame
+9	113	374	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	374		mov __endGame_7qG2_show_7qG2_000, __strbufendGame
 9	113	376	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	376		set __signed_stack_001endGame, 0
-9	113	379	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	379	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	379		set __signed_stack_002endGame, 16
-9	113	382	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	113	382	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	382		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
-9	113	386	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	386		set __D0endGame, 0
-9	113	389	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	389		acquire __TextOutMutex
-9	113	390	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	390		mov __TextOutArgs.Location.X, __signed_stack_001endGame
-9	113	393	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	393		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
-9	113	396	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	396		mov __TextOutArgs.Options, __D0endGame
-9	113	399	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	399		mov __TextOutArgs.Text, __strbufendGame
-9	113	401	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	401		syscall 13, __TextOutArgs
-9	113	404	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	404		mov __D0endGame, __TextOutArgs.Result
-9	113	407	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	114	407		release __TextOutMutex
-9	113	408	#line 113 "C:\Github\NXC_Source\+Highscore.nxc"
-9	115	408	#line 115 "C:\Github\NXC_Source\+Highscore.nxc"
-9	116	408		set __D0endGame, 1
-9	115	411	#line 115 "C:\Github\NXC_Source\+Highscore.nxc"
-9	116	411		tst 5, __D0endGame, __D0endGame
-9	115	414	#line 115 "C:\Github\NXC_Source\+Highscore.nxc"
-9	116	414		brtst 4, __ASM_Label_1148, __D0endGame
-9	118	417	#line 118 "C:\Github\NXC_Source\+Highscore.nxc"
-9	119	417		jmp __ASM_Label_1147
-9	118	419	#line 118 "C:\Github\NXC_Source\+Highscore.nxc"
-9	118	419	#line 118 "C:\Github\NXC_Source\+Highscore.nxc"
-9	119	419		subret __endGame_return
-10	125	0	#line 125 "C:\Github\NXC_Source\+Highscore.nxc"
-10	126	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
-10	125	43	#line 125 "C:\Github\NXC_Source\+Highscore.nxc"
-10	126	43		subret ____initialize_global_data_return
+9	114	376	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	376		set __signed_stack_001endGame, 0
+9	114	379	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	379	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	379		set __signed_stack_002endGame, 16
+9	114	382	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	114	382	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	382		strcat __strbufendGame, __endGame_7qG2_show_7qG2_000
+9	114	386	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	386		set __D0endGame, 0
+9	114	389	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	389		acquire __TextOutMutex
+9	114	390	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	390		mov __TextOutArgs.Location.X, __signed_stack_001endGame
+9	114	393	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	393		mov __TextOutArgs.Location.Y, __signed_stack_002endGame
+9	114	396	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	396		mov __TextOutArgs.Options, __D0endGame
+9	114	399	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	399		mov __TextOutArgs.Text, __strbufendGame
+9	114	401	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	401		syscall 13, __TextOutArgs
+9	114	404	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	404		mov __D0endGame, __TextOutArgs.Result
+9	114	407	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	115	407		release __TextOutMutex
+9	114	408	#line 114 "C:\Github\NXC_Source\+Highscore.nxc"
+9	116	408	#line 116 "C:\Github\NXC_Source\+Highscore.nxc"
+9	117	408		set __D0endGame, 1
+9	116	411	#line 116 "C:\Github\NXC_Source\+Highscore.nxc"
+9	117	411		tst 5, __D0endGame, __D0endGame
+9	116	414	#line 116 "C:\Github\NXC_Source\+Highscore.nxc"
+9	117	414		brtst 4, __ASM_Label_1148, __D0endGame
+9	119	417	#line 119 "C:\Github\NXC_Source\+Highscore.nxc"
+9	120	417		jmp __ASM_Label_1147
+9	119	419	#line 119 "C:\Github\NXC_Source\+Highscore.nxc"
+9	119	419	#line 119 "C:\Github\NXC_Source\+Highscore.nxc"
+9	120	419		subret __endGame_return
+10	126	0	#line 126 "C:\Github\NXC_Source\+Highscore.nxc"
+10	127	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+10	126	43	#line 126 "C:\Github\NXC_Source\+Highscore.nxc"
+10	127	43		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\+Highscore.nxc
@@ -2777,7 +2789,7 @@ Clump	Name	Offset	File
 4	senseButtonModded	1084	C:\Github\NXC_Source\.\+TextInput.nxc
 5	keyboard	1305	C:\Github\NXC_Source\.\+TextInput.nxc
 6	readHigh	2058	C:\Github\NXC_Source\+Highscore.nxc
-7	readHighName	2119	C:\Github\NXC_Source\+Highscore.nxc
-8	writeHighName	2197	C:\Github\NXC_Source\+Highscore.nxc
-9	endGame	2468	C:\Github\NXC_Source\+Highscore.nxc
-10	__initialize_global_data	2889	C:\Github\NXC_Source\+Highscore.nxc
+7	readHighName	2133	C:\Github\NXC_Source\+Highscore.nxc
+8	writeHighName	2211	C:\Github\NXC_Source\+Highscore.nxc
+9	endGame	2480	C:\Github\NXC_Source\+Highscore.nxc
+10	__initialize_global_data	2901	C:\Github\NXC_Source\+Highscore.nxc
