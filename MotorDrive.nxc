@@ -1,32 +1,27 @@
 //Motor Drive
+#include "+Button+-.nxc"
 task main()
+  {
+  TextOut(16,LCD_LINE1,"Motor Drive",0);
+  int speed=50;
+  bool fwd=true;
+  string disp="";
+  while (true)
     {
-    TextOut(16,LCD_LINE1,"Motor Drive",DRAW_OPT_NORMAL);
-    int speed=0;
-    while (true)
-        {
-        ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
-        TextOut(24,LCD_LINE7,"Set Speed",DRAW_OPT_NORMAL);
-        TextOut(45,LCD_LINE8,"OK",DRAW_OPT_NORMAL);
-        while (!ButtonState(BTNCENTER))
-            {
-            if (ButtonState(BTNLEFT))
-                {speed-=5; until (!ButtonState(BTNLEFT)){}}
-            if (ButtonState(BTNRIGHT))
-                {speed+=5; until (!ButtonState(BTNRIGHT)){}}
-            if (speed>100) {speed=100;}
-            if (speed<-100){speed=-100;}
-            ClearLine(LCD_LINE3);
-            TextOut(8,LCD_LINE3,"Speed: "+NumToStr(speed),DRAW_OPT_NORMAL);
-            }
-        until (!ButtonState(BTNCENTER))
-        ClearLine(LCD_LINE3); ClearLine(LCD_LINE7); ClearLine(LCD_LINE8);
-        TextOut(30,LCD_LINE7,"Running",DRAW_OPT_NORMAL);
-        TextOut(40,LCD_LINE8,"Stop",DRAW_OPT_NORMAL);
-        if (speed<0) {OnRev(OUT_BC,abs(speed));}
-        else {OnFwd(OUT_BC,abs(speed));}
-        while (!ButtonState(BTNCENTER)){}
-        Off(OUT_BC);
-        until (!ButtonState(BTNCENTER)){}
-        }
+    disp=NumToStr(speed);
+    TextOut(0,LCD_LINE3,StrCat("Speed: ",disp," "),0);
+    if (fwd) disp="Forward"; else disp="Reverse";
+    TextOut(0,LCD_LINE4,StrCat("Dir: ",disp," "),0);
+    speed=senseButton(speed, true,5, 100, true);
+    if (speed!=0)
+      {
+      if (fwd) OnFwd(OUT_BC,speed);
+      else     OnRev(OUT_BC,speed);
+      }
+    if (ButtonState(BTNCENTER))
+      {
+      fwd=!fwd;
+      until (!ButtonState(BTNCENTER))
+      }
     }
+  }

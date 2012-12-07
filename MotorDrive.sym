@@ -1,556 +1,599 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001main	6	1	0	4	18
-1	__constVal262145	6	0	4	4	8
-2	__D0main	6	1	8	4	84
-3	__signed_stack_002main	6	1	12	4	12
-4	__main_7qG2_speed_7qG2_000	4	1	16	2	13
-5	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	18	1	12
-6	__tmpsbytemain	2	1	19	1	30
-7	____initialize_global_data_return	1	1	20	1	3
-8	__constVal35	2	0	21	1	4
-9	__constVal33	2	0	22	1	2
-10	__constVal34	2	0	23	1	2
-11	__constVal3	2	0	24	1	3
-12	__OnRev_Tmp	2	1	25	1	2
-13	__constVal32	2	0	26	1	9
-14	__constVal0	2	1	27	1	22
-15	__constVal63	2	0	28	1	3
-16	__constValNeg100	2	0	29	1	2
-17	__constVal96	2	0	30	1	3
-18	__IOMRUnflattenErr	1	1	31	1	8
-19	__IOMRBIArgs	8	0	5	16	40
-20	__IOMRBIArgs.Result	2	1	32	1	40
-21	__IOMRBIArgs.ModuleID	5	1	36	4	40
-22	__IOMRBIArgs.Offset	3	1	40	2	40
-23	__IOMRBIArgs.Count	3	1	42	2	40
-24	__IOMRBIArgs.Buffer	7	0	44	4	40
-25	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
-26	__TextOutArgs	8	0	4	16	62
-27	__TextOutArgs.Result	2	1	48	1	62
-28	__TextOutArgs.Location	8	0	2	4	62
-29	__TextOutArgs.Location.X	4	1	52	2	62
-30	__TextOutArgs.Location.Y	4	1	54	2	62
-31	__TextOutArgs.Text	7	0	56	4	62
-32	__TextOutArgs.Text.Text_type	1	0	0	1	0
-33	__TextOutArgs.Options	5	1	60	4	62
-34	__constStr0014	7	0	64	4	1
-35	__constStr0014.__constStr0014_type	1	1	0	1	0
-36	__constStr0013	7	0	66	4	1
-37	__constStr0013.__constStr0013_type	1	1	0	1	0
-38	__constStr0012	7	0	68	4	1
-39	__constStr0012.__constStr0012_type	1	1	0	1	0
-40	__constStr0011	7	0	70	4	1
-41	__constStr0011.__constStr0011_type	1	1	0	1	0
-42	__IOMRUnflattenBuf	7	0	72	4	16
-43	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
-44	__ArrHelper__main_244_0	7	0	74	4	2
-45	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
-46	__OUT_BC	7	0	76	4	3
-47	__OUT_BC.__OUT_BC_type	1	0	0	1	0
-48	__BlankLine	7	0	78	4	6
-49	__BlankLine.__BlankLine_type	1	0	0	1	0
-50	__ArrHelper__main_244_1	7	0	80	4	2
-51	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
-52	__constStr0009	7	0	82	4	1
-53	__constStr0009.__constStr0009_type	1	1	0	1	0
-54	__constStr0010	7	0	84	4	1
-55	__constStr0010.__constStr0010_type	1	1	0	1	0
-56	__strbufmain	7	0	86	4	14
-57	__strbufmain.__strbufmain_type	1	0	0	1	0
-58	__strretvalmain	7	0	88	4	2
-59	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+0	__D0senseButton	6	1	0	4	63
+1	__DU0senseButton	5	1	4	4	4
+2	__D0main	6	1	8	4	33
+3	__DU0main	5	1	12	4	4
+4	__signed_stack_001main	6	1	16	4	8
+5	__constVal786433	6	0	20	4	2
+6	__constVal262145	6	0	24	4	2
+7	__signed_stack_002main	6	1	28	4	6
+8	__signed_stack_001senseButton	6	1	32	4	20
+9	__senseButton_7qG2_high_7qG2_000	4	1	36	2	5
+10	__senseButton_7qG2_add_7qG2_000	4	1	38	2	3
+11	__senseButton_7qG2_val_7qG2_000	4	1	40	2	14
+12	__main_7qG2_speed_7qG2_000	4	1	42	2	7
+13	__senseButton_7qG2_rd_7qG2_000	4	1	44	2	4
+14	__senseButton_7qG2_lu_7qG2_000	4	1	46	2	4
+15	__constVal32	2	0	48	1	6
+16	__constVal40	2	0	49	1	2
+17	__constVal0	2	1	50	1	10
+18	__constVal1	2	0	51	1	1
+19	__senseButton_7qG2_cut_7qG2_000	1	1	52	1	2
+20	__senseButton_return	1	1	53	1	4
+21	__senseButton_7qG2_lr_ud_7qG2_000	1	1	54	1	2
+22	__OnRev_Tmp	2	1	55	1	2
+23	__constVal3	2	0	56	1	2
+24	__tmpsbytemain	2	1	57	1	7
+25	__constVal96	2	0	58	1	2
+26	__constVal35	2	0	59	1	2
+27	__constVal63	2	0	60	1	2
+28	__constVal4	2	0	61	1	1
+29	____initialize_global_data_return	1	1	62	1	3
+30	__main_7qG2_fwd_7qG2_000	1	1	63	1	6
+31	__IOMRUnflattenErr	1	1	64	1	2
+32	__IOMRBIArgs	8	0	5	16	10
+33	__IOMRBIArgs.Result	2	1	68	1	10
+34	__IOMRBIArgs.ModuleID	5	1	72	4	10
+35	__IOMRBIArgs.Offset	3	1	76	2	10
+36	__IOMRBIArgs.Count	3	1	78	2	10
+37	__IOMRBIArgs.Buffer	7	0	80	4	10
+38	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
+39	__RBtnArgs	8	0	5	8	16
+40	__RBtnArgs.Result	2	1	84	1	16
+41	__RBtnArgs.Index	1	1	85	1	16
+42	__RBtnArgs.Pressed	1	1	86	1	16
+43	__RBtnArgs.Count	1	1	87	1	16
+44	__RBtnArgs.Reset	1	1	88	1	16
+45	__TextOutArgs	8	0	4	16	16
+46	__TextOutArgs.Result	2	1	92	1	16
+47	__TextOutArgs.Location	8	0	2	4	16
+48	__TextOutArgs.Location.X	4	1	96	2	16
+49	__TextOutArgs.Location.Y	4	1	98	2	16
+50	__TextOutArgs.Text	7	0	100	4	16
+51	__TextOutArgs.Text.Text_type	1	0	0	1	0
+52	__TextOutArgs.Options	5	1	104	4	16
+53	__IOMWBIArgs	8	0	4	16	8
+54	__IOMWBIArgs.Result	2	1	108	1	8
+55	__IOMWBIArgs.ModuleID	5	1	112	4	8
+56	__IOMWBIArgs.Offset	3	1	116	2	8
+57	__IOMWBIArgs.Buffer	7	0	118	4	8
+58	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+59	__ArrHelper__main_244_1	7	0	120	4	4
+60	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+61	__constStr0013	7	0	122	4	1
+62	__constStr0013.__constStr0013_type	1	1	0	1	0
+63	__constStr0012	7	0	124	4	2
+64	__constStr0012.__constStr0012_type	1	1	0	1	0
+65	__constStr0014	7	0	126	4	1
+66	__constStr0014.__constStr0014_type	1	1	0	1	0
+67	__ArrHelper__main_244_2	7	0	128	4	4
+68	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+69	__OUT_BC	7	0	130	4	2
+70	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+71	__constStr0015	7	0	132	4	1
+72	__constStr0015.__constStr0015_type	1	1	0	1	0
+73	__constStr0011	7	0	134	4	1
+74	__constStr0011.__constStr0011_type	1	1	0	1	0
+75	__ArrHelper__main_244_0	7	0	136	4	4
+76	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+77	__strretvalmain	7	0	138	4	6
+78	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+79	__IOMWFlattenBuf	7	0	140	4	4
+80	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+81	__IOMRUnflattenBuf	7	0	142	4	4
+82	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+83	__main_7qG2_disp_7qG2_000	7	0	144	4	6
+84	__main_7qG2_disp_7qG2_000.__main_7qG2_disp_7qG2_000_type	1	0	0	1	0
+85	__constStr0010	7	0	146	4	1
+86	__constStr0010.__constStr0010_type	1	1	0	1	0
+87	__constStr0009	7	0	148	4	1
+88	__constStr0009.__constStr0009_type	1	1	0	1	0
+89	__strbufmain	7	0	150	4	26
+90	__strbufmain.__strbufmain_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	3	0	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	3	2	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	3	2	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	2		set __signed_stack_001main, 16
-0	3	5	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	3	5	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	5		set __signed_stack_002main, 56
-0	3	8	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	3	8	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	8		strcat __strbufmain, __constStr0009
-0	3	12	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	12		set __D0main, 0
-0	3	15	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	3	15	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	15		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	3	17	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	17		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	3	19	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	19		mov __TextOutArgs.Options, __D0main
-0	3	21	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	21		mov __TextOutArgs.Text, __strbufmain
-0	3	23	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	4	23		syscall 13, __TextOutArgs
-0	3	26	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	3	26	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	3	26	#line 3 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	0	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	2	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	2		set __signed_stack_001main, 16
+0	4	5	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	5	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	5		set __signed_stack_002main, 56
+0	4	8	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	8	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	8		strcat __strbufmain, __constStr0009
+0	4	12	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	12		set __D0main, 0
+0	4	15	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	15	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	15		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	4	17	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	17		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	4	19	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	19		mov __TextOutArgs.Options, __D0main
+0	4	21	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	21		mov __TextOutArgs.Text, __strbufmain
+0	4	23	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	23		syscall 13, __TextOutArgs
 0	4	26	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	5	26		set __main_7qG2_speed_7qG2_000, 0
-0	4	29	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	26	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	4	26	#line 4 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	5	26	#line 5 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	6	26		set __main_7qG2_speed_7qG2_000, 50
+0	5	29	#line 5 "C:\Github\NXC_Source\MotorDrive.nxc"
 0	6	29	#line 6 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	7	29		set __D0main, 1
+0	7	29		set __main_7qG2_fwd_7qG2_000, 1
+0	6	32	#line 6 "C:\Github\NXC_Source\MotorDrive.nxc"
 0	7	32	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	32		tst 5, __D0main, __D0main
-0	7	35	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	35		brtst 4, __ASM_Label_613, __D0main
-0	7	38	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	38		set __ClearLine_7qG2_line_7qG2_000_inline_main, 8
-0	7	41	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6903	41	#line 6903 "NXCDefs.h"
-0	6904	41	#pragma macro 7
-0	6904	41		mov __TextOutArgs.Location.X, __constVal0
-0	6904	43		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6904	45		mov __TextOutArgs.Options, __constVal0
-0	6904	47		mov __TextOutArgs.Text, __BlankLine
-0	6904	49		syscall 13, __TextOutArgs
-0	5874	52	#line 5874 "NXCDefs.h"
-0	6903	52	#line 6903 "NXCDefs.h"
-0	7	52	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	7	52	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	52		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
-0	7	55	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6903	55	#line 6903 "NXCDefs.h"
-0	6904	55	#pragma macro 7
-0	6904	55		mov __TextOutArgs.Location.X, __constVal0
-0	6904	57		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6904	59		mov __TextOutArgs.Options, __constVal0
-0	6904	61		mov __TextOutArgs.Text, __BlankLine
-0	6904	63		syscall 13, __TextOutArgs
-0	5882	66	#line 5882 "NXCDefs.h"
-0	6903	66	#line 6903 "NXCDefs.h"
-0	7	66	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	66	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	66		set __signed_stack_001main, 24
-0	8	69	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	69	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	69		set __signed_stack_002main, 8
-0	8	72	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	72	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	72		strcat __strbufmain, __constStr0010
-0	8	76	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	76		set __D0main, 0
-0	8	79	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	79	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	79		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	8	81	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	81		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	8	83	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	83		mov __TextOutArgs.Options, __D0main
-0	8	85	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	85		mov __TextOutArgs.Text, __strbufmain
-0	8	87	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	87		syscall 13, __TextOutArgs
-0	8	90	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	90	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	8	90	#line 8 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	90	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	90		set __signed_stack_001main, 45
-0	9	93	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	93	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	93		set __signed_stack_002main, 0
-0	9	96	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	96	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	96		strcat __strbufmain, __constStr0011
-0	9	100	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	100		set __D0main, 0
-0	9	103	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	103	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	103		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	9	105	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	105		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	9	107	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	107		mov __TextOutArgs.Options, __D0main
-0	9	109	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	109		mov __TextOutArgs.Text, __strbufmain
-0	9	111	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	111		syscall 13, __TextOutArgs
-0	9	114	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	114		mov __D0main, __TextOutArgs.Result
-0	9	116	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	9	116	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	116	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	11	116	#pragma macro 2
-0	11	116	#pragma macro 25
-0	11	116		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	11	118		mov __IOMRBIArgs.Offset, __constVal35
-0	11	120		set __IOMRBIArgs.Count, 1
-0	11	123		syscall 78, __IOMRBIArgs
-0	11	126		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	11	129		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	5954	134	#line 5954 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	134	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	10	134	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	11	134		not __D0main, __tmpsbytemain
-0	12	137	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	137		tst 5, __D0main, __D0main
-0	12	140	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	140		brtst 4, __ASM_Label_633, __D0main
-0	12	143	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	143	#pragma macro 2
-0	13	143	#pragma macro 25
-0	13	143		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	13	145		mov __IOMRBIArgs.Offset, __constVal34
-0	13	147		set __IOMRBIArgs.Count, 1
-0	13	150		syscall 78, __IOMRBIArgs
-0	13	153		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	13	156		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	5967	161	#line 5967 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	5968	161		mov __D0main, __tmpsbytemain
-0	12	163	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	163	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	163		tst 5, __D0main, __D0main
-0	13	166	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	166		brtst 4, __ASM_Label_638, __D0main
+0	8	32		strcat __strbufmain, __constStr0010
+0	7	36	#line 7 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	8	36		mov __main_7qG2_disp_7qG2_000, __strbufmain
+0	9	38	#line 9 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	10	38		set __D0main, 1
+0	10	41	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	41		tst 5, __D0main, __D0main
+0	10	44	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	44		brtst 4, __ASM_Label_691, __D0main
+0	10	47	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	47		mov __D0main, __main_7qG2_speed_7qG2_000
+0	10	49	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	49		numtostr __strretvalmain, __D0main
+0	10	52	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	52		strcat __strbufmain, __strretvalmain
+0	10	56	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	56		mov __main_7qG2_disp_7qG2_000, __strbufmain
+0	10	58	#line 10 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	58	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	58		set __signed_stack_001main, 0
+0	11	61	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	61	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	61		set __signed_stack_002main, 40
+0	11	64	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	64	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	64		strcat __strbufmain, __constStr0011
+0	11	68	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	68		mov __ArrHelper__main_244_0, __strbufmain
+0	11	70	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	70		strcat __strbufmain, __main_7qG2_disp_7qG2_000
+0	11	74	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	74		mov __ArrHelper__main_244_1, __strbufmain
+0	11	76	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	76		strcat __strbufmain, __constStr0012
+0	11	80	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	80		mov __ArrHelper__main_244_2, __strbufmain
+0	11	82	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	82		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	11	88	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	88		strcat __strbufmain, __strretvalmain
+0	11	92	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	92		set __D0main, 0
+0	11	95	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	95	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	95		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	11	97	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	97		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	11	99	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	99		mov __TextOutArgs.Options, __D0main
+0	11	101	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	101		mov __TextOutArgs.Text, __strbufmain
+0	11	103	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	103		syscall 13, __TextOutArgs
+0	11	106	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	106		mov __D0main, __TextOutArgs.Result
+0	11	108	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	11	108	#line 11 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	108	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	108		mov __DU0main, __main_7qG2_fwd_7qG2_000
+0	12	110	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	110		tst 5, __D0main, __DU0main
+0	12	113	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	113		brtst 4, __ASM_Label_704, __D0main
+0	12	116	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	116		strcat __strbufmain, __constStr0013
+0	12	120	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	120		mov __main_7qG2_disp_7qG2_000, __strbufmain
+0	12	122	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	122	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	122		jmp __ASM_Label_705
+0	12	124	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	124		strcat __strbufmain, __constStr0014
+0	12	128	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	128		mov __main_7qG2_disp_7qG2_000, __strbufmain
+0	12	130	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	12	130	#line 12 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	130	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	130		set __signed_stack_001main, 0
+0	13	133	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	133	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	133		set __signed_stack_002main, 32
+0	13	136	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	136	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	136		strcat __strbufmain, __constStr0015
+0	13	140	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	140		mov __ArrHelper__main_244_0, __strbufmain
+0	13	142	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	142		strcat __strbufmain, __main_7qG2_disp_7qG2_000
+0	13	146	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	146		mov __ArrHelper__main_244_1, __strbufmain
+0	13	148	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	148		strcat __strbufmain, __constStr0012
+0	13	152	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	152		mov __ArrHelper__main_244_2, __strbufmain
+0	13	154	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	154		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	13	160	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	160		strcat __strbufmain, __strretvalmain
+0	13	164	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	164		set __D0main, 0
+0	13	167	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	167	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	167		mov __TextOutArgs.Location.X, __signed_stack_001main
 0	13	169	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	169		set __D0main, 5
-0	13	172	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	172		sub __main_7qG2_speed_7qG2_000, __main_7qG2_speed_7qG2_000, __D0main
-0	13	176	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	176	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	176	#pragma macro 2
-0	14	176	#pragma macro 25
-0	14	176		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	14	178		mov __IOMRBIArgs.Offset, __constVal34
-0	14	180		set __IOMRBIArgs.Count, 1
-0	14	183		syscall 78, __IOMRBIArgs
-0	14	186		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	14	189		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	5984	194	#line 5984 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	194	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	13	194	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	194		not __D0main, __tmpsbytemain
-0	13	197	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	197		not __D0main, __D0main
-0	13	200	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	200		tst 5, __D0main, __D0main
-0	13	203	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	203		brtst 4, __ASM_Label_642, __D0main
-0	14	206	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	206		jmp __ASM_Label_641
-0	14	208	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	208	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	14	208	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	208	#pragma macro 2
-0	15	208	#pragma macro 25
-0	15	208		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	15	210		mov __IOMRBIArgs.Offset, __constVal33
-0	15	212		set __IOMRBIArgs.Count, 1
-0	15	215		syscall 78, __IOMRBIArgs
-0	15	218		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	15	221		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	6007	226	#line 6007 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6008	226		mov __D0main, __tmpsbytemain
-0	14	228	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	228	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	228		tst 5, __D0main, __D0main
-0	15	231	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	231		brtst 4, __ASM_Label_649, __D0main
-0	15	234	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	234		set __D0main, 5
-0	15	237	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	237		add __main_7qG2_speed_7qG2_000, __main_7qG2_speed_7qG2_000, __D0main
-0	15	241	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	241	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	241	#pragma macro 2
-0	16	241	#pragma macro 25
-0	16	241		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	16	243		mov __IOMRBIArgs.Offset, __constVal33
-0	16	245		set __IOMRBIArgs.Count, 1
-0	16	248		syscall 78, __IOMRBIArgs
-0	16	251		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	16	254		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	6024	259	#line 6024 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	259	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	259	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	259		not __D0main, __tmpsbytemain
-0	15	262	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	262		not __D0main, __D0main
-0	15	265	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	265		tst 5, __D0main, __D0main
-0	15	268	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	268		brtst 4, __ASM_Label_653, __D0main
-0	16	271	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	271		jmp __ASM_Label_652
-0	16	273	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	273	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	273	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	273		mov __signed_stack_001main, __main_7qG2_speed_7qG2_000
-0	16	275	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	275	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	275		set __D0main, 100
-0	16	278	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	278		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	16	282	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	282		brtst 4, __ASM_Label_660, __D0main
-0	16	285	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	285		set __main_7qG2_speed_7qG2_000, 100
-0	16	288	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	16	288	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	288	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	288	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	288		mov __signed_stack_001main, __main_7qG2_speed_7qG2_000
-0	17	290	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	290	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	290		mov __D0main, __constValNeg100
-0	17	292	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	292		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	17	296	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	296		brtst 4, __ASM_Label_665, __D0main
-0	17	299	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	299		mov __main_7qG2_speed_7qG2_000, __constValNeg100
-0	17	301	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	17	301	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	301	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	18	301	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	19	301		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
-0	18	304	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6903	304	#line 6903 "NXCDefs.h"
-0	6904	304	#pragma macro 7
-0	6904	304		mov __TextOutArgs.Location.X, __constVal0
-0	6904	306		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6904	308		mov __TextOutArgs.Options, __constVal0
-0	6904	310		mov __TextOutArgs.Text, __BlankLine
-0	6904	312		syscall 13, __TextOutArgs
-0	6092	315	#line 6092 "NXCDefs.h"
-0	6903	315	#line 6903 "NXCDefs.h"
-0	18	315	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	19	315	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	315		set __signed_stack_001main, 8
-0	19	318	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	19	318	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	318		set __signed_stack_002main, 40
-0	19	321	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	19	321	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	321		mov __ArrHelper__main_244_0, __constStr0012
-0	19	323	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	323		mov __D0main, __main_7qG2_speed_7qG2_000
-0	19	325	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	325		numtostr __strretvalmain, __D0main
-0	19	328	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	328		strcat __strbufmain, __strretvalmain
-0	19	332	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	332		mov __ArrHelper__main_244_1, __strbufmain
-0	19	334	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	334		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
-0	19	339	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	339		set __D0main, 0
-0	19	342	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	19	342	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	342		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	19	344	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	344		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	19	346	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	346		mov __TextOutArgs.Options, __D0main
-0	19	348	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	348		mov __TextOutArgs.Text, __strbufmain
-0	19	350	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	350		syscall 13, __TextOutArgs
-0	19	353	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	20	353		mov __D0main, __TextOutArgs.Result
-0	19	355	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	19	355	#line 19 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	21	355	#line 21 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	22	355		jmp __ASM_Label_632
-0	21	357	#line 21 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	21	357	#line 21 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	22	357	#pragma macro 2
-0	22	357	#pragma macro 25
-0	22	357		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	22	359		mov __IOMRBIArgs.Offset, __constVal35
-0	22	361		set __IOMRBIArgs.Count, 1
-0	22	364		syscall 78, __IOMRBIArgs
-0	22	367		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	22	370		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	6151	375	#line 6151 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	21	375	#line 21 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	21	375	#line 21 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	22	375		not __D0main, __tmpsbytemain
-0	22	378	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	378		not __D0main, __D0main
-0	22	381	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	381		tst 5, __D0main, __D0main
-0	22	384	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	384		brtst 4, __ASM_Label_679, __D0main
-0	22	387	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	387		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
-0	22	390	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6903	390	#line 6903 "NXCDefs.h"
-0	6904	390	#pragma macro 7
-0	6904	390		mov __TextOutArgs.Location.X, __constVal0
-0	6904	392		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6904	394		mov __TextOutArgs.Options, __constVal0
-0	6904	396		mov __TextOutArgs.Text, __BlankLine
-0	6904	398		syscall 13, __TextOutArgs
-0	6171	401	#line 6171 "NXCDefs.h"
-0	6903	401	#line 6903 "NXCDefs.h"
-0	22	401	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	22	401	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	401		jmp __ASM_Label_678
-0	22	403	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	22	403	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	403		set __ClearLine_7qG2_line_7qG2_000_inline_main, 8
-0	22	406	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6903	406	#line 6903 "NXCDefs.h"
-0	6904	406	#pragma macro 7
-0	6904	406		mov __TextOutArgs.Location.X, __constVal0
-0	6904	408		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6904	410		mov __TextOutArgs.Options, __constVal0
-0	6904	412		mov __TextOutArgs.Text, __BlankLine
-0	6904	414		syscall 13, __TextOutArgs
-0	6183	417	#line 6183 "NXCDefs.h"
-0	6903	417	#line 6903 "NXCDefs.h"
-0	22	417	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	22	417	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	417		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
-0	22	420	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	6903	420	#line 6903 "NXCDefs.h"
-0	6904	420	#pragma macro 7
-0	6904	420		mov __TextOutArgs.Location.X, __constVal0
-0	6904	422		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6904	424		mov __TextOutArgs.Options, __constVal0
-0	6904	426		mov __TextOutArgs.Text, __BlankLine
-0	6904	428		syscall 13, __TextOutArgs
-0	6191	431	#line 6191 "NXCDefs.h"
-0	6903	431	#line 6903 "NXCDefs.h"
-0	22	431	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	431	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	431		set __signed_stack_001main, 30
-0	23	434	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	434	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	434		set __signed_stack_002main, 8
-0	23	437	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	437	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	437		strcat __strbufmain, __constStr0013
-0	23	441	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	441		set __D0main, 0
-0	23	444	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	444	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	444		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	23	446	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	446		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	23	448	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	448		mov __TextOutArgs.Options, __D0main
-0	23	450	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	450		mov __TextOutArgs.Text, __strbufmain
-0	23	452	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	452		syscall 13, __TextOutArgs
-0	23	455	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	455	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	23	455	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	455	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	455		set __signed_stack_001main, 40
-0	24	458	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	458	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	458		set __signed_stack_002main, 0
-0	24	461	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	461	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	461		strcat __strbufmain, __constStr0014
-0	24	465	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	465		set __D0main, 0
-0	24	468	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	468	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	468		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	24	470	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	470		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	24	472	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	472		mov __TextOutArgs.Options, __D0main
-0	24	474	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	474		mov __TextOutArgs.Text, __strbufmain
-0	24	476	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	476		syscall 13, __TextOutArgs
-0	24	479	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	479	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	24	479	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	479	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	479		mov __signed_stack_001main, __main_7qG2_speed_7qG2_000
-0	25	481	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	481	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	481		set __D0main, 0
-0	25	484	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	484		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	25	488	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	488		brtst 4, __ASM_Label_704, __D0main
-0	25	491	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	491		mov __D0main, __main_7qG2_speed_7qG2_000
-0	25	493	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	493		abs __D0main, __D0main
-0	25	496	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	496	#pragma macro 10
-0	26	496		neg __OnRev_Tmp, __D0main
-0	26	499		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6283	522	#line 6283 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	25	522	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	522	#line 26 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	522		jmp __ASM_Label_709
-0	26	524	#line 26 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	524		mov __D0main, __main_7qG2_speed_7qG2_000
-0	26	526	#line 26 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	526		abs __D0main, __D0main
-0	26	529	#line 26 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	529	#pragma macro 7
-0	27	529		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6297	552	#line 6297 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	26	552	#line 26 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	552	#line 27 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	552	#line 27 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	28	552	#pragma macro 2
-0	28	552	#pragma macro 25
-0	28	552		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	28	554		mov __IOMRBIArgs.Offset, __constVal35
-0	28	556		set __IOMRBIArgs.Count, 1
-0	28	559		syscall 78, __IOMRBIArgs
-0	28	562		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	28	565		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	6304	570	#line 6304 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	570	#line 27 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	27	570	#line 27 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	28	570		not __D0main, __tmpsbytemain
-0	27	573	#line 27 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	28	573		tst 5, __D0main, __D0main
-0	27	576	#line 27 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	28	576		brtst 4, __ASM_Label_715, __D0main
-0	28	579	#line 28 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	29	579		jmp __ASM_Label_714
-0	28	581	#line 28 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	28	581	#line 28 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	29	581	#pragma macro 7
-0	29	581		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6320	604	#line 6320 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	28	604	#line 28 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	29	604	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	30	604	#pragma macro 2
-0	30	604	#pragma macro 25
-0	30	604		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	30	606		mov __IOMRBIArgs.Offset, __constVal35
-0	30	608		set __IOMRBIArgs.Count, 1
-0	30	611		syscall 78, __IOMRBIArgs
-0	30	614		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-0	30	617		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	6325	622	#line 6325 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	29	622	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	29	622	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	30	622		not __D0main, __tmpsbytemain
-0	29	625	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	30	625		not __D0main, __D0main
-0	29	628	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	30	628		tst 5, __D0main, __D0main
-0	29	631	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	30	631		brtst 4, __ASM_Label_719, __D0main
-0	31	634	#line 31 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	32	634		jmp __ASM_Label_718
-0	31	636	#line 31 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	33	636	#line 33 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	34	636		jmp __ASM_Label_612
-0	33	638	#line 33 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	34	638		exit -1, -1
-1	34	0	#line 34 "C:\Github\NXC_Source\MotorDrive.nxc"
-1	35	0		subret ____initialize_global_data_return
+0	14	169		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	13	171	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	171		mov __TextOutArgs.Options, __D0main
+0	13	173	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	173		mov __TextOutArgs.Text, __strbufmain
+0	13	175	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	175		syscall 13, __TextOutArgs
+0	13	178	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	178	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	13	178	#line 13 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	178	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	178		mov __senseButton_7qG2_val_7qG2_000, __main_7qG2_speed_7qG2_000
+0	14	180	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	180	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	180		set __senseButton_7qG2_lr_ud_7qG2_000, 1
+0	14	183	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	183	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	183		set __senseButton_7qG2_add_7qG2_000, 5
+0	14	186	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	186	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	186		set __senseButton_7qG2_high_7qG2_000, 100
+0	14	189	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	189	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	189		set __senseButton_7qG2_cut_7qG2_000, 1
+0	14	192	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	192	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	192		subcall senseButton, __senseButton_return
+0	14	194	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	194		mov __main_7qG2_speed_7qG2_000, __D0senseButton
+0	14	196	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	14	196	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	15	196	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	16	196		mov __signed_stack_001main, __D0senseButton
+0	15	198	#line 15 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	16	198	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	17	198		set __D0main, 0
+0	16	201	#line 16 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	17	201		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	17	205	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	205		brtst 4, __ASM_Label_726, __D0main
+0	17	208	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	208		mov __DU0main, __main_7qG2_fwd_7qG2_000
+0	17	210	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	210		tst 5, __D0main, __DU0main
+0	17	213	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	213		brtst 4, __ASM_Label_729, __D0main
+0	17	216	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	216		mov __D0main, __main_7qG2_speed_7qG2_000
+0	17	218	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	218	#pragma macro 7
+0	18	218		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6458	241	#line 6458 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	17	241	#line 17 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	241	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	19	241		jmp __ASM_Label_732
+0	18	243	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	243	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	19	243	#pragma macro 10
+0	19	243		neg __OnRev_Tmp, __main_7qG2_speed_7qG2_000
+0	19	246		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6468	269	#line 6468 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	269	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	18	269	#line 18 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	20	269	#line 20 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	20	269	#line 20 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	21	269	#pragma macro 2
+0	21	269	#pragma macro 25
+0	21	269		mov __IOMRBIArgs.ModuleID, __constVal262145
+0	21	271		mov __IOMRBIArgs.Offset, __constVal35
+0	21	273		set __IOMRBIArgs.Count, 1
+0	21	276		syscall 78, __IOMRBIArgs
+0	21	279		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	21	282		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	6476	287	#line 6476 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	6477	287		mov __D0main, __tmpsbytemain
+0	20	289	#line 20 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	22	289	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	23	289		tst 5, __D0main, __D0main
+0	22	292	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	23	292		brtst 4, __ASM_Label_737, __D0main
+0	22	295	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	22	295	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	23	295		not __main_7qG2_fwd_7qG2_000, __main_7qG2_fwd_7qG2_000
+0	22	298	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	22	298	#line 22 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	23	298	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	24	298	#pragma macro 2
+0	24	298	#pragma macro 25
+0	24	298		mov __IOMRBIArgs.ModuleID, __constVal262145
+0	24	300		mov __IOMRBIArgs.Offset, __constVal35
+0	24	302		set __IOMRBIArgs.Count, 1
+0	24	305		syscall 78, __IOMRBIArgs
+0	24	308		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	24	311		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	6497	316	#line 6497 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	23	316	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	23	316	#line 23 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	24	316		not __D0main, __tmpsbytemain
+0	24	319	#line 24 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	25	319		not __D0main, __D0main
+0	25	322	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	26	322		tst 5, __D0main, __D0main
+0	25	325	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	26	325		brtst 4, __ASM_Label_741, __D0main
+0	25	328	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	25	328	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	26	328		jmp __ASM_Label_740
+0	25	330	#line 25 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	26	330	#line 26 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	28	330	#line 28 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	29	330		jmp __ASM_Label_690
+0	28	332	#line 28 "C:\Github\NXC_Source\MotorDrive.nxc"
+0	29	332		exit -1, -1
+1	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
+1	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	2		tst 5, __D0senseButton, __DU0senseButton
+1	4	5	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	5		brtst 4, __ASM_Label_606, __D0senseButton
+1	4	8	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	8		set __senseButton_7qG2_lu_7qG2_000, 2
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	11		set __senseButton_7qG2_rd_7qG2_000, 1
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	14	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	14		jmp __ASM_Label_611
+1	6	16	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	16		set __senseButton_7qG2_lu_7qG2_000, 3
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	19		set __senseButton_7qG2_rd_7qG2_000, 0
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	22	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22	#pragma macro 7
+1	9	22	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22		set __D0senseButton, 1
+1	10	25	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	25		tst 5, __D0senseButton, __D0senseButton
+1	10	28	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	28		brtst 4, __ASM_Label_620, __D0senseButton
+1	10	31	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	31	#pragma macro 8
+1	11	31		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	11	33		mov __IOMWBIArgs.Offset, __constVal40
+1	11	35		flatten __IOMWFlattenBuf, __constVal4
+1	11	38		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	11	41		syscall 79, __IOMWBIArgs
+1	5886	44	#line 5886 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	44	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	44	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	44		jmp __ASM_Label_621
+1	12	46	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	46	#pragma macro 8
+1	13	46		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	13	48		mov __IOMWBIArgs.Offset, __constVal40
+1	13	50		flatten __IOMWFlattenBuf, __constVal1
+1	13	53		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	13	56		syscall 79, __IOMWBIArgs
+1	5892	59	#line 5892 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	59	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	59	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	59	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	59		set __D0senseButton, 0
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	62		tst 5, __D0senseButton, __D0senseButton
+1	6	65	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	65		brtst 4, __ASM_Label_617, __D0senseButton
+1	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	68		jmp __ASM_Label_616
+1	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	70		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	72		mov __D0senseButton, __constVal0
+1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	74		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	7	76	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	76		mov __RBtnArgs.Reset, __D0senseButton
+1	7	78	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	78		syscall 20, __RBtnArgs
+1	7	81	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	81		mov __D0senseButton, __RBtnArgs.Pressed
+1	7	83	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	83	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	83		tst 5, __D0senseButton, __D0senseButton
+1	7	86	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	86		brtst 4, __ASM_Label_628, __D0senseButton
+1	7	89	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	89	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	89		sub __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	7	93	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	93	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	93	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	93		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	95		mov __D0senseButton, __constVal0
+1	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	97		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	8	99	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	99		mov __RBtnArgs.Reset, __D0senseButton
+1	8	101	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	101		syscall 20, __RBtnArgs
+1	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	104		mov __signed_stack_001senseButton, __RBtnArgs.Pressed
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	106	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	106		set __D0senseButton, 0
+1	8	109	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	109		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	8	113	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	113		not __D0senseButton, __D0senseButton
+1	8	116	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	116		tst 5, __D0senseButton, __D0senseButton
+1	8	119	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	119		brtst 4, __ASM_Label_632, __D0senseButton
+1	9	122	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	122		jmp __ASM_Label_631
+1	9	124	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	124	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	124		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	9	126	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	126	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	126		mov __D0senseButton, __constVal0
+1	9	128	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	128	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	128		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	9	130	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	130		mov __RBtnArgs.Reset, __D0senseButton
+1	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	132		syscall 20, __RBtnArgs
+1	9	135	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	135		mov __D0senseButton, __RBtnArgs.Pressed
+1	9	137	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	137	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	137		tst 5, __D0senseButton, __D0senseButton
+1	9	140	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	140		brtst 4, __ASM_Label_643, __D0senseButton
+1	9	143	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	143	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	143		add __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	9	147	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	147	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	147	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	147		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	10	149	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	149	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	149		mov __D0senseButton, __constVal0
+1	10	151	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	151	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	151		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	10	153	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	153		mov __RBtnArgs.Reset, __D0senseButton
+1	10	155	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	155		syscall 20, __RBtnArgs
+1	10	158	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	158		mov __signed_stack_001senseButton, __RBtnArgs.Pressed
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	160		set __D0senseButton, 0
+1	10	163	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	163		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	10	167	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	167		not __D0senseButton, __D0senseButton
+1	10	170	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	170		tst 5, __D0senseButton, __D0senseButton
+1	10	173	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	173		brtst 4, __ASM_Label_647, __D0senseButton
+1	11	176	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	176		jmp __ASM_Label_646
+1	11	178	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	178	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	178		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
+1	12	180	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	180		tst 5, __D0senseButton, __DU0senseButton
+1	12	183	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	183		brtst 4, __ASM_Label_656, __D0senseButton
+1	12	186	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	186		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	12	188	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	188	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	188		set __D0senseButton, 0
+1	12	191	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	191		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	12	195	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	195		brtst 4, __ASM_Label_659, __D0senseButton
+1	12	198	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	198		set __senseButton_7qG2_val_7qG2_000, 0
+1	12	201	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	201	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	201	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	201	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	201		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	203		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	13	205	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	205		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	13	209	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	209		brtst 4, __ASM_Label_664, __D0senseButton
+1	13	212	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	212		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	13	214	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	214	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	214	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	214	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	214		jmp __ASM_Label_667
+1	15	216	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	216		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	15	218	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	218	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	218		set __D0senseButton, 0
+1	15	221	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	221		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	15	225	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	225		brtst 4, __ASM_Label_670, __D0senseButton
+1	15	228	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	228		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	230	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	230	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	230		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	16	232	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	232	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	232		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	16	234	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	234		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	16	238	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	238		brtst 4, __ASM_Label_675, __D0senseButton
+1	16	241	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	241		set __senseButton_7qG2_val_7qG2_000, 0
+1	16	244	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	244	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	244		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
+1	17	246	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	246		subret __senseButton_return
+1	17	248	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	248	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	248		subret __senseButton_return
+2	29	0	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
+2	30	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\MotorDrive.nxc
-1	__initialize_global_data	641	C:\Github\NXC_Source\MotorDrive.nxc
+1	senseButton	335	C:\Github\NXC_Source\.\+Button+-.nxc
+2	__initialize_global_data	585	C:\Github\NXC_Source\MotorDrive.nxc
