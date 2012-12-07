@@ -31,31 +31,87 @@
 #define prob 7
 
 
-/*            GLOBAL CONSTANTS            */
-const int I[8]=
- {0,1,2,3,
-  1,1,1,1};
-const int J[8]=
- {0,1,2,0,
-  1,1,1,0};
-const int L[8]=
- {0,1,2,2
-  1,1,1,0};
-const int O[8]=
- {0,0,1,1,
-  0,1,0,1};
-const int S[8]=
- {2,1,1,0,
-  0,0,1,1};
-const int T[8]=
- {0,1,1,2,
-  0,0,1,0};
-const int Z[8]=
- {0,1,1,2,
-  0,0,1,1};
+//                 GLOBAL CONSTANTS
+const int I[8][4]=
+  {
+  {0,1,2,3,
+   1,1,1,1}
+  {1,1,1,1,
+   0,1,2,3}
+  {0,1,2,3,
+   2,2,2,2}
+  {2,2,2,2,
+   0,1,2,3}
+  };
+const int J[8][4]=
+  {
+  {0,1,2,0,
+   1,1,1,0}
+  {0,1,2,0,
+   1,1,1,0} //change
+  {0,1,2,0,
+   1,1,1,0} //change
+  {0,1,2,0,
+   1,1,1,0} //change
+  };
+const int L[8][4]=
+  {
+  {0,1,2,2
+   1,1,1,0}
+  {0,1,2,2
+   1,1,1,0} //change
+  {0,1,2,2
+   1,1,1,0} //change
+  {0,1,2,2
+   1,1,1,0} //change
+  };
+const int O[8][4]=
+  {
+  {0,0,1,1,
+   0,1,0,1}
+  {0,0,1,1,
+   0,1,0,1}
+  {0,0,1,1,
+   0,1,0,1}
+  {0,0,1,1,
+   0,1,0,1}
+  };
+const int S[8][4]=
+  {
+  {2,1,1,0,
+   0,0,1,1}
+  {2,1,1,0,
+   0,0,1,1} //change
+  {2,1,1,0,
+   0,0,1,1}
+  {2,1,1,0,
+   0,0,1,1} //change
+  };
+const int T[8][4]=
+  {
+  {0,1,1,2,
+   0,0,1,0}
+  {0,1,1,2,
+   0,0,1,0} //change
+  {0,1,1,2,
+   0,0,1,0} //change
+  {0,1,1,2,
+   0,0,1,0} //change
+  };
+const int Z[8][4]=
+  {
+  {0,1,1,2,
+   0,0,1,1}
+  {0,1,1,2,
+   0,0,1,1} //change
+  {0,1,1,2,
+   0,0,1,1}
+  {0,1,1,2,
+   0,0,1,1} //change
+  };
 
 
-/*            GLOBAL VARIABLES            */
+//                 GLOBAL VARIABLES
 string msg;
 string disp;
 string accesshigh;
@@ -69,6 +125,7 @@ int prevE;
 int prevL;
 int prevR;
 int currentPiece;
+int currentRotate;
 int prevWaited;
 int tetX;
 int tetY;
@@ -84,7 +141,7 @@ int chnc[8];
 int nextPiece[previewPieces];
 
 
-/*               SUBROUTINES              */
+//                 SUBROUTINES
 void selectGame(bool fastmode)
   {
   prevQuadClear=false;
@@ -234,66 +291,83 @@ void selectGame(bool fastmode)
 //   \_/      \_/      \_/      \_/      \_/      \_/      \_/      \_/
 
 
-void inputOutput(int waited)
+void inputOutput(bool allowInput, int waited)
   {
-  /////  -  INPUT  -  /////
-  if (ButtonPressed(BTNLEFT))
+  if (allowInput)
     {
-    if (prevL==0)
+    /////  -  INPUT  -  /////
+    if (ButtonPressed(BTNLEFT))
       {
-      drop=true;
+      if (prevL==0)
+        {
+        drop=true;
+        }
+      prevL++;
+      if (prevL<waitHardDrop)
+        {
+        prevL=0;
+        }
       }
-    prevL++;
-    if (prevL<waitHardDrop)
+    if (ButtonPressed(BTNRIGHT))
       {
-      prevL=0;
+      if (prevR==0)
+        {
+        rotate=true;
+        }
+      prevR++;
+      if (prevR<waitRotateAgain)
+        {
+        prevR=0;
+        }
+      }
+    if (ButtonPressed(BTNCENTER))
+      {
+      if (prevC==0)
+        {
+        moveL=true;
+        }
+      prevC++;
+      if (prevC<waitFastMove)
+        {
+        prevC=waitFastMove-fastRepeat;
+        }
+      }
+    if (ButtonPressed(BTNEXIT))
+      {
+      if (prevE==0)
+        {
+        moveR=true;
+        }
+      prevE++;
+      if (prevE<waitFastMove)
+        {
+        prevE=waitFastMove-fastRepeat;
+        }
       }
     }
-  if (ButtonPressed(BTNRIGHT))
-    {
-    if (prevR==0)
-      {
-      rotate=true;
-      }
-    prevR++;
-    if (prevR<waitRotateAgain)
-      {
-      prevR=0;
-      }
-    }
-  if (ButtonPressed(BTNCENTER))
-    {
-    if (prevC==0)
-      {
-      moveL=true;
-      }
-    prevC++;
-    if (prevC<waitFastMove)
-      {
-      prevC=waitFastMove-fastRepeat;
-      }
-    }
-  if (ButtonPressed(BTNEXIT))
-    {
-    if (prevE==0)
-      {
-      moveR=true;
-      }
-    prevE++;
-    if (prevE<waitFastMove)
-      {
-      prevE=waitFastMove-fastRepeat;
-      }
-    }
-
   /////  -  OUTPUT  -  /////
-  //Rotation
-
-  //Move/Drop
+  if (rotate)
+    {
+    //ROTATE CODE
+    rotate=false;
+    }
+  if (moveL)
+    {
+    tetX--;
+    if (tetX<0) tetX=0;
+    moveL=false;
+    }
+  if (moveR)
+    {
+    //Checks the X position, not the bounding box...
+    tetX++;
+    if (tetX>width) tetX=width;
+    moveR=false;
+    }
   //Gravity
   if (waited%waitGravity<prevWaited%waitGravity)
     {
-    tetX--;
+    tetY--;
     }
 
   prevWaited=waited;
@@ -308,16 +382,25 @@ void inputOutput(int waited)
       if (area[j][i]) RectOut(i*b,j*b,b,b,32);
       }
     }
-  if (disp=="       ")
+  if (disp=="")
     {
     for (i=0; i<previewPieces; i++)
       {
       //display nextPiece[i]
       }
+    TextOut(0,56,"       ",0);
     }
   TextOut(0,56,disp,0);
-  disp="       ";
+  disp="";
+
+
   RotatedNumbersOut(SX,SY,score);
+
+
+  if (ReadHigh(accesshigh)>score)
+    {
+    
+    }
   }
   
 
@@ -383,11 +466,24 @@ int clearFullRows()   //////////////////// - - FIX - - ////////////////////
   
 void gameEnd()
   {
+  TextOut(0,0,"GamOvr!",4096);
   PlayTone(1500,1000);
   Wait(1000);
   ClearScreen();
-  TextOut(0,0,"Game Over!",4096);
-  
+  TextOut(30,36,"Rotate...",4096);
+  Wait(1000);
+  ClearScreen();
+
+  if (score>readHigh(accesshigh))
+    {
+    writeHighName(accesshigh,score);
+    }
+  ClearScreen();
+  string show=NumToStr(score);
+  TextOut(0,LCD_LINE6,StrCat("S:",show),0);
+  //TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);  //append code
+  show=readHighName(readme);
+  TextOut(0,LCD_LINE8,StrCat("N:",show),0);
   }
 
 
@@ -399,7 +495,8 @@ void debug(int mode)
       {
       for (int j=0; j<width; j++)
         {
-        area[j][i]=(Random(10)!=1);
+        //area[j][i]=(Random(10)!=0);
+        area[j][i]=1;
         }
       }
     prevQuadClear=false;
@@ -408,12 +505,12 @@ void debug(int mode)
     score=Random(INT_MAX-10000)+10000;//score=0;
     currentPiece=-1;
     ClearScreen();
-    redraw();
+    inputOutput(false,0);
     Wait(5000);
     ClearScreen();
     PlayTone(2000,100);
     int i=clearFullRows();
-    redraw();
+    inputOutput(false,0);
     NumOut(0,0,i,0);
     Wait(5000);
     }
@@ -451,7 +548,7 @@ task main()
         piecemoving=true;
         for (int i=0;piecemoving; i++) //waiting
           {
-          inputOutput(i);
+          inputOutput(true,i);
           Wait(10);
           //debugging
           }
