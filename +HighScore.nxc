@@ -1,7 +1,9 @@
 //High Score Template
 //Programmed By Joseph Dykstra
 #include "+TextInput.nxc"
-int hsfsize, hshandle, hscount=10;
+int hsfsize;
+int hshandle;
+int hscount=10;
 
 
 /////////////////////////////   READ   //////////////////////////////
@@ -59,9 +61,9 @@ void writeHighName(string readme, int NewHighscore)
   //TextOut(16,16,tempStr,0);
   //Wait(500);
   WriteLnString(hshandle,tempStr,hscount);
-  if (0)
+  if (1)
     {tempStr=keyboard();}
-  else
+  else   //Debugging
     {
     switch (Random(11))
       {
@@ -84,7 +86,7 @@ void writeHighName(string readme, int NewHighscore)
 
 
 /////////////////////////////  OTHER  ///////////////////////////////
-//*
+/*
 void endGame(string readme, int myscore)
   {
   ClearScreen();
