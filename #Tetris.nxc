@@ -25,6 +25,7 @@
 #define dwn 0
 #define lft 1
 #define rht 2
+#define rtt 3
 //Tetriminos
 #define Itet 0
 #define Jtet 1
@@ -48,7 +49,6 @@ const short tet[8][28]=
    2,2,2,2}
   {1,1,1,1,
    0,1,2,3}
-
 // J
   {0,1,2,0,
    1,1,1,0}
@@ -58,7 +58,6 @@ const short tet[8][28]=
    1,1,1,2}
   {1,1,1,0,
    0,1,2,2}
-
 // L
   {0,1,2,2,
    1,1,1,0}
@@ -68,7 +67,6 @@ const short tet[8][28]=
    2,1,1,1}
   {0,1,1,1,
    0,0,1,2}
-
 // O
   {1,1,2,2,
    0,1,0,1}
@@ -78,7 +76,6 @@ const short tet[8][28]=
    0,1,0,1}
   {1,1,2,2,
    0,1,0,1}
-
 // S
   {2,1,1,0,
    0,0,1,1}
@@ -88,7 +85,6 @@ const short tet[8][28]=
    1,1,2,2}
   {0,0,1,1,
    0,1,1,2}
-
 //T
   {0,1,1,2,
    1,1,0,1}
@@ -98,7 +94,6 @@ const short tet[8][28]=
    1,1,2,1}
   {1,1,0,1,
    0,1,1,2}
-   
 // Z
   {0,1,1,2,
    0,0,1,1}
@@ -294,19 +289,36 @@ void selectGame(bool fastmode)
 //   \_/      \_/      \_/      \_/      \_/      \_/      \_/      \_/
 
 
-int move(int dir)
+int move(int dir) //int or void as return??
   {
   if (dir==dwn)
     {
-    
+    if (1) //can move down
+      {
+      tetY--;
+      }
     }
   if (dir==lft)
     {
-
+    if (1) //can move left
+      {
+      tetX--;
+      }
     }
   if (dir==rht)
     {
-
+    if (1) //can move right
+      {
+      tetX++;
+      }
+    }
+  if (dir==rtt)
+    {
+    if (1) //can rotate
+      {
+      currentRotate++;
+      if (currentRotate>3) currentRotate=0;
+      }
     }
   }
   
@@ -318,6 +330,7 @@ void inputOutput(bool allowInput, int waited)
     /////  -  INPUT  -  /////
     if (ButtonPressed(BTNLEFT))
       {
+      //lockDelay=0; //idk...
       if (prevL==0)
         {
         drop=true;
@@ -330,6 +343,7 @@ void inputOutput(bool allowInput, int waited)
       }
     if (ButtonPressed(BTNRIGHT))
       {
+      lockDelay=0;
       if (prevR==0)
         {
         rotate=true;
@@ -342,6 +356,7 @@ void inputOutput(bool allowInput, int waited)
       }
     if (ButtonPressed(BTNCENTER))
       {
+      lockDelay=0;
       if (prevC==0)
         {
         moveL=true;
@@ -354,6 +369,7 @@ void inputOutput(bool allowInput, int waited)
       }
     if (ButtonPressed(BTNEXIT))
       {
+      lockDelay=0;
       if (prevE==0)
         {
         moveR=true;
@@ -369,12 +385,12 @@ void inputOutput(bool allowInput, int waited)
   if (rotate)
     {
     //ROTATE CODE
+    move(rtt);
     rotate=false;
     }
   if (moveL)
     {
-    tetX--;
-    //if (tetX<0) tetX=0;
+    move(lft);
     moveL=false;
     }
   if (moveR)
@@ -552,21 +568,17 @@ void debug(int mode)
     int tets,angl,k;
     for (tets=0; tets<28; tets++)
       {
+      ClearScreen();
       for (angl=0; angl<4; angl++)
-        {
-        ClearScreen();
-        TextOut(0,0,"I",0);
-        for(k=0;k<4;k++)
-          {RectOut(tet[angl][tets]*8, 56-tet[angl][tets+4]*8, 8,8, 32);}
-        Wait(500);
-        until (!ButtonPressed(3)){}
-        }
+        {RectOut(tet[tets][angl]*8, 56-tet[tets][angl+4]*8, 8,8, 32);}
+      Wait(500);
+      until (!ButtonPressed(3)){}
       }
     }
 
   else if (mode==4)
     {
-    //idk
+    //idk, add debug mode?
     }
   }
   
@@ -582,13 +594,13 @@ task main()
   if (mode==0||mode==1)
     {
     SetLongAbort(true);
-    bool playagain, piecemoving;
+    bool playagain;
+    bool piecemoving;
     for (int i=0; i<height; i++)
       {
       for (int j=0; j<width; j++)
         {
-        area[j][i]=(Random(3)+1)%2;
-        //area[j][i]=0;
+        area[j][i]=0;
         }
       }
     playagain=true;
