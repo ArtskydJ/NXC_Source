@@ -110,27 +110,28 @@ const short tet[8][28]=
 
 
 //                 GLOBAL VARIABLES
-string msg;
-string disp;
-string accesshigh;
-float speedup;
-int score;
-int gametype;
-int gamespeed;
-int delaytime;
-int prevC;
-int prevE;
-int prevL;
-int prevR;
-int currentPiece;
-int currentRotate;
-int prevWaited;
-int tetX;
-int tetY;
-int drop;
-bool alive;
-bool prevQuadClear;
-bool highMade=false;
+string msg         ="";
+string disp        ="";
+string accesshigh  ="";
+float speedup      = 0;
+int score          = 0;
+int gametype       = 0;
+int gamespeed      = 0;
+int delaytime      = 0;
+int lockDelay      = 0;
+int prevC          = 0;
+int prevE          = 0;
+int prevL          = 0;
+int prevR          = 0;
+int currentPiece   = 0;
+int currentRotate  = 0;
+int prevWaited     = 0;
+int tetX           = 0;
+int tetY           = 0;
+int drop           = 0;
+bool alive         = 0;
+bool prevQuadClear = 0;
+bool highMade      = 0;
 
 
 bool area[width][height+2];
@@ -354,7 +355,7 @@ int rotate()
   }
 
   
-void displayTetromino(int INtet,int INangl, int INx, int INy)
+void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
   {
   int tempX,tempY;
   for (int i=0; i<4; i++)
@@ -362,28 +363,29 @@ void displayTetromino(int INtet,int INangl, int INx, int INy)
     tempX=   (INx+(tet[INtet*4+INangl][i])*blksz);
     tempY=56-(INy+(tet[INtet*4+INangl][i+4])*blksz);
     //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
-    RectOut(tempX,tempY, blksz,blksz, 32);
+    if      (drawMode==0)   RectOut(tempX,tempY, blksz,blksz, 32);
+    else if (drawMode==1)   RectOut(tempX,tempY, blksz,blksz, 0);
+    else if (drawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
     }
   }
   
 
-bool inputOutput(bool allowInput, int waited)
+bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
   {
   bool temppiecemoving=true; //return this
+//INPUT
   if (allowInput)
     {
-//INPUT
     if (ButtonPressed(BTNLEFT))  // DROP
       {
-      //lockDelay=0; //idk...
-      if (prevL<waitHardDrop) drop=dropWHard; //Instant Hard Drop
-      else                    drop=dropWSoft; //Wait for Soft Drop
+      if (prevL>=waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop
+      else              {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
       prevL++;
       }
     else if (drop==dropWHard || drop==dropWSoft) drop-=2;
     if (ButtonPressed(BTNRIGHT))  // ROTATE
       {
-      //lockDelay=0; /////////////////////////////////////////////////////////////////////////////
+      lockDelay=0;
       if (prevR==0)
         {
         int tempRotateStatus=rotate();
@@ -401,78 +403,84 @@ bool inputOutput(bool allowInput, int waited)
       }
     if (ButtonPressed(BTNCENTER))  // MOVE LEFT
       {
-      //lockDelay=0; /////////////////////////////////////////////////////////////////////////////
+      lockDelay=0;
       if (prevC==0 && move(lft)) tetX--;
       prevC++;
       if (prevC<waitFastMove) prevC=waitFastMove-fastRepeat; //Repeat is probably broken, prevC never goes to 0
       }
     if (ButtonPressed(BTNEXIT))  // MOVE RIGHT
       {
-      //lockDelay=0; /////////////////////////////////////////////////////////////////////////////
+      lockDelay=0;
       if (prevE==0 && move(rht)) tetX++;
       prevE++;
       if (prevE<waitFastMove)  prevE=waitFastMove-fastRepeat; //Repeat is probably broken, prevE never goes to 0
       }
     }
+    
 //OUTPUT
-  //Gravity and Drop
-  /*
-  if ((waited%waitGravity<prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
+  if (allowOutput) //Gravity and Drop
     {
-    if (drop==dropHard) //hard drop
+    if ((waited%waitGravity<prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
-      bool tempLoop=true;
-      while (tempLoop)
+      if (drop==dropHard) //hard drop
         {
-        if (move(dwn)) tetY--;
-        else
+        bool tempLoop=true;
+        while (tempLoop)
           {
-          tempLoop=false;
-          if (lockDelay>waitLock) temppiecemoving=false;
+          if (move(dwn)) tetY--;
+          else
+            {
+            tempLoop=false;
+            if (lockDelay>=waitLock) temppiecemoving=false;
+            }
           }
         }
+      else //gravity or soft drop
+        {
+        if (move(dwn)) tetY--;
+        if (lockDelay>=waitLock) temppiecemoving=false;
+        }
       }
-    else //gravity or soft drop
+    prevWaited=waited;
+    if (readHigh(accesshigh)>score)
       {
-      if (move(dwn)) tetY--;
-      if (lockDelay>waitLock) temppiecemoving=false;
+      writeHigh(accesshigh,score);
+      highMade=true;
       }
     }
-  //*/
-  prevWaited=waited;
 
 //DRAW
-  int i;
-  int j;
-  for (i=0; i<height; i++)
+  if (allowDraw)
     {
-    for (j=0; j<width; j++)
+    //AREA
+    int i;
+    int j;
+    for (i=0; i<height; i++)
       {
-      if (area[j][i]) RectOut(i*blksz,j*blksz,blksz,blksz,32); //replace 32 w/ (area[j][i]*28)+4
+      for (j=0; j<width; j++)
+        {
+        if (area[j][i]) RectOut(i*blksz,j*blksz,blksz,blksz,32); //replace 32 w/ (area[j][i]*28)+4
+        }
       }
-    }
-  if (disp=="")
-    {
-    for (i=0; i<previewPieces; i++)
+    //NEXT PIECES / MESSAGE
+    if (disp=="")
       {
-      displayTetromino(nextPiece[i],1, 50-((5*blksz)*i),50);
+      for (i=0; i<previewPieces; i++)
+        {
+        displayTetromino(nextPiece[i],1, 50-((5*blksz)*i),50,1);
+        }
+      TextOut(0,56,"       ",0);
       }
-    TextOut(0,56,"       ",0);
-    }
-  else
-    {
-    TextOut(0,56,disp,0);
-    disp="";
+    else
+      {
+      TextOut(0,56,disp,0);
+      disp="";
+      }
+    //CURRENT TETROMINO / SCORE
+    displayTetromino(currentPiece,currentRotate,tetX,tetY,1);
+    RotatedNumbersOut(SX,SY,score);
     }
 
-  displayTetromino(currentPiece,currentRotate,tetX,tetY);
-  RotatedNumbersOut(SX,SY,score);
-
-  if (readHigh(accesshigh)>score)
-    {
-    writeHigh(accesshigh,score);
-    highMade=true;
-    }
   return temppiecemoving;
   }
   
@@ -593,12 +601,12 @@ void debug(int mode)
     score=Random(INT_MAX-10000)+10000;//score=0;
     currentPiece=-1;
     ClearScreen();
-    inputOutput(false,0);
+    inputOutput(false,false,true,0);
     Wait(3000);
     int i=clearFullRows();
     ClearScreen();
     Wait(250);
-    inputOutput(false,0);
+    inputOutput(false,false,true,0);
     NumOut(0,48,i,0);
     while(1){}
     }
@@ -618,7 +626,7 @@ void debug(int mode)
       for (angl=0; angl<4; angl++)
         {
         ClearScreen();
-        displayTetromino(tets,angl,0,0);
+        displayTetromino(tets,angl,0,0,0);
         Wait(500);
         until (!ButtonPressed(3)){}
         }
@@ -644,12 +652,12 @@ void debug(int mode)
     Wait(200);
     tetY+=10;
     pieceSetInto();
-    inputOutput(false,0);
+    inputOutput(false,false,true,0);
     Wait(3000);
     ClearScreen();
     Wait(200);
-    displayTetromino(currentPiece,currentRotate,tetX,tetY);
-    inputOutput(false,0);
+    displayTetromino(currentPiece,currentRotate,tetX,tetY,1);
+    inputOutput(false,false,true,0);
     Wait(3000);
     }
   }
@@ -693,11 +701,10 @@ task main()
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
-          piecemoving=inputOutput(true,i);
+          piecemoving=inputOutput(true,true,true,i);
           Wait(10);
           //debugging
           }
-
         pieceSetInto();
         clearFullRows();
         }
@@ -723,17 +730,17 @@ Process Order:
   Gravity
 
 
-Soft Drop
-Firm Drop-NO
-Hard Drop
-Delayed Auto Shift
-Wall kicks
-Clockwise Rotation
-Hold piece-NO
-Right Side Bias
-Allow only 1 floor kick
-Allow I wall kicking always.
-Allow I floor kicking even when not touching ground, (does not count?)
+Soft Drop                                              DONE
+//Firm Drop                                            NO
+Hard Drop                                              DONE
+Delayed Auto Shift                                     DONE
+Wall kicks                                             BUGGY, theoretically, "I" won't kick 2 over
+Clockwise Rotation                                     DONE
+//Hold piece                                           NO
+Right Side Bias                                        DONE
+Allow only 1 floor kick                                IMPLEMENT!!!
+Allow I wall kicking always.                           IMPLEMENT!!!
+Allow I floor kicking even when not touching ground    IMPLEMENT!!!
 Adhere to SRS guidelines, some ARS guidelines
   http://tetris.wikia.com/wiki/SRS
   http://tetris.wikia.com/wiki/ARS
