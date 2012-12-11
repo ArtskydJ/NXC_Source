@@ -25,10 +25,10 @@
 #define dwn 0
 #define lft 1
 #define rht 2
-#define dropHard  4  //Normal
-#define dropSoft  3  //Normal
-#define dropWHard 2  //Wait
-#define dropWSoft 1  //Wait
+#define dropHard  1  //Normal
+#define dropSoft  2  //Normal
+#define dropWHard 3  //Wait
+#define dropWSoft 4  //Wait
 //Tetriminos
 #define Itet 0
 #define Jtet 1
@@ -380,6 +380,7 @@ bool inputOutput(bool allowInput, int waited)
       else                    drop=dropWSoft; //Wait for Soft Drop
       prevL++;
       }
+    else if (drop==dropWHard || drop==dropWSoft) drop-=2;
     if (ButtonPressed(BTNRIGHT))  // ROTATE
       {
       //lockDelay=0; /////////////////////////////////////////////////////////////////////////////
