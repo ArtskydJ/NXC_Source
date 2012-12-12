@@ -148,25 +148,15 @@ void selectGame(bool fastmode)
   prevE=0;
   score=0;
   currentPiece=-1;
-  disp="       ";
-  
+  disp="";
+  accesshigh="Tetris";
   if (fastmode)
     {
-    speedup=0.9;
-    delaytime=400;
-    accesshigh="TetrisFastGive.dat";
-    chnc[Itet]=2;
-    chnc[Jtet]=1;
-    chnc[Ltet]=1;
-    chnc[Otet]=2;
-    chnc[Stet]=0;
-    chnc[Ttet]=1;
-    chnc[Ztet]=0;
-    chnc[prob]=7;
+    gamespeed=0;
+    gametype=0;
     }
   else
     {
-    accesshigh="Tetris";
     while (ButtonPressed(BTNRIGHT)==false)
       {
       gamespeed=senseButton(gamespeed,false,1,2,false);
@@ -197,90 +187,89 @@ void selectGame(bool fastmode)
       RectOut(0,40-(gametype*8),49,8,0);
       Wait(50);
       }
-    TextOut(TX,LCD_LINE1,"TETRIS",  0);
-    until (ButtonPressed(BTNRIGHT)==false) {}
-    //
-    if      (gamespeed==0)
-      {
-      accesshigh=StrCat(accesshigh,"Slow");
-      speedup=0.975;
-      delaytime=800;
-      }
-    else if (gamespeed==1)
-      {
-      accesshigh=StrCat(accesshigh,"Med");
-      speedup=0.9375;
-      delaytime=600;
-      }
-    else if (gamespeed==2)
-      {
-      accesshigh=StrCat(accesshigh,"Fast");
-      speedup=0.9;
-      delaytime=400;
-      }
-
-    if      (gametype==0)
-      {
-      accesshigh=StrCat(accesshigh,"Give.dat");
-      chnc[Itet]=2;
-      chnc[Jtet]=1;
-      chnc[Ltet]=1;
-      chnc[Otet]=2;
-      chnc[Stet]=0;
-      chnc[Ttet]=1;
-      chnc[Ztet]=0;
-      chnc[prob]=7;
-      }
-    else if (gametype==1)
-      {
-      accesshigh=StrCat(accesshigh,"Simp.dat");
-      chnc[Itet]=3;
-      chnc[Jtet]=1;
-      chnc[Ltet]=1;
-      chnc[Otet]=3;
-      chnc[Stet]=1;
-      chnc[Ttet]=2;
-      chnc[Ztet]=1;
-      chnc[prob]=12;
-      }
-    else if (gametype==2)
-      {
-      accesshigh=StrCat(accesshigh,"Norm.dat");
-      chnc[Itet]=1;
-      chnc[Jtet]=1;
-      chnc[Ltet]=1;
-      chnc[Otet]=1;
-      chnc[Stet]=1;
-      chnc[Ttet]=1;
-      chnc[Ztet]=1;
-      chnc[prob]=7;
-      }
-    else if (gametype==3)
-      {
-      accesshigh=StrCat(accesshigh,"Hard.dat");
-      chnc[Itet]=2;
-      chnc[Jtet]=3;
-      chnc[Ltet]=3;
-      chnc[Otet]=2;
-      chnc[Stet]=4;
-      chnc[Ttet]=3;
-      chnc[Ztet]=4;
-      chnc[prob]=21;
-      }
-    else if (gametype==4)
-      {
-      accesshigh=StrCat(accesshigh,"Death.dat");
-      chnc[Itet]=1;
-      chnc[Jtet]=3;
-      chnc[Ltet]=3;
-      chnc[Otet]=2;
-      chnc[Stet]=4;
-      chnc[Ttet]=2;
-      chnc[Ztet]=4;
-      chnc[prob]=19;
-      }
-    ClearScreen();
     }
+  TextOut(TX,LCD_LINE1,"TETRIS",  0);
+  until (ButtonPressed(BTNRIGHT)==false) {}
+  //
+  if      (gamespeed==0)
+    {
+    accesshigh=StrCat(accesshigh,"Slow");
+    speedup=0.975;
+    delaytime=800;
+    }
+  else if (gamespeed==1)
+    {
+    accesshigh=StrCat(accesshigh,"Med");
+    speedup=0.9375;
+    delaytime=600;
+    }
+  else if (gamespeed==2)
+    {
+    accesshigh=StrCat(accesshigh,"Fast");
+    speedup=0.9;
+    delaytime=400;
+    }
+  if      (gametype==0)
+    {
+    accesshigh=StrCat(accesshigh,"Give.dat");
+    chnc[Itet]=2;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=2;
+    chnc[Stet]=0;
+    chnc[Ttet]=1;
+    chnc[Ztet]=0;
+    chnc[prob]=7;
+    }
+  else if (gametype==1)
+    {
+    accesshigh=StrCat(accesshigh,"Simp.dat");
+    chnc[Itet]=3;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=3;
+    chnc[Stet]=1;
+    chnc[Ttet]=2;
+    chnc[Ztet]=1;
+    chnc[prob]=12;
+    }
+  else if (gametype==2)
+    {
+    accesshigh=StrCat(accesshigh,"Norm.dat");
+    chnc[Itet]=1;
+    chnc[Jtet]=1;
+    chnc[Ltet]=1;
+    chnc[Otet]=1;
+    chnc[Stet]=1;
+    chnc[Ttet]=1;
+    chnc[Ztet]=1;
+    chnc[prob]=7;
+    }
+  else if (gametype==3)
+    {
+    accesshigh=StrCat(accesshigh,"Hard.dat");
+    chnc[Itet]=2;
+    chnc[Jtet]=3;
+    chnc[Ltet]=3;
+    chnc[Otet]=2;
+    chnc[Stet]=4;
+    chnc[Ttet]=3;
+    chnc[Ztet]=4;
+    chnc[prob]=21;
+    }
+  else if (gametype==4)
+    {
+    accesshigh=StrCat(accesshigh,"Death.dat");
+    chnc[Itet]=1;
+    chnc[Jtet]=3;
+    chnc[Ltet]=3;
+    chnc[Otet]=2;
+    chnc[Stet]=4;
+    chnc[Ttet]=2;
+    chnc[Ztet]=4;
+    chnc[prob]=19;
+    }
+  ClearScreen();
   }
 
 //  ______   ______   ______   ______   ______   ______   ______   ______
@@ -364,7 +353,7 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
     tempX=   (INx+(tet[INtet*4+INangl][i])*blksz);
     tempY=56-(INy+(tet[INtet*4+INangl][i+4])*blksz);
     //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
-    Wait(500); //file error last....
+    //Wait(500);
     if      (drawMode==0)   RectOut(tempX,tempY, blksz,blksz, 32);
     else if (drawMode==1)   RectOut(tempX,tempY, blksz,blksz, 0);
     else if (drawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
@@ -707,6 +696,7 @@ task main()
           Wait(10);
           //debugging
           }
+        delaytime*=speedup;
         pieceSetInto();
         clearFullRows();
         }
