@@ -21,10 +21,11 @@
 #define waitHardDrop    10
 #define waitLock        50
 #define fastRepeat      5
-//More
+//Move()
 #define dwn 0
 #define lft 1
 #define rht 2
+//Drop
 #define dropHard  1  //Normal
 #define dropSoft  2  //Normal
 #define dropWHard 3  //Wait
@@ -363,6 +364,7 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
     tempX=   (INx+(tet[INtet*4+INangl][i])*blksz);
     tempY=56-(INy+(tet[INtet*4+INangl][i+4])*blksz);
     //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
+    Wait(500); //file error last....
     if      (drawMode==0)   RectOut(tempX,tempY, blksz,blksz, 32);
     else if (drawMode==1)   RectOut(tempX,tempY, blksz,blksz, 0);
     else if (drawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
@@ -467,7 +469,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       {
       for (i=0; i<previewPieces; i++)
         {
-        displayTetromino(nextPiece[i],1, 50-((5*blksz)*i),50,1);
+        displayTetromino(nextPiece[i],1, 50-((5*blksz)*i),0,1);
         }
       TextOut(0,56,"       ",0);
       }
@@ -477,7 +479,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       disp="";
       }
     //CURRENT TETROMINO / SCORE
-    displayTetromino(currentPiece,currentRotate,tetX,tetY,1);
+    displayTetromino(currentPiece,currentRotate,tetX,tetY,1);///////////////////////////////////////////////////////////
     RotatedNumbersOut(SX,SY,score);
     }
 
@@ -670,13 +672,13 @@ void debug(int mode)
   
 task main()
   {
-  int mode=4;
+  int mode=1;
   while (!ButtonPressed(3))
     {
     mode=senseButton(mode,true,1,4,false);
     NumOut(48,0,mode,0);
     }
-
+  until (!ButtonPressed(3)) {}
   if (mode==0||mode==1)
     {
     ClearScreen();
