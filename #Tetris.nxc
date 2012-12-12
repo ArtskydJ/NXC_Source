@@ -456,11 +456,11 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
     //NEXT PIECES / MESSAGE
     if (disp=="")
       {
+      TextOut(0,56,"       ",0);
       for (i=0; i<previewPieces; i++)
         {
         displayTetromino(nextPiece[i],1, 50-((5*blksz)*i),0,1);
         }
-      TextOut(0,56,"       ",0);
       }
     else
       {
@@ -494,6 +494,7 @@ void pieceCreate()
   nextPiece[2]=pieceToCreate;
   }
 
+
 void pieceSetInto()
   {
   int tempX,tempY;
@@ -511,17 +512,16 @@ int clearFullRows()
   int blocksInRow=0;
   int numOfFilledLines=0;
   int i,j,k;
-  for (i=0; i<height+2; i++)          //Check All Rows
+  for (i=0; i<height+2; i++)                //Check All Rows
     {
     blocksInRow=0;
-    for (j=0; j<width; j++)         //add up blocks in row
+    for (j=0; j<width; j++)                 //Add up blocks in row
       {
       blocksInRow+=(area[j][i]);
       }
-
-    if (blocksInRow==width&&i<height)         //if the row is full
+    if (blocksInRow==width&&i<height)       //If the row is full
       {
-      for (k=i; k<height; k++)      //move higher rows down
+      for (k=i; k<height; k++)              //Move higher rows down
         {
         for (j=0; j<width; j++)
           {
@@ -540,8 +540,6 @@ int clearFullRows()
       {
       alive=false;
       }
-    //PlayTone(1000,200);
-    //Wait(250);
     }
 
   //add to score
