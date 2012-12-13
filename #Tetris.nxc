@@ -449,7 +449,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 //DRAW
   if (allowDraw)
     {
-    if (waited%10==0) ClearScreen();
+    //if (waited%10==0) ClearScreen(); //SEE BELOW
     //AREA
     int i;
     int j;
@@ -457,7 +457,10 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       {
       for (j=0; j<width; j++)
         {
-        if (area[j][i]) RectOut(i*blksz,j*blksz,blksz,blksz,32); //replace 32 w/ (area[j][i]*28)+4
+        if (area[j][i])                //SEE ABOVE
+          RectOut(i*blksz,j*blksz,blksz,blksz, area[j][i]*28+4 );
+        //replace 32 W/ area[j][i]*28+4
+        //replace area[j][i]*28+4 W/ 32
         }
       }
     //NEXT PIECES / MESSAGE
@@ -466,7 +469,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       TextOut(0,56,"       ",0);
       for (i=0; i<previewPieces; i++)
         {
-        displayTetromino(nextPiece[i],1, 50-((5*blksz)*i),0,1);
+        displayTetromino(nextPiece[i],0, 50-((5*blksz)*i),0,1);
         }
       }
     else
@@ -488,7 +491,47 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 //         |    /   |  |
 //        _|_  /    \__/
 //       ================
-  
+
+
+void initArrays()
+  {
+  for (int i=0; i<height; i++)
+    {
+    for (int j=0; j<width; j++)
+      {
+      area[j][i]=0;
+      }
+    }
+    
+  for (int i=0; i<3; i++)
+    {
+    int pieceToCreate=prob;
+    int rndm=Random(chnc[prob]);
+    int add=0;
+    for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
+      {
+      add+=chnc[j];
+      if (add>rndm) pieceToCreate=j;
+      /*
+      TextOut(0,40,StrCat("ptc ",    NumToStr(pieceToCreate)," "),0);
+      TextOut(0,32,StrCat("rndm ",   NumToStr(rndm),         " "),0);
+      TextOut(0,24,StrCat("add ",    NumToStr(add),          " "),0);
+      TextOut(0,16,StrCat("i ",      NumToStr(i),            " "),0);
+      TextOut(0,08,StrCat("j ",      NumToStr(j),            " "),0);
+      TextOut(0,00,StrCat("chnc[j] ",NumToStr(chnc[j]),      " "),0);
+      Wait(50);
+      */
+      }
+    if (pieceToCreate==prob)
+      {
+      //pieceToCreate=1;
+      ClearScreen();
+      TextOut(0,0,"piece create err",0);
+      PlayTone(2000,500);Wait(500);
+      }
+    nextPiece[i]=pieceToCreate;
+    }
+  }
 
 void pieceCreate()
   {
@@ -515,11 +558,11 @@ void pieceCreate()
 void pieceSetInto()
   {
   int tempX,tempY;
-  tempX=currentPiece+currentRotate;+tetX;
-  tempY=currentPiece+currentRotate;+tetY;
+  tempX=currentPiece+currentRotate;
+  tempY=currentPiece+currentRotate;
   for (int i=0; i<4; i++)
     {
-    area[tet[tempX][i]][tet[tempY][i+4]]=1;
+    area[tet[tempX][i]+tetX][tet[tempY][i+4]+tetY]=1;
     }
   }
   
@@ -695,6 +738,14 @@ void debugStream(int inInt)
 
 void debug(int mode)
   {
+  prevQuadClear=false;
+  prevC=0;
+  prevE=0;
+  selectGame(1);
+  initArrays();
+  score=Random(INT_MAX-10000)+10000;
+  ClearScreen();
+  
   if (mode==2) //ClearFullRows()
     {
     for (int i=0; i<height; i++)
@@ -704,13 +755,8 @@ void debug(int mode)
         area[j][i]=(Random(8)!=0);
         }
       }
-    prevQuadClear=false;
-    prevC=0;
-    prevE=0;
-    score=Random(INT_MAX-10000)+10000;//score=0;
-    currentPiece=-1;
-    ClearScreen();
-    inputOutput(false,false,true,0);
+    //PlayTone(1000,800);Wait(1000);
+    inputOutput(false,false,true,0); //FILE ERROR   FILE ERROR   FILE ERROR   FILE ERROR   FILE ERROR
     Wait(3000);
     int i=clearFullRows();
     ClearScreen();
@@ -722,13 +768,6 @@ void debug(int mode)
     
   else if (mode==3) //displayTetromino()
     {
-    for (int i=0; i<height; i++)
-      {
-      for (int j=0; j<width; j++)
-        {
-        area[j][i]=0;
-        }
-      }
     int tets,angl,k;
     for (tets=0; tets<7; tets++)
       {
@@ -744,28 +783,15 @@ void debug(int mode)
 
   else if (mode==4) //peiceSetInto()
     {
-    prevQuadClear=false;
-    prevC=0;
-    prevE=0;
-    score=Random(INT_MAX-10000)+10000;//score=0;
-    currentPiece=-1;
-    selectGame(1);
-    for (int i=0; i<height; i++)
-      {
-      for (int j=0; j<width; j++)
-        {
-        area[j][i]=0;
-        }
-      }
     pieceCreate();
-    Wait(200);
-    tetY+=10;
+    tetY-=10;
     pieceSetInto();
     inputOutput(false,false,true,0);
     Wait(3000);
+    
     ClearScreen();
-    Wait(200);
-    displayTetromino(currentPiece,currentRotate,tetY*blksz,tetX*blksz,1);
+    displayTetromino(currentPiece,currentRotate,tetX*blksz,tetY*blksz,1);
+    Wait(500);
     inputOutput(false,false,true,0);
     Wait(3000);
     }
@@ -786,7 +812,7 @@ void debug(int mode)
   
 task main()
   {
-  int mode=1;
+  int mode=4;
   while (!ButtonPressed(3))
     {
     mode=senseButton(mode,true,1,4,false);
@@ -797,15 +823,10 @@ task main()
     {
     ClearScreen();
     SetLongAbort(true);
+    selectGame(1);
     bool playagain;
     bool piecemoving;
-    for (int i=0; i<height; i++)
-      {
-      for (int j=0; j<width; j++)
-        {
-        area[j][i]=0;
-        }
-      }
+    initArrays();
     playagain=true;
     while (playagain)
       {
