@@ -130,6 +130,7 @@ int prevWaited     = 0;
 int tetX           = 0;
 int tetY           = 0;
 int drop           = 0;
+int viewDbg        = 0;
 bool alive         = 0;
 bool prevQuadClear = 0;
 bool highMade      = 0;
@@ -443,6 +444,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 //DRAW
   if (allowDraw)
     {
+    if (waited%10==0) ClearScreen();
     //AREA
     int i;
     int j;
@@ -468,7 +470,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       disp="";
       }
     //CURRENT TETROMINO / SCORE
-    displayTetromino(currentPiece,currentRotate,tetX,tetY,1);///////////////////////////////////////////////////////////
+    displayTetromino(currentPiece,currentRotate,tetY*blksz,tetX*blksz,1);
     RotatedNumbersOut(SX,SY,score);
     }
 
@@ -478,6 +480,8 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 
 void pieceCreate()
   {
+  tetY=height-1; // tetY=height+2;
+  tetX=width/2;
   int rndm;
   int pieceToCreate=0;
   rndm=Random(chnc[prob]);
@@ -570,6 +574,104 @@ void gameEnd()
   //TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);  //append code
   show=readHighName(accesshigh);
   TextOut(0,LCD_LINE8,StrCat("N:",show),0);
+  }
+  
+
+void debugStream(int inInt)
+  {
+  //viewDbg=inInt%5;
+  viewDbg=3;
+  /*
+  if      (viewDbg==0) viewDbg=2;
+  else if (viewDbg==2) viewDbg=3;
+  else if (viewDbg==3) viewDbg=4;
+  else if (viewDbg==4) viewDbg=2;
+  */
+  string str1;
+  string str2;
+  string str3;
+  string str4;
+  string str5;
+  string msg1;
+  string msg2;
+  string msg3;
+  string msg4;
+  string msg5;
+  string result;
+  if      (viewDbg==0)
+    {
+    str1=disp;
+    str2=accesshigh;
+    str3=NumToStr(speedup);
+    str4=NumToStr(inInt);
+    msg1="  dsp ";
+    msg2="  ahi ";
+    msg3="  sdp ";
+    msg4="    i ";
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
+    SendResponseString(9,result);
+    Wait(40);
+    }
+  else if (viewDbg==1)
+    {
+    str1=NumToStr(score);
+    str2=NumToStr(gametype);
+    str3=NumToStr(gamespeed);
+    str4=NumToStr(delaytime);
+    str5=NumToStr(lockDelay);
+    msg1="  sc ";
+    msg2="  gt ";
+    msg3="  gs ";
+    msg4="  dt ";
+    msg4="  lD ";
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4,msg5,str5);
+    SendResponseString(9,result);
+    Wait(40);
+    }
+  else if (viewDbg==2)
+    {
+    str1=NumToStr(prevWaited);
+    str2=NumToStr(prevC);
+    str3=NumToStr(prevE);
+    str4=NumToStr(prevL);
+    str5=NumToStr(prevR);
+    msg1="  lD ";
+    msg2="  pC ";
+    msg3="  pE ";
+    msg4="  pL ";
+    msg5="  pR ";
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4,msg5,str5);
+    SendResponseString(9,result);
+    Wait(40);
+    }
+  else if (viewDbg==3)
+    {
+    str1=NumToStr(currentPiece);
+    str2=NumToStr(currentRotate);
+    str3=NumToStr(tetX);
+    str4=NumToStr(tetY);
+    msg1="  cP ";
+    msg2="  cR ";
+    msg3="  tX ";
+    msg4="  tY ";
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
+    SendResponseString(9,result);
+    Wait(40);
+    }
+  else if (viewDbg==4)
+    {
+    str1=NumToStr(drop);
+    str2=NumToStr(alive);
+    str3=NumToStr(prevQuadClear);
+    str4=NumToStr(highMade);
+    msg1="  dp ";
+    msg2="  lv ";
+    msg3="  pQ ";
+    msg4="  hM ";
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
+    SendResponseString(9,result);
+    Wait(40);
+    }
   }
 
 
@@ -692,7 +794,7 @@ task main()
           {
           piecemoving=inputOutput(true,true,true,i);
           Wait(10);
-          //debugging
+          debugStream(i);
           }
         delaytime*=speedup;
         pieceSetInto();
