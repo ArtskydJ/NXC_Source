@@ -65,7 +65,7 @@ void openFile(string viewme)
 string setFilter(string previouspattern)
   {
   int k;
-  string returnme;
+  string returnme="";
   until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
   while (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0)
     {
@@ -94,9 +94,9 @@ task main()
   int i,j,nof;
   bool inloop=true;
   ListFilesType listoffiles;
+  listoffiles.Pattern = "*.*";
   while (inloop)
     {
-    listoffiles.Pattern = "*.*";
     SysListFiles(listoffiles);
     nof=ArrayLen(listoffiles.FileList);
     j=0;
@@ -124,11 +124,9 @@ task main()
       if (ButtonPressed(BTNLEFT)) inloop=false;
       else
         {
-        listoffiles.Pattern=setFilter(listoffiles.Pattern);;
+        listoffiles.Pattern=setFilter(listoffiles.Pattern);
         SendResponseString(MAILBOX10,listoffiles.Pattern);
-        SysListFiles(listoffiles);
-        if(listoffiles.Result != NO_ERR) {PlayTone(3000,1000);}
-        nof=ArrayLen(listoffiles.FileList);
+        if (listoffiles.Result != NO_ERR) {PlayTone(3000,1000);}
         }
       }
     else
@@ -142,4 +140,5 @@ task main()
   
 /* To Do List
 Add Sounds
+Open RICs
 */
