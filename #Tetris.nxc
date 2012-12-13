@@ -360,7 +360,12 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
     else if (drawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
     }
   }
-  
+
+// BEGIN  _ _        __
+//         |     /  /  \
+//         |    /   |  |
+//        _|_  /    \__/
+//       ================
 
 bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
   {
@@ -476,12 +481,20 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 
   return temppiecemoving;
   }
+
+
+//  END   _ _        __
+//         |     /  /  \
+//         |    /   |  |
+//        _|_  /    \__/
+//       ================
   
 
 void pieceCreate()
   {
-  tetY=height-1; // tetY=height+2;
+  tetY=height-4; // tetY=height+2;
   tetX=width/2;
+  currentRotate=1;
   int rndm;
   int pieceToCreate=0;
   rndm=Random(chnc[prob]);
@@ -575,7 +588,12 @@ void gameEnd()
   show=readHighName(accesshigh);
   TextOut(0,LCD_LINE8,StrCat("N:",show),0);
   }
-  
+
+// BEGIN  _    __   __          __
+//       | \  |    |  )  |  |  /  \
+//       | |  |--  |-<   |  |  |  __
+//       |_/  |__  |__)  \__/  \__/
+//      ============================
 
 void debugStream(int inInt)
   {
@@ -747,17 +765,24 @@ void debug(int mode)
     Wait(3000);
     ClearScreen();
     Wait(200);
-    displayTetromino(currentPiece,currentRotate,tetX,tetY,1);
+    displayTetromino(currentPiece,currentRotate,tetY*blksz,tetX*blksz,1);
     inputOutput(false,false,true,0);
     Wait(3000);
     }
   }
+
+//  END   _    __   __          __
+//       | \  |    |  )  |  |  /  \
+//       | |  |--  |-<   |  |  |  __
+//       |_/  |__  |__)  \__/  \__/
+//      ============================
   
 //Modes:
 //0  normal
 //1  fast
 //2  debug clearFullRows()
 //3  dubug rotation
+//4  depug peiceSetInto
   
 task main()
   {
