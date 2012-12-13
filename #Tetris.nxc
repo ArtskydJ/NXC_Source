@@ -457,7 +457,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       {
       for (j=0; j<width; j++)
         {
-        if (area[j][i])                //SEE ABOVE
+        //if (area[j][i])              //SEE ABOVE
           RectOut(i*blksz,j*blksz,blksz,blksz, area[j][i]*28+4 );
         //replace 32 W/ area[j][i]*28+4
         //replace area[j][i]*28+4 W/ 32
