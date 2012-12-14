@@ -32,7 +32,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 29	__D0move	6	1	116	4	26
 30	__D0readHigh	6	1	120	4	11
 31	__D0pieceSetInto	6	1	124	4	8
-32	__D0pieceCreate	6	1	128	4	22
+32	__D0pieceCreate	6	1	128	4	24
 33	__DU0main	5	1	132	4	6
 34	__DU0inputOutput	5	1	136	4	14
 35	__D0inputOutput	6	1	140	4	167
@@ -103,7 +103,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 100	__signed_stack_003rotate	6	1	400	4	4
 101	__signed_stack_002rotate	6	1	404	4	8
 102	__signed_stack_003pieceSetInto	6	1	408	4	4
-103	__signed_stack_001pieceCreate	6	1	412	4	16
+103	__signed_stack_001pieceCreate	6	1	412	4	18
 104	__unsigned_stack_002output	5	1	416	4	2
 105	__unsigned_stack_001output	5	1	420	4	12
 106	__signed_stack_002pieceSetInto	6	1	424	4	8
@@ -972,7 +972,7 @@ Clump	Line	PC	Source
 0	6897	155		mov __PointOutArgs.Options, __constVal1
 0	6897	158		syscall 14, __PointOutArgs
 0	6897	161		release __PointOutMutex
-0	20025	162	#line 20025 "NXCDefs.h"
+0	20033	162	#line 20033 "NXCDefs.h"
 0	6896	162	#line 6896 "NXCDefs.h"
 0	823	162	#line 823 "C:\Github\NXC_Source\#Tetris.nxc"
 0	825	162	#line 825 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -992,7 +992,7 @@ Clump	Line	PC	Source
 0	828	180		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
 0	828	183		syscall 79, __IOMWBIArgs
 0	828	186		release __IOMWMutex
-0	20038	187	#line 20038 "C:\Github\NXC_Source\#Tetris.nxc"
+0	20046	187	#line 20046 "C:\Github\NXC_Source\#Tetris.nxc"
 0	828	187	#line 828 "C:\Github\NXC_Source\#Tetris.nxc"
 0	829	187	#line 829 "C:\Github\NXC_Source\#Tetris.nxc"
 0	830	187		jmp __ASM_Label_2638
@@ -1005,7 +1005,7 @@ Clump	Line	PC	Source
 0	830	198		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
 0	830	201		syscall 79, __IOMWBIArgs
 0	830	204		release __IOMWMutex
-0	20044	205	#line 20044 "C:\Github\NXC_Source\#Tetris.nxc"
+0	20052	205	#line 20052 "C:\Github\NXC_Source\#Tetris.nxc"
 0	830	205	#line 830 "C:\Github\NXC_Source\#Tetris.nxc"
 0	831	205	#line 831 "C:\Github\NXC_Source\#Tetris.nxc"
 0	832	205	#line 832 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -6685,55 +6685,60 @@ Clump	Line	PC	Source
 18	547	88	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
 18	548	88		brtst 4, __ASM_Label_2165, __D0pieceCreate
 18	547	91	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
-18	548	91		mov __pieceCreate_7qG2_pieceToCreate_7qG2_000, __pieceCreate_7qG2_i_7qG2_001
+18	548	91		mov __signed_stack_001pieceCreate, __pieceCreate_7qG2_i_7qG2_001
 18	547	93	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
 18	547	93	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
-18	550	93	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	550	93	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	551	93		jmp __ASM_Label_2152
-18	550	95	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	550	95	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	551	95		set __signed_stack_001pieceCreate, 0
-18	550	98	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	550	98	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	551	98		index currentPiece, nextPiece, __signed_stack_001pieceCreate
+18	548	93		set __D0pieceCreate, 4
+18	547	96	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
+18	548	96		mul __pieceCreate_7qG2_pieceToCreate_7qG2_000, __signed_stack_001pieceCreate, __D0pieceCreate
+18	547	100	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
+18	547	100	#line 547 "C:\Github\NXC_Source\#Tetris.nxc"
+18	550	100	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	550	100	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	551	100		jmp __ASM_Label_2152
 18	550	102	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
 18	550	102	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	550	102	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
-18	551	102	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	102		set __signed_stack_001pieceCreate, 0
-18	551	105	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	551	105	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	105		set __signed_stack_002pieceCreate, 1
-18	551	108	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	551	108	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	108		index __D0pieceCreate, nextPiece, __signed_stack_002pieceCreate
+18	551	102		set __signed_stack_001pieceCreate, 0
+18	550	105	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	550	105	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	551	105		index currentPiece, nextPiece, __signed_stack_001pieceCreate
+18	550	109	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	550	109	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	550	109	#line 550 "C:\Github\NXC_Source\#Tetris.nxc"
+18	551	109	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
+18	552	109		set __signed_stack_001pieceCreate, 0
 18	551	112	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
 18	551	112	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	112		replace nextPiece, nextPiece, __signed_stack_001pieceCreate, __D0pieceCreate
-18	551	117	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	117	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	553	117		set __signed_stack_001pieceCreate, 1
-18	552	120	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	120	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	553	120		set __signed_stack_002pieceCreate, 2
-18	552	123	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	552	123	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	553	123		index __D0pieceCreate, nextPiece, __signed_stack_002pieceCreate
+18	552	112		set __signed_stack_002pieceCreate, 1
+18	551	115	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
+18	551	115	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
+18	552	115		index __D0pieceCreate, nextPiece, __signed_stack_002pieceCreate
+18	551	119	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
+18	551	119	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
+18	552	119		replace nextPiece, nextPiece, __signed_stack_001pieceCreate, __D0pieceCreate
+18	551	124	#line 551 "C:\Github\NXC_Source\#Tetris.nxc"
+18	552	124	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
+18	553	124		set __signed_stack_001pieceCreate, 1
 18	552	127	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
 18	552	127	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	553	127		replace nextPiece, nextPiece, __signed_stack_001pieceCreate, __D0pieceCreate
-18	552	132	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
-18	553	132	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
-18	554	132		set __signed_stack_001pieceCreate, 2
-18	553	135	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
-18	553	135	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
-18	554	135		mov __D0pieceCreate, __pieceCreate_7qG2_pieceToCreate_7qG2_000
-18	553	138	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
-18	554	138		replace nextPiece, nextPiece, __signed_stack_001pieceCreate, __D0pieceCreate
-18	553	143	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
-18	557	143	#line 557 "C:\Github\NXC_Source\#Tetris.nxc"
-18	558	143		subret __pieceCreate_return
+18	553	127		set __signed_stack_002pieceCreate, 2
+18	552	130	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
+18	552	130	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
+18	553	130		index __D0pieceCreate, nextPiece, __signed_stack_002pieceCreate
+18	552	134	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
+18	552	134	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
+18	553	134		replace nextPiece, nextPiece, __signed_stack_001pieceCreate, __D0pieceCreate
+18	552	139	#line 552 "C:\Github\NXC_Source\#Tetris.nxc"
+18	553	139	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
+18	554	139		set __signed_stack_001pieceCreate, 2
+18	553	142	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
+18	553	142	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
+18	554	142		mov __D0pieceCreate, __pieceCreate_7qG2_pieceToCreate_7qG2_000
+18	553	145	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
+18	554	145		replace nextPiece, nextPiece, __signed_stack_001pieceCreate, __D0pieceCreate
+18	553	150	#line 553 "C:\Github\NXC_Source\#Tetris.nxc"
+18	557	150	#line 557 "C:\Github\NXC_Source\#Tetris.nxc"
+18	558	150		subret __pieceCreate_return
 19	560	0	#line 560 "C:\Github\NXC_Source\#Tetris.nxc"
 19	560	0	#line 560 "C:\Github\NXC_Source\#Tetris.nxc"
 19	560	0	#line 560 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -6955,7 +6960,7 @@ Clump	Line	PC	Source
 20	589	174		syscall 26, __MWArgs
 20	589	177		mov __D0clearFullRows, __MWArgs.Result
 20	589	180		release __MWMutex
-20	17791	181	#line 17791 "C:\Github\NXC_Source\#Tetris.nxc"
+20	17799	181	#line 17799 "C:\Github\NXC_Source\#Tetris.nxc"
 20	588	181	#line 588 "C:\Github\NXC_Source\#Tetris.nxc"
 20	588	181	#line 588 "C:\Github\NXC_Source\#Tetris.nxc"
 20	589	181	#line 589 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7231,7 +7236,7 @@ Clump	Line	PC	Source
 21	6897	81		mov __PointOutArgs.Options, __constVal1
 21	6897	84		syscall 14, __PointOutArgs
 21	6897	87		release __PointOutMutex
-21	18169	88	#line 18169 "NXCDefs.h"
+21	18177	88	#line 18177 "NXCDefs.h"
 21	6896	88	#line 6896 "NXCDefs.h"
 21	622	88	#line 622 "C:\Github\NXC_Source\#Tetris.nxc"
 21	623	88	#line 623 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7293,7 +7298,7 @@ Clump	Line	PC	Source
 21	6897	156		mov __PointOutArgs.Options, __constVal1
 21	6897	159		syscall 14, __PointOutArgs
 21	6897	162		release __PointOutMutex
-21	18237	163	#line 18237 "NXCDefs.h"
+21	18245	163	#line 18245 "NXCDefs.h"
 21	6896	163	#line 6896 "NXCDefs.h"
 21	626	163	#line 626 "C:\Github\NXC_Source\#Tetris.nxc"
 21	627	163	#line 627 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7501,7 +7506,7 @@ Clump	Line	PC	Source
 22	673	154		syscall 26, __MWArgs
 22	673	157		mov __D0debugStream, __MWArgs.Result
 22	673	160		release __MWMutex
-22	18541	161	#line 18541 "C:\Github\NXC_Source\#Tetris.nxc"
+22	18549	161	#line 18549 "C:\Github\NXC_Source\#Tetris.nxc"
 22	672	161	#line 672 "C:\Github\NXC_Source\#Tetris.nxc"
 22	672	161	#line 672 "C:\Github\NXC_Source\#Tetris.nxc"
 22	673	161	#line 673 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7647,7 +7652,7 @@ Clump	Line	PC	Source
 22	689	362		syscall 26, __MWArgs
 22	689	365		mov __D0debugStream, __MWArgs.Result
 22	689	368		release __MWMutex
-22	18721	369	#line 18721 "C:\Github\NXC_Source\#Tetris.nxc"
+22	18729	369	#line 18729 "C:\Github\NXC_Source\#Tetris.nxc"
 22	688	369	#line 688 "C:\Github\NXC_Source\#Tetris.nxc"
 22	688	369	#line 688 "C:\Github\NXC_Source\#Tetris.nxc"
 22	689	369	#line 689 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7793,7 +7798,7 @@ Clump	Line	PC	Source
 22	705	570		syscall 26, __MWArgs
 22	705	573		mov __D0debugStream, __MWArgs.Result
 22	705	576		release __MWMutex
-22	18897	577	#line 18897 "C:\Github\NXC_Source\#Tetris.nxc"
+22	18905	577	#line 18905 "C:\Github\NXC_Source\#Tetris.nxc"
 22	704	577	#line 704 "C:\Github\NXC_Source\#Tetris.nxc"
 22	704	577	#line 704 "C:\Github\NXC_Source\#Tetris.nxc"
 22	705	577	#line 705 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7917,7 +7922,7 @@ Clump	Line	PC	Source
 22	719	745		syscall 26, __MWArgs
 22	719	748		mov __D0debugStream, __MWArgs.Result
 22	719	751		release __MWMutex
-22	19045	752	#line 19045 "C:\Github\NXC_Source\#Tetris.nxc"
+22	19053	752	#line 19053 "C:\Github\NXC_Source\#Tetris.nxc"
 22	718	752	#line 718 "C:\Github\NXC_Source\#Tetris.nxc"
 22	718	752	#line 718 "C:\Github\NXC_Source\#Tetris.nxc"
 22	719	752	#line 719 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8041,7 +8046,7 @@ Clump	Line	PC	Source
 22	733	923		syscall 26, __MWArgs
 22	733	926		mov __D0debugStream, __MWArgs.Result
 22	733	929		release __MWMutex
-22	19193	930	#line 19193 "C:\Github\NXC_Source\#Tetris.nxc"
+22	19201	930	#line 19201 "C:\Github\NXC_Source\#Tetris.nxc"
 22	732	930	#line 732 "C:\Github\NXC_Source\#Tetris.nxc"
 22	732	930	#line 732 "C:\Github\NXC_Source\#Tetris.nxc"
 22	733	930	#line 733 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8090,7 +8095,7 @@ Clump	Line	PC	Source
 23	746	33		div __RandomTmp, __RandomTmp, __constVal65536
 23	746	37		mov __D0debug, __RandomTmp
 23	746	39		release __RandomMutex
-23	19251	40	#line 19251 "C:\Github\NXC_Source\#Tetris.nxc"
+23	19259	40	#line 19259 "C:\Github\NXC_Source\#Tetris.nxc"
 23	745	40	#line 745 "C:\Github\NXC_Source\#Tetris.nxc"
 23	746	40		mov __signed_stack_001debug, __D0debug
 23	745	42	#line 745 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8107,7 +8112,7 @@ Clump	Line	PC	Source
 23	6897	56		mov __PointOutArgs.Options, __constVal1
 23	6897	59		syscall 14, __PointOutArgs
 23	6897	62		release __PointOutMutex
-23	19266	63	#line 19266 "NXCDefs.h"
+23	19274	63	#line 19274 "NXCDefs.h"
 23	6896	63	#line 6896 "NXCDefs.h"
 23	746	63	#line 746 "C:\Github\NXC_Source\#Tetris.nxc"
 23	748	63	#line 748 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8174,7 +8179,7 @@ Clump	Line	PC	Source
 23	755	149		div __RandomTmp, __RandomTmp, __constVal65536
 23	755	153		mov __D0debug, __RandomTmp
 23	755	155		release __RandomMutex
-23	19365	156	#line 19365 "C:\Github\NXC_Source\#Tetris.nxc"
+23	19373	156	#line 19373 "C:\Github\NXC_Source\#Tetris.nxc"
 23	754	156	#line 754 "C:\Github\NXC_Source\#Tetris.nxc"
 23	755	156		mov __signed_stack_003debug, __D0debug
 23	754	158	#line 754 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8229,7 +8234,7 @@ Clump	Line	PC	Source
 23	6897	213		mov __PointOutArgs.Options, __constVal1
 23	6897	216		syscall 14, __PointOutArgs
 23	6897	219		release __PointOutMutex
-23	19440	220	#line 19440 "NXCDefs.h"
+23	19448	220	#line 19448 "NXCDefs.h"
 23	6896	220	#line 6896 "NXCDefs.h"
 23	761	220	#line 761 "C:\Github\NXC_Source\#Tetris.nxc"
 23	762	220	#line 762 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8348,7 +8353,7 @@ Clump	Line	PC	Source
 23	6897	357		mov __PointOutArgs.Options, __constVal1
 23	6897	360		syscall 14, __PointOutArgs
 23	6897	363		release __PointOutMutex
-23	19606	364	#line 19606 "NXCDefs.h"
+23	19614	364	#line 19614 "NXCDefs.h"
 23	6896	364	#line 6896 "NXCDefs.h"
 23	775	364	#line 775 "C:\Github\NXC_Source\#Tetris.nxc"
 23	776	364	#line 776 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8464,7 +8469,7 @@ Clump	Line	PC	Source
 23	6897	480		mov __PointOutArgs.Options, __constVal1
 23	6897	483		syscall 14, __PointOutArgs
 23	6897	486		release __PointOutMutex
-23	19747	487	#line 19747 "NXCDefs.h"
+23	19755	487	#line 19755 "NXCDefs.h"
 23	6896	487	#line 6896 "NXCDefs.h"
 23	791	487	#line 791 "C:\Github\NXC_Source\#Tetris.nxc"
 23	792	487	#line 792 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -8567,9 +8572,9 @@ Clump	Name	Offset	File
 16	inputOutput	5883	C:\Github\NXC_Source\#Tetris.nxc
 17	initArrays	6801	C:\Github\NXC_Source\#Tetris.nxc
 18	pieceCreate	7116	C:\Github\NXC_Source\#Tetris.nxc
-19	pieceSetInto	7261	C:\Github\NXC_Source\#Tetris.nxc
-20	clearFullRows	7352	C:\Github\NXC_Source\#Tetris.nxc
-21	gameEnd	7774	C:\Github\NXC_Source\#Tetris.nxc
-22	debugStream	8079	C:\Github\NXC_Source\#Tetris.nxc
-23	debug	9016	C:\Github\NXC_Source\#Tetris.nxc
-24	__initialize_global_data	9562	C:\Github\NXC_Source\#Tetris.nxc
+19	pieceSetInto	7268	C:\Github\NXC_Source\#Tetris.nxc
+20	clearFullRows	7359	C:\Github\NXC_Source\#Tetris.nxc
+21	gameEnd	7781	C:\Github\NXC_Source\#Tetris.nxc
+22	debugStream	8086	C:\Github\NXC_Source\#Tetris.nxc
+23	debug	9023	C:\Github\NXC_Source\#Tetris.nxc
+24	__initialize_global_data	9569	C:\Github\NXC_Source\#Tetris.nxc

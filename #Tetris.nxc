@@ -545,7 +545,7 @@ void pieceCreate()
     {
     if (rndm<chnc[i])
       {
-      pieceToCreate=i;
+      pieceToCreate=i*4; // X4 because rotations.
       }
     }
   currentPiece=nextPiece[0];
