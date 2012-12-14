@@ -154,7 +154,7 @@ void selectGame(bool fastmode)
   if (fastmode)
     {
     gamespeed=0;
-    gametype=0;
+    gametype=5;
     }
   else
     {
@@ -269,6 +269,18 @@ void selectGame(bool fastmode)
     chnc[Ttet]=2;
     chnc[Ztet]=4;
     chnc[prob]=19;
+    }
+  else if (gametype==5) //DEBUG ONLY
+    {
+    accesshigh=StrCat(accesshigh,"Death.dat");
+    chnc[Itet]=1;
+    chnc[Jtet]=0;
+    chnc[Ltet]=0;
+    chnc[Otet]=0;
+    chnc[Stet]=0;
+    chnc[Ttet]=0;
+    chnc[Ztet]=0;
+    chnc[prob]=1;
     }
   ClearScreen();
   }
@@ -503,21 +515,14 @@ void initArrays()
   for (int i=0; i<3; i++)
     {
     int pieceToCreate=prob;
-    int rndm=Random(chnc[prob]);
+    int rndm=Random(chnc[prob]-1);
+    SendResponseNumber(9,rndm);
+    Wait(50);
     int add=0;
     for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
       {
       add+=chnc[j];
       if (add>rndm) pieceToCreate=j*4;
-      /*
-      TextOut(0,40,StrCat("ptc ",    NumToStr(pieceToCreate)," "),0);
-      TextOut(0,32,StrCat("rndm ",   NumToStr(rndm),         " "),0);
-      TextOut(0,24,StrCat("add ",    NumToStr(add),          " "),0);
-      TextOut(0,16,StrCat("i ",      NumToStr(i),            " "),0);
-      TextOut(0,08,StrCat("j ",      NumToStr(j),            " "),0);
-      TextOut(0,00,StrCat("chnc[j] ",NumToStr(chnc[j]),      " "),0);
-      Wait(50);
-      */
       }
     if (pieceToCreate==prob)
       {
@@ -529,6 +534,7 @@ void initArrays()
     nextPiece[i]=pieceToCreate;
     }
   }
+  
 
 void pieceCreate()
   {
@@ -537,13 +543,13 @@ void pieceCreate()
   currentRotate=1;
   int rndm;
   int pieceToCreate=0;
-  rndm=Random(chnc[prob]);
+  int add=0;
+  rndm=Random(chnc[prob]-1);
+  SendResponseNumber(9,rndm);
   for (int i=0; (i<Ztet)&&(pieceToCreate==0); i++)
     {
-    if (rndm<chnc[i])
-      {
-      pieceToCreate=i*4; // X4 because rotations.
-      }
+    add+=chnc[i];
+    if (add>rndm) pieceToCreate=i*4;
     }
   currentPiece=nextPiece[0];
   nextPiece[0]=nextPiece[1];
@@ -796,12 +802,13 @@ void debug(int mode)
     {
     while (1)
       {
+      ClearScreen();
       pieceCreate();
-      NumOut(0,48,nextPiece[0],4096);
-      NumOut(0,40,nextPiece[1],4096);
-      NumOut(0,32,nextPiece[2],4096);
-      NumOut(0,24,currentPiece,4096);
-      Wait(2500);
+      NumOut(0,48,currentPiece,4096);
+      NumOut(0,40,nextPiece[0],4096);
+      NumOut(0,32,nextPiece[1],4096);
+      NumOut(0,24,nextPiece[2],4096);
+      Wait(1000);
       }
     }
   }
