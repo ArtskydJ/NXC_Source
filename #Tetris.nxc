@@ -154,7 +154,7 @@ void selectGame(bool fastmode)
   if (fastmode)
     {
     gamespeed=0;
-    gametype=2;
+    gametype=5;
     }
   else
     {
@@ -279,8 +279,8 @@ void selectGame(bool fastmode)
     chnc[Otet]=2;
     chnc[Stet]=0;
     chnc[Ttet]=0;
-    chnc[Ztet]=0;
-    chnc[prob]=3;
+    chnc[Ztet]=1;
+    chnc[prob]=4;
     }
   ClearScreen();
   }
@@ -517,15 +517,17 @@ void initArrays()
     int pieceToCreate=prob;
     int rndm=Random(chnc[prob]);
     int add=0;
-    for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
+    for (int j=0; (j<=Ztet)&&(pieceToCreate==prob); j++)
       {
       add+=chnc[j];
-      if (add>=rndm) pieceToCreate=j*4;
+      if (add>rndm) pieceToCreate=j*4;
       }
     if (pieceToCreate==prob)
       {
       ClearScreen();
-      TextOut(0,0,"piece create err",0);
+      TextOut(0,24,StrCat("add  ",NumToStr(add) ),0);
+      TextOut(0,16,StrCat("rndm ",NumToStr(rndm)),0);
+      TextOut(0,00,"piece create err",0);
       PlayTone(2000,500);Wait(500);
       }
     nextPiece[i]=pieceToCreate;
@@ -537,25 +539,22 @@ void pieceCreate()
   {
   tetY=height-4; // tetY=height+2;
   tetX=width/2;
-  currentRotate=1;
+  currentRotate=-1;
 
   int pieceToCreate=prob;
   int rndm=Random(chnc[prob]);
   int add=0;
-  SendResponseNumber(9,rndm);
-  for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
+  for (int j=0; (j<=Ztet)&&(pieceToCreate==prob); j++)
     {
     add+=chnc[j];
     if (add>rndm) pieceToCreate=j*4;
-    Wait(100);
-    int temp=add;
-    SendResponseNumber(9,temp);
-    Wait(100);
     }
   if (pieceToCreate==prob)
     {
     ClearScreen();
-    TextOut(0,0,"piece create err",0);
+    TextOut(0,24,StrCat("add  ",NumToStr(add) ),0);
+    TextOut(0,16,StrCat("rndm ",NumToStr(rndm)),0);
+    TextOut(0,00,"piece create err",0);
     PlayTone(2000,500);Wait(500);
     }
   
