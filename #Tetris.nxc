@@ -508,7 +508,7 @@ void initArrays()
     for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
       {
       add+=chnc[j];
-      if (add>rndm) pieceToCreate=j;
+      if (add>rndm) pieceToCreate=j*4;
       /*
       TextOut(0,40,StrCat("ptc ",    NumToStr(pieceToCreate)," "),0);
       TextOut(0,32,StrCat("rndm ",   NumToStr(rndm),         " "),0);
@@ -792,6 +792,18 @@ void debug(int mode)
     inputOutput(false,false,true,0);
     Wait(3000);
     }
+  else if (mode==5) //peiceCreate()
+    {
+    while (1)
+      {
+      pieceCreate();
+      NumOut(0,48,nextPiece[0],4096);
+      NumOut(0,40,nextPiece[1],4096);
+      NumOut(0,32,nextPiece[2],4096);
+      NumOut(0,24,currentPiece,4096);
+      Wait(2500);
+      }
+    }
   }
 
 //  END   _    __   __          __
@@ -809,10 +821,10 @@ void debug(int mode)
   
 task main()
   {
-  int mode=4;
+  int mode=5;
   while (!ButtonPressed(3))
     {
-    mode=senseButton(mode,true,1,4,false);
+    mode=senseButton(mode,true,1,5,false);
     NumOut(48,0,mode,0);
     }
   until (!ButtonPressed(3)) {}
