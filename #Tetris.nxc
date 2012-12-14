@@ -516,17 +516,14 @@ void initArrays()
     {
     int pieceToCreate=prob;
     int rndm=Random(chnc[prob]-1);
-    SendResponseNumber(9,rndm);
-    Wait(50);
     int add=0;
     for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
       {
       add+=chnc[j];
-      if (add>rndm) pieceToCreate=j*4;
+      if (add>=rndm) pieceToCreate=j*4;
       }
     if (pieceToCreate==prob)
       {
-      //pieceToCreate=1;
       ClearScreen();
       TextOut(0,0,"piece create err",0);
       PlayTone(2000,500);Wait(500);
@@ -541,16 +538,23 @@ void pieceCreate()
   tetY=height-4; // tetY=height+2;
   tetX=width/2;
   currentRotate=1;
-  int rndm;
-  int pieceToCreate=0;
+
+  int pieceToCreate=prob;
+  int rndm=Random(chnc[prob]-1);
   int add=0;
-  rndm=Random(chnc[prob]-1);
   SendResponseNumber(9,rndm);
-  for (int i=0; (i<Ztet)&&(pieceToCreate==0); i++)
+  for (int j=0; (j<Ztet)&&(pieceToCreate==prob); j++)
     {
-    add+=chnc[i];
-    if (add>rndm) pieceToCreate=i*4;
+    add+=chnc[j];
+    if (add>=rndm) pieceToCreate=j*4;
     }
+  if (pieceToCreate==prob)
+    {
+    ClearScreen();
+    TextOut(0,0,"piece create err",0);
+    PlayTone(2000,500);Wait(500);
+    }
+  
   currentPiece=nextPiece[0];
   nextPiece[0]=nextPiece[1];
   nextPiece[1]=nextPiece[2];
