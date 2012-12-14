@@ -449,7 +449,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 //DRAW
   if (allowDraw)
     {
-    //if (waited%10==0) ClearScreen(); //SEE BELOW
+    if (waited%10==0) ClearScreen();
     //AREA
     int i;
     int j;
@@ -457,10 +457,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       {
       for (j=0; j<width; j++)
         {
-        //if (area[j][i])              //SEE ABOVE
-          RectOut(i*blksz,j*blksz,blksz,blksz, area[j][i]*28+4 );
-        //replace 32 W/ area[j][i]*28+4
-        //replace area[j][i]*28+4 W/ 32
+        if (area[j][i]) RectOut(i*blksz,j*blksz,blksz,blksz,32); //replace 32 W/ area[j][i]*28+4
         }
       }
     //NEXT PIECES / MESSAGE
