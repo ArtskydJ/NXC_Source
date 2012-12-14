@@ -15,11 +15,11 @@
 #define SY      61
 #define previewPieces   3
 //Timing (all *10)
-#define waitGravity     50
-#define waitFastMove    10
-#define waitRotateAgain 10
-#define waitHardDrop    10
-#define waitLock        50
+#define waitGravity     5
+#define waitFastMove    3
+#define waitRotateAgain 3
+#define waitHardDrop    3
+#define waitLock        5
 #define fastRepeat      5
 //Move()
 #define dwn 0
@@ -429,8 +429,10 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
 //OUTPUT
   if (allowOutput) //Gravity and Drop
     {
-    if ((waited%waitGravity<prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
+    TextOut(25,48,"CODE RUNNING",0);
+    if ((waited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
+      TextOut(25,48,"DROP/GRAVITY",0);
       if (drop==dropHard) //hard drop
         {
         bool tempLoop=true;
@@ -446,7 +448,8 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
         }
       else //gravity or soft drop
         {
-        if (move(dwn)) tetY--;
+        TextOut(25,48,"   GRAVITY  ",0);//PlayTone(1000,1000);Wait(1000);
+        if (move(dwn)) tetY--; //move(dwn) returns 0, idk why... move(dwn) returns 0, idk why... move(dwn) returns 0, idk why...
         if (lockDelay>=waitLock) temppiecemoving=false;
         }
       }
@@ -559,9 +562,9 @@ void pieceCreate()
     }
   
   currentPiece=nextPiece[0];
-  for (int i=1; i<previewPieces-1; i++)
+  for (int i=1; i<previewPieces-1; i++) ////////////////////////////////////////////////////////////////////// debug mode 5
     {
-    PlayTone(1000,500);Wait(500);
+    //PlayTone(1000,500);Wait(500);
     nextPiece[i-1]=nextPiece[i];
     }
   nextPiece[previewPieces-1]=pieceToCreate;
@@ -821,6 +824,16 @@ void debug(int mode)
       Wait(400);
       }
     }
+  else if (mode==6) //gravity
+    {
+    pieceCreate();
+    while(1)
+      {
+      inputOutput(false,false,true,0);
+      Wait(1000);
+      tetY--;
+      }
+    }
   }
 
 //  END   _    __   __          __
@@ -834,14 +847,16 @@ void debug(int mode)
 //1  fast
 //2  debug clearFullRows()
 //3  dubug rotation
-//4  depug peiceSetInto
+//4  debug peiceSetInto()
+//5  debug peiceCreate()
+//6  debug gravity in inputOutput()
   
 task main()
   {
   int mode=1;
   while (!ButtonPressed(3))
     {
-    mode=senseButton(mode,true,1,5,false);
+    mode=senseButton(mode,true,1,6,false);
     NumOut(48,0,mode,0);
     }
   until (!ButtonPressed(3)) {}
@@ -861,11 +876,12 @@ task main()
       while (alive)
         {
         pieceCreate();
+        piecemoving=inputOutput(true,false,true,0);//PlayTone(500,2500);Wait(2500);
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
-          Wait(10);Wait(1000);
+          Wait(10);//Wait(1000);
           debugStream(i);
           }
         delaytime*=speedup;
