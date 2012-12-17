@@ -347,12 +347,12 @@ int rotate()
         {
         tempX=tet[temp+addR][i  ]+leftright; //switch updown
         tempY=tet[temp+addR][i+4]+updown;    //and leftright?
-        canRotate+=(area[][]);
+        canRotate+=(area[tempX][tempY]);
         }
       if (canRotate==0) stayInLoop=false;
-      if      (leftright==0)  leftright=1;   //1st  Center
-      else if (leftright==1)  leftright=-1;  //2nd  Right
-      else if (leftright==-1) leftright=2;   //3rd  Left
+      if      (leftright==0)  leftright=1;  //1st  Center
+      else if (leftright==1)  leftright=-1; //2nd  Right
+      else if (leftright==-1) leftright=2;  //3rd  Left
       }
     }
   if (stayInLoop) canRotate=((updown*10)+(leftright+1));
