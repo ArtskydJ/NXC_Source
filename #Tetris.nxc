@@ -338,10 +338,18 @@ int rotate()
   bool stayInLoop=true;
   if (currentRotate==3) addR=-3;
   else addR=1;
-  for (updown=0; (updown<=1 && stayInLoop); updown++)
+  for (int i=0; (i<3 && stayInLoop); updown++)
     {
-    for (leftright=0; (leftright<=2 && stayInLoop);  )
+    TextOut(25,48," rotate()   ",0);
+    if (i==0) updown=0;  //1st  Level
+    if (i==1) updown=-1; //2nd  Down
+    if (i==2) updown=1;  //3rd  Up
+    leftright=0;
+    for (int j=0; (j<3 && stayInLoop); j++)
       {
+      if (j==0) leftright=0;   //1st  Center
+      if (j==1) leftright=1;   //2nd  Right
+      if (j==2) leftright=-1;  //3rd  Left
       canRotate=0;
       for (int i=0; i<4; i++)
         {
@@ -350,14 +358,13 @@ int rotate()
         if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height))
           {canRotate+=(area[tempX][tempY]);}
         }
-      if (canRotate==0) stayInLoop=false;
-      if      (leftright==0)  leftright=1;  //1st  Center
-      else if (leftright==1)  leftright=-1; //2nd  Right
-      else if (leftright==-1) leftright=2;  //3rd  Left
+      stayInLoop=(canRotate!=0);
       }
     }
-  if (stayInLoop) canRotate=((updown*10)+(leftright+1));
-  else            canRotate=-1;
+  if (!stayInLoop)
+    canRotate=((updown*10)+(leftright));
+  else
+    canRotate=-5;
   return canRotate;
   }
 
@@ -386,52 +393,56 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int INdrawMode)
 bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int INwaited)
   {
   bool temppiecemoving=true; //return this
+  bool refresh=false; //refresh the screen
+  TextOut(25,48,"   INPUT    ",0);
 //INPUT
   if (INallowInput)
     {
     if (ButtonPressed(BTNLEFT))  // DROP
       {
-      if (prevL>=waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop
-      else              {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
+      if (prevL>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop
+      else             {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
       prevL++;
       }
-    else if (drop==dropWHard || drop==dropWSoft) drop-=2;
+    else if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
+  TextOut(25,48,"   ROTATE   ",0);
     if (ButtonPressed(BTNRIGHT))  // ROTATE
       {
       lockDelay=0;
       if (prevR==0)
         {
         int tempRotateStatus=rotate();
-        if (tempRotateStatus!=-1)
+        if (tempRotateStatus!=-5)
           {
+          refresh=true;
           currentRotate++;
           if (currentRotate>3) currentRotate=0;
-          ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-          //MOVE LEFT OR RIGHT              //kick sideways
-          if (tempRotateStatus>=10) tetY--; //kick down
+          if (tempRotateStatus>=5)          //kick down
+            {tetY--; tempRotateStatus-=10;}
+          tetX+=tempRotateStatus;           //kick sideways
           }
         }
       prevR++;
-      if (prevR<waitRotateAgain) prevR=0;
+      if (prevR>waitRotateAgain) prevR=0;
       }
+    TextOut(25,48," DROP/ROTATE",0);
     if (ButtonPressed(BTNCENTER))  // MOVE LEFT
       {
       lockDelay=0;
-      bool tempBool=move(lft);
-      if (prevC==0 && tempBool) tetX--;
+      if (prevC==0 && move(lft)) {tetX--; refresh=true;}
       prevC++;
-      if (prevC<waitFastMove) prevC=waitFastMove-fastRepeat; //Repeat is prob broke, prevC never goes to 0...
+      if (prevC>waitFastMove) prevC=0;
       }
     if (ButtonPressed(BTNEXIT))  // MOVE RIGHT
       {
       lockDelay=0;
-      bool tempBool=move(rht);
-      if (prevE==0 && tempBool) tetX++;
+      if (prevE==0 && move(rht)) {tetX++; refresh=true;}
       prevE++;
-      if (prevE<waitFastMove)  prevE=waitFastMove-fastRepeat; //Repeat is prob broke, prevE never goes to 0...
+      if (prevE>waitFastMove) prevE=0;
       }
     }
-    
+
+  TextOut(25,48,"   OUTPUT   ",0);
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
@@ -466,11 +477,12 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       highMade=true;
       }
     }
-
+  TextOut(25,48,"     DRAW   ",0);
 //DRAW
   if (INallowDraw)
     {
-    if (INwaited%10==0) ClearScreen();
+    //if (INwaited%3==0) ClearScreen();
+    if (refresh) ClearScreen();
     //AREA
     int i;
     int j;
@@ -877,23 +889,30 @@ task main()
     playagain=true;
     while (playagain)
       {
+      TextOut(25,48," PLAY AGAIN ",0);
       selectGame(mode);
       alive=true;
       while (alive)
         {
+        TextOut(25,48,"   ALIVE    ",0);
         pieceCreate();
         piecemoving=inputOutput(true,false,true,0);//PlayTone(500,2500);Wait(2500);
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
+          TextOut(25,48,"PIECE MOVING",0);
           piecemoving=inputOutput(true,true,true,i);
           Wait(10);//Wait(1000);
+          TextOut(25,48,"   DEBUG    ",0);
           debugStream(i);
           }
         delaytime*=speedup;
+        TextOut(25,48,"PIECE SET IN",0);
         pieceSetInto();
+        TextOut(25,48,"CLR FUL ROWS",0);
         clearFullRows();
         }
+      TextOut(25,48," GAME END   ",0);
       gameEnd();
       }
     }
@@ -921,18 +940,18 @@ Process Order:
 
 Soft Drop                                              DONE
 Hard Drop                                              DONE
-Delayed Auto Shift                                     DONE
+Delayed Auto Shift                                     IMPLEMENT
 Clockwise Rotation                                     DONE
 Right Side Bias                                        DONE
 
 Wall kicks                                             BUGGY, "I" won't kick 2 over
 
-Allow only 1 floor kick                                IMPLEMENT!!!
-Allow I wall kicking always.                           IMPLEMENT!!!
-Allow I floor kicking even when not touching ground    IMPLEMENT!!!
+Allow only 1 floor kick                                IMPLEMENT
+Allow I wall kicking always.                           IMPLEMENT
+Allow I floor kicking even when not touching ground    IMPLEMENT
 
 Adhere to SRS guidelines, some ARS guidelines
-  http://tetris.wikia.com/wiki/SRS
   http://tetris.wikia.com/wiki/ARS
+  http://tetris.wikia.com/wiki/SRS
 
 */
