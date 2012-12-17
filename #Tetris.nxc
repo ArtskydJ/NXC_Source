@@ -902,7 +902,7 @@ task main()
     debug(mode);
     }
   }
-  
+
 /*
 IMPLEMENT:
 Draw current tetromino (hollow rectangles)
@@ -916,17 +916,21 @@ Process Order:
   Gravity
 
 
-Soft Drop                                              DONE
+//Hold piece                                           NO
 //Firm Drop                                            NO
+
+Soft Drop                                              DONE
 Hard Drop                                              DONE
 Delayed Auto Shift                                     DONE
-Wall kicks                                             BUGGY, theoretically, "I" won't kick 2 over
 Clockwise Rotation                                     DONE
-//Hold piece                                           NO
 Right Side Bias                                        DONE
+
+Wall kicks                                             BUGGY, "I" won't kick 2 over
+
 Allow only 1 floor kick                                IMPLEMENT!!!
 Allow I wall kicking always.                           IMPLEMENT!!!
 Allow I floor kicking even when not touching ground    IMPLEMENT!!!
+
 Adhere to SRS guidelines, some ARS guidelines
   http://tetris.wikia.com/wiki/SRS
   http://tetris.wikia.com/wiki/ARS
