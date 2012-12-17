@@ -305,7 +305,7 @@ void selectGame(bool INfastmode)
 
 
 
-int move(int INdir)
+bool move(int INdir)
   {
   int canMove=0;
   int addX=0;
@@ -319,7 +319,8 @@ int move(int INdir)
     {
     tempX=tet[currentPiece+currentRotate][i  ]+addX;
     tempY=tet[currentPiece+currentRotate][i+4]+addY;
-    canMove+=(area[tempX][tempY]);
+    if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height))
+      {canMove+=(area[tempX][tempY]);}
     }
   canMove=(canMove>0); //canMove in:  0123
   return canMove;      //canMove out: 1000
@@ -329,15 +330,14 @@ int move(int INdir)
 int rotate()
   {
   int canRotate=0;
-  int temp=currentPiece+currentRotate;
   int addR=0;
   int updown;
+  int tempX;
+  int tempY;
   int leftright;
   bool stayInLoop=true;
-
   if (currentRotate==3) addR=-3;
   else addR=1;
-
   for (updown=0; (updown<=1 && stayInLoop); updown++)
     {
     for (leftright=0; (leftright<=2 && stayInLoop);  )
@@ -345,9 +345,10 @@ int rotate()
       canRotate=0;
       for (int i=0; i<4; i++)
         {
-        tempX=tet[temp+addR][i  ]+leftright; //switch updown
-        tempY=tet[temp+addR][i+4]+updown;    //and leftright?
-        canRotate+=(area[tempX][tempY]);
+        tempX=tet[currentPiece+currentRotate+addR][i  ]+leftright; //switch updown
+        tempY=tet[currentPiece+currentRotate+addR][i+4]+updown;    //and leftright?
+        if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height))
+          {canRotate+=(area[tempX][tempY]);}
         }
       if (canRotate==0) stayInLoop=false;
       if      (leftright==0)  leftright=1;  //1st  Center
@@ -370,9 +371,9 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int INdrawMode)
     tempY=56-(INy+(tet[INtet+INangl][i+4])*blksz);
     //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
     //Wait(500);
-    if      (INdrawMode==0)   RectOut(tempX,tempY, blksz,blksz, 32);
-    else if (INdrawMode==1)   RectOut(tempX,tempY, blksz,blksz, 0);
-    else if (INdrawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
+    if      (INdrawMode==0)   RectOut(tempX,tempY,blksz,blksz,32);
+    else if (INdrawMode==1)   RectOut(tempX,tempY,blksz,blksz,0);
+    else if (INdrawMode==2) CircleOut(tempX,tempY,blksz/2,    0);
     }
   }
 
@@ -413,17 +414,19 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       prevR++;
       if (prevR<waitRotateAgain) prevR=0;
       }
-    if (ButtonPressed(BTNCENTER))  // MOVE LEFT    //////////  CRASH  //////////  CRASH  //////////  CRASH  //////////  CRASH
+    if (ButtonPressed(BTNCENTER))  // MOVE LEFT
       {
       lockDelay=0;
-      if (prevC==0 && move(lft)) tetX--;
+      bool tempBool=move(lft);
+      if (prevC==0 && tempBool) tetX--;
       prevC++;
       if (prevC<waitFastMove) prevC=waitFastMove-fastRepeat; //Repeat is prob broke, prevC never goes to 0...
       }
     if (ButtonPressed(BTNEXIT))  // MOVE RIGHT
       {
       lockDelay=0;
-      if (prevE==0 && move(rht)) tetX++;
+      bool tempBool=move(rht);
+      if (prevE==0 && tempBool) tetX++;
       prevE++;
       if (prevE<waitFastMove)  prevE=waitFastMove-fastRepeat; //Repeat is prob broke, prevE never goes to 0...
       }
@@ -561,7 +564,7 @@ void pieceCreate()
     TextOut(0,24,StrCat("add  ",NumToStr(add) ),0);
     TextOut(0,16,StrCat("rndm ",NumToStr(rndm)),0);
     TextOut(0,00,"piece create err",0);
-    PlayTone(2000,500);Wait(500);
+    PlayTone(2000,500);Wait(100);
     }
   
   currentPiece=nextPiece[0];
