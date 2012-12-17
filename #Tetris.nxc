@@ -308,8 +308,7 @@ void selectGame(bool fastmode)
 int move(int INdir)
   {
   int canMove=0;
-  int tempX=currentPiece+currentRotate;//+tetX;
-  int tempY=currentPiece+currentRotate;//+tetY;
+  int temp=currentPiece+currentRotate;
   int addX=0;
   int addY=0;
   if      (INdir==dwn) addY=1;
@@ -317,18 +316,17 @@ int move(int INdir)
   else if (INdir==rht) addX=1;
   for (int i=0; i<4; i++)
     {
-    canMove+=(area[tet[tempX][i]+addX][tet[tempY][i+4]+addY]);
+    canMove+=(area[tet[temp][i]+addX][tet[temp][i+4]+addY]);
     }
-  canMove=(canMove>3);
-  return canMove;
+  canMove=(canMove>0); //canMove in:  0123
+  return canMove;      //canMove out: 1000
   }
 
 
 int rotate()
   {
   int canRotate=0;
-  int tempX=currentPiece+currentRotate;//+tetX;
-  int tempY=currentPiece+currentRotate;//+tetY;
+  int temp=currentPiece+currentRotate;
   int addR=0;
   int updown;
   int leftright;
@@ -343,10 +341,10 @@ int rotate()
       {
       canRotate=0;
       for (int i=0; i<4; i++)
-        {             //switch updown and leftright?          +addR?
-        canRotate+=(area[tet[tempX+addR][i]+leftright][tet[tempY+addR][i+4]]+updown);
+        {              //switch updown and leftright?
+        canRotate+=(area[tet[temp+addR][i]+leftright][tet[temp+addR][i+4]]+updown);
         }
-      if (canRotate==4) stayInLoop=false;
+      if (canRotate==0) stayInLoop=false;
       if      (leftright==0)  leftright=1;   //1st  Center
       else if (leftright==1)  leftright=-1;  //2nd  Right
       else if (leftright==-1) leftright=2;   //3rd  Left
@@ -410,19 +408,19 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
       prevR++;
       if (prevR<waitRotateAgain) prevR=0;
       }
-    if (ButtonPressed(BTNCENTER))  // MOVE LEFT
+    if (ButtonPressed(BTNCENTER))  // MOVE LEFT    //////////  CRASH  //////////  CRASH  //////////  CRASH  //////////  CRASH
       {
       lockDelay=0;
       if (prevC==0 && move(lft)) tetX--;
       prevC++;
-      if (prevC<waitFastMove) prevC=waitFastMove-fastRepeat; //Repeat is probably broken, prevC never goes to 0
+      if (prevC<waitFastMove) prevC=waitFastMove-fastRepeat; //Repeat is prob broke, prevC never goes to 0...
       }
     if (ButtonPressed(BTNEXIT))  // MOVE RIGHT
       {
       lockDelay=0;
       if (prevE==0 && move(rht)) tetX++;
       prevE++;
-      if (prevE<waitFastMove)  prevE=waitFastMove-fastRepeat; //Repeat is probably broken, prevE never goes to 0
+      if (prevE<waitFastMove)  prevE=waitFastMove-fastRepeat; //Repeat is prob broke, prevE never goes to 0...
       }
     }
     
