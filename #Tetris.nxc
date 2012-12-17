@@ -142,7 +142,7 @@ int nextPiece[previewPieces];
 
 
 //                 SUBROUTINES
-void selectGame(bool fastmode)
+void selectGame(bool INfastmode)
   {
   prevQuadClear=false;
   prevC=0;
@@ -151,7 +151,7 @@ void selectGame(bool fastmode)
   //currentPiece=-1; //why -1?
   disp="";
   accesshigh="Tetris";
-  if (fastmode)
+  if (INfastmode)
     {
     gamespeed=0;
     gametype=2;
@@ -361,7 +361,7 @@ int rotate()
   }
 
   
-void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
+void displayTetromino(int INtet,int INangl, int INx, int INy, int INdrawMode)
   {
   int tempX,tempY;
   for (int i=0; i<4; i++)
@@ -370,9 +370,9 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
     tempY=56-(INy+(tet[INtet+INangl][i+4])*blksz);
     //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
     //Wait(500);
-    if      (drawMode==0)   RectOut(tempX,tempY, blksz,blksz, 32);
-    else if (drawMode==1)   RectOut(tempX,tempY, blksz,blksz, 0);
-    else if (drawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
+    if      (INdrawMode==0)   RectOut(tempX,tempY, blksz,blksz, 32);
+    else if (INdrawMode==1)   RectOut(tempX,tempY, blksz,blksz, 0);
+    else if (INdrawMode==2) CircleOut(tempX,tempY, blksz/2,     0);
     }
   }
 
@@ -382,11 +382,11 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int drawMode)
 //        _|_  /    \__/
 //       ================
 
-bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
+bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int INwaited)
   {
   bool temppiecemoving=true; //return this
 //INPUT
-  if (allowInput)
+  if (INallowInput)
     {
     if (ButtonPressed(BTNLEFT))  // DROP
       {
@@ -430,10 +430,10 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
     }
     
 //OUTPUT
-  if (allowOutput) //Gravity and Drop
+  if (INallowOutput) //Gravity and Drop
     {
     TextOut(25,48,"CODE RUNNING",0);
-    if ((waited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
+    if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
       TextOut(25,48,"DROP/GRAVITY",0);
       if (drop==dropHard) //hard drop
@@ -456,7 +456,7 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
         if (lockDelay>=waitLock) temppiecemoving=false;
         }
       }
-    prevWaited=waited;
+    prevWaited=INwaited;
     if (readHigh(accesshigh)>score)
       {
       writeHigh(accesshigh,score);
@@ -465,9 +465,9 @@ bool inputOutput(bool allowInput, bool allowOutput, bool allowDraw, int waited)
     }
 
 //DRAW
-  if (allowDraw)
+  if (INallowDraw)
     {
-    if (waited%10==0) ClearScreen();
+    if (INwaited%10==0) ClearScreen();
     //AREA
     int i;
     int j;
@@ -657,7 +657,7 @@ void gameEnd()
 //       |_/  |__  |__)  \__/  \__/
 //      ============================
 
-void debugStream(int inInt)
+void debugStream(int INint)
   {
   //viewDbg=inInt%5;
   viewDbg=3;
@@ -683,7 +683,7 @@ void debugStream(int inInt)
     str1=disp;
     str2=accesshigh;
     str3=NumToStr(speedup);
-    str4=NumToStr(inInt);
+    str4=NumToStr(INint);
     msg1="  dsp ";
     msg2="  ahi ";
     msg3="  sdp ";
@@ -755,7 +755,7 @@ void debugStream(int inInt)
   }
 
 
-void debug(int mode)
+void debug(int INmode)
   {
   prevQuadClear=false;
   prevC=0;
@@ -765,7 +765,7 @@ void debug(int mode)
   score=Random(INT_MAX-10000)+10000;
   ClearScreen();
   
-  if (mode==2) //ClearFullRows()
+  if (INmode==2) //ClearFullRows()
     {
     for (int i=0; i<height; i++)
       {
@@ -785,7 +785,7 @@ void debug(int mode)
     while(1){}
     }
     
-  else if (mode==3) //displayTetromino()
+  else if (INmode==3) //displayTetromino()
     {
     int tets,angl,k;
     for (tets=0; tets<7; tets++)
@@ -800,7 +800,7 @@ void debug(int mode)
       }
     }
 
-  else if (mode==4) //peiceSetInto()
+  else if (INmode==4) //peiceSetInto()
     {
     pieceCreate();
     tetY-=10;
@@ -814,7 +814,7 @@ void debug(int mode)
     inputOutput(false,false,true,0);
     Wait(3000);
     }
-  else if (mode==5) //peiceCreate()
+  else if (INmode==5) //peiceCreate()
     {
     while (1)
       {
@@ -827,7 +827,7 @@ void debug(int mode)
       Wait(400);
       }
     }
-  else if (mode==6) //gravity
+  else if (INmode==6) //gravity
     {
     pieceCreate();
     while(1)
