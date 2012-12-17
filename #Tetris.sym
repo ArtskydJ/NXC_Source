@@ -5209,7 +5209,7 @@ Clump	Line	PC	Source
 13	321	139		mov __signed_stack_001move, __move_7qG2_canMove_7qG2_000
 13	320	141	#line 320 "C:\Github\NXC_Source\#Tetris.nxc"
 13	320	141	#line 320 "C:\Github\NXC_Source\#Tetris.nxc"
-13	321	141		set __D0move, 3
+13	321	141		set __D0move, 0
 13	320	144	#line 320 "C:\Github\NXC_Source\#Tetris.nxc"
 13	321	144		cmp 1, __D0move, __signed_stack_001move, __D0move
 13	320	148	#line 320 "C:\Github\NXC_Source\#Tetris.nxc"

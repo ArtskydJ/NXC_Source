@@ -308,15 +308,18 @@ void selectGame(bool fastmode)
 int move(int INdir)
   {
   int canMove=0;
-  int temp=currentPiece+currentRotate;
   int addX=0;
   int addY=0;
+  int tempX;
+  int tempY;
   if      (INdir==dwn) addY=1;
   else if (INdir==lft) addX=-1;
   else if (INdir==rht) addX=1;
   for (int i=0; i<4; i++)
     {
-    canMove+=(area[tet[temp][i]+addX][tet[temp][i+4]+addY]);
+    tempX=tet[currentPiece+currentRotate][i  ]+addX;
+    tempY=tet[currentPiece+currentRotate][i+4]+addY;
+    canMove+=(area[tempX][tempY]);
     }
   canMove=(canMove>0); //canMove in:  0123
   return canMove;      //canMove out: 1000
@@ -341,8 +344,10 @@ int rotate()
       {
       canRotate=0;
       for (int i=0; i<4; i++)
-        {              //switch updown and leftright?
-        canRotate+=(area[tet[temp+addR][i]+leftright][tet[temp+addR][i+4]]+updown);
+        {
+        tempX=tet[temp+addR][i  ]+leftright; //switch updown
+        tempY=tet[temp+addR][i+4]+updown;    //and leftright?
+        canRotate+=(area[][]);
         }
       if (canRotate==0) stayInLoop=false;
       if      (leftright==0)  leftright=1;   //1st  Center
