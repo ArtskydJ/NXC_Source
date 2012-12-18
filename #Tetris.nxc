@@ -449,6 +449,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     TextOut(25,48,"CODE RUNNING",0);
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
+      refresh=true;
       TextOut(25,48,"DROP/GRAVITY",0);
       if (drop==dropHard) //hard drop
         {
