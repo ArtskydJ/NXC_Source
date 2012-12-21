@@ -1,75 +1,78 @@
 //Snake
+#define  b        4  //block size
+#define  height   16 //height of field
+#define  width    16 //width  of field
+#define  strtlen  3
 
-//Snake.bas, developed by Joseph Dykstra and Josiah K, finished on 04-30-2012.
-//Snake.cpp, ported from Snake.bas by Joseph Dykstra,  finished on 07-13-2012.
-//Snake.nxc, ported from Snake.cpp by Joseph Dykstra,  finished on 10-02-2012.
-//Many modifications since, though...
+int length=strtlen, fx=strtlen-1, fy=0, lx=0, ly=0, lbp=0, dir=1, cdir=1;
+int grow=1, delaytime=200, board[width*(height+1)], n, x, y, z, score=0;
+float speedup=0.9;
+bool foodate=0, dead=0;
 
-#include "+Button+-.nxc"
-
-#define  b       4  //block size
-#define  height  16 //height of field
-#define  width   16 //width  of field
-
-
-int n, x, y, z, fx, fy, lx, ly, dir=1, cdir=1, clrx1, clry1, score;
-int clrx2, clry2, length, grow, startlength, delaytime, board[width+1][height+1];
-float speedup;
-bool foodate=0,dead=0,wrap=0,playagain=1,newsettings=0,highmade=false;
-string msg="", accesshigh="";
-
-void snakeMove()
+void snakeInOut()
   {
-  for  (x=0;x<width;x++)
-    {
-    for  (y=0;y<height;y++)
-      {
-      if (board[x][y]==1)  {clrx1=x; clry1=y;}
-      if (board[x][y]==-1) {clrx2=x; clry2=y;}
-      }
-    }
+//INPUT
   for (x=0;x<delaytime/5;x++)
     {
-    if (ButtonPressed(0)&&cdir!=(3)) {dir=0;}//D
-    if (ButtonPressed(1)&&cdir!=(2)) {dir=1;}//R
-    if (ButtonPressed(2)&&cdir!=(1)) {dir=2;}//L
-    if (ButtonPressed(3)&&cdir!=(0)) {dir=3;}//U
+    if (ButtonPressed(1)==0&&lbp==1) //Right
+      lbp=0;
+    if (ButtonPressed(1)==1&&lbp!=1) //Right
+      {
+      if (cdir!=2) dir=1;
+      if (cdir==1) dir=0;            //Down
+      lbp=1;
+      }
+    if (ButtonPressed(2)==0&&lbp==2) //Left
+      lbp=0;
+    if (ButtonPressed(2)==1&&lbp!=2) //Left
+      {
+      if (cdir!=1) dir=2;
+      if (cdir==2) dir=0;            //Down
+      lbp=2;
+      }
+    if (ButtonPressed(3)==0&&lbp==3) //Center
+      lbp=0;
+    if (ButtonPressed(3)==1&&lbp!=3) //Center
+      {
+      if (cdir!=0) dir=3;
+      lbp=3;
+      }
     Wait(5);
     }
   if (dir==2) //LEFT
     {
     cdir=2;
-    if  (fx<=0)        {dead=!wrap; fx=width;}
-    if  (!dead)        {n=board[fx-1][fy];}
+    if  (fx<=0)        {dead=1; fx=width;}
+    if  (!dead)        {n=board[fy*height+fx-1];}
     if  (n>1)          {dead=1;}
-    if  (n<=1)         {fx=fx-1;board[fx][fy]=length+1;}
+    if  (n<=1)         {fx=fx-1;board[fy*height+fx]=length+1;}
     if  (n==-1)        {foodate=1;length=length+grow;}
     }
   if (dir==3) //UP
     {
     cdir=3;
-    if  (fy<=0)        {dead=!wrap; fy=height;}
-    if  (!dead)        {n=board[fx][fy-1];}
+    if  (fy<=0)        {dead=1; fy=height;}
+    if  (!dead)        {n=board[fy*height+fx-height];}
     if  (n>1)          {dead=1;}
-    if  (n<=1)         {fy=fy-1;board[fx][fy]=length+1;}
+    if  (n<=1)         {fy=fy-1;board[fy*height+fx]=length+1;}
     if  (n==-1)        {foodate=1;length=length+grow;}
     }
   if (dir==1) //RIGHT
     {
     cdir=1;
-    if  (fx>=width-1)  {dead=!wrap; fx=-1;}
-    if  (!dead)        {n=board[fx+1][fy];}
+    if  (fx>=width-1)  {dead=1; fx=-1;}
+    if  (!dead)        {n=board[fy*height+fx+1];}
     if (n>1)           {dead=1;}
-    if (n<=1)          {fx=fx+1;board[fx][fy]=length+1;}
+    if (n<=1)          {fx=fx+1;board[fy*height+fx]=length+1;}
     if (n==-1)         {foodate=1;length=length+grow;}
     }
   if (dir==0) //DOWN
     {
     cdir=0;
-    if  (fy>=height-1) {dead=!wrap; fy=-1;}
-    if  (!dead)        {n=board[fx][fy+1];}
+    if  (fy>=height-1) {dead=1; fy=-1;}
+    if  (!dead)        {n=board[fy*height+fx+height];}
     if (n>1)           {dead=1;}
-    if (n<=1)          {fy=fy+1;board[fx][fy]=length+1;}
+    if (n<=1)          {fy=fy+1;board[fy*height+fx]=length+1;}
     if (n==-1)         {foodate=1;length+=grow;}
     }
   if (dead==0) //GROW
@@ -78,58 +81,39 @@ void snakeMove()
       {
       for  (y=0;y<height;y++)
         {
-        if (!foodate) {clrx2=-1; clry2=-1;}
-        if (board[x][y]==1) {lx=x;ly=y;}
-        if (board[x][y]>=1) {board[x][y]--;}
+        if (board[y*height+x]==1) {lx=x;ly=y;}
+        if (board[y*height+x]>=1) {board[y*height+x]--;}
         }
       }
     }
-  }
-
-void snakeDraw()
-  {
-  for (x=0;x<=b;x++)
-    {LineOut(clrx1*b+x, 63-clry1*b, clrx1*b+x, 63-(clry1+1)*b, 4);}
-  if (clrx2!=-1&&clry2!=-1)
-    {
-    for (x=0;x<=b;x++)
-      {LineOut(clrx2*b+x, 63-clry2*b, clrx2*b+x, 63-(clry2+1)*b, 4);}
-    }
-  LineOut(64,0,64,64,0);
+//OUTPUT
+  LineOut(64,0,64,64,DRAW_OPT_CLEAR_WHOLE_SCREEN);
   for (y=0;y<height;y++)
     {
     for (x=0;x<width;x++)
       {
-      if (board[x][y]>0)
+      if (board[y*height+x]>0&&dead==false)
         //{RectOut(x*b,59-y*b,b,b,0);}      //Hollow
         {RectOut(x*b,61-y*b,b-2,b-2,32);} //Filled
-      if (board[x][y]<0)
+      if (board[y*height+x]<0)
         {CircleOut(x*b+1,62-y*b,(b-1)/2,32);}
       }
     }
   TextOut(65,LCD_LINE1,"Score",0);
-  NumOut( 65,LCD_LINE2,score,0);
+  NumOut( 65,LCD_LINE2, score, 0);
   }
 
 task main()
   {
-  score=0;
-  foodate=0; dead=0;
-  dir=1; cdir=1;
-  length=startlength;
-  fx=startlength-1;
-  fy=0; lx=0; ly=0;
-  delaytime=200;
   for (x=0;x<=width;x++)
     {
     for (y=0;y<=height;y++)
       {
-      board[x][y]=0;
+      board[y*height+x]=0;
       }
     }
-  for (x=0;x<startlength;x++)
-    {board[x][0]=x+1;}
-  SetLongAbort(true);
+  for (x=0;x<strtlen;x++)
+    {board[x]=x+1;}
   while (dead==false)
     {
     z=1;
@@ -137,21 +121,17 @@ task main()
       {
       x=(Random(width-1)+1);
       y=(Random(height-1)+1);
-      if (board[x][y]==0) {z=0; board[x][y]=-1;}
+      if (board[y*height+x]==0) {z=0; board[y*height+x]=-1;}
       }
     foodate=0;
     dead=0;
-    while (foodate==0&&dead==0)
-      {
-      snakeDraw();
-      snakeMove();
-      }
-    if  (dead==false)
+    while (foodate==0&&dead==0) snakeInOut();
+    if (dead==false)
       {
       for (y=0;y<height;y++)
         {
         for (x=0;x<width;x++)
-          {if (board[x][y]>=1) {board[x][y]+=grow;} }
+          {if (board[y*height+x]>=1) {board[y*height+x]+=grow;}}
         }
       score+=1;
       delaytime*=speedup;
@@ -159,7 +139,3 @@ task main()
     }
   PlayTone(500,500); Wait(2000);
   }
-  
-  
-//CANT SEE SNAKE!!!
-//REASON UNKNOWN!!!
