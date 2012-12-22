@@ -317,14 +317,16 @@ bool move(int INdir)
   else if (INdir==rht) addX=1;
   for (int i=0; i<4; i++)
     {
-    tempX=tet[currentPiece+currentRotate][i  ]+addX;
-    tempY=tet[currentPiece+currentRotate][i+4]+addY;
+    tempX=tet[currentPiece+currentRotate][i  ]+tetX+addY;
+    tempY=tet[currentPiece+currentRotate][i+4]+tetY+addX;
     if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height))
-      {canMove+=(area[tempX][tempY]);}
+      {canMove+=(area[tempX][tempY]); PointOut(tempY*blksz+1,tempX*blksz+1,0);}
+    if (tetY<1&&INdir==dwn) {canMove=3; PlayTone(3000,500);}
     }
-  canMove=(canMove>0); //canMove in:  0123
-  return canMove;      //canMove out: 1000
-  }
+  //NumOut(0,16,canMove,0);
+  //Wait(500);
+  return (canMove==0); //canMove in:  0123
+  }                    //canMove out: 1000
 
 
 int rotate()
@@ -353,9 +355,9 @@ int rotate()
       canRotate=0;
       for (int i=0; i<4; i++)
         {
-        tempX=tet[currentPiece+currentRotate+addR][i  ]+leftright; //switch updown
-        tempY=tet[currentPiece+currentRotate+addR][i+4]+updown;    //and leftright?
-        if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height))
+        tempX=tet[currentPiece+currentRotate+addR][i  ]+tetX+leftright; //switch updown
+        tempY=tet[currentPiece+currentRotate+addR][i+4]+tetY+updown;    //and leftright?
+        if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height)&&(tetY>0))
           {canRotate+=(area[tempX][tempY]);}
         }
       stayInLoop=(canRotate!=0);
@@ -374,7 +376,7 @@ void displayTetromino(int INtet,int INangl, int INx, int INy, int INdrawMode)
   int tempX,tempY;
   for (int i=0; i<4; i++)
     {
-    tempX=   (INx+(tet[INtet+INangl][i])*blksz);
+    tempX=   (INx+(tet[INtet+INangl][i  ])*blksz);
     tempY=56-(INy+(tet[INtet+INangl][i+4])*blksz);
     //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
     //Wait(500);
@@ -400,7 +402,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {
     if (ButtonPressed(BTNLEFT))  // DROP
       {
-      if (prevL>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop
+      if (prevL>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  ////////////////////////////////////////
       else             {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
       prevL++;
       }
@@ -446,6 +448,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
+
     TextOut(25,48,"CODE RUNNING",0);
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
@@ -459,6 +462,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
           if (move(dwn)) tetY--;
           else
             {
+            lockDelay++;
             tempLoop=false;
             if (lockDelay>=waitLock) temppiecemoving=false;
             }
@@ -467,8 +471,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       else //gravity or soft drop
         {
         TextOut(25,48,"   GRAVITY  ",0);//PlayTone(1000,1000);Wait(1000);
-        if (move(dwn)) tetY--; //move(dwn) returns 0, idk why... move(dwn) returns 0, idk why... move(dwn) returns 0, idk why...
-        if (lockDelay>=waitLock) temppiecemoving=false;
+        if (move(dwn)) {tetY--; SendResponseString(9,"can move down");Wait(100);} //move(dwn) returns 0, idk why... move(dwn) returns 0, idk why... move(dwn) returns 0, idk why...
+        else lockDelay++;
+        if (lockDelay>=waitLock) {temppiecemoving=false; SendResponseString(9,"lock delay>wait lock"); Wait(100);}
+        else {SendResponseString(9,"lock delay<wait lock"); Wait(100);}
         }
       }
     prevWaited=INwaited;
@@ -559,7 +565,7 @@ void initArrays()
 
 void pieceCreate()
   {
-  tetY=height-4; // tetY=height+2;
+  tetY=8; // tetY=height+2;
   tetX=width/2;
   currentRotate=0; //was -1... why?
 
@@ -593,11 +599,11 @@ void pieceCreate()
 void pieceSetInto()
   {
   int tempX,tempY;
-  tempX=currentPiece+currentRotate;
-  tempY=currentPiece+currentRotate;
   for (int i=0; i<4; i++)
     {
-    area[tet[tempX][i]+tetX][tet[tempY][i+4]+tetY]=1;
+    tempX=tet[currentPiece+currentRotate][i  ]+tetX;
+    tempY=tet[currentPiece+currentRotate][i+4]+tetY;
+    area[tempX][tempY]=1;
     }
   }
   
@@ -819,7 +825,7 @@ void debug(int INmode)
   else if (INmode==4) //peiceSetInto()
     {
     pieceCreate();
-    tetY-=10;
+    tetY=10;
     pieceSetInto();
     inputOutput(false,false,true,0);
     Wait(3000);
