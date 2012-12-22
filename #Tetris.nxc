@@ -539,7 +539,6 @@ void initArrays()
       area[j][i]=0;
       }
     }
-    
   for (int i=0; i<3; i++)
     {
     int pieceToCreate=prob;
@@ -568,7 +567,6 @@ void pieceCreate()
   tetY=8; // tetY=height+2;
   tetX=width/2;
   currentRotate=0; //was -1... why?
-
   int pieceToCreate=prob;
   int rndm=Random(chnc[prob]);
   int add=0;
@@ -583,7 +581,7 @@ void pieceCreate()
     TextOut(0,24,StrCat("add  ",NumToStr(add) ),0);
     TextOut(0,16,StrCat("rndm ",NumToStr(rndm)),0);
     TextOut(0,00,"piece create err",0);
-    PlayTone(2000,500);Wait(100);
+    PlayTone(2000,500);Wait(500);
     }
   
   currentPiece=nextPiece[0];
@@ -601,10 +599,16 @@ void pieceSetInto()
   int tempX,tempY;
   for (int i=0; i<4; i++)
     {
-    tempX=tet[currentPiece+currentRotate][i  ]+tetX;
-    tempY=tet[currentPiece+currentRotate][i+4]+tetY;
-    area[tempX][tempY]=1;
-    }
+    tempX=      tet[currentPiece+currentRotate][i  ]+tetY;  //height
+    tempY=tet[currentPiece+currentRotate][i+4]+tetX;  //width
+    SendResponseNumber(9,tempX);
+    Wait(60);
+    SendResponseNumber(9,tempY);
+    Wait(60);
+    SendResponseNumber(9,0);
+    Wait(100);
+    area[tempY][tempX]=1;
+    }  //width  height
   }
   
   
@@ -829,9 +833,9 @@ void debug(int INmode)
     pieceSetInto();
     inputOutput(false,false,true,0);
     Wait(3000);
-    
+    DebugStream(0);
     ClearScreen();
-    displayTetromino(currentPiece,currentRotate,tetX*blksz,tetY*blksz,1);
+    displayTetromino(currentPiece,currentRotate,tetY*blksz,tetX*blksz,1);
     Wait(500);
     inputOutput(false,false,true,0);
     Wait(3000);
@@ -854,6 +858,7 @@ void debug(int INmode)
     pieceCreate();
     while(1)
       {
+      ClearScreen();
       inputOutput(false,false,true,0);
       Wait(1000);
       tetY--;
@@ -878,7 +883,7 @@ void debug(int INmode)
   
 task main()
   {
-  int mode=1;
+  int mode=4;
   while (!ButtonPressed(3))
     {
     mode=senseButton(mode,true,1,6,false);
