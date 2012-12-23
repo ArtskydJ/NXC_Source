@@ -585,7 +585,7 @@ void pieceCreate()
     }
   
   currentPiece=nextPiece[0];
-  for (int i=1; i<previewPieces-1; i++) ////////////////////////////////////////////////////////////////////// debug mode 5
+  for (int i=1; i<previewPieces-1; i++)
     {
     //PlayTone(1000,500);Wait(500);
     nextPiece[i-1]=nextPiece[i];
@@ -594,7 +594,7 @@ void pieceCreate()
   }
 
 
-void pieceSetInto()
+void pieceSetInto() ////////////////////////////////////////////////////////////////////// debug mode 4
   {
   int tempX,tempY;
   for (int i=0; i<4; i++)
