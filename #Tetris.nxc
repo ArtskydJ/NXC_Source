@@ -120,15 +120,15 @@ int gametype       = 0;
 int gamespeed      = 0;
 int delaytime      = 0;
 int lockDelay      = 0;
-int prevC          = 0;
-int prevE          = 0;
-int prevL          = 0;
-int prevR          = 0;
+int prevRht        = 0;
+int prevLft        = 0;
+int prevDrp        = 0;
+int prevRot        = 0;
 int currentPiece   = 0;
 int currentRotate  = 0;
 int prevWaited     = 0;
-int tetX           = 0;
-int tetY           = 0;
+int tetLR          = 0;
+int tetUD          = 0;
 int drop           = 0;
 int viewDbg        = 0;
 bool alive         = 0;
@@ -145,8 +145,8 @@ int nextPiece[previewPieces];
 void selectGame(bool INfastmode)
   {
   prevQuadClear=false;
-  prevC=0;
-  prevE=0;
+  prevRht=0;
+  prevLft=0;
   score=0;
   //currentPiece=-1; //why -1?
   disp="";
@@ -308,20 +308,20 @@ void selectGame(bool INfastmode)
 bool move(int INdir)
   {
   int canMove=0;
-  int addX=0;
-  int addY=0;
-  int tempX;
-  int tempY;
-  if      (INdir==dwn) addY=1;
-  else if (INdir==lft) addX=-1;
-  else if (INdir==rht) addX=1;
+  int addLR=0;
+  int addUD=0;
+  int tempLR;
+  int tempUD;
+  if      (INdir==dwn) addUD=1;
+  else if (INdir==lft) addLR=-1;
+  else if (INdir==rht) addLR=1;
   for (int i=0; i<4; i++)
     {
-    tempX=tet[currentPiece+currentRotate][i  ]+tetX+addY;
-    tempY=tet[currentPiece+currentRotate][i+4]+tetY+addX;
-    if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height))
-      {canMove+=(area[tempX][tempY]); PointOut(tempY*blksz+1,tempX*blksz+1,0);}
-    if (tetY<1&&INdir==dwn) {canMove=3; PlayTone(3000,500);}
+    tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
+    tempUD=tet[currentPiece+currentRotate][i+4]+tetUD+addUD;
+    if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height))
+      {canMove+=(area[tempLR][tempUD]); PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
+    if (tetUD<1&&INdir==dwn) {canMove=3; PlayTone(3000,500);}
     }
   //NumOut(0,16,canMove,0);
   //Wait(500);
@@ -332,57 +332,57 @@ bool move(int INdir)
 int rotate()
   {
   int canRotate=0;
-  int addR=0;
-  int updown;
-  int tempX;
-  int tempY;
-  int leftright;
+  int addRot=0;
+  int tempLR;
+  int tempUD;
+  int addUD;
+  int addLR;
   bool stayInLoop=true;
-  if (currentRotate==3) addR=-3;
-  else addR=1;
-  for (int i=0; (i<3 && stayInLoop); updown++)
+  if (currentRotate==3) addRot=-3;
+  else                  addRot=1;
+  for (int i=0; (i<3 && stayInLoop); addUD++)
     {
     TextOut(25,48," rotate()   ",0);
-    if (i==0) updown=0;  //1st  Level
-    if (i==1) updown=-1; //2nd  Down
-    if (i==2) updown=1;  //3rd  Up
-    leftright=0;
+    if (i==0) addUD=0;  //1st  Level
+    if (i==1) addUD=-1; //2nd  Down
+    if (i==2) addUD=1;  //3rd  Up
+    addLR=0;
     for (int j=0; (j<3 && stayInLoop); j++)
       {
-      if (j==0) leftright=0;   //1st  Center
-      if (j==1) leftright=1;   //2nd  Right
-      if (j==2) leftright=-1;  //3rd  Left
+      if (j==0) addLR=0;   //1st  Center
+      if (j==1) addLR=1;   //2nd  Right
+      if (j==2) addLR=-1;  //3rd  Left
       canRotate=0;
       for (int i=0; i<4; i++)
         {
-        tempX=tet[currentPiece+currentRotate+addR][i  ]+tetX+leftright; //switch updown
-        tempY=tet[currentPiece+currentRotate+addR][i+4]+tetY+updown;    //and leftright?
-        if ((tempX>=0)&&(tempY>=0)&&(tempX<width)&&(tempY<height)&&(tetY>0))
-          {canRotate+=(area[tempX][tempY]);}
+        tempLR=tet[currentPiece+currentRotate+addRot][i  ]+tetLR+addLR; //switch updown
+        tempUD=tet[currentPiece+currentRotate+addRot][i+4]+tetUD+addUD; //and leftright?
+        if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height)&&(tetUD>0))
+          {canRotate+=(area[tempLR][tempUD]);}
         }
       stayInLoop=(canRotate!=0);
       }
     }
   if (!stayInLoop)
-    canRotate=((updown*10)+(leftright));
+    canRotate=((addUD*10)+(addLR));
   else
     canRotate=-5;
   return canRotate;
   }
 
-  
-void displayTetromino(int INtet,int INangl, int INx, int INy, int INdrawMode)
+                                       //in is updown leftright
+void displayTetromino(int INtet,int INangl, int INlr, int INud, int INdrawMode)
   {
-  int tempX,tempY;
+  int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    tempX=   (INx+(tet[INtet+INangl][i  ])*blksz);
-    tempY=56-(INy+(tet[INtet+INangl][i+4])*blksz);
-    //tempY=INy+(tet[INtet*4+INangl][i+4])*blksz; //inverted
+    tempLR=   (INlr+(tet[INtet+INangl][i  ])*blksz);
+    tempUD=56-(INud+(tet[INtet+INangl][i+4])*blksz);
+    //tempY=   INud+(tet[INtet*4+INangl][i+4])*blksz; //inverted
     //Wait(500);
-    if      (INdrawMode==0)   RectOut(tempX,tempY,blksz,blksz,32);
-    else if (INdrawMode==1)   RectOut(tempX,tempY,blksz,blksz,0);
-    else if (INdrawMode==2) CircleOut(tempX,tempY,blksz/2,    0);
+    if      (INdrawMode==0)   RectOut(tempLR,tempUD,blksz,blksz,32);
+    else if (INdrawMode==1)   RectOut(tempLR,tempUD,blksz,blksz,0);
+    else if (INdrawMode==2) CircleOut(tempLR,tempUD,blksz/2,    0);
     }
   }
 
@@ -402,16 +402,16 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {
     if (ButtonPressed(BTNLEFT))  // DROP
       {
-      if (prevL>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  ////////////////////////////////////////
+      if (prevDrp>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  ////////////////////////////////////////
       else             {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
-      prevL++;
+      prevDrp++;
       }
     else if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
   TextOut(25,48,"   ROTATE   ",0);
     if (ButtonPressed(BTNRIGHT))  // ROTATE
       {
       lockDelay=0;
-      if (prevR==0)
+      if (prevRot==0)
         {
         int tempRotateStatus=rotate();
         if (tempRotateStatus!=-5)
@@ -420,27 +420,27 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
           currentRotate++;
           if (currentRotate>3) currentRotate=0;
           if (tempRotateStatus>=5)          //kick down
-            {tetY--; tempRotateStatus-=10;}
-          tetX+=tempRotateStatus;           //kick sideways
+            {tetUD--; tempRotateStatus-=10;}
+          tetLR+=tempRotateStatus;           //kick sideways
           }
         }
-      prevR++;
-      if (prevR>waitRotateAgain) prevR=0;
+      prevRot++;
+      if (prevRot>waitRotateAgain) prevRot=0;
       }
     TextOut(25,48," DROP/ROTATE",0);
     if (ButtonPressed(BTNCENTER))  // MOVE LEFT
       {
       lockDelay=0;
-      if (prevC==0 && move(lft)) {tetX--; refresh=true;}
-      prevC++;
-      if (prevC>waitFastMove) prevC=0;
+      if (prevLft==0 && move(lft)) {tetLR--; refresh=true;}
+      prevLft++;
+      if (prevLft>waitFastMove) prevLft=0;
       }
     if (ButtonPressed(BTNEXIT))  // MOVE RIGHT
       {
       lockDelay=0;
-      if (prevE==0 && move(rht)) {tetX++; refresh=true;}
-      prevE++;
-      if (prevE>waitFastMove) prevE=0;
+      if (prevRht==0 && move(rht)) {tetLR++; refresh=true;}
+      prevRht++;
+      if (prevRht>waitFastMove) prevRht=0;
       }
     }
 
@@ -459,7 +459,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         bool tempLoop=true;
         while (tempLoop)
           {
-          if (move(dwn)) tetY--;
+          if (move(dwn)) tetUD--;
           else
             {
             lockDelay++;
@@ -471,7 +471,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       else //gravity or soft drop
         {
         TextOut(25,48,"   GRAVITY  ",0);//PlayTone(1000,1000);Wait(1000);
-        if (move(dwn)) {tetY--; SendResponseString(9,"can move down");Wait(100);} //move(dwn) returns 0, idk why... move(dwn) returns 0, idk why... move(dwn) returns 0, idk why...
+        if (move(dwn)) {tetUD--; SendResponseString(9,"can move down");Wait(100);} //move(dwn) returns 0, idk why... move(dwn) returns 0, idk why... move(dwn) returns 0, idk why...
         else lockDelay++;
         if (lockDelay>=waitLock) {temppiecemoving=false; SendResponseString(9,"lock delay>wait lock"); Wait(100);}
         else {SendResponseString(9,"lock delay<wait lock"); Wait(100);}
@@ -515,7 +515,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       disp="";
       }
     //CURRENT TETROMINO / SCORE
-    displayTetromino(currentPiece,currentRotate,tetY*blksz,tetX*blksz,1);
+    displayTetromino(currentPiece,currentRotate,tetUD*blksz,tetLR*blksz,1);
     RotatedNumbersOut(SX,SY,score);
     }
 
@@ -564,8 +564,8 @@ void initArrays()
 
 void pieceCreate()
   {
-  tetY=8; // tetY=height+2;
-  tetX=width/2;
+  tetLR=8; // tetY=height+2;
+  tetUD=width/2;
   currentRotate=0; //was -1... why?
   int pieceToCreate=prob;
   int rndm=Random(chnc[prob]);
@@ -596,19 +596,19 @@ void pieceCreate()
 
 void pieceSetInto() ////////////////////////////////////////////////////////////////////// debug mode 4
   {
-  int tempX,tempY;
+  int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    tempX=      tet[currentPiece+currentRotate][i  ]+tetY;  //height
-    tempY=tet[currentPiece+currentRotate][i+4]+tetX;  //width
-    SendResponseNumber(9,tempX);
+    tempLR=      tet[currentPiece+currentRotate][i  ]+tetUD;  //height
+    tempUD=tet[currentPiece+currentRotate][i+4]+tetLR;  //width
+    SendResponseNumber(9,tempLR);
     Wait(60);
-    SendResponseNumber(9,tempY);
+    SendResponseNumber(9,tempUD);
     Wait(60);
     SendResponseNumber(9,0);
     Wait(100);
-    area[tempY][tempX]=1;
-    }  //width  height
+    area[tempUD][tempLR]=1;
+    }  //width   height
   }
   
   
@@ -651,11 +651,8 @@ int clearFullRows()
   if      (numOfFilledLines==1)    {score+=100; prevQuadClear=false; disp="Single!";}
   else if (numOfFilledLines==2)    {score+=200; prevQuadClear=false; disp="Double!";}
   else if (numOfFilledLines==3)    {score+=400; prevQuadClear=false; disp="Triple!";}
-  else if (numOfFilledLines==4)
-    {
-    if (!prevQuadClear)   {score+=800;  prevQuadClear=true; disp="Tetris!";}
-    else                  {score+=1200; prevQuadClear=true; disp="Cnsctv!";}
-    }
+  else if (numOfFilledLines==4)    {score+=800;  prevQuadClear=true; disp="Tetris!";
+    if (prevQuadClear) {score+=400;}}
   return numOfFilledLines;
   }
 
@@ -737,14 +734,14 @@ void debugStream(int INint)
   else if (viewDbg==2)
     {
     str1=NumToStr(prevWaited);
-    str2=NumToStr(prevC);
-    str3=NumToStr(prevE);
-    str4=NumToStr(prevL);
-    str5=NumToStr(prevR);
-    msg1="  lD ";
-    msg2="  pC ";
-    msg3="  pE ";
-    msg4="  pL ";
+    str2=NumToStr(prevLft);
+    str3=NumToStr(prevRht);
+    str4=NumToStr(prevDrp);
+    str5=NumToStr(prevRot);
+    msg1="  pW ";
+    msg2="  pL ";
+    msg3="  pR ";
+    msg4="  pD ";
     msg5="  pR ";
     result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4,msg5,str5);
     SendResponseString(9,result);
@@ -754,12 +751,12 @@ void debugStream(int INint)
     {
     str1=NumToStr(currentPiece);
     str2=NumToStr(currentRotate);
-    str3=NumToStr(tetX);
-    str4=NumToStr(tetY);
+    str3=NumToStr(tetLR);
+    str4=NumToStr(tetUD);
     msg1="  cP ";
     msg2="  cR ";
-    msg3="  tX ";
-    msg4="  tY ";
+    msg3="  tL ";
+    msg4="  tU ";
     result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
     SendResponseString(9,result);
     Wait(40);
@@ -784,8 +781,8 @@ void debugStream(int INint)
 void debug(int INmode)
   {
   prevQuadClear=false;
-  prevC=0;
-  prevE=0;
+  prevLft=0;
+  prevRht=0;
   selectGame(1);
   initArrays();
   score=Random(INT_MAX-10000)+10000;
@@ -829,13 +826,13 @@ void debug(int INmode)
   else if (INmode==4) //peiceSetInto()
     {
     pieceCreate();
-    tetY=10;
+    tetUD=10;
     pieceSetInto();
     inputOutput(false,false,true,0);
     Wait(3000);
-    DebugStream(0);
+    debugStream(0);
     ClearScreen();
-    displayTetromino(currentPiece,currentRotate,tetY*blksz,tetX*blksz,1);
+    displayTetromino(currentPiece,currentRotate,tetUD*blksz,tetLR*blksz,1);
     Wait(500);
     inputOutput(false,false,true,0);
     Wait(3000);
@@ -861,7 +858,7 @@ void debug(int INmode)
       ClearScreen();
       inputOutput(false,false,true,0);
       Wait(1000);
-      tetY--;
+      tetUD--;
       }
     }
   }
