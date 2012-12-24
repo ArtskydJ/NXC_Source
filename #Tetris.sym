@@ -86,8 +86,8 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 83	__signed_stack_001displayTetromino	6	1	332	4	18
 84	__float_stack_003display	10	1	336	4	4
 85	__signed_stack_001gameEnd	6	1	340	4	10
-86	__signed_stack_004displayTetromino	6	1	344	4	8
-87	__signed_stack_003displayTetromino	6	1	348	4	12
+86	__signed_stack_004displayTetromino	6	1	344	4	6
+87	__signed_stack_003displayTetromino	6	1	348	4	14
 88	__signed_stack_002inputOutput	6	1	352	4	30
 89	__signed_stack_003main	6	1	356	4	2
 90	__signed_stack_002main	6	1	360	4	16
@@ -231,8 +231,8 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 228	__displayTetromino_7qG2_INdrawMode_7qG2_000	4	1	728	2	7
 229	tetLR	4	1	730	2	13
 230	__displayTetromino_7qG2_tempLR_7qG2_000	4	1	732	2	4
-231	__displayTetromino_7qG2_INud_7qG2_000	4	1	734	2	5
-232	__displayTetromino_7qG2_INlr_7qG2_000	4	1	736	2	5
+231	__displayTetromino_7qG2_INlr_7qG2_000	4	1	734	2	5
+232	__displayTetromino_7qG2_INud_7qG2_000	4	1	736	2	5
 233	tetUD	4	1	738	2	18
 234	__senseButton_7qG2_high_7qG2_000	4	1	740	2	7
 235	__senseButton_7qG2_add_7qG2_000	4	1	742	2	5
@@ -6000,65 +6000,65 @@ Clump	Line	PC	Source
 15	378	22	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
 15	379	22		jmp __ASM_Label_1845
 15	378	24	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	24		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_INlr_7qG2_000
+15	379	24		set __signed_stack_001displayTetromino, 56
 15	378	27	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
 15	378	27	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	27	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	27	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	27	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	27		add __signed_stack_002displayTetromino, __displayTetromino_7qG2_INtet_7qG2_000, __displayTetromino_7qG2_INangl_7qG2_000
-15	378	31	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	31	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	31		index __ArrHelper__displayTetromino_236_0, tet, __signed_stack_002displayTetromino
-15	378	35	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	35		mov __signed_stack_003displayTetromino, __displayTetromino_7qG2_i_7qG2_001
-15	378	37	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	37	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	37		index __signed_stack_002displayTetromino, __ArrHelper__displayTetromino_236_0, __signed_stack_003displayTetromino
-15	378	41	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	41	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	41	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	41		set __D0displayTetromino, 4
+15	379	27		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_INlr_7qG2_000
+15	378	30	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	30	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	30	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	30	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	30	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	30		add __signed_stack_003displayTetromino, __displayTetromino_7qG2_INtet_7qG2_000, __displayTetromino_7qG2_INangl_7qG2_000
+15	378	34	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	34	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	34		index __ArrHelper__displayTetromino_236_0, tet, __signed_stack_003displayTetromino
+15	378	38	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	38		mov __signed_stack_004displayTetromino, __displayTetromino_7qG2_i_7qG2_001
+15	378	40	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	40	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	40		index __signed_stack_003displayTetromino, __ArrHelper__displayTetromino_236_0, __signed_stack_004displayTetromino
 15	378	44	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	44		mul __D0displayTetromino, __signed_stack_002displayTetromino, __D0displayTetromino
-15	378	48	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	48		add __displayTetromino_7qG2_tempLR_7qG2_000, __signed_stack_001displayTetromino, __D0displayTetromino
-15	378	52	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	378	52	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	52	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	52		set __signed_stack_001displayTetromino, 56
-15	379	55	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	55	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	55		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_INud_7qG2_000
-15	379	58	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	58	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	58	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	58	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	58	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	58		add __signed_stack_003displayTetromino, __displayTetromino_7qG2_INtet_7qG2_000, __displayTetromino_7qG2_INangl_7qG2_000
+15	378	44	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	44	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	44		set __D0displayTetromino, 4
+15	378	47	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	47		mul __D0displayTetromino, __signed_stack_003displayTetromino, __D0displayTetromino
+15	378	51	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	51		add __D0displayTetromino, __signed_stack_002displayTetromino, __D0displayTetromino
+15	378	55	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	55		sub __displayTetromino_7qG2_tempLR_7qG2_000, __signed_stack_001displayTetromino, __D0displayTetromino
+15	378	59	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	378	59	#line 378 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	59	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	380	59		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_INud_7qG2_000
 15	379	62	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
 15	379	62	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	62		index __ArrHelper__displayTetromino_236_0, tet, __signed_stack_003displayTetromino
+15	379	62	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	62	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	62	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	380	62		add __signed_stack_002displayTetromino, __displayTetromino_7qG2_INtet_7qG2_000, __displayTetromino_7qG2_INangl_7qG2_000
 15	379	66	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	66		mov __signed_stack_004displayTetromino, __displayTetromino_7qG2_i_7qG2_001
-15	379	68	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	68	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	68		set __D0displayTetromino, 4
-15	379	71	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	71		add __signed_stack_004displayTetromino, __signed_stack_004displayTetromino, __D0displayTetromino
+15	379	66	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	380	66		index __ArrHelper__displayTetromino_236_0, tet, __signed_stack_002displayTetromino
+15	379	70	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	380	70		mov __signed_stack_003displayTetromino, __displayTetromino_7qG2_i_7qG2_001
+15	379	72	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	72	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	380	72		set __D0displayTetromino, 4
 15	379	75	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	75	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	75		index __signed_stack_003displayTetromino, __ArrHelper__displayTetromino_236_0, __signed_stack_004displayTetromino
+15	380	75		add __signed_stack_003displayTetromino, __signed_stack_003displayTetromino, __D0displayTetromino
 15	379	79	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
 15	379	79	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	379	79	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	79		set __D0displayTetromino, 4
-15	379	82	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	82		mul __D0displayTetromino, __signed_stack_003displayTetromino, __D0displayTetromino
+15	380	79		index __signed_stack_002displayTetromino, __ArrHelper__displayTetromino_236_0, __signed_stack_003displayTetromino
+15	379	83	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	83	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	379	83	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
+15	380	83		set __D0displayTetromino, 4
 15	379	86	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	86		add __D0displayTetromino, __signed_stack_002displayTetromino, __D0displayTetromino
+15	380	86		mul __D0displayTetromino, __signed_stack_002displayTetromino, __D0displayTetromino
 15	379	90	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
-15	380	90		sub __displayTetromino_7qG2_tempUD_7qG2_000, __signed_stack_001displayTetromino, __D0displayTetromino
+15	380	90		add __displayTetromino_7qG2_tempUD_7qG2_000, __signed_stack_001displayTetromino, __D0displayTetromino
 15	379	94	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
 15	379	94	#line 379 "C:\Github\NXC_Source\#Tetris.nxc"
 15	382	94	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -6071,127 +6071,127 @@ Clump	Line	PC	Source
 15	382	104	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
 15	383	104		brtst 4, __ASM_Label_1875, __D0displayTetromino
 15	382	107	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	107		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_tempLR_7qG2_000
-15	382	110	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	382	110	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	110		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_tempUD_7qG2_000
-15	382	113	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	382	113	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	113		set __signed_stack_003displayTetromino, 4
-15	382	116	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	382	116	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	116		set __signed_stack_004displayTetromino, 4
-15	382	119	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	382	119	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	119		set __D0displayTetromino, 32
+15	383	107		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_tempUD_7qG2_000
+15	382	109	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	382	109	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	109		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_tempLR_7qG2_000
+15	382	112	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	382	112	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	112		set __signed_stack_003displayTetromino, 4
+15	382	115	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	382	115	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	115		set __signed_stack_004displayTetromino, 4
+15	382	118	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	382	118	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	118		set __D0displayTetromino, 32
+15	382	121	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	121		acquire __RectOutMutex
 15	382	122	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	122		acquire __RectOutMutex
-15	382	123	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	123		mov __RectOutArgs.Location.X, __signed_stack_001displayTetromino
-15	382	126	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	126		mov __RectOutArgs.Location.Y, __signed_stack_002displayTetromino
-15	382	129	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	129		mov __RectOutArgs.Size.Width, __signed_stack_003displayTetromino
-15	382	132	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	132		mov __RectOutArgs.Size.Height, __signed_stack_004displayTetromino
-15	382	135	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	135		mov __RectOutArgs.Options, __D0displayTetromino
-15	382	138	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	138		syscall 17, __RectOutArgs
-15	382	141	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	141		mov __D0displayTetromino, __RectOutArgs.Result
+15	383	122		mov __RectOutArgs.Location.X, __signed_stack_001displayTetromino
+15	382	125	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	125		mov __RectOutArgs.Location.Y, __signed_stack_002displayTetromino
+15	382	128	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	128		mov __RectOutArgs.Size.Width, __signed_stack_003displayTetromino
+15	382	131	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	131		mov __RectOutArgs.Size.Height, __signed_stack_004displayTetromino
+15	382	134	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	134		mov __RectOutArgs.Options, __D0displayTetromino
+15	382	137	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	137		syscall 17, __RectOutArgs
+15	382	140	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	140		mov __D0displayTetromino, __RectOutArgs.Result
+15	382	143	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	143		release __RectOutMutex
 15	382	144	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	144		release __RectOutMutex
-15	382	145	#line 382 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	145	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	145		jmp __ASM_Label_1886
-15	383	147	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	147		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_INdrawMode_7qG2_000
-15	383	150	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	150	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	150		set __D0displayTetromino, 1
-15	383	153	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	153		cmp 4, __D0displayTetromino, __signed_stack_001displayTetromino, __D0displayTetromino
-15	383	157	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	157		brtst 4, __ASM_Label_1889, __D0displayTetromino
-15	383	160	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	160		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_tempLR_7qG2_000
-15	383	163	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	163	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	163		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_tempUD_7qG2_000
-15	383	166	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	166	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	166		set __signed_stack_003displayTetromino, 4
-15	383	169	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	169	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	169		set __signed_stack_004displayTetromino, 4
-15	383	172	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	383	172	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	172		set __D0displayTetromino, 0
-15	383	175	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	175		acquire __RectOutMutex
-15	383	176	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	176		mov __RectOutArgs.Location.X, __signed_stack_001displayTetromino
-15	383	179	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	179		mov __RectOutArgs.Location.Y, __signed_stack_002displayTetromino
-15	383	182	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	182		mov __RectOutArgs.Size.Width, __signed_stack_003displayTetromino
-15	383	185	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	185		mov __RectOutArgs.Size.Height, __signed_stack_004displayTetromino
-15	383	188	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	188		mov __RectOutArgs.Options, __D0displayTetromino
-15	383	191	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	191		syscall 17, __RectOutArgs
-15	383	194	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	194		mov __D0displayTetromino, __RectOutArgs.Result
-15	383	197	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	197		release __RectOutMutex
-15	383	198	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	144	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	144		jmp __ASM_Label_1886
+15	383	146	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	146		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_INdrawMode_7qG2_000
+15	383	149	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	149	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	149		set __D0displayTetromino, 1
+15	383	152	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	152		cmp 4, __D0displayTetromino, __signed_stack_001displayTetromino, __D0displayTetromino
+15	383	156	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	156		brtst 4, __ASM_Label_1889, __D0displayTetromino
+15	383	159	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	159		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_tempUD_7qG2_000
+15	383	161	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	161	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	161		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_tempLR_7qG2_000
+15	383	164	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	164	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	164		set __signed_stack_003displayTetromino, 4
+15	383	167	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	167	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	167		set __signed_stack_004displayTetromino, 4
+15	383	170	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	383	170	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	170		set __D0displayTetromino, 0
+15	383	173	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	173		acquire __RectOutMutex
+15	383	174	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	174		mov __RectOutArgs.Location.X, __signed_stack_001displayTetromino
+15	383	177	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	177		mov __RectOutArgs.Location.Y, __signed_stack_002displayTetromino
+15	383	180	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	180		mov __RectOutArgs.Size.Width, __signed_stack_003displayTetromino
+15	383	183	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	183		mov __RectOutArgs.Size.Height, __signed_stack_004displayTetromino
+15	383	186	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	186		mov __RectOutArgs.Options, __D0displayTetromino
+15	383	189	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	189		syscall 17, __RectOutArgs
+15	383	192	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	192		mov __D0displayTetromino, __RectOutArgs.Result
+15	383	195	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	195		release __RectOutMutex
+15	383	196	#line 383 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	196	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	385	196		jmp __ASM_Label_1900
 15	384	198	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	198		jmp __ASM_Label_1900
-15	384	200	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	200		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_INdrawMode_7qG2_000
-15	384	203	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	203	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	203		set __D0displayTetromino, 2
-15	384	206	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	206		cmp 4, __D0displayTetromino, __signed_stack_001displayTetromino, __D0displayTetromino
-15	384	210	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	210		brtst 4, __ASM_Label_1903, __D0displayTetromino
+15	385	198		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_INdrawMode_7qG2_000
+15	384	201	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	384	201	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	385	201		set __D0displayTetromino, 2
+15	384	204	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	385	204		cmp 4, __D0displayTetromino, __signed_stack_001displayTetromino, __D0displayTetromino
+15	384	208	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	385	208		brtst 4, __ASM_Label_1903, __D0displayTetromino
+15	384	211	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	385	211		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_tempUD_7qG2_000
 15	384	213	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	213		mov __signed_stack_001displayTetromino, __displayTetromino_7qG2_tempLR_7qG2_000
+15	384	213	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	385	213		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_tempLR_7qG2_000
 15	384	216	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
 15	384	216	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	216		mov __signed_stack_002displayTetromino, __displayTetromino_7qG2_tempUD_7qG2_000
+15	385	216		set __signed_stack_003displayTetromino, 2
 15	384	219	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
 15	384	219	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	219		set __signed_stack_003displayTetromino, 2
+15	385	219		set __D0displayTetromino, 0
 15	384	222	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
 15	384	222	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	222		set __D0displayTetromino, 0
+15	385	222		mov __CircleOutArgs.Center.X, __signed_stack_001displayTetromino
 15	384	225	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	225	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	225		mov __CircleOutArgs.Center.X, __signed_stack_001displayTetromino
+15	385	225		mov __CircleOutArgs.Center.Y, __signed_stack_002displayTetromino
 15	384	228	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	228		mov __CircleOutArgs.Center.Y, __signed_stack_002displayTetromino
+15	385	228		mov __CircleOutArgs.Size, __signed_stack_003displayTetromino
 15	384	231	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	231		mov __CircleOutArgs.Size, __signed_stack_003displayTetromino
+15	385	231		mov __CircleOutArgs.Options, __D0displayTetromino
 15	384	234	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	234		mov __CircleOutArgs.Options, __D0displayTetromino
+15	385	234		syscall 16, __CircleOutArgs
 15	384	237	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	237		syscall 16, __CircleOutArgs
+15	385	237		mov __D0displayTetromino, __CircleOutArgs.Result
 15	384	240	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	385	240		mov __D0displayTetromino, __CircleOutArgs.Result
-15	384	243	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	384	243	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
-15	386	243	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-15	386	243	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-15	386	243	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
-15	394	243	#line 394 "C:\Github\NXC_Source\#Tetris.nxc"
-15	395	243		jmp __ASM_Label_1848
-15	394	245	#line 394 "C:\Github\NXC_Source\#Tetris.nxc"
-15	394	245	#line 394 "C:\Github\NXC_Source\#Tetris.nxc"
-15	395	245		subret __displayTetromino_return
+15	384	240	#line 384 "C:\Github\NXC_Source\#Tetris.nxc"
+15	386	240	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
+15	386	240	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
+15	386	240	#line 386 "C:\Github\NXC_Source\#Tetris.nxc"
+15	394	240	#line 394 "C:\Github\NXC_Source\#Tetris.nxc"
+15	395	240		jmp __ASM_Label_1848
+15	394	242	#line 394 "C:\Github\NXC_Source\#Tetris.nxc"
+15	394	242	#line 394 "C:\Github\NXC_Source\#Tetris.nxc"
+15	395	242		subret __displayTetromino_return
 16	396	0	#line 396 "C:\Github\NXC_Source\#Tetris.nxc"
 16	397	0		set __inputOutput_7qG2_temppiecemoving_7qG2_000, 1
 16	396	3	#line 396 "C:\Github\NXC_Source\#Tetris.nxc"
@@ -7192,10 +7192,10 @@ Clump	Line	PC	Source
 16	508	1186	#line 508 "C:\Github\NXC_Source\#Tetris.nxc"
 16	509	1186		mul __D0inputOutput, __signed_stack_002inputOutput, __inputOutput_7qG2_i_7qG2_001
 16	508	1190	#line 508 "C:\Github\NXC_Source\#Tetris.nxc"
-16	509	1190		sub __displayTetromino_7qG2_INud_7qG2_000, __signed_stack_001inputOutput, __D0inputOutput
+16	509	1190		sub __displayTetromino_7qG2_INlr_7qG2_000, __signed_stack_001inputOutput, __D0inputOutput
 16	508	1194	#line 508 "C:\Github\NXC_Source\#Tetris.nxc"
 16	508	1194	#line 508 "C:\Github\NXC_Source\#Tetris.nxc"
-16	509	1194		set __displayTetromino_7qG2_INlr_7qG2_000, 0
+16	509	1194		set __displayTetromino_7qG2_INud_7qG2_000, 0
 16	508	1197	#line 508 "C:\Github\NXC_Source\#Tetris.nxc"
 16	508	1197	#line 508 "C:\Github\NXC_Source\#Tetris.nxc"
 16	509	1197		set __displayTetromino_7qG2_INdrawMode_7qG2_000, 1
@@ -7248,20 +7248,20 @@ Clump	Line	PC	Source
 16	518	1248		mov __displayTetromino_7qG2_INangl_7qG2_000, currentRotate
 16	517	1250	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	517	1250	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
-16	518	1250		mov __signed_stack_001inputOutput, tetUD
+16	518	1250		mov __signed_stack_001inputOutput, tetLR
 16	517	1253	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	517	1253	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	518	1253		set __D0inputOutput, 4
 16	517	1256	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
-16	518	1256		mul __displayTetromino_7qG2_INud_7qG2_000, __signed_stack_001inputOutput, __D0inputOutput
+16	518	1256		mul __displayTetromino_7qG2_INlr_7qG2_000, __signed_stack_001inputOutput, __D0inputOutput
 16	517	1260	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	517	1260	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
-16	518	1260		mov __signed_stack_001inputOutput, tetLR
+16	518	1260		mov __signed_stack_001inputOutput, tetUD
 16	517	1263	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	517	1263	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	518	1263		set __D0inputOutput, 4
 16	517	1266	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
-16	518	1266		mul __displayTetromino_7qG2_INlr_7qG2_000, __signed_stack_001inputOutput, __D0inputOutput
+16	518	1266		mul __displayTetromino_7qG2_INud_7qG2_000, __signed_stack_001inputOutput, __D0inputOutput
 16	517	1270	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	517	1270	#line 517 "C:\Github\NXC_Source\#Tetris.nxc"
 16	518	1270		set __displayTetromino_7qG2_INdrawMode_7qG2_000, 1
@@ -9613,10 +9613,10 @@ Clump	Line	PC	Source
 23	819	369		mov __displayTetromino_7qG2_INangl_7qG2_000, __debug_7qG2_angl_7qG2_001
 23	818	371	#line 818 "C:\Github\NXC_Source\#Tetris.nxc"
 23	818	371	#line 818 "C:\Github\NXC_Source\#Tetris.nxc"
-23	819	371		set __displayTetromino_7qG2_INud_7qG2_000, 0
+23	819	371		set __displayTetromino_7qG2_INlr_7qG2_000, 0
 23	818	374	#line 818 "C:\Github\NXC_Source\#Tetris.nxc"
 23	818	374	#line 818 "C:\Github\NXC_Source\#Tetris.nxc"
-23	819	374		set __displayTetromino_7qG2_INlr_7qG2_000, 0
+23	819	374		set __displayTetromino_7qG2_INud_7qG2_000, 0
 23	818	377	#line 818 "C:\Github\NXC_Source\#Tetris.nxc"
 23	818	377	#line 818 "C:\Github\NXC_Source\#Tetris.nxc"
 23	819	377		set __displayTetromino_7qG2_INdrawMode_7qG2_000, 0
@@ -9734,20 +9734,20 @@ Clump	Line	PC	Source
 23	835	495		mov __displayTetromino_7qG2_INangl_7qG2_000, currentRotate
 23	834	497	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	834	497	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
-23	835	497		mov __signed_stack_001debug, tetUD
+23	835	497		mov __signed_stack_001debug, tetLR
 23	834	500	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	834	500	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	835	500		set __D0debug, 4
 23	834	503	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
-23	835	503		mul __displayTetromino_7qG2_INud_7qG2_000, __signed_stack_001debug, __D0debug
+23	835	503		mul __displayTetromino_7qG2_INlr_7qG2_000, __signed_stack_001debug, __D0debug
 23	834	507	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	834	507	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
-23	835	507		mov __signed_stack_001debug, tetLR
+23	835	507		mov __signed_stack_001debug, tetUD
 23	834	510	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	834	510	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	835	510		set __D0debug, 4
 23	834	513	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
-23	835	513		mul __displayTetromino_7qG2_INlr_7qG2_000, __signed_stack_001debug, __D0debug
+23	835	513		mul __displayTetromino_7qG2_INud_7qG2_000, __signed_stack_001debug, __D0debug
 23	834	517	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	834	517	#line 834 "C:\Github\NXC_Source\#Tetris.nxc"
 23	835	517		set __displayTetromino_7qG2_INdrawMode_7qG2_000, 1
@@ -10052,12 +10052,12 @@ Clump	Name	Offset	File
 13	move	5499	C:\Github\NXC_Source\#Tetris.nxc
 14	rotate	5823	C:\Github\NXC_Source\#Tetris.nxc
 15	displayTetromino	6270	C:\Github\NXC_Source\#Tetris.nxc
-16	inputOutput	6517	C:\Github\NXC_Source\#Tetris.nxc
-17	initArrays	7811	C:\Github\NXC_Source\#Tetris.nxc
-18	pieceCreate	8236	C:\Github\NXC_Source\#Tetris.nxc
-19	pieceSetInto	8615	C:\Github\NXC_Source\#Tetris.nxc
-20	clearFullRows	8773	C:\Github\NXC_Source\#Tetris.nxc
-21	gameEnd	9183	C:\Github\NXC_Source\#Tetris.nxc
-22	debugStream	9468	C:\Github\NXC_Source\#Tetris.nxc
-23	debug	10410	C:\Github\NXC_Source\#Tetris.nxc
-24	__initialize_global_data	11216	C:\Github\NXC_Source\#Tetris.nxc
+16	inputOutput	6514	C:\Github\NXC_Source\#Tetris.nxc
+17	initArrays	7808	C:\Github\NXC_Source\#Tetris.nxc
+18	pieceCreate	8233	C:\Github\NXC_Source\#Tetris.nxc
+19	pieceSetInto	8612	C:\Github\NXC_Source\#Tetris.nxc
+20	clearFullRows	8770	C:\Github\NXC_Source\#Tetris.nxc
+21	gameEnd	9180	C:\Github\NXC_Source\#Tetris.nxc
+22	debugStream	9465	C:\Github\NXC_Source\#Tetris.nxc
+23	debug	10407	C:\Github\NXC_Source\#Tetris.nxc
+24	__initialize_global_data	11213	C:\Github\NXC_Source\#Tetris.nxc
