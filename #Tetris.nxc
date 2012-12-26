@@ -2,7 +2,7 @@
 //Joseph Dykstra
 
 
-/*              PREPROCESSOR              */
+//              PREPROCESSOR
 #include "+Button+-.nxc"
 #include "+Highscore.nxc"
 #include "+RotatedNumbers.nxc"
@@ -13,6 +13,7 @@
 #define TX      35
 #define SX      94
 #define SY      61
+#define defaultmode     1
 #define previewPieces   3
 //Timing (all *10)
 #define waitGravity     5
@@ -42,6 +43,7 @@
 
 
 //                 GLOBAL CONSTANTS
+const bool  allowDbg[5]={1,1,1,1,1};
 const short tet[8][28]=
   {
 // I
@@ -115,6 +117,7 @@ string msg         ="";
 string disp        ="";
 string accesshigh  ="";
 float speedup      = 0;
+int viewDbg        =-1;
 int score          = 0;
 int gametype       = 0;
 int gamespeed      = 0;
@@ -130,7 +133,6 @@ int prevWaited     = 0;
 int tetLR          = 0;
 int tetUD          = 0;
 int drop           = 0;
-int viewDbg        = 0;
 bool alive         = 0;
 bool prevQuadClear = 0;
 bool highMade      = 0;
@@ -683,13 +685,13 @@ void gameEnd()
 void debugStream(int INint)
   {
   //viewDbg=inInt%5;
-  viewDbg=3;
-  /*
-  if      (viewDbg==0) viewDbg=2;
-  else if (viewDbg==2) viewDbg=3;
-  else if (viewDbg==3) viewDbg=4;
-  else if (viewDbg==4) viewDbg=2;
-  */
+  bool insideLoop=true;
+  while (insideLoop)
+    {
+    viewDbg++;
+    if (viewDbg>4) viewDbg=0;
+    if (allowDbg[viewDbg]==0) insideLoop=false;
+    }
   string str1;
   string str2;
   string str3;
@@ -880,7 +882,7 @@ void debug(int INmode)
   
 task main()
   {
-  int mode=4;
+  int mode=defaultmode;
   while (!ButtonPressed(3))
     {
     mode=senseButton(mode,true,1,6,false);

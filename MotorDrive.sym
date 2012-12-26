@@ -520,76 +520,76 @@ Clump	Line	PC	Source
 1	11	178	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	12	178	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	13	178		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
-1	12	180	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	180		tst 5, __D0senseButton, __DU0senseButton
-1	12	183	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	183		brtst 4, __ASM_Label_656, __D0senseButton
-1	12	186	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	186		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	12	188	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	188	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	188		set __D0senseButton, 0
-1	12	191	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	191		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	12	195	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	195		brtst 4, __ASM_Label_659, __D0senseButton
-1	12	198	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	198		set __senseButton_7qG2_val_7qG2_000, 0
-1	12	201	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	12	201	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	180	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	180		tst 5, __D0senseButton, __DU0senseButton
+1	13	183	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	183		brtst 4, __ASM_Label_656, __D0senseButton
+1	13	186	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	186		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	13	188	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	188	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	188		set __D0senseButton, 0
+1	13	191	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	191		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	13	195	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	195		brtst 4, __ASM_Label_659, __D0senseButton
+1	13	198	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	198		set __senseButton_7qG2_val_7qG2_000, 0
 1	13	201	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
 1	13	201	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	201		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	203		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
-1	13	205	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	205		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	13	209	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	209		brtst 4, __ASM_Label_664, __D0senseButton
-1	13	212	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	14	212		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
-1	13	214	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	13	214	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	201	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	201	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	201		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	14	203	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	203	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	203		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	14	205	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	205		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	14	209	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	209		brtst 4, __ASM_Label_664, __D0senseButton
+1	14	212	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	212		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
 1	14	214	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	214	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	214		jmp __ASM_Label_667
-1	15	216	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	216		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	15	218	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	218	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	218		set __D0senseButton, 0
-1	15	221	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	221		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	15	225	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	225		brtst 4, __ASM_Label_670, __D0senseButton
-1	15	228	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	228		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
-1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	15	230	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	230	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	230	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	230		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
-1	16	232	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	232	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	232		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
-1	16	234	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	234		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
-1	16	238	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	238		brtst 4, __ASM_Label_675, __D0senseButton
-1	16	241	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	241		set __senseButton_7qG2_val_7qG2_000, 0
-1	16	244	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	16	244	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	17	244	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	18	244		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
-1	17	246	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	18	246		subret __senseButton_return
-1	17	248	#line 17 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	19	248	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
-1	20	248		subret __senseButton_return
+1	14	214	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	214	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	214	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	214		jmp __ASM_Label_667
+1	18	216	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	216		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	18	218	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	218	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	218		set __D0senseButton, 0
+1	18	221	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	221		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	18	225	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	225		brtst 4, __ASM_Label_670, __D0senseButton
+1	18	228	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	228		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	18	230	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	230	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	230	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	230	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	230		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	19	232	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	232	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	232		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	19	234	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	234		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	19	238	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	238		brtst 4, __ASM_Label_675, __D0senseButton
+1	19	241	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	241		set __senseButton_7qG2_val_7qG2_000, 0
+1	19	244	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	244	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	21	244	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	21	244	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	21	244	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	22	244		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
+1	21	246	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	22	246		subret __senseButton_return
+1	21	248	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	23	248	#line 23 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	24	248		subret __senseButton_return
 2	29	0	#line 29 "C:\Github\NXC_Source\MotorDrive.nxc"
 2	30	0		subret ____initialize_global_data_return
 #CLUMPS
