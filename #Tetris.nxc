@@ -450,13 +450,12 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
-
     TextOut(25,48,"CODE RUNNING",0);
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
       refresh=true;
       TextOut(25,48,"DROP/GRAVITY",0);
-      if (drop==dropHard) //hard drop
+      if (drop==dropHard)              //HARD DROP
         {
         bool tempLoop=true;
         while (tempLoop)
@@ -464,19 +463,19 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
           if (move(dwn)) tetUD--;
           else
             {
-            lockDelay++;
             tempLoop=false;
+            lockDelay++;
             if (lockDelay>=waitLock) temppiecemoving=false;
             }
           }
         }
-      else //gravity or soft drop
+      else                             //SOFT DROP or GRAVITY
         {
         TextOut(25,48,"   GRAVITY  ",0);//PlayTone(1000,1000);Wait(1000);
-        if (move(dwn)) {tetUD--; SendResponseString(9,"can move down");Wait(100);} //move(dwn) returns 0, idk why... move(dwn) returns 0, idk why... move(dwn) returns 0, idk why...
+        if (move(dwn)) {tetUD--; SendResponseString(9,"can move down");Wait(60);}
         else lockDelay++;
-        if (lockDelay>=waitLock) {temppiecemoving=false; SendResponseString(9,"lock delay>wait lock"); Wait(100);}
-        else {SendResponseString(9,"lock delay<wait lock"); Wait(100);}
+        if (lockDelay>=waitLock) {temppiecemoving=false; SendResponseString(9,"lock delay>wait lock"); Wait(60);}
+        else {SendResponseString(9,"lock delay<wait lock"); Wait(60);}
         }
       }
     prevWaited=INwaited;
@@ -492,6 +491,18 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {
     //if (INwaited%3==0) ClearScreen();
     if (refresh) ClearScreen();
+    int keepUD=tetUD;
+    bool tempLoop=1;
+    while (tempLoop)
+      {
+      if (move(dwn)) tetUD--;
+      else
+        {
+        tempLoop=false;
+        displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,2);
+        }
+      }
+    tetUD=keepUD;
     //AREA
     int i;
     int j;
@@ -557,7 +568,7 @@ void initArrays()
       TextOut(0,24,StrCat("add  ",NumToStr(add) ),0);
       TextOut(0,16,StrCat("rndm ",NumToStr(rndm)),0);
       TextOut(0,00,"piece create err",0);
-      PlayTone(2000,500);Wait(500);
+      PlayTone(2000,1000);Wait(1000);
       }
     nextPiece[i]=pieceToCreate;
     }
@@ -583,7 +594,7 @@ void pieceCreate()
     TextOut(0,24,StrCat("add  ",NumToStr(add) ),0);
     TextOut(0,16,StrCat("rndm ",NumToStr(rndm)),0);
     TextOut(0,00,"piece create err",0);
-    PlayTone(2000,500);Wait(500);
+    PlayTone(2000,1000);Wait(1000);
     }
   
   currentPiece=nextPiece[0];
@@ -601,7 +612,7 @@ void pieceSetInto() ////////////////////////////////////////////////////////////
   int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    tempLR=      tet[currentPiece+currentRotate][i  ]+tetUD;  //height
+    tempLR=tet[currentPiece+currentRotate][i  ]+tetUD;  //height
     tempUD=tet[currentPiece+currentRotate][i+4]+tetLR;  //width
     SendResponseNumber(9,tempLR);
     Wait(60);
@@ -653,8 +664,8 @@ int clearFullRows()
   if      (numOfFilledLines==1)    {score+=100; prevQuadClear=false; disp="Single!";}
   else if (numOfFilledLines==2)    {score+=200; prevQuadClear=false; disp="Double!";}
   else if (numOfFilledLines==3)    {score+=400; prevQuadClear=false; disp="Triple!";}
-  else if (numOfFilledLines==4)    {score+=800;  prevQuadClear=true; disp="Tetris!";
-    if (prevQuadClear) {score+=400;}}
+  else if (numOfFilledLines==4)
+  {if (prevQuadClear) {score+=400;} score+=800;  prevQuadClear=true; disp="Tetris!";}
   return numOfFilledLines;
   }
 
@@ -690,18 +701,18 @@ void debugStream(int INint)
     {
     viewDbg++;
     if (viewDbg>4) viewDbg=0;
-    if (allowDbg[viewDbg]==0) insideLoop=false;
+    if (allowDbg[viewDbg]) insideLoop=false;
     }
-  string str1;
-  string str2;
-  string str3;
-  string str4;
-  string str5;
-  string msg1;
-  string msg2;
-  string msg3;
-  string msg4;
-  string msg5;
+  string str1="";
+  string str2="";
+  string str3="";
+  string str4="";
+  string str5="";
+  string msg1="";
+  string msg2="";
+  string msg3="";
+  string msg4="";
+  string msg5="";
   string result;
   if      (viewDbg==0)
     {
@@ -713,9 +724,6 @@ void debugStream(int INint)
     msg2="  ahi ";
     msg3="  sdp ";
     msg4="    i ";
-    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
-    SendResponseString(9,result);
-    Wait(40);
     }
   else if (viewDbg==1)
     {
@@ -729,9 +737,6 @@ void debugStream(int INint)
     msg3="  gs ";
     msg4="  dt ";
     msg4="  lD ";
-    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4,msg5,str5);
-    SendResponseString(9,result);
-    Wait(40);
     }
   else if (viewDbg==2)
     {
@@ -745,9 +750,6 @@ void debugStream(int INint)
     msg3="  pR ";
     msg4="  pD ";
     msg5="  pR ";
-    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4,msg5,str5);
-    SendResponseString(9,result);
-    Wait(40);
     }
   else if (viewDbg==3)
     {
@@ -759,9 +761,6 @@ void debugStream(int INint)
     msg2="  cR ";
     msg3="  tL ";
     msg4="  tU ";
-    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
-    SendResponseString(9,result);
-    Wait(40);
     }
   else if (viewDbg==4)
     {
@@ -773,10 +772,10 @@ void debugStream(int INint)
     msg2="  lv ";
     msg3="  pQ ";
     msg4="  hM ";
-    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
-    SendResponseString(9,result);
-    Wait(40);
     }
+  result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
+  SendResponseString(9,result);
+  Wait(60);
   }
 
 
@@ -907,14 +906,14 @@ task main()
         {
         TextOut(25,48,"   ALIVE    ",0);
         pieceCreate();
-        piecemoving=inputOutput(true,false,true,0);//PlayTone(500,2500);Wait(2500);
+        piecemoving=inputOutput(true,false,true,0);
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
           TextOut(25,48,"PIECE MOVING",0);
           piecemoving=inputOutput(true,true,true,i);
           Wait(10);//Wait(1000);
-          TextOut(25,48,"   DEBUG    ",0);
+          TextOut(25,48,"DEBUG STREAM",0);
           debugStream(i);
           }
         delaytime*=speedup;
@@ -934,28 +933,23 @@ task main()
   }
 
 /*
-IMPLEMENT:
-Draw current tetromino (hollow rectangles)
-Draw ghost tetromino (hollow rectangles or circles?)
-Draw 3 pieces tetromino preview
-Fix Line Clearing
-Rotation
 Process Order:
-  Rotation
-  Move/Drop
-  Gravity
+-Rotation
+-Move
+-Drop
+-Gravity
 
+Hold piece              NEVER
+Firm Drop               NEVER
 
-//Hold piece                                           NO
-//Firm Drop                                            NO
+Soft Drop               DONE
+Hard Drop               DONE
+Clockwise Rotation      DONE
+Right Side Bias         DONE
 
-Soft Drop                                              DONE
-Hard Drop                                              DONE
-Delayed Auto Shift                                     IMPLEMENT
-Clockwise Rotation                                     DONE
-Right Side Bias                                        DONE
+Delayed Auto Shift      IMPLEMENT
 
-Wall kicks                                             BUGGY, "I" won't kick 2 over
+Wall kicks              BUGGY, "I" won't kick 2 over
 
 Allow only 1 floor kick                                IMPLEMENT
 Allow I wall kicking always.                           IMPLEMENT
