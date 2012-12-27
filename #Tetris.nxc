@@ -13,7 +13,7 @@
 #define TX      35
 #define SX      94
 #define SY      61
-#define defaultmode     1
+#define defaultmode     4
 #define previewPieces   3
 //Timing (all *10)
 #define waitGravity     5
@@ -402,15 +402,15 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //INPUT
   if (INallowInput)
     {
-    if (ButtonPressed(BTNLEFT))  // DROP
+    if (ButtonPressed(BTNLEFT))                                 // DROP
       {
-      if (prevDrp>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  ////////////////////////////////////////
+      if (prevDrp>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  //////////////////////////////////////
       else             {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
       prevDrp++;
       }
     else if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
   TextOut(25,48,"   ROTATE   ",0);
-    if (ButtonPressed(BTNRIGHT))  // ROTATE
+    if (ButtonPressed(BTNRIGHT))                                // ROTATE
       {
       lockDelay=0;
       if (prevRot==0)
@@ -430,14 +430,14 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       if (prevRot>waitRotateAgain) prevRot=0;
       }
     TextOut(25,48," DROP/ROTATE",0);
-    if (ButtonPressed(BTNCENTER))  // MOVE LEFT
+    if (ButtonPressed(BTNCENTER))                               // MOVE L
       {
       lockDelay=0;
       if (prevLft==0 && move(lft)) {tetLR--; refresh=true;}
       prevLft++;
       if (prevLft>waitFastMove) prevLft=0;
       }
-    if (ButtonPressed(BTNEXIT))  // MOVE RIGHT
+    if (ButtonPressed(BTNEXIT))                                 // MOVE R
       {
       lockDelay=0;
       if (prevRht==0 && move(rht)) {tetLR++; refresh=true;}
@@ -817,7 +817,7 @@ void debug(int INmode)
       for (angl=0; angl<4; angl++)
         {
         ClearScreen();
-        displayTetromino(tets*4,angl,0,0,0);/////////////////////////////////////////////////////////////////////////////
+        displayTetromino(tets*4,angl,0,0,0);//////////////////////////////////////////////////////////////////////////////
         Wait(500);
         until (!ButtonPressed(3)){}
         }
@@ -833,7 +833,7 @@ void debug(int INmode)
     Wait(3000);
     debugStream(0);
     ClearScreen();
-    displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1);//////////////////////////////////////////////
+    displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1);///////////////////////////////////////////////
     Wait(500);
     inputOutput(false,false,true,0);
     Wait(3000);
