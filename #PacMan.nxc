@@ -2,6 +2,7 @@
 #define x        0
 #define y        1
 #define d        2
+#define bsz    8
 #define width    12
 #define height   08
 #define right    12
@@ -61,13 +62,10 @@ void drawBoard()
     {
     for (int i=0;i<w;i++)
       {
-      if (board[j][i]==1) { PointOut(i*8+4,j*8+4,0);}                            //food
-      if (board[j][i]==2) {CircleOut(i*8+4,j*8+4,4,0);}                          //me
-      if (board[j][i]==3) {  RectOut(i*8  ,j*8  ,8,8,32);}                       //wall
-      if (board[j][i]==4) {CircleOut(i*8+4,j*8+4,3,0);}                          //e1
-      if (board[j][i]==5) {CircleOut(i*8+4,j*8+4,3,0);PointOut(i*8+4,j*8+4,0);}  //e1+food
-      if (board[j][i]==6) {CircleOut(i*8+4,j*8+4,3,0);}                          //e2
-      if (board[j][i]==7) {CircleOut(i*8+4,j*8+4,3,0);PointOut(i*8+4,j*8+4,0);}  //e2+food
+      if (board[j][i]%2)  { PointOut(i*bsz+bsz/2, j*bsz+bsz/2,          0);}  //food
+      if (board[j][i]==2) {CircleOut(i*bsz+bsz/2, j*bsz+bsz/2, bsz,     0);}  //me
+      if (board[j][i]==3) {  RectOut(i*bsz,       j*bsz, bsz,  bsz,    32);}  //wall
+      if (board[j][i]>=4) {CircleOut(i*bsz+bsz/2, j*bsz+bsz/2, bsz/2-1, 0);}  //enemy
       }
     }
   }
