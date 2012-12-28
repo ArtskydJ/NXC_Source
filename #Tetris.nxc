@@ -17,8 +17,8 @@
 #define previewPieces   3
 //Timing (all *10)
 #define waitGravity     5
-#define waitSlowMove    1
-#define waitFastMove    0
+#define waitSlowMove    3
+#define waitFastMove    1
 #define waitRotateAgain 3
 #define waitHardDrop    3
 #define waitLock        5
@@ -329,6 +329,7 @@ bool move(int INdir)
     tempUD=tet[currentPiece+currentRotate][i+4]+tetUD+addUD;
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height))
       {canMove+=(area[tempLR][tempUD]); PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
+    else canMove++;
     if (tetUD<1&&INdir==dwn) {canMove=3;}// PlayTone(3000,500);}
     }
   //NumOut(0,16,canMove,0);
@@ -367,6 +368,7 @@ int rotate()
         tempUD=tet[currentPiece+currentRotate+addRot][i+4]+tetUD+addUD; //and leftright?
         if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height)&&(tetUD>0))
           {canRotate+=(area[tempLR][tempUD]);}
+        else canRotate++;
         }
       stayInLoop=(canRotate!=0);
       }
