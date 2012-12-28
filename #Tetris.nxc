@@ -400,12 +400,15 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {
     if (ButtonPressed(BtnDrop))
       {
-      if (prevDrp>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  //////////////////////////////
-      else               {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop //////////////////////////////
+      if (prevDrp>waitHardDrop)
+        {drop=dropWSoft; lockDelay=waitLock;} //Instant Hard Drop  //////////////////////////////
+      else
+        {drop=dropWHard; lockDelay=0;}        //Wait for Soft Drop //////////////////////////////
       prevDrp++;
       }
     else
       {
+      prevDrp=0;
       if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
       }
     if (ButtonPressed(BtnRotate))
@@ -469,7 +472,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
-    //TextOut(25,48,"CODE RUNNING",0);
+    //TextOut(25,48,"CDE RNIG",0);
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
       refresh=true;
@@ -589,13 +592,27 @@ void initArrays()
     nextPiece[i]=pieceToCreate;
     }
   }
-  
+
+
+void resetVars()
+  {
+  lockDelay      = 0;
+  prevRht        = 0;
+  prevLft        = 0;
+  prevDrp        = 0;
+  prevRot        = 0;
+  currentRotate  = 0;
+  prevWaited     = 0;
+  currentRotate=0;
+  drop=0;
+  lockDelay=0;
+  tetLR=width/2-2;
+  tetUD=height;
+  }
+
 
 bool pieceCreate()
   {
-  tetLR=width/2-2;
-  tetUD=height+2;
-  currentRotate=0;
   int pieceToCreate=prob;
   int rndm=Random(chnc[prob]);
   int add=0;
@@ -678,7 +695,7 @@ int clearFullRows()
   
 bool gameEnd()
   {
-  bool tempplayagain=false;
+  bool plyagn=false;
   TextOut(0,0,"GamOvr!",4096);
   PlayTone(1500,1000);
   Wait(1000);
@@ -687,12 +704,20 @@ bool gameEnd()
   Wait(1000);
   if (highMade) writeHighName(accesshigh,score);
   ClearScreen();
-  string show=NumToStr(score);
-  TextOut(0,LCD_LINE6,StrCat("S:",show),0);
-  //TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);  //append code
-  show=readHighName(accesshigh);
-  TextOut(0,LCD_LINE8,StrCat("N:",show),0);
-  return tempplayagain;
+  TextOut(TX,LCD_LINE1,"TETRIS",  0);
+  TextOut(0,LCD_LINE4,StrCat("S:",NumToStr(score)),0);
+  TextOut(0,LCD_LINE5,StrCat("HS:",NumToStr( readHigh(accesshigh) )),0);
+  msg=readHighName(accesshigh);
+  TextOut(0,LCD_LINE6,StrCat("N:",msg),0);
+  TextOut(5,LCD_LINE8,"Yes         No",0);
+  until (ButtonPressed(BTNLEFT)==false
+     && ButtonPressed(BTNRIGHT)==false) {}
+  until (ButtonPressed(BTNLEFT)==true
+     || ButtonPressed(BTNRIGHT)==true)  {}
+  plyagn=ButtonPressed(BTNLEFT)==true;
+  until (ButtonPressed(BTNLEFT)==false
+     && ButtonPressed(BTNRIGHT)==false) {}
+  return plyagn;
   }
 
 // BEGIN  _    __   __          __
@@ -911,9 +936,10 @@ task main()
       alive=true;
       while (alive)
         {
+        resetVars();
         pieceCreate();
-        alive=move(sty); //if piece was made where the board is full, end the game
-        piecemoving=alive;
+        piecemoving=move(sty); //If piece was made where the...
+        alive=      move(sty); //board is full, end the game.
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
