@@ -13,15 +13,21 @@
 #define TX      35
 #define SX      94
 #define SY      61
-#define defaultmode     4
+#define defaultmode     1
 #define previewPieces   3
 //Timing (all *10)
 #define waitGravity     5
-#define waitFastMove    3
+#define waitSlowMove    1
+#define waitFastMove    0
 #define waitRotateAgain 3
 #define waitHardDrop    3
 #define waitLock        5
 #define fastRepeat      5
+//Buttons
+#define BtnMoveL  BTNCENTER
+#define BtnMoveR  BTNEXIT
+#define BtnRotate BTNRIGHT
+#define BtnDrop   BTNLEFT
 //Move()
 #define dwn 0
 #define lft 1
@@ -43,7 +49,7 @@
 
 
 //                 GLOBAL CONSTANTS
-const bool  allowDbg[5]={1,1,1,1,1};
+const bool  allowDbg[5]={0,0,1,0,0};
 const short tet[8][28]=
   {
 // I
@@ -323,7 +329,7 @@ bool move(int INdir)
     tempUD=tet[currentPiece+currentRotate][i+4]+tetUD+addUD;
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height))
       {canMove+=(area[tempLR][tempUD]); PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
-    if (tetUD<1&&INdir==dwn) {canMove=3; PlayTone(3000,500);}
+    if (tetUD<1&&INdir==dwn) {canMove=3;}// PlayTone(3000,500);}
     }
   //NumOut(0,16,canMove,0);
   //Wait(500);
@@ -373,18 +379,19 @@ int rotate()
   }
 
                                        //in is updown leftright
-void displayTetromino(int INtet,int INangl, int INlr, int INud, int INdrawMode)///////////////////////////////////////////
+void displayTetromino(int INtet,int INrot, int INlr, int INud, int INdrawMode)////////////////////////////////////
   {
   int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    tempLR=56-(INlr+(tet[INtet+INangl][i  ])*blksz);
-    tempUD=   (INud+(tet[INtet+INangl][i+4])*blksz);
-    //tempY=   INud+(tet[INtet*4+INangl][i+4])*blksz; //inverted
+    //tempLR=56-(INlr+(tet[INtet+INrot][i  ])*blksz); //inverted
+    tempLR=   (INlr+(tet[INtet+INrot][i  ])*blksz);
+    tempUD=   (INud+(tet[INtet+INrot][i+4])*blksz);
+
     //Wait(500);
-    if      (INdrawMode==0)   RectOut(tempUD,tempLR,blksz,blksz,32);
-    else if (INdrawMode==1)   RectOut(tempUD,tempLR,blksz,blksz,0);
-    else if (INdrawMode==2) CircleOut(tempUD,tempLR,blksz/2,    0);
+    if      (INdrawMode==0) RectOut(tempUD,tempLR,blksz,blksz,32);
+    else if (INdrawMode==1) RectOut(tempUD,tempLR,blksz,blksz,0);
+    else if (INdrawMode==2) CircleOut(tempUD+blksz/2,tempLR+blksz/2,blksz/2,0);
     }
   }
 
@@ -402,15 +409,18 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //INPUT
   if (INallowInput)
     {
-    if (ButtonPressed(BTNLEFT))                                 // DROP
+    if (ButtonPressed(BtnDrop))
       {
-      if (prevDrp>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  //////////////////////////////////////
-      else             {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
+      if (prevDrp>waitHardDrop) {lockDelay=0; drop=dropWSoft;} //Instant Hard Drop  //////////////////////////////
+      else               {lockDelay=waitLock; drop=dropWHard;} //Wait for Soft Drop
       prevDrp++;
       }
-    else if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
-  TextOut(25,48,"   ROTATE   ",0);
-    if (ButtonPressed(BTNRIGHT))                                // ROTATE
+    else
+      {
+      if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
+      }
+    //TextOut(25,48,"   ROTATE   ",0);
+    if (ButtonPressed(BtnRotate))
       {
       lockDelay=0;
       if (prevRot==0)
@@ -429,20 +439,38 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       prevRot++;
       if (prevRot>waitRotateAgain) prevRot=0;
       }
-    TextOut(25,48," DROP/ROTATE",0);
-    if (ButtonPressed(BTNCENTER))                               // MOVE L
+    //TextOut(25,48,"     MOVE   ",0);
+    if (ButtonPressed(BtnMoveL))
       {
       lockDelay=0;
-      if (prevLft==0 && move(lft)) {tetLR--; refresh=true;}
       prevLft++;
-      if (prevLft>waitFastMove) prevLft=0;
+      if ((prevLft>=waitSlowMove || prevLft<0) && move(lft))
+        {
+        if (prevLft<0) prevLft=0;
+        else prevLft=waitSlowMove-waitFastMove;
+        tetLR++;
+        refresh=true;
+        }
       }
-    if (ButtonPressed(BTNEXIT))                                 // MOVE R
+    else
+      {
+      prevLft=-5;
+      }
+    if (ButtonPressed(BtnMoveR))
       {
       lockDelay=0;
-      if (prevRht==0 && move(rht)) {tetLR++; refresh=true;}
       prevRht++;
-      if (prevRht>waitFastMove) prevRht=0;
+      if ((prevRht>=waitSlowMove || prevRht<0) && move(rht))
+        {
+        if (prevRht<0) prevRht=0;
+        else prevRht=waitSlowMove-waitFastMove;
+        tetLR--;
+        refresh=true;
+        }
+      }
+    else
+      {
+      prevRht=-5;
       }
     }
 
@@ -450,7 +478,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
-    TextOut(25,48,"CODE RUNNING",0);
+    //TextOut(25,48,"CODE RUNNING",0);
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
       refresh=true;
@@ -519,7 +547,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       TextOut(0,56,"       ",0);
       for (i=0; i<previewPieces; i++)
         {
-        //displayTetromino(nextPiece[i],0, 50-((5*blksz)*i),0,1); ///////////////////////////////////////////////////////
+        //displayTetromino(nextPiece[i],0, 50-((5*blksz)*i),0,1); ////////////////////////////////////////////////
         }
       }
     else
@@ -528,7 +556,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       disp="";
       }
     //CURRENT TETROMINO / SCORE
-    displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1); /////////////////////////////////////////////
+    displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1); //////////////////////////////////////
     RotatedNumbersOut(SX,SY,score);
     }
 
@@ -577,9 +605,9 @@ void initArrays()
 
 void pieceCreate()
   {
-  tetLR=8; // tetY=height+2;
-  tetUD=width/2;
-  currentRotate=0; //was -1... why?
+  tetLR=width-4; //tetLR=width/2;
+  tetUD=height/2;//tetUD=height+2;
+  currentRotate=0;
   int pieceToCreate=prob;
   int rndm=Random(chnc[prob]);
   int add=0;
@@ -817,7 +845,7 @@ void debug(int INmode)
       for (angl=0; angl<4; angl++)
         {
         ClearScreen();
-        displayTetromino(tets*4,angl,0,0,0);//////////////////////////////////////////////////////////////////////////////
+        displayTetromino(tets*4,angl,0,0,0);//////////////////////////////////////////////////////////////////////
         Wait(500);
         until (!ButtonPressed(3)){}
         }
@@ -833,7 +861,7 @@ void debug(int INmode)
     Wait(3000);
     debugStream(0);
     ClearScreen();
-    displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1);///////////////////////////////////////////////
+    displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1);///////////////////////////////////////
     Wait(500);
     inputOutput(false,false,true,0);
     Wait(3000);
@@ -946,8 +974,7 @@ Soft Drop               DONE
 Hard Drop               DONE
 Clockwise Rotation      DONE
 Right Side Bias         DONE
-
-Delayed Auto Shift      IMPLEMENT
+Delayed Auto Shift      DONE
 
 Wall kicks              BUGGY, "I" won't kick 2 over
 
