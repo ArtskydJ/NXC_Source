@@ -13,7 +13,7 @@
 #define TX      35
 #define SX      94
 #define SY      61
-#define defaultmode     4
+#define defaultmode     1
 #define previewPieces   3
 //Timing (all *10)
 #define waitGravity     5
@@ -504,8 +504,8 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         TextOut(25,48,"   GRAVITY  ",0);//PlayTone(1000,1000);Wait(1000);
         if (move(dwn)) {tetUD--; SendResponseString(9,"can move down");Wait(60);}
         else lockDelay++;
-        if (lockDelay>=waitLock) {temppiecemoving=false; SendResponseString(9,"lock delay>wait lock"); Wait(60);}
-        else {SendResponseString(9,"lock delay<wait lock"); Wait(60);}
+        if (lockDelay>=waitLock) {temppiecemoving=false; SendResponseString(9,"LD > WL"); Wait(60); lockDelay=0;}
+        else {SendResponseString(9,"LD < WL"); Wait(60);}
         }
       }
     prevWaited=INwaited;
@@ -637,21 +637,15 @@ void pieceCreate()
   }
 
 
-void pieceSetInto() ////////////////////////////////////////////////////////////////////// debug mode 4
+void pieceSetInto()
   {
   int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    tempLR=tet[currentPiece+currentRotate][i  ]+tetLR;  //height
-    tempUD=tet[currentPiece+currentRotate][i+4]+tetUD;  //width
-    SendResponseNumber(9,tempLR);
-    Wait(60);
-    SendResponseNumber(9,tempUD);
-    Wait(60);
-    SendResponseNumber(9,0);
-    Wait(100);
+    tempLR=tet[currentPiece+currentRotate][i  ]+tetLR;
+    tempUD=tet[currentPiece+currentRotate][i+4]+tetUD;
     area[tempLR][tempUD]=1;
-    }  //width   height
+    }
   }
   
   
@@ -934,12 +928,12 @@ task main()
       while (alive)
         {
         pieceCreate();
-        piecemoving=inputOutput(true,false,true,0);
+        //piecemoving=inputOutput(true,false,true,0);
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
-          Wait(10);//Wait(1000);
+          Wait(10);
           //debugStream(i);
           }
         delaytime*=speedup;
