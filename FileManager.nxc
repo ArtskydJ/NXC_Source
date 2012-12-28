@@ -1,8 +1,10 @@
 //File Manager
+//12-13-2012
 #include "+Button+-.nxc"
 #include "+HighScore.nxc"
 #include "+TextReader.nxc"
 #define filternumber  7
+
 const string filters[filternumber*2]=
   {"*.*","*.dat","*.rdt","*.rxe",     "*.ric","*.rso","*.txt",
   "All","Data","Datalog","Executable","Picture","Sound","Text"};
