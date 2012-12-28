@@ -27,10 +27,10 @@
 #define lft 1
 #define rht 2
 //Drop
-#define dropHard  1  //Normal
-#define dropSoft  2  //Normal
-#define dropWHard 3  //Wait
-#define dropWSoft 4  //Wait
+#define dropHard  1 //Normal
+#define dropSoft  2 //Normal
+#define dropWHard 3 //Wait
+#define dropWSoft 4 //Wait
 //Tetriminos
 #define Itet 0
 #define Jtet 1
