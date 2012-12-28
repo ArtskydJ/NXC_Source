@@ -12,63 +12,124 @@
 #define enemynum 03
 
 int score=0;
+bool alive=true;
 bool foodaround=true;
 int e[enemynum][2];
 int me[3];
 int go[2]={1,0};
-int board [w][h]=
-  {
-  {3,3,3,3,3,3,3,3,3,3,3,3}
-  {3,1,0,1,0,1,0,1,0,1,0,3}
-  {3,0,1,0,1,0,1,0,1,0,1,3}
-  {3,1,0,0,3,3,0,3,3,1,0,3}
-  {3,0,1,1,3,4,8,6,3,0,1,3}
-  {3,1,0,0,3,3,3,3,3,1,0,3}
-  {3,0,1,0,1,2,1,0,1,0,1,3}
-  {3,3,3,3,3,3,3,3,3,3,3,3}
-  };
-//0=empty, 1=food
-//2=me,    3=wall
-//4=e1,    5=e1&food
-//6=e2,    7=e2&food
-//8=e3,    9=e3&food
+int board[width][height]=
+  {                         //0=empty
+  {3,3,3,3,3,3,3,3,3,3,3,3} //1=food
+  {3,1,0,1,0,1,0,1,0,1,0,3} //2=me
+  {3,0,1,0,1,0,1,0,1,0,1,3} //3=wall
+  {3,1,0,0,3,3,0,3,3,1,0,3} //4=enemy1
+  {3,0,1,1,3,4,8,6,3,0,1,3} //5=enemy1+food
+  {3,1,0,0,3,3,3,3,3,1,0,3} //6=enemy2
+  {3,0,1,0,1,2,1,0,1,0,1,3} //7=enemy2+food
+  {3,3,3,3,3,3,3,3,3,3,3,3} //8=enemy3
+  };                        //9=enemy3+food
+  
 
-void input()
+void rescan()
   {
-  for (int j=0;j<h;j++)
+  int temp;
+  foodaround=false;
+  for (int j=0;j<height;j++)
     {
-    for (int i=0;i<w;i++)
+    for (int i=0;i<width;i++)
       {
-      if (board[j][i]==1) {foodaround=true;}
-      if (board[j][i]==2) {me[x]=i; me[y]=j;}
-      if (board[j][i]==4) {e[1][x]=i; e[1][y]=j;}
-      if (board[j][i]==5) {e[1][x]=i; e[1][y]=j;}
-      if (board[j][i]==6) {e[2][x]=i; e[2][y]=j;}
-      if (board[j][i]==7) {e[2][x]=i; e[2][y]=j;}
+      temp=board[j][i];
+      if (temp==1) {foodaround=true;}
+      if (temp==2) {me[x]=i; me[y]=j;}
+      if (temp>=4)
+        {
+        temp=((temp-4)-(temp%2))/2;
+        e[temp][x]=i;
+        e[temp][y]=j;
+        }
       }
     }
+  }
+
+void buttons()
+  {
   go[x]=0;
   go[y]=0;
-  if (ButtonPressed(BTNLEFT))   go[x]=-1;  //check sensors
+  if (ButtonPressed(BTNLEFT))   go[x]=-1;
   if (ButtonPressed(BTNRIGHT))  go[x]= 1;
   if (ButtonPressed(BTNCENTER)) go[y]= 1;
   if (ButtonPressed(BTNEXIT))   go[y]=-1;
   }
-  
+
+
+void step()
+  {
+  //me[x]+=go[x];
+  //me[y]+=go[y];
+
+  for (int i=0; i<enemynum; i++) //move enemies, if can, and check if on me
+    {
+    bool inloop=true;
+    for (int j=0; j<8 && inloop; j++)
+      {
+      e[d][i]=Random(4);
+      if      (e[d][i]==right)
+        {
+        if (e[x][i]==me[x] && e[y][i]==me[y]) {}
+        
+        }
+      else if (e[d][i]==up)    {}
+      else if (e[d][i]==left)  {}
+      else if (e[d][i]==down)  {}
+      }
+    }
+  }
+
   
 void drawBoard()
   {
-  for (int j=0;j<h;j++)
+  for (int j=0;j<height;j++)
     {
-    for (int i=0;i<w;i++)
+    for (int i=0;i<width;i++)
       {
       if (board[j][i]%2)  { PointOut(i*bsz+bsz/2, j*bsz+bsz/2,          0);}  //food
       if (board[j][i]==2) {CircleOut(i*bsz+bsz/2, j*bsz+bsz/2, bsz,     0);}  //me
       if (board[j][i]==3) {  RectOut(i*bsz,       j*bsz, bsz,  bsz,    32);}  //wall
-      if (board[j][i]>=4) {CircleOut(i*bsz+bsz/2, j*bsz+bsz/2, bsz/2-1, 0);}  //enemy
+      if (board[j][i]>=4) {CircleOut(i*bsz+bsz/2, j*bsz+bsz/2, bsz/2-1,32);}  //enemy
       }
     }
   }
+  
+
+    
+task main()
+  {
+  for (score=0; foodaround && alive; score++)
+    {//RectOut(0,0,99,63,DRAW_OPT_NORMAL);     //Outline
+    rescan();
+    buttons();
+    int tempX=me[x]+go[x];
+    int tempY=me[y]+go[y];
+    int tempZ=board[tempX][tempY];
+    if (tempZ<2)
+      {
+      board[me[x]][me[y]]=0;
+      board[tempX][tempY]=2;
+      me[x]=tempX;
+      me[y]=tempY;
+      score+=tempZ;
+      }
+    else
+      {
+      if (tempZ>2) alive=false;
+      }
+    step();
+    drawBoard();
+    }
+  TextOut(0,LCD_LINE1,"Game Over",0);
+  TextOut(0,LCD_LINE2,"Score="+NumToStr(score),0);
+  }
+  
   
 /*
 //UNENHANCED FIRMWARE
@@ -77,42 +138,3 @@ if (abs(go[y])==1) {go[y]*=-1;} //toggle up/down
 else {go[x]=1; go[y]=0;}
 }
 */
-    
-task main()
-  {
-  for (score=0; alive==true; score++)
-    {
-    //RectOut(0,0,99,63,DRAW_OPT_NORMAL);     //Outline
-    input();
-
-    //scan board
-    alive=false;
-
-    //define temporary variables
-    a=me[x]+go[x];
-    b=me[y]+go[y];
-    bab=board[b][a];
-    if ((e[0][x]!=a)&&(e[0][y]!=b)&&(e[1][x]!=a)&&(e[1][y]!=b))
-      {
-      if (bab<2)
-        {me[x]=a; me[y]=b; score+=bab;}
-      else
-        {
-        if (bab>2)
-          {
-          foodaround=false;
-          }
-        }
-      }
-    else {alive=false;}
-    e[d][1]=Random(4);                        //move enemy, if can, check if on me
-    if (e[d][1]==right)     {}
-    else if (e[d][1]==up)   {}
-    else if (e[d][1]==left) {}
-    else if (e[d][1]==down) {}
-    else {}//PlayTone(4000,10000);} ///////////////////////////////////////////////////
-    drawBoard();
-    }
-  TextOut(0,LCD_LINE1,"Game Over",0);
-  TextOut(0,LCD_LINE2,"Score="+NumToStr(score),0);
-  }
