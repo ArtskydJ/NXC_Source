@@ -82,7 +82,7 @@ string setFilter(string previouspattern)
       }
     RectOut(0,56-k*8,99,7,0);
     LineOut(0,8,100,8,0);
-    Wait(50);
+    Wait(100);
     k=senseButton(k,0,1,filternumber-1,0);
     }
   if (ButtonPressed(BTNLEFT)) returnme=previouspattern;
