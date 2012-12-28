@@ -13,12 +13,12 @@
 #define TX      35
 #define SX      94
 #define SY      61
-#define defaultmode     1
+#define defaultmode     4
 #define previewPieces   3
 //Timing (all *10)
 #define waitGravity     5
 #define waitSlowMove    3
-#define waitFastMove    1
+#define waitFastMove    0
 #define waitRotateAgain 3
 #define waitHardDrop    3
 #define waitLock        5
@@ -327,9 +327,9 @@ bool move(int INdir)
     {
     tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
     tempUD=tet[currentPiece+currentRotate][i+4]+tetUD+addUD;
-    if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height))
+    if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
       {canMove+=(area[tempLR][tempUD]); PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
-    else canMove++;
+    else canMove++; //buggy, move to one side and then cant move other way...
     if (tetUD<1&&INdir==dwn) {canMove=3;}// PlayTone(3000,500);}
     }
   //NumOut(0,16,canMove,0);
@@ -642,15 +642,15 @@ void pieceSetInto() ////////////////////////////////////////////////////////////
   int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    tempLR=tet[currentPiece+currentRotate][i  ]+tetUD;  //height
-    tempUD=tet[currentPiece+currentRotate][i+4]+tetLR;  //width
+    tempLR=tet[currentPiece+currentRotate][i  ]+tetLR;  //height
+    tempUD=tet[currentPiece+currentRotate][i+4]+tetUD;  //width
     SendResponseNumber(9,tempLR);
     Wait(60);
     SendResponseNumber(9,tempUD);
     Wait(60);
     SendResponseNumber(9,0);
     Wait(100);
-    area[tempUD][tempLR]=1;
+    area[tempLR][tempUD]=1;
     }  //width   height
   }
   
