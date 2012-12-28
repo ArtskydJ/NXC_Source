@@ -349,7 +349,7 @@ int rotate(bool INdwn)
         {
         tempLR=tet[currentPiece+currentRotate+addRot][i  ]+tetLR+addLR;
         tempUD=tet[currentPiece+currentRotate+addRot][i+4]+tetUD+addUD;
-        if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height)&&(tetUD>0))
+        if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height+2)&&(tetUD>0))
           {canRotate+=(area[tempLR][tempUD]);}
         else canRotate++;
         }
@@ -472,7 +472,6 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
-    //TextOut(25,48,"CDE RNIG",0);
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
       refresh=true;
@@ -968,7 +967,7 @@ Process Order:
 Hold piece              NEVER
 Firm Drop               NEVER
 
-Soft Drop               DONE
+Soft Drop               BUGGY
 Hard Drop               DONE
 Clockwise Rotation      DONE
 Right Side Bias         DONE
