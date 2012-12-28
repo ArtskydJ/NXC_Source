@@ -927,30 +927,23 @@ task main()
     playagain=true;
     while (playagain)
       {
-      TextOut(25,48," PLAY AGAIN ",0);
       selectGame(mode);
       alive=true;
       while (alive)
         {
-        TextOut(25,48,"   ALIVE    ",0);
         pieceCreate();
         piecemoving=inputOutput(true,false,true,0);
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
-          TextOut(25,48,"PIECE MOVING",0);
           piecemoving=inputOutput(true,true,true,i);
           Wait(10);//Wait(1000);
-          TextOut(25,48,"DEBUG STREAM",0);
-          debugStream(i);
+          //debugStream(i);
           }
         delaytime*=speedup;
-        TextOut(25,48,"PIECE SET IN",0);
         pieceSetInto();
-        TextOut(25,48,"CLR FUL ROWS",0);
         clearFullRows();
         }
-      TextOut(25,48," GAME END   ",0);
       gameEnd();
       }
     }
