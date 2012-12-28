@@ -316,7 +316,7 @@ bool move(int INdir)
     tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
     tempUD=tet[currentPiece+currentRotate][i+4]+tetUD+addUD;
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
-      {canMove+=(area[tempLR][tempUD]); PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
+      {canMove+=(area[tempLR][tempUD]);} //PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
     else canMove++;
     if (tetUD<1&&INdir==dwn) {canMove=3;}// PlayTone(3000,500);}
     }
@@ -380,7 +380,7 @@ void displayTetromino(int INtet,int INrot, int INlr, int INud, int INdrawMode)
     //Wait(500);
     if      (INdrawMode==0) RectOut(tempUD,tempLR,blksz,blksz,32);
     else if (INdrawMode==1) RectOut(tempUD,tempLR,blksz,blksz,0);
-    else if (INdrawMode==2) CircleOut(tempUD+blksz/2,tempLR+blksz/2,blksz/2,0);////change slightly so it looks different
+    else if (INdrawMode==2) CircleOut(tempUD+blksz/2,tempLR+blksz/2,blksz/2-1,0);//change so it looks different
     }
   }
 
@@ -593,8 +593,8 @@ void initArrays()
 
 bool pieceCreate()
   {
-  tetLR=width-4; //tetLR=width/2;
-  tetUD=height/2;//tetUD=height+2;
+  tetLR=width/2-2;
+  tetUD=height+2;
   currentRotate=0;
   int pieceToCreate=prob;
   int rndm=Random(chnc[prob]);
@@ -676,8 +676,9 @@ int clearFullRows()
   }
 
   
-void gameEnd()
+bool gameEnd()
   {
+  bool tempplayagain=false;
   TextOut(0,0,"GamOvr!",4096);
   PlayTone(1500,1000);
   Wait(1000);
@@ -691,6 +692,7 @@ void gameEnd()
   //TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);  //append code
   show=readHighName(accesshigh);
   TextOut(0,LCD_LINE8,StrCat("N:",show),0);
+  return tempplayagain;
   }
 
 // BEGIN  _    __   __          __
@@ -901,10 +903,10 @@ task main()
     selectGame(1);
     bool playagain;
     bool piecemoving;
-    initArrays();
     playagain=true;
     while (playagain)
       {
+      initArrays();
       selectGame(mode);
       alive=true;
       while (alive)
@@ -921,7 +923,7 @@ task main()
         pieceSetInto();
         clearFullRows();
         }
-      gameEnd();
+      playagain=gameEnd();
       }
     }
   else
