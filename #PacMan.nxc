@@ -64,9 +64,6 @@ void buttons()
 
 void step()
   {
-  //me[x]+=go[x];
-  //me[y]+=go[y];
-
   for (int i=0; i<enemynum; i++) //move enemies, if can, and check if on me
     {
     bool inloop=true;
@@ -105,24 +102,21 @@ void drawBoard()
 task main()
   {
   for (score=0; foodaround && alive; score++)
-    {//RectOut(0,0,99,63,DRAW_OPT_NORMAL);     //Outline
+    {
     rescan();
     buttons();
-    int tempX=me[x]+go[x];
-    int tempY=me[y]+go[y];
-    int tempZ=board[tempX][tempY];
-    if (tempZ<2)
+    int moveX=me[x]+go[x];
+    int moveY=me[y]+go[y];
+    int moveOnto=board[moveX][moveY];
+    if (moveOnto<2)
       {
       board[me[x]][me[y]]=0;
-      board[tempX][tempY]=2;
-      me[x]=tempX;
-      me[y]=tempY;
-      score+=tempZ;
+      board[moveX][moveY]=2;
+      me[x]=moveX;
+      me[y]=moveY;
+      score+=moveOnto;
       }
-    else
-      {
-      if (tempZ>2) alive=false;
-      }
+    else if (moveOnto>2) alive=false;
     step();
     drawBoard();
     }
