@@ -326,7 +326,7 @@ bool move(int INdir)
   }                    //canMove out: 1000
 
 
-int rotate(bool INdwn)
+int rotate(bool INdwn)  ////////////////////////////////////////////////when it cant rotate, why does it freeze???
   {
   int canRotate=0, addRot=0, tempLR, tempUD, addUD, addLR;
   bool stayInLoop=true;
@@ -334,11 +334,9 @@ int rotate(bool INdwn)
   else                  addRot=1;
   for (int i=0; (i<3 && stayInLoop); addUD++)
     {
-    //TextOut(25,48,"rotate()",0);
     if (i==0) addUD= 0;  //1st  Level
     if (i==1) addUD=-1;  //2nd  Down
     if (i==2) addUD= 1;  //3rd  Up
-    addLR=0;
     for (int j=0; (j<3 && stayInLoop); j++)
       {
       if (j==0) addLR= 0;  //1st  Center
