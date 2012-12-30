@@ -2,7 +2,7 @@
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__unsigned_stack_001AI	5	1	0	4	2
 1	__signed_stack_001CheckWin	6	1	4	4	114
-2	__D0SoundEnd	6	1	8	4	51
+2	__D0SoundEnd	6	1	8	4	54
 3	__signed_stack_001AI	6	1	12	4	300
 4	__unsigned_stack_001CheckWin	5	1	16	4	4
 5	__signed_stack_001GameOver	6	1	20	4	22
@@ -19,11 +19,11 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 16	__D0Redraw	6	1	64	4	196
 17	__DU0main	5	1	68	4	2
 18	__D0P	6	1	72	4	96
-19	__signed_stack_002SoundEnd	6	1	76	4	26
-20	__signed_stack_003SoundEnd	6	1	80	4	26
+19	__signed_stack_002SoundEnd	6	1	76	4	28
+20	__signed_stack_003SoundEnd	6	1	80	4	28
 21	__unsigned_stack_001Redraw	5	1	84	4	4
-22	__signed_stack_001SoundEnd	6	1	88	4	32
-23	__Wait_7qG2_ms_7qG2_000_inline_SoundEnd	5	1	92	4	26
+22	__signed_stack_001SoundEnd	6	1	88	4	34
+23	__Wait_7qG2_ms_7qG2_000_inline_SoundEnd	5	1	92	4	28
 24	__constVal65536	6	0	96	4	1
 25	__Wait_7qG2_ms_7qG2_000_inline_GameOver	5	1	100	4	2
 26	__Wait_7qG2_ms_7qG2_000_inline_CheckWin	5	1	104	4	2
@@ -43,7 +43,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 40	__RandomTmp	5	1	160	4	7
 41	__PointOutMutex	9	0	164	4	6
 42	__TextOutMutex	9	0	168	4	24
-43	__SPTArgsMutex	9	0	172	4	26
+43	__SPTArgsMutex	9	0	172	4	28
 44	__constVal32768	6	0	176	4	1
 45	__D0AI	6	1	180	4	317
 46	select	4	1	184	2	11
@@ -127,12 +127,12 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 124	__CircleOutArgs.Center.Y	4	1	306	2	12
 125	__CircleOutArgs.Size	1	1	308	1	12
 126	__CircleOutArgs.Options	5	1	312	4	12
-127	__SPTArgs	8	0	5	8	78
-128	__SPTArgs.Result	2	1	316	1	78
-129	__SPTArgs.Frequency	3	1	318	2	78
-130	__SPTArgs.Duration	3	1	320	2	78
-131	__SPTArgs.Loop	1	1	322	1	78
-132	__SPTArgs.Volume	1	1	323	1	78
+127	__SPTArgs	8	0	5	8	84
+128	__SPTArgs.Result	2	1	316	1	84
+129	__SPTArgs.Frequency	3	1	318	2	84
+130	__SPTArgs.Duration	3	1	320	2	84
+131	__SPTArgs.Loop	1	1	322	1	84
+132	__SPTArgs.Volume	1	1	323	1	84
 133	__RandomArgs	8	0	1	4	2
 134	__RandomArgs.Result	4	1	324	2	2
 135	__constStr0023	7	0	326	4	1
@@ -247,13 +247,13 @@ Clump	Line	PC	Source
 0	192	10	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	193	10		tst 5, __D0main, __D0main
 0	192	13	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	193	13		brtst 4, __ASM_Label_1904, __D0main
+0	193	13		brtst 4, __ASM_Label_1914, __D0main
 0	192	16	#line 192 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	193	16		jmp __ASM_Label_1905
+0	193	16		jmp __ASM_Label_1915
 0	193	18	#line 193 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	194	18		add __main_7qG2_alt_7qG2_001, __main_7qG2_alt_7qG2_001, __constVal1
 0	194	22	#line 194 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	195	22		jmp __ASM_Label_1903
+0	195	22		jmp __ASM_Label_1913
 0	194	24	#line 194 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	195	24		set gameover, 0
 0	194	27	#line 194 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -276,13 +276,13 @@ Clump	Line	PC	Source
 0	195	38	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	196	38		cmp 0, __D0main, __signed_stack_001main, __D0main
 0	195	42	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	196	42		brtst 4, __ASM_Label_1918, __D0main
+0	196	42		brtst 4, __ASM_Label_1928, __D0main
 0	195	45	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	196	45		jmp __ASM_Label_1919
+0	196	45		jmp __ASM_Label_1929
 0	195	47	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	196	47		add i, i, __constVal1
 0	195	51	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	196	51		jmp __ASM_Label_1917
+0	196	51		jmp __ASM_Label_1927
 0	195	53	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	196	53		mov __signed_stack_001main, i
 0	195	55	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -292,7 +292,7 @@ Clump	Line	PC	Source
 0	196	58		replace board, board, __signed_stack_001main, __D0main
 0	195	63	#line 195 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	196	63	#line 196 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	197	63		jmp __ASM_Label_1920
+0	197	63		jmp __ASM_Label_1930
 0	196	65	#line 196 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	196	65	#line 196 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	197	65		mov __unsigned_stack_001main, gameover
@@ -302,13 +302,13 @@ Clump	Line	PC	Source
 0	197	70	#line 197 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	198	70		cmp 4, __D0main, __unsigned_stack_001main, __D0main
 0	198	74	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	199	74		brtst 4, __ASM_Label_1930, __D0main
+0	199	74		brtst 4, __ASM_Label_1940, __D0main
 0	198	77	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	77		mov __DU0main, p2ai
 0	198	79	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	79		tst 5, __D0main, __DU0main
 0	198	82	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	199	82		brtst 4, __ASM_Label_1935, __D0main
+0	199	82		brtst 4, __ASM_Label_1945, __D0main
 0	198	85	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	85		mov __signed_stack_001main, __main_7qG2_alt_7qG2_001
 0	198	87	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -319,7 +319,7 @@ Clump	Line	PC	Source
 0	198	94	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	94		tst 5, __D0main, __D0main
 0	198	97	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	199	97		brtst 4, __ASM_Label_1938, __D0main
+0	199	97		brtst 4, __ASM_Label_1948, __D0main
 0	198	100	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	100		subcall AI, __AI_return
 0	198	102	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -330,7 +330,7 @@ Clump	Line	PC	Source
 0	199	105		subcall P, __P_return
 0	198	107	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	198	107	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	199	107		jmp __ASM_Label_1941
+0	199	107		jmp __ASM_Label_1951
 0	198	109	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	109		set __P_7qG2_plyr_7qG2_000, 0
 0	198	112	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -342,7 +342,7 @@ Clump	Line	PC	Source
 0	198	116	#line 198 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	116	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	199	116	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	200	116		jmp __ASM_Label_1944
+0	200	116		jmp __ASM_Label_1954
 0	199	118	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	200	118		mov __signed_stack_001main, __main_7qG2_alt_7qG2_001
 0	199	120	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -372,13 +372,13 @@ Clump	Line	PC	Source
 0	199	147	#line 199 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	201	147	#line 201 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	201	147	#line 201 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	202	147		jmp __ASM_Label_1929
+0	202	147		jmp __ASM_Label_1939
 0	201	149	#line 201 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	201	149	#line 201 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	202	149		subcall GameOver, __GameOver_return
 0	201	151	#line 201 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	235	151	#line 235 "C:\Github\NXC_Source\TicTacToe.nxc"
-0	236	151		jmp __ASM_Label_1906
+0	236	151		jmp __ASM_Label_1916
 0	235	153	#line 235 "C:\Github\NXC_Source\TicTacToe.nxc"
 0	236	153		exit -1, -1
 1	7	0	#line 7 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
@@ -391,7 +391,7 @@ Clump	Line	PC	Source
 1	9	9	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	10	9		brtst 4, __ASM_Label_606, __D0SoundEnd
 1	9	12	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	10	12		set __signed_stack_001SoundEnd, 500
+1	10	12		set __signed_stack_001SoundEnd, 1000
 1	9	15	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	9	15	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	10	15		set __signed_stack_002SoundEnd, 200
@@ -426,7 +426,7 @@ Clump	Line	PC	Source
 1	8771	45	#line 8771 "NXCDefs.h"
 1	9	45	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	10	45	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	11	45		set __signed_stack_001SoundEnd, 1500
+1	11	45		set __signed_stack_001SoundEnd, 1300
 1	10	48	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	10	48	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	11	48		set __signed_stack_002SoundEnd, 200
@@ -461,10 +461,10 @@ Clump	Line	PC	Source
 1	8771	78	#line 8771 "NXCDefs.h"
 1	10	78	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	11	78	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	12	78		set __signed_stack_001SoundEnd, 2500
+1	12	78		set __signed_stack_001SoundEnd, 1600
 1	11	81	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	11	81	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	12	81		set __signed_stack_002SoundEnd, 200
+1	12	81		set __signed_stack_002SoundEnd, 250
 1	11	84	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	11	84	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	12	84		set __signed_stack_003SoundEnd, 4
@@ -489,17 +489,17 @@ Clump	Line	PC	Source
 1	12	105		release __SPTArgsMutex
 1	11	106	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	11	106	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	12	106		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
+1	12	106		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
 1	11	109	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	109	#line 8771 "NXCDefs.h"
 1	8772	109		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	111	#line 8771 "NXCDefs.h"
 1	11	111	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	12	111	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	13	111		set __signed_stack_001SoundEnd, 3500
+1	13	111		set __signed_stack_001SoundEnd, 1900
 1	12	114	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	12	114	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	13	114		set __signed_stack_002SoundEnd, 200
+1	13	114		set __signed_stack_002SoundEnd, 400
 1	12	117	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	12	117	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	13	117		set __signed_stack_003SoundEnd, 4
@@ -524,17 +524,17 @@ Clump	Line	PC	Source
 1	13	138		release __SPTArgsMutex
 1	12	139	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	12	139	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	13	139		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
+1	13	139		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
 1	12	142	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	142	#line 8771 "NXCDefs.h"
 1	8772	142		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	144	#line 8771 "NXCDefs.h"
 1	12	144	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	13	144	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	14	144		set __signed_stack_001SoundEnd, 2500
+1	14	144		set __signed_stack_001SoundEnd, 1600
 1	13	147	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	13	147	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	14	147		set __signed_stack_002SoundEnd, 200
+1	14	147		set __signed_stack_002SoundEnd, 250
 1	13	150	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	13	150	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	14	150		set __signed_stack_003SoundEnd, 4
@@ -559,17 +559,17 @@ Clump	Line	PC	Source
 1	14	171		release __SPTArgsMutex
 1	13	172	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	13	172	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	14	172		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
+1	14	172		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
 1	13	175	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	175	#line 8771 "NXCDefs.h"
 1	8772	175		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	177	#line 8771 "NXCDefs.h"
 1	13	177	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	14	177	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	15	177		set __signed_stack_001SoundEnd, 3500
+1	15	177		set __signed_stack_001SoundEnd, 1900
 1	14	180	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	14	180	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	15	180		set __signed_stack_002SoundEnd, 200
+1	15	180		set __signed_stack_002SoundEnd, 500
 1	14	183	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	14	183	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	15	183		set __signed_stack_003SoundEnd, 4
@@ -594,7 +594,7 @@ Clump	Line	PC	Source
 1	15	204		release __SPTArgsMutex
 1	14	205	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	14	205	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	15	205		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
+1	15	205		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 500
 1	14	208	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	208	#line 8771 "NXCDefs.h"
 1	8772	208		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
@@ -612,10 +612,10 @@ Clump	Line	PC	Source
 1	18	221	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	19	221		brtst 4, __ASM_Label_670, __D0SoundEnd
 1	18	224	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	19	224		set __signed_stack_001SoundEnd, 500
+1	19	224		set __signed_stack_001SoundEnd, 1400
 1	18	227	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	18	227	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	19	227		set __signed_stack_002SoundEnd, 200
+1	19	227		set __signed_stack_002SoundEnd, 300
 1	18	230	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	18	230	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	19	230		set __signed_stack_003SoundEnd, 4
@@ -640,17 +640,17 @@ Clump	Line	PC	Source
 1	19	251		release __SPTArgsMutex
 1	18	252	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	18	252	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	19	252		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+1	19	252		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
 1	18	255	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	255	#line 8771 "NXCDefs.h"
 1	8772	255		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	257	#line 8771 "NXCDefs.h"
 1	18	257	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	19	257	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	20	257		set __signed_stack_001SoundEnd, 1500
+1	20	257		set __signed_stack_001SoundEnd, 1400
 1	19	260	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	19	260	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	20	260		set __signed_stack_002SoundEnd, 200
+1	20	260		set __signed_stack_002SoundEnd, 300
 1	19	263	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	19	263	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	20	263		set __signed_stack_003SoundEnd, 4
@@ -675,17 +675,17 @@ Clump	Line	PC	Source
 1	20	284		release __SPTArgsMutex
 1	19	285	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	19	285	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	20	285		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+1	20	285		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
 1	19	288	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	288	#line 8771 "NXCDefs.h"
 1	8772	288		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	290	#line 8771 "NXCDefs.h"
 1	19	290	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	20	290	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	21	290		set __signed_stack_001SoundEnd, 500
+1	21	290		set __signed_stack_001SoundEnd, 1400
 1	20	293	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	20	293	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	21	293		set __signed_stack_002SoundEnd, 200
+1	21	293		set __signed_stack_002SoundEnd, 300
 1	20	296	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	20	296	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	21	296		set __signed_stack_003SoundEnd, 4
@@ -710,17 +710,17 @@ Clump	Line	PC	Source
 1	21	317		release __SPTArgsMutex
 1	20	318	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	20	318	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	21	318		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+1	21	318		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
 1	20	321	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	321	#line 8771 "NXCDefs.h"
 1	8772	321		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	323	#line 8771 "NXCDefs.h"
 1	20	323	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	21	323	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	22	323		set __signed_stack_001SoundEnd, 1500
+1	22	323		set __signed_stack_001SoundEnd, 1250
 1	21	326	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	21	326	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	22	326		set __signed_stack_002SoundEnd, 200
+1	22	326		set __signed_stack_002SoundEnd, 250
 1	21	329	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	21	329	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	22	329		set __signed_stack_003SoundEnd, 4
@@ -751,57 +751,57 @@ Clump	Line	PC	Source
 1	8772	354		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	356	#line 8771 "NXCDefs.h"
 1	21	356	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	23	356	#line 23 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	24	356		jmp __ASM_Label_711
-1	23	358	#line 23 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	24	358		mov __signed_stack_001SoundEnd, __SoundEnd_7qG2_whatSound_7qG2_000
-1	23	360	#line 23 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	24	360	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	25	360		set __D0SoundEnd, 2
-1	24	363	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	25	363		cmp 4, __D0SoundEnd, __signed_stack_001SoundEnd, __D0SoundEnd
-1	25	367	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	367		brtst 4, __ASM_Label_714, __D0SoundEnd
-1	25	370	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	370		set __signed_stack_001SoundEnd, 2500
-1	25	373	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	25	373	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	373		set __signed_stack_002SoundEnd, 300
-1	25	376	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	25	376	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	376		set __signed_stack_003SoundEnd, 4
-1	25	379	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	25	379	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	379		set __D0SoundEnd, 0
-1	25	382	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	382		acquire __SPTArgsMutex
-1	25	383	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	383		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-1	25	385	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	385		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-1	25	387	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	387		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-1	25	389	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	389		mov __SPTArgs.Loop, __D0SoundEnd
-1	25	392	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	392		syscall 10, __SPTArgs
-1	25	395	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	395		mov __D0SoundEnd, __SPTArgs.Result
-1	25	397	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	397		release __SPTArgsMutex
-1	25	398	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	25	398	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	26	398		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 300
-1	25	401	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	8771	401	#line 8771 "NXCDefs.h"
-1	8772	401		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-1	8771	403	#line 8771 "NXCDefs.h"
-1	25	403	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	22	356	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	356		set __signed_stack_001SoundEnd, 1400
+1	22	359	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	22	359	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	359		set __signed_stack_002SoundEnd, 400
+1	22	362	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	22	362	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	362		set __signed_stack_003SoundEnd, 4
+1	22	365	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	22	365	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	365		set __D0SoundEnd, 0
+1	22	368	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	368		acquire __SPTArgsMutex
+1	22	369	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	369		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+1	22	371	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	371		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+1	22	373	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	373		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+1	22	375	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	375		mov __SPTArgs.Loop, __D0SoundEnd
+1	22	378	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	378		syscall 10, __SPTArgs
+1	22	381	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	381		mov __D0SoundEnd, __SPTArgs.Result
+1	22	383	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	383		release __SPTArgsMutex
+1	22	384	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	22	384	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	23	384		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+1	22	387	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	8771	387	#line 8771 "NXCDefs.h"
+1	8772	387		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+1	8771	389	#line 8771 "NXCDefs.h"
+1	22	389	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	24	389	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	25	389		jmp __ASM_Label_721
+1	24	391	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	25	391		mov __signed_stack_001SoundEnd, __SoundEnd_7qG2_whatSound_7qG2_000
+1	24	393	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	25	393	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	26	393		set __D0SoundEnd, 2
+1	25	396	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	26	396		cmp 4, __D0SoundEnd, __signed_stack_001SoundEnd, __D0SoundEnd
+1	26	400	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	27	400		brtst 4, __ASM_Label_724, __D0SoundEnd
 1	26	403	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	27	403		set __signed_stack_001SoundEnd, 2300
+1	27	403		set __signed_stack_001SoundEnd, 2500
 1	26	406	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	26	406	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	27	406		set __signed_stack_002SoundEnd, 450
+1	27	406		set __signed_stack_002SoundEnd, 400
 1	26	409	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	26	409	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	27	409		set __signed_stack_003SoundEnd, 4
@@ -826,17 +826,17 @@ Clump	Line	PC	Source
 1	27	430		release __SPTArgsMutex
 1	26	431	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	26	431	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	27	431		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 450
+1	27	431		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
 1	26	434	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	434	#line 8771 "NXCDefs.h"
 1	8772	434		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	436	#line 8771 "NXCDefs.h"
 1	26	436	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	27	436	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	28	436		set __signed_stack_001SoundEnd, 2100
+1	28	436		set __signed_stack_001SoundEnd, 2400
 1	27	439	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	27	439	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	28	439		set __signed_stack_002SoundEnd, 800
+1	28	439		set __signed_stack_002SoundEnd, 600
 1	27	442	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	27	442	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	28	442		set __signed_stack_003SoundEnd, 4
@@ -861,17 +861,52 @@ Clump	Line	PC	Source
 1	28	463		release __SPTArgsMutex
 1	27	464	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	27	464	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	28	464		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 800
+1	28	464		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 600
 1	27	467	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 1	8771	467	#line 8771 "NXCDefs.h"
 1	8772	467		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
 1	8771	469	#line 8771 "NXCDefs.h"
 1	27	469	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	45	469	#line 45 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	45	469	#line 45 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	45	469	#line 45 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	45	469	#line 45 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-1	46	469		subret __SoundEnd_return
+1	28	469	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	469		set __signed_stack_001SoundEnd, 2300
+1	28	472	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	28	472	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	472		set __signed_stack_002SoundEnd, 1000
+1	28	475	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	28	475	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	475		set __signed_stack_003SoundEnd, 4
+1	28	478	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	28	478	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	478		set __D0SoundEnd, 0
+1	28	481	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	481		acquire __SPTArgsMutex
+1	28	482	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	482		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+1	28	484	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	484		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+1	28	486	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	486		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+1	28	488	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	488		mov __SPTArgs.Loop, __D0SoundEnd
+1	28	491	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	491		syscall 10, __SPTArgs
+1	28	494	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	494		mov __D0SoundEnd, __SPTArgs.Result
+1	28	496	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	496		release __SPTArgsMutex
+1	28	497	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	28	497	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	29	497		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 1000
+1	28	500	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	8771	500	#line 8771 "NXCDefs.h"
+1	8772	500		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+1	8771	502	#line 8771 "NXCDefs.h"
+1	28	502	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	62	502	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	62	502	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	62	502	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	62	502	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+1	63	502		subret __SoundEnd_return
 2	15	0	#line 15 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	16	0		set winner, 0
 2	15	3	#line 15 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -887,13 +922,13 @@ Clump	Line	PC	Source
 2	16	11	#line 16 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	17	11		cmp 0, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	16	15	#line 16 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	17	15		brtst 4, __ASM_Label_748, __D0CheckWin
+2	17	15		brtst 4, __ASM_Label_758, __D0CheckWin
 2	16	18	#line 16 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	17	18		jmp __ASM_Label_749
+2	17	18		jmp __ASM_Label_759
 2	17	20	#line 17 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	18	20		add __CheckWin_7qG2_i_7qG2_001, __CheckWin_7qG2_i_7qG2_001, __constVal1
 2	18	24	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	19	24		jmp __ASM_Label_747
+2	19	24		jmp __ASM_Label_757
 2	18	26	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	19	26		set __signed_stack_001CheckWin, 0
 2	18	29	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -906,7 +941,7 @@ Clump	Line	PC	Source
 2	18	35	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	19	35		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	18	39	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	19	39		brtst 4, __ASM_Label_758, __D0CheckWin
+2	19	39		brtst 4, __ASM_Label_768, __D0CheckWin
 2	18	42	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	19	42		set __signed_stack_001CheckWin, 1
 2	18	45	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -919,7 +954,7 @@ Clump	Line	PC	Source
 2	18	51	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	19	51		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	18	55	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	19	55		brtst 4, __ASM_Label_758, __D0CheckWin
+2	19	55		brtst 4, __ASM_Label_768, __D0CheckWin
 2	18	58	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	19	58		set __signed_stack_001CheckWin, 2
 2	18	61	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -932,7 +967,7 @@ Clump	Line	PC	Source
 2	18	67	#line 18 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	19	67		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	19	71	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	20	71		brtst 5, __ASM_Label_755, __D0CheckWin
+2	20	71		brtst 5, __ASM_Label_765, __D0CheckWin
 2	19	74	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	20	74		set __signed_stack_001CheckWin, 3
 2	19	77	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -945,7 +980,7 @@ Clump	Line	PC	Source
 2	19	83	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	20	83		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	19	87	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	20	87		brtst 4, __ASM_Label_773, __D0CheckWin
+2	20	87		brtst 4, __ASM_Label_783, __D0CheckWin
 2	19	90	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	20	90		set __signed_stack_001CheckWin, 4
 2	19	93	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -958,7 +993,7 @@ Clump	Line	PC	Source
 2	19	99	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	20	99		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	19	103	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	20	103		brtst 4, __ASM_Label_773, __D0CheckWin
+2	20	103		brtst 4, __ASM_Label_783, __D0CheckWin
 2	19	106	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	20	106		set __signed_stack_001CheckWin, 5
 2	19	109	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -971,7 +1006,7 @@ Clump	Line	PC	Source
 2	19	115	#line 19 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	20	115		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	20	119	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	21	119		brtst 5, __ASM_Label_755, __D0CheckWin
+2	21	119		brtst 5, __ASM_Label_765, __D0CheckWin
 2	20	122	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	21	122		set __signed_stack_001CheckWin, 6
 2	20	125	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -984,7 +1019,7 @@ Clump	Line	PC	Source
 2	20	131	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	21	131		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	20	135	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	21	135		brtst 4, __ASM_Label_788, __D0CheckWin
+2	21	135		brtst 4, __ASM_Label_798, __D0CheckWin
 2	20	138	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	21	138		set __signed_stack_001CheckWin, 7
 2	20	141	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -997,7 +1032,7 @@ Clump	Line	PC	Source
 2	20	147	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	21	147		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	20	151	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	21	151		brtst 4, __ASM_Label_788, __D0CheckWin
+2	21	151		brtst 4, __ASM_Label_798, __D0CheckWin
 2	20	154	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	21	154		set __signed_stack_001CheckWin, 8
 2	20	157	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1010,7 +1045,7 @@ Clump	Line	PC	Source
 2	20	163	#line 20 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	21	163		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	21	167	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	22	167		brtst 5, __ASM_Label_755, __D0CheckWin
+2	22	167		brtst 5, __ASM_Label_765, __D0CheckWin
 2	21	170	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	22	170		set __signed_stack_001CheckWin, 0
 2	21	173	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1023,7 +1058,7 @@ Clump	Line	PC	Source
 2	21	179	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	22	179		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	21	183	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	22	183		brtst 4, __ASM_Label_803, __D0CheckWin
+2	22	183		brtst 4, __ASM_Label_813, __D0CheckWin
 2	21	186	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	22	186		set __signed_stack_001CheckWin, 3
 2	21	189	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1036,7 +1071,7 @@ Clump	Line	PC	Source
 2	21	195	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	22	195		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	21	199	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	22	199		brtst 4, __ASM_Label_803, __D0CheckWin
+2	22	199		brtst 4, __ASM_Label_813, __D0CheckWin
 2	21	202	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	22	202		set __signed_stack_001CheckWin, 6
 2	21	205	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1049,7 +1084,7 @@ Clump	Line	PC	Source
 2	21	211	#line 21 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	22	211		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	22	215	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	23	215		brtst 5, __ASM_Label_755, __D0CheckWin
+2	23	215		brtst 5, __ASM_Label_765, __D0CheckWin
 2	22	218	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	23	218		set __signed_stack_001CheckWin, 1
 2	22	221	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1062,7 +1097,7 @@ Clump	Line	PC	Source
 2	22	227	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	23	227		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	22	231	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	23	231		brtst 4, __ASM_Label_818, __D0CheckWin
+2	23	231		brtst 4, __ASM_Label_828, __D0CheckWin
 2	22	234	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	23	234		set __signed_stack_001CheckWin, 4
 2	22	237	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1075,7 +1110,7 @@ Clump	Line	PC	Source
 2	22	243	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	23	243		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	22	247	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	23	247		brtst 4, __ASM_Label_818, __D0CheckWin
+2	23	247		brtst 4, __ASM_Label_828, __D0CheckWin
 2	22	250	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	23	250		set __signed_stack_001CheckWin, 7
 2	22	253	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1088,7 +1123,7 @@ Clump	Line	PC	Source
 2	22	259	#line 22 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	23	259		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	23	263	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	24	263		brtst 5, __ASM_Label_755, __D0CheckWin
+2	24	263		brtst 5, __ASM_Label_765, __D0CheckWin
 2	23	266	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	24	266		set __signed_stack_001CheckWin, 2
 2	23	269	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1101,7 +1136,7 @@ Clump	Line	PC	Source
 2	23	275	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	24	275		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	23	279	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	24	279		brtst 4, __ASM_Label_833, __D0CheckWin
+2	24	279		brtst 4, __ASM_Label_843, __D0CheckWin
 2	23	282	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	24	282		set __signed_stack_001CheckWin, 5
 2	23	285	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1114,7 +1149,7 @@ Clump	Line	PC	Source
 2	23	291	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	24	291		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	23	295	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	24	295		brtst 4, __ASM_Label_833, __D0CheckWin
+2	24	295		brtst 4, __ASM_Label_843, __D0CheckWin
 2	23	298	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	24	298		set __signed_stack_001CheckWin, 8
 2	23	301	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1127,7 +1162,7 @@ Clump	Line	PC	Source
 2	23	307	#line 23 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	24	307		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	24	311	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	25	311		brtst 5, __ASM_Label_755, __D0CheckWin
+2	25	311		brtst 5, __ASM_Label_765, __D0CheckWin
 2	24	314	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	25	314		set __signed_stack_001CheckWin, 2
 2	24	317	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1140,7 +1175,7 @@ Clump	Line	PC	Source
 2	24	323	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	25	323		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	24	327	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	25	327		brtst 4, __ASM_Label_848, __D0CheckWin
+2	25	327		brtst 4, __ASM_Label_858, __D0CheckWin
 2	24	330	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	25	330		set __signed_stack_001CheckWin, 4
 2	24	333	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1153,7 +1188,7 @@ Clump	Line	PC	Source
 2	24	339	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	25	339		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	24	343	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	25	343		brtst 4, __ASM_Label_848, __D0CheckWin
+2	25	343		brtst 4, __ASM_Label_858, __D0CheckWin
 2	24	346	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	25	346		set __signed_stack_001CheckWin, 6
 2	24	349	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1166,7 +1201,7 @@ Clump	Line	PC	Source
 2	24	355	#line 24 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	25	355		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	25	359	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	26	359		brtst 5, __ASM_Label_755, __D0CheckWin
+2	26	359		brtst 5, __ASM_Label_765, __D0CheckWin
 2	25	362	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	362		set __signed_stack_001CheckWin, 0
 2	25	365	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1179,7 +1214,7 @@ Clump	Line	PC	Source
 2	25	371	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	371		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	25	375	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	26	375		brtst 4, __ASM_Label_863, __D0CheckWin
+2	26	375		brtst 4, __ASM_Label_873, __D0CheckWin
 2	25	378	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	378		set __signed_stack_001CheckWin, 4
 2	25	381	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1192,7 +1227,7 @@ Clump	Line	PC	Source
 2	25	387	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	387		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	25	391	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	26	391		brtst 4, __ASM_Label_863, __D0CheckWin
+2	26	391		brtst 4, __ASM_Label_873, __D0CheckWin
 2	25	394	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	394		set __signed_stack_001CheckWin, 8
 2	25	397	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1205,14 +1240,14 @@ Clump	Line	PC	Source
 2	25	403	#line 25 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	403		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	26	407	#line 26 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	27	407		brtst 4, __ASM_Label_876, __D0CheckWin
+2	27	407		brtst 4, __ASM_Label_886, __D0CheckWin
 2	26	410	#line 26 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	27	410		mov winner, __CheckWin_7qG2_i_7qG2_001
 2	26	412	#line 26 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	26	412	#line 26 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	28	412	#line 28 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	28	412	#line 28 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	29	412		jmp __ASM_Label_750
+2	29	412		jmp __ASM_Label_760
 2	28	414	#line 28 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	28	414	#line 28 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	29	414		strcat __strbufCheckWin, msg
@@ -1245,7 +1280,7 @@ Clump	Line	PC	Source
 2	29	454	#line 29 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	30	454		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	29	458	#line 29 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	30	458		brtst 5, __ASM_Label_881, __D0CheckWin
+2	30	458		brtst 5, __ASM_Label_891, __D0CheckWin
 2	29	461	#line 29 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	30	461		mov __signed_stack_001CheckWin, winner
 2	29	463	#line 29 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1254,7 +1289,7 @@ Clump	Line	PC	Source
 2	30	466	#line 30 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	31	466		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	31	470	#line 31 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	32	470		brtst 4, __ASM_Label_884, __D0CheckWin
+2	32	470		brtst 4, __ASM_Label_894, __D0CheckWin
 2	31	473	#line 31 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	32	473		set gameover, 1
 2	31	476	#line 31 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1267,7 +1302,7 @@ Clump	Line	PC	Source
 2	32	481	#line 32 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	33	481		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	32	485	#line 32 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	33	485		brtst 4, __ASM_Label_889, __D0CheckWin
+2	33	485		brtst 4, __ASM_Label_899, __D0CheckWin
 2	32	488	#line 32 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	33	488		set __D0CheckWin, 1
 2	32	491	#line 32 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1282,7 +1317,7 @@ Clump	Line	PC	Source
 2	33	500	#line 33 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	34	500		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	33	504	#line 33 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	34	504		brtst 4, __ASM_Label_894, __D0CheckWin
+2	34	504		brtst 4, __ASM_Label_904, __D0CheckWin
 2	33	507	#line 33 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	34	507		set __D0CheckWin, 1
 2	33	510	#line 33 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1305,13 +1340,13 @@ Clump	Line	PC	Source
 2	36	524	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	524		cmp 1, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	36	528	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	37	528		brtst 4, __ASM_Label_900, __D0CheckWin
+2	37	528		brtst 4, __ASM_Label_910, __D0CheckWin
 2	36	531	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	37	531		jmp __ASM_Label_901
+2	37	531		jmp __ASM_Label_911
 2	36	533	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	533		sub i, i, __constVal1
 2	36	537	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	37	537		jmp __ASM_Label_899
+2	37	537		jmp __ASM_Label_909
 2	36	539	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	539		mov __signed_stack_001CheckWin, i
 2	36	541	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1324,14 +1359,14 @@ Clump	Line	PC	Source
 2	36	548	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	548		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	36	552	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	37	552		brtst 4, __ASM_Label_911, __D0CheckWin
+2	37	552		brtst 4, __ASM_Label_921, __D0CheckWin
 2	36	555	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	555		mov select, i
 2	36	557	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	36	557	#line 36 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	557	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	557	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	38	557		jmp __ASM_Label_902
+2	38	557		jmp __ASM_Label_912
 2	37	559	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	37	559	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	38	559		mov __signed_stack_001CheckWin, select
@@ -1341,7 +1376,7 @@ Clump	Line	PC	Source
 2	37	564	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	38	564		cmp 4, __D0CheckWin, __signed_stack_001CheckWin, __D0CheckWin
 2	37	568	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	38	568		brtst 4, __ASM_Label_916, __D0CheckWin
+2	38	568		brtst 4, __ASM_Label_926, __D0CheckWin
 2	37	571	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	38	571		mov __unsigned_stack_001CheckWin, gameover
 2	37	573	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1350,7 +1385,7 @@ Clump	Line	PC	Source
 2	37	576	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	38	576		cmp 4, __D0CheckWin, __unsigned_stack_001CheckWin, __D0CheckWin
 2	37	580	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	38	580		brtst 4, __ASM_Label_919, __D0CheckWin
+2	38	580		brtst 4, __ASM_Label_929, __D0CheckWin
 2	37	583	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	38	583		set __D0CheckWin, 1
 2	37	586	#line 37 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1385,7 +1420,7 @@ Clump	Line	PC	Source
 2	39	621	#line 39 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	40	621		cmp 4, __D0CheckWin, __unsigned_stack_001CheckWin, __D0CheckWin
 2	39	625	#line 39 "C:\Github\NXC_Source\TicTacToe.nxc"
-2	40	625		brtst 4, __ASM_Label_926, __D0CheckWin
+2	40	625		brtst 4, __ASM_Label_936, __D0CheckWin
 2	39	628	#line 39 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	40	628		set __Wait_7qG2_ms_7qG2_000_inline_CheckWin, 500
 2	39	631	#line 39 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1402,7 +1437,7 @@ Clump	Line	PC	Source
 2	41	640		syscall 26, __MWArgs
 2	41	643		mov __D0CheckWin, __MWArgs.Result
 2	41	645		release __MWMutex
-2	8587	646	#line 8587 "C:\Github\NXC_Source\TicTacToe.nxc"
+2	8632	646	#line 8632 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	40	646	#line 40 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	40	646	#line 40 "C:\Github\NXC_Source\TicTacToe.nxc"
 2	40	646	#line 40 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1420,7 +1455,7 @@ Clump	Line	PC	Source
 3	6897	5		mov __PointOutArgs.Options, __constVal1
 3	6897	7		syscall 14, __PointOutArgs
 3	6897	10		release __PointOutMutex
-3	8953	11	#line 8953 "NXCDefs.h"
+3	8998	11	#line 8998 "NXCDefs.h"
 3	6896	11	#line 6896 "NXCDefs.h"
 3	57	11	#line 57 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	58	11	#line 58 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1554,13 +1589,13 @@ Clump	Line	PC	Source
 3	60	131	#line 60 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	61	131		cmp 0, __D0Redraw, __signed_stack_001Redraw, __D0Redraw
 3	60	135	#line 60 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	61	135		brtst 4, __ASM_Label_1024, __D0Redraw
+3	61	135		brtst 4, __ASM_Label_1034, __D0Redraw
 3	60	138	#line 60 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	61	138		jmp __ASM_Label_1025
+3	61	138		jmp __ASM_Label_1035
 3	61	140	#line 61 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	62	140		add __Redraw_7qG2_k_7qG2_001, __Redraw_7qG2_k_7qG2_001, __constVal1
 3	62	144	#line 62 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	63	144		jmp __ASM_Label_1023
+3	63	144		jmp __ASM_Label_1033
 3	62	146	#line 62 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	63	146		mov __signed_stack_001Redraw, __Redraw_7qG2_k_7qG2_001
 3	62	148	#line 62 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1573,7 +1608,7 @@ Clump	Line	PC	Source
 3	63	155	#line 63 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	64	155		cmp 4, __D0Redraw, __signed_stack_001Redraw, __D0Redraw
 3	63	159	#line 63 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	64	159		brtst 4, __ASM_Label_1035, __D0Redraw
+3	64	159		brtst 4, __ASM_Label_1045, __D0Redraw
 3	63	162	#line 63 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	64	162		mov __signed_stack_001Redraw, __Redraw_7qG2_k_7qG2_001
 3	63	164	#line 63 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1768,7 +1803,7 @@ Clump	Line	PC	Source
 3	66	389	#line 66 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	67	389		cmp 4, __D0Redraw, __signed_stack_001Redraw, __D0Redraw
 3	66	393	#line 66 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	67	393		brtst 4, __ASM_Label_1092, __D0Redraw
+3	67	393		brtst 4, __ASM_Label_1102, __D0Redraw
 3	66	396	#line 66 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	67	396		mov __signed_stack_001Redraw, __Redraw_7qG2_k_7qG2_001
 3	66	398	#line 66 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -1827,7 +1862,7 @@ Clump	Line	PC	Source
 3	66	461	#line 66 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	68	461	#line 68 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	68	461	#line 68 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	69	461		jmp __ASM_Label_1026
+3	69	461		jmp __ASM_Label_1036
 3	68	463	#line 68 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	68	463	#line 68 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	69	463		set __signed_stack_001Redraw, 70
@@ -1945,7 +1980,7 @@ Clump	Line	PC	Source
 3	73	591	#line 73 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	74	591		tst 5, __D0Redraw, __DU0Redraw
 3	73	594	#line 73 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	74	594		brtst 4, __ASM_Label_1135, __D0Redraw
+3	74	594		brtst 4, __ASM_Label_1145, __D0Redraw
 3	73	597	#line 73 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	74	597		mov __signed_stack_001Redraw, __Redraw_7qG2_pslct_7qG2_000
 3	73	599	#line 73 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2015,7 +2050,7 @@ Clump	Line	PC	Source
 3	75	672	#line 75 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	76	672		cmp 4, __D0Redraw, __unsigned_stack_001Redraw, __D0Redraw
 3	75	676	#line 75 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	76	676		brtst 4, __ASM_Label_1156, __D0Redraw
+3	76	676		brtst 4, __ASM_Label_1166, __D0Redraw
 3	75	679	#line 75 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	76	679		mov __signed_stack_001Redraw, __Redraw_7qG2_pslct_7qG2_000
 3	75	681	#line 75 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2206,7 +2241,7 @@ Clump	Line	PC	Source
 3	78	902	#line 78 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	79	902		cmp 4, __D0Redraw, __unsigned_stack_001Redraw, __D0Redraw
 3	78	906	#line 78 "C:\Github\NXC_Source\TicTacToe.nxc"
-3	79	906		brtst 4, __ASM_Label_1211, __D0Redraw
+3	79	906		brtst 4, __ASM_Label_1221, __D0Redraw
 3	78	909	#line 78 "C:\Github\NXC_Source\TicTacToe.nxc"
 3	79	909		mov __signed_stack_001Redraw, __Redraw_7qG2_pslct_7qG2_000
 3	78	911	#line 78 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2275,7 +2310,7 @@ Clump	Line	PC	Source
 4	86	5	#line 86 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	87	5		cmp 4, __D0P, __unsigned_stack_001P, __D0P
 4	87	9	#line 87 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	88	9		brtst 4, __ASM_Label_1230, __D0P
+4	88	9		brtst 4, __ASM_Label_1240, __D0P
 4	87	12	#line 87 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	88	12		set __signed_stack_001P, 3
 4	87	15	#line 87 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2298,7 +2333,7 @@ Clump	Line	PC	Source
 4	89	31	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	90	31		tst 5, __D0P, __D0P
 4	89	34	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	90	34		brtst 4, __ASM_Label_1232, __D0P
+4	90	34		brtst 4, __ASM_Label_1242, __D0P
 4	89	37	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	90	37		set __signed_stack_001P, 2
 4	89	40	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2319,7 +2354,7 @@ Clump	Line	PC	Source
 4	89	53	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	90	53		tst 5, __D0P, __D0P
 4	89	56	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	90	56		brtst 5, __ASM_Label_1237, __D0P
+4	90	56		brtst 5, __ASM_Label_1247, __D0P
 4	89	59	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	90	59		set __signed_stack_001P, 1
 4	89	62	#line 89 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2340,7 +2375,7 @@ Clump	Line	PC	Source
 4	90	75	#line 90 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	91	75		tst 5, __D0P, __D0P
 4	91	78	#line 91 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	92	78		brtst 4, __ASM_Label_1244, __D0P
+4	92	78		brtst 4, __ASM_Label_1254, __D0P
 4	91	81	#line 91 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	92	81		set __signed_stack_001P, 2
 4	91	84	#line 91 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2361,7 +2396,7 @@ Clump	Line	PC	Source
 4	92	97	#line 92 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	93	97		tst 5, __D0P, __D0P
 4	92	100	#line 92 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	93	100		brtst 4, __ASM_Label_1249, __D0P
+4	93	100		brtst 4, __ASM_Label_1259, __D0P
 4	92	103	#line 92 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	93	103		mov i, select
 4	92	105	#line 92 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2396,9 +2431,9 @@ Clump	Line	PC	Source
 4	94	137	#line 94 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	95	137		tst 5, __D0P, __D0P
 4	94	140	#line 94 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	95	140		brtst 4, __ASM_Label_1253, __D0P
+4	95	140		brtst 4, __ASM_Label_1263, __D0P
 4	94	143	#line 94 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	95	143		jmp __ASM_Label_1252
+4	95	143		jmp __ASM_Label_1262
 4	94	145	#line 94 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	94	145	#line 94 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	95	145		mov select, i
@@ -2425,7 +2460,7 @@ Clump	Line	PC	Source
 4	96	163	#line 96 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	97	163		tst 5, __D0P, __D0P
 4	96	166	#line 96 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	97	166		brtst 4, __ASM_Label_1270, __D0P
+4	97	166		brtst 4, __ASM_Label_1280, __D0P
 4	96	169	#line 96 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	97	169		mov i, select
 4	96	171	#line 96 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2460,9 +2495,9 @@ Clump	Line	PC	Source
 4	98	203	#line 98 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	99	203		tst 5, __D0P, __D0P
 4	98	206	#line 98 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	99	206		brtst 4, __ASM_Label_1274, __D0P
+4	99	206		brtst 4, __ASM_Label_1284, __D0P
 4	98	209	#line 98 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	99	209		jmp __ASM_Label_1273
+4	99	209		jmp __ASM_Label_1283
 4	98	211	#line 98 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	98	211	#line 98 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	99	211		mov select, i
@@ -2491,7 +2526,7 @@ Clump	Line	PC	Source
 4	99	232	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	100	232		tst 5, __D0P, __D0P
 4	99	235	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	100	235		brtst 4, __ASM_Label_1292, __D0P
+4	100	235		brtst 4, __ASM_Label_1302, __D0P
 4	99	238	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	100	238		set __signed_stack_001P, 1
 4	99	241	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2518,9 +2553,9 @@ Clump	Line	PC	Source
 4	99	263	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	100	263		tst 5, __D0P, __D0P
 4	99	266	#line 99 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	100	266		brtst 4, __ASM_Label_1288, __D0P
+4	100	266		brtst 4, __ASM_Label_1298, __D0P
 4	101	269	#line 101 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	102	269		jmp __ASM_Label_1287
+4	102	269		jmp __ASM_Label_1297
 4	101	271	#line 101 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	101	271	#line 101 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	101	271	#line 101 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2543,7 +2578,7 @@ Clump	Line	PC	Source
 4	8771	285	#line 8771 "NXCDefs.h"
 4	102	285	#line 102 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	104	285	#line 104 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	105	285		jmp __ASM_Label_1231
+4	105	285		jmp __ASM_Label_1241
 4	104	287	#line 104 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	104	287	#line 104 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	105	287		set __signed_stack_001P, 3
@@ -2569,7 +2604,7 @@ Clump	Line	PC	Source
 4	105	309	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	106	309		tst 5, __D0P, __D0P
 4	105	312	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	106	312		brtst 4, __ASM_Label_1306, __D0P
+4	106	312		brtst 4, __ASM_Label_1316, __D0P
 4	105	315	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	106	315		mov __signed_stack_001P, select
 4	105	317	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2584,7 +2619,7 @@ Clump	Line	PC	Source
 4	106	326		replace board, board, __signed_stack_001P, __D0P
 4	105	331	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	105	331	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
-4	106	331		jmp __ASM_Label_1305
+4	106	331		jmp __ASM_Label_1315
 4	105	333	#line 105 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	106	333	#line 106 "C:\Github\NXC_Source\TicTacToe.nxc"
 4	107	333		strcat __strbufP, msg
@@ -2742,7 +2777,7 @@ Clump	Line	PC	Source
 5	120	100	#line 120 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	121	100		tst 5, __D0ChooseP2, __D0ChooseP2
 5	120	103	#line 120 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	121	103		brtst 5, __ASM_Label_1349, __D0ChooseP2
+5	121	103		brtst 5, __ASM_Label_1359, __D0ChooseP2
 5	120	106	#line 120 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	121	106		set __signed_stack_001ChooseP2, 1
 5	120	109	#line 120 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2769,11 +2804,11 @@ Clump	Line	PC	Source
 5	118	128	#line 118 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	119	128		tst 5, __D0ChooseP2, __D0ChooseP2
 5	118	131	#line 118 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	119	131		brtst 4, __ASM_Label_1346, __D0ChooseP2
+5	119	131		brtst 4, __ASM_Label_1356, __D0ChooseP2
 5	119	134	#line 119 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	119	134	#line 119 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	119	134	#line 119 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	120	134		jmp __ASM_Label_1345
+5	120	134		jmp __ASM_Label_1355
 5	119	136	#line 119 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	119	136	#line 119 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	120	136		set __signed_stack_001ChooseP2, 2
@@ -2821,7 +2856,7 @@ Clump	Line	PC	Source
 5	122	175	#line 122 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	123	175		cmp 4, __D0ChooseP2, __signed_stack_001ChooseP2, __D0ChooseP2
 5	122	179	#line 122 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	123	179		brtst 4, __ASM_Label_1367, __D0ChooseP2
+5	123	179		brtst 4, __ASM_Label_1377, __D0ChooseP2
 5	122	182	#line 122 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	123	182		set __signed_stack_001ChooseP2, 1
 5	122	185	#line 122 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2852,11 +2887,11 @@ Clump	Line	PC	Source
 5	120	210	#line 120 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	121	210		tst 5, __D0ChooseP2, __D0ChooseP2
 5	120	213	#line 120 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	121	213		brtst 4, __ASM_Label_1363, __D0ChooseP2
+5	121	213		brtst 4, __ASM_Label_1373, __D0ChooseP2
 5	124	216	#line 124 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	121	216	#line 121 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	124	216	#line 124 "C:\Github\NXC_Source\TicTacToe.nxc"
-5	125	216		jmp __ASM_Label_1362
+5	125	216		jmp __ASM_Label_1372
 5	124	218	#line 124 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	124	218	#line 124 "C:\Github\NXC_Source\TicTacToe.nxc"
 5	125	218		subret __ChooseP2_return
@@ -2868,7 +2903,7 @@ Clump	Line	PC	Source
 6	127	5	#line 127 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	128	5		cmp 4, __D0AI, __unsigned_stack_001AI, __D0AI
 6	128	9	#line 128 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	129	9		brtst 4, __ASM_Label_1374, __D0AI
+6	129	9		brtst 4, __ASM_Label_1384, __D0AI
 6	128	12	#line 128 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	129	12		strcat __strbufAI, msg
 6	128	16	#line 128 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2902,13 +2937,13 @@ Clump	Line	PC	Source
 6	130	46	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	131	46		cmp 0, __D0AI, __signed_stack_001AI, __D0AI
 6	130	50	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	131	50		brtst 4, __ASM_Label_1380, __D0AI
+6	131	50		brtst 4, __ASM_Label_1390, __D0AI
 6	130	53	#line 130 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	131	53		jmp __ASM_Label_1381
+6	131	53		jmp __ASM_Label_1391
 6	131	55	#line 131 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	132	55		add i, i, __constVal1
 6	132	59	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	133	59		jmp __ASM_Label_1379
+6	133	59		jmp __ASM_Label_1389
 6	132	61	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	61		set __signed_stack_001AI, 0
 6	132	64	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2921,7 +2956,7 @@ Clump	Line	PC	Source
 6	132	71	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	71		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	132	75	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	133	75		brtst 4, __ASM_Label_1388, __D0AI
+6	133	75		brtst 4, __ASM_Label_1398, __D0AI
 6	132	78	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	78		set __signed_stack_001AI, 1
 6	132	81	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2934,7 +2969,7 @@ Clump	Line	PC	Source
 6	132	87	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	87		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	132	91	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	133	91		brtst 4, __ASM_Label_1388, __D0AI
+6	133	91		brtst 4, __ASM_Label_1398, __D0AI
 6	132	94	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	94		set __signed_stack_001AI, 2
 6	132	97	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2947,7 +2982,7 @@ Clump	Line	PC	Source
 6	132	103	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	103		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	132	107	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	133	107		brtst 4, __ASM_Label_1401, __D0AI
+6	133	107		brtst 4, __ASM_Label_1411, __D0AI
 6	132	110	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	133	110		set aimove, 0
 6	132	113	#line 132 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2965,7 +3000,7 @@ Clump	Line	PC	Source
 6	133	123	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	134	123		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	133	127	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	134	127		brtst 4, __ASM_Label_1405, __D0AI
+6	134	127		brtst 4, __ASM_Label_1415, __D0AI
 6	133	130	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	134	130		set __signed_stack_001AI, 4
 6	133	133	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2978,7 +3013,7 @@ Clump	Line	PC	Source
 6	133	139	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	134	139		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	133	143	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	134	143		brtst 4, __ASM_Label_1405, __D0AI
+6	134	143		brtst 4, __ASM_Label_1415, __D0AI
 6	133	146	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	134	146		set __signed_stack_001AI, 5
 6	133	149	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -2991,7 +3026,7 @@ Clump	Line	PC	Source
 6	133	155	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	134	155		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	133	159	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	134	159		brtst 4, __ASM_Label_1418, __D0AI
+6	134	159		brtst 4, __ASM_Label_1428, __D0AI
 6	133	162	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	134	162		set aimove, 3
 6	133	165	#line 133 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3009,7 +3044,7 @@ Clump	Line	PC	Source
 6	134	175	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	135	175		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	134	179	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	135	179		brtst 4, __ASM_Label_1422, __D0AI
+6	135	179		brtst 4, __ASM_Label_1432, __D0AI
 6	134	182	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	135	182		set __signed_stack_001AI, 7
 6	134	185	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3022,7 +3057,7 @@ Clump	Line	PC	Source
 6	134	191	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	135	191		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	134	195	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	135	195		brtst 4, __ASM_Label_1422, __D0AI
+6	135	195		brtst 4, __ASM_Label_1432, __D0AI
 6	134	198	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	135	198		set __signed_stack_001AI, 8
 6	134	201	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3035,7 +3070,7 @@ Clump	Line	PC	Source
 6	134	207	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	135	207		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	134	211	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	135	211		brtst 4, __ASM_Label_1435, __D0AI
+6	135	211		brtst 4, __ASM_Label_1445, __D0AI
 6	134	214	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	135	214		set aimove, 6
 6	134	217	#line 134 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3053,7 +3088,7 @@ Clump	Line	PC	Source
 6	135	227	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	136	227		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	135	231	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	136	231		brtst 4, __ASM_Label_1439, __D0AI
+6	136	231		brtst 4, __ASM_Label_1449, __D0AI
 6	135	234	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	136	234		set __signed_stack_001AI, 3
 6	135	237	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3066,7 +3101,7 @@ Clump	Line	PC	Source
 6	135	243	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	136	243		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	135	247	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	136	247		brtst 4, __ASM_Label_1439, __D0AI
+6	136	247		brtst 4, __ASM_Label_1449, __D0AI
 6	135	250	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	136	250		set __signed_stack_001AI, 6
 6	135	253	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3079,7 +3114,7 @@ Clump	Line	PC	Source
 6	135	259	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	136	259		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	135	263	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	136	263		brtst 4, __ASM_Label_1452, __D0AI
+6	136	263		brtst 4, __ASM_Label_1462, __D0AI
 6	135	266	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	136	266		set aimove, 0
 6	135	269	#line 135 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3097,7 +3132,7 @@ Clump	Line	PC	Source
 6	136	279	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	137	279		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	136	283	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	137	283		brtst 4, __ASM_Label_1456, __D0AI
+6	137	283		brtst 4, __ASM_Label_1466, __D0AI
 6	136	286	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	137	286		set __signed_stack_001AI, 4
 6	136	289	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3110,7 +3145,7 @@ Clump	Line	PC	Source
 6	136	295	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	137	295		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	136	299	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	137	299		brtst 4, __ASM_Label_1456, __D0AI
+6	137	299		brtst 4, __ASM_Label_1466, __D0AI
 6	136	302	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	137	302		set __signed_stack_001AI, 7
 6	136	305	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3123,7 +3158,7 @@ Clump	Line	PC	Source
 6	136	311	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	137	311		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	136	315	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	137	315		brtst 4, __ASM_Label_1469, __D0AI
+6	137	315		brtst 4, __ASM_Label_1479, __D0AI
 6	136	318	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	137	318		set aimove, 1
 6	136	321	#line 136 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3141,7 +3176,7 @@ Clump	Line	PC	Source
 6	137	331	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	138	331		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	137	335	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	138	335		brtst 4, __ASM_Label_1473, __D0AI
+6	138	335		brtst 4, __ASM_Label_1483, __D0AI
 6	137	338	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	138	338		set __signed_stack_001AI, 5
 6	137	341	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3154,7 +3189,7 @@ Clump	Line	PC	Source
 6	137	347	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	138	347		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	137	351	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	138	351		brtst 4, __ASM_Label_1473, __D0AI
+6	138	351		brtst 4, __ASM_Label_1483, __D0AI
 6	137	354	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	138	354		set __signed_stack_001AI, 8
 6	137	357	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3167,7 +3202,7 @@ Clump	Line	PC	Source
 6	137	363	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	138	363		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	137	367	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	138	367		brtst 4, __ASM_Label_1486, __D0AI
+6	138	367		brtst 4, __ASM_Label_1496, __D0AI
 6	137	370	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	138	370		set aimove, 2
 6	137	373	#line 137 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3185,7 +3220,7 @@ Clump	Line	PC	Source
 6	138	383	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	139	383		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	138	387	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	139	387		brtst 4, __ASM_Label_1490, __D0AI
+6	139	387		brtst 4, __ASM_Label_1500, __D0AI
 6	138	390	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	139	390		set __signed_stack_001AI, 4
 6	138	393	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3198,7 +3233,7 @@ Clump	Line	PC	Source
 6	138	399	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	139	399		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	138	403	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	139	403		brtst 4, __ASM_Label_1490, __D0AI
+6	139	403		brtst 4, __ASM_Label_1500, __D0AI
 6	138	406	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	139	406		set __signed_stack_001AI, 6
 6	138	409	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3211,7 +3246,7 @@ Clump	Line	PC	Source
 6	138	415	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	139	415		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	138	419	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	139	419		brtst 4, __ASM_Label_1503, __D0AI
+6	139	419		brtst 4, __ASM_Label_1513, __D0AI
 6	138	422	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	139	422		set aimove, 2
 6	138	425	#line 138 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3229,7 +3264,7 @@ Clump	Line	PC	Source
 6	139	435	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	140	435		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	139	439	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	140	439		brtst 4, __ASM_Label_1507, __D0AI
+6	140	439		brtst 4, __ASM_Label_1517, __D0AI
 6	139	442	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	140	442		set __signed_stack_001AI, 4
 6	139	445	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3242,7 +3277,7 @@ Clump	Line	PC	Source
 6	139	451	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	140	451		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	139	455	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	140	455		brtst 4, __ASM_Label_1507, __D0AI
+6	140	455		brtst 4, __ASM_Label_1517, __D0AI
 6	139	458	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	140	458		set __signed_stack_001AI, 8
 6	139	461	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3255,7 +3290,7 @@ Clump	Line	PC	Source
 6	139	467	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	140	467		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	139	471	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	140	471		brtst 4, __ASM_Label_1520, __D0AI
+6	140	471		brtst 4, __ASM_Label_1530, __D0AI
 6	139	474	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	140	474		set aimove, 0
 6	139	477	#line 139 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3273,7 +3308,7 @@ Clump	Line	PC	Source
 6	141	486	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	142	486		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	141	490	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	142	490		brtst 4, __ASM_Label_1524, __D0AI
+6	142	490		brtst 4, __ASM_Label_1534, __D0AI
 6	141	493	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	142	493		set __signed_stack_001AI, 1
 6	141	496	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3286,7 +3321,7 @@ Clump	Line	PC	Source
 6	141	503	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	142	503		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	141	507	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	142	507		brtst 4, __ASM_Label_1524, __D0AI
+6	142	507		brtst 4, __ASM_Label_1534, __D0AI
 6	141	510	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	142	510		set __signed_stack_001AI, 2
 6	141	513	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3299,7 +3334,7 @@ Clump	Line	PC	Source
 6	141	519	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	142	519		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	141	523	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	142	523		brtst 4, __ASM_Label_1537, __D0AI
+6	142	523		brtst 4, __ASM_Label_1547, __D0AI
 6	141	526	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	142	526		set aimove, 1
 6	141	529	#line 141 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3317,7 +3352,7 @@ Clump	Line	PC	Source
 6	142	538	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	143	538		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	142	542	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	143	542		brtst 4, __ASM_Label_1541, __D0AI
+6	143	542		brtst 4, __ASM_Label_1551, __D0AI
 6	142	545	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	143	545		set __signed_stack_001AI, 4
 6	142	548	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3330,7 +3365,7 @@ Clump	Line	PC	Source
 6	142	555	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	143	555		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	142	559	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	143	559		brtst 4, __ASM_Label_1541, __D0AI
+6	143	559		brtst 4, __ASM_Label_1551, __D0AI
 6	142	562	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	143	562		set __signed_stack_001AI, 5
 6	142	565	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3343,7 +3378,7 @@ Clump	Line	PC	Source
 6	142	571	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	143	571		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	142	575	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	143	575		brtst 4, __ASM_Label_1554, __D0AI
+6	143	575		brtst 4, __ASM_Label_1564, __D0AI
 6	142	578	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	143	578		set aimove, 4
 6	142	581	#line 142 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3361,7 +3396,7 @@ Clump	Line	PC	Source
 6	143	590	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	144	590		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	143	594	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	144	594		brtst 4, __ASM_Label_1558, __D0AI
+6	144	594		brtst 4, __ASM_Label_1568, __D0AI
 6	143	597	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	144	597		set __signed_stack_001AI, 7
 6	143	600	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3374,7 +3409,7 @@ Clump	Line	PC	Source
 6	143	607	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	144	607		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	143	611	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	144	611		brtst 4, __ASM_Label_1558, __D0AI
+6	144	611		brtst 4, __ASM_Label_1568, __D0AI
 6	143	614	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	144	614		set __signed_stack_001AI, 8
 6	143	617	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3387,7 +3422,7 @@ Clump	Line	PC	Source
 6	143	623	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	144	623		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	143	627	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	144	627		brtst 4, __ASM_Label_1571, __D0AI
+6	144	627		brtst 4, __ASM_Label_1581, __D0AI
 6	143	630	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	144	630		set aimove, 7
 6	143	633	#line 143 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3405,7 +3440,7 @@ Clump	Line	PC	Source
 6	144	642	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	145	642		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	144	646	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	145	646		brtst 4, __ASM_Label_1575, __D0AI
+6	145	646		brtst 4, __ASM_Label_1585, __D0AI
 6	144	649	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	145	649		set __signed_stack_001AI, 3
 6	144	652	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3418,7 +3453,7 @@ Clump	Line	PC	Source
 6	144	659	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	145	659		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	144	663	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	145	663		brtst 4, __ASM_Label_1575, __D0AI
+6	145	663		brtst 4, __ASM_Label_1585, __D0AI
 6	144	666	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	145	666		set __signed_stack_001AI, 6
 6	144	669	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3431,7 +3466,7 @@ Clump	Line	PC	Source
 6	144	675	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	145	675		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	144	679	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	145	679		brtst 4, __ASM_Label_1588, __D0AI
+6	145	679		brtst 4, __ASM_Label_1598, __D0AI
 6	144	682	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	145	682		set aimove, 3
 6	144	685	#line 144 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3449,7 +3484,7 @@ Clump	Line	PC	Source
 6	145	694	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	146	694		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	145	698	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	146	698		brtst 4, __ASM_Label_1592, __D0AI
+6	146	698		brtst 4, __ASM_Label_1602, __D0AI
 6	145	701	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	146	701		set __signed_stack_001AI, 4
 6	145	704	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3462,7 +3497,7 @@ Clump	Line	PC	Source
 6	145	711	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	146	711		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	145	715	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	146	715		brtst 4, __ASM_Label_1592, __D0AI
+6	146	715		brtst 4, __ASM_Label_1602, __D0AI
 6	145	718	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	146	718		set __signed_stack_001AI, 7
 6	145	721	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3475,7 +3510,7 @@ Clump	Line	PC	Source
 6	145	727	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	146	727		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	145	731	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	146	731		brtst 4, __ASM_Label_1605, __D0AI
+6	146	731		brtst 4, __ASM_Label_1615, __D0AI
 6	145	734	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	146	734		set aimove, 4
 6	145	737	#line 145 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3493,7 +3528,7 @@ Clump	Line	PC	Source
 6	146	746	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	147	746		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	146	750	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	147	750		brtst 4, __ASM_Label_1609, __D0AI
+6	147	750		brtst 4, __ASM_Label_1619, __D0AI
 6	146	753	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	147	753		set __signed_stack_001AI, 5
 6	146	756	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3506,7 +3541,7 @@ Clump	Line	PC	Source
 6	146	763	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	147	763		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	146	767	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	147	767		brtst 4, __ASM_Label_1609, __D0AI
+6	147	767		brtst 4, __ASM_Label_1619, __D0AI
 6	146	770	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	147	770		set __signed_stack_001AI, 8
 6	146	773	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3519,7 +3554,7 @@ Clump	Line	PC	Source
 6	146	779	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	147	779		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	146	783	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	147	783		brtst 4, __ASM_Label_1622, __D0AI
+6	147	783		brtst 4, __ASM_Label_1632, __D0AI
 6	146	786	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	147	786		set aimove, 5
 6	146	789	#line 146 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3537,7 +3572,7 @@ Clump	Line	PC	Source
 6	147	798	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	148	798		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	147	802	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	148	802		brtst 4, __ASM_Label_1626, __D0AI
+6	148	802		brtst 4, __ASM_Label_1636, __D0AI
 6	147	805	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	148	805		set __signed_stack_001AI, 4
 6	147	808	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3550,7 +3585,7 @@ Clump	Line	PC	Source
 6	147	815	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	148	815		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	147	819	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	148	819		brtst 4, __ASM_Label_1626, __D0AI
+6	148	819		brtst 4, __ASM_Label_1636, __D0AI
 6	147	822	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	148	822		set __signed_stack_001AI, 6
 6	147	825	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3563,7 +3598,7 @@ Clump	Line	PC	Source
 6	147	831	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	148	831		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	147	835	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	148	835		brtst 4, __ASM_Label_1639, __D0AI
+6	148	835		brtst 4, __ASM_Label_1649, __D0AI
 6	147	838	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	148	838		set aimove, 4
 6	147	841	#line 147 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3581,7 +3616,7 @@ Clump	Line	PC	Source
 6	148	850	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	149	850		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	148	854	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	149	854		brtst 4, __ASM_Label_1643, __D0AI
+6	149	854		brtst 4, __ASM_Label_1653, __D0AI
 6	148	857	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	149	857		set __signed_stack_001AI, 4
 6	148	860	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3594,7 +3629,7 @@ Clump	Line	PC	Source
 6	148	867	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	149	867		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	148	871	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	149	871		brtst 4, __ASM_Label_1643, __D0AI
+6	149	871		brtst 4, __ASM_Label_1653, __D0AI
 6	148	874	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	149	874		set __signed_stack_001AI, 8
 6	148	877	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3607,7 +3642,7 @@ Clump	Line	PC	Source
 6	148	883	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	149	883		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	148	887	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	149	887		brtst 4, __ASM_Label_1656, __D0AI
+6	149	887		brtst 4, __ASM_Label_1666, __D0AI
 6	148	890	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	149	890		set aimove, 4
 6	148	893	#line 148 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3625,7 +3660,7 @@ Clump	Line	PC	Source
 6	150	902	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	151	902		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	150	906	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	151	906		brtst 4, __ASM_Label_1660, __D0AI
+6	151	906		brtst 4, __ASM_Label_1670, __D0AI
 6	150	909	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	151	909		set __signed_stack_001AI, 1
 6	150	912	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3638,7 +3673,7 @@ Clump	Line	PC	Source
 6	150	918	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	151	918		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	150	922	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	151	922		brtst 4, __ASM_Label_1660, __D0AI
+6	151	922		brtst 4, __ASM_Label_1670, __D0AI
 6	150	925	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	151	925		set __signed_stack_001AI, 2
 6	150	928	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3651,7 +3686,7 @@ Clump	Line	PC	Source
 6	150	935	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	151	935		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	150	939	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	151	939		brtst 4, __ASM_Label_1673, __D0AI
+6	151	939		brtst 4, __ASM_Label_1683, __D0AI
 6	150	942	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	151	942		set aimove, 2
 6	150	945	#line 150 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3669,7 +3704,7 @@ Clump	Line	PC	Source
 6	151	954	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	152	954		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	151	958	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	152	958		brtst 4, __ASM_Label_1677, __D0AI
+6	152	958		brtst 4, __ASM_Label_1687, __D0AI
 6	151	961	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	152	961		set __signed_stack_001AI, 4
 6	151	964	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3682,7 +3717,7 @@ Clump	Line	PC	Source
 6	151	970	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	152	970		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	151	974	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	152	974		brtst 4, __ASM_Label_1677, __D0AI
+6	152	974		brtst 4, __ASM_Label_1687, __D0AI
 6	151	977	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	152	977		set __signed_stack_001AI, 5
 6	151	980	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3695,7 +3730,7 @@ Clump	Line	PC	Source
 6	151	987	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	152	987		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	151	991	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	152	991		brtst 4, __ASM_Label_1690, __D0AI
+6	152	991		brtst 4, __ASM_Label_1700, __D0AI
 6	151	994	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	152	994		set aimove, 5
 6	151	997	#line 151 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3713,7 +3748,7 @@ Clump	Line	PC	Source
 6	152	1006	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	153	1006		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	152	1010	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	153	1010		brtst 4, __ASM_Label_1694, __D0AI
+6	153	1010		brtst 4, __ASM_Label_1704, __D0AI
 6	152	1013	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	153	1013		set __signed_stack_001AI, 7
 6	152	1016	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3726,7 +3761,7 @@ Clump	Line	PC	Source
 6	152	1022	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	153	1022		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	152	1026	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	153	1026		brtst 4, __ASM_Label_1694, __D0AI
+6	153	1026		brtst 4, __ASM_Label_1704, __D0AI
 6	152	1029	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	153	1029		set __signed_stack_001AI, 8
 6	152	1032	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3739,7 +3774,7 @@ Clump	Line	PC	Source
 6	152	1039	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	153	1039		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	152	1043	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	153	1043		brtst 4, __ASM_Label_1707, __D0AI
+6	153	1043		brtst 4, __ASM_Label_1717, __D0AI
 6	152	1046	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	153	1046		set aimove, 8
 6	152	1049	#line 152 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3757,7 +3792,7 @@ Clump	Line	PC	Source
 6	153	1058	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	154	1058		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	153	1062	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	154	1062		brtst 4, __ASM_Label_1711, __D0AI
+6	154	1062		brtst 4, __ASM_Label_1721, __D0AI
 6	153	1065	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	154	1065		set __signed_stack_001AI, 3
 6	153	1068	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3770,7 +3805,7 @@ Clump	Line	PC	Source
 6	153	1074	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	154	1074		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	153	1078	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	154	1078		brtst 4, __ASM_Label_1711, __D0AI
+6	154	1078		brtst 4, __ASM_Label_1721, __D0AI
 6	153	1081	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	154	1081		set __signed_stack_001AI, 6
 6	153	1084	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3783,7 +3818,7 @@ Clump	Line	PC	Source
 6	153	1091	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	154	1091		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	153	1095	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	154	1095		brtst 4, __ASM_Label_1724, __D0AI
+6	154	1095		brtst 4, __ASM_Label_1734, __D0AI
 6	153	1098	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	154	1098		set aimove, 6
 6	153	1101	#line 153 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3801,7 +3836,7 @@ Clump	Line	PC	Source
 6	154	1110	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	155	1110		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	154	1114	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	155	1114		brtst 4, __ASM_Label_1728, __D0AI
+6	155	1114		brtst 4, __ASM_Label_1738, __D0AI
 6	154	1117	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	155	1117		set __signed_stack_001AI, 4
 6	154	1120	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3814,7 +3849,7 @@ Clump	Line	PC	Source
 6	154	1126	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	155	1126		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	154	1130	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	155	1130		brtst 4, __ASM_Label_1728, __D0AI
+6	155	1130		brtst 4, __ASM_Label_1738, __D0AI
 6	154	1133	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	155	1133		set __signed_stack_001AI, 7
 6	154	1136	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3827,7 +3862,7 @@ Clump	Line	PC	Source
 6	154	1143	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	155	1143		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	154	1147	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	155	1147		brtst 4, __ASM_Label_1741, __D0AI
+6	155	1147		brtst 4, __ASM_Label_1751, __D0AI
 6	154	1150	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	155	1150		set aimove, 7
 6	154	1153	#line 154 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3845,7 +3880,7 @@ Clump	Line	PC	Source
 6	155	1162	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	156	1162		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	155	1166	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	156	1166		brtst 4, __ASM_Label_1745, __D0AI
+6	156	1166		brtst 4, __ASM_Label_1755, __D0AI
 6	155	1169	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	156	1169		set __signed_stack_001AI, 5
 6	155	1172	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3858,7 +3893,7 @@ Clump	Line	PC	Source
 6	155	1178	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	156	1178		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	155	1182	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	156	1182		brtst 4, __ASM_Label_1745, __D0AI
+6	156	1182		brtst 4, __ASM_Label_1755, __D0AI
 6	155	1185	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	156	1185		set __signed_stack_001AI, 8
 6	155	1188	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3871,7 +3906,7 @@ Clump	Line	PC	Source
 6	155	1195	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	156	1195		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	155	1199	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	156	1199		brtst 4, __ASM_Label_1758, __D0AI
+6	156	1199		brtst 4, __ASM_Label_1768, __D0AI
 6	155	1202	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	156	1202		set aimove, 8
 6	155	1205	#line 155 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3889,7 +3924,7 @@ Clump	Line	PC	Source
 6	156	1214	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	157	1214		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	156	1218	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	157	1218		brtst 4, __ASM_Label_1762, __D0AI
+6	157	1218		brtst 4, __ASM_Label_1772, __D0AI
 6	156	1221	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	157	1221		set __signed_stack_001AI, 4
 6	156	1224	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3902,7 +3937,7 @@ Clump	Line	PC	Source
 6	156	1230	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	157	1230		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	156	1234	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	157	1234		brtst 4, __ASM_Label_1762, __D0AI
+6	157	1234		brtst 4, __ASM_Label_1772, __D0AI
 6	156	1237	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	157	1237		set __signed_stack_001AI, 6
 6	156	1240	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3915,7 +3950,7 @@ Clump	Line	PC	Source
 6	156	1247	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	157	1247		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	156	1251	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	157	1251		brtst 4, __ASM_Label_1775, __D0AI
+6	157	1251		brtst 4, __ASM_Label_1785, __D0AI
 6	156	1254	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	157	1254		set aimove, 6
 6	156	1257	#line 156 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3933,7 +3968,7 @@ Clump	Line	PC	Source
 6	157	1266	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	158	1266		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	157	1270	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	158	1270		brtst 4, __ASM_Label_1779, __D0AI
+6	158	1270		brtst 4, __ASM_Label_1789, __D0AI
 6	157	1273	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	158	1273		set __signed_stack_001AI, 4
 6	157	1276	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3946,7 +3981,7 @@ Clump	Line	PC	Source
 6	157	1282	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	158	1282		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	157	1286	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	158	1286		brtst 4, __ASM_Label_1779, __D0AI
+6	158	1286		brtst 4, __ASM_Label_1789, __D0AI
 6	157	1289	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	158	1289		set __signed_stack_001AI, 8
 6	157	1292	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3959,7 +3994,7 @@ Clump	Line	PC	Source
 6	157	1299	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	158	1299		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	157	1303	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	158	1303		brtst 4, __ASM_Label_1792, __D0AI
+6	158	1303		brtst 4, __ASM_Label_1802, __D0AI
 6	157	1306	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	158	1306		set aimove, 8
 6	157	1309	#line 157 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -3989,7 +4024,7 @@ Clump	Line	PC	Source
 6	159	1342		mov msg, __strbufAI
 6	158	1344	#line 158 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1344	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	161	1344		jmp __ASM_Label_1382
+6	161	1344		jmp __ASM_Label_1392
 6	160	1346	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1346	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1346		mov __signed_stack_001AI, aimove
@@ -3999,7 +4034,7 @@ Clump	Line	PC	Source
 6	160	1351	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1351		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	160	1355	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	161	1355		brtst 4, __ASM_Label_1799, __D0AI
+6	161	1355		brtst 4, __ASM_Label_1809, __D0AI
 6	160	1358	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1358		mov __signed_stack_001AI, aimove
 6	160	1360	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4008,7 +4043,7 @@ Clump	Line	PC	Source
 6	160	1363	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1363		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	160	1367	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	161	1367		brtst 4, __ASM_Label_1801, __D0AI
+6	161	1367		brtst 4, __ASM_Label_1811, __D0AI
 6	160	1370	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1370		set __D0AI, 9
 6	160	1373	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4018,7 +4053,7 @@ Clump	Line	PC	Source
 6	161	1380		mul __RandomTmp, __RandomTmp, __D0AI
 6	161	1384		div __RandomTmp, __RandomTmp, __constVal65536
 6	161	1388		mov i, __RandomTmp
-6	13283	1390	#line 13283 "C:\Github\NXC_Source\TicTacToe.nxc"
+6	13328	1390	#line 13328 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1390	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1390	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1390	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4033,14 +4068,14 @@ Clump	Line	PC	Source
 6	160	1399	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1399		cmp 4, __D0AI, __signed_stack_001AI, __D0AI
 6	160	1403	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	161	1403		brtst 4, __ASM_Label_1812, __D0AI
+6	161	1403		brtst 4, __ASM_Label_1822, __D0AI
 6	160	1406	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1406		mov aimove, i
 6	160	1408	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1408	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	160	1408	#line 160 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1408	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	162	1408		jmp __ASM_Label_1800
+6	162	1408		jmp __ASM_Label_1810
 6	161	1410	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1410	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	161	1410	#line 161 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4082,7 +4117,7 @@ Clump	Line	PC	Source
 6	164	1462		syscall 26, __MWArgs
 6	164	1465		mov __D0AI, __MWArgs.Result
 6	164	1467		release __MWMutex
-6	13375	1468	#line 13375 "C:\Github\NXC_Source\TicTacToe.nxc"
+6	13420	1468	#line 13420 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	163	1468	#line 163 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	163	1468	#line 163 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	163	1468	#line 163 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4116,7 +4151,7 @@ Clump	Line	PC	Source
 7	172	5	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	173	5		cmp 4, __D0GameOver, __signed_stack_001GameOver, __D0GameOver
 7	172	9	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	173	9		brtst 4, __ASM_Label_1829, __D0GameOver
+7	173	9		brtst 4, __ASM_Label_1839, __D0GameOver
 7	172	12	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	173	12		set __SoundEnd_7qG2_whatSound_7qG2_000, 1
 7	172	15	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4151,13 +4186,13 @@ Clump	Line	PC	Source
 7	173	44		release __TextOutMutex
 7	172	45	#line 172 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	175	45	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	176	45		jmp __ASM_Label_1838
+7	176	45		jmp __ASM_Label_1848
 7	175	47	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	176	47		mov __DU0GameOver, p2ai
 7	175	49	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	176	49		tst 5, __D0GameOver, __DU0GameOver
 7	175	52	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	176	52		brtst 4, __ASM_Label_1840, __D0GameOver
+7	176	52		brtst 4, __ASM_Label_1850, __D0GameOver
 7	175	55	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	176	55		mov __signed_stack_001GameOver, winner
 7	175	57	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4166,7 +4201,7 @@ Clump	Line	PC	Source
 7	175	60	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	176	60		cmp 4, __D0GameOver, __signed_stack_001GameOver, __D0GameOver
 7	175	64	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	176	64		brtst 4, __ASM_Label_1841, __D0GameOver
+7	176	64		brtst 4, __ASM_Label_1851, __D0GameOver
 7	175	67	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	176	67		set __signed_stack_001GameOver, 32
 7	175	70	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4201,7 +4236,7 @@ Clump	Line	PC	Source
 7	176	98		subcall SoundEnd, __SoundEnd_return
 7	175	100	#line 175 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	176	100	#line 176 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	177	100		jmp __ASM_Label_1850
+7	177	100		jmp __ASM_Label_1860
 7	176	102	#line 176 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	177	102		set __signed_stack_001GameOver, 12
 7	176	105	#line 176 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4280,7 +4315,7 @@ Clump	Line	PC	Source
 7	6897	179		mov __PointOutArgs.Options, __constVal1
 7	6897	181		syscall 14, __PointOutArgs
 7	6897	184		release __PointOutMutex
-7	13626	185	#line 13626 "NXCDefs.h"
+7	13671	185	#line 13671 "NXCDefs.h"
 7	6896	185	#line 6896 "NXCDefs.h"
 7	180	185	#line 180 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	181	185	#line 181 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4386,9 +4421,9 @@ Clump	Line	PC	Source
 7	183	288	#line 183 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	184	288		tst 5, __D0GameOver, __D0GameOver
 7	183	291	#line 183 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	184	291		brtst 4, __ASM_Label_1888, __D0GameOver
+7	184	291		brtst 4, __ASM_Label_1898, __D0GameOver
 7	184	294	#line 184 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	185	294		jmp __ASM_Label_1887
+7	185	294		jmp __ASM_Label_1897
 7	184	296	#line 184 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	6896	296	#line 6896 "NXCDefs.h"
 7	6897	296	#pragma macro 6
@@ -4398,7 +4433,7 @@ Clump	Line	PC	Source
 7	6897	301		mov __PointOutArgs.Options, __constVal1
 7	6897	303		syscall 14, __PointOutArgs
 7	6897	306		release __PointOutMutex
-7	13764	307	#line 13764 "NXCDefs.h"
+7	13809	307	#line 13809 "NXCDefs.h"
 7	6896	307	#line 6896 "NXCDefs.h"
 7	184	307	#line 184 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	185	307	#line 185 "C:\Github\NXC_Source\TicTacToe.nxc"
@@ -4429,9 +4464,9 @@ Clump	Line	PC	Source
 7	185	335	#line 185 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	186	335		tst 5, __D0GameOver, __D0GameOver
 7	185	338	#line 185 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	186	338		brtst 4, __ASM_Label_1896, __D0GameOver
+7	186	338		brtst 4, __ASM_Label_1906, __D0GameOver
 7	189	341	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
-7	190	341		jmp __ASM_Label_1895
+7	190	341		jmp __ASM_Label_1905
 7	189	343	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	189	343	#line 189 "C:\Github\NXC_Source\TicTacToe.nxc"
 7	190	343		subret __GameOver_return
@@ -4443,10 +4478,10 @@ Clump	Line	PC	Source
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\TicTacToe.nxc
 1	SoundEnd	156	C:\Github\NXC_Source\.\+SoundEnd.nxc
-2	CheckWin	627	C:\Github\NXC_Source\TicTacToe.nxc
-3	Redraw	1281	C:\Github\NXC_Source\TicTacToe.nxc
-4	P	2257	C:\Github\NXC_Source\TicTacToe.nxc
-5	ChooseP2	2658	C:\Github\NXC_Source\TicTacToe.nxc
-6	AI	2878	C:\Github\NXC_Source\TicTacToe.nxc
-7	GameOver	4367	C:\Github\NXC_Source\TicTacToe.nxc
-8	__initialize_global_data	4712	C:\Github\NXC_Source\TicTacToe.nxc
+2	CheckWin	660	C:\Github\NXC_Source\TicTacToe.nxc
+3	Redraw	1314	C:\Github\NXC_Source\TicTacToe.nxc
+4	P	2290	C:\Github\NXC_Source\TicTacToe.nxc
+5	ChooseP2	2691	C:\Github\NXC_Source\TicTacToe.nxc
+6	AI	2911	C:\Github\NXC_Source\TicTacToe.nxc
+7	GameOver	4400	C:\Github\NXC_Source\TicTacToe.nxc
+8	__initialize_global_data	4745	C:\Github\NXC_Source\TicTacToe.nxc

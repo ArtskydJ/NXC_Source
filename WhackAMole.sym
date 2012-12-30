@@ -1,189 +1,215 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_003correctbutton	6	1	0	4	6
-1	__unsigned_stack_001correctbutton	5	1	4	4	4
-2	__FReadMutex	9	0	8	4	2
-3	__FCMutex	9	0	12	4	4
-4	__DU0correctbutton	5	1	16	4	2
-5	__D0correctbutton	6	1	20	4	67
-6	__signed_stack_001main	6	1	24	4	32
-7	__unsigned_stack_001main	5	1	28	4	2
-8	__signed_stack_003main	6	1	32	4	14
-9	__signed_stack_002main	6	1	36	4	24
-10	__SPTArgsMutex	9	0	40	4	20
-11	__FWriteMutex	9	0	44	4	2
-12	__signed_stack_001readHigh	6	1	48	4	2
-13	__TextOutMutex	9	0	52	4	12
-14	__signed_stack_001correctbutton	6	1	56	4	14
+0	__constVal65535	6	0	0	4	1
+1	__FReadMutex	9	0	4	4	2
+2	__signed_stack_002correctbutton	6	1	8	4	8
+3	__FWriteMutex	9	0	12	4	2
+4	__D0writeHigh	6	1	16	4	6
+5	__FDMutex	9	0	20	4	2
+6	__signed_stack_001correctbutton	6	1	24	4	14
+7	__signed_stack_003main	6	1	28	4	14
+8	__signed_stack_002main	6	1	32	4	24
+9	__signed_stack_001main	6	1	36	4	32
+10	__unsigned_stack_001main	5	1	40	4	2
+11	__signed_stack_003correctbutton	6	1	44	4	6
+12	__unsigned_stack_001correctbutton	5	1	48	4	4
+13	__signed_stack_001readHigh	6	1	52	4	3
+14	__DF0correctbutton	10	1	56	4	2
 15	__Wait_7qG2_ms_7qG2_000_inline_correctbutton	5	1	60	4	2
-16	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	64	4	14
-17	__D0writeHigh	6	1	68	4	4
-18	__D0readHigh	6	1	72	4	11
-19	__constVal262145	6	0	76	4	3
-20	__D0main	6	1	80	4	62
+16	__constVal262145	6	0	64	4	3
+17	__TextOutMutex	9	0	68	4	12
+18	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	72	4	14
+19	__D0correctbutton	6	1	76	4	67
+20	__DU0correctbutton	5	1	80	4	2
 21	__FOMutex	9	0	84	4	4
-22	__DF0correctbutton	10	1	88	4	2
-23	__sqrt_7qG2_x_7qG2_000_inline_correctbutton	10	1	92	4	2
-24	__signed_stack_002correctbutton	6	1	96	4	8
-25	__DU0main	5	1	100	4	4
-26	__correctbutton_7qG2_i_7qG2_001	4	1	104	2	4
-27	__correctbutton_7qG2_r_7qG2_000	4	1	106	2	4
-28	__correctbutton_7qG2_c_7qG2_000	4	1	108	2	4
-29	__main_7qG2_i_7qG2_003	4	1	110	2	4
-30	__main_7qG2_i_7qG2_001	4	1	112	2	3
-31	__main_7qG2_temp_7qG2_000	4	1	114	2	3
-32	__correctbutton_7qG2_l_7qG2_000	4	1	116	2	4
-33	__readHigh_7qG2_ARead_7qG2_000	4	1	118	2	5
-34	handle	4	1	120	2	6
-35	level	4	0	122	2	7
-36	__correctbutton_7qG2_b_7qG2_000	4	1	124	2	4
-37	__constVal1024	4	0	126	2	1
-38	__writeHigh_7qG2_NewHighscore_7qG2_000	4	1	128	2	2
-39	__constVal200	4	0	130	2	6
-40	__constVal110	2	0	132	1	1
-41	__constVal109	2	0	133	1	1
-42	__constVal107	2	0	134	1	1
-43	__constVal108	2	0	135	1	1
-44	__constVal114	2	0	136	1	1
-45	__constVal115	2	0	137	1	1
-46	__constVal113	2	0	138	1	1
-47	__constVal111	2	0	139	1	1
-48	__constVal112	2	0	140	1	1
-49	__constVal106	2	0	141	1	1
-50	__constVal98	2	0	142	1	1
-51	__constVal99	2	0	143	1	1
-52	__constVal32	2	0	144	1	1
-53	__constVal97	2	0	145	1	1
-54	__constVal101	2	0	146	1	1
-55	__constVal104	2	0	147	1	1
-56	__constVal105	2	0	148	1	1
-57	__constVal102	2	0	149	1	1
-58	__constVal103	2	0	150	1	1
-59	__constVal51	2	0	151	1	1
-60	__constVal52	2	0	152	1	1
-61	__constVal48	2	0	153	1	1
-62	__constVal49	2	0	154	1	1
-63	__constVal53	2	0	155	1	1
-64	__constVal56	2	0	156	1	1
-65	__constVal57	2	0	157	1	1
-66	__constVal54	2	0	158	1	1
-67	__constVal55	2	0	159	1	1
-68	__constVal63	2	0	160	1	1
-69	__constVal118	2	0	161	1	1
-70	__constVal119	2	0	162	1	1
-71	__constVal116	2	0	163	1	1
-72	__constVal117	2	0	164	1	1
-73	__constVal120	2	0	165	1	1
-74	__constVal44	2	0	166	1	1
-75	__constVal46	2	0	167	1	1
-76	__constVal121	2	0	168	1	1
-77	__constVal122	2	0	169	1	1
-78	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	170	1	2
-79	__constVal35	2	0	171	1	1
-80	__constVal34	2	0	172	1	1
-81	__constVal33	2	0	173	1	1
-82	____initialize_global_data_return	1	1	174	1	3
-83	__constValNeg1	2	0	175	1	1
-84	__correctbutton_7qG2_correcthit_7qG2_000	1	1	176	1	6
-85	__correctbutton_return	1	1	177	1	4
-86	__correctbutton_7qG2_stayalive_7qG2_000	1	1	178	1	6
-87	__IOMRUnflattenErr	1	1	179	1	3
-88	__writeHigh_return	1	1	180	1	3
-89	__constVal50	2	0	181	1	1
-90	__constVal100	2	0	182	1	1
-91	__tmpsbytecorrectbutton	2	1	183	1	9
-92	__constVal1	2	0	184	1	6
-93	__constVal0	2	1	185	1	2
-94	__main_7qG2_alive_7qG2_000	1	1	186	1	5
-95	__readHigh_return	1	1	187	1	5
-96	__FReadTmpByte	1	1	188	1	1
-97	__FDArgs	8	0	2	8	3
-98	__FDArgs.Result	3	1	192	2	3
-99	__FDArgs.Filename	7	0	194	4	3
-100	__FDArgs.Filename.Filename_type	1	0	0	1	0
-101	__FCArgs	8	0	2	4	6
-102	__FCArgs.Result	3	1	196	2	6
-103	__FCArgs.FileHandle	1	1	198	1	6
-104	__FWriteArgs	8	0	4	12	6
-105	__FWriteArgs.Result	3	1	200	2	6
-106	__FWriteArgs.FileHandle	1	1	202	1	6
-107	__FWriteArgs.Buffer	7	0	204	4	6
-108	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
-109	__FWriteArgs.Length	5	1	208	4	6
-110	__FReadArgs	8	0	4	12	5
-111	__FReadArgs.Result	3	1	212	2	5
-112	__FReadArgs.FileHandle	1	1	214	1	5
-113	__FReadArgs.Buffer	7	0	216	4	5
-114	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
-115	__FReadArgs.Length	5	1	220	4	5
-116	__SPTArgs	8	0	5	8	60
-117	__SPTArgs.Result	2	1	224	1	60
-118	__SPTArgs.Frequency	3	1	226	2	60
-119	__SPTArgs.Duration	3	1	228	2	60
-120	__SPTArgs.Loop	1	1	230	1	60
-121	__SPTArgs.Volume	1	1	231	1	60
-122	__PointOutArgs	8	0	3	12	12
-123	__PointOutArgs.Result	2	1	232	1	12
-124	__PointOutArgs.Location	8	0	2	4	12
-125	__PointOutArgs.Location.X	4	1	236	2	12
-126	__PointOutArgs.Location.Y	4	1	238	2	12
-127	__PointOutArgs.Options	5	1	240	4	12
-128	__TextOutArgs	8	0	4	16	35
-129	__TextOutArgs.Result	2	1	244	1	35
-130	__TextOutArgs.Location	8	0	2	4	35
-131	__TextOutArgs.Location.X	4	1	248	2	35
-132	__TextOutArgs.Location.Y	4	1	250	2	35
-133	__TextOutArgs.Text	7	0	252	4	35
-134	__TextOutArgs.Text.Text_type	1	0	0	1	0
-135	__TextOutArgs.Options	5	1	256	4	35
-136	__RandomExArgs	8	0	2	8	2
-137	__RandomExArgs.Seed	5	1	260	4	2
-138	__RandomExArgs.ReSeed	1	1	264	1	2
-139	__FOArgs	8	0	4	12	9
-140	__FOArgs.Result	3	1	268	2	9
-141	__FOArgs.FileHandle	1	1	270	1	9
-142	__FOArgs.Filename	7	0	272	4	9
-143	__FOArgs.Filename.Filename_type	1	0	0	1	0
-144	__FOArgs.Length	5	1	276	4	9
-145	__IOMRBIArgs	8	0	5	16	15
-146	__IOMRBIArgs.Result	2	1	280	1	15
-147	__IOMRBIArgs.ModuleID	5	1	284	4	15
-148	__IOMRBIArgs.Offset	3	1	288	2	15
-149	__IOMRBIArgs.Count	3	1	290	2	15
-150	__IOMRBIArgs.Buffer	7	0	292	4	15
-151	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
-152	__ArrHelper__main_244_0	7	0	294	4	4
-153	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
-154	__constStr0038	7	0	296	4	1
-155	__constStr0038.__constStr0038_type	1	1	0	1	0
-156	__constStr0040	7	0	298	4	1
-157	__constStr0040.__constStr0040_type	1	1	0	1	0
-158	__constStr0039	7	0	300	4	3
-159	__constStr0039.__constStr0039_type	1	1	0	1	0
-160	__strbufmain	7	0	302	4	22
-161	__strbufmain.__strbufmain_type	1	0	0	1	0
-162	__strretvalmain	7	0	304	4	6
-163	__strretvalmain.__strretvalmain_type	1	0	0	1	0
-164	__ArrHelper__main_244_1	7	0	306	4	4
-165	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
-166	__constStr0037	7	0	308	4	1
-167	__constStr0037.__constStr0037_type	1	1	0	1	0
-168	__BlankLine	7	0	310	4	1
-169	__BlankLine.__BlankLine_type	1	0	0	1	0
-170	__constStr0042	7	0	312	4	1
-171	__constStr0042.__constStr0042_type	1	1	0	1	0
-172	__IOMRUnflattenBuf	7	0	314	4	6
-173	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
-174	__writeHigh_7qG2_readme_7qG2_000	7	0	316	4	3
-175	__writeHigh_7qG2_readme_7qG2_000.__writeHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
-176	layout	7	0	318	4	1
-177	layout.layout_type	1	0	0	1	0
-178	__FWriteFlattenBuf	7	0	320	4	2
-179	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
-180	__readHigh_7qG2_readme_7qG2_000	7	0	322	4	3
-181	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
-182	__constStr0041	7	0	324	4	1
-183	__constStr0041.__constStr0041_type	1	1	0	1	0
+22	__D0readHigh	6	1	88	4	12
+23	__FCMutex	9	0	92	4	4
+24	__DU0main	5	1	96	4	4
+25	__sqrt_7qG2_x_7qG2_000_inline_correctbutton	10	1	100	4	2
+26	__SPTArgsMutex	9	0	104	4	20
+27	__D0main	6	1	108	4	62
+28	__correctbutton_7qG2_i_7qG2_001	4	1	112	2	4
+29	__correctbutton_7qG2_r_7qG2_000	4	1	114	2	4
+30	__correctbutton_7qG2_c_7qG2_000	4	1	116	2	4
+31	__main_7qG2_i_7qG2_003	4	1	118	2	4
+32	__main_7qG2_i_7qG2_001	4	1	120	2	3
+33	__main_7qG2_temp_7qG2_000	4	1	122	2	3
+34	__correctbutton_7qG2_l_7qG2_000	4	1	124	2	4
+35	__readHigh_7qG2_result_7qG2_000	4	1	126	2	3
+36	hshandle	4	1	128	2	6
+37	level	4	0	130	2	7
+38	__correctbutton_7qG2_b_7qG2_000	4	1	132	2	4
+39	__constVal1024	4	0	134	2	1
+40	__writeHigh_7qG2_NewHighscore_7qG2_000	4	1	136	2	2
+41	__constVal200	4	0	138	2	6
+42	__RLSMaxBytes	3	1	140	2	2
+43	__RLSByteCount	3	1	142	2	4
+44	__RLSReturn	3	1	144	2	3
+45	__constVal106	2	0	146	1	1
+46	__constVal107	2	0	147	1	1
+47	__constVal104	2	0	148	1	1
+48	__constVal105	2	0	149	1	1
+49	__constVal108	2	0	150	1	1
+50	__constVal109	2	0	151	1	1
+51	__constVal110	2	0	152	1	1
+52	__constVal112	2	0	153	1	1
+53	__constVal111	2	0	154	1	1
+54	__constVal1	2	0	155	1	8
+55	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	156	1	2
+56	__constVal32	2	0	157	1	1
+57	____initialize_global_data_return	1	1	158	1	3
+58	__main_7qG2_alive_7qG2_000	1	1	159	1	5
+59	__constVal0	2	1	160	1	3
+60	__constVal101	2	0	161	1	1
+61	__constVal102	2	0	162	1	1
+62	__constVal103	2	0	163	1	1
+63	__constVal97	2	0	164	1	1
+64	__constVal98	2	0	165	1	1
+65	__constVal99	2	0	166	1	1
+66	__constVal113	2	0	167	1	1
+67	__constVal51	2	0	168	1	1
+68	__constVal52	2	0	169	1	1
+69	__constVal49	2	0	170	1	1
+70	__constVal63	2	0	171	1	1
+71	__constVal48	2	0	172	1	1
+72	__constVal56	2	0	173	1	1
+73	__constVal57	2	0	174	1	1
+74	__constVal55	2	0	175	1	1
+75	__constVal53	2	0	176	1	1
+76	__constVal54	2	0	177	1	1
+77	__constVal46	2	0	178	1	1
+78	__constVal117	2	0	179	1	1
+79	__constVal118	2	0	180	1	1
+80	__constVal116	2	0	181	1	1
+81	__constVal114	2	0	182	1	1
+82	__constVal115	2	0	183	1	1
+83	__constVal122	2	0	184	1	1
+84	__constVal44	2	0	185	1	1
+85	__constVal121	2	0	186	1	1
+86	__constVal119	2	0	187	1	1
+87	__constVal120	2	0	188	1	1
+88	__constVal33	2	0	189	1	1
+89	__FReadTmpByte	1	1	190	1	3
+90	__readHigh_return	1	1	191	1	5
+91	__RLSReturnAddress	1	1	192	1	2
+92	__correctbutton_7qG2_correcthit_7qG2_000	1	1	193	1	6
+93	__correctbutton_return	1	1	194	1	4
+94	__writeHigh_return	1	1	195	1	3
+95	__constVal100	2	0	196	1	1
+96	__constVal50	2	0	197	1	1
+97	__tmpsbytecorrectbutton	2	1	198	1	9
+98	____readStringLine_return	1	1	199	1	1
+99	__constVal10	2	0	200	1	1
+100	__constVal13	2	0	201	1	1
+101	__constVal35	2	0	202	1	1
+102	__correctbutton_7qG2_stayalive_7qG2_000	1	1	203	1	6
+103	__constVal34	2	0	204	1	1
+104	__IOMRUnflattenErr	1	1	205	1	3
+105	__FDArgs	8	0	2	8	3
+106	__FDArgs.Result	3	1	208	2	3
+107	__FDArgs.Filename	7	0	210	4	3
+108	__FDArgs.Filename.Filename_type	1	0	0	1	0
+109	__FReadArgs	8	0	4	12	6
+110	__FReadArgs.Result	3	1	212	2	6
+111	__FReadArgs.FileHandle	1	1	214	1	6
+112	__FReadArgs.Buffer	7	0	216	4	6
+113	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+114	__FReadArgs.Length	5	1	220	4	6
+115	__PointOutArgs	8	0	3	12	12
+116	__PointOutArgs.Result	2	1	224	1	12
+117	__PointOutArgs.Location	8	0	2	4	12
+118	__PointOutArgs.Location.X	4	1	228	2	12
+119	__PointOutArgs.Location.Y	4	1	230	2	12
+120	__PointOutArgs.Options	5	1	232	4	12
+121	__FWriteArgs	8	0	4	12	6
+122	__FWriteArgs.Result	3	1	236	2	6
+123	__FWriteArgs.FileHandle	1	1	238	1	6
+124	__FWriteArgs.Buffer	7	0	240	4	6
+125	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+126	__FWriteArgs.Length	5	1	244	4	6
+127	__TextOutArgs	8	0	4	16	35
+128	__TextOutArgs.Result	2	1	248	1	35
+129	__TextOutArgs.Location	8	0	2	4	35
+130	__TextOutArgs.Location.X	4	1	252	2	35
+131	__TextOutArgs.Location.Y	4	1	254	2	35
+132	__TextOutArgs.Text	7	0	256	4	35
+133	__TextOutArgs.Text.Text_type	1	0	0	1	0
+134	__TextOutArgs.Options	5	1	260	4	35
+135	__FOArgs	8	0	4	12	9
+136	__FOArgs.Result	3	1	264	2	9
+137	__FOArgs.FileHandle	1	1	266	1	9
+138	__FOArgs.Filename	7	0	268	4	9
+139	__FOArgs.Filename.Filename_type	1	0	0	1	0
+140	__FOArgs.Length	5	1	272	4	9
+141	__IOMRBIArgs	8	0	5	16	15
+142	__IOMRBIArgs.Result	2	1	276	1	15
+143	__IOMRBIArgs.ModuleID	5	1	280	4	15
+144	__IOMRBIArgs.Offset	3	1	284	2	15
+145	__IOMRBIArgs.Count	3	1	286	2	15
+146	__IOMRBIArgs.Buffer	7	0	288	4	15
+147	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
+148	__RandomExArgs	8	0	2	8	2
+149	__RandomExArgs.Seed	5	1	292	4	2
+150	__RandomExArgs.ReSeed	1	1	296	1	2
+151	__SPTArgs	8	0	5	8	60
+152	__SPTArgs.Result	2	1	300	1	60
+153	__SPTArgs.Frequency	3	1	302	2	60
+154	__SPTArgs.Duration	3	1	304	2	60
+155	__SPTArgs.Loop	1	1	306	1	60
+156	__SPTArgs.Volume	1	1	307	1	60
+157	__FCArgs	8	0	2	4	6
+158	__FCArgs.Result	3	1	308	2	6
+159	__FCArgs.FileHandle	1	1	310	1	6
+160	__BlankLine	7	0	312	4	1
+161	__BlankLine.__BlankLine_type	1	0	0	1	0
+162	__FWriteFlattenBuf	7	0	314	4	2
+163	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+164	__ArrHelper__main_244_0	7	0	316	4	4
+165	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+166	__ArrHelper__main_244_1	7	0	318	4	4
+167	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+168	__FWriteLn	7	0	320	4	1
+169	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+170	__strretvalmain	7	0	322	4	6
+171	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+172	__strbufmain	7	0	324	4	22
+173	__strbufmain.__strbufmain_type	1	0	0	1	0
+174	__strbufreadHigh	7	0	326	4	4
+175	__strbufreadHigh.__strbufreadHigh_type	1	0	0	1	0
+176	__strretvalwriteHigh	7	0	328	4	2
+177	__strretvalwriteHigh.__strretvalwriteHigh_type	1	0	0	1	0
+178	__strbufwriteHigh	7	0	330	4	2
+179	__strbufwriteHigh.__strbufwriteHigh_type	1	0	0	1	0
+180	__writeHigh_7qG2_tempStr_7qG2_000	7	0	332	4	2
+181	__writeHigh_7qG2_tempStr_7qG2_000.__writeHigh_7qG2_tempStr_7qG2_000_type	1	0	0	1	0
+182	__constStr0045	7	0	334	4	1
+183	__constStr0045.__constStr0045_type	1	1	0	1	0
+184	__writeHigh_7qG2_readme_7qG2_000	7	0	336	4	3
+185	__writeHigh_7qG2_readme_7qG2_000.__writeHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+186	__constStr0046	7	0	338	4	3
+187	__constStr0046.__constStr0046_type	1	1	0	1	0
+188	__constStr0048	7	0	340	4	1
+189	__constStr0048.__constStr0048_type	1	1	0	1	0
+190	__constStr0049	7	0	342	4	1
+191	__constStr0049.__constStr0049_type	1	1	0	1	0
+192	__constStr0047	7	0	344	4	1
+193	__constStr0047.__constStr0047_type	1	1	0	1	0
+194	__RLSBuffer	7	0	346	4	2
+195	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+196	__constStr0016	7	0	348	4	1
+197	__constStr0016.__constStr0016_type	1	1	0	1	0
+198	layout	7	0	350	4	1
+199	layout.layout_type	1	0	0	1	0
+200	__IOMRUnflattenBuf	7	0	352	4	6
+201	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+202	__RLSOutput	7	0	354	4	4
+203	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+204	__readHigh_7qG2_ARead_7qG2_000	7	0	356	4	3
+205	__readHigh_7qG2_ARead_7qG2_000.__readHigh_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+206	__constStr0044	7	0	358	4	1
+207	__constStr0044.__constStr0044_type	1	1	0	1	0
+208	__readHigh_7qG2_readme_7qG2_000	7	0	360	4	3
+209	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	37	0	#line 37 "C:\Github\NXC_Source\WhackAMole.nxc"
@@ -200,13 +226,13 @@ Clump	Line	PC	Source
 0	39	10	#line 39 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	40	10		tst 5, __D0main, __DU0main
 0	39	13	#line 39 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	40	13		brtst 4, __ASM_Label_1240, __D0main
+0	40	13		brtst 4, __ASM_Label_1190, __D0main
 0	39	16	#line 39 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	40	16		jmp __ASM_Label_1241
+0	40	16		jmp __ASM_Label_1191
 0	40	18	#line 40 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	41	18		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
 0	41	22	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	42	22		jmp __ASM_Label_1239
+0	42	22		jmp __ASM_Label_1189
 0	41	24	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	42	24		set __main_7qG2_i_7qG2_003, 0
 0	41	27	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
@@ -218,24 +244,24 @@ Clump	Line	PC	Source
 0	41	31	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	42	31		cmp 0, __D0main, __signed_stack_001main, __D0main
 0	41	35	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	42	35		brtst 4, __ASM_Label_1254, __D0main
+0	42	35		brtst 4, __ASM_Label_1204, __D0main
 0	41	38	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	42	38		mov __DU0main, __main_7qG2_alive_7qG2_000
 0	41	40	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	42	40		tst 5, __D0main, __DU0main
 0	41	43	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	42	43		brtst 4, __ASM_Label_1248, __D0main
+0	42	43		brtst 4, __ASM_Label_1198, __D0main
 0	41	46	#line 41 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	42	46		jmp __ASM_Label_1249
+0	42	46		jmp __ASM_Label_1199
 0	42	48	#line 42 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	43	48		add __main_7qG2_i_7qG2_003, __main_7qG2_i_7qG2_003, __constVal1
 0	43	52	#line 43 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	44	52		jmp __ASM_Label_1247
+0	44	52		jmp __ASM_Label_1197
 0	43	54	#line 43 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	44	54	#pragma macro 4
 0	44	54		syscall 99, __RandomExArgs
 0	44	57		mov __signed_stack_001main, __RandomExArgs.Seed
-0	11304	60	#line 11304 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	10994	60	#line 10994 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	43	60	#line 43 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	43	60	#line 43 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	44	60		set __D0main, 3
@@ -256,7 +282,7 @@ Clump	Line	PC	Source
 0	6904	77		mov __TextOutArgs.Text, __BlankLine
 0	6904	79		syscall 13, __TextOutArgs
 0	6904	82		release __TextOutMutex
-0	11330	83	#line 11330 "NXCDefs.h"
+0	11020	83	#line 11020 "NXCDefs.h"
 0	6903	83	#line 6903 "NXCDefs.h"
 0	44	83	#line 44 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	45	83	#line 45 "C:\Github\NXC_Source\WhackAMole.nxc"
@@ -271,7 +297,7 @@ Clump	Line	PC	Source
 0	46	92		set __signed_stack_002main, 0
 0	45	95	#line 45 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	45	95	#line 45 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	46	95		strcat __strbufmain, __constStr0037
+0	46	95		strcat __strbufmain, __constStr0044
 0	45	99	#line 45 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	46	99		set __D0main, 0
 0	45	102	#line 45 "C:\Github\NXC_Source\WhackAMole.nxc"
@@ -306,888 +332,916 @@ Clump	Line	PC	Source
 0	47	129		acquire __SPTArgsMutex
 0	46	130	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	47	130		mov __SPTArgs.Frequency, __signed_stack_001main
-0	46	132	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	132		mov __SPTArgs.Duration, __signed_stack_002main
-0	46	134	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	134		mov __SPTArgs.Volume, __signed_stack_003main
+0	46	133	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	47	133		mov __SPTArgs.Duration, __signed_stack_002main
 0	46	136	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	136		mov __SPTArgs.Loop, __D0main
-0	46	138	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	138		syscall 10, __SPTArgs
-0	46	141	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	141		mov __D0main, __SPTArgs.Result
-0	46	143	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	143		release __SPTArgsMutex
-0	46	144	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	144	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	48	144		mov __correctbutton_7qG2_b_7qG2_000, __main_7qG2_temp_7qG2_000
-0	47	146	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	47	146	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	48	146		subcall correctbutton, __correctbutton_return
+0	47	136		mov __SPTArgs.Volume, __signed_stack_003main
+0	46	139	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	47	139		mov __SPTArgs.Loop, __D0main
+0	46	142	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	47	142		syscall 10, __SPTArgs
+0	46	145	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	47	145		mov __D0main, __SPTArgs.Result
+0	46	147	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	47	147		release __SPTArgsMutex
+0	46	148	#line 46 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	47	148	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	48	148		mov __main_7qG2_alive_7qG2_000, __DU0correctbutton
+0	48	148		mov __correctbutton_7qG2_b_7qG2_000, __main_7qG2_temp_7qG2_000
 0	47	150	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	47	150	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	48	150	#line 48 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	49	150		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
-0	48	153	#line 48 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	153	#line 8771 "NXCDefs.h"
-0	8772	153		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	155	#line 8771 "NXCDefs.h"
-0	48	155	#line 48 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	50	155	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	51	155		jmp __ASM_Label_1250
-0	50	157	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	50	157	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	51	157		mov __unsigned_stack_001main, __main_7qG2_alive_7qG2_000
+0	48	150		subcall correctbutton, __correctbutton_return
+0	47	152	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	48	152		mov __main_7qG2_alive_7qG2_000, __DU0correctbutton
+0	47	154	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	47	154	#line 47 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	48	154	#line 48 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	49	154		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	48	157	#line 48 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	157	#line 8771 "NXCDefs.h"
+0	8772	157		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	159	#line 8771 "NXCDefs.h"
+0	48	159	#line 48 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	50	159	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	51	159	#line 51 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	52	159		set __D0main, 1
-0	51	162	#line 51 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	52	162		cmp 4, __D0main, __unsigned_stack_001main, __D0main
-0	52	166	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	53	166		brtst 4, __ASM_Label_1287, __D0main
-0	52	169	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	53	169		set __D0main, 1
-0	52	172	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	53	172		add level, level, __D0main
+0	51	159		jmp __ASM_Label_1200
+0	50	161	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	50	161	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	51	161		mov __unsigned_stack_001main, __main_7qG2_alive_7qG2_000
+0	50	163	#line 50 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	51	163	#line 51 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	52	163		set __D0main, 1
+0	51	166	#line 51 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	52	166		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	52	170	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	53	170		brtst 4, __ASM_Label_1237, __D0main
+0	52	173	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	53	173		set __D0main, 1
 0	52	176	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	6896	176	#line 6896 "NXCDefs.h"
-0	6897	176	#pragma macro 6
-0	6897	176		mov __PointOutArgs.Location.X, __constVal200
-0	6897	178		mov __PointOutArgs.Location.Y, __constVal200
-0	6897	180		mov __PointOutArgs.Options, __constVal1
-0	6897	182		syscall 14, __PointOutArgs
-0	11464	185	#line 11464 "NXCDefs.h"
-0	6896	185	#line 6896 "NXCDefs.h"
-0	53	185	#line 53 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	54	185	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	185		set __signed_stack_001main, 30
-0	54	188	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	54	188	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	188		set __signed_stack_002main, 56
-0	54	191	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	54	191	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	191		strcat __strbufmain, __constStr0038
+0	53	176		add level, level, __D0main
+0	52	180	#line 52 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	6896	180	#line 6896 "NXCDefs.h"
+0	6897	180	#pragma macro 6
+0	6897	180		mov __PointOutArgs.Location.X, __constVal200
+0	6897	182		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	184		mov __PointOutArgs.Options, __constVal1
+0	6897	186		syscall 14, __PointOutArgs
+0	11154	189	#line 11154 "NXCDefs.h"
+0	6896	189	#line 6896 "NXCDefs.h"
+0	53	189	#line 53 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	54	189	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	189		set __signed_stack_001main, 30
+0	54	192	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	54	192	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	192		set __signed_stack_002main, 56
 0	54	195	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	195		set __D0main, 0
-0	54	198	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	198		acquire __TextOutMutex
+0	54	195	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	195		strcat __strbufmain, __constStr0045
 0	54	199	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	199		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	54	201	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	201		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	55	199		set __D0main, 0
+0	54	202	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	202		acquire __TextOutMutex
 0	54	203	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	203		mov __TextOutArgs.Options, __D0main
+0	55	203		mov __TextOutArgs.Location.X, __signed_stack_001main
 0	54	205	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	205		mov __TextOutArgs.Text, __strbufmain
+0	55	205		mov __TextOutArgs.Location.Y, __signed_stack_002main
 0	54	207	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	207		syscall 13, __TextOutArgs
-0	54	210	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	210		mov __D0main, __TextOutArgs.Result
-0	54	212	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	212		release __TextOutMutex
-0	54	213	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	213	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	213		set __signed_stack_001main, 1175
-0	55	216	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	216	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	216		set __signed_stack_002main, 500
-0	55	219	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	219	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	219		set __signed_stack_003main, 4
-0	55	222	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	55	222	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	222		set __D0main, 0
-0	55	225	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	225		acquire __SPTArgsMutex
+0	55	207		mov __TextOutArgs.Options, __D0main
+0	54	209	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	209		mov __TextOutArgs.Text, __strbufmain
+0	54	211	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	211		syscall 13, __TextOutArgs
+0	54	214	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	214		mov __D0main, __TextOutArgs.Result
+0	54	216	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	216		release __TextOutMutex
+0	54	217	#line 54 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	217	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	217		set __signed_stack_001main, 1175
+0	55	220	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	220	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	220		set __signed_stack_002main, 500
+0	55	223	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	55	223	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	223		set __signed_stack_003main, 4
 0	55	226	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	226		mov __SPTArgs.Frequency, __signed_stack_001main
-0	55	228	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	228		mov __SPTArgs.Duration, __signed_stack_002main
+0	55	226	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	226		set __D0main, 0
+0	55	229	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	229		acquire __SPTArgsMutex
 0	55	230	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	230		mov __SPTArgs.Volume, __signed_stack_003main
-0	55	232	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	232		mov __SPTArgs.Loop, __D0main
-0	55	234	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	234		syscall 10, __SPTArgs
-0	55	237	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	237		mov __D0main, __SPTArgs.Result
+0	56	230		mov __SPTArgs.Frequency, __signed_stack_001main
+0	55	233	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	233		mov __SPTArgs.Duration, __signed_stack_002main
+0	55	236	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	236		mov __SPTArgs.Volume, __signed_stack_003main
 0	55	239	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	239		release __SPTArgsMutex
-0	55	240	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	56	240	#line 56 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	57	240		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	56	243	#line 56 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	243	#line 8771 "NXCDefs.h"
-0	8772	243		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	245	#line 8771 "NXCDefs.h"
-0	56	245	#line 56 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	57	245	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	245		set __signed_stack_001main, 1568
-0	57	248	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	57	248	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	248		set __signed_stack_002main, 500
-0	57	251	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	57	251	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	251		set __signed_stack_003main, 4
-0	57	254	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	57	254	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	254		set __D0main, 0
-0	57	257	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	257		acquire __SPTArgsMutex
-0	57	258	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	258		mov __SPTArgs.Frequency, __signed_stack_001main
-0	57	260	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	260		mov __SPTArgs.Duration, __signed_stack_002main
+0	56	239		mov __SPTArgs.Loop, __D0main
+0	55	242	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	242		syscall 10, __SPTArgs
+0	55	245	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	245		mov __D0main, __SPTArgs.Result
+0	55	247	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	247		release __SPTArgsMutex
+0	55	248	#line 55 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	56	248	#line 56 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	57	248		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	56	251	#line 56 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	251	#line 8771 "NXCDefs.h"
+0	8772	251		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	253	#line 8771 "NXCDefs.h"
+0	56	253	#line 56 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	57	253	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	253		set __signed_stack_001main, 1568
+0	57	256	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	57	256	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	256		set __signed_stack_002main, 500
+0	57	259	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	57	259	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	259		set __signed_stack_003main, 4
 0	57	262	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	262		mov __SPTArgs.Volume, __signed_stack_003main
-0	57	264	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	264		mov __SPTArgs.Loop, __D0main
+0	57	262	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	262		set __D0main, 0
+0	57	265	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	265		acquire __SPTArgsMutex
 0	57	266	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	266		syscall 10, __SPTArgs
+0	58	266		mov __SPTArgs.Frequency, __signed_stack_001main
 0	57	269	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	269		mov __D0main, __SPTArgs.Result
-0	57	271	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	271		release __SPTArgsMutex
+0	58	269		mov __SPTArgs.Duration, __signed_stack_002main
 0	57	272	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	58	272	#line 58 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	59	272		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	58	275	#line 58 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	275	#line 8771 "NXCDefs.h"
-0	8772	275		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	277	#line 8771 "NXCDefs.h"
-0	58	277	#line 58 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	59	277	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	277		set __signed_stack_001main, 2093
-0	59	280	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	59	280	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	280		set __signed_stack_002main, 500
-0	59	283	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	59	283	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	283		set __signed_stack_003main, 4
-0	59	286	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	59	286	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	286		set __D0main, 0
+0	58	272		mov __SPTArgs.Volume, __signed_stack_003main
+0	57	275	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	275		mov __SPTArgs.Loop, __D0main
+0	57	278	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	278		syscall 10, __SPTArgs
+0	57	281	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	281		mov __D0main, __SPTArgs.Result
+0	57	283	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	283		release __SPTArgsMutex
+0	57	284	#line 57 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	58	284	#line 58 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	59	284		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	58	287	#line 58 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	287	#line 8771 "NXCDefs.h"
+0	8772	287		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	289	#line 8771 "NXCDefs.h"
+0	58	289	#line 58 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	59	289	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	289		acquire __SPTArgsMutex
-0	59	290	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	290		mov __SPTArgs.Frequency, __signed_stack_001main
+0	60	289		set __signed_stack_001main, 2093
 0	59	292	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	292		mov __SPTArgs.Duration, __signed_stack_002main
-0	59	294	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	294		mov __SPTArgs.Volume, __signed_stack_003main
-0	59	296	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	296		mov __SPTArgs.Loop, __D0main
+0	59	292	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	292		set __signed_stack_002main, 500
+0	59	295	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	59	295	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	295		set __signed_stack_003main, 4
 0	59	298	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	298		syscall 10, __SPTArgs
+0	59	298	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	298		set __D0main, 0
 0	59	301	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	301		mov __D0main, __SPTArgs.Result
-0	59	303	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	303		release __SPTArgsMutex
-0	59	304	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	60	304	#line 60 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	61	304		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	60	307	#line 60 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	307	#line 8771 "NXCDefs.h"
-0	8772	307		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	309	#line 8771 "NXCDefs.h"
-0	60	309	#line 60 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	6896	309	#line 6896 "NXCDefs.h"
-0	6897	309	#pragma macro 6
-0	6897	309		mov __PointOutArgs.Location.X, __constVal200
-0	6897	311		mov __PointOutArgs.Location.Y, __constVal200
-0	6897	313		mov __PointOutArgs.Options, __constVal1
-0	6897	315		syscall 14, __PointOutArgs
-0	11636	318	#line 11636 "NXCDefs.h"
-0	6896	318	#line 6896 "NXCDefs.h"
-0	61	318	#line 61 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	65	318	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	318		jmp __ASM_Label_1326
-0	65	320	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	320		mov __signed_stack_001main, level
-0	65	322	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	65	322	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	322		strcat __strbufmain, __constStr0039
-0	65	326	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	326		mov __readHigh_7qG2_readme_7qG2_000, __strbufmain
-0	65	328	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	328		subcall readHigh, __readHigh_return
-0	65	330	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	330		mov __D0main, __D0readHigh
-0	65	332	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	332		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	60	301		acquire __SPTArgsMutex
+0	59	302	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	302		mov __SPTArgs.Frequency, __signed_stack_001main
+0	59	305	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	305		mov __SPTArgs.Duration, __signed_stack_002main
+0	59	308	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	308		mov __SPTArgs.Volume, __signed_stack_003main
+0	59	311	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	311		mov __SPTArgs.Loop, __D0main
+0	59	314	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	314		syscall 10, __SPTArgs
+0	59	317	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	317		mov __D0main, __SPTArgs.Result
+0	59	319	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	319		release __SPTArgsMutex
+0	59	320	#line 59 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	60	320	#line 60 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	61	320		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	60	323	#line 60 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	323	#line 8771 "NXCDefs.h"
+0	8772	323		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	325	#line 8771 "NXCDefs.h"
+0	60	325	#line 60 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	6896	325	#line 6896 "NXCDefs.h"
+0	6897	325	#pragma macro 6
+0	6897	325		mov __PointOutArgs.Location.X, __constVal200
+0	6897	327		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	329		mov __PointOutArgs.Options, __constVal1
+0	6897	331		syscall 14, __PointOutArgs
+0	11326	334	#line 11326 "NXCDefs.h"
+0	6896	334	#line 6896 "NXCDefs.h"
+0	61	334	#line 61 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	65	334	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	334		jmp __ASM_Label_1276
 0	65	336	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	336		brtst 4, __ASM_Label_1329, __D0main
-0	65	339	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	339		strcat __strbufmain, __constStr0039
-0	65	343	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	343		mov __writeHigh_7qG2_readme_7qG2_000, __strbufmain
-0	65	345	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	345		mov __writeHigh_7qG2_NewHighscore_7qG2_000, level
-0	65	347	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	65	347	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	347		subcall writeHigh, __writeHigh_return
-0	65	349	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	66	349	#line 66 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	6896	349	#line 6896 "NXCDefs.h"
-0	6897	349	#pragma macro 6
-0	6897	349		mov __PointOutArgs.Location.X, __constVal200
-0	6897	351		mov __PointOutArgs.Location.Y, __constVal200
-0	6897	353		mov __PointOutArgs.Options, __constVal1
-0	6897	355		syscall 14, __PointOutArgs
-0	11678	358	#line 11678 "NXCDefs.h"
-0	6896	358	#line 6896 "NXCDefs.h"
-0	66	358	#line 66 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	67	358	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	358		set __signed_stack_001main, 30
-0	67	361	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	67	361	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	361		set __signed_stack_002main, 56
-0	67	364	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	67	364	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	364		strcat __strbufmain, __constStr0040
-0	67	368	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	368		set __D0main, 0
-0	67	371	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	371		acquire __TextOutMutex
-0	67	372	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	372		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	66	336		mov __signed_stack_001main, level
+0	65	338	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	65	338	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	338		strcat __strbufmain, __constStr0046
+0	65	342	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	342		mov __readHigh_7qG2_readme_7qG2_000, __strbufmain
+0	65	344	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	344		subcall readHigh, __readHigh_return
+0	65	346	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	346		mov __D0main, __D0readHigh
+0	65	348	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	348		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	65	352	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	352		brtst 4, __ASM_Label_1279, __D0main
+0	65	355	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	355		strcat __strbufmain, __constStr0046
+0	65	359	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	359		mov __writeHigh_7qG2_readme_7qG2_000, __strbufmain
+0	65	361	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	361		mov __writeHigh_7qG2_NewHighscore_7qG2_000, level
+0	65	363	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	65	363	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	363		subcall writeHigh, __writeHigh_return
+0	65	365	#line 65 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	66	365	#line 66 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	6896	365	#line 6896 "NXCDefs.h"
+0	6897	365	#pragma macro 6
+0	6897	365		mov __PointOutArgs.Location.X, __constVal200
+0	6897	367		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	369		mov __PointOutArgs.Options, __constVal1
+0	6897	371		syscall 14, __PointOutArgs
+0	11368	374	#line 11368 "NXCDefs.h"
+0	6896	374	#line 6896 "NXCDefs.h"
+0	66	374	#line 66 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	67	374	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	374		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	67	376	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	376		mov __TextOutArgs.Options, __D0main
-0	67	378	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	378		mov __TextOutArgs.Text, __strbufmain
+0	68	374		set __signed_stack_001main, 30
+0	67	377	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	67	377	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	377		set __signed_stack_002main, 56
 0	67	380	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	380		syscall 13, __TextOutArgs
-0	67	383	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	383		mov __D0main, __TextOutArgs.Result
-0	67	385	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	385		release __TextOutMutex
-0	67	386	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	386	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	386		set __signed_stack_001main, 30
-0	68	389	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	389	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	389		set __signed_stack_002main, 40
-0	68	392	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	68	392	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	392		mov __ArrHelper__main_244_0, __constStr0041
-0	68	394	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	394		mov __D0main, level
-0	68	396	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	396		numtostr __strretvalmain, __D0main
-0	68	399	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	399		strcat __strbufmain, __strretvalmain
-0	68	403	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	403		mov __ArrHelper__main_244_1, __strbufmain
+0	67	380	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	380		strcat __strbufmain, __constStr0047
+0	67	384	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	384		set __D0main, 0
+0	67	387	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	387		acquire __TextOutMutex
+0	67	388	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	388		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	67	390	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	390		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	67	392	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	392		mov __TextOutArgs.Options, __D0main
+0	67	394	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	394		mov __TextOutArgs.Text, __strbufmain
+0	67	396	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	396		syscall 13, __TextOutArgs
+0	67	399	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	399		mov __D0main, __TextOutArgs.Result
+0	67	401	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	401		release __TextOutMutex
+0	67	402	#line 67 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	402	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	402		set __signed_stack_001main, 30
 0	68	405	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	405		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	68	405	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	405		set __signed_stack_002main, 40
+0	68	408	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	68	408	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	408		mov __ArrHelper__main_244_0, __constStr0048
 0	68	410	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	410		set __D0main, 0
-0	68	413	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	413		acquire __TextOutMutex
-0	68	414	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	414		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	68	416	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	416		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	68	418	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	418		mov __TextOutArgs.Options, __D0main
-0	68	420	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	420		mov __TextOutArgs.Text, __strbufmain
-0	68	422	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	422		syscall 13, __TextOutArgs
-0	68	425	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	425		mov __D0main, __TextOutArgs.Result
-0	68	427	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	427		release __TextOutMutex
-0	68	428	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	428	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	428		set __signed_stack_001main, 30
-0	69	431	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	431	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	431		set __signed_stack_002main, 32
-0	69	434	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	69	434	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	434		strcat __strbufmain, __constStr0042
-0	69	438	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	438		mov __ArrHelper__main_244_0, __strbufmain
-0	69	440	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	440		strcat __strbufmain, __constStr0039
+0	69	410		mov __D0main, level
+0	68	412	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	412		numtostr __strretvalmain, __D0main
+0	68	415	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	415		strcat __strbufmain, __strretvalmain
+0	68	419	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	419		mov __ArrHelper__main_244_1, __strbufmain
+0	68	421	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	421		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	68	426	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	426		set __D0main, 0
+0	68	429	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	429		acquire __TextOutMutex
+0	68	430	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	430		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	68	432	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	432		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	68	434	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	434		mov __TextOutArgs.Options, __D0main
+0	68	436	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	436		mov __TextOutArgs.Text, __strbufmain
+0	68	438	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	438		syscall 13, __TextOutArgs
+0	68	441	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	441		mov __D0main, __TextOutArgs.Result
+0	68	443	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	443		release __TextOutMutex
+0	68	444	#line 68 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	69	444	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	444		mov __readHigh_7qG2_readme_7qG2_000, __strbufmain
-0	69	446	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	446		subcall readHigh, __readHigh_return
-0	69	448	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	448		mov __D0main, __D0readHigh
+0	70	444		set __signed_stack_001main, 30
+0	69	447	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	69	447	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	447		set __signed_stack_002main, 32
 0	69	450	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	450		numtostr __strretvalmain, __D0main
-0	69	453	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	453		strcat __strbufmain, __strretvalmain
-0	69	457	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	457		mov __ArrHelper__main_244_1, __strbufmain
-0	69	459	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	459		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	69	450	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	450		strcat __strbufmain, __constStr0049
+0	69	454	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	454		mov __ArrHelper__main_244_0, __strbufmain
+0	69	456	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	456		strcat __strbufmain, __constStr0046
+0	69	460	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	460		mov __readHigh_7qG2_readme_7qG2_000, __strbufmain
+0	69	462	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	462		subcall readHigh, __readHigh_return
 0	69	464	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	464		strcat __strbufmain, __strretvalmain
-0	69	468	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	468		set __D0main, 0
-0	69	471	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	471		acquire __TextOutMutex
-0	69	472	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	472		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	69	474	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	474		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	69	476	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	476		mov __TextOutArgs.Options, __D0main
-0	69	478	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	478		mov __TextOutArgs.Text, __strbufmain
+0	70	464		mov __D0main, __D0readHigh
+0	69	466	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	466		numtostr __strretvalmain, __D0main
+0	69	469	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	469		strcat __strbufmain, __strretvalmain
+0	69	473	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	473		mov __ArrHelper__main_244_1, __strbufmain
+0	69	475	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	475		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
 0	69	480	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	480		syscall 13, __TextOutArgs
-0	69	483	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	483		mov __D0main, __TextOutArgs.Result
-0	69	485	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	485		release __TextOutMutex
-0	69	486	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	486	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	486		set __signed_stack_001main, 2960
-0	70	489	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	489	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	489		set __signed_stack_002main, 500
-0	70	492	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	492	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	492		set __signed_stack_003main, 4
-0	70	495	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	70	495	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	495		set __D0main, 0
-0	70	498	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	498		acquire __SPTArgsMutex
-0	70	499	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	499		mov __SPTArgs.Frequency, __signed_stack_001main
-0	70	501	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	501		mov __SPTArgs.Duration, __signed_stack_002main
-0	70	503	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	503		mov __SPTArgs.Volume, __signed_stack_003main
+0	70	480		strcat __strbufmain, __strretvalmain
+0	69	484	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	484		set __D0main, 0
+0	69	487	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	487		acquire __TextOutMutex
+0	69	488	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	488		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	69	490	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	490		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	69	492	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	492		mov __TextOutArgs.Options, __D0main
+0	69	494	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	494		mov __TextOutArgs.Text, __strbufmain
+0	69	496	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	496		syscall 13, __TextOutArgs
+0	69	499	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	499		mov __D0main, __TextOutArgs.Result
+0	69	501	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	501		release __TextOutMutex
+0	69	502	#line 69 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	502	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	502		set __signed_stack_001main, 2960
 0	70	505	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	505		mov __SPTArgs.Loop, __D0main
-0	70	507	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	507		syscall 10, __SPTArgs
-0	70	510	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	510		mov __D0main, __SPTArgs.Result
-0	70	512	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	512		release __SPTArgsMutex
-0	70	513	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	71	513	#line 71 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	72	513		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	71	516	#line 71 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	516	#line 8771 "NXCDefs.h"
-0	8772	516		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	518	#line 8771 "NXCDefs.h"
-0	71	518	#line 71 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	72	518	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	518		set __signed_stack_001main, 2794
-0	72	521	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	72	521	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	521		set __signed_stack_002main, 650
-0	72	524	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	72	524	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	524		set __signed_stack_003main, 4
-0	72	527	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	72	527	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	527		set __D0main, 0
-0	72	530	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	530		acquire __SPTArgsMutex
-0	72	531	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	531		mov __SPTArgs.Frequency, __signed_stack_001main
-0	72	533	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	533		mov __SPTArgs.Duration, __signed_stack_002main
-0	72	535	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	535		mov __SPTArgs.Volume, __signed_stack_003main
-0	72	537	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	537		mov __SPTArgs.Loop, __D0main
-0	72	539	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	539		syscall 10, __SPTArgs
-0	72	542	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	542		mov __D0main, __SPTArgs.Result
+0	70	505	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	505		set __signed_stack_002main, 500
+0	70	508	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	508	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	508		set __signed_stack_003main, 4
+0	70	511	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	70	511	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	511		set __D0main, 0
+0	70	514	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	514		acquire __SPTArgsMutex
+0	70	515	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	515		mov __SPTArgs.Frequency, __signed_stack_001main
+0	70	518	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	518		mov __SPTArgs.Duration, __signed_stack_002main
+0	70	521	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	521		mov __SPTArgs.Volume, __signed_stack_003main
+0	70	524	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	524		mov __SPTArgs.Loop, __D0main
+0	70	527	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	527		syscall 10, __SPTArgs
+0	70	530	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	530		mov __D0main, __SPTArgs.Result
+0	70	532	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	532		release __SPTArgsMutex
+0	70	533	#line 70 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	71	533	#line 71 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	72	533		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	71	536	#line 71 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	536	#line 8771 "NXCDefs.h"
+0	8772	536		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	538	#line 8771 "NXCDefs.h"
+0	71	538	#line 71 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	72	538	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	538		set __signed_stack_001main, 2794
+0	72	541	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	72	541	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	541		set __signed_stack_002main, 650
 0	72	544	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	544		release __SPTArgsMutex
-0	72	545	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	73	545	#line 73 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	74	545		set __Wait_7qG2_ms_7qG2_000_inline_main, 650
-0	73	548	#line 73 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	548	#line 8771 "NXCDefs.h"
-0	8772	548		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	550	#line 8771 "NXCDefs.h"
-0	73	550	#line 73 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	74	550	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	550		set __signed_stack_001main, 2637
-0	74	553	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	74	553	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	553		set __signed_stack_002main, 1100
-0	74	556	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	74	556	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	556		set __signed_stack_003main, 4
-0	74	559	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	74	559	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	559		set __D0main, 0
-0	74	562	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	562		acquire __SPTArgsMutex
-0	74	563	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	563		mov __SPTArgs.Frequency, __signed_stack_001main
-0	74	565	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	565		mov __SPTArgs.Duration, __signed_stack_002main
-0	74	567	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	567		mov __SPTArgs.Volume, __signed_stack_003main
-0	74	569	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	569		mov __SPTArgs.Loop, __D0main
-0	74	571	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	571		syscall 10, __SPTArgs
+0	72	544	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	544		set __signed_stack_003main, 4
+0	72	547	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	72	547	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	547		set __D0main, 0
+0	72	550	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	550		acquire __SPTArgsMutex
+0	72	551	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	551		mov __SPTArgs.Frequency, __signed_stack_001main
+0	72	554	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	554		mov __SPTArgs.Duration, __signed_stack_002main
+0	72	557	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	557		mov __SPTArgs.Volume, __signed_stack_003main
+0	72	560	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	560		mov __SPTArgs.Loop, __D0main
+0	72	563	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	563		syscall 10, __SPTArgs
+0	72	566	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	566		mov __D0main, __SPTArgs.Result
+0	72	568	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	568		release __SPTArgsMutex
+0	72	569	#line 72 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	73	569	#line 73 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	74	569		set __Wait_7qG2_ms_7qG2_000_inline_main, 650
+0	73	572	#line 73 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	572	#line 8771 "NXCDefs.h"
+0	8772	572		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	574	#line 8771 "NXCDefs.h"
+0	73	574	#line 73 "C:\Github\NXC_Source\WhackAMole.nxc"
 0	74	574	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	574		mov __D0main, __SPTArgs.Result
-0	74	576	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	576		release __SPTArgsMutex
+0	75	574		set __signed_stack_001main, 2637
 0	74	577	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	75	577	#line 75 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	76	577		set __Wait_7qG2_ms_7qG2_000_inline_main, 1100
-0	75	580	#line 75 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	8771	580	#line 8771 "NXCDefs.h"
-0	8772	580		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	582	#line 8771 "NXCDefs.h"
-0	75	582	#line 75 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	78	582	#line 78 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	80	582	#line 80 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	81	582		jmp __ASM_Label_1242
-0	80	584	#line 80 "C:\Github\NXC_Source\WhackAMole.nxc"
-0	81	584		exit -1, -1
-1	9	0	#line 9 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	10	0		set __readHigh_7qG2_ARead_7qG2_000, 0
-1	9	3	#line 9 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	10	3	#line 10 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	11	3	#pragma macro 7
-1	11	3		acquire __FOMutex
-1	11	4		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
-1	11	6		syscall 0, __FOArgs
-1	11	9		mov handle, __FOArgs.FileHandle
-1	11	11		mov __D0readHigh, __FOArgs.Result
-1	11	13		release __FOMutex
-1	10229	14	#line 10229 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	10	14	#line 10 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	11	14	#line 11 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	11	14	#line 11 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	12	14		mov __signed_stack_001readHigh, __D0readHigh
-1	12	16	#line 12 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	13	16		set __D0readHigh, 0
-1	12	19	#line 12 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	13	19		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
-1	13	23	#line 13 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	14	23		brtst 4, __ASM_Label_1067, __D0readHigh
-1	13	26	#line 13 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	14	26	#pragma macro 15
-1	14	26		acquire __FReadMutex
-1	14	27		mov __FReadArgs.FileHandle, handle
-1	14	29		set __FReadArgs.Length, 2
-1	14	32		syscall 3, __FReadArgs
-1	14	35		mov __D0readHigh, __FReadArgs.Result
-1	14	37		unflatten __readHigh_7qG2_ARead_7qG2_000, __FReadTmpByte, __FReadArgs.Buffer, __readHigh_7qG2_ARead_7qG2_000
-1	14	42		release __FReadMutex
-1	10249	43	#line 10249 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	13	43	#line 13 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	13	43	#line 13 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	14	43	#line 14 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	15	43	#pragma macro 5
-1	15	43		acquire __FCMutex
-1	15	44		mov __FCArgs.FileHandle, handle
-1	15	46		syscall 5, __FCArgs
-1	15	49		mov __D0readHigh, __FCArgs.Result
-1	15	51		release __FCMutex
-1	10253	52	#line 10253 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	14	52	#line 14 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	14	52	#line 14 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	17	52	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	18	52		jmp __ASM_Label_1068
-1	17	54	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	18	54		mov __readHigh_7qG2_ARead_7qG2_000, __constValNeg1
-1	17	56	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	17	56	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	18	56	#line 18 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	18	56	#line 18 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	19	56		mov __D0readHigh, __readHigh_7qG2_ARead_7qG2_000
-1	18	58	#line 18 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	19	58		subret __readHigh_return
-1	18	60	#line 18 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	21	60	#line 21 "C:\Github\NXC_Source\.\+Highscore.nxc"
-1	22	60		subret __readHigh_return
-2	76	0	#line 76 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	77	0	#pragma macro 5
-2	77	0		mov __FDArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
-2	77	2		syscall 8, __FDArgs
-2	77	5		mov __D0writeHigh, __FDArgs.Result
-2	10624	7	#line 10624 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	76	7	#line 76 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	76	7	#line 76 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	77	7	#line 77 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	78	7	#pragma macro 7
-2	78	7		acquire __FOMutex
-2	78	8		mov __FOArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
-2	78	10		mov __FOArgs.Length, __constVal1024
-2	78	12		syscall 1, __FOArgs
-2	78	15		mov handle, __FOArgs.FileHandle
-2	78	17		mov __D0writeHigh, __FOArgs.Result
-2	78	19		release __FOMutex
-2	10628	20	#line 10628 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	77	20	#line 77 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	77	20	#line 77 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	78	20	#line 78 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	79	20	#pragma macro 8
-2	79	20		acquire __FWriteMutex
-2	79	21		mov __FWriteArgs.FileHandle, handle
-2	79	23		flatten __FWriteFlattenBuf, __writeHigh_7qG2_NewHighscore_7qG2_000
-2	79	26		strtoarr __FWriteArgs.Buffer, __FWriteFlattenBuf
-2	79	29		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
-2	79	32		syscall 4, __FWriteArgs
-2	79	35		mov __D0writeHigh, __FWriteArgs.Result
-2	79	37		release __FWriteMutex
-2	10632	38	#line 10632 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	78	38	#line 78 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	78	38	#line 78 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	79	38	#line 79 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	80	38	#pragma macro 5
-2	80	38		acquire __FCMutex
-2	80	39		mov __FCArgs.FileHandle, handle
-2	80	41		syscall 5, __FCArgs
-2	80	44		mov __D0writeHigh, __FCArgs.Result
-2	80	46		release __FCMutex
-2	10636	47	#line 10636 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	79	47	#line 79 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	79	47	#line 79 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	82	47	#line 82 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	83	47		subret __writeHigh_return
-3	8	0	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	0		set __correctbutton_7qG2_correcthit_7qG2_000, 0
-3	8	3	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	8	3	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	3		set __correctbutton_7qG2_stayalive_7qG2_000, 1
-3	8	6	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	6	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	6		set __correctbutton_7qG2_i_7qG2_001, 0
-3	9	9	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	9	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	9		mov __signed_stack_001correctbutton, __correctbutton_7qG2_i_7qG2_001
-3	9	11	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	11	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	11		set __signed_stack_002correctbutton, 30
-3	9	14	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	14	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	14	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	14		sub __sqrt_7qG2_x_7qG2_000_inline_correctbutton, __signed_stack_002correctbutton, level
-3	9	18	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18746	18	#line 18746 "NXCDefs.h"
-3	18747	18		sqrt __DF0correctbutton, __sqrt_7qG2_x_7qG2_000_inline_correctbutton
-3	18746	21	#line 18746 "NXCDefs.h"
-3	9	21	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	9	21	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	21		cmp 0, __D0correctbutton, __signed_stack_001correctbutton, __DF0correctbutton
-3	9	25	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	25		brtst 4, __ASM_Label_1144, __D0correctbutton
-3	9	28	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10	28		jmp __ASM_Label_1145
-3	10	30	#line 10 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	11	30		add __correctbutton_7qG2_i_7qG2_001, __correctbutton_7qG2_i_7qG2_001, __constVal1
-3	11	34	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	12	34		jmp __ASM_Label_1143
-3	11	36	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	12	36	#pragma macro 2
-3	12	36	#pragma macro 25
-3	12	36		mov __IOMRBIArgs.ModuleID, __constVal262145
-3	12	39		mov __IOMRBIArgs.Offset, __constVal34
-3	12	41		set __IOMRBIArgs.Count, 1
-3	12	44		syscall 78, __IOMRBIArgs
-3	12	47		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-3	12	50		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
-3	10855	55	#line 10855 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10856	55		mov __correctbutton_7qG2_l_7qG2_000, __tmpsbytecorrectbutton
-3	11	57	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	11	57	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	11	57	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	11	57	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	12	57	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	13	57	#pragma macro 2
-3	13	57	#pragma macro 25
-3	13	57		mov __IOMRBIArgs.ModuleID, __constVal262145
-3	13	60		mov __IOMRBIArgs.Offset, __constVal35
-3	13	62		set __IOMRBIArgs.Count, 1
-3	13	65		syscall 78, __IOMRBIArgs
-3	13	68		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-3	13	71		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
-3	10866	76	#line 10866 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10867	76		mov __correctbutton_7qG2_c_7qG2_000, __tmpsbytecorrectbutton
-3	12	78	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	12	78	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	12	78	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	12	78	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	13	78	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	14	78	#pragma macro 2
-3	14	78	#pragma macro 25
-3	14	78		mov __IOMRBIArgs.ModuleID, __constVal262145
-3	14	81		mov __IOMRBIArgs.Offset, __constVal33
-3	14	83		set __IOMRBIArgs.Count, 1
-3	14	86		syscall 78, __IOMRBIArgs
-3	14	89		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
-3	14	92		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
-3	10877	97	#line 10877 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	10878	97		mov __correctbutton_7qG2_r_7qG2_000, __tmpsbytecorrectbutton
-3	13	99	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	13	99	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	13	99	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	13	99	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	14	99	#line 14 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	15	99		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
-3	14	101	#line 14 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	15	101	#line 15 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	101		set __D0correctbutton, 0
-3	15	104	#line 15 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	104		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
-3	16	108	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	108		brtst 4, __ASM_Label_1161, __D0correctbutton
-3	16	111	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	111		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
-3	16	113	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	113		tst 5, __D0correctbutton, __D0correctbutton
-3	16	116	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	116		brtst 4, __ASM_Label_1164, __D0correctbutton
-3	16	119	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	119		set __correctbutton_7qG2_correcthit_7qG2_000, 1
-3	16	122	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	122	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	122	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	122		set __signed_stack_001correctbutton, 1500
-3	16	125	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	125	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	125		set __signed_stack_002correctbutton, 20
-3	16	128	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	128	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	128		set __signed_stack_003correctbutton, 4
-3	16	131	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	16	131	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	131		set __D0correctbutton, 0
-3	16	134	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	134		acquire __SPTArgsMutex
-3	16	135	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	135		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
-3	16	137	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	137		mov __SPTArgs.Duration, __signed_stack_002correctbutton
-3	16	139	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	139		mov __SPTArgs.Volume, __signed_stack_003correctbutton
-3	16	141	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	141		mov __SPTArgs.Loop, __D0correctbutton
-3	16	143	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	143		syscall 10, __SPTArgs
-3	16	146	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	146		mov __D0correctbutton, __SPTArgs.Result
-3	16	148	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	148		release __SPTArgsMutex
-3	16	149	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	149	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	149	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	149		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
-3	17	151	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	151		tst 5, __D0correctbutton, __D0correctbutton
-3	17	154	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	154		brtst 5, __ASM_Label_1175, __D0correctbutton
-3	17	157	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	157		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
-3	17	159	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	159		tst 5, __D0correctbutton, __D0correctbutton
-3	17	162	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	162		brtst 4, __ASM_Label_1178, __D0correctbutton
-3	17	165	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	18	165		set __correctbutton_7qG2_stayalive_7qG2_000, 0
-3	17	168	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	17	168	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	19	168	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	19	168	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	19	168	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	20	168		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
-3	19	170	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	20	170	#line 20 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	170		set __D0correctbutton, 1
-3	20	173	#line 20 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	173		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
-3	21	177	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	177		brtst 4, __ASM_Label_1183, __D0correctbutton
-3	21	180	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	180		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
-3	21	182	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	182		tst 5, __D0correctbutton, __D0correctbutton
-3	21	185	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	185		brtst 4, __ASM_Label_1186, __D0correctbutton
-3	21	188	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	188		set __correctbutton_7qG2_correcthit_7qG2_000, 1
-3	21	191	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	191	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	191	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	191		set __signed_stack_001correctbutton, 1500
-3	21	194	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	194	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	194		set __signed_stack_002correctbutton, 20
-3	21	197	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	197	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	197		set __signed_stack_003correctbutton, 4
-3	21	200	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	21	200	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	200		set __D0correctbutton, 0
-3	21	203	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	203		acquire __SPTArgsMutex
-3	21	204	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	204		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
-3	21	206	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	206		mov __SPTArgs.Duration, __signed_stack_002correctbutton
-3	21	208	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	208		mov __SPTArgs.Volume, __signed_stack_003correctbutton
-3	21	210	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	210		mov __SPTArgs.Loop, __D0correctbutton
-3	21	212	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	212		syscall 10, __SPTArgs
-3	21	215	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	215		mov __D0correctbutton, __SPTArgs.Result
-3	21	217	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	217		release __SPTArgsMutex
-3	21	218	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	218	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	218	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	218		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
-3	22	220	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	220		tst 5, __D0correctbutton, __D0correctbutton
-3	22	223	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	223		brtst 5, __ASM_Label_1197, __D0correctbutton
-3	22	226	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	226		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
-3	22	228	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	228		tst 5, __D0correctbutton, __D0correctbutton
-3	22	231	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	231		brtst 4, __ASM_Label_1200, __D0correctbutton
-3	22	234	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	23	234		set __correctbutton_7qG2_stayalive_7qG2_000, 0
-3	22	237	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	22	237	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	24	237	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	24	237	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	24	237	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	25	237		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
-3	24	239	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	25	239	#line 25 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	239		set __D0correctbutton, 2
-3	25	242	#line 25 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	242		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
-3	26	246	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	246		brtst 4, __ASM_Label_1205, __D0correctbutton
-3	26	249	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	249		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
-3	26	251	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	251		tst 5, __D0correctbutton, __D0correctbutton
-3	26	254	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	254		brtst 4, __ASM_Label_1208, __D0correctbutton
-3	26	257	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	257		set __correctbutton_7qG2_correcthit_7qG2_000, 1
-3	26	260	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	260	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	260	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	260		set __signed_stack_001correctbutton, 1500
-3	26	263	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	263	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	263		set __signed_stack_002correctbutton, 20
-3	26	266	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	266	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	266		set __signed_stack_003correctbutton, 4
-3	26	269	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	26	269	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	269		set __D0correctbutton, 0
-3	26	272	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	272		acquire __SPTArgsMutex
-3	26	273	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	273		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
-3	26	275	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	275		mov __SPTArgs.Duration, __signed_stack_002correctbutton
-3	26	277	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	277		mov __SPTArgs.Volume, __signed_stack_003correctbutton
-3	26	279	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	279		mov __SPTArgs.Loop, __D0correctbutton
-3	26	281	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	281		syscall 10, __SPTArgs
-3	26	284	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	284		mov __D0correctbutton, __SPTArgs.Result
-3	26	286	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	286		release __SPTArgsMutex
-3	26	287	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	287	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	287	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	287		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
-3	27	289	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	289		tst 5, __D0correctbutton, __D0correctbutton
-3	27	292	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	292		brtst 5, __ASM_Label_1219, __D0correctbutton
-3	27	295	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	295		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
-3	27	297	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	297		tst 5, __D0correctbutton, __D0correctbutton
-3	27	300	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	300		brtst 4, __ASM_Label_1222, __D0correctbutton
-3	27	303	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	28	303		set __correctbutton_7qG2_stayalive_7qG2_000, 0
-3	27	306	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	27	306	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	29	306	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	29	306	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	29	306	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	30	306		mov __unsigned_stack_001correctbutton, __correctbutton_7qG2_correcthit_7qG2_000
-3	29	308	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	29	308	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	30	308		set __D0correctbutton, 0
-3	29	311	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	30	311		cmp 4, __D0correctbutton, __unsigned_stack_001correctbutton, __D0correctbutton
-3	29	315	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	30	315		brtst 4, __ASM_Label_1227, __D0correctbutton
-3	29	318	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	30	318		set __Wait_7qG2_ms_7qG2_000_inline_correctbutton, 250
-3	29	321	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	8771	321	#line 8771 "NXCDefs.h"
-3	8772	321		waitv __Wait_7qG2_ms_7qG2_000_inline_correctbutton
-3	8771	323	#line 8771 "NXCDefs.h"
-3	29	323	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	31	323	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	31	323	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	323		jmp __ASM_Label_1146
-3	31	325	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	31	325	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	325		mov __unsigned_stack_001correctbutton, __correctbutton_7qG2_correcthit_7qG2_000
-3	31	327	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	31	327	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	327		set __D0correctbutton, 0
-3	31	330	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	330		cmp 4, __D0correctbutton, __unsigned_stack_001correctbutton, __D0correctbutton
-3	31	334	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	334		brtst 4, __ASM_Label_1232, __D0correctbutton
-3	31	337	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	337		set __correctbutton_7qG2_stayalive_7qG2_000, 0
-3	31	340	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	31	340	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	340	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	32	340	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	33	340		mov __DU0correctbutton, __correctbutton_7qG2_stayalive_7qG2_000
-3	32	342	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	33	342		subret __correctbutton_return
-3	32	344	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	35	344	#line 35 "C:\Github\NXC_Source\WhackAMole.nxc"
-3	36	344		subret __correctbutton_return
-4	81	0	#line 81 "C:\Github\NXC_Source\WhackAMole.nxc"
-4	82	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
-4	81	43	#line 81 "C:\Github\NXC_Source\WhackAMole.nxc"
-4	82	43		subret ____initialize_global_data_return
+0	74	577	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	577		set __signed_stack_002main, 1100
+0	74	580	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	74	580	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	580		set __signed_stack_003main, 4
+0	74	583	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	74	583	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	583		set __D0main, 0
+0	74	586	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	586		acquire __SPTArgsMutex
+0	74	587	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	587		mov __SPTArgs.Frequency, __signed_stack_001main
+0	74	590	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	590		mov __SPTArgs.Duration, __signed_stack_002main
+0	74	593	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	593		mov __SPTArgs.Volume, __signed_stack_003main
+0	74	596	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	596		mov __SPTArgs.Loop, __D0main
+0	74	599	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	599		syscall 10, __SPTArgs
+0	74	602	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	602		mov __D0main, __SPTArgs.Result
+0	74	604	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	604		release __SPTArgsMutex
+0	74	605	#line 74 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	75	605	#line 75 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	76	605		set __Wait_7qG2_ms_7qG2_000_inline_main, 1100
+0	75	608	#line 75 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	8771	608	#line 8771 "NXCDefs.h"
+0	8772	608		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	610	#line 8771 "NXCDefs.h"
+0	75	610	#line 75 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	78	610	#line 78 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	80	610	#line 80 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	81	610		jmp __ASM_Label_1192
+0	80	612	#line 80 "C:\Github\NXC_Source\WhackAMole.nxc"
+0	81	612		exit -1, -1
+1	8903	0		arrinit __RLSOutput, __constVal0, __constVal1
+1	8904	4		set __RLSByteCount, 0
+1	8906	7		set __FReadArgs.Length, 1
+1	8907	10		mov __RLSBuffer, __RLSOutput
+1	8908	12		syscall 3, __FReadArgs
+1	8909	15		mov __RLSReturn, __FReadArgs.Result
+1	8910	17		brtst 5, __RLSStringDone, __RLSReturn
+1	8911	20		index __FReadTmpByte, __FReadArgs.Buffer, 65535
+1	8912	24		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
+1	8913	28		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
+1	8914	32		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
+1	8915	37		add __RLSByteCount, __RLSByteCount, __constVal1
+1	8916	41		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
+1	8918	45		jmp __RLSStringLoop
+1	8920	47		subret __RLSReturnAddress
+2	11	0	#line 11 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	12	0		strcat __strbufreadHigh, __constStr0016
+2	11	4	#line 11 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	12	4		mov __readHigh_7qG2_ARead_7qG2_000, __strbufreadHigh
+2	12	6	#line 12 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	13	6	#pragma macro 7
+2	13	6		acquire __FOMutex
+2	13	7		mov __FOArgs.Filename, __readHigh_7qG2_readme_7qG2_000
+2	13	9		syscall 0, __FOArgs
+2	13	12		mov hshandle, __FOArgs.FileHandle
+2	13	14		mov __D0readHigh, __FOArgs.Result
+2	13	16		release __FOMutex
+2	10106	17	#line 10106 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	12	17	#line 12 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	13	17		mov __readHigh_7qG2_result_7qG2_000, __D0readHigh
+2	13	19	#line 13 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	13	19	#line 13 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	14	19		mov __signed_stack_001readHigh, __D0readHigh
+2	14	21	#line 14 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	15	21		set __D0readHigh, 0
+2	14	24	#line 14 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	15	24		cmp 4, __D0readHigh, __signed_stack_001readHigh, __D0readHigh
+2	15	28	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	28		brtst 4, __ASM_Label_1055, __D0readHigh
+2	15	31	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	31	#pragma macro 7
+2	16	31		acquire __FReadMutex
+2	16	32		mov __FReadArgs.FileHandle, hshandle
+2	16	34		mov __RLSMaxBytes, __constVal65535
+2	16	36		subcall __readStringLine, __RLSReturnAddress
+2	16	38		mov __D0readHigh, __RLSReturn
+2	16	40		mov __readHigh_7qG2_ARead_7qG2_000, __RLSOutput
+2	16	42		release __FReadMutex
+2	10126	43	#line 10126 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	15	43	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	15	43	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	43	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	17	43	#pragma macro 5
+2	17	43		acquire __FCMutex
+2	17	44		mov __FCArgs.FileHandle, hshandle
+2	17	46		syscall 5, __FCArgs
+2	17	49		mov __D0readHigh, __FCArgs.Result
+2	17	52		release __FCMutex
+2	10130	53	#line 10130 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	53	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	53	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	17	53	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	18	53		strcat __strbufreadHigh, __readHigh_7qG2_ARead_7qG2_000
+2	17	57	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	18	57		strtonum __readHigh_7qG2_result_7qG2_000, __signed_stack_001readHigh, __strbufreadHigh, 65535, 65535
+2	17	63	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	17	63	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	19	63	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	19	63	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	20	63		mov __D0readHigh, __readHigh_7qG2_result_7qG2_000
+2	19	65	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	20	65		subret __readHigh_return
+2	19	67	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	22	67	#line 22 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	23	67		subret __readHigh_return
+3	48	0	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	49	0	#pragma macro 5
+3	49	0		acquire __FDMutex
+3	49	1		mov __FDArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
+3	49	3		syscall 8, __FDArgs
+3	49	6		mov __D0writeHigh, __FDArgs.Result
+3	49	8		release __FDMutex
+3	10227	9	#line 10227 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	48	9	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	48	9	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	49	9	#line 49 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	50	9	#pragma macro 7
+3	50	9		acquire __FOMutex
+3	50	10		mov __FOArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
+3	50	12		mov __FOArgs.Length, __constVal1024
+3	50	14		syscall 1, __FOArgs
+3	50	17		mov hshandle, __FOArgs.FileHandle
+3	50	19		mov __D0writeHigh, __FOArgs.Result
+3	50	22		release __FOMutex
+3	10231	23	#line 10231 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	49	23	#line 49 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	49	23	#line 49 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	50	23	#line 50 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	51	23		mov __D0writeHigh, __writeHigh_7qG2_NewHighscore_7qG2_000
+3	50	25	#line 50 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	51	25		numtostr __strretvalwriteHigh, __D0writeHigh
+3	50	28	#line 50 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	51	28		strcat __strbufwriteHigh, __strretvalwriteHigh
+3	50	32	#line 50 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	51	32		mov __writeHigh_7qG2_tempStr_7qG2_000, __strbufwriteHigh
+3	51	34	#line 51 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	52	34	#pragma macro 9
+3	52	34		acquire __FWriteMutex
+3	52	35		mov __FWriteArgs.FileHandle, hshandle
+3	52	37		strtoarr __FWriteFlattenBuf, __writeHigh_7qG2_tempStr_7qG2_000
+3	52	40		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	52	45		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	52	48		syscall 4, __FWriteArgs
+3	52	51		mov __D0writeHigh, __FWriteArgs.Result
+3	52	53		release __FWriteMutex
+3	10249	54	#line 10249 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	51	54	#line 51 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	51	54	#line 51 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	52	54	#line 52 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	53	54	#pragma macro 5
+3	53	54		acquire __FCMutex
+3	53	55		mov __FCArgs.FileHandle, hshandle
+3	53	57		syscall 5, __FCArgs
+3	53	60		mov __D0writeHigh, __FCArgs.Result
+3	53	63		release __FCMutex
+3	10253	64	#line 10253 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	52	64	#line 52 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	52	64	#line 52 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	55	64	#line 55 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	56	64		subret __writeHigh_return
+4	8	0	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	0		set __correctbutton_7qG2_correcthit_7qG2_000, 0
+4	8	3	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	8	3	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	3		set __correctbutton_7qG2_stayalive_7qG2_000, 1
+4	8	6	#line 8 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	6	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	6		set __correctbutton_7qG2_i_7qG2_001, 0
+4	9	9	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	9	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	9		mov __signed_stack_001correctbutton, __correctbutton_7qG2_i_7qG2_001
+4	9	11	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	11	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	11		set __signed_stack_002correctbutton, 30
+4	9	14	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	14	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	14	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	14		sub __sqrt_7qG2_x_7qG2_000_inline_correctbutton, __signed_stack_002correctbutton, level
+4	9	18	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18746	18	#line 18746 "NXCDefs.h"
+4	18747	18		sqrt __DF0correctbutton, __sqrt_7qG2_x_7qG2_000_inline_correctbutton
+4	18746	21	#line 18746 "NXCDefs.h"
+4	9	21	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	9	21	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	21		cmp 0, __D0correctbutton, __signed_stack_001correctbutton, __DF0correctbutton
+4	9	25	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	25		brtst 4, __ASM_Label_1094, __D0correctbutton
+4	9	28	#line 9 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10	28		jmp __ASM_Label_1095
+4	10	30	#line 10 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	11	30		add __correctbutton_7qG2_i_7qG2_001, __correctbutton_7qG2_i_7qG2_001, __constVal1
+4	11	34	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	12	34		jmp __ASM_Label_1093
+4	11	36	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	12	36	#pragma macro 2
+4	12	36	#pragma macro 25
+4	12	36		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	12	38		mov __IOMRBIArgs.Offset, __constVal34
+4	12	40		set __IOMRBIArgs.Count, 1
+4	12	43		syscall 78, __IOMRBIArgs
+4	12	46		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	12	49		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+4	10545	54	#line 10545 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10546	54		mov __correctbutton_7qG2_l_7qG2_000, __tmpsbytecorrectbutton
+4	11	56	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	11	56	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	11	56	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	11	56	#line 11 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	12	56	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	13	56	#pragma macro 2
+4	13	56	#pragma macro 25
+4	13	56		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	13	58		mov __IOMRBIArgs.Offset, __constVal35
+4	13	60		set __IOMRBIArgs.Count, 1
+4	13	63		syscall 78, __IOMRBIArgs
+4	13	66		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	13	69		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+4	10556	74	#line 10556 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10557	74		mov __correctbutton_7qG2_c_7qG2_000, __tmpsbytecorrectbutton
+4	12	76	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	12	76	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	12	76	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	12	76	#line 12 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	13	76	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	14	76	#pragma macro 2
+4	14	76	#pragma macro 25
+4	14	76		mov __IOMRBIArgs.ModuleID, __constVal262145
+4	14	78		mov __IOMRBIArgs.Offset, __constVal33
+4	14	80		set __IOMRBIArgs.Count, 1
+4	14	83		syscall 78, __IOMRBIArgs
+4	14	86		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+4	14	89		unflatten __tmpsbytecorrectbutton, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytecorrectbutton
+4	10567	94	#line 10567 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	10568	94		mov __correctbutton_7qG2_r_7qG2_000, __tmpsbytecorrectbutton
+4	13	96	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	13	96	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	13	96	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	13	96	#line 13 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	14	96	#line 14 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	15	96		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
+4	14	98	#line 14 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	15	98	#line 15 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	98		set __D0correctbutton, 0
+4	15	101	#line 15 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	101		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+4	16	105	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	105		brtst 4, __ASM_Label_1111, __D0correctbutton
+4	16	108	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	108		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+4	16	110	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	110		tst 5, __D0correctbutton, __D0correctbutton
+4	16	113	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	113		brtst 4, __ASM_Label_1114, __D0correctbutton
+4	16	116	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	116		set __correctbutton_7qG2_correcthit_7qG2_000, 1
+4	16	119	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	119	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	119	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	119		set __signed_stack_001correctbutton, 1500
+4	16	122	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	122	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	122		set __signed_stack_002correctbutton, 20
+4	16	125	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	125	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	125		set __signed_stack_003correctbutton, 4
+4	16	128	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	16	128	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	128		set __D0correctbutton, 0
+4	16	131	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	131		acquire __SPTArgsMutex
+4	16	132	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	132		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
+4	16	135	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	135		mov __SPTArgs.Duration, __signed_stack_002correctbutton
+4	16	138	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	138		mov __SPTArgs.Volume, __signed_stack_003correctbutton
+4	16	141	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	141		mov __SPTArgs.Loop, __D0correctbutton
+4	16	144	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	144		syscall 10, __SPTArgs
+4	16	147	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	147		mov __D0correctbutton, __SPTArgs.Result
+4	16	150	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	150		release __SPTArgsMutex
+4	16	151	#line 16 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	151	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	151	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	151		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+4	17	153	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	153		tst 5, __D0correctbutton, __D0correctbutton
+4	17	156	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	156		brtst 5, __ASM_Label_1125, __D0correctbutton
+4	17	159	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	159		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+4	17	161	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	161		tst 5, __D0correctbutton, __D0correctbutton
+4	17	164	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	164		brtst 4, __ASM_Label_1128, __D0correctbutton
+4	17	167	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	18	167		set __correctbutton_7qG2_stayalive_7qG2_000, 0
+4	17	170	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	17	170	#line 17 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	19	170	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	19	170	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	19	170	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	20	170		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
+4	19	172	#line 19 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	20	172	#line 20 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	172		set __D0correctbutton, 1
+4	20	175	#line 20 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	175		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+4	21	179	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	179		brtst 4, __ASM_Label_1133, __D0correctbutton
+4	21	182	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	182		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+4	21	184	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	184		tst 5, __D0correctbutton, __D0correctbutton
+4	21	187	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	187		brtst 4, __ASM_Label_1136, __D0correctbutton
+4	21	190	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	190		set __correctbutton_7qG2_correcthit_7qG2_000, 1
+4	21	193	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	193	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	193	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	193		set __signed_stack_001correctbutton, 1500
+4	21	196	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	196	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	196		set __signed_stack_002correctbutton, 20
+4	21	199	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	199	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	199		set __signed_stack_003correctbutton, 4
+4	21	202	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	21	202	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	202		set __D0correctbutton, 0
+4	21	205	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	205		acquire __SPTArgsMutex
+4	21	206	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	206		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
+4	21	209	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	209		mov __SPTArgs.Duration, __signed_stack_002correctbutton
+4	21	212	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	212		mov __SPTArgs.Volume, __signed_stack_003correctbutton
+4	21	215	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	215		mov __SPTArgs.Loop, __D0correctbutton
+4	21	218	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	218		syscall 10, __SPTArgs
+4	21	221	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	221		mov __D0correctbutton, __SPTArgs.Result
+4	21	224	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	224		release __SPTArgsMutex
+4	21	225	#line 21 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	225	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	225	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	225		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+4	22	227	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	227		tst 5, __D0correctbutton, __D0correctbutton
+4	22	230	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	230		brtst 5, __ASM_Label_1147, __D0correctbutton
+4	22	233	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	233		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+4	22	235	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	235		tst 5, __D0correctbutton, __D0correctbutton
+4	22	238	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	238		brtst 4, __ASM_Label_1150, __D0correctbutton
+4	22	241	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	23	241		set __correctbutton_7qG2_stayalive_7qG2_000, 0
+4	22	244	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	22	244	#line 22 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	24	244	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	24	244	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	24	244	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	25	244		mov __signed_stack_001correctbutton, __correctbutton_7qG2_b_7qG2_000
+4	24	246	#line 24 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	25	246	#line 25 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	246		set __D0correctbutton, 2
+4	25	249	#line 25 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	249		cmp 4, __D0correctbutton, __signed_stack_001correctbutton, __D0correctbutton
+4	26	253	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	253		brtst 4, __ASM_Label_1155, __D0correctbutton
+4	26	256	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	256		mov __D0correctbutton, __correctbutton_7qG2_r_7qG2_000
+4	26	258	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	258		tst 5, __D0correctbutton, __D0correctbutton
+4	26	261	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	261		brtst 4, __ASM_Label_1158, __D0correctbutton
+4	26	264	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	264		set __correctbutton_7qG2_correcthit_7qG2_000, 1
+4	26	267	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	267	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	267	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	267		set __signed_stack_001correctbutton, 1500
+4	26	270	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	270	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	270		set __signed_stack_002correctbutton, 20
+4	26	273	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	273	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	273		set __signed_stack_003correctbutton, 4
+4	26	276	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	26	276	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	276		set __D0correctbutton, 0
+4	26	279	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	279		acquire __SPTArgsMutex
+4	26	280	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	280		mov __SPTArgs.Frequency, __signed_stack_001correctbutton
+4	26	283	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	283		mov __SPTArgs.Duration, __signed_stack_002correctbutton
+4	26	286	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	286		mov __SPTArgs.Volume, __signed_stack_003correctbutton
+4	26	289	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	289		mov __SPTArgs.Loop, __D0correctbutton
+4	26	292	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	292		syscall 10, __SPTArgs
+4	26	295	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	295		mov __D0correctbutton, __SPTArgs.Result
+4	26	298	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	298		release __SPTArgsMutex
+4	26	299	#line 26 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	299	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	299	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	299		mov __D0correctbutton, __correctbutton_7qG2_l_7qG2_000
+4	27	301	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	301		tst 5, __D0correctbutton, __D0correctbutton
+4	27	304	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	304		brtst 5, __ASM_Label_1169, __D0correctbutton
+4	27	307	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	307		mov __D0correctbutton, __correctbutton_7qG2_c_7qG2_000
+4	27	309	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	309		tst 5, __D0correctbutton, __D0correctbutton
+4	27	312	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	312		brtst 4, __ASM_Label_1172, __D0correctbutton
+4	27	315	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	28	315		set __correctbutton_7qG2_stayalive_7qG2_000, 0
+4	27	318	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	27	318	#line 27 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	29	318	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	29	318	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	29	318	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	30	318		mov __unsigned_stack_001correctbutton, __correctbutton_7qG2_correcthit_7qG2_000
+4	29	320	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	29	320	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	30	320		set __D0correctbutton, 0
+4	29	323	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	30	323		cmp 4, __D0correctbutton, __unsigned_stack_001correctbutton, __D0correctbutton
+4	29	327	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	30	327		brtst 4, __ASM_Label_1177, __D0correctbutton
+4	29	330	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	30	330		set __Wait_7qG2_ms_7qG2_000_inline_correctbutton, 250
+4	29	333	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	8771	333	#line 8771 "NXCDefs.h"
+4	8772	333		waitv __Wait_7qG2_ms_7qG2_000_inline_correctbutton
+4	8771	335	#line 8771 "NXCDefs.h"
+4	29	335	#line 29 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	31	335	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	31	335	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	335		jmp __ASM_Label_1096
+4	31	337	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	31	337	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	337		mov __unsigned_stack_001correctbutton, __correctbutton_7qG2_correcthit_7qG2_000
+4	31	339	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	31	339	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	339		set __D0correctbutton, 0
+4	31	342	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	342		cmp 4, __D0correctbutton, __unsigned_stack_001correctbutton, __D0correctbutton
+4	31	346	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	346		brtst 4, __ASM_Label_1182, __D0correctbutton
+4	31	349	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	349		set __correctbutton_7qG2_stayalive_7qG2_000, 0
+4	31	352	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	31	352	#line 31 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	352	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	32	352	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	33	352		mov __DU0correctbutton, __correctbutton_7qG2_stayalive_7qG2_000
+4	32	354	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	33	354		subret __correctbutton_return
+4	32	356	#line 32 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	35	356	#line 35 "C:\Github\NXC_Source\WhackAMole.nxc"
+4	36	356		subret __correctbutton_return
+5	81	0	#line 81 "C:\Github\NXC_Source\WhackAMole.nxc"
+5	82	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
+5	81	43	#line 81 "C:\Github\NXC_Source\WhackAMole.nxc"
+5	82	43		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\WhackAMole.nxc
-1	readHigh	587	C:\Github\NXC_Source\.\+Highscore.nxc
-2	writeHigh	649	C:\Github\NXC_Source\.\+Highscore.nxc
-3	correctbutton	698	C:\Github\NXC_Source\WhackAMole.nxc
-4	__initialize_global_data	1044	C:\Github\NXC_Source\WhackAMole.nxc
+1	__readStringLine	615	NXTDefs.h
+2	readHigh	664	C:\Github\NXC_Source\.\+Highscore.nxc
+3	writeHigh	733	C:\Github\NXC_Source\.\+Highscore.nxc
+4	correctbutton	799	C:\Github\NXC_Source\WhackAMole.nxc
+5	__initialize_global_data	1157	C:\Github\NXC_Source\WhackAMole.nxc
