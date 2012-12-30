@@ -326,43 +326,40 @@ bool move(int INdir)
   }                    //canMove out: 1000
 
 
-int rotate(bool INdwn)  ////////////////////////////////////////////////when it cant rotate, why does it freeze???
+bool rotate()  ////////////////////////////////////////////////when it cant rotate, why does it freeze???
   {
-  int canRotate=0, addRot=0, tempLR, tempUD, addUD, addLR;
-  bool stayInLoop=true;
+  int canRotate=1, addRot=0, tempLR, tempUD, addUD, addLR;
   if (currentRotate>=3) addRot=-3;
   else                  addRot=1;
-  for (int i=0; (i<3 && stayInLoop); addUD++)
+  for (int i=0; (i<3 && canRotate>0); i++)
     {
+    PlayTone(2000,200); Wait(250);
     if (i==0) addUD= 0;  //1st  Level
     if (i==1) addUD=-1;  //2nd  Down
     if (i==2) addUD= 1;  //3rd  Up
-    for (int j=0; (j<3 && stayInLoop); j++)
+    for (int j=0; (j<3 && canRotate>0); j++)
       {
+      PlayTone(1000,200); Wait(250);
       if (j==0) addLR= 0;  //1st  Center
       if (j==1) addLR=-1;  //2nd  Right
       if (j==2) addLR= 1;  //3rd  Left
       canRotate=0;
-      for (int i=0; i<4; i++)
+      for (int k=0; k<4; k++)
         {
-        tempLR=tet[currentPiece+currentRotate+addRot][i  ]+tetLR+addLR;
-        tempUD=tet[currentPiece+currentRotate+addRot][i+4]+tetUD+addUD;
+        tempLR=tet[currentPiece+currentRotate+addRot][k  ]+tetLR+addLR;
+        tempUD=tet[currentPiece+currentRotate+addRot][k+4]+tetUD+addUD;
         if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)&&(tempUD<height+2)&&(tetUD>0))
           {canRotate+=(area[tempLR][tempUD]);}
-        else canRotate++;
+        else {canRotate++;}
         }
-      stayInLoop=(canRotate!=0);
       }
     }
-  if (!stayInLoop)
+  if (canRotate==0)
     {
-    if (INdwn)
-      {canRotate=addUD;}
-    else
-      {canRotate=addLR;}
+    tetLR+=addLR;
+    tetUD+=addUD;
     }
-  else {canRotate=-5;}
-  return canRotate;
+  return (canRotate==0);
   }
 
                                        //in is updown leftright
@@ -414,15 +411,11 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       lockDelay=0;
       if (prevRot==0)
         {
-        int tempRotStatDwn=rotate(dwn);
-        int tempRotStatLft=rotate(lft);
-        if (tempRotStatDwn!=-5 && tempRotStatLft!=-5)
+        if (rotate())
           {
           refresh=true;
           currentRotate++;
           if (currentRotate>=4) currentRotate=0;
-          tetUD+=tempRotStatDwn;
-          tetLR+=tempRotStatLft;
           }
         }
       prevRot++;
