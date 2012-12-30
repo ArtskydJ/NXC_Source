@@ -1,6 +1,6 @@
 //Tetris
 //Joseph Dykstra
-
+//Finished __-__-201_
 
 //              PREPROCESSOR
 #include "+Button+-.nxc"
@@ -947,14 +947,17 @@ task main()
   }
 
 /*
+=====TO FIX=====
+Soft Drop                         io()
+setInto when above the ground     move()
+drop scoring                      io()
+
 Process Order:
 -Rotation
 -Move
 -Drop
 -Gravity
 
-Hold piece              NEVER
-Firm Drop               NEVER
 
 Soft Drop               BUGGY
 Hard Drop               DONE
@@ -962,7 +965,7 @@ Clockwise Rotation      DONE
 Right Side Bias         DONE
 Delayed Auto Shift      DONE
 
-Wall kicks              BUGGY, "I" won't kick 2 over
+Wall kicks              UNFINISHED (Itet can't kick 2 over)
 
 Allow only 1 floor kick                                IMPLEMENT
 Allow I wall kicking always.                           IMPLEMENT
