@@ -333,13 +333,11 @@ bool rotate()  ////////////////////////////////////////////////when it cant rota
   else                  addRot=1;
   for (int i=0; (i<3 && canRotate>0); i++)
     {
-    PlayTone(2000,200); Wait(250);
     if (i==0) addUD= 0;  //1st  Level
     if (i==1) addUD=-1;  //2nd  Down
     if (i==2) addUD= 1;  //3rd  Up
     for (int j=0; (j<3 && canRotate>0); j++)
       {
-      PlayTone(1000,200); Wait(250);
       if (j==0) addLR= 0;  //1st  Center
       if (j==1) addLR=-1;  //2nd  Right
       if (j==2) addLR= 1;  //3rd  Left
@@ -389,7 +387,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
   {
   bool temppiecemoving=true; //return this
   bool refresh=false; //refresh the screen
-  TextOut(25,48,"  INPUT ",0);
+  //TextOut(25,48,"  INPUT ",0);
 //INPUT
   if (INallowInput)
     {
@@ -459,14 +457,14 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       }
     }
 
-  TextOut(25,48," OUTPUT",0);
+  //TextOut(25,48," OUTPUT",0);
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
       refresh=true;
-      TextOut(25,48,"DRP/GRAV",0);
+      //TextOut(25,48,"DRP/GRAV",0);
       if (drop==dropHard)              //HARD DROP
         {
         bool tempLoop=true;
@@ -495,7 +493,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       highMade=true;
       }
     }
-  TextOut(25,48,"  DRAW  ",0);
+  //TextOut(25,48,"  DRAW  ",0);
 //DRAW
   if (INallowDraw)
     {
@@ -620,7 +618,7 @@ bool pieceCreate()
     PlayTone(2000,1000);Wait(1000);
     }
   currentPiece=nextPiece[0];
-  for (int i=1; i<previewPieces-1; i++)
+  for (int i=1; i<previewPieces; i++)
     {
     //PlayTone(1000,500);Wait(500);
     nextPiece[i-1]=nextPiece[i];
@@ -660,7 +658,7 @@ int clearFullRows()
         for (j=0; j<width; j++)
           {
           int temp=area[j][k];
-          SendResponseNumber(9,temp);
+          //SendResponseNumber(9,temp);
           area[j][k]=area[j][k+1];
           }
         }
