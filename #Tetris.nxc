@@ -304,10 +304,10 @@ void selectGame(bool INfastmode)
 bool move(int INdir)
   {
   int canMove=0;
-  int addLR=0;
-  int addUD=0;
-  int tempLR;
-  int tempUD;
+  int addLR  =0;
+  int addUD  =0;
+  int tempLR =0;
+  int tempUD =0;
   if      (INdir==dwn) addUD=-1;
   else if (INdir==lft) addLR= 1;
   else if (INdir==rht) addLR=-1;
@@ -318,7 +318,6 @@ bool move(int INdir)
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
       {canMove+=(area[tempLR][tempUD]);} //PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
     else canMove++;
-    if (tetUD<1&&INdir==dwn) {canMove=3;}// PlayTone(3000,500);}
     }
   //NumOut(0,16,canMove,0);
   //Wait(500);
@@ -326,7 +325,7 @@ bool move(int INdir)
   }                    //canMove out: 1000
 
 
-bool rotate()  ////////////////////////////////////////////////when it cant rotate, why does it freeze???
+bool rotate()  //When it cant rotate, why does it freeze???     FIXED???
   {
   int canRotate=1, addRot=0, tempLR, tempUD, addUD, addLR;
   if (currentRotate>=3) addRot=-3;
