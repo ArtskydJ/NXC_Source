@@ -1,0 +1,26 @@
+int targetSpeed=0, goSpeed=0, lastRotate=0,currentRotate=0;
+task main()
+  {
+  while(1)
+    {
+    currentRotate=MotorRotationCount(OUT_A);
+    
+    if (lastRotate==currentRotate)  targetSpeed=0;
+    if (lastRotate<currentRotate)   targetSpeed=100;
+    if (lastRotate>currentRotate)   targetSpeed=-100;
+    if (goSpeed<targetSpeed)  goSpeed+=5;
+    if (goSpeed>targetSpeed)  goSpeed-=5;
+    
+    if (goSpeed==0) Off(OUT_A);
+    else OnFwd(OUT_BC,goSpeed);
+    
+    TextOut(0,16,"Target:",0);
+    TextOut(0,08,"Go:",0);
+    TextOut(0,00,"Error:",0);
+    NumOut(60,16,targetSpeed,4096);
+    NumOut(60,08,goSpeed,4096);
+    NumOut(60,00,currentRotate-lastRotate,4096);
+    lastRotate=currentRotate;
+    Wait(50);
+    }
+  }
