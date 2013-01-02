@@ -16,14 +16,15 @@
 #define msgX    0
 #define msgY    56
 #define defaultmode     1
-#define previewPieces   3
+#define previewPieces   6
 //Timing (all *10)
 #define waitGravity     5
+#define waitDisp        12
 #define waitSlowMove    3
 #define waitFastMove    0
 #define waitRotateAgain 3
 #define waitHardDrop    3
-#define waitLock        5
+#define waitLock        1
 #define fastRepeat      5
 //Buttons
 #define BtnMoveL  BTNCENTER
@@ -126,6 +127,7 @@ string msg         ="";
 string disp        ="";
 string accesshigh  ="";
 float speedup      = 0;
+int showDisp       = 0;
 int viewDbg        =-1;
 int score          = 0;
 int gametype       = 0;
@@ -392,17 +394,18 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {
     if (ButtonPressed(BtnDrop))
       {
-      if (prevDrp>waitHardDrop)
-        {drop=dropWSoft; lockDelay=waitLock;} //Fast = Hard Drop
+      if (prevDrp<waitHardDrop)
+        {drop=dropWHard; lockDelay=waitLock;} //Fast = Hard Drop
       else
-        {drop=dropWHard; lockDelay=0;}        //Hold = Soft Drop
+        {drop=dropWSoft; lockDelay=0;}        //Hold = Soft Drop
       prevDrp++;
       }
     else
       {
       prevDrp=0;
-      if (drop==dropWSoft) {drop-=dropSoft; refresh=2;}
-      if (drop==dropWHard) {drop-=dropHard; refresh=3;}
+      if      (drop==dropWSoft) {drop=dropSoft;}
+      else if (drop==dropWHard) {drop=dropHard;}
+      else                      {drop=0;}
       }
     if (ButtonPressed(BtnRotate))
       {
@@ -463,10 +466,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
       {
-      refresh=true;
       //TextOut(25,48,"DRP/GRAV",0);
       if (drop==dropHard)              //HARD DROP
         {
+        TextOut(0,0,"hard",0); Wait(500);
         bool tempLoop=true;
         while (tempLoop)
           {
@@ -474,24 +477,32 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
             {
             tetUD--;
             score+=2;
-            PlayTone(1000,90);Wait(100);
+            //PlayTone(1000,90);Wait(100);
             }
           else
             {
-            PlayTone(2000,100);Wait(1000);
             tempLoop=false;
             lockDelay++;
             if (lockDelay>=waitLock) temppiecemoving=false;
             }
           }
+        refresh=3;
         }
       else                             //SOFT DROP or GRAVITY
         {
-        if (drop==dropSoft) {score++;}
+        if (drop==dropSoft)
+          {
+          TextOut(0,0,"SOFT",0);
+          Wait(500);
+          score++;
+          refresh=2;
+          }
+        else refresh=1;
         if (move(dwn)) {tetUD--;}
         else lockDelay++;
         if (lockDelay>=waitLock) {temppiecemoving=false; lockDelay=0;}
         }
+      drop=0;
       }
     prevWaited=INwaited;
     if (readHigh(accesshigh)>score)
@@ -506,7 +517,8 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {                                   //0=nothing
     if      (refresh==1)                //1=piece
       {
-      ClearScreen();
+      RectOut(0,0,100,width*blksz,0);
+      //ClearScreen();
       //RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
       }
     else if (refresh==2)                //2=score+piece
@@ -544,16 +556,18 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     //NEXT PIECES / MESSAGE
     if (disp=="")
       {
-      TextOut(msgX,msgY,"       ",0);
+      if (showDisp>0) TextOut(msgX,msgY,"       ",0);
       for (i=0; i<previewPieces; i++)
-        {              //    tet      rot      lr          ud       draw
-        displayTetromino(nextPiece[i], 0, 64-4*blksz, 80-(3*blksz*i), 1); ////////////////////////////////////////////////
+        {              //    tet      rot       lr           ud       draw
+        displayTetromino(nextPiece[i], 0, 63-4*blksz, 80-(4*blksz*i), 1); ////////////////////////////////////////////////
         }
+      showDisp=0;
       }
     else
       {
       TextOut(msgX,msgY,disp,0);
-      disp="";
+      showDisp++;
+      if (showDisp<waitDisp) disp="";
       }
     //CURRENT TETROMINO / SCORE
     displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1);
@@ -704,8 +718,10 @@ int clearFullRows()
   
 bool gameEnd()
   {
+  disp="GamOvr!";
+  inputOutput(0,0,1,0);
   bool plyagn=false;
-  TextOut(0,0,"GamOvr!",4096);
+  //TextOut(0,0,,4096);
   PlayTone(1500,1000);
   Wait(1000);
   ClearScreen();
@@ -939,14 +955,13 @@ task main()
   until (!ButtonPressed(3)) {}
   if (mode==0||mode==1)
     {
-    ClearScreen();
     SetLongAbort(true);
-    selectGame(1);
-    bool playagain;
+    ClearScreen();
+    bool playagain=true;
     bool piecemoving;
-    playagain=true;
     while (playagain)
       {
+      selectGame(1);
       initArrays();
       selectGame(mode);
       alive=true;
