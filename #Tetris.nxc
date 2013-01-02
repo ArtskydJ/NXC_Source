@@ -52,7 +52,7 @@
 
 
 //                 GLOBAL CONSTANTS
-const bool  allowDbg[5]={0,0,1,0,0};
+const bool  allowDbg[5]={0,0,0,0,0};
 const short tet[8][28]=
   {
 // I
@@ -715,87 +715,94 @@ bool gameEnd()
 
 void debugStream(int INint)
   {
-  //viewDbg=inInt%5;
-  bool insideLoop=true;
-  while (insideLoop)
+  bool insideLoop=0;
+  for (int i=0;i<5&&insideLoop;i++)
     {
-    viewDbg++;
-    if (viewDbg>4) viewDbg=0;
-    if (allowDbg[viewDbg]) insideLoop=false;
+    insideLoop+=allowDbg[i];
     }
-  string str1="";
-  string str2="";
-  string str3="";
-  string str4="";
-  string str5="";
-  string msg1="";
-  string msg2="";
-  string msg3="";
-  string msg4="";
-  string msg5="";
-  string result;
-  if      (viewDbg==0)
+  if (insideLoop)
     {
-    str1=disp;
-    str2=accesshigh;
-    str3=NumToStr(speedup);
-    str4=NumToStr(INint);
-    msg1="  dsp ";
-    msg2="  ahi ";
-    msg3="  sdp ";
-    msg4="    i ";
+    insideLoop=true;
+    while (insideLoop)
+      {
+      viewDbg++;
+      if (viewDbg>4) viewDbg=0;
+      if (allowDbg[viewDbg]) insideLoop=false;
+      }
+    string str1="";
+    string str2="";
+    string str3="";
+    string str4="";
+    string str5="";
+    string msg1="";
+    string msg2="";
+    string msg3="";
+    string msg4="";
+    string msg5="";
+    string result;
+    if      (viewDbg==0)
+      {
+      str1=disp;
+      str2=accesshigh;
+      str3=NumToStr(speedup);
+      str4=NumToStr(INint);
+      msg1="  dsp ";
+      msg2="  ahi ";
+      msg3="  sdp ";
+      msg4="    i ";
+      }
+    else if (viewDbg==1)
+      {
+      str1=NumToStr(score);
+      str2=NumToStr(gametype);
+      str3=NumToStr(gamespeed);
+      str4=NumToStr(delaytime);
+      str5=NumToStr(lockDelay);
+      msg1="  sc ";
+      msg2="  gt ";
+      msg3="  gs ";
+      msg4="  dt ";
+      msg4="  lD ";
+      }
+    else if (viewDbg==2)
+      {
+      str1=NumToStr(prevWaited);
+      str2=NumToStr(prevLft);
+      str3=NumToStr(prevRht);
+      str4=NumToStr(prevDrp);
+      str5=NumToStr(prevRot);
+      msg1="  pW ";
+      msg2="  pL ";
+      msg3="  pR ";
+      msg4="  pD ";
+      msg5="  pR ";
+      }
+    else if (viewDbg==3)
+      {
+      str1=NumToStr(currentPiece);
+      str2=NumToStr(currentRotate);
+      str3=NumToStr(tetLR);
+      str4=NumToStr(tetUD);
+      msg1="  cP ";
+      msg2="  cR ";
+      msg3="  tL ";
+      msg4="  tU ";
+      }
+    else if (viewDbg==4)
+      {
+      str1=NumToStr(drop);
+      str2=NumToStr(alive);
+      str3=NumToStr(prevQuadClear);
+      str4=NumToStr(highMade);
+      msg1="  dp ";
+      msg2="  lv ";
+      msg3="  pQ ";
+      msg4="  hM ";
+      }
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
+    SendResponseString(9,result);
+    Wait(60);
     }
-  else if (viewDbg==1)
-    {
-    str1=NumToStr(score);
-    str2=NumToStr(gametype);
-    str3=NumToStr(gamespeed);
-    str4=NumToStr(delaytime);
-    str5=NumToStr(lockDelay);
-    msg1="  sc ";
-    msg2="  gt ";
-    msg3="  gs ";
-    msg4="  dt ";
-    msg4="  lD ";
-    }
-  else if (viewDbg==2)
-    {
-    str1=NumToStr(prevWaited);
-    str2=NumToStr(prevLft);
-    str3=NumToStr(prevRht);
-    str4=NumToStr(prevDrp);
-    str5=NumToStr(prevRot);
-    msg1="  pW ";
-    msg2="  pL ";
-    msg3="  pR ";
-    msg4="  pD ";
-    msg5="  pR ";
-    }
-  else if (viewDbg==3)
-    {
-    str1=NumToStr(currentPiece);
-    str2=NumToStr(currentRotate);
-    str3=NumToStr(tetLR);
-    str4=NumToStr(tetUD);
-    msg1="  cP ";
-    msg2="  cR ";
-    msg3="  tL ";
-    msg4="  tU ";
-    }
-  else if (viewDbg==4)
-    {
-    str1=NumToStr(drop);
-    str2=NumToStr(alive);
-    str3=NumToStr(prevQuadClear);
-    str4=NumToStr(highMade);
-    msg1="  dp ";
-    msg2="  lv ";
-    msg3="  pQ ";
-    msg4="  hM ";
-    }
-  result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
-  SendResponseString(9,result);
-  Wait(60);
   }
 
 
@@ -930,7 +937,8 @@ task main()
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
-          Wait(10); //debugStream(i);
+          Wait(10);
+          debugStream(i);
           }
         delaytime*=speedup;
         pieceSetInto();
