@@ -34,7 +34,7 @@
 #define dwn 0
 #define lft 1
 #define rht 2
-#define sty 3
+//#define sty 3
 //Drop
 #define dropHard  1 //Normal
 #define dropSoft  2 //Normal
@@ -385,7 +385,7 @@ void displayTetromino(int INtet,int INrot, int INlr, int INud, int INdrawMode)
 bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int INwaited)
   {
   bool temppiecemoving=true; //return this
-  bool refresh=false; //refresh the screen
+  int refresh=0; //refresh the screen: 0=no, 1=piece, 2=score+piece, 3=everything
   //TextOut(25,48,"  INPUT ",0);
 //INPUT
   if (INallowInput)
@@ -393,15 +393,16 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     if (ButtonPressed(BtnDrop))
       {
       if (prevDrp>waitHardDrop)
-        {drop=dropWSoft; lockDelay=waitLock;} //Instant Hard Drop  //////////////////////////////
+        {drop=dropWSoft; lockDelay=waitLock;} //Fast = Hard Drop
       else
-        {drop=dropWHard; lockDelay=0;}        //Wait for Soft Drop //////////////////////////////
+        {drop=dropWHard; lockDelay=0;}        //Hold = Soft Drop
       prevDrp++;
       }
     else
       {
       prevDrp=0;
-      if (drop==dropWHard || drop==dropWSoft) {drop-=2; refresh=true;}
+      if (drop==dropWSoft) {drop-=dropSoft; refresh=2;}
+      if (drop==dropWHard) {drop-=dropHard; refresh=3;}
       }
     if (ButtonPressed(BtnRotate))
       {
@@ -410,7 +411,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         {
         if (rotate())
           {
-          refresh=true;
+          refresh=1;
           currentRotate++;
           if (currentRotate>=4) currentRotate=0;
           }
@@ -431,7 +432,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         if (prevLft<0) prevLft=0;
         else prevLft=waitSlowMove-waitFastMove;
         tetLR++;
-        refresh=true;
+        refresh=1;
         }
       }
     else
@@ -447,7 +448,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         if (prevRht<0) prevRht=0;
         else prevRht=waitSlowMove-waitFastMove;
         tetLR--;
-        refresh=true;
+        refresh=1;
         }
       }
     else
@@ -499,9 +500,18 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     }
   //TextOut(25,48,"  DRAW  ",0);
 //DRAW
-  if (INallowDraw)
-    {
-    if (refresh) ClearScreen();
+  if (INallowDraw)                      //refresh the screen:
+    {                                   //0=nothing
+    if      (refresh==1)                //1=piece
+      {
+      RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
+      }
+    else if (refresh==2)                //2=score+piece
+      {
+      RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
+      RectOut(SX,         SY,         6      ,20     ,4);
+      }
+    else if (refresh==3) ClearScreen(); //3=everything
     int keepUD=tetUD;
     bool tempLoop=1;
     while (tempLoop)
@@ -595,11 +605,11 @@ void resetVars()
   prevRot        = 0;
   currentRotate  = 0;
   prevWaited     = 0;
-  currentRotate=0;
-  drop=0;
-  lockDelay=0;
+  currentRotate  = 0;
+  drop           = 0;
+  lockDelay      = 0;
   tetLR=width/2-2;
-  tetUD=height-1;
+  tetUD=height;
   }
 
 
@@ -937,8 +947,8 @@ task main()
         {
         resetVars();
         pieceCreate();
-        piecemoving=move(sty); //If piece was made where the...
-        alive=      move(sty); //board is full, end the game.
+        piecemoving=move(dwn); //If a piece was made where...
+        alive=      move(dwn); //it can't move, end the game.
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
@@ -961,8 +971,7 @@ task main()
 /*
 =====TO FIX=====
 Soft Drop                         io()
-setInto when above the ground     move()
-drop scoring                      io()
+refresh                           io()
 
 Process Order:
 -Rotation
