@@ -474,9 +474,11 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
             {
             tetUD--;
             score+=2;
+            PlayTone(1000,90);Wait(100);
             }
           else
             {
+            PlayTone(2000,100);Wait(1000);
             tempLoop=false;
             lockDelay++;
             if (lockDelay>=waitLock) temppiecemoving=false;
@@ -504,14 +506,19 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {                                   //0=nothing
     if      (refresh==1)                //1=piece
       {
-      RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
+      ClearScreen();
+      //RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
       }
     else if (refresh==2)                //2=score+piece
       {
-      RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
-      RectOut(SX,         SY,         6      ,20     ,4);
+      ClearScreen();
+      //RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
+      //RectOut(SX,         SY,         6      ,20     ,4);
       }
-    else if (refresh==3) ClearScreen(); //3=everything
+    else if (refresh==3)                //3=everything
+      {
+      ClearScreen();
+      }
     int keepUD=tetUD;
     bool tempLoop=1;
     while (tempLoop)
