@@ -513,15 +513,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //DRAW
 //DRAW
   if (INallowDraw)                      //refresh the screen:
-    {                                   //0=nothing
-    if      (refresh==1)                //1=piece
-      {
+    {                                   //0=nothing   //1=piece   //2=everything
+    if      (refresh==1) RectOut(tetUD*blksz,tetLR*blksz,blksz*4,blksz*4,36);
       RectOut(tetUD*blksz,tetLR*blksz,blksz*4,blksz*4,36); //Fill+Invert
-      }
-    else if (refresh==2)                //2=everything
-      {
-      ClearScreen();
-      }
+    else if (refresh==2) ClearScreen();
     refresh=0; //IS THIS OK?   IS THIS OK?   IS THIS OK?   IS THIS OK?
     int tempUD=tetUD;
     bool tempLoop=1;
