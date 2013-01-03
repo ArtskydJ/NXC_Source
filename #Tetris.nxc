@@ -533,11 +533,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     //Ghost Piece
     while (tempLoop)
       {
-      if (move(dwn,tetUD)) {tempUD--;}//PlayTone(400,180);Wait(200);}
+      if (move(dwn,tempUD)) {tempUD--;}//PlayTone(400,180);Wait(200);}
       else
         {
-        tetUD++;
-        //PlayTone(1000,1800);Wait(2000);
+        //tetUD++;
         tempLoop=false;
         displayTetromino(currentPiece,currentRotate,tetLR*blksz,tempUD*blksz,2);
         }
