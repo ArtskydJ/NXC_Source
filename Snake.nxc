@@ -223,13 +223,10 @@ void snakeMove()
 
 void snakeDraw()
   {
-  for (x=0;x<=b;x++)
-    {LineOut(clrx1*b+x, 63-clry1*b, clrx1*b+x, 63-(clry1+1)*b, 4);}
+  RectOut(clrx1*b,63-b-clry1*b,b,b,36); //Fill+Invert
   if (clrx2!=-1&&clry2!=-1)
-    {
-    for (x=0;x<=b;x++)
-      {LineOut(clrx2*b+x, 63-clry2*b, clrx2*b+x, 63-(clry2+1)*b, 4);}
-    }
+    {RectOut(clrx2*b,63-clry2*b,b,b,36);} //Fill+Invert
+
   LineOut(64,0,64,64,0);
   for (y=0;y<height;y++)
     {
@@ -250,7 +247,8 @@ void snakeDraw()
     {
     TextOut(65,LCD_LINE4,"High",0);
     NumOut( 65,LCD_LINE5,readHigh(accesshigh),0);
-    TextOut(65,LCD_LINE6,readHighName(accesshigh),0);
+    if (!highmade) TextOut(65,LCD_LINE6,readHighName(accesshigh),0);
+    else           TextOut(65,LCD_LINE6,"",4096);
     }
   }
 
