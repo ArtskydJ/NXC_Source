@@ -321,7 +321,7 @@ bool move(int INdir, int INud)
     tempLR=tet[currentPiece+currentRotate][i  ]+INud+addLR;
     tempUD=tet[currentPiece+currentRotate][i+4]+INud+addUD;
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
-      {canMove+=(area[tempLR][tempUD]);} //PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
+      {canMove+=(area[tempLR][tempUD]);}
     else canMove++;
     }
   //NumOut(0,16,canMove,0);
@@ -408,8 +408,8 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     else
       {
       prevDrp=0;
-      if      (drop==dropWSoft) {drop=dropSoft;}
-      else if (drop==dropWHard) {drop=dropHard;}
+      if      (drop==dropWHard) {drop=dropHard;}
+      else if (drop==dropWSoft) {drop=dropSoft;}
       else                      {drop=0;}
       }
     if (ButtonPressed(BtnRotate))
@@ -419,7 +419,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         {
         if (rotate())
           {
-          refresh=1;
+          refresh=2;
           currentRotate++;
           if (currentRotate>=4) currentRotate=0;
           }
@@ -521,10 +521,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {                                   //0=nothing
     if      (refresh==1)                //1=piece
       {
-      for (int j=0;j<=16;j++)
-        {LineOut(tetUD*blksz+j, tetLR*blksz, tetUD*blksz+j, 16+tetLR*blksz, 4);}
+      for (int j=0;j<=24;j++)
+        {LineOut(tetUD*blksz+j-4, tetLR*blksz, tetUD*blksz+j-4, 16+tetLR*blksz, 4);}
       }
-    else if (refresh==2)                //3=everything
+    else if (refresh==2)                //2=everything
       {
       ClearScreen();
       }
@@ -533,11 +533,11 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     //Ghost Piece
     while (tempLoop)
       {
-      if (move(dwn,tetUD)) {tempUD--;PlayTone(400,180);Wait(200);}
+      if (move(dwn,tetUD)) {tempUD--;}//PlayTone(400,180);Wait(200);}
       else
         {
         tetUD++;
-        PlayTone(1000,1800);Wait(2000);
+        //PlayTone(1000,1800);Wait(2000);
         tempLoop=false;
         displayTetromino(currentPiece,currentRotate,tetLR*blksz,tempUD*blksz,2);
         }
@@ -679,16 +679,16 @@ int clearFullRows()
   int blocksInRow=0;
   int numOfFilledLines=0;
   int i,j,k;
-  for (i=0; i<height+2; i++)                //Check All Rows
+  for (i=0; i<height+2; i++)           //Check All Rows
     {
     blocksInRow=0;
-    for (j=0; j<width; j++)                 //Add up blocks in row
+    for (j=0; j<width; j++)            //Add up blocks in row
       {
       blocksInRow+=(area[j][i]);
       }
-    if (blocksInRow==width&&i<height)       //If (row_is_full)
+    if (blocksInRow==width&&i<height)  //If the row is full)
       {
-      for (k=i; k<height; k++)              //Move higher rows down
+      for (k=i; k<height; k++)         //Move higher rows down
         {
         for (j=0; j<width; j++)
           {
@@ -721,11 +721,6 @@ bool gameEnd()
   disp="GamOvr!";
   inputOutput(0,0,1,0);
   bool plyagn=false;
-  //TextOut(0,0,,4096);
-  PlayTone(1500,1000);
-  Wait(1000);
-  ClearScreen();
-  TextOut(30,36,"Rotate NXT",0);
   Wait(1000);
   if (highMade) writeHighName(accesshigh,score);
   ClearScreen();
@@ -754,7 +749,7 @@ bool gameEnd()
 void debugStream(int INint)
   {
   bool insideLoop=0;
-  for (int i=0;i<5&&insideLoop;i++)
+  for (int i=0;i<5&&!insideLoop;i++)
     {
     insideLoop+=allowDbg[i];
     }
@@ -764,8 +759,8 @@ void debugStream(int INint)
     while (insideLoop)
       {
       if (allowDbg[viewDbg]) insideLoop=false;
-      viewDbg++;
-      if (viewDbg>=5) viewDbg=0;
+      if (insideLoop==true)  viewDbg++;
+      if (viewDbg>=5)        viewDbg=0;
       }
     string str1="";
     string str2="";
@@ -783,7 +778,7 @@ void debugStream(int INint)
       str1=disp;
       str2=accesshigh;
       str3=NumToStr(speedup);
-      str4=NumToStr(INint);
+      str4=NumToStr(INint); //  i/wait
       msg1="  dsp ";
       msg2="  ahi ";
       msg3="  sdp ";
@@ -969,8 +964,9 @@ task main()
         {
         resetVars();
         pieceCreate();
-        piecemoving=move(dwn,tetUD); //If a piece was made where...
-        alive=      move(dwn,tetUD); //it can't move, end the game.
+        piecemoving=move(dwn,tetUD); //If a piece was made where it...
+        alive=      move(dwn,tetUD); //can't move down, end the game.
+        piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
