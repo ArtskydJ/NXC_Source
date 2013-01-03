@@ -19,7 +19,7 @@
 #define previewPieces   6
 //Timing (all *10)
 #define waitGravity     5
-#define waitDisp        12
+#define waitDisp        30
 #define waitSlowMove    3
 #define waitFastMove    0
 #define waitRotateAgain 3
@@ -123,35 +123,38 @@ const short tet[8][28]=
 
 
 //                 GLOBAL VARIABLES
+byte showDisp      =0;
+byte viewDbg       =0;
+byte gametype      =0;
+byte gamespeed     =0;
+byte delaytime     =0;
+byte lockDelay     =0;
+byte prevRht       =0;
+byte prevLft       =0;
+byte prevDrp       =0;
+byte prevRot       =0;
+byte currentPiece  =0;
+byte currentRotate =0;
+byte tetLR         =0;
+byte tetUD         =0;
+byte drop          =0;
+byte prevWaited    =0;
+//START  ARRAYS
+bool area[width][height+2];
+byte chnc[8];
+byte nextPiece[previewPieces];
+// END   ARRAYS
+bool alive         =0;
+bool prevQuadClear =0;
+bool highMade      =0;
+
+float speedup      =0;
+
+long score         =0;
+
 string msg         ="";
 string disp        ="";
 string accesshigh  ="";
-float speedup      = 0;
-int showDisp       = 0;
-int viewDbg        =-1;
-int score          = 0;
-int gametype       = 0;
-int gamespeed      = 0;
-int delaytime      = 0;
-int lockDelay      = 0;
-int prevRht        = 0;
-int prevLft        = 0;
-int prevDrp        = 0;
-int prevRot        = 0;
-int currentPiece   = 0;
-int currentRotate  = 0;
-int prevWaited     = 0;
-int tetLR          = 0;
-int tetUD          = 0;
-int drop           = 0;
-bool alive         = 0;
-bool prevQuadClear = 0;
-bool highMade      = 0;
-
-
-bool area[width][height+2];
-int chnc[8];
-int nextPiece[previewPieces];
 
 
 //                 SUBROUTINES
@@ -329,6 +332,7 @@ bool move(int INdir)
 
 bool rotate()  //When it cant rotate, why does it freeze???     FIXED???
   {
+  disp="rotate";
   int canRotate=1, addRot=0, tempLR, tempUD, addUD, addLR;
   if (currentRotate>=3) addRot=-3;
   else                  addRot=1;
@@ -388,7 +392,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
   {
   bool temppiecemoving=true; //return this
   int refresh=0; //refresh the screen: 0=no, 1=piece, 2=score+piece, 3=everything
-  //TextOut(25,48,"  INPUT ",0);
+//INPUT
 //INPUT
   if (INallowInput)
     {
@@ -459,51 +463,49 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       prevRht=-5;
       }
     }
-
-  //TextOut(25,48," OUTPUT",0);
+//OUTPUT
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
     {
-    if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropHard || drop==dropSoft)
+    if (drop==dropHard)                                                   //HARD DROP
       {
-      //TextOut(25,48,"DRP/GRAV",0);
-      if (drop==dropHard)              //HARD DROP
+      disp="hard";
+      bool tempLoop=true;
+      while (tempLoop)
         {
-        TextOut(0,0,"hard",0); Wait(500);
-        bool tempLoop=true;
-        while (tempLoop)
+        if (move(dwn))
           {
-          if (move(dwn))
-            {
-            tetUD--;
-            score+=2;
-            //PlayTone(1000,90);Wait(100);
-            }
-          else
-            {
-            tempLoop=false;
-            lockDelay++;
-            if (lockDelay>=waitLock) temppiecemoving=false;
-            }
+          tetUD--;
+          score+=2;
           }
-        refresh=3;
-        }
-      else                             //SOFT DROP or GRAVITY
-        {
-        if (drop==dropSoft)
+        else
           {
-          TextOut(0,0,"SOFT",0);
-          Wait(500);
-          score++;
-          refresh=2;
+          tempLoop=false;
+          lockDelay++;
+          if (lockDelay>=waitLock) temppiecemoving=false;
           }
-        else refresh=1;
-        if (move(dwn)) {tetUD--;}
-        else lockDelay++;
-        if (lockDelay>=waitLock) {temppiecemoving=false; lockDelay=0;}
         }
+      refresh=3;
       drop=0;
       }
+    if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropSoft) //SOFT DROP or GRAVITY
+      {
+      if (drop==dropSoft)
+        {
+        disp="SOFT";
+        score++;
+        refresh=2;
+        }
+      else
+        {
+        refresh=1;
+        }
+      if (move(dwn)) {tetUD--;}
+      else {lockDelay++;}
+      if (lockDelay>=waitLock) {temppiecemoving=false; lockDelay=0;}
+      drop=0;
+      }
+
     prevWaited=INwaited;
     if (readHigh(accesshigh)>score)
       {
@@ -511,23 +513,16 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       highMade=true;
       }
     }
-  //TextOut(25,48,"  DRAW  ",0);
+//DRAW
 //DRAW
   if (INallowDraw)                      //refresh the screen:
     {                                   //0=nothing
     if      (refresh==1)                //1=piece
       {
-      RectOut(0,0,100,width*blksz,0);
-      //ClearScreen();
-      //RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
+      for (int j=0;j<=16;j++)
+        {LineOut(tetUD*blksz+j, tetLR*blksz, tetUD*blksz+j, 16+tetLR*blksz, 4);}
       }
-    else if (refresh==2)                //2=score+piece
-      {
-      ClearScreen();
-      //RectOut(tetLR*blksz,tetUD*blksz,blksz*4,blksz*4,4);
-      //RectOut(SX,         SY,         6      ,20     ,4);
-      }
-    else if (refresh==3)                //3=everything
+    else if (refresh==2)                //3=everything
       {
       ClearScreen();
       }
@@ -567,7 +562,8 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       {
       TextOut(msgX,msgY,disp,0);
       showDisp++;
-      if (showDisp<waitDisp) disp="";
+      if (showDisp==0) refresh=3;
+      if (showDisp>waitDisp) disp="";
       }
     //CURRENT TETROMINO / SCORE
     displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,1);
