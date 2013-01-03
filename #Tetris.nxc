@@ -527,6 +527,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       {
       ClearScreen();
       }
+    refresh=0; //IS THIS OK?   IS THIS OK?   IS THIS OK?   IS THIS OK?
     int tempUD=tetUD;
     bool tempLoop=1;
     //Ghost Piece
