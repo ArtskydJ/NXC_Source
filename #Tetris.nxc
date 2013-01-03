@@ -53,7 +53,7 @@
 
 
 //                 GLOBAL CONSTANTS
-const bool allowDbg[5]={0,0,1,0,0};
+const bool allowDbg[5]={0,0,0,0,0};
 const byte tet[8][28]=
   {
 // I
@@ -129,7 +129,6 @@ bool highMade      =0;
 
 //START  ARRAYS
 bool area[width][height+2];
-
 byte chnc[8];
 byte nextPiece[previewPieces];
 // END   ARRAYS
@@ -320,7 +319,7 @@ bool move(int INdir, int INud)
     {
     tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
     tempUD=tet[currentPiece+currentRotate][i+4]+INud +addUD;
-    if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
+    if ((tempLR>=0)&&(tempLR<width)&&(tempUD>=0)) //&&(tempUD<height)
       {canMove+=(area[tempLR][tempUD]);}
     else canMove++;
     }
@@ -332,7 +331,7 @@ bool move(int INdir, int INud)
 
 bool rotate()  //When it cant rotate, why does it freeze???     FIXED???
   {
-  disp="rotate";
+  disp="Rotate";
   int canRotate=1, addRot=0, tempLR, tempUD, addUD, addLR;
   if (currentRotate>=3) addRot=-3;
   else                  addRot=1;
@@ -341,11 +340,13 @@ bool rotate()  //When it cant rotate, why does it freeze???     FIXED???
     if (i==0) addUD= 0;  //1st  Level
     if (i==1) addUD=-1;  //2nd  Down
     if (i==2) addUD= 1;  //3rd  Up
-    for (int j=0; (j<3 && canRotate>0); j++)
+    for (int j=0; (j<5 && canRotate>0); j++)
       {
       if (j==0) addLR= 0;  //1st  Center
-      if (j==1) addLR=-1;  //2nd  Right
-      if (j==2) addLR= 1;  //3rd  Left
+      if (j==1) addLR=-1;  //2nd  L or R
+      if (j==2) addLR= 1;  //3rd  L or R
+      if (j==3) addLR=-2*(currentPiece*4==Itet);  //4th  L or R if I tetromino
+      if (j==4) addLR= 2*(currentPiece*4==Itet);  //5th  L or R if I tetromino
       canRotate=0;
       for (int k=0; k<4; k++)
         {
@@ -365,17 +366,14 @@ bool rotate()  //When it cant rotate, why does it freeze???     FIXED???
   return (canRotate==0);
   }
 
-                                       //in is updown leftright
+
 void displayTetromino(int INtet,int INrot, int INlr, int INud, int INdrawMode)
   {
   int tempLR,tempUD;
   for (int i=0; i<4; i++)
     {
-    //tempLR=56-(INlr+(tet[INtet+INrot][i  ])*blksz); //inverted
-    tempLR=   (INlr+(tet[INtet+INrot][i  ])*blksz);
-    tempUD=   (INud+(tet[INtet+INrot][i+4])*blksz);
-
-    //Wait(500);
+    tempLR=INlr+(tet[INtet+INrot][i  ])*blksz;
+    tempUD=INud+(tet[INtet+INrot][i+4])*blksz;
     if      (INdrawMode==0) RectOut(tempUD,tempLR,blksz,blksz,32);
     else if (INdrawMode==1) RectOut(tempUD,tempLR,blksz,blksz,0);
     else if (INdrawMode==2) CircleOut(tempUD+blksz/2,tempLR+blksz/2,blksz/2-1,0);//change so it looks different
@@ -440,7 +438,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         if (prevLft<0) prevLft=0;
         else prevLft=waitSlowMove-waitFastMove;
         tetLR++;
-        refresh=1;
+        refresh=2;
         }
       }
     else
@@ -456,7 +454,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         if (prevRht<0) prevRht=0;
         else prevRht=waitSlowMove-waitFastMove;
         tetLR--;
-        refresh=1;
+        refresh=2;
         }
       }
     else
@@ -487,7 +485,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
           if (lockDelay>=waitLock) temppiecemoving=false;
           }
         }
-      refresh=3;
+      refresh=2;
       drop=0;
       }
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropSoft) //SOFT DROP or GRAVITY
@@ -495,13 +493,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       if (drop==dropSoft)
         {
         disp="SOFT";
+        PlayTone(4000,200);
         score++;
-        refresh=2;
         }
-      else
-        {
-        refresh=1;
-        }
+      refresh=1;
       if (move(dwn,tetUD)) {tetUD--;}
       else {lockDelay++;}
       if (lockDelay>=waitLock) {temppiecemoving=false; lockDelay=0;}
@@ -521,8 +516,12 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {                                   //0=nothing
     if      (refresh==1)                //1=piece
       {
-      for (int j=0;j<=24;j++)
-        {LineOut(tetUD*blksz+j-4, tetLR*blksz, tetUD*blksz+j-4, 16+tetLR*blksz, 4);}
+      for (int j=0;j<=16;j++)
+        {
+        byte t1=(tetLR+0)*blksz;
+        byte t2=(tetUD+1)*blksz+j;
+        LineOut(t2,t1,t2,t1+16,4);
+        }
       }
     else if (refresh==2)                //2=everything
       {
@@ -565,7 +564,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       {
       TextOut(msgX,msgY,disp,0);
       showDisp++;
-      if (showDisp==0) refresh=3;
+      if (showDisp==0) refresh=2;
       if (showDisp>waitDisp) disp="";
       }
     //CURRENT TETROMINO / SCORE
@@ -629,7 +628,7 @@ void resetVars()
   drop           = 0;
   lockDelay      = 0;
   tetLR=width/2-2;
-  tetUD=height-10;
+  tetUD=height;
   }
 
 
@@ -748,14 +747,14 @@ bool gameEnd()
 void debugStream(int INint)
   {
   bool insideLoop=0;
-  for (int i=0;i<5&&!insideLoop;i++)
+  for (int i=0;i<5&&!insideLoop;i++) //check if any debugs are allowed
     {
     insideLoop+=allowDbg[i];
     }
-  if (insideLoop)
+  if (insideLoop)                   //if any are...
     {
     insideLoop=true;
-    while (insideLoop)
+    while (insideLoop)              //go to the next allowed one.
       {
       if (allowDbg[viewDbg]) insideLoop=false;
       if (insideLoop==true)  viewDbg++;
@@ -831,7 +830,7 @@ void debugStream(int INint)
       msg3="  pQ ";
       msg4="  hM ";
       }
-    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4);
+    result=StrCat(msg1,str1,msg2,str2,msg3,str3,msg4,str4,msg5,str5);
     SendResponseString(9,result);
     Wait(60);
     }
@@ -987,8 +986,8 @@ task main()
 
 /*
 =====TO FIX=====
-Soft Drop                         io()
-refresh                           io()
+Soft Drop       io()
+refresh         FIXED!!!
 
 Process Order:
 -Rotation
@@ -1003,7 +1002,7 @@ Clockwise Rotation      DONE
 Right Side Bias         DONE
 Delayed Auto Shift      DONE
 
-Wall kicks              UNFINISHED (Itet can't kick 2 over)
+Wall kicks              FINISHED (If I kicks 2 rows)
 
 Allow only 1 floor kick                                IMPLEMENT
 Allow I wall kicking always.                           IMPLEMENT
