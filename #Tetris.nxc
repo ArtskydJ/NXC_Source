@@ -318,8 +318,8 @@ bool move(int INdir, int INud)
   else if (INdir==rht) addLR=-1;
   for (int i=0; i<4; i++)
     {
-    tempLR=tet[currentPiece+currentRotate][i  ]+INud+addLR;
-    tempUD=tet[currentPiece+currentRotate][i+4]+INud+addUD;
+    tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
+    tempUD=tet[currentPiece+currentRotate][i+4]+INud +addUD;
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
       {canMove+=(area[tempLR][tempUD]);}
     else canMove++;
