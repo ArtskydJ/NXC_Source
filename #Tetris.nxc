@@ -400,14 +400,14 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       if (prevDrp<waitHardDrop)
         {drop=dropWHard; lockDelay=waitLock;} //Fast = Hard Drop
       else
-        {drop=dropWSoft; lockDelay=0;}        //Hold = Soft Drop
+        {drop=dropSoft; lockDelay=0;}        //Hold = Soft Drop  //was dropWSoft
       prevDrp++;
       }
     else
       {
       prevDrp=0;
       if      (drop==dropWHard) {drop=dropHard;}
-      else if (drop==dropWSoft) {drop=dropSoft;}
+      //else if (drop==dropWSoft) {drop=dropSoft;}
       else                      {drop=0;}
       }
     if (ButtonPressed(BtnRotate))
@@ -485,7 +485,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
           if (lockDelay>=waitLock) temppiecemoving=false;
           }
         }
-      refresh=2;
+      refresh=3;
       drop=0;
       }
     if ((INwaited%waitGravity<=prevWaited%waitGravity) || drop==dropSoft) //SOFT DROP or GRAVITY
@@ -496,7 +496,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         PlayTone(4000,200);
         score++;
         }
-      refresh=1;
+      if (refresh==0) refresh=1;
       if (move(dwn,tetUD)) {tetUD--;}
       else {lockDelay++;}
       if (lockDelay>=waitLock) {temppiecemoving=false; lockDelay=0;}
@@ -513,11 +513,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
 //DRAW
 //DRAW
   if (INallowDraw)                      //refresh the screen:
-    {                                   //0=nothing   //1=piece   //2=everything
-    if      (refresh==1) RectOut(tetUD*blksz,tetLR*blksz,blksz*4,blksz*4,36);
-      RectOut(tetUD*blksz,tetLR*blksz,blksz*4,blksz*4,36); //Fill+Invert
-    else if (refresh==2) ClearScreen();
-    refresh=0; //IS THIS OK?   IS THIS OK?   IS THIS OK?   IS THIS OK?
+    {                                   //0=nothing   //1=piece   //2=area   //3=everything
+    if      (refresh==1) RectOut(tetUD*blksz,tetLR*blksz,blksz*4,blksz*4,36); //Fill+Invert
+    else if (refresh==2) RectOut(0,0,height*blksz,width*blksz,36); //Fill+Invert
+    else if (refresh==3) ClearScreen();
     int tempUD=tetUD;
     bool tempLoop=1;
     //Ghost Piece
@@ -954,7 +953,7 @@ task main()
         resetVars();
         pieceCreate();
         piecemoving=move(dwn,tetUD); //If a piece was made where it...
-        alive=      move(dwn,tetUD); //can't move down, end the game.
+        alive=piecemoving;           //can't move down, end the game.
         piecemoving=true;
         for (int i=0; piecemoving; i++) //waiting
           {
