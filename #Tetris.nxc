@@ -53,8 +53,8 @@
 
 
 //                 GLOBAL CONSTANTS
-const bool  allowDbg[5]={0,0,1,0,0};
-const short tet[8][28]=
+const bool allowDbg[5]={0,0,1,0,0};
+const byte tet[8][28]=
   {
 // I
   {0,1,2,3,
@@ -123,6 +123,17 @@ const short tet[8][28]=
 
 
 //                 GLOBAL VARIABLES
+bool alive         =0;
+bool prevQuadClear =0;
+bool highMade      =0;
+
+//START  ARRAYS
+bool area[width][height+2];
+
+byte chnc[8];
+byte nextPiece[previewPieces];
+// END   ARRAYS
+
 byte showDisp      =0;
 byte viewDbg       =0;
 byte gametype      =0;
@@ -139,22 +150,11 @@ byte tetLR         =0;
 byte tetUD         =0;
 byte drop          =0;
 byte prevWaited    =0;
-//START  ARRAYS
-bool area[width][height+2];
-byte chnc[8];
-byte nextPiece[previewPieces];
-// END   ARRAYS
-bool alive         =0;
-bool prevQuadClear =0;
-bool highMade      =0;
-
-float speedup      =0;
-
-long score         =0;
-
-string msg         ="";
-string disp        ="";
-string accesshigh  ="";
+float speedup     =0;
+long score        =0;
+string msg        ="";
+string disp       ="";
+string accesshigh ="";
 
 
 //                 SUBROUTINES
@@ -306,7 +306,7 @@ void selectGame(bool INfastmode)
 //  \\_//    \\_//    \\_//    \\_//    \\_//    \\_//    \\_//    \\_//
 //   \_/      \_/      \_/      \_/      \_/      \_/      \_/      \_/
 
-bool move(int INdir)
+bool move(int INdir, int INud)
   {
   int canMove=0;
   int addLR  =0;
@@ -318,16 +318,16 @@ bool move(int INdir)
   else if (INdir==rht) addLR=-1;
   for (int i=0; i<4; i++)
     {
-    tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
-    tempUD=tet[currentPiece+currentRotate][i+4]+tetUD+addUD;
+    tempLR=tet[currentPiece+currentRotate][i  ]+INud+addLR;
+    tempUD=tet[currentPiece+currentRotate][i+4]+INud+addUD;
     if ((tempLR>=0)&&(tempUD>=0)&&(tempLR<width)) //&&(tempUD<height)
       {canMove+=(area[tempLR][tempUD]);} //PointOut(tempUD*blksz+1,tempLR*blksz+1,0);}
     else canMove++;
     }
   //NumOut(0,16,canMove,0);
   //Wait(500);
-  return (canMove==0); //canMove in:  0123
-  }                    //canMove out: 1000
+  return (canMove==0); //canMove in:  0123  0123
+  }                    //canMove out: 1000  TFFF
 
 
 bool rotate()  //When it cant rotate, why does it freeze???     FIXED???
@@ -392,6 +392,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
   {
   bool temppiecemoving=true; //return this
   int refresh=0; //refresh the screen: 0=no, 1=piece, 2=score+piece, 3=everything
+  
 //INPUT
 //INPUT
   if (INallowInput)
@@ -434,7 +435,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       {
       lockDelay=0;
       prevLft++;
-      if ((prevLft>=waitSlowMove || prevLft<0) && move(lft))
+      if ((prevLft>=waitSlowMove || prevLft<0) && move(lft,tetUD))
         {
         if (prevLft<0) prevLft=0;
         else prevLft=waitSlowMove-waitFastMove;
@@ -450,7 +451,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       {
       lockDelay=0;
       prevRht++;
-      if ((prevRht>=waitSlowMove || prevRht<0) && move(rht))
+      if ((prevRht>=waitSlowMove || prevRht<0) && move(rht,tetUD))
         {
         if (prevRht<0) prevRht=0;
         else prevRht=waitSlowMove-waitFastMove;
@@ -463,6 +464,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       prevRht=-5;
       }
     }
+    
 //OUTPUT
 //OUTPUT
   if (INallowOutput) //Gravity and Drop
@@ -473,7 +475,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       bool tempLoop=true;
       while (tempLoop)
         {
-        if (move(dwn))
+        if (move(dwn,tetUD))
           {
           tetUD--;
           score+=2;
@@ -500,12 +502,11 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
         {
         refresh=1;
         }
-      if (move(dwn)) {tetUD--;}
+      if (move(dwn,tetUD)) {tetUD--;}
       else {lockDelay++;}
       if (lockDelay>=waitLock) {temppiecemoving=false; lockDelay=0;}
       drop=0;
       }
-
     prevWaited=INwaited;
     if (readHigh(accesshigh)>score)
       {
@@ -513,6 +514,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       highMade=true;
       }
     }
+    
 //DRAW
 //DRAW
   if (INallowDraw)                      //refresh the screen:
@@ -526,18 +528,20 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
       {
       ClearScreen();
       }
-    int keepUD=tetUD;
+    int tempUD=tetUD;
     bool tempLoop=1;
+    //Ghost Piece
     while (tempLoop)
       {
-      if (move(dwn)) tetUD--;
+      if (move(dwn,tetUD)) {tempUD--;PlayTone(400,180);Wait(200);}
       else
         {
+        tetUD++;
+        PlayTone(1000,1800);Wait(2000);
         tempLoop=false;
-        displayTetromino(currentPiece,currentRotate,tetLR*blksz,tetUD*blksz,2);
+        displayTetromino(currentPiece,currentRotate,tetLR*blksz,tempUD*blksz,2);
         }
       }
-    tetUD=keepUD;
     //AREA
     int i;
     int j;
@@ -626,7 +630,7 @@ void resetVars()
   drop           = 0;
   lockDelay      = 0;
   tetLR=width/2-2;
-  tetUD=height;
+  tetUD=height-10;
   }
 
 
@@ -759,9 +763,9 @@ void debugStream(int INint)
     insideLoop=true;
     while (insideLoop)
       {
-      viewDbg++;
-      if (viewDbg>4) viewDbg=0;
       if (allowDbg[viewDbg]) insideLoop=false;
+      viewDbg++;
+      if (viewDbg>=5) viewDbg=0;
       }
     string str1="";
     string str2="";
@@ -965,8 +969,8 @@ task main()
         {
         resetVars();
         pieceCreate();
-        piecemoving=move(dwn); //If a piece was made where...
-        alive=      move(dwn); //it can't move, end the game.
+        piecemoving=move(dwn,tetUD); //If a piece was made where...
+        alive=      move(dwn,tetUD); //it can't move, end the game.
         for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
