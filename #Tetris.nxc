@@ -516,12 +516,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int IN
     {                                   //0=nothing
     if      (refresh==1)                //1=piece
       {
-      for (int j=0;j<=16;j++)
-        {
-        byte t1=(tetLR+0)*blksz;
-        byte t2=(tetUD+1)*blksz+j;
-        LineOut(t2,t1,t2,t1+16,4);
-        }
+      RectOut(tetUD*blksz,tetLR*blksz,blksz*4,blksz*4,36); //Fill+Invert
       }
     else if (refresh==2)                //2=everything
       {
