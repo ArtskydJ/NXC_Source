@@ -47,7 +47,7 @@ string readHighName(string readme)
 void writeHigh(string readme, int NewHighscore)
   {
   DeleteFile(readme);
-  CreateFile(readme, 1024, hshandle); //changed to constant 1024 instead of variable hsfsize
+  CreateFile(readme, 64, hshandle); //changed to constant 1024 instead of constant 1024
   string tempStr=NumToStr(NewHighscore);
   WriteLnString(hshandle,tempStr,hscount);
   CloseFile(hshandle);
@@ -56,7 +56,7 @@ void writeHigh(string readme, int NewHighscore)
 void writeHighName(string readme, int NewHighscore)
   {
   DeleteFile(readme);
-  CreateFile(readme, 1024, hshandle); //changed to constant 1024 instead of variable hsfsize
+  CreateFile(readme, 64, hshandle); //changed to constant 1024 instead of constant 1024
   string tempStr=NumToStr(NewHighscore);
   //TextOut(16,16,tempStr,0);
   //Wait(500);
