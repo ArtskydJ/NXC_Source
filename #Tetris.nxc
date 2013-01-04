@@ -15,7 +15,7 @@
 #define SY      61
 #define msgX    0
 #define msgY    56
-#define defaultmode     1
+#define defaultmode     0
 #define previewPieces   6
 //Timing (all *10)
 #define waitGravity     5
@@ -715,7 +715,7 @@ bool gameEnd()
   disp="GamOvr!";
   inputOutput(0,0,1,0);
   bool plyagn=false;
-  Wait(1000);
+  Wait(2500);
   ClearScreen();
   if (highMade) writeHighName(accesshigh,score);
   ClearScreen();
@@ -937,12 +937,12 @@ void debug(char INmode)
 task main()
   {
   char mode=defaultmode;
-  while (!ButtonPressed(3))
+  /*while (!ButtonPressed(3))
     {
     mode=senseButton(mode,true,1,6,false);
     NumOut(48,0,mode,0);
     }
-  until (!ButtonPressed(3)) {}
+  until (!ButtonPressed(3)) {}*/
   if (mode==0||mode==1)
     {
     SetLongAbort(true);
