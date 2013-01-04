@@ -1,6 +1,6 @@
 //Tetris
 //Joseph Dykstra
-//Finished __-__-201_
+//Finished 01-04-2013
 
 //              PREPROCESSOR
 #include "+Button+-.nxc"
@@ -125,6 +125,7 @@ const char tet[8][28]=
 bool alive         =0;
 bool prevQuadClear =0;
 bool highMade      =0;
+bool floorKickUsed =0;
 
 //START  ARRAYS
 bool area[width][height+2]; //Two hidden rows
@@ -336,15 +337,17 @@ bool rotate()
   for (char i=0; (i<3 && canRotate>0); i++)
     {
     if (i==0) addUD= 0;  //1st  Level
-    if (i==1) addUD=-1;  //2nd  Down
-    if (i==2) addUD= 1;  //3rd  Up
+    if (i==1) addUD=-1;  //2nd  D
+    if (i==2) addUD= 1;  //3rd  U
+    if (i==3) addUD=-2*(currentPiece*4==Itet);  //4th D if I tetromino
+    if (i==4) addUD= 2*(currentPiece*4==Itet);  //5th U if I tetromino
     for (char j=0; (j<5 && canRotate>0); j++)
       {
       if (j==0) addLR= 0;  //1st  Center
-      if (j==1) addLR=-1;  //2nd  L or R
-      if (j==2) addLR= 1;  //3rd  L or R
-      if (j==3) addLR=-2*(currentPiece*4==Itet);  //4th  L or R if I tetromino
-      if (j==4) addLR= 2*(currentPiece*4==Itet);  //5th  L or R if I tetromino
+      if (j==1) addLR=-1;  //2nd  L
+      if (j==2) addLR= 1;  //3rd  R
+      if (j==3) addLR=-2*(currentPiece*4==Itet);  //4th L if I tetromino
+      if (j==4) addLR= 2*(currentPiece*4==Itet);  //5th R if I tetromino
       canRotate=0;
       for (char k=0; k<4; k++)
         {
@@ -358,8 +361,12 @@ bool rotate()
     }
   if (canRotate==0)
     {
-    tetLR+=addLR;
-    tetUD+=addUD;
+    if (!(addUD>0 && floorKickUsed==true))
+      {
+      tetLR+=addLR;
+      tetUD+=addUD;
+      if (addUD>0) floorKickUsed=true;
+      }
     }
   return (canRotate==0);
   }
@@ -467,7 +474,6 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
     {
     if (drop==dropHard)                                                   //HARD DROP
       {
-      disp="hard";
       bool tempLoop=true;
       while (tempLoop)
         {
@@ -490,8 +496,6 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
       {
       if (drop==dropSoft)
         {
-        disp="SOFT";  //never have seen
-        PlayTone(4000,200);
         score++;
         }
       if (refresh==0) refresh=1;
@@ -618,6 +622,7 @@ void resetVars()
   currentRotate  = 0;
   drop           = 0;
   lockDelay      = 0;
+  floorKickUsed  =0;
   tetLR=width/2-2;
   tetUD=height;
   }
@@ -977,8 +982,6 @@ task main()
 
 /*
 =====TO FIX=====
-Dropping       io()
-
 Process Order:
 -Rotation
 -Move
@@ -986,20 +989,19 @@ Process Order:
 -Gravity
 
 
-Soft Drop               BUGGY
+Soft Drop               DONE
 Hard Drop               DONE
 Clockwise Rotation      DONE
 Right Side Bias         DONE
 Delayed Auto Shift      DONE
+Wall kicks              DONE
 
-Wall kicks              FINISHED (If I kicks 2 rows)
-
-Allow only 1 floor kick                                IMPLEMENT
-Allow I wall kicking always.                           IMPLEMENT
-Allow I floor kicking even when not touching ground    IMPLEMENT
+Allow only 1 floor kick                                DONE
+Allow I wall kicking always.                           DONE
+Allow I floor kicking even when not touching ground    DONE
 
 Adhere to SRS guidelines, some ARS guidelines
-  http://tetris.wikia.com/wiki/ARS
   http://tetris.wikia.com/wiki/SRS
+  http://tetris.wikia.com/wiki/ARS
 
 */
