@@ -40,7 +40,6 @@
 #define dropHard  1 //Normal
 #define dropSoft  2 //Normal
 #define dropWHard 3 //Wait
-#define dropWSoft 4 //Wait
 //Tetriminos
 #define Itet 0
 #define Jtet 1
@@ -394,21 +393,20 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
 //INPUT
   if (INallowInput)
     {
-    /*
     if (ButtonPressed(BtnDrop))
       {
+      lockDelay=0;
       if (prevDrp<waitHardDrop)
-        {drop=dropWHard; lockDelay=waitLock;} //Fast = Hard Drop
-      //else
-        //{drop=dropSoft; lockDelay=0;}        //Hold = Soft Drop  //was dropWSoft
+        {drop=dropWHard;}  //Fast = Hard Drop
+      else
+        {drop=dropSoft;} //Hold = Soft Drop
       prevDrp++;
       }
-    else */
+    else
       {
       prevDrp=0;
-      if      (drop==dropWHard) {drop=dropHard;}
-      //else if (drop==dropWSoft) {drop=dropSoft;}
-      //else                      {drop=0;}
+      if (drop==dropWHard) {drop=dropHard; lockDelay=waitLock;}
+      else                 {drop=0;}
       }
     if (ButtonPressed(BtnRotate))
       {
@@ -979,7 +977,7 @@ task main()
 
 /*
 =====TO FIX=====
-Drops       io()
+Dropping       io()
 
 Process Order:
 -Rotation
