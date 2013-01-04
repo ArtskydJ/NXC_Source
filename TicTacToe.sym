@@ -3535,7 +3535,7 @@ Clump	Line	PC	Source
 6	215	690	#line 215 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	216	690		brtst 4, __ASM_Label_1449, __D0AI
 6	215	693	#line 215 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	216	693		set __D0AI, 10
+6	216	693		set __D0AI, 11
 6	215	696	#line 215 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	216	696	#pragma macro 7
 6	216	696		syscall 24, __RandomArgs
@@ -3555,7 +3555,7 @@ Clump	Line	PC	Source
 6	217	720		mov __unsigned_stack_001AI, i
 6	216	722	#line 216 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	216	722	#line 216 "C:\Github\NXC_Source\TicTacToe.nxc"
-6	217	722		set __D0AI, 15
+6	217	722		set __D0AI, 17
 6	216	725	#line 216 "C:\Github\NXC_Source\TicTacToe.nxc"
 6	217	725		cmp 1, __D0AI, __unsigned_stack_001AI, __D0AI
 6	216	729	#line 216 "C:\Github\NXC_Source\TicTacToe.nxc"
