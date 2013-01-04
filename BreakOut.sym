@@ -1,310 +1,310 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001MoveBouncer	6	1	0	4	12
-1	__signed_stack_002MoveBall	6	1	4	4	8
-2	__signed_stack_001readHigh	6	1	8	4	3
-3	__SPTArgsMutex	9	0	12	4	30
-4	__signed_stack_003main	6	1	16	4	4
-5	__signed_stack_002main	6	1	20	4	10
-6	__signed_stack_001MoveBall	6	1	24	4	57
-7	__unsigned_stack_001main	5	1	28	4	2
-8	__MWMutex	9	0	32	4	6
-9	__signed_stack_003SoundEnd	6	1	36	4	28
-10	__constVal65535	6	0	40	4	1
-11	__FWriteMutex	9	0	44	4	2
-12	__signed_stack_002RetryGame	6	1	48	4	14
-13	__signed_stack_001RetryGame	6	1	52	4	30
-14	__signed_stack_002SoundEnd	6	1	56	4	28
-15	__signed_stack_001SoundEnd	6	1	60	4	34
-16	__signed_stack_001main	6	1	64	4	39
-17	__D0Draw	6	1	68	4	35
-18	__DU0Draw	5	1	72	4	2
-19	__D0readHigh	6	1	76	4	13
-20	__D0MoveBouncer	6	1	80	4	35
-21	__D0main	6	1	84	4	75
-22	__DU0main	5	1	88	4	2
-23	__DU0MoveBall	5	1	92	4	2
-24	__D0MoveBall	6	1	96	4	126
-25	__signed_stack_002Draw	6	1	100	4	12
-26	__signed_stack_001Draw	6	1	104	4	16
-27	__signed_stack_004Draw	6	1	108	4	4
-28	__signed_stack_003Draw	6	1	112	4	10
-29	__DU0RetryGame	5	1	116	4	2
-30	__D0RetryGame	6	1	120	4	71
-31	__D0writeHigh	6	1	124	4	6
-32	__D0SoundEnd	6	1	128	4	54
-33	__FCMutex	9	0	132	4	4
-34	__FOMutex	9	0	136	4	4
-35	__FReadMutex	9	0	140	4	2
-36	__FDMutex	9	0	144	4	2
-37	__RBtnMutex	9	0	148	4	16
-38	__Wait_7qG2_ms_7qG2_000_inline_RetryGame	5	1	152	4	2
-39	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	156	4	4
-40	__LineOutMutex	9	0	160	4	2
-41	__TextOutMutex	9	0	164	4	18
-42	__Wait_7qG2_ms_7qG2_000_inline_SoundEnd	5	1	168	4	28
-43	BouncerSpeed	4	1	172	2	12
-44	Score	4	1	174	2	10
-45	PreK	4	1	176	2	3
-46	hshandle	4	1	178	2	6
-47	PreL	4	1	180	2	3
-48	Lives	4	1	182	2	7
-49	LBY	4	1	184	2	2
-50	__readHigh_7qG2_result_7qG2_000	4	1	186	2	3
-51	__writeHigh_7qG2_NewHighscore_7qG2_000	4	1	188	2	2
-52	__constVal1024	4	0	190	2	1
-53	WaitTime	4	0	192	2	7
-54	LBX	4	1	194	2	2
-55	l	4	1	196	2	11
-56	GameStatus	4	1	198	2	10
-57	Level	4	1	200	2	6
-58	angle	4	1	202	2	8
-59	SpeedX	4	1	204	2	18
-60	SpeedY	4	1	206	2	16
-61	BouncerX	4	1	208	2	12
-62	j	4	1	210	2	17
-63	k	4	1	212	2	10
-64	__SoundEnd_7qG2_whatSound_7qG2_000	4	1	214	2	5
-65	BallY	4	1	216	2	15
-66	i	4	1	218	2	23
-67	BallX	4	1	220	2	17
-68	__RLSReturn	3	1	222	2	3
-69	__constVal200	4	0	224	2	2
-70	__RLSMaxBytes	3	1	226	2	2
-71	__RLSByteCount	3	1	228	2	4
-72	__constVal10	2	0	230	1	4
-73	__writeHigh_return	1	1	231	1	3
-74	__constVal13	2	0	232	1	1
-75	__SoundEnd_return	1	1	233	1	4
-76	____readStringLine_return	1	1	234	1	1
-77	__constVal32	2	0	235	1	1
-78	__constVal103	2	0	236	1	1
-79	__constVal102	2	0	237	1	1
-80	__constVal105	2	0	238	1	1
-81	__constVal104	2	0	239	1	1
-82	__constVal101	2	0	240	1	1
-83	__constVal98	2	0	241	1	1
-84	__constVal97	2	0	242	1	1
-85	__readHigh_return	1	1	243	1	6
-86	__constVal99	2	0	244	1	1
-87	__constValNeg1	2	0	245	1	8
-88	__MoveBouncer_return	1	1	246	1	3
-89	__constValNeg3	2	0	247	1	1
-90	__constValNeg2	2	0	248	1	2
-91	__Draw_return	1	1	249	1	4
-92	__RetryGame_return	1	1	250	1	4
-93	__constValNeg6	2	0	251	1	2
-94	__constVal1	2	0	252	1	13
-95	__ClearLine_7qG2_line_7qG2_000_inline_RetryGame	1	1	253	1	2
-96	__constVal5	2	0	254	1	1
-97	__constVal4	2	0	255	1	1
-98	__RLSReturnAddress	1	1	256	1	2
-99	__FReadTmpByte	1	1	257	1	3
-100	____initialize_global_data_return	1	1	258	1	3
-101	__MoveBall_return	1	1	259	1	3
-102	__constVal0	2	1	260	1	12
-103	Retry	1	0	261	1	2
-104	__constVal53	2	0	262	1	1
-105	__constVal54	2	0	263	1	1
-106	__constVal52	2	0	264	1	1
-107	__constVal120	2	0	265	1	1
-108	__constVal117	2	0	266	1	1
-109	__constVal116	2	0	267	1	1
-110	__constVal119	2	0	268	1	1
-111	__constVal118	2	0	269	1	1
-112	__constVal44	2	0	270	1	1
-113	__constVal46	2	0	271	1	1
-114	__constVal121	2	0	272	1	1
-115	__constVal122	2	0	273	1	1
-116	__constVal49	2	0	274	1	1
-117	__constVal51	2	0	275	1	1
-118	__constVal63	2	0	276	1	1
-119	__constVal48	2	0	277	1	1
-120	__constVal106	2	0	278	1	1
-121	__constVal56	2	0	279	1	1
-122	__constVal108	2	0	280	1	1
-123	__constVal107	2	0	281	1	1
-124	__constVal100	2	0	282	1	1
-125	__constVal57	2	0	283	1	1
-126	__constVal9	2	0	284	1	3
-127	__constVal50	2	0	285	1	1
-128	__constVal113	2	0	286	1	1
-129	__constVal112	2	0	287	1	1
-130	__constVal115	2	0	288	1	1
-131	__constVal114	2	0	289	1	1
-132	__constVal109	2	0	290	1	1
-133	__constVal55	2	0	291	1	1
-134	__constVal111	2	0	292	1	1
-135	__constVal110	2	0	293	1	1
-136	__TextOutArgs	8	0	4	16	53
-137	__TextOutArgs.Result	2	1	296	1	53
-138	__TextOutArgs.Location	8	0	2	4	53
-139	__TextOutArgs.Location.X	4	1	300	2	53
-140	__TextOutArgs.Location.Y	4	1	302	2	53
-141	__TextOutArgs.Text	7	0	304	4	53
-142	__TextOutArgs.Text.Text_type	1	0	0	1	0
-143	__TextOutArgs.Options	5	1	308	4	53
-144	__SPTArgs	8	0	5	8	90
-145	__SPTArgs.Result	2	1	312	1	90
-146	__SPTArgs.Frequency	3	1	314	2	90
-147	__SPTArgs.Duration	3	1	316	2	90
-148	__SPTArgs.Loop	1	1	318	1	90
-149	__SPTArgs.Volume	1	1	319	1	90
-150	__MWArgs	8	0	3	8	12
-151	__MWArgs.Result	2	1	320	1	12
-152	__MWArgs.QueueID	1	1	321	1	12
-153	__MWArgs.Message	7	0	322	4	12
-154	__MWArgs.Message.Message_type	1	0	0	1	0
-155	__FOArgs	8	0	4	12	9
-156	__FOArgs.Result	3	1	324	2	9
-157	__FOArgs.FileHandle	1	1	326	1	9
-158	__FOArgs.Filename	7	0	328	4	9
-159	__FOArgs.Filename.Filename_type	1	0	0	1	0
-160	__FOArgs.Length	5	1	332	4	9
-161	__FCArgs	8	0	2	4	6
-162	__FCArgs.Result	3	1	336	2	6
-163	__FCArgs.FileHandle	1	1	338	1	6
-164	__FReadArgs	8	0	4	12	6
-165	__FReadArgs.Result	3	1	340	2	6
-166	__FReadArgs.FileHandle	1	1	342	1	6
-167	__FReadArgs.Buffer	7	0	344	4	6
-168	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
-169	__FReadArgs.Length	5	1	348	4	6
-170	__FDArgs	8	0	2	8	3
-171	__FDArgs.Result	3	1	352	2	3
-172	__FDArgs.Filename	7	0	354	4	3
-173	__FDArgs.Filename.Filename_type	1	0	0	1	0
-174	__FWriteArgs	8	0	4	12	6
-175	__FWriteArgs.Result	3	1	356	2	6
-176	__FWriteArgs.FileHandle	1	1	358	1	6
-177	__FWriteArgs.Buffer	7	0	360	4	6
-178	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
-179	__FWriteArgs.Length	5	1	364	4	6
-180	__RectOutArgs	8	0	4	16	7
-181	__RectOutArgs.Result	2	1	368	1	7
-182	__RectOutArgs.Location	8	0	2	4	7
-183	__RectOutArgs.Location.X	4	1	372	2	7
-184	__RectOutArgs.Location.Y	4	1	374	2	7
-185	__RectOutArgs.Size	8	0	2	4	7
-186	__RectOutArgs.Size.Width	4	1	376	2	7
-187	__RectOutArgs.Size.Height	4	1	378	2	7
-188	__RectOutArgs.Options	5	1	380	4	7
-189	__LineOutArgs	8	0	4	16	7
-190	__LineOutArgs.Result	2	1	384	1	7
-191	__LineOutArgs.StartLoc	8	0	2	4	7
-192	__LineOutArgs.StartLoc.X	4	1	388	2	7
-193	__LineOutArgs.StartLoc.Y	4	1	390	2	7
-194	__LineOutArgs.EndLoc	8	0	2	4	7
-195	__LineOutArgs.EndLoc.X	4	1	392	2	7
-196	__LineOutArgs.EndLoc.Y	4	1	394	2	7
-197	__LineOutArgs.Options	5	1	396	4	7
-198	__PointOutArgs	8	0	3	12	4
-199	__PointOutArgs.Result	2	1	400	1	4
-200	__PointOutArgs.Location	8	0	2	4	4
-201	__PointOutArgs.Location.X	4	1	404	2	4
-202	__PointOutArgs.Location.Y	4	1	406	2	4
-203	__PointOutArgs.Options	5	1	408	4	4
-204	__RBtnArgs	8	0	5	8	32
-205	__RBtnArgs.Result	2	1	412	1	32
-206	__RBtnArgs.Index	1	1	413	1	32
-207	__RBtnArgs.Pressed	1	1	414	1	32
-208	__RBtnArgs.Count	1	1	415	1	32
-209	__RBtnArgs.Reset	1	1	416	1	32
-210	__CircleOutArgs	8	0	4	16	5
-211	__CircleOutArgs.Result	2	1	420	1	5
-212	__CircleOutArgs.Center	8	0	2	4	5
-213	__CircleOutArgs.Center.X	4	1	424	2	5
-214	__CircleOutArgs.Center.Y	4	1	426	2	5
-215	__CircleOutArgs.Size	1	1	428	1	5
-216	__CircleOutArgs.Options	5	1	432	4	5
-217	__constStr0055	7	0	436	4	1
-218	__constStr0055.__constStr0055_type	1	1	0	1	0
-219	__constStr0056	7	0	438	4	1
-220	__constStr0056.__constStr0056_type	1	1	0	1	0
-221	__constStr0054	7	0	440	4	1
-222	__constStr0054.__constStr0054_type	1	1	0	1	0
-223	__constStr0065	7	0	442	4	1
-224	__constStr0065.__constStr0065_type	1	1	0	1	0
-225	__Block_2	7	0	444	4	2
-226	__Block_2.__Block_2_type	1	0	0	1	0
-227	__constStr0061	7	0	446	4	1
-228	__constStr0061.__constStr0061_type	1	1	0	1	0
-229	__constStr0060	7	0	448	4	1
-230	__constStr0060.__constStr0060_type	1	1	0	1	0
-231	__constStr0063	7	0	450	4	1
-232	__constStr0063.__constStr0063_type	1	1	0	1	0
+0	__DU0RetryGame	5	1	0	4	2
+1	__D0SoundEnd	6	1	4	4	54
+2	__D0readHigh	6	1	8	4	13
+3	__D0RetryGame	6	1	12	4	71
+4	__signed_stack_002Draw	6	1	16	4	12
+5	__signed_stack_003Draw	6	1	20	4	10
+6	__D0writeHigh	6	1	24	4	6
+7	__signed_stack_001Draw	6	1	28	4	16
+8	__D0MoveBouncer	6	1	32	4	35
+9	__D0Draw	6	1	36	4	35
+10	__DU0Draw	5	1	40	4	2
+11	__MWMutex	9	0	44	4	6
+12	__SPTArgsMutex	9	0	48	4	30
+13	__D0MoveBall	6	1	52	4	126
+14	__DU0MoveBall	5	1	56	4	2
+15	__D0main	6	1	60	4	75
+16	__DU0main	5	1	64	4	2
+17	__signed_stack_004Draw	6	1	68	4	4
+18	__signed_stack_002SoundEnd	6	1	72	4	28
+19	__signed_stack_003SoundEnd	6	1	76	4	28
+20	__signed_stack_002RetryGame	6	1	80	4	14
+21	__signed_stack_001SoundEnd	6	1	84	4	34
+22	__Wait_7qG2_ms_7qG2_000_inline_SoundEnd	5	1	88	4	28
+23	__Wait_7qG2_ms_7qG2_000_inline_RetryGame	5	1	92	4	2
+24	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	96	4	4
+25	__constVal65535	6	0	100	4	1
+26	__signed_stack_001RetryGame	6	1	104	4	30
+27	__signed_stack_003main	6	1	108	4	4
+28	__unsigned_stack_001main	5	1	112	4	2
+29	__signed_stack_001main	6	1	116	4	39
+30	__signed_stack_002main	6	1	120	4	10
+31	__signed_stack_001MoveBouncer	6	1	124	4	12
+32	__signed_stack_001readHigh	6	1	128	4	3
+33	__signed_stack_001MoveBall	6	1	132	4	57
+34	__signed_stack_002MoveBall	6	1	136	4	8
+35	__FWriteMutex	9	0	140	4	2
+36	__FCMutex	9	0	144	4	4
+37	__FDMutex	9	0	148	4	2
+38	__FReadMutex	9	0	152	4	2
+39	__FOMutex	9	0	156	4	4
+40	__TextOutMutex	9	0	160	4	18
+41	__LineOutMutex	9	0	164	4	2
+42	__RBtnMutex	9	0	168	4	16
+43	Lives	4	1	172	2	7
+44	__readHigh_7qG2_result_7qG2_000	4	1	174	2	3
+45	WaitTime	4	0	176	2	7
+46	__writeHigh_7qG2_NewHighscore_7qG2_000	4	1	178	2	2
+47	BallX	4	1	180	2	17
+48	__SoundEnd_7qG2_whatSound_7qG2_000	4	1	182	2	5
+49	Score	4	1	184	2	10
+50	LBX	4	1	186	2	2
+51	LBY	4	1	188	2	2
+52	__constVal200	4	0	190	2	2
+53	__RLSReturn	3	1	192	2	3
+54	__RLSByteCount	3	1	194	2	4
+55	__RLSMaxBytes	3	1	196	2	2
+56	hshandle	4	1	198	2	6
+57	i	4	1	200	2	23
+58	j	4	1	202	2	17
+59	Level	4	1	204	2	6
+60	angle	4	1	206	2	8
+61	k	4	1	208	2	10
+62	PreK	4	1	210	2	3
+63	PreL	4	1	212	2	3
+64	l	4	1	214	2	11
+65	BouncerSpeed	4	1	216	2	12
+66	SpeedX	4	1	218	2	18
+67	BouncerX	4	1	220	2	12
+68	BallY	4	1	222	2	15
+69	SpeedY	4	1	224	2	16
+70	GameStatus	4	1	226	2	10
+71	Retry	1	0	228	1	2
+72	__constValNeg3	2	0	229	1	1
+73	__constValNeg1	2	0	230	1	8
+74	__constVal100	2	0	231	1	1
+75	__MoveBall_return	1	1	232	1	3
+76	__ClearLine_7qG2_line_7qG2_000_inline_RetryGame	1	1	233	1	2
+77	__constValNeg2	2	0	234	1	2
+78	____initialize_global_data_return	1	1	235	1	3
+79	__constVal55	2	0	236	1	1
+80	__constVal0	2	1	237	1	12
+81	__readHigh_return	1	1	238	1	6
+82	__writeHigh_return	1	1	239	1	3
+83	__constVal1	2	0	240	1	13
+84	__SoundEnd_return	1	1	241	1	4
+85	__constVal4	2	0	242	1	1
+86	__constVal5	2	0	243	1	1
+87	__constVal54	2	0	244	1	1
+88	__constVal99	2	0	245	1	1
+89	__constVal97	2	0	246	1	1
+90	__constVal98	2	0	247	1	1
+91	__constVal50	2	0	248	1	1
+92	__constVal119	2	0	249	1	1
+93	__constVal118	2	0	250	1	1
+94	__constVal120	2	0	251	1	1
+95	__constVal122	2	0	252	1	1
+96	__constVal121	2	0	253	1	1
+97	__constVal117	2	0	254	1	1
+98	__constVal13	2	0	255	1	1
+99	__constVal10	2	0	256	1	4
+100	__constVal114	2	0	257	1	1
+101	__constVal116	2	0	258	1	1
+102	__constVal115	2	0	259	1	1
+103	__constVal53	2	0	260	1	1
+104	__constVal52	2	0	261	1	1
+105	__Draw_return	1	1	262	1	4
+106	__constVal9	2	0	263	1	3
+107	__RetryGame_return	1	1	264	1	4
+108	__constVal51	2	0	265	1	1
+109	__constVal46	2	0	266	1	1
+110	__constVal44	2	0	267	1	1
+111	__constVal63	2	0	268	1	1
+112	__constVal49	2	0	269	1	1
+113	__constVal48	2	0	270	1	1
+114	__constVal103	2	0	271	1	1
+115	__FReadTmpByte	1	1	272	1	3
+116	__constVal104	2	0	273	1	1
+117	__constVal105	2	0	274	1	1
+118	__constVal57	2	0	275	1	1
+119	__constVal32	2	0	276	1	1
+120	__constVal64	2	0	277	1	1
+121	__MoveBouncer_return	1	1	278	1	3
+122	__constValNeg6	2	0	279	1	2
+123	__constVal102	2	0	280	1	1
+124	__constVal101	2	0	281	1	1
+125	__constVal111	2	0	282	1	1
+126	__constVal110	2	0	283	1	1
+127	____readStringLine_return	1	1	284	1	1
+128	__constVal113	2	0	285	1	1
+129	__constVal112	2	0	286	1	1
+130	__RLSReturnAddress	1	1	287	1	2
+131	__constVal106	2	0	288	1	1
+132	__constVal56	2	0	289	1	1
+133	__constVal107	2	0	290	1	1
+134	__constVal109	2	0	291	1	1
+135	__constVal108	2	0	292	1	1
+136	__FCArgs	8	0	2	4	6
+137	__FCArgs.Result	3	1	296	2	6
+138	__FCArgs.FileHandle	1	1	298	1	6
+139	__RectOutArgs	8	0	4	16	7
+140	__RectOutArgs.Result	2	1	300	1	7
+141	__RectOutArgs.Location	8	0	2	4	7
+142	__RectOutArgs.Location.X	4	1	304	2	7
+143	__RectOutArgs.Location.Y	4	1	306	2	7
+144	__RectOutArgs.Size	8	0	2	4	7
+145	__RectOutArgs.Size.Width	4	1	308	2	7
+146	__RectOutArgs.Size.Height	4	1	310	2	7
+147	__RectOutArgs.Options	5	1	312	4	7
+148	__LineOutArgs	8	0	4	16	7
+149	__LineOutArgs.Result	2	1	316	1	7
+150	__LineOutArgs.StartLoc	8	0	2	4	7
+151	__LineOutArgs.StartLoc.X	4	1	320	2	7
+152	__LineOutArgs.StartLoc.Y	4	1	322	2	7
+153	__LineOutArgs.EndLoc	8	0	2	4	7
+154	__LineOutArgs.EndLoc.X	4	1	324	2	7
+155	__LineOutArgs.EndLoc.Y	4	1	326	2	7
+156	__LineOutArgs.Options	5	1	328	4	7
+157	__CircleOutArgs	8	0	4	16	5
+158	__CircleOutArgs.Result	2	1	332	1	5
+159	__CircleOutArgs.Center	8	0	2	4	5
+160	__CircleOutArgs.Center.X	4	1	336	2	5
+161	__CircleOutArgs.Center.Y	4	1	338	2	5
+162	__CircleOutArgs.Size	1	1	340	1	5
+163	__CircleOutArgs.Options	5	1	344	4	5
+164	__FOArgs	8	0	4	12	9
+165	__FOArgs.Result	3	1	348	2	9
+166	__FOArgs.FileHandle	1	1	350	1	9
+167	__FOArgs.Filename	7	0	352	4	9
+168	__FOArgs.Filename.Filename_type	1	0	0	1	0
+169	__FOArgs.Length	5	1	356	4	9
+170	__RBtnArgs	8	0	5	8	32
+171	__RBtnArgs.Result	2	1	360	1	32
+172	__RBtnArgs.Index	1	1	361	1	32
+173	__RBtnArgs.Pressed	1	1	362	1	32
+174	__RBtnArgs.Count	1	1	363	1	32
+175	__RBtnArgs.Reset	1	1	364	1	32
+176	__MWArgs	8	0	3	8	12
+177	__MWArgs.Result	2	1	368	1	12
+178	__MWArgs.QueueID	1	1	369	1	12
+179	__MWArgs.Message	7	0	370	4	12
+180	__MWArgs.Message.Message_type	1	0	0	1	0
+181	__TextOutArgs	8	0	4	16	53
+182	__TextOutArgs.Result	2	1	372	1	53
+183	__TextOutArgs.Location	8	0	2	4	53
+184	__TextOutArgs.Location.X	4	1	376	2	53
+185	__TextOutArgs.Location.Y	4	1	378	2	53
+186	__TextOutArgs.Text	7	0	380	4	53
+187	__TextOutArgs.Text.Text_type	1	0	0	1	0
+188	__TextOutArgs.Options	5	1	384	4	53
+189	__FWriteArgs	8	0	4	12	6
+190	__FWriteArgs.Result	3	1	388	2	6
+191	__FWriteArgs.FileHandle	1	1	390	1	6
+192	__FWriteArgs.Buffer	7	0	392	4	6
+193	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+194	__FWriteArgs.Length	5	1	396	4	6
+195	__SPTArgs	8	0	5	8	90
+196	__SPTArgs.Result	2	1	400	1	90
+197	__SPTArgs.Frequency	3	1	402	2	90
+198	__SPTArgs.Duration	3	1	404	2	90
+199	__SPTArgs.Loop	1	1	406	1	90
+200	__SPTArgs.Volume	1	1	407	1	90
+201	__PointOutArgs	8	0	3	12	4
+202	__PointOutArgs.Result	2	1	408	1	4
+203	__PointOutArgs.Location	8	0	2	4	4
+204	__PointOutArgs.Location.X	4	1	412	2	4
+205	__PointOutArgs.Location.Y	4	1	414	2	4
+206	__PointOutArgs.Options	5	1	416	4	4
+207	__FDArgs	8	0	2	8	3
+208	__FDArgs.Result	3	1	420	2	3
+209	__FDArgs.Filename	7	0	422	4	3
+210	__FDArgs.Filename.Filename_type	1	0	0	1	0
+211	__FReadArgs	8	0	4	12	6
+212	__FReadArgs.Result	3	1	424	2	6
+213	__FReadArgs.FileHandle	1	1	426	1	6
+214	__FReadArgs.Buffer	7	0	428	4	6
+215	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+216	__FReadArgs.Length	5	1	432	4	6
+217	__constStr0054	7	0	436	4	1
+218	__constStr0054.__constStr0054_type	1	1	0	1	0
+219	__constStr0055	7	0	438	4	1
+220	__constStr0055.__constStr0055_type	1	1	0	1	0
+221	__constStr0056	7	0	440	4	1
+222	__constStr0056.__constStr0056_type	1	1	0	1	0
+223	__constStr0057	7	0	442	4	1
+224	__constStr0057.__constStr0057_type	1	1	0	1	0
+225	__constStr0065	7	0	444	4	1
+226	__constStr0065.__constStr0065_type	1	1	0	1	0
+227	__Block_2	7	0	446	4	2
+228	__Block_2.__Block_2_type	1	0	0	1	0
+229	__constStr0063	7	0	448	4	1
+230	__constStr0063.__constStr0063_type	1	1	0	1	0
+231	__constStr0064	7	0	450	4	1
+232	__constStr0064.__constStr0064_type	1	1	0	1	0
 233	__constStr0062	7	0	452	4	1
 234	__constStr0062.__constStr0062_type	1	1	0	1	0
-235	__constStr0064	7	0	454	4	1
-236	__constStr0064.__constStr0064_type	1	1	0	1	0
-237	__constStr0057	7	0	456	4	1
-238	__constStr0057.__constStr0057_type	1	1	0	1	0
-239	__constStr0059	7	0	458	4	1
-240	__constStr0059.__constStr0059_type	1	1	0	1	0
-241	__constStr0058	7	0	460	4	1
-242	__constStr0058.__constStr0058_type	1	1	0	1	0
-243	__strbufwriteHigh	7	0	462	4	2
-244	__strbufwriteHigh.__strbufwriteHigh_type	1	0	0	1	0
-245	__strretvalwriteHigh	7	0	464	4	2
-246	__strretvalwriteHigh.__strretvalwriteHigh_type	1	0	0	1	0
-247	__ArrHelper__RetryGame_244_0	7	0	466	4	6
-248	__ArrHelper__RetryGame_244_0.__ArrHelper__RetryGame_244_0_type	1	0	0	1	0
-249	__strretvalRetryGame	7	0	468	4	14
-250	__strretvalRetryGame.__strretvalRetryGame_type	1	0	0	1	0
-251	__ArrHelper__RetryGame_244_2	7	0	470	4	2
-252	__ArrHelper__RetryGame_244_2.__ArrHelper__RetryGame_244_2_type	1	0	0	1	0
+235	__constStr0059	7	0	454	4	1
+236	__constStr0059.__constStr0059_type	1	1	0	1	0
+237	__constStr0058	7	0	456	4	1
+238	__constStr0058.__constStr0058_type	1	1	0	1	0
+239	__constStr0061	7	0	458	4	1
+240	__constStr0061.__constStr0061_type	1	1	0	1	0
+241	__constStr0060	7	0	460	4	1
+242	__constStr0060.__constStr0060_type	1	1	0	1	0
+243	__ArrHelper__RetryGame_244_2	7	0	462	4	2
+244	__ArrHelper__RetryGame_244_2.__ArrHelper__RetryGame_244_2_type	1	0	0	1	0
+245	__ArrHelper__RetryGame_244_3	7	0	464	4	2
+246	__ArrHelper__RetryGame_244_3.__ArrHelper__RetryGame_244_3_type	1	0	0	1	0
+247	__ArrHelper__main_244_0	7	0	466	4	10
+248	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+249	__ArrHelper__Draw_244_1	7	0	468	4	2
+250	__ArrHelper__Draw_244_1.__ArrHelper__Draw_244_1_type	1	0	0	1	0
+251	__ArrHelper__RetryGame_244_0	7	0	470	4	6
+252	__ArrHelper__RetryGame_244_0.__ArrHelper__RetryGame_244_0_type	1	0	0	1	0
 253	__ArrHelper__RetryGame_244_1	7	0	472	4	6
 254	__ArrHelper__RetryGame_244_1.__ArrHelper__RetryGame_244_1_type	1	0	0	1	0
-255	__ArrHelper__Draw_244_1	7	0	474	4	2
-256	__ArrHelper__Draw_244_1.__ArrHelper__Draw_244_1_type	1	0	0	1	0
-257	__ArrHelper__MoveBouncer_244_0	7	0	476	4	2
-258	__ArrHelper__MoveBouncer_244_0.__ArrHelper__MoveBouncer_244_0_type	1	0	0	1	0
-259	__ArrHelper__MoveBall_244_4	7	0	478	4	6
-260	__ArrHelper__MoveBall_244_4.__ArrHelper__MoveBall_244_4_type	1	0	0	1	0
-261	__ArrHelper__MoveBall_244_3	7	0	480	4	6
-262	__ArrHelper__MoveBall_244_3.__ArrHelper__MoveBall_244_3_type	1	0	0	1	0
-263	__ArrHelper__Draw_244_0	7	0	482	4	4
-264	__ArrHelper__Draw_244_0.__ArrHelper__Draw_244_0_type	1	0	0	1	0
-265	__ArrHelper__MoveBouncer_244_2	7	0	484	4	2
-266	__ArrHelper__MoveBouncer_244_2.__ArrHelper__MoveBouncer_244_2_type	1	0	0	1	0
-267	__ArrHelper__MoveBouncer_244_1	7	0	486	4	2
-268	__ArrHelper__MoveBouncer_244_1.__ArrHelper__MoveBouncer_244_1_type	1	0	0	1	0
-269	__strbufRetryGame	7	0	488	4	40
-270	__strbufRetryGame.__strbufRetryGame_type	1	0	0	1	0
-271	__strbufDraw	7	0	490	4	6
-272	__strbufDraw.__strbufDraw_type	1	0	0	1	0
-273	__strbufMoveBall	7	0	492	4	50
-274	__strbufMoveBall.__strbufMoveBall_type	1	0	0	1	0
-275	__strretvalMoveBall	7	0	494	4	24
-276	__strretvalMoveBall.__strretvalMoveBall_type	1	0	0	1	0
-277	__strbufmain	7	0	496	4	22
-278	__strbufmain.__strbufmain_type	1	0	0	1	0
-279	__strretvalmain	7	0	498	4	10
-280	__strretvalmain.__strretvalmain_type	1	0	0	1	0
-281	__strretvalDraw	7	0	500	4	2
-282	__strretvalDraw.__strretvalDraw_type	1	0	0	1	0
-283	__ArrHelper__main_244_2	7	0	502	4	4
-284	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
-285	__strbufreadHigh	7	0	504	4	4
-286	__strbufreadHigh.__strbufreadHigh_type	1	0	0	1	0
-287	__ArrHelper__main_244_0	7	0	506	4	10
-288	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
-289	__ArrHelper__RetryGame_244_3	7	0	508	4	2
-290	__ArrHelper__RetryGame_244_3.__ArrHelper__RetryGame_244_3_type	1	0	0	1	0
-291	__strbufMoveBouncer	7	0	510	4	8
-292	__strbufMoveBouncer.__strbufMoveBouncer_type	1	0	0	1	0
-293	__strretvalMoveBouncer	7	0	512	4	4
-294	__strretvalMoveBouncer.__strretvalMoveBouncer_type	1	0	0	1	0
-295	__ArrHelper__main_244_1	7	0	514	4	4
-296	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+255	__ArrHelper__main_244_1	7	0	474	4	4
+256	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+257	__strbufmain	7	0	476	4	22
+258	__strbufmain.__strbufmain_type	1	0	0	1	0
+259	__strretvalmain	7	0	478	4	10
+260	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+261	__strbufMoveBall	7	0	480	4	50
+262	__strbufMoveBall.__strbufMoveBall_type	1	0	0	1	0
+263	__ArrHelper__main_244_2	7	0	482	4	4
+264	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+265	__strbufDraw	7	0	484	4	6
+266	__strbufDraw.__strbufDraw_type	1	0	0	1	0
+267	__strretvalDraw	7	0	486	4	2
+268	__strretvalDraw.__strretvalDraw_type	1	0	0	1	0
+269	__ArrHelper__Draw_244_0	7	0	488	4	4
+270	__ArrHelper__Draw_244_0.__ArrHelper__Draw_244_0_type	1	0	0	1	0
+271	__FWriteFlattenBuf	7	0	490	4	2
+272	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+273	__FWriteLn	7	0	492	4	1
+274	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+275	__ArrHelper__MoveBall_244_0	7	0	494	4	16
+276	__ArrHelper__MoveBall_244_0.__ArrHelper__MoveBall_244_0_type	1	0	0	1	0
+277	__BlankLine	7	0	496	4	1
+278	__BlankLine.__BlankLine_type	1	0	0	1	0
+279	__RLSBuffer	7	0	498	4	2
+280	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+281	__RLSOutput	7	0	500	4	4
+282	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+283	__ArrHelper__MoveBall_244_1	7	0	502	4	10
+284	__ArrHelper__MoveBall_244_1.__ArrHelper__MoveBall_244_1_type	1	0	0	1	0
+285	__ArrHelper__MoveBouncer_244_0	7	0	504	4	2
+286	__ArrHelper__MoveBouncer_244_0.__ArrHelper__MoveBouncer_244_0_type	1	0	0	1	0
+287	__ArrHelper__MoveBouncer_244_1	7	0	506	4	2
+288	__ArrHelper__MoveBouncer_244_1.__ArrHelper__MoveBouncer_244_1_type	1	0	0	1	0
+289	__ArrHelper__MoveBouncer_244_2	7	0	508	4	2
+290	__ArrHelper__MoveBouncer_244_2.__ArrHelper__MoveBouncer_244_2_type	1	0	0	1	0
+291	__ArrHelper__MoveBall_244_2	7	0	510	4	8
+292	__ArrHelper__MoveBall_244_2.__ArrHelper__MoveBall_244_2_type	1	0	0	1	0
+293	__ArrHelper__MoveBall_244_3	7	0	512	4	6
+294	__ArrHelper__MoveBall_244_3.__ArrHelper__MoveBall_244_3_type	1	0	0	1	0
+295	__ArrHelper__MoveBall_244_4	7	0	514	4	6
+296	__ArrHelper__MoveBall_244_4.__ArrHelper__MoveBall_244_4_type	1	0	0	1	0
 297	__constStr0044	7	0	516	4	1
 298	__constStr0044.__constStr0044_type	1	1	0	1	0
 299	__constStr0045	7	0	518	4	1
 300	__constStr0045.__constStr0045_type	1	1	0	1	0
 301	__constStr0046	7	0	520	4	1
 302	__constStr0046.__constStr0046_type	1	1	0	1	0
-303	__BlankLine	7	0	522	4	1
-304	__BlankLine.__BlankLine_type	1	0	0	1	0
+303	__writeHigh_7qG2_tempStr_7qG2_000	7	0	522	4	2
+304	__writeHigh_7qG2_tempStr_7qG2_000.__writeHigh_7qG2_tempStr_7qG2_000_type	1	0	0	1	0
 305	Block	7	0	524	4	10
 306	Block.Block_type	7	0	0	4	0
 307	Block.Block_type.Block_type_type	1	0	0	1	0
@@ -324,34 +324,34 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 321	__constStr0049.__constStr0049_type	1	1	0	1	0
 322	__constStr0050	7	0	540	4	1
 323	__constStr0050.__constStr0050_type	1	1	0	1	0
-324	__RLSBuffer	7	0	542	4	2
-325	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
-326	layout	7	0	544	4	1
-327	layout.layout_type	1	0	0	1	0
-328	__constStr0016	7	0	546	4	3
-329	__constStr0016.__constStr0016_type	1	1	0	1	0
-330	__constStr0032	7	0	548	4	1
-331	__constStr0032.__constStr0032_type	1	1	0	1	0
-332	__ArrHelper__MoveBall_244_2	7	0	550	4	8
-333	__ArrHelper__MoveBall_244_2.__ArrHelper__MoveBall_244_2_type	1	0	0	1	0
-334	__ArrHelper__MoveBall_244_1	7	0	552	4	10
-335	__ArrHelper__MoveBall_244_1.__ArrHelper__MoveBall_244_1_type	1	0	0	1	0
-336	__ArrHelper__MoveBall_244_0	7	0	554	4	16
-337	__ArrHelper__MoveBall_244_0.__ArrHelper__MoveBall_244_0_type	1	0	0	1	0
-338	__FWriteLn	7	0	556	4	1
-339	__FWriteLn.__FWriteLn_type	1	0	0	1	0
-340	__writeHigh_7qG2_readme_7qG2_000	7	0	558	4	3
-341	__writeHigh_7qG2_readme_7qG2_000.__writeHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
-342	__writeHigh_7qG2_tempStr_7qG2_000	7	0	560	4	2
-343	__writeHigh_7qG2_tempStr_7qG2_000.__writeHigh_7qG2_tempStr_7qG2_000_type	1	0	0	1	0
-344	__RLSOutput	7	0	562	4	4
-345	__RLSOutput.__RLSOutput_type	1	0	0	1	0
-346	__readHigh_7qG2_readme_7qG2_000	7	0	564	4	4
-347	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
-348	__readHigh_7qG2_ARead_7qG2_000	7	0	566	4	3
-349	__readHigh_7qG2_ARead_7qG2_000.__readHigh_7qG2_ARead_7qG2_000_type	1	0	0	1	0
-350	__FWriteFlattenBuf	7	0	568	4	2
-351	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+324	__writeHigh_7qG2_readme_7qG2_000	7	0	542	4	3
+325	__writeHigh_7qG2_readme_7qG2_000.__writeHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+326	__strbufreadHigh	7	0	544	4	4
+327	__strbufreadHigh.__strbufreadHigh_type	1	0	0	1	0
+328	__strbufRetryGame	7	0	546	4	40
+329	__strbufRetryGame.__strbufRetryGame_type	1	0	0	1	0
+330	__strretvalRetryGame	7	0	548	4	14
+331	__strretvalRetryGame.__strretvalRetryGame_type	1	0	0	1	0
+332	__strretvalMoveBall	7	0	550	4	24
+333	__strretvalMoveBall.__strretvalMoveBall_type	1	0	0	1	0
+334	__strbufMoveBouncer	7	0	552	4	8
+335	__strbufMoveBouncer.__strbufMoveBouncer_type	1	0	0	1	0
+336	__strretvalMoveBouncer	7	0	554	4	4
+337	__strretvalMoveBouncer.__strretvalMoveBouncer_type	1	0	0	1	0
+338	__strbufwriteHigh	7	0	556	4	2
+339	__strbufwriteHigh.__strbufwriteHigh_type	1	0	0	1	0
+340	__constStr0032	7	0	558	4	1
+341	__constStr0032.__constStr0032_type	1	1	0	1	0
+342	__readHigh_7qG2_readme_7qG2_000	7	0	560	4	4
+343	__readHigh_7qG2_readme_7qG2_000.__readHigh_7qG2_readme_7qG2_000_type	1	0	0	1	0
+344	__readHigh_7qG2_ARead_7qG2_000	7	0	562	4	3
+345	__readHigh_7qG2_ARead_7qG2_000.__readHigh_7qG2_ARead_7qG2_000_type	1	0	0	1	0
+346	__strretvalwriteHigh	7	0	564	4	2
+347	__strretvalwriteHigh.__strretvalwriteHigh_type	1	0	0	1	0
+348	layout	7	0	566	4	1
+349	layout.layout_type	1	0	0	1	0
+350	__constStr0016	7	0	568	4	3
+351	__constStr0016.__constStr0016_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	128	0	#line 128 "C:\Github\NXC_Source\BreakOut.nxc"
@@ -570,304 +570,304 @@ Clump	Line	PC	Source
 0	140	248		acquire __TextOutMutex
 0	139	249	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
 0	140	249		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	139	251	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	251		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	139	254	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	254		mov __TextOutArgs.Options, __D0main
-0	139	256	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	256		mov __TextOutArgs.Text, __strbufmain
-0	139	259	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	259		syscall 13, __TextOutArgs
-0	139	262	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	262		mov __D0main, __TextOutArgs.Result
-0	139	264	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	264		release __TextOutMutex
-0	139	265	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	265	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	265		set i, 3
-0	140	268	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	268	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	268		mov __signed_stack_001main, i
+0	139	252	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	252		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	139	255	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	255		mov __TextOutArgs.Options, __D0main
+0	139	258	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	258		mov __TextOutArgs.Text, __strbufmain
+0	139	260	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	260		syscall 13, __TextOutArgs
+0	139	263	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	263		mov __D0main, __TextOutArgs.Result
+0	139	266	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	266		release __TextOutMutex
+0	139	267	#line 139 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	267	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	267		set i, 3
 0	140	270	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
 0	140	270	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	270		set __D0main, 0
-0	140	273	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	273		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	140	277	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	277		brtst 4, __ASM_Label_1708, __D0main
-0	140	280	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	280		jmp __ASM_Label_1709
+0	141	270		mov __signed_stack_001main, i
+0	140	272	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	272	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	272		set __D0main, 0
+0	140	275	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	275		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	140	279	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	279		brtst 4, __ASM_Label_1708, __D0main
 0	140	282	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	282		sub i, i, __constVal1
-0	140	286	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	286		jmp __ASM_Label_1707
+0	141	282		jmp __ASM_Label_1709
+0	140	284	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	284		sub i, i, __constVal1
 0	140	288	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	288		set __signed_stack_001main, 0
-0	140	291	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	291	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	291		set __signed_stack_002main, 16
-0	140	294	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	294	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	294		mov __D0main, i
+0	141	288		jmp __ASM_Label_1707
+0	140	290	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	290		set __signed_stack_001main, 0
+0	140	293	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	293	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	293		set __signed_stack_002main, 16
 0	140	296	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	296		numtostr __strretvalmain, __D0main
-0	140	299	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	299		strcat __strbufmain, __strretvalmain
-0	140	303	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	303		set __D0main, 0
-0	140	306	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	306		acquire __TextOutMutex
-0	140	307	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	307		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	140	296	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	296		mov __D0main, i
+0	140	298	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	298		numtostr __strretvalmain, __D0main
+0	140	301	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	301		strcat __strbufmain, __strretvalmain
+0	140	305	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	305		set __D0main, 0
+0	140	308	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	308		acquire __TextOutMutex
 0	140	309	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	309		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	141	309		mov __TextOutArgs.Location.X, __signed_stack_001main
 0	140	312	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	312		mov __TextOutArgs.Options, __D0main
-0	140	314	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	314		mov __TextOutArgs.Text, __strbufmain
-0	140	317	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	317		syscall 13, __TextOutArgs
+0	141	312		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	140	315	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	315		mov __TextOutArgs.Options, __D0main
+0	140	318	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	318		mov __TextOutArgs.Text, __strbufmain
 0	140	320	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	320		mov __D0main, __TextOutArgs.Result
-0	140	322	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	322		release __TextOutMutex
+0	141	320		syscall 13, __TextOutArgs
 0	140	323	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	140	323	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	323		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	141	323		mov __D0main, __TextOutArgs.Result
 0	140	326	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	8771	326	#line 8771 "NXCDefs.h"
-0	8772	326		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8771	328	#line 8771 "NXCDefs.h"
-0	140	328	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	328	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
-0	142	328		jmp __ASM_Label_1710
-0	141	330	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
-0	141	330	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
-0	142	330		mov __signed_stack_001main, GameStatus
+0	141	326		release __TextOutMutex
+0	140	327	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	140	327	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	327		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	140	330	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
+0	8771	330	#line 8771 "NXCDefs.h"
+0	8772	330		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	332	#line 8771 "NXCDefs.h"
+0	140	332	#line 140 "C:\Github\NXC_Source\BreakOut.nxc"
 0	141	332	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
-0	142	332	#line 142 "C:\Github\NXC_Source\BreakOut.nxc"
-0	143	332		set __D0main, 0
-0	142	335	#line 142 "C:\Github\NXC_Source\BreakOut.nxc"
-0	143	335		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	143	339	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
-0	144	339		brtst 4, __ASM_Label_1726, __D0main
-0	143	342	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
-0	144	342		strcat __strbufmain, __constStr0016
+0	142	332		jmp __ASM_Label_1710
+0	141	334	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
+0	141	334	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
+0	142	334		mov __signed_stack_001main, GameStatus
+0	141	336	#line 141 "C:\Github\NXC_Source\BreakOut.nxc"
+0	142	336	#line 142 "C:\Github\NXC_Source\BreakOut.nxc"
+0	143	336		set __D0main, 0
+0	142	339	#line 142 "C:\Github\NXC_Source\BreakOut.nxc"
+0	143	339		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	143	343	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
+0	144	343		brtst 4, __ASM_Label_1726, __D0main
 0	143	346	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
-0	144	346		mov msg, __strbufmain
-0	143	348	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
-0	144	348	#line 144 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	348		set GameStatus, 0
-0	144	351	#line 144 "C:\Github\NXC_Source\BreakOut.nxc"
-0	144	351	#line 144 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	351	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	351		set j, 0
-0	145	354	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	354	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	354		mov __signed_stack_001main, j
-0	145	356	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	356	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	356		set __D0main, 4
-0	145	359	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	359		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	144	346		strcat __strbufmain, __constStr0016
+0	143	350	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
+0	144	350		mov msg, __strbufmain
+0	143	352	#line 143 "C:\Github\NXC_Source\BreakOut.nxc"
+0	144	352	#line 144 "C:\Github\NXC_Source\BreakOut.nxc"
+0	145	352		set GameStatus, 0
+0	144	355	#line 144 "C:\Github\NXC_Source\BreakOut.nxc"
+0	144	355	#line 144 "C:\Github\NXC_Source\BreakOut.nxc"
+0	145	355	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	355		set j, 0
+0	145	358	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	145	358	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	358		mov __signed_stack_001main, j
+0	145	360	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	145	360	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	360		set __D0main, 4
 0	145	363	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	363		brtst 4, __ASM_Label_1732, __D0main
-0	145	366	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	366		jmp __ASM_Label_1733
-0	145	368	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	368		add j, j, __constVal1
+0	146	363		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	145	367	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	367		brtst 4, __ASM_Label_1732, __D0main
+0	145	370	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	370		jmp __ASM_Label_1733
 0	145	372	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	372		jmp __ASM_Label_1731
-0	145	374	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	374		set i, 0
-0	145	377	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	377	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	377		mov __signed_stack_001main, i
-0	145	379	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	379	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	379		set __D0main, 5
-0	145	382	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	382		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	146	372		add j, j, __constVal1
+0	145	376	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	376		jmp __ASM_Label_1731
+0	145	378	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	378		set i, 0
+0	145	381	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	145	381	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	381		mov __signed_stack_001main, i
+0	145	383	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	145	383	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	383		set __D0main, 5
 0	145	386	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	386		brtst 4, __ASM_Label_1740, __D0main
-0	145	389	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	389		jmp __ASM_Label_1741
-0	145	391	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	391		add i, i, __constVal1
+0	146	386		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	145	390	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	390		brtst 4, __ASM_Label_1740, __D0main
+0	145	393	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	393		jmp __ASM_Label_1741
 0	145	395	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	395		jmp __ASM_Label_1739
-0	145	397	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	397		mov __signed_stack_001main, i
+0	146	395		add i, i, __constVal1
 0	145	399	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	399	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	399		index __ArrHelper__main_244_0, Block, __signed_stack_001main
+0	146	399		jmp __ASM_Label_1739
+0	145	401	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	401		mov __signed_stack_001main, i
 0	145	403	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	403		mov __signed_stack_002main, j
-0	145	405	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	145	405	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	405		index __DU0main, __ArrHelper__main_244_0, __signed_stack_002main
+0	145	403	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	403		index __ArrHelper__main_244_0, Block, __signed_stack_001main
+0	145	407	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	407		mov __signed_stack_002main, j
 0	145	409	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
 0	145	409	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	409		add GameStatus, GameStatus, __DU0main
+0	146	409		index __DU0main, __ArrHelper__main_244_0, __signed_stack_002main
 0	145	413	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	413	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
-0	147	413		jmp __ASM_Label_1742
-0	146	415	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	415	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
-0	147	415		jmp __ASM_Label_1734
+0	145	413	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	413		add GameStatus, GameStatus, __DU0main
+0	145	417	#line 145 "C:\Github\NXC_Source\BreakOut.nxc"
 0	146	417	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
-0	146	417	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
-0	147	417		subcall MoveBouncer, __MoveBouncer_return
+0	147	417		jmp __ASM_Label_1742
 0	146	419	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
-0	147	419	#line 147 "C:\Github\NXC_Source\BreakOut.nxc"
-0	148	419		subcall MoveBall, __MoveBall_return
-0	147	421	#line 147 "C:\Github\NXC_Source\BreakOut.nxc"
-0	148	421	#line 148 "C:\Github\NXC_Source\BreakOut.nxc"
-0	149	421		mov __Wait_7qG2_ms_7qG2_000_inline_main, WaitTime
-0	148	423	#line 148 "C:\Github\NXC_Source\BreakOut.nxc"
-0	8771	423	#line 8771 "NXCDefs.h"
-0	8772	423		waitv WaitTime
-0	8771	425	#line 8771 "NXCDefs.h"
+0	146	419	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
+0	147	419		jmp __ASM_Label_1734
+0	146	421	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
+0	146	421	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
+0	147	421		subcall MoveBouncer, __MoveBouncer_return
+0	146	423	#line 146 "C:\Github\NXC_Source\BreakOut.nxc"
+0	147	423	#line 147 "C:\Github\NXC_Source\BreakOut.nxc"
+0	148	423		subcall MoveBall, __MoveBall_return
+0	147	425	#line 147 "C:\Github\NXC_Source\BreakOut.nxc"
 0	148	425	#line 148 "C:\Github\NXC_Source\BreakOut.nxc"
-0	149	425	#line 149 "C:\Github\NXC_Source\BreakOut.nxc"
-0	150	425		subcall Draw, __Draw_return
-0	149	427	#line 149 "C:\Github\NXC_Source\BreakOut.nxc"
-0	150	427	#line 150 "C:\Github\NXC_Source\BreakOut.nxc"
-0	151	427		mov __Wait_7qG2_ms_7qG2_000_inline_main, WaitTime
-0	150	429	#line 150 "C:\Github\NXC_Source\BreakOut.nxc"
+0	149	425		mov __Wait_7qG2_ms_7qG2_000_inline_main, WaitTime
+0	148	427	#line 148 "C:\Github\NXC_Source\BreakOut.nxc"
+0	8771	427	#line 8771 "NXCDefs.h"
+0	8772	427		waitv WaitTime
 0	8771	429	#line 8771 "NXCDefs.h"
-0	8772	429		waitv WaitTime
-0	8771	431	#line 8771 "NXCDefs.h"
+0	148	429	#line 148 "C:\Github\NXC_Source\BreakOut.nxc"
+0	149	429	#line 149 "C:\Github\NXC_Source\BreakOut.nxc"
+0	150	429		subcall Draw, __Draw_return
+0	149	431	#line 149 "C:\Github\NXC_Source\BreakOut.nxc"
 0	150	431	#line 150 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	431	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	431		jmp __ASM_Label_1725
-0	152	433	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	433	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	433		mov __signed_stack_001main, GameStatus
+0	151	431		mov __Wait_7qG2_ms_7qG2_000_inline_main, WaitTime
+0	150	433	#line 150 "C:\Github\NXC_Source\BreakOut.nxc"
+0	8771	433	#line 8771 "NXCDefs.h"
+0	8772	433		waitv WaitTime
+0	8771	435	#line 8771 "NXCDefs.h"
+0	150	435	#line 150 "C:\Github\NXC_Source\BreakOut.nxc"
 0	152	435	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	435	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	435		set __D0main, 0
-0	152	438	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	438		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	153	435		jmp __ASM_Label_1725
+0	152	437	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	437	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	437		mov __signed_stack_001main, GameStatus
+0	152	439	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	439	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	439		set __D0main, 0
 0	152	442	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	442		brtst 4, __ASM_Label_1759, __D0main
-0	152	445	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	445		add Level, Level, __constVal1
+0	153	442		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	152	446	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	446		brtst 4, __ASM_Label_1759, __D0main
 0	152	449	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	449	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	449		set Score, 0
-0	152	452	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	452	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	452	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	452		mov __signed_stack_001main, WaitTime
-0	152	454	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	454	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	454		set __D0main, 4
-0	152	457	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	457		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	153	449		add Level, Level, __constVal1
+0	152	453	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	453	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	453		set Score, 0
+0	152	456	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	456	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	456	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	456		mov __signed_stack_001main, WaitTime
+0	152	458	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	458	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	458		set __D0main, 4
 0	152	461	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	461	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	461		set __D0main, 5
-0	152	464	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	464		div WaitTime, __signed_stack_001main, __D0main
+0	153	461		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	152	465	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	465	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	465		set __D0main, 5
 0	152	468	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	468	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	468	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	468		set __SoundEnd_7qG2_whatSound_7qG2_000, 0
-0	152	471	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	152	471	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	471		subcall SoundEnd, __SoundEnd_return
-0	152	473	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	473	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	473	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	473		mov __signed_stack_001main, GameStatus
-0	153	475	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	475	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	475		set __D0main, 0
-0	153	478	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	478		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	153	468		div WaitTime, __signed_stack_001main, __D0main
+0	152	472	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	472	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	472	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	472		set __SoundEnd_7qG2_whatSound_7qG2_000, 0
+0	152	475	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	152	475	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	475		subcall SoundEnd, __SoundEnd_return
+0	152	477	#line 152 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	477	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	477	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	477		mov __signed_stack_001main, GameStatus
+0	153	479	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	479	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	479		set __D0main, 0
 0	153	482	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	482		brtst 4, __ASM_Label_1768, __D0main
-0	153	485	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	485		sub Lives, Lives, __constVal1
+0	154	482		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	153	486	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	486		brtst 4, __ASM_Label_1768, __D0main
 0	153	489	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	489	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	489		set __signed_stack_001main, 3000
-0	153	492	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	492	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	492		set __signed_stack_002main, 500
-0	153	495	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	495	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	495		set __signed_stack_003main, 4
-0	153	498	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	498	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	498		set __D0main, 0
-0	153	501	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	501		acquire __SPTArgsMutex
+0	154	489		sub Lives, Lives, __constVal1
+0	153	493	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	493	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	493		set __signed_stack_001main, 3000
+0	153	496	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	496	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	496		set __signed_stack_002main, 500
+0	153	499	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	499	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	499		set __signed_stack_003main, 4
 0	153	502	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	502		mov __SPTArgs.Frequency, __signed_stack_001main
+0	153	502	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	502		set __D0main, 0
 0	153	505	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	505		mov __SPTArgs.Duration, __signed_stack_002main
-0	153	508	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	508		mov __SPTArgs.Volume, __signed_stack_003main
-0	153	511	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	511		mov __SPTArgs.Loop, __D0main
-0	153	513	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	513		syscall 10, __SPTArgs
-0	153	516	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	516		mov __D0main, __SPTArgs.Result
+0	154	505		acquire __SPTArgsMutex
+0	153	506	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	506		mov __SPTArgs.Frequency, __signed_stack_001main
+0	153	509	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	509		mov __SPTArgs.Duration, __signed_stack_002main
+0	153	512	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	512		mov __SPTArgs.Volume, __signed_stack_003main
+0	153	515	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	515		mov __SPTArgs.Loop, __D0main
 0	153	518	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	518		release __SPTArgsMutex
-0	153	519	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	519	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	519		set __SoundEnd_7qG2_whatSound_7qG2_000, 2
-0	153	522	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	153	522	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	154	522		subcall SoundEnd, __SoundEnd_return
+0	154	518		syscall 10, __SPTArgs
+0	153	521	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	521		mov __D0main, __SPTArgs.Result
 0	153	524	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	524	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	524	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	524		jmp __ASM_Label_1644
-0	155	526	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	526	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	526		mov __signed_stack_001main, GameStatus
-0	155	528	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	528	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	528		set __D0main, 0
-0	155	531	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	531		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	155	535	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	535		brtst 4, __ASM_Label_1781, __D0main
-0	155	538	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	538		subcall RetryGame, __RetryGame_return
-0	155	540	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	540		mov Retry, __DU0RetryGame
-0	155	542	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	542	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	542	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	156	542		set Level, 1
-0	155	545	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	155	545	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
-0	157	545	#line 157 "C:\Github\NXC_Source\BreakOut.nxc"
-0	159	545	#line 159 "C:\Github\NXC_Source\BreakOut.nxc"
-0	160	545		jmp __ASM_Label_1636
-0	159	547	#line 159 "C:\Github\NXC_Source\BreakOut.nxc"
-0	160	547		exit -1, -1
+0	154	524		release __SPTArgsMutex
+0	153	525	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	525	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	525		set __SoundEnd_7qG2_whatSound_7qG2_000, 2
+0	153	528	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	153	528	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	154	528		subcall SoundEnd, __SoundEnd_return
+0	153	530	#line 153 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	530	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	530	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	530		jmp __ASM_Label_1644
+0	155	532	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	532	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	532		mov __signed_stack_001main, GameStatus
+0	155	534	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	534	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	534		set __D0main, 0
+0	155	537	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	537		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	155	541	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	541		brtst 4, __ASM_Label_1781, __D0main
+0	155	544	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	544		subcall RetryGame, __RetryGame_return
+0	155	546	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	546		mov Retry, __DU0RetryGame
+0	155	548	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	548	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	548	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	156	548		set Level, 1
+0	155	551	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	155	551	#line 155 "C:\Github\NXC_Source\BreakOut.nxc"
+0	157	551	#line 157 "C:\Github\NXC_Source\BreakOut.nxc"
+0	159	551	#line 159 "C:\Github\NXC_Source\BreakOut.nxc"
+0	160	551		jmp __ASM_Label_1636
+0	159	553	#line 159 "C:\Github\NXC_Source\BreakOut.nxc"
+0	160	553		exit -1, -1
 1	8903	0		arrinit __RLSOutput, __constVal0, __constVal1
 1	8904	4		set __RLSByteCount, 0
 1	8906	7		set __FReadArgs.Length, 1
 1	8907	10		mov __RLSBuffer, __RLSOutput
 1	8908	12		syscall 3, __FReadArgs
 1	8909	15		mov __RLSReturn, __FReadArgs.Result
-1	8910	17		brtst 5, __RLSStringDone, __RLSReturn
-1	8911	20		index __FReadTmpByte, __FReadArgs.Buffer, 65535
-1	8912	24		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
-1	8913	28		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
-1	8914	32		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
-1	8915	37		add __RLSByteCount, __RLSByteCount, __constVal1
-1	8916	41		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
-1	8918	45		jmp __RLSStringLoop
-1	8920	47		subret __RLSReturnAddress
+1	8910	18		brtst 5, __RLSStringDone, __RLSReturn
+1	8911	21		index __FReadTmpByte, __FReadArgs.Buffer, 65535
+1	8912	25		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
+1	8913	29		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
+1	8914	33		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
+1	8915	38		add __RLSByteCount, __RLSByteCount, __constVal1
+1	8916	42		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
+1	8918	46		jmp __RLSStringLoop
+1	8920	48		subret __RLSReturnAddress
 2	11	0	#line 11 "C:\Github\NXC_Source\.\+Highscore.nxc"
 2	12	0		strcat __strbufreadHigh, __constStr0016
 2	11	4	#line 11 "C:\Github\NXC_Source\.\+Highscore.nxc"
@@ -896,56 +896,56 @@ Clump	Line	PC	Source
 2	16	33	#pragma macro 7
 2	16	33		acquire __FReadMutex
 2	16	34		mov __FReadArgs.FileHandle, hshandle
-2	16	36		mov __RLSMaxBytes, __constVal65535
-2	16	38		subcall __readStringLine, __RLSReturnAddress
-2	16	40		mov __D0readHigh, __RLSReturn
-2	16	42		mov __readHigh_7qG2_ARead_7qG2_000, __RLSOutput
-2	16	44		release __FReadMutex
-2	10466	45	#line 10466 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	15	45	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	15	45	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	16	45	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	17	45	#pragma macro 5
-2	17	45		acquire __FCMutex
-2	17	46		mov __FCArgs.FileHandle, hshandle
-2	17	48		syscall 5, __FCArgs
-2	17	51		mov __D0readHigh, __FCArgs.Result
-2	17	54		release __FCMutex
-2	10470	55	#line 10470 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	16	55	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	16	55	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	17	55	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	18	55		strcat __strbufreadHigh, __readHigh_7qG2_ARead_7qG2_000
-2	17	59	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	18	59		strtonum __readHigh_7qG2_result_7qG2_000, __signed_stack_001readHigh, __strbufreadHigh, 65535, 65535
-2	17	65	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	17	65	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	19	65	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	19	65	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	20	65		mov __D0readHigh, __readHigh_7qG2_result_7qG2_000
+2	16	37		mov __RLSMaxBytes, __constVal65535
+2	16	39		subcall __readStringLine, __RLSReturnAddress
+2	16	42		mov __D0readHigh, __RLSReturn
+2	16	44		mov __readHigh_7qG2_ARead_7qG2_000, __RLSOutput
+2	16	46		release __FReadMutex
+2	10466	47	#line 10466 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	15	47	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	15	47	#line 15 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	47	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	17	47	#pragma macro 5
+2	17	47		acquire __FCMutex
+2	17	48		mov __FCArgs.FileHandle, hshandle
+2	17	50		syscall 5, __FCArgs
+2	17	53		mov __D0readHigh, __FCArgs.Result
+2	17	56		release __FCMutex
+2	10470	57	#line 10470 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	57	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	16	57	#line 16 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	17	57	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	18	57		strcat __strbufreadHigh, __readHigh_7qG2_ARead_7qG2_000
+2	17	61	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	18	61		strtonum __readHigh_7qG2_result_7qG2_000, __signed_stack_001readHigh, __strbufreadHigh, 65535, 65535
+2	17	67	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	17	67	#line 17 "C:\Github\NXC_Source\.\+Highscore.nxc"
 2	19	67	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	20	67		subret __readHigh_return
+2	19	67	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	20	67		mov __D0readHigh, __readHigh_7qG2_result_7qG2_000
 2	19	69	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	22	69	#line 22 "C:\Github\NXC_Source\.\+Highscore.nxc"
-2	23	69		subret __readHigh_return
+2	20	69		subret __readHigh_return
+2	19	71	#line 19 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	22	71	#line 22 "C:\Github\NXC_Source\.\+Highscore.nxc"
+2	23	71		subret __readHigh_return
 3	48	0	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
 3	49	0	#pragma macro 5
 3	49	0		acquire __FDMutex
 3	49	1		mov __FDArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
-3	49	4		syscall 8, __FDArgs
-3	49	7		mov __D0writeHigh, __FDArgs.Result
-3	49	10		release __FDMutex
-3	10567	11	#line 10567 "C:\Github\NXC_Source\.\+Highscore.nxc"
-3	48	11	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
-3	48	11	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
-3	49	11	#line 49 "C:\Github\NXC_Source\.\+Highscore.nxc"
-3	50	11	#pragma macro 7
-3	50	11		acquire __FOMutex
-3	50	12		mov __FOArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
-3	50	15		mov __FOArgs.Length, __constVal1024
-3	50	17		syscall 1, __FOArgs
-3	50	20		mov hshandle, __FOArgs.FileHandle
-3	50	22		mov __D0writeHigh, __FOArgs.Result
+3	49	3		syscall 8, __FDArgs
+3	49	6		mov __D0writeHigh, __FDArgs.Result
+3	49	9		release __FDMutex
+3	10567	10	#line 10567 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	48	10	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	48	10	#line 48 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	49	10	#line 49 "C:\Github\NXC_Source\.\+Highscore.nxc"
+3	50	10	#pragma macro 7
+3	50	10		acquire __FOMutex
+3	50	11		mov __FOArgs.Filename, __writeHigh_7qG2_readme_7qG2_000
+3	50	14		mov __FOArgs.Length, __constVal64
+3	50	16		syscall 1, __FOArgs
+3	50	19		mov hshandle, __FOArgs.FileHandle
+3	50	21		mov __D0writeHigh, __FOArgs.Result
 3	50	24		release __FOMutex
 3	10571	25	#line 10571 "C:\Github\NXC_Source\.\+Highscore.nxc"
 3	49	25	#line 49 "C:\Github\NXC_Source\.\+Highscore.nxc"
@@ -1013,502 +1013,502 @@ Clump	Line	PC	Source
 4	10	31		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
 4	9	34	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 4	10	34		mov __SPTArgs.Loop, __D0SoundEnd
-4	9	36	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	36		syscall 10, __SPTArgs
-4	9	39	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	39		mov __D0SoundEnd, __SPTArgs.Result
-4	9	41	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	41		release __SPTArgsMutex
-4	9	42	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	9	42	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	42		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
-4	9	45	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	45	#line 8771 "NXCDefs.h"
-4	8772	45		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	47	#line 8771 "NXCDefs.h"
+4	9	37	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	37		syscall 10, __SPTArgs
+4	9	40	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	40		mov __D0SoundEnd, __SPTArgs.Result
+4	9	43	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	43		release __SPTArgsMutex
+4	9	44	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	9	44	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	44		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
 4	9	47	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	47	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	47		set __signed_stack_001SoundEnd, 1300
-4	10	50	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	50	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	50		set __signed_stack_002SoundEnd, 200
-4	10	53	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	53	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	53		set __signed_stack_003SoundEnd, 4
-4	10	56	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	56	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	56		set __D0SoundEnd, 0
-4	10	59	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	59		acquire __SPTArgsMutex
-4	10	60	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	60		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	10	63	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	63		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	10	66	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	66		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	10	69	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	69		mov __SPTArgs.Loop, __D0SoundEnd
+4	8771	47	#line 8771 "NXCDefs.h"
+4	8772	47		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	49	#line 8771 "NXCDefs.h"
+4	9	49	#line 9 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	49	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	49		set __signed_stack_001SoundEnd, 1300
+4	10	52	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	52	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	52		set __signed_stack_002SoundEnd, 200
+4	10	55	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	55	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	55		set __signed_stack_003SoundEnd, 4
+4	10	58	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	58	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	58		set __D0SoundEnd, 0
+4	10	61	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	61		acquire __SPTArgsMutex
+4	10	62	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	62		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	10	65	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	65		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	10	68	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	68		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
 4	10	71	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	71		syscall 10, __SPTArgs
+4	11	71		mov __SPTArgs.Loop, __D0SoundEnd
 4	10	74	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	74		mov __D0SoundEnd, __SPTArgs.Result
-4	10	76	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	76		release __SPTArgsMutex
+4	11	74		syscall 10, __SPTArgs
 4	10	77	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	10	77	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	77		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
+4	11	77		mov __D0SoundEnd, __SPTArgs.Result
 4	10	80	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	80	#line 8771 "NXCDefs.h"
-4	8772	80		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	82	#line 8771 "NXCDefs.h"
-4	10	82	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	82	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	82		set __signed_stack_001SoundEnd, 1600
-4	11	85	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	85	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	85		set __signed_stack_002SoundEnd, 250
-4	11	88	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	88	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	88		set __signed_stack_003SoundEnd, 4
-4	11	91	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	91	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	91		set __D0SoundEnd, 0
-4	11	94	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	94		acquire __SPTArgsMutex
+4	11	80		release __SPTArgsMutex
+4	10	81	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	10	81	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	81		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 200
+4	10	84	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	84	#line 8771 "NXCDefs.h"
+4	8772	84		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	86	#line 8771 "NXCDefs.h"
+4	10	86	#line 10 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	86	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	86		set __signed_stack_001SoundEnd, 1600
+4	11	89	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	89	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	89		set __signed_stack_002SoundEnd, 250
+4	11	92	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	92	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	92		set __signed_stack_003SoundEnd, 4
 4	11	95	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	95		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	11	95	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	95		set __D0SoundEnd, 0
 4	11	98	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	98		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	11	101	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	101		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	11	104	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	104		mov __SPTArgs.Loop, __D0SoundEnd
-4	11	106	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	106		syscall 10, __SPTArgs
-4	11	109	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	109		mov __D0SoundEnd, __SPTArgs.Result
+4	12	98		acquire __SPTArgsMutex
+4	11	99	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	99		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	11	102	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	102		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	11	105	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	105		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	11	108	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	108		mov __SPTArgs.Loop, __D0SoundEnd
 4	11	111	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	111		release __SPTArgsMutex
-4	11	112	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	11	112	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	112		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
-4	11	115	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	115	#line 8771 "NXCDefs.h"
-4	8772	115		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	117	#line 8771 "NXCDefs.h"
+4	12	111		syscall 10, __SPTArgs
+4	11	114	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	114		mov __D0SoundEnd, __SPTArgs.Result
 4	11	117	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	117	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	117		set __signed_stack_001SoundEnd, 1900
-4	12	120	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	120	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	120		set __signed_stack_002SoundEnd, 400
+4	12	117		release __SPTArgsMutex
+4	11	118	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	11	118	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	118		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+4	11	121	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	121	#line 8771 "NXCDefs.h"
+4	8772	121		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	123	#line 8771 "NXCDefs.h"
+4	11	123	#line 11 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 4	12	123	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	123	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	123		set __signed_stack_003SoundEnd, 4
+4	13	123		set __signed_stack_001SoundEnd, 1900
 4	12	126	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 4	12	126	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	126		set __D0SoundEnd, 0
+4	13	126		set __signed_stack_002SoundEnd, 400
 4	12	129	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	129		acquire __SPTArgsMutex
-4	12	130	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	130		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	12	133	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	133		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	12	129	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	129		set __signed_stack_003SoundEnd, 4
+4	12	132	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	132	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	132		set __D0SoundEnd, 0
+4	12	135	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	135		acquire __SPTArgsMutex
 4	12	136	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	136		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	13	136		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
 4	12	139	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	139		mov __SPTArgs.Loop, __D0SoundEnd
-4	12	141	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	141		syscall 10, __SPTArgs
-4	12	144	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	144		mov __D0SoundEnd, __SPTArgs.Result
-4	12	146	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	146		release __SPTArgsMutex
-4	12	147	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	12	147	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	147		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
-4	12	150	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	150	#line 8771 "NXCDefs.h"
-4	8772	150		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	152	#line 8771 "NXCDefs.h"
-4	12	152	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	152	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	152		set __signed_stack_001SoundEnd, 1600
-4	13	155	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	155	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	155		set __signed_stack_002SoundEnd, 250
-4	13	158	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	158	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	158		set __signed_stack_003SoundEnd, 4
-4	13	161	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	161	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	161		set __D0SoundEnd, 0
-4	13	164	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	164		acquire __SPTArgsMutex
-4	13	165	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	165		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	13	168	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	168		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	13	171	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	171		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	13	174	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	174		mov __SPTArgs.Loop, __D0SoundEnd
+4	13	139		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	12	142	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	142		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	12	145	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	145		mov __SPTArgs.Loop, __D0SoundEnd
+4	12	148	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	148		syscall 10, __SPTArgs
+4	12	151	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	151		mov __D0SoundEnd, __SPTArgs.Result
+4	12	154	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	154		release __SPTArgsMutex
+4	12	155	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	12	155	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	155		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	12	158	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	158	#line 8771 "NXCDefs.h"
+4	8772	158		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	160	#line 8771 "NXCDefs.h"
+4	12	160	#line 12 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	160	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	160		set __signed_stack_001SoundEnd, 1600
+4	13	163	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	163	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	163		set __signed_stack_002SoundEnd, 250
+4	13	166	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	166	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	166		set __signed_stack_003SoundEnd, 4
+4	13	169	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	169	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	169		set __D0SoundEnd, 0
+4	13	172	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	172		acquire __SPTArgsMutex
+4	13	173	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	173		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
 4	13	176	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	176		syscall 10, __SPTArgs
+4	14	176		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
 4	13	179	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	179		mov __D0SoundEnd, __SPTArgs.Result
-4	13	181	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	181		release __SPTArgsMutex
+4	14	179		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
 4	13	182	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	13	182	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	182		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+4	14	182		mov __SPTArgs.Loop, __D0SoundEnd
 4	13	185	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	185	#line 8771 "NXCDefs.h"
-4	8772	185		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	187	#line 8771 "NXCDefs.h"
-4	13	187	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	187	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	187		set __signed_stack_001SoundEnd, 1900
-4	14	190	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	190	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	190		set __signed_stack_002SoundEnd, 500
-4	14	193	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	193	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	193		set __signed_stack_003SoundEnd, 4
-4	14	196	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	196	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	196		set __D0SoundEnd, 0
-4	14	199	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	199		acquire __SPTArgsMutex
+4	14	185		syscall 10, __SPTArgs
+4	13	188	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	188		mov __D0SoundEnd, __SPTArgs.Result
+4	13	191	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	191		release __SPTArgsMutex
+4	13	192	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	13	192	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	192		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+4	13	195	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	195	#line 8771 "NXCDefs.h"
+4	8772	195		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	197	#line 8771 "NXCDefs.h"
+4	13	197	#line 13 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	197	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	197		set __signed_stack_001SoundEnd, 1900
 4	14	200	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	200		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	14	200	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	200		set __signed_stack_002SoundEnd, 500
 4	14	203	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	203		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	14	203	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	203		set __signed_stack_003SoundEnd, 4
 4	14	206	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	206		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	14	206	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	206		set __D0SoundEnd, 0
 4	14	209	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	209		mov __SPTArgs.Loop, __D0SoundEnd
-4	14	211	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	211		syscall 10, __SPTArgs
-4	14	214	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	214		mov __D0SoundEnd, __SPTArgs.Result
+4	15	209		acquire __SPTArgsMutex
+4	14	210	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	210		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	14	213	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	213		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
 4	14	216	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	216		release __SPTArgsMutex
-4	14	217	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	14	217	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	15	217		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 500
-4	14	220	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	220	#line 8771 "NXCDefs.h"
-4	8772	220		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	222	#line 8771 "NXCDefs.h"
+4	15	216		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	14	219	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	219		mov __SPTArgs.Loop, __D0SoundEnd
 4	14	222	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	16	222	#line 16 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	17	222		jmp __ASM_Label_1152
-4	16	224	#line 16 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	17	224		mov __signed_stack_001SoundEnd, __SoundEnd_7qG2_whatSound_7qG2_000
-4	16	226	#line 16 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	17	226	#line 17 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	18	226		set __D0SoundEnd, 1
-4	17	229	#line 17 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	18	229		cmp 4, __D0SoundEnd, __signed_stack_001SoundEnd, __D0SoundEnd
-4	18	233	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	233		brtst 4, __ASM_Label_1155, __D0SoundEnd
-4	18	236	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	236		set __signed_stack_001SoundEnd, 1400
-4	18	239	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	18	239	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	239		set __signed_stack_002SoundEnd, 300
-4	18	242	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	18	242	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	242		set __signed_stack_003SoundEnd, 4
+4	15	222		syscall 10, __SPTArgs
+4	14	225	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	225		mov __D0SoundEnd, __SPTArgs.Result
+4	14	228	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	228		release __SPTArgsMutex
+4	14	229	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	14	229	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	15	229		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 500
+4	14	232	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	232	#line 8771 "NXCDefs.h"
+4	8772	232		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	234	#line 8771 "NXCDefs.h"
+4	14	234	#line 14 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	16	234	#line 16 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	17	234		jmp __ASM_Label_1152
+4	16	236	#line 16 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	17	236		mov __signed_stack_001SoundEnd, __SoundEnd_7qG2_whatSound_7qG2_000
+4	16	238	#line 16 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	17	238	#line 17 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	18	238		set __D0SoundEnd, 1
+4	17	241	#line 17 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	18	241		cmp 4, __D0SoundEnd, __signed_stack_001SoundEnd, __D0SoundEnd
 4	18	245	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	18	245	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	245		set __D0SoundEnd, 0
+4	19	245		brtst 4, __ASM_Label_1155, __D0SoundEnd
 4	18	248	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	248		acquire __SPTArgsMutex
-4	18	249	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	249		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	18	252	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	252		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	18	255	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	255		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	18	258	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	258		mov __SPTArgs.Loop, __D0SoundEnd
+4	19	248		set __signed_stack_001SoundEnd, 1400
+4	18	251	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	18	251	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	251		set __signed_stack_002SoundEnd, 300
+4	18	254	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	18	254	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	254		set __signed_stack_003SoundEnd, 4
+4	18	257	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	18	257	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	257		set __D0SoundEnd, 0
 4	18	260	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	260		syscall 10, __SPTArgs
-4	18	263	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	263		mov __D0SoundEnd, __SPTArgs.Result
-4	18	265	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	265		release __SPTArgsMutex
-4	18	266	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	18	266	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	266		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
-4	18	269	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	269	#line 8771 "NXCDefs.h"
-4	8772	269		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	271	#line 8771 "NXCDefs.h"
-4	18	271	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	271	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	271		set __signed_stack_001SoundEnd, 1400
-4	19	274	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	274	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	274		set __signed_stack_002SoundEnd, 300
-4	19	277	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	277	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	277		set __signed_stack_003SoundEnd, 4
-4	19	280	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	280	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	280		set __D0SoundEnd, 0
-4	19	283	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	283		acquire __SPTArgsMutex
-4	19	284	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	284		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	19	287	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	287		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	19	290	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	290		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	19	293	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	293		mov __SPTArgs.Loop, __D0SoundEnd
-4	19	295	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	295		syscall 10, __SPTArgs
+4	19	260		acquire __SPTArgsMutex
+4	18	261	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	261		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	18	264	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	264		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	18	267	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	267		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	18	270	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	270		mov __SPTArgs.Loop, __D0SoundEnd
+4	18	273	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	273		syscall 10, __SPTArgs
+4	18	276	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	276		mov __D0SoundEnd, __SPTArgs.Result
+4	18	279	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	279		release __SPTArgsMutex
+4	18	280	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	18	280	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	280		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	18	283	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	283	#line 8771 "NXCDefs.h"
+4	8772	283		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	285	#line 8771 "NXCDefs.h"
+4	18	285	#line 18 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	285	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	285		set __signed_stack_001SoundEnd, 1400
+4	19	288	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	288	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	288		set __signed_stack_002SoundEnd, 300
+4	19	291	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	291	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	291		set __signed_stack_003SoundEnd, 4
+4	19	294	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	294	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	294		set __D0SoundEnd, 0
+4	19	297	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	297		acquire __SPTArgsMutex
 4	19	298	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	298		mov __D0SoundEnd, __SPTArgs.Result
-4	19	300	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	300		release __SPTArgsMutex
+4	20	298		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
 4	19	301	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	19	301	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	301		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	20	301		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
 4	19	304	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	304	#line 8771 "NXCDefs.h"
-4	8772	304		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	306	#line 8771 "NXCDefs.h"
-4	19	306	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	306	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	306		set __signed_stack_001SoundEnd, 1400
-4	20	309	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	309	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	309		set __signed_stack_002SoundEnd, 300
-4	20	312	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	312	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	312		set __signed_stack_003SoundEnd, 4
-4	20	315	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	315	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	315		set __D0SoundEnd, 0
-4	20	318	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	318		acquire __SPTArgsMutex
-4	20	319	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	319		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	20	304		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	19	307	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	307		mov __SPTArgs.Loop, __D0SoundEnd
+4	19	310	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	310		syscall 10, __SPTArgs
+4	19	313	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	313		mov __D0SoundEnd, __SPTArgs.Result
+4	19	316	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	316		release __SPTArgsMutex
+4	19	317	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	19	317	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	317		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	19	320	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	320	#line 8771 "NXCDefs.h"
+4	8772	320		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	322	#line 8771 "NXCDefs.h"
+4	19	322	#line 19 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 4	20	322	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	322		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	21	322		set __signed_stack_001SoundEnd, 1400
 4	20	325	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	325		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	20	325	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	325		set __signed_stack_002SoundEnd, 300
 4	20	328	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	328		mov __SPTArgs.Loop, __D0SoundEnd
-4	20	330	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	330		syscall 10, __SPTArgs
-4	20	333	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	333		mov __D0SoundEnd, __SPTArgs.Result
+4	20	328	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	328		set __signed_stack_003SoundEnd, 4
+4	20	331	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	331	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	331		set __D0SoundEnd, 0
+4	20	334	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	334		acquire __SPTArgsMutex
 4	20	335	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	335		release __SPTArgsMutex
-4	20	336	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	20	336	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	336		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
-4	20	339	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	339	#line 8771 "NXCDefs.h"
-4	8772	339		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	341	#line 8771 "NXCDefs.h"
+4	21	335		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	20	338	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	338		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
 4	20	341	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	341	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	341		set __signed_stack_001SoundEnd, 1250
-4	21	344	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	344	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	344		set __signed_stack_002SoundEnd, 250
-4	21	347	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	347	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	347		set __signed_stack_003SoundEnd, 4
-4	21	350	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	350	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	350		set __D0SoundEnd, 0
-4	21	353	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	353		acquire __SPTArgsMutex
-4	21	354	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	354		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	21	357	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	357		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	21	360	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	360		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	21	363	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	363		mov __SPTArgs.Loop, __D0SoundEnd
+4	21	341		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	20	344	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	344		mov __SPTArgs.Loop, __D0SoundEnd
+4	20	347	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	347		syscall 10, __SPTArgs
+4	20	350	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	350		mov __D0SoundEnd, __SPTArgs.Result
+4	20	353	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	353		release __SPTArgsMutex
+4	20	354	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	20	354	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	354		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	20	357	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	357	#line 8771 "NXCDefs.h"
+4	8772	357		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	359	#line 8771 "NXCDefs.h"
+4	20	359	#line 20 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	359	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	359		set __signed_stack_001SoundEnd, 1250
+4	21	362	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	362	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	362		set __signed_stack_002SoundEnd, 250
 4	21	365	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	365		syscall 10, __SPTArgs
+4	21	365	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	365		set __signed_stack_003SoundEnd, 4
 4	21	368	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	368		mov __D0SoundEnd, __SPTArgs.Result
-4	21	370	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	370		release __SPTArgsMutex
+4	21	368	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	368		set __D0SoundEnd, 0
 4	21	371	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	21	371	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	371		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
-4	21	374	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	374	#line 8771 "NXCDefs.h"
-4	8772	374		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	376	#line 8771 "NXCDefs.h"
-4	21	376	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	376	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	376		set __signed_stack_001SoundEnd, 1400
-4	22	379	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	379	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	379		set __signed_stack_002SoundEnd, 400
-4	22	382	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	382	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	382		set __signed_stack_003SoundEnd, 4
-4	22	385	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	385	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	385		set __D0SoundEnd, 0
-4	22	388	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	388		acquire __SPTArgsMutex
-4	22	389	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	389		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	22	392	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	392		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	22	395	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	395		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	22	398	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	398		mov __SPTArgs.Loop, __D0SoundEnd
-4	22	400	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	400		syscall 10, __SPTArgs
-4	22	403	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	403		mov __D0SoundEnd, __SPTArgs.Result
+4	22	371		acquire __SPTArgsMutex
+4	21	372	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	372		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	21	375	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	375		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	21	378	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	378		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	21	381	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	381		mov __SPTArgs.Loop, __D0SoundEnd
+4	21	384	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	384		syscall 10, __SPTArgs
+4	21	387	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	387		mov __D0SoundEnd, __SPTArgs.Result
+4	21	390	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	390		release __SPTArgsMutex
+4	21	391	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	21	391	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	391		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 250
+4	21	394	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	394	#line 8771 "NXCDefs.h"
+4	8772	394		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	396	#line 8771 "NXCDefs.h"
+4	21	396	#line 21 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	396	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	396		set __signed_stack_001SoundEnd, 1400
+4	22	399	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	399	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	399		set __signed_stack_002SoundEnd, 400
+4	22	402	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	402	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	402		set __signed_stack_003SoundEnd, 4
 4	22	405	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	405		release __SPTArgsMutex
-4	22	406	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	22	406	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	23	406		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	22	405	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	405		set __D0SoundEnd, 0
+4	22	408	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	408		acquire __SPTArgsMutex
 4	22	409	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	409	#line 8771 "NXCDefs.h"
-4	8772	409		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	411	#line 8771 "NXCDefs.h"
-4	22	411	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	24	411	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	25	411		jmp __ASM_Label_1206
-4	24	413	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	25	413		mov __signed_stack_001SoundEnd, __SoundEnd_7qG2_whatSound_7qG2_000
-4	24	415	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	25	415	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	26	415		set __D0SoundEnd, 2
-4	25	418	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	26	418		cmp 4, __D0SoundEnd, __signed_stack_001SoundEnd, __D0SoundEnd
-4	26	422	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	422		brtst 4, __ASM_Label_1209, __D0SoundEnd
-4	26	425	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	425		set __signed_stack_001SoundEnd, 2500
-4	26	428	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	26	428	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	428		set __signed_stack_002SoundEnd, 400
-4	26	431	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	26	431	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	431		set __signed_stack_003SoundEnd, 4
-4	26	434	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	26	434	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	434		set __D0SoundEnd, 0
-4	26	437	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	437		acquire __SPTArgsMutex
-4	26	438	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	438		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	26	441	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	441		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	23	409		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	22	412	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	412		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	22	415	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	415		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	22	418	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	418		mov __SPTArgs.Loop, __D0SoundEnd
+4	22	421	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	421		syscall 10, __SPTArgs
+4	22	424	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	424		mov __D0SoundEnd, __SPTArgs.Result
+4	22	427	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	427		release __SPTArgsMutex
+4	22	428	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	22	428	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	23	428		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	22	431	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	431	#line 8771 "NXCDefs.h"
+4	8772	431		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	433	#line 8771 "NXCDefs.h"
+4	22	433	#line 22 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	24	433	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	25	433		jmp __ASM_Label_1206
+4	24	435	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	25	435		mov __signed_stack_001SoundEnd, __SoundEnd_7qG2_whatSound_7qG2_000
+4	24	437	#line 24 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	25	437	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	26	437		set __D0SoundEnd, 2
+4	25	440	#line 25 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	26	440		cmp 4, __D0SoundEnd, __signed_stack_001SoundEnd, __D0SoundEnd
 4	26	444	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	444		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	27	444		brtst 4, __ASM_Label_1209, __D0SoundEnd
 4	26	447	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	447		mov __SPTArgs.Loop, __D0SoundEnd
-4	26	449	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	449		syscall 10, __SPTArgs
-4	26	452	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	452		mov __D0SoundEnd, __SPTArgs.Result
-4	26	454	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	454		release __SPTArgsMutex
-4	26	455	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	26	455	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	455		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
-4	26	458	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	458	#line 8771 "NXCDefs.h"
-4	8772	458		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	460	#line 8771 "NXCDefs.h"
+4	27	447		set __signed_stack_001SoundEnd, 2500
+4	26	450	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	26	450	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	450		set __signed_stack_002SoundEnd, 400
+4	26	453	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	26	453	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	453		set __signed_stack_003SoundEnd, 4
+4	26	456	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	26	456	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	456		set __D0SoundEnd, 0
+4	26	459	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	459		acquire __SPTArgsMutex
 4	26	460	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	460	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	460		set __signed_stack_001SoundEnd, 2400
-4	27	463	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	463	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	463		set __signed_stack_002SoundEnd, 600
-4	27	466	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	466	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	466		set __signed_stack_003SoundEnd, 4
-4	27	469	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	27	469	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	469		set __D0SoundEnd, 0
-4	27	472	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	472		acquire __SPTArgsMutex
-4	27	473	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	473		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	27	476	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	476		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	27	479	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	479		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	27	482	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	482		mov __SPTArgs.Loop, __D0SoundEnd
+4	27	460		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	26	463	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	463		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	26	466	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	466		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	26	469	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	469		mov __SPTArgs.Loop, __D0SoundEnd
+4	26	472	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	472		syscall 10, __SPTArgs
+4	26	475	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	475		mov __D0SoundEnd, __SPTArgs.Result
+4	26	478	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	478		release __SPTArgsMutex
+4	26	479	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	26	479	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	479		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 400
+4	26	482	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	482	#line 8771 "NXCDefs.h"
+4	8772	482		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	484	#line 8771 "NXCDefs.h"
+4	26	484	#line 26 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 4	27	484	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	484		syscall 10, __SPTArgs
+4	28	484		set __signed_stack_001SoundEnd, 2400
 4	27	487	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	487		mov __D0SoundEnd, __SPTArgs.Result
-4	27	489	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	489		release __SPTArgsMutex
+4	27	487	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	487		set __signed_stack_002SoundEnd, 600
 4	27	490	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
 4	27	490	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	490		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 600
+4	28	490		set __signed_stack_003SoundEnd, 4
 4	27	493	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	493	#line 8771 "NXCDefs.h"
-4	8772	493		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	495	#line 8771 "NXCDefs.h"
-4	27	495	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	495	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	495		set __signed_stack_001SoundEnd, 2300
-4	28	498	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	498	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	498		set __signed_stack_002SoundEnd, 1000
-4	28	501	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	501	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	501		set __signed_stack_003SoundEnd, 4
-4	28	504	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	504	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	504		set __D0SoundEnd, 0
-4	28	507	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	507		acquire __SPTArgsMutex
-4	28	508	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	508		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
-4	28	511	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	511		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
-4	28	514	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	514		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
-4	28	517	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	517		mov __SPTArgs.Loop, __D0SoundEnd
-4	28	519	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	519		syscall 10, __SPTArgs
-4	28	522	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	522		mov __D0SoundEnd, __SPTArgs.Result
+4	27	493	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	493		set __D0SoundEnd, 0
+4	27	496	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	496		acquire __SPTArgsMutex
+4	27	497	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	497		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	27	500	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	500		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	27	503	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	503		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	27	506	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	506		mov __SPTArgs.Loop, __D0SoundEnd
+4	27	509	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	509		syscall 10, __SPTArgs
+4	27	512	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	512		mov __D0SoundEnd, __SPTArgs.Result
+4	27	515	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	515		release __SPTArgsMutex
+4	27	516	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	27	516	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	516		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 600
+4	27	519	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	519	#line 8771 "NXCDefs.h"
+4	8772	519		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	521	#line 8771 "NXCDefs.h"
+4	27	521	#line 27 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	521	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	521		set __signed_stack_001SoundEnd, 2300
 4	28	524	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	524		release __SPTArgsMutex
-4	28	525	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	28	525	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	29	525		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 1000
-4	28	528	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	8771	528	#line 8771 "NXCDefs.h"
-4	8772	528		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
-4	8771	530	#line 8771 "NXCDefs.h"
+4	28	524	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	524		set __signed_stack_002SoundEnd, 1000
+4	28	527	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	527	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	527		set __signed_stack_003SoundEnd, 4
 4	28	530	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	62	530	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	62	530	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	62	530	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	62	530	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
-4	63	530		subret __SoundEnd_return
+4	28	530	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	530		set __D0SoundEnd, 0
+4	28	533	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	533		acquire __SPTArgsMutex
+4	28	534	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	534		mov __SPTArgs.Frequency, __signed_stack_001SoundEnd
+4	28	537	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	537		mov __SPTArgs.Duration, __signed_stack_002SoundEnd
+4	28	540	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	540		mov __SPTArgs.Volume, __signed_stack_003SoundEnd
+4	28	543	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	543		mov __SPTArgs.Loop, __D0SoundEnd
+4	28	546	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	546		syscall 10, __SPTArgs
+4	28	549	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	549		mov __D0SoundEnd, __SPTArgs.Result
+4	28	552	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	552		release __SPTArgsMutex
+4	28	553	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	28	553	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	29	553		set __Wait_7qG2_ms_7qG2_000_inline_SoundEnd, 1000
+4	28	556	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	8771	556	#line 8771 "NXCDefs.h"
+4	8772	556		waitv __Wait_7qG2_ms_7qG2_000_inline_SoundEnd
+4	8771	558	#line 8771 "NXCDefs.h"
+4	28	558	#line 28 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	62	558	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	62	558	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	62	558	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	62	558	#line 62 "C:\Github\NXC_Source\.\+SoundEnd.nxc"
+4	63	558		subret __SoundEnd_return
 5	20	0	#line 20 "C:\Github\NXC_Source\BreakOut.nxc"
 5	21	0		mov LBX, BallX
 5	20	2	#line 20 "C:\Github\NXC_Source\BreakOut.nxc"
@@ -2599,381 +2599,381 @@ Clump	Line	PC	Source
 8	112	71		acquire __TextOutMutex
 8	111	72	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
 8	112	72		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
-8	111	74	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	74		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
-8	111	77	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	77		mov __TextOutArgs.Options, __D0RetryGame
-8	111	79	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	79		mov __TextOutArgs.Text, __strbufRetryGame
+8	111	75	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
+8	112	75		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
+8	111	78	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
+8	112	78		mov __TextOutArgs.Options, __D0RetryGame
 8	111	81	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	81		syscall 13, __TextOutArgs
+8	112	81		mov __TextOutArgs.Text, __strbufRetryGame
 8	111	84	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	84		mov __D0RetryGame, __TextOutArgs.Result
-8	111	86	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	86		release __TextOutMutex
+8	112	84		syscall 13, __TextOutArgs
 8	111	87	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
-8	112	87	#line 112 "C:\Github\NXC_Source\BreakOut.nxc"
-8	113	87		set __Wait_7qG2_ms_7qG2_000_inline_RetryGame, 1500
-8	112	90	#line 112 "C:\Github\NXC_Source\BreakOut.nxc"
-8	8771	90	#line 8771 "NXCDefs.h"
-8	8772	90		waitv __Wait_7qG2_ms_7qG2_000_inline_RetryGame
-8	8771	92	#line 8771 "NXCDefs.h"
-8	112	92	#line 112 "C:\Github\NXC_Source\BreakOut.nxc"
-8	113	92	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	92		strcat __strbufRetryGame, __constStr0055
+8	112	87		mov __D0RetryGame, __TextOutArgs.Result
+8	111	90	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
+8	112	90		release __TextOutMutex
+8	111	91	#line 111 "C:\Github\NXC_Source\BreakOut.nxc"
+8	112	91	#line 112 "C:\Github\NXC_Source\BreakOut.nxc"
+8	113	91		set __Wait_7qG2_ms_7qG2_000_inline_RetryGame, 1500
+8	112	94	#line 112 "C:\Github\NXC_Source\BreakOut.nxc"
+8	8771	94	#line 8771 "NXCDefs.h"
+8	8772	94		waitv __Wait_7qG2_ms_7qG2_000_inline_RetryGame
+8	8771	96	#line 8771 "NXCDefs.h"
+8	112	96	#line 112 "C:\Github\NXC_Source\BreakOut.nxc"
 8	113	96	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	96		mov __ArrHelper__RetryGame_244_0, __strbufRetryGame
-8	113	98	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	98		mov __D0RetryGame, Score
+8	114	96		strcat __strbufRetryGame, __constStr0055
 8	113	100	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	100		numtostr __strretvalRetryGame, __D0RetryGame
-8	113	103	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	103		strcat __strbufRetryGame, __strretvalRetryGame
+8	114	100		mov __ArrHelper__RetryGame_244_0, __strbufRetryGame
+8	113	102	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	102		mov __D0RetryGame, Score
+8	113	104	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	104		numtostr __strretvalRetryGame, __D0RetryGame
 8	113	107	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	107		mov __ArrHelper__RetryGame_244_1, __strbufRetryGame
-8	113	109	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	109		strcat __strbufRetryGame, __constStr0056
+8	114	107		strcat __strbufRetryGame, __strretvalRetryGame
+8	113	111	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	111		mov __ArrHelper__RetryGame_244_1, __strbufRetryGame
 8	113	113	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	113		mov __ArrHelper__RetryGame_244_2, __strbufRetryGame
-8	113	115	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	115		strcat __strbufRetryGame, __constStr0053
+8	114	113		strcat __strbufRetryGame, __constStr0056
+8	113	117	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	117		mov __ArrHelper__RetryGame_244_2, __strbufRetryGame
 8	113	119	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	119		mov __readHigh_7qG2_readme_7qG2_000, __strbufRetryGame
-8	113	121	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	121		subcall readHigh, __readHigh_return
+8	114	119		strcat __strbufRetryGame, __constStr0053
 8	113	123	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	123		mov __D0RetryGame, __D0readHigh
+8	114	123		mov __readHigh_7qG2_readme_7qG2_000, __strbufRetryGame
 8	113	125	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	125		numtostr __strretvalRetryGame, __D0RetryGame
-8	113	128	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	128		strcat __strbufRetryGame, __strretvalRetryGame
+8	114	125		subcall readHigh, __readHigh_return
+8	113	127	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	127		mov __D0RetryGame, __D0readHigh
+8	113	129	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	129		numtostr __strretvalRetryGame, __D0RetryGame
 8	113	132	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	132		mov __ArrHelper__RetryGame_244_3, __strbufRetryGame
-8	113	134	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	134		strcat __strretvalRetryGame, __ArrHelper__RetryGame_244_0, __ArrHelper__RetryGame_244_1, __ArrHelper__RetryGame_244_2, __ArrHelper__RetryGame_244_3
-8	113	141	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	141		strcat __strbufRetryGame, __strretvalRetryGame
+8	114	132		strcat __strbufRetryGame, __strretvalRetryGame
+8	113	136	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	136		mov __ArrHelper__RetryGame_244_3, __strbufRetryGame
+8	113	138	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	138		strcat __strretvalRetryGame, __ArrHelper__RetryGame_244_0, __ArrHelper__RetryGame_244_1, __ArrHelper__RetryGame_244_2, __ArrHelper__RetryGame_244_3
 8	113	145	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	145		mov msg, __strbufRetryGame
-8	113	147	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	147	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	147		set __signed_stack_001RetryGame, 25
-8	114	150	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	150	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	150		set __signed_stack_002RetryGame, 40
-8	114	153	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	114	153	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	153		strcat __strbufRetryGame, __constStr0057
+8	114	145		strcat __strbufRetryGame, __strretvalRetryGame
+8	113	149	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	149		mov msg, __strbufRetryGame
+8	113	151	#line 113 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	151	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	151		set __signed_stack_001RetryGame, 25
+8	114	154	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	114	154	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	154		set __signed_stack_002RetryGame, 40
 8	114	157	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	157		mov __ArrHelper__RetryGame_244_0, __strbufRetryGame
-8	114	159	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	159		mov __D0RetryGame, Score
+8	114	157	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	157		strcat __strbufRetryGame, __constStr0057
 8	114	161	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	161		numtostr __strretvalRetryGame, __D0RetryGame
-8	114	164	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	164		strcat __strbufRetryGame, __strretvalRetryGame
+8	115	161		mov __ArrHelper__RetryGame_244_0, __strbufRetryGame
+8	114	163	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	163		mov __D0RetryGame, Score
+8	114	165	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	165		numtostr __strretvalRetryGame, __D0RetryGame
 8	114	168	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	168		mov __ArrHelper__RetryGame_244_1, __strbufRetryGame
-8	114	170	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	170		strcat __strretvalRetryGame, __ArrHelper__RetryGame_244_0, __ArrHelper__RetryGame_244_1
-8	114	175	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	175		strcat __strbufRetryGame, __strretvalRetryGame
+8	115	168		strcat __strbufRetryGame, __strretvalRetryGame
+8	114	172	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	172		mov __ArrHelper__RetryGame_244_1, __strbufRetryGame
+8	114	174	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	174		strcat __strretvalRetryGame, __ArrHelper__RetryGame_244_0, __ArrHelper__RetryGame_244_1
 8	114	179	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	179		set __D0RetryGame, 0
-8	114	182	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	182		acquire __TextOutMutex
+8	115	179		strcat __strbufRetryGame, __strretvalRetryGame
 8	114	183	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	183		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
-8	114	185	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	185		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
-8	114	188	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	188		mov __TextOutArgs.Options, __D0RetryGame
+8	115	183		set __D0RetryGame, 0
+8	114	186	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	186		acquire __TextOutMutex
+8	114	187	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	187		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
 8	114	190	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	190		mov __TextOutArgs.Text, __strbufRetryGame
-8	114	192	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	192		syscall 13, __TextOutArgs
-8	114	195	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	195		mov __D0RetryGame, __TextOutArgs.Result
-8	114	197	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	197		release __TextOutMutex
-8	114	198	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	198	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	198		set __signed_stack_001RetryGame, 10
-8	115	201	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	201	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	201		set __signed_stack_002RetryGame, 32
-8	115	204	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	115	204	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	204		strcat __strbufRetryGame, __constStr0058
-8	115	208	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	208		mov __ArrHelper__RetryGame_244_0, __strbufRetryGame
-8	115	210	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	210		strcat __strbufRetryGame, __constStr0053
-8	115	214	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	214		mov __readHigh_7qG2_readme_7qG2_000, __strbufRetryGame
+8	115	190		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
+8	114	193	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	193		mov __TextOutArgs.Options, __D0RetryGame
+8	114	196	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	196		mov __TextOutArgs.Text, __strbufRetryGame
+8	114	199	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	199		syscall 13, __TextOutArgs
+8	114	202	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	202		mov __D0RetryGame, __TextOutArgs.Result
+8	114	205	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	205		release __TextOutMutex
+8	114	206	#line 114 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	206	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	206		set __signed_stack_001RetryGame, 10
+8	115	209	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	209	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	209		set __signed_stack_002RetryGame, 32
+8	115	212	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	115	212	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	212		strcat __strbufRetryGame, __constStr0058
 8	115	216	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	216		subcall readHigh, __readHigh_return
+8	116	216		mov __ArrHelper__RetryGame_244_0, __strbufRetryGame
 8	115	218	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	218		mov __D0RetryGame, __D0readHigh
-8	115	220	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	220		numtostr __strretvalRetryGame, __D0RetryGame
-8	115	223	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	223		strcat __strbufRetryGame, __strretvalRetryGame
-8	115	227	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	227		mov __ArrHelper__RetryGame_244_1, __strbufRetryGame
-8	115	229	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	229		strcat __strretvalRetryGame, __ArrHelper__RetryGame_244_0, __ArrHelper__RetryGame_244_1
-8	115	234	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	234		strcat __strbufRetryGame, __strretvalRetryGame
-8	115	238	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	238		set __D0RetryGame, 0
-8	115	241	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	241		acquire __TextOutMutex
+8	116	218		strcat __strbufRetryGame, __constStr0053
+8	115	222	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	222		mov __readHigh_7qG2_readme_7qG2_000, __strbufRetryGame
+8	115	224	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	224		subcall readHigh, __readHigh_return
+8	115	226	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	226		mov __D0RetryGame, __D0readHigh
+8	115	228	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	228		numtostr __strretvalRetryGame, __D0RetryGame
+8	115	231	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	231		strcat __strbufRetryGame, __strretvalRetryGame
+8	115	235	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	235		mov __ArrHelper__RetryGame_244_1, __strbufRetryGame
+8	115	237	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	237		strcat __strretvalRetryGame, __ArrHelper__RetryGame_244_0, __ArrHelper__RetryGame_244_1
 8	115	242	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	242		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
-8	115	244	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	244		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
-8	115	247	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	247		mov __TextOutArgs.Options, __D0RetryGame
+8	116	242		strcat __strbufRetryGame, __strretvalRetryGame
+8	115	246	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	246		set __D0RetryGame, 0
 8	115	249	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	249		mov __TextOutArgs.Text, __strbufRetryGame
-8	115	251	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	251		syscall 13, __TextOutArgs
-8	115	254	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	254		mov __D0RetryGame, __TextOutArgs.Result
+8	116	249		acquire __TextOutMutex
+8	115	250	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	250		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
+8	115	253	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	253		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
 8	115	256	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	256		release __TextOutMutex
-8	115	257	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	257	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	257		set __signed_stack_001RetryGame, 33
-8	116	260	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	260	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	260		set __signed_stack_002RetryGame, 8
-8	116	263	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	116	263	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	263		strcat __strbufRetryGame, __constStr0059
-8	116	267	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	267		set __D0RetryGame, 0
-8	116	270	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	270		acquire __TextOutMutex
-8	116	271	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	271		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
-8	116	273	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	273		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
-8	116	276	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	276		mov __TextOutArgs.Options, __D0RetryGame
-8	116	278	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	278		mov __TextOutArgs.Text, __strbufRetryGame
-8	116	280	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	280		syscall 13, __TextOutArgs
+8	116	256		mov __TextOutArgs.Options, __D0RetryGame
+8	115	259	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	259		mov __TextOutArgs.Text, __strbufRetryGame
+8	115	262	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	262		syscall 13, __TextOutArgs
+8	115	265	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	265		mov __D0RetryGame, __TextOutArgs.Result
+8	115	268	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	268		release __TextOutMutex
+8	115	269	#line 115 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	269	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	269		set __signed_stack_001RetryGame, 33
+8	116	272	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	272	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	272		set __signed_stack_002RetryGame, 8
+8	116	275	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	116	275	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	275		strcat __strbufRetryGame, __constStr0059
+8	116	279	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	279		set __D0RetryGame, 0
+8	116	282	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	282		acquire __TextOutMutex
 8	116	283	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	283		mov __D0RetryGame, __TextOutArgs.Result
-8	116	285	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	285		release __TextOutMutex
+8	117	283		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
 8	116	286	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
-8	117	286	#line 117 "C:\Github\NXC_Source\BreakOut.nxc"
-8	118	286		set __ClearLine_7qG2_line_7qG2_000_inline_RetryGame, 0
-8	117	289	#line 117 "C:\Github\NXC_Source\BreakOut.nxc"
-8	6903	289	#line 6903 "NXCDefs.h"
-8	6904	289	#pragma macro 7
-8	6904	289		acquire __TextOutMutex
-8	6904	290		mov __TextOutArgs.Location.X, __constVal0
-8	6904	292		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_RetryGame
-8	6904	294		mov __TextOutArgs.Options, __constVal0
-8	6904	296		mov __TextOutArgs.Text, __BlankLine
-8	6904	299		syscall 13, __TextOutArgs
-8	6904	302		release __TextOutMutex
-8	13442	303	#line 13442 "NXCDefs.h"
-8	6903	303	#line 6903 "NXCDefs.h"
-8	117	303	#line 117 "C:\Github\NXC_Source\BreakOut.nxc"
-8	118	303	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	303		set __signed_stack_001RetryGame, 0
-8	118	306	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	118	306	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	306		set __signed_stack_002RetryGame, 0
-8	118	309	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	118	309	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	309		strcat __strbufRetryGame, __constStr0060
-8	118	313	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	313		set __D0RetryGame, 0
-8	118	316	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	316		acquire __TextOutMutex
-8	118	317	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	317		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
-8	118	319	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	319		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
-8	118	322	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	322		mov __TextOutArgs.Options, __D0RetryGame
+8	117	286		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
+8	116	289	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	289		mov __TextOutArgs.Options, __D0RetryGame
+8	116	292	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	292		mov __TextOutArgs.Text, __strbufRetryGame
+8	116	295	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	295		syscall 13, __TextOutArgs
+8	116	298	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	298		mov __D0RetryGame, __TextOutArgs.Result
+8	116	301	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	301		release __TextOutMutex
+8	116	302	#line 116 "C:\Github\NXC_Source\BreakOut.nxc"
+8	117	302	#line 117 "C:\Github\NXC_Source\BreakOut.nxc"
+8	118	302		set __ClearLine_7qG2_line_7qG2_000_inline_RetryGame, 0
+8	117	305	#line 117 "C:\Github\NXC_Source\BreakOut.nxc"
+8	6903	305	#line 6903 "NXCDefs.h"
+8	6904	305	#pragma macro 7
+8	6904	305		acquire __TextOutMutex
+8	6904	306		mov __TextOutArgs.Location.X, __constVal0
+8	6904	308		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_RetryGame
+8	6904	310		mov __TextOutArgs.Options, __constVal0
+8	6904	312		mov __TextOutArgs.Text, __BlankLine
+8	6904	314		syscall 13, __TextOutArgs
+8	6904	317		release __TextOutMutex
+8	13442	318	#line 13442 "NXCDefs.h"
+8	6903	318	#line 6903 "NXCDefs.h"
+8	117	318	#line 117 "C:\Github\NXC_Source\BreakOut.nxc"
+8	118	318	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	318		set __signed_stack_001RetryGame, 0
+8	118	321	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	118	321	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	321		set __signed_stack_002RetryGame, 0
 8	118	324	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	324		mov __TextOutArgs.Text, __strbufRetryGame
-8	118	326	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	326		syscall 13, __TextOutArgs
-8	118	329	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	329		mov __D0RetryGame, __TextOutArgs.Result
+8	118	324	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	324		strcat __strbufRetryGame, __constStr0060
+8	118	328	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	328		set __D0RetryGame, 0
 8	118	331	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	331		release __TextOutMutex
+8	119	331		acquire __TextOutMutex
 8	118	332	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	332	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	332		set __signed_stack_001RetryGame, 88
-8	119	335	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	335	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	335		set __signed_stack_002RetryGame, 0
-8	119	338	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	119	338	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	338		strcat __strbufRetryGame, __constStr0061
-8	119	342	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	342		set __D0RetryGame, 0
-8	119	345	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	345		acquire __TextOutMutex
-8	119	346	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	346		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
-8	119	348	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	348		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
+8	119	332		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
+8	118	335	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	335		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
+8	118	338	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	338		mov __TextOutArgs.Options, __D0RetryGame
+8	118	341	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	341		mov __TextOutArgs.Text, __strbufRetryGame
+8	118	344	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	344		syscall 13, __TextOutArgs
+8	118	347	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	347		mov __D0RetryGame, __TextOutArgs.Result
+8	118	350	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	350		release __TextOutMutex
+8	118	351	#line 118 "C:\Github\NXC_Source\BreakOut.nxc"
 8	119	351	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	351		mov __TextOutArgs.Options, __D0RetryGame
-8	119	353	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	353		mov __TextOutArgs.Text, __strbufRetryGame
-8	119	355	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	355		syscall 13, __TextOutArgs
-8	119	358	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	358		mov __D0RetryGame, __TextOutArgs.Result
-8	119	360	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	360		release __TextOutMutex
+8	120	351		set __signed_stack_001RetryGame, 88
+8	119	354	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	354	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	354		set __signed_stack_002RetryGame, 0
+8	119	357	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	119	357	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	357		strcat __strbufRetryGame, __constStr0061
 8	119	361	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	361	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
-8	121	361	#pragma macro 6
-8	121	361		acquire __MWMutex
-8	121	362		add __MWArgs.QueueID, __constVal9, __constVal10
-8	121	366		mov __MWArgs.Message, msg
-8	121	369		syscall 26, __MWArgs
-8	121	372		mov __D0RetryGame, __MWArgs.Result
-8	121	374		release __MWMutex
-8	13512	375	#line 13512 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	375	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	375	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
-8	120	375	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
-8	121	375		strcat __strbufRetryGame, __constStr0016
-8	120	379	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
-8	121	379		mov msg, __strbufRetryGame
-8	120	381	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
-8	121	381	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	381		set __signed_stack_001RetryGame, 2
-8	121	384	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	121	384	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	384		mov __D0RetryGame, __constVal0
-8	121	386	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	386		acquire __RBtnMutex
-8	121	387	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	387		mov __RBtnArgs.Index, __signed_stack_001RetryGame
-8	121	390	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	390		mov __RBtnArgs.Reset, __D0RetryGame
-8	121	393	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	393		syscall 20, __RBtnArgs
-8	121	396	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	396		mov __D0RetryGame, __RBtnArgs.Pressed
-8	121	399	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	399		release __RBtnMutex
-8	121	400	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	400		tst 5, __D0RetryGame, __D0RetryGame
-8	121	403	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	403		brtst 5, __ASM_Label_1610, __D0RetryGame
-8	121	406	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	406		set __signed_stack_001RetryGame, 1
-8	121	409	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	121	409	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	409		mov __D0RetryGame, __constVal0
+8	120	361		set __D0RetryGame, 0
+8	119	364	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	364		acquire __TextOutMutex
+8	119	365	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	365		mov __TextOutArgs.Location.X, __signed_stack_001RetryGame
+8	119	368	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	368		mov __TextOutArgs.Location.Y, __signed_stack_002RetryGame
+8	119	371	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	371		mov __TextOutArgs.Options, __D0RetryGame
+8	119	374	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	374		mov __TextOutArgs.Text, __strbufRetryGame
+8	119	377	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	377		syscall 13, __TextOutArgs
+8	119	380	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	380		mov __D0RetryGame, __TextOutArgs.Result
+8	119	383	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	383		release __TextOutMutex
+8	119	384	#line 119 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	384	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
+8	121	384	#pragma macro 6
+8	121	384		acquire __MWMutex
+8	121	385		add __MWArgs.QueueID, __constVal9, __constVal10
+8	121	389		mov __MWArgs.Message, msg
+8	121	392		syscall 26, __MWArgs
+8	121	395		mov __D0RetryGame, __MWArgs.Result
+8	121	398		release __MWMutex
+8	13512	399	#line 13512 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	399	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	399	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
+8	120	399	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
+8	121	399		strcat __strbufRetryGame, __constStr0016
+8	120	403	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
+8	121	403		mov msg, __strbufRetryGame
+8	120	405	#line 120 "C:\Github\NXC_Source\BreakOut.nxc"
+8	121	405	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	405		set __signed_stack_001RetryGame, 2
+8	121	408	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	121	408	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	408		mov __D0RetryGame, __constVal0
+8	121	410	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	410		acquire __RBtnMutex
 8	121	411	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	411		acquire __RBtnMutex
-8	121	412	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	412		mov __RBtnArgs.Index, __signed_stack_001RetryGame
-8	121	415	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	415		mov __RBtnArgs.Reset, __D0RetryGame
-8	121	418	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	418		syscall 20, __RBtnArgs
-8	121	421	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	421		mov __D0RetryGame, __RBtnArgs.Pressed
+8	122	411		mov __RBtnArgs.Index, __signed_stack_001RetryGame
+8	121	414	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	414		mov __RBtnArgs.Reset, __D0RetryGame
+8	121	417	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	417		syscall 20, __RBtnArgs
+8	121	420	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	420		mov __D0RetryGame, __RBtnArgs.Pressed
+8	121	423	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	423		release __RBtnMutex
 8	121	424	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	424		release __RBtnMutex
-8	121	425	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	425		tst 5, __D0RetryGame, __D0RetryGame
-8	121	428	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	428		brtst 4, __ASM_Label_1609, __D0RetryGame
-8	122	431	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	431		jmp __ASM_Label_1608
-8	122	433	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	433	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	433		set __signed_stack_001RetryGame, 2
-8	122	436	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	436	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	436		mov __D0RetryGame, __constVal0
-8	122	438	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	438		acquire __RBtnMutex
-8	122	439	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	439		mov __RBtnArgs.Index, __signed_stack_001RetryGame
-8	122	442	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	442		mov __RBtnArgs.Reset, __D0RetryGame
-8	122	445	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	445		syscall 20, __RBtnArgs
-8	122	448	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	448		mov __D0RetryGame, __RBtnArgs.Pressed
-8	122	451	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	451		release __RBtnMutex
-8	122	452	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	452		tst 5, __D0RetryGame, __D0RetryGame
+8	122	424		tst 5, __D0RetryGame, __D0RetryGame
+8	121	427	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	427		brtst 5, __ASM_Label_1610, __D0RetryGame
+8	121	430	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	430		set __signed_stack_001RetryGame, 1
+8	121	433	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	121	433	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	433		mov __D0RetryGame, __constVal0
+8	121	435	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	435		acquire __RBtnMutex
+8	121	436	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	436		mov __RBtnArgs.Index, __signed_stack_001RetryGame
+8	121	439	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	439		mov __RBtnArgs.Reset, __D0RetryGame
+8	121	442	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	442		syscall 20, __RBtnArgs
+8	121	445	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	445		mov __D0RetryGame, __RBtnArgs.Pressed
+8	121	448	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	448		release __RBtnMutex
+8	121	449	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	449		tst 5, __D0RetryGame, __D0RetryGame
+8	121	452	#line 121 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	452		brtst 4, __ASM_Label_1609, __D0RetryGame
 8	122	455	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	455		brtst 5, __ASM_Label_1621, __D0RetryGame
-8	122	458	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	458		set __signed_stack_001RetryGame, 1
-8	122	461	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	122	461	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	461		mov __D0RetryGame, __constVal0
+8	123	455		jmp __ASM_Label_1608
+8	122	457	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	457	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	457		set __signed_stack_001RetryGame, 2
+8	122	460	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	460	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	460		mov __D0RetryGame, __constVal0
+8	122	462	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	462		acquire __RBtnMutex
 8	122	463	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	463		acquire __RBtnMutex
-8	122	464	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	464		mov __RBtnArgs.Index, __signed_stack_001RetryGame
-8	122	467	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	467		mov __RBtnArgs.Reset, __D0RetryGame
-8	122	470	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	470		syscall 20, __RBtnArgs
-8	122	473	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	473		mov __D0RetryGame, __RBtnArgs.Pressed
+8	123	463		mov __RBtnArgs.Index, __signed_stack_001RetryGame
+8	122	466	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	466		mov __RBtnArgs.Reset, __D0RetryGame
+8	122	469	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	469		syscall 20, __RBtnArgs
+8	122	472	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	472		mov __D0RetryGame, __RBtnArgs.Pressed
+8	122	475	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	475		release __RBtnMutex
 8	122	476	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	476		release __RBtnMutex
-8	122	477	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	477		tst 5, __D0RetryGame, __D0RetryGame
-8	122	480	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	480		not __D0RetryGame, __D0RetryGame
-8	122	483	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	483		tst 5, __D0RetryGame, __D0RetryGame
-8	122	486	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	486		brtst 4, __ASM_Label_1618, __D0RetryGame
-8	123	489	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	489		jmp __ASM_Label_1617
-8	123	491	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	491	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	491		set __signed_stack_001RetryGame, 2
-8	123	494	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	123	494	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	494		mov __D0RetryGame, __constVal0
-8	123	496	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	496		acquire __RBtnMutex
-8	123	497	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	497		mov __RBtnArgs.Index, __signed_stack_001RetryGame
-8	123	500	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	500		mov __RBtnArgs.Reset, __D0RetryGame
-8	123	503	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	503		syscall 20, __RBtnArgs
-8	123	506	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	506		mov __D0RetryGame, __RBtnArgs.Pressed
-8	123	509	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	509		release __RBtnMutex
-8	123	510	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	510		mov __DU0RetryGame, __D0RetryGame
-8	123	512	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	124	512		subret __RetryGame_return
-8	123	514	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
-8	126	514	#line 126 "C:\Github\NXC_Source\BreakOut.nxc"
-8	127	514		subret __RetryGame_return
+8	123	476		tst 5, __D0RetryGame, __D0RetryGame
+8	122	479	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	479		brtst 5, __ASM_Label_1621, __D0RetryGame
+8	122	482	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	482		set __signed_stack_001RetryGame, 1
+8	122	485	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	122	485	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	485		mov __D0RetryGame, __constVal0
+8	122	487	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	487		acquire __RBtnMutex
+8	122	488	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	488		mov __RBtnArgs.Index, __signed_stack_001RetryGame
+8	122	491	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	491		mov __RBtnArgs.Reset, __D0RetryGame
+8	122	494	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	494		syscall 20, __RBtnArgs
+8	122	497	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	497		mov __D0RetryGame, __RBtnArgs.Pressed
+8	122	500	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	500		release __RBtnMutex
+8	122	501	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	501		tst 5, __D0RetryGame, __D0RetryGame
+8	122	504	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	504		not __D0RetryGame, __D0RetryGame
+8	122	507	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	507		tst 5, __D0RetryGame, __D0RetryGame
+8	122	510	#line 122 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	510		brtst 4, __ASM_Label_1618, __D0RetryGame
+8	123	513	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	513		jmp __ASM_Label_1617
+8	123	515	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	515	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	515		set __signed_stack_001RetryGame, 2
+8	123	518	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	123	518	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	518		mov __D0RetryGame, __constVal0
+8	123	520	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	520		acquire __RBtnMutex
+8	123	521	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	521		mov __RBtnArgs.Index, __signed_stack_001RetryGame
+8	123	524	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	524		mov __RBtnArgs.Reset, __D0RetryGame
+8	123	527	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	527		syscall 20, __RBtnArgs
+8	123	530	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	530		mov __D0RetryGame, __RBtnArgs.Pressed
+8	123	533	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	533		release __RBtnMutex
+8	123	534	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	534		mov __DU0RetryGame, __D0RetryGame
+8	123	536	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	124	536		subret __RetryGame_return
+8	123	538	#line 123 "C:\Github\NXC_Source\BreakOut.nxc"
+8	126	538	#line 126 "C:\Github\NXC_Source\BreakOut.nxc"
+8	127	538		subret __RetryGame_return
 9	160	0	#line 160 "C:\Github\NXC_Source\BreakOut.nxc"
 9	161	0		arrbuild layout, __constVal97, __constVal98, __constVal99, __constVal100, __constVal101, __constVal102, __constVal103, __constVal104, __constVal105, __constVal106, __constVal107, __constVal108, __constVal109, __constVal110, __constVal111, __constVal112, __constVal113, __constVal114, __constVal115, __constVal116, __constVal117, __constVal118, __constVal119, __constVal120, __constVal121, __constVal122, __constVal32, __constVal44, __constVal46, __constVal63, __constVal48, __constVal49, __constVal50, __constVal51, __constVal52, __constVal53, __constVal54, __constVal55, __constVal56, __constVal57
 9	160	43	#line 160 "C:\Github\NXC_Source\BreakOut.nxc"
@@ -2986,12 +2986,12 @@ Clump	Line	PC	Source
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\BreakOut.nxc
-1	__readStringLine	550	NXTDefs.h
-2	readHigh	599	C:\Github\NXC_Source\.\+Highscore.nxc
-3	writeHigh	670	C:\Github\NXC_Source\.\+Highscore.nxc
-4	SoundEnd	740	C:\Github\NXC_Source\.\+SoundEnd.nxc
-5	MoveBall	1272	C:\Github\NXC_Source\BreakOut.nxc
-6	MoveBouncer	1998	C:\Github\NXC_Source\BreakOut.nxc
-7	Draw	2183	C:\Github\NXC_Source\BreakOut.nxc
-8	RetryGame	2461	C:\Github\NXC_Source\BreakOut.nxc
-9	__initialize_global_data	2977	C:\Github\NXC_Source\BreakOut.nxc
+1	__readStringLine	556	NXTDefs.h
+2	readHigh	606	C:\Github\NXC_Source\.\+Highscore.nxc
+3	writeHigh	679	C:\Github\NXC_Source\.\+Highscore.nxc
+4	SoundEnd	749	C:\Github\NXC_Source\.\+SoundEnd.nxc
+5	MoveBall	1309	C:\Github\NXC_Source\BreakOut.nxc
+6	MoveBouncer	2035	C:\Github\NXC_Source\BreakOut.nxc
+7	Draw	2220	C:\Github\NXC_Source\BreakOut.nxc
+8	RetryGame	2498	C:\Github\NXC_Source\BreakOut.nxc
+9	__initialize_global_data	3038	C:\Github\NXC_Source\BreakOut.nxc
