@@ -14,17 +14,17 @@ string msg;
 void CheckWin()
   {
   winner=0;
-  for (byte i=1; i<3; i++)
+  for (byte chk=1; chk<3; chk++)
     {
-    if (((board[0]==i)&&(board[1]==i)&&(board[2]==i))
-    ||  ((board[3]==i)&&(board[4]==i)&&(board[5]==i))
-    ||  ((board[6]==i)&&(board[7]==i)&&(board[8]==i))
-    ||  ((board[0]==i)&&(board[3]==i)&&(board[6]==i))
-    ||  ((board[1]==i)&&(board[4]==i)&&(board[7]==i))
-    ||  ((board[2]==i)&&(board[5]==i)&&(board[8]==i))
-    ||  ((board[2]==i)&&(board[4]==i)&&(board[6]==i))
-    ||  ((board[0]==i)&&(board[4]==i)&&(board[8]==i)))
-      {winner=i;}
+    if ((board[0]==chk&&board[1]==chk&&board[2]==chk)
+     || (board[3]==chk&&board[4]==chk&&board[5]==chk)
+     || (board[6]==chk&&board[7]==chk&&board[8]==chk)
+     || (board[0]==chk&&board[3]==chk&&board[6]==chk)
+     || (board[1]==chk&&board[4]==chk&&board[7]==chk)
+     || (board[2]==chk&&board[5]==chk&&board[8]==chk)
+     || (board[2]==chk&&board[4]==chk&&board[6]==chk)
+     || (board[0]==chk&&board[4]==chk&&board[8]==chk))
+      {winner=chk;}
     }
   msg=StrCat(msg,", CW=",NumToStr(winner));
   if (winner==1 || winner==2)
@@ -34,8 +34,17 @@ void CheckWin()
     if (winner==2) {owins+=1;}
     }
   select=10;
-  for (i=8; i>-1; i--) {if (board[i]==0) {select=i;}}
-  if (select==10) {if (gameover==false) {dwins+=1;} gameover=true; msg=StrCat(msg,", GO");}
+  for (i=0; i<9&&select==10; i++)
+    {
+    if (board[i]==0)
+      {select=i;}
+    }
+  if (select==10)
+    {
+    if (gameover==false) {dwins+=1;}
+    gameover=true;
+    msg=StrCat(msg,", GO");
+    }
   if (gameover==false)
      {Wait(500);}
   SendResponseString(MAILBOX10,msg); msg="";
@@ -150,6 +159,7 @@ void AI()
     msg=StrCat(msg,", AI");
     aimove=10; aiturndone=false;
     byte n1,n2,n3;
+//*
     for (i=1; i<3; i++)
       {
       for (byte j=0; j<3; j++)
@@ -157,17 +167,18 @@ void AI()
         if      (j==0) {n1=0; n2=i; n3=i;}
         else if (j==1) {n1=i; n2=0; n3=i;}
         else if (j==2) {n1=i; n2=i; n3=0;}
-        if (board[0]==n1 && board[1]==n2 && board[2]==n3) aimove=0+j;
-        if (board[3]==n1 && board[4]==n2 && board[5]==n3) aimove=3+j;
-        if (board[6]==n1 && board[7]==n2 && board[8]==n3) aimove=6+j;
-        if (board[0]==n1 && board[3]==n2 && board[6]==n3) aimove=0+j*3;
-        if (board[1]==n1 && board[4]==n2 && board[7]==n3) aimove=1+j*3;
-        if (board[2]==n1 && board[5]==n2 && board[8]==n3) aimove=2+j*3;
-        if (board[2]==n1 && board[4]==n2 && board[6]==n3) aimove=2+j*2;
-        if (board[0]==n1 && board[4]==n2 && board[8]==n3) aimove=0+j*4;
+        if (board[0]==n1 && board[1]==n2 && board[2]==n3) aimove=0+j;    //Horizontal
+        if (board[3]==n1 && board[4]==n2 && board[5]==n3) aimove=3+j;    //Horizontal
+        if (board[6]==n1 && board[7]==n2 && board[8]==n3) aimove=6+j;    //Horizontal
+        if (board[0]==n1 && board[3]==n2 && board[6]==n3) aimove=0+j*3;  //Vertical
+        if (board[1]==n1 && board[4]==n2 && board[7]==n3) aimove=1+j*3;  //Vertical
+        if (board[2]==n1 && board[5]==n2 && board[8]==n3) aimove=2+j*3;  //Vertical
+        if (board[2]==n1 && board[4]==n2 && board[6]==n3) aimove=2+j*2;  //Diagonal
+        if (board[0]==n1 && board[4]==n2 && board[8]==n3) aimove=0+j*4;  //Diagonal
         }
       msg=StrCat(msg,", AImove=",NumToStr(aimove));
       }
+//*/
 /*
     for (i=1;i<3;i++)
       {//----------- 0 ------------ i ------------ i
@@ -199,7 +210,7 @@ void AI()
       if ((board[0]==i)&&(board[4]==i)&&(board[8]==0)) aimove=8;
       msg=StrCat(msg,", AImove=",NumToStr(aimove));
       }
-*/
+//*/
     if (aimove==10)
       {
       while (aimove==10)
