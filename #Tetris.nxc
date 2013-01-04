@@ -505,7 +505,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
       drop=0;
       }
     prevWaited=INwaited;
-    if (readHigh(accesshigh)>score)
+    if (score>readHigh(accesshigh))
       {
       writeHigh(accesshigh,score);
       highMade=true;
@@ -716,6 +716,7 @@ bool gameEnd()
   inputOutput(0,0,1,0);
   bool plyagn=false;
   Wait(1000);
+  ClearScreen();
   if (highMade) writeHighName(accesshigh,score);
   ClearScreen();
   TextOut(TX,LCD_LINE1,"TETRIS",  0);
@@ -723,7 +724,7 @@ bool gameEnd()
   TextOut(0,LCD_LINE5,StrCat("HS:",NumToStr( readHigh(accesshigh) )),0);
   msg=readHighName(accesshigh);
   TextOut(0,LCD_LINE6,StrCat("N:",msg),0);
-  TextOut(5,LCD_LINE8,"Yes         No",0);
+  TextOut(5,LCD_LINE8,"Yes  Again?  No",0);
   until (ButtonPressed(BTNLEFT)==false
      && ButtonPressed(BTNRIGHT)==false) {}
   until (ButtonPressed(BTNLEFT)==true
