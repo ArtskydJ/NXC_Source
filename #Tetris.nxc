@@ -981,7 +981,12 @@ task main()
   }
 
 /*
-=====TO FIX=====
+BUGS
+crashes a few min into the game
+sometimes won't rotate when touching the pieces or the bottom
+cant see piece while soft dropping
+
+
 Process Order:
 -Rotation
 -Move
