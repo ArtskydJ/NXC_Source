@@ -361,12 +361,12 @@ bool rotate()
     }
   if (canRotate==0)
     {
-    if (!(addUD>0 && floorKickUsed==true))
-      {
+    //if (!(addUD>0 && floorKickUsed==true))
+      //{
       tetLR+=addLR;
       tetUD+=addUD;
-      if (addUD>0) floorKickUsed=true;
-      }
+      //if (addUD>0) floorKickUsed=true;
+      //}
     }
   return (canRotate==0);
   }
@@ -417,11 +417,11 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
       }
     if (ButtonPressed(BtnRotate))
       {
-      lockDelay=0;
       if (prevRot==0)
         {
         if (rotate())
           {
+          lockDelay=0;
           refresh=2;
           currentRotate++;
           if (currentRotate>=4) currentRotate=0;
@@ -436,10 +436,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
       }
     if (ButtonPressed(BtnMoveL))
       {
-      lockDelay=0;
       prevLft++;
       if ((prevLft>=waitSlowMove || prevLft<0) && move(lft,tetUD))
         {
+        lockDelay=0;
         if (prevLft<0) prevLft=0;
         else prevLft=waitSlowMove-waitFastMove;
         tetLR++;
@@ -452,10 +452,10 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
       }
     if (ButtonPressed(BtnMoveR))
       {
-      lockDelay=0;
       prevRht++;
       if ((prevRht>=waitSlowMove || prevRht<0) && move(rht,tetUD))
         {
+        lockDelay=0;
         if (prevRht<0) prevRht=0;
         else prevRht=waitSlowMove-waitFastMove;
         tetLR--;
@@ -622,7 +622,7 @@ void resetVars()
   currentRotate  = 0;
   drop           = 0;
   lockDelay      = 0;
-  floorKickUsed  =0;
+  floorKickUsed  = 0;
   tetLR=width/2-2;
   tetUD=height;
   }
@@ -740,7 +740,7 @@ bool gameEnd()
 //       | |  |--  |-<   |  |  |  __
 //       |_/  |__  |__)  \__/  \__/
 //      ============================
-
+/*
 void debugStream(char INchar)
   {
   bool insideLoop=0;
@@ -918,7 +918,7 @@ void debug(char INmode)
       }
     }
   }
-
+*/
 //  END   _    __   __          __
 //       | \  |    |  )  |  |  /  \
 //       | |  |--  |-<   |  |  |  __
@@ -966,7 +966,7 @@ task main()
           {
           piecemoving=inputOutput(true,true,true,i);
           Wait(10);
-          debugStream(i);
+          //debugStream(i);
           }
         delaytime*=speedup;
         pieceSetInto();
@@ -977,15 +977,14 @@ task main()
     }
   else
     {
-    debug(mode);
+    //debug(mode);
     }
   }
 
 /*
 BUGS
 crashes a few min into the game
-sometimes won't rotate when touching the pieces or the bottom
-cant see piece while soft dropping
+cant see piece well while soft dropping
 
 
 Process Order:
@@ -1002,7 +1001,7 @@ Right Side Bias         DONE
 Delayed Auto Shift      DONE
 Wall kicks              DONE
 
-Allow only 1 floor kick                                DONE
+Allow only 1 floor kick                                DELETED (Don't Like)
 Allow I wall kicking always.                           DONE
 Allow I floor kicking even when not touching ground    DONE
 
