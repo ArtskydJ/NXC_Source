@@ -1,0 +1,885 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0senseButton	6	1	0	4	66
+1	__constVal786433	6	0	4	4	2
+2	__RBtnMutex	9	0	8	4	12
+3	__D0menu	6	1	12	4	44
+4	__signed_stack_001senseButton	6	1	16	4	20
+5	__signed_stack_004menu	6	1	20	4	2
+6	__signed_stack_002menu	6	1	24	4	10
+7	__signed_stack_003menu	6	1	28	4	8
+8	__Wait_7qG2_ms_7qG2_000_inline_menu	5	1	32	4	2
+9	__DU0senseButton	5	1	36	4	4
+10	__signed_stack_001main	6	1	40	4	48
+11	__signed_stack_001menu	6	1	44	4	18
+12	__senseButton_7qG2_val_7qG2_000	4	1	48	2	14
+13	__menu_7qG2_currentChoice_7qG2_000	4	1	50	2	5
+14	__menu_7qG2_titleX_7qG2_000	4	1	52	2	4
+15	__menu_7qG2_i_7qG2_002	4	1	54	2	7
+16	__menu_7qG2_tempX_7qG2_000	4	1	56	2	5
+17	__menu_7qG2_numChoices_7qG2_000	4	1	58	2	6
+18	__senseButton_7qG2_high_7qG2_000	4	1	60	2	5
+19	__senseButton_7qG2_add_7qG2_000	4	1	62	2	3
+20	__senseButton_7qG2_rd_7qG2_000	4	1	64	2	4
+21	__senseButton_7qG2_lu_7qG2_000	4	1	66	2	4
+22	__constVal200	4	0	68	2	2
+23	__senseButton_return	1	1	70	1	4
+24	__senseButton_7qG2_cut_7qG2_000	1	1	71	1	2
+25	____initialize_global_data_return	1	1	72	1	3
+26	__constVal40	2	0	73	1	2
+27	__menu_return	1	1	74	1	6
+28	__constVal4	2	0	75	1	1
+29	__constVal0	2	1	76	1	6
+30	__constVal1	2	0	77	1	4
+31	__senseButton_7qG2_lr_ud_7qG2_000	1	1	78	1	2
+32	__PointOutArgs	8	0	3	12	4
+33	__PointOutArgs.Result	2	1	80	1	4
+34	__PointOutArgs.Location	8	0	2	4	4
+35	__PointOutArgs.Location.X	4	1	84	2	4
+36	__PointOutArgs.Location.Y	4	1	86	2	4
+37	__PointOutArgs.Options	5	1	88	4	4
+38	__RectOutArgs	8	0	4	16	6
+39	__RectOutArgs.Result	2	1	92	1	6
+40	__RectOutArgs.Location	8	0	2	4	6
+41	__RectOutArgs.Location.X	4	1	96	2	6
+42	__RectOutArgs.Location.Y	4	1	98	2	6
+43	__RectOutArgs.Size	8	0	2	4	6
+44	__RectOutArgs.Size.Width	4	1	100	2	6
+45	__RectOutArgs.Size.Height	4	1	102	2	6
+46	__RectOutArgs.Options	5	1	104	4	6
+47	__TextOutArgs	8	0	4	16	11
+48	__TextOutArgs.Result	2	1	108	1	11
+49	__TextOutArgs.Location	8	0	2	4	11
+50	__TextOutArgs.Location.X	4	1	112	2	11
+51	__TextOutArgs.Location.Y	4	1	114	2	11
+52	__TextOutArgs.Text	7	0	116	4	11
+53	__TextOutArgs.Text.Text_type	1	0	0	1	0
+54	__TextOutArgs.Options	5	1	120	4	11
+55	__IOMWBIArgs	8	0	4	16	8
+56	__IOMWBIArgs.Result	2	1	124	1	8
+57	__IOMWBIArgs.ModuleID	5	1	128	4	8
+58	__IOMWBIArgs.Offset	3	1	132	2	8
+59	__IOMWBIArgs.Buffer	7	0	134	4	8
+60	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+61	__RBtnArgs	8	0	5	8	24
+62	__RBtnArgs.Result	2	1	136	1	24
+63	__RBtnArgs.Index	1	1	137	1	24
+64	__RBtnArgs.Pressed	1	1	138	1	24
+65	__RBtnArgs.Count	1	1	139	1	24
+66	__RBtnArgs.Reset	1	1	140	1	24
+67	__constStr0016	7	0	142	4	2
+68	__constStr0016.__constStr0016_type	1	1	0	1	0
+69	__constStr0015	7	0	144	4	2
+70	__constStr0015.__constStr0015_type	1	1	0	1	0
+71	__constStr0017	7	0	146	4	1
+72	__constStr0017.__constStr0017_type	1	1	0	1	0
+73	__constStr0019	7	0	148	4	2
+74	__constStr0019.__constStr0019_type	1	1	0	1	0
+75	__constStr0018	7	0	150	4	1
+76	__constStr0018.__constStr0018_type	1	1	0	1	0
+77	__constStr0024	7	0	152	4	1
+78	__constStr0024.__constStr0024_type	1	1	0	1	0
+79	__constStr0025	7	0	154	4	1
+80	__constStr0025.__constStr0025_type	1	1	0	1	0
+81	__constStr0026	7	0	156	4	1
+82	__constStr0026.__constStr0026_type	1	1	0	1	0
+83	__constStr0023	7	0	158	4	1
+84	__constStr0023.__constStr0023_type	1	1	0	1	0
+85	__constStr0020	7	0	160	4	1
+86	__constStr0020.__constStr0020_type	1	1	0	1	0
+87	__constStr0021	7	0	162	4	1
+88	__constStr0021.__constStr0021_type	1	1	0	1	0
+89	__constStr0022	7	0	164	4	1
+90	__constStr0022.__constStr0022_type	1	1	0	1	0
+91	__constStr0014	7	0	166	4	2
+92	__constStr0014.__constStr0014_type	1	1	0	1	0
+93	__ArrHelper__menu_83_0	7	0	168	4	2
+94	__ArrHelper__menu_83_0.__ArrHelper__menu_83_0_type	1	0	0	1	0
+95	__IOMWFlattenBuf	7	0	170	4	4
+96	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+97	__menu_7qG2_menuDisp_7qG2_000	7	0	172	4	4
+98	__menu_7qG2_menuDisp_7qG2_000.__menu_7qG2_menuDisp_7qG2_000_type	7	0	0	4	0
+99	__menu_7qG2_menuDisp_7qG2_000.__menu_7qG2_menuDisp_7qG2_000_type.__menu_7qG2_menuDisp_7qG2_000_type_type	1	0	0	1	0
+100	__strretvalmenu	7	0	174	4	2
+101	__strretvalmenu.__strretvalmenu_type	1	0	0	1	0
+102	__strbufmenu	7	0	176	4	4
+103	__strbufmenu.__strbufmenu_type	1	0	0	1	0
+104	__strbufmain	7	0	178	4	48
+105	__strbufmain.__strbufmain_type	1	0	0	1	0
+106	__constStr0011	7	0	180	4	1
+107	__constStr0011.__constStr0011_type	1	1	0	1	0
+108	__constStr0012	7	0	182	4	1
+109	__constStr0012.__constStr0012_type	1	1	0	1	0
+110	__constStr0013	7	0	184	4	1
+111	__constStr0013.__constStr0013_type	1	1	0	1	0
+112	__constStr0009	7	0	186	4	1
+113	__constStr0009.__constStr0009_type	1	1	0	1	0
+114	__main_7qG2_output_7qG2_000	7	0	188	4	52
+115	__main_7qG2_output_7qG2_000.__main_7qG2_output_7qG2_000_type	7	0	0	4	0
+116	__main_7qG2_output_7qG2_000.__main_7qG2_output_7qG2_000_type.__main_7qG2_output_7qG2_000_type_type	1	0	0	1	0
+117	__constStr0010	7	0	190	4	12
+118	__constStr0010.__constStr0010_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	82	0	#line 82 "C:\Github\NXC_Source\+Menu.nxc"
+0	83	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	82	2	#line 82 "C:\Github\NXC_Source\+Menu.nxc"
+0	82	2	#line 82 "C:\Github\NXC_Source\+Menu.nxc"
+0	83	2		arrbuild __main_7qG2_output_7qG2_000, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010
+0	83	13	#line 83 "C:\Github\NXC_Source\+Menu.nxc"
+0	84	13		set __signed_stack_001main, 0
+0	83	16	#line 83 "C:\Github\NXC_Source\+Menu.nxc"
+0	83	16	#line 83 "C:\Github\NXC_Source\+Menu.nxc"
+0	84	16		strcat __strbufmain, __constStr0011
+0	83	20	#line 83 "C:\Github\NXC_Source\+Menu.nxc"
+0	84	20		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	83	25	#line 83 "C:\Github\NXC_Source\+Menu.nxc"
+0	84	25	#line 84 "C:\Github\NXC_Source\+Menu.nxc"
+0	85	25		set __signed_stack_001main, 1
+0	84	28	#line 84 "C:\Github\NXC_Source\+Menu.nxc"
+0	84	28	#line 84 "C:\Github\NXC_Source\+Menu.nxc"
+0	85	28		strcat __strbufmain, __constStr0012
+0	84	32	#line 84 "C:\Github\NXC_Source\+Menu.nxc"
+0	85	32		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	84	37	#line 84 "C:\Github\NXC_Source\+Menu.nxc"
+0	85	37	#line 85 "C:\Github\NXC_Source\+Menu.nxc"
+0	86	37		set __signed_stack_001main, 2
+0	85	40	#line 85 "C:\Github\NXC_Source\+Menu.nxc"
+0	85	40	#line 85 "C:\Github\NXC_Source\+Menu.nxc"
+0	86	40		strcat __strbufmain, __constStr0013
+0	85	44	#line 85 "C:\Github\NXC_Source\+Menu.nxc"
+0	86	44		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	85	49	#line 85 "C:\Github\NXC_Source\+Menu.nxc"
+0	86	49	#line 86 "C:\Github\NXC_Source\+Menu.nxc"
+0	87	49		set __signed_stack_001main, 3
+0	86	52	#line 86 "C:\Github\NXC_Source\+Menu.nxc"
+0	86	52	#line 86 "C:\Github\NXC_Source\+Menu.nxc"
+0	87	52		strcat __strbufmain, __constStr0014
+0	86	56	#line 86 "C:\Github\NXC_Source\+Menu.nxc"
+0	87	56		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	86	61	#line 86 "C:\Github\NXC_Source\+Menu.nxc"
+0	87	61	#line 87 "C:\Github\NXC_Source\+Menu.nxc"
+0	88	61		set __signed_stack_001main, 4
+0	87	64	#line 87 "C:\Github\NXC_Source\+Menu.nxc"
+0	87	64	#line 87 "C:\Github\NXC_Source\+Menu.nxc"
+0	88	64		strcat __strbufmain, __constStr0015
+0	87	68	#line 87 "C:\Github\NXC_Source\+Menu.nxc"
+0	88	68		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	87	73	#line 87 "C:\Github\NXC_Source\+Menu.nxc"
+0	88	73	#line 88 "C:\Github\NXC_Source\+Menu.nxc"
+0	89	73		set __signed_stack_001main, 5
+0	88	76	#line 88 "C:\Github\NXC_Source\+Menu.nxc"
+0	88	76	#line 88 "C:\Github\NXC_Source\+Menu.nxc"
+0	89	76		strcat __strbufmain, __constStr0016
+0	88	80	#line 88 "C:\Github\NXC_Source\+Menu.nxc"
+0	89	80		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	88	85	#line 88 "C:\Github\NXC_Source\+Menu.nxc"
+0	89	85	#line 89 "C:\Github\NXC_Source\+Menu.nxc"
+0	90	85		set __signed_stack_001main, 6
+0	89	88	#line 89 "C:\Github\NXC_Source\+Menu.nxc"
+0	89	88	#line 89 "C:\Github\NXC_Source\+Menu.nxc"
+0	90	88		strcat __strbufmain, __constStr0017
+0	89	92	#line 89 "C:\Github\NXC_Source\+Menu.nxc"
+0	90	92		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	89	97	#line 89 "C:\Github\NXC_Source\+Menu.nxc"
+0	90	97	#line 90 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	97		set __signed_stack_001main, 7
+0	90	100	#line 90 "C:\Github\NXC_Source\+Menu.nxc"
+0	90	100	#line 90 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	100		strcat __strbufmain, __constStr0018
+0	90	104	#line 90 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	104		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	90	109	#line 90 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	109	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	92	109		set __menu_7qG2_numChoices_7qG2_000, 6
+0	91	112	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	112	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	92	112		mov __menu_7qG2_menuDisp_7qG2_000, __main_7qG2_output_7qG2_000
+0	91	114	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	92	114		set __menu_7qG2_titleX_7qG2_000, 32
+0	91	117	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	117	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	92	117		subcall menu, __menu_return
+0	91	119	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	91	119	#line 91 "C:\Github\NXC_Source\+Menu.nxc"
+0	92	119	#line 92 "C:\Github\NXC_Source\+Menu.nxc"
+0	93	119		set __signed_stack_001main, 0
+0	92	122	#line 92 "C:\Github\NXC_Source\+Menu.nxc"
+0	92	122	#line 92 "C:\Github\NXC_Source\+Menu.nxc"
+0	93	122		strcat __strbufmain, __constStr0019
+0	92	126	#line 92 "C:\Github\NXC_Source\+Menu.nxc"
+0	93	126		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	92	131	#line 92 "C:\Github\NXC_Source\+Menu.nxc"
+0	93	131	#line 93 "C:\Github\NXC_Source\+Menu.nxc"
+0	94	131		set __signed_stack_001main, 1
+0	93	134	#line 93 "C:\Github\NXC_Source\+Menu.nxc"
+0	93	134	#line 93 "C:\Github\NXC_Source\+Menu.nxc"
+0	94	134		strcat __strbufmain, __constStr0020
+0	93	138	#line 93 "C:\Github\NXC_Source\+Menu.nxc"
+0	94	138		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	93	143	#line 93 "C:\Github\NXC_Source\+Menu.nxc"
+0	94	143	#line 94 "C:\Github\NXC_Source\+Menu.nxc"
+0	95	143		set __signed_stack_001main, 2
+0	94	146	#line 94 "C:\Github\NXC_Source\+Menu.nxc"
+0	94	146	#line 94 "C:\Github\NXC_Source\+Menu.nxc"
+0	95	146		strcat __strbufmain, __constStr0021
+0	94	150	#line 94 "C:\Github\NXC_Source\+Menu.nxc"
+0	95	150		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	94	155	#line 94 "C:\Github\NXC_Source\+Menu.nxc"
+0	95	155	#line 95 "C:\Github\NXC_Source\+Menu.nxc"
+0	96	155		set __signed_stack_001main, 3
+0	95	158	#line 95 "C:\Github\NXC_Source\+Menu.nxc"
+0	95	158	#line 95 "C:\Github\NXC_Source\+Menu.nxc"
+0	96	158		strcat __strbufmain, __constStr0014
+0	95	162	#line 95 "C:\Github\NXC_Source\+Menu.nxc"
+0	96	162		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	95	167	#line 95 "C:\Github\NXC_Source\+Menu.nxc"
+0	96	167	#line 96 "C:\Github\NXC_Source\+Menu.nxc"
+0	97	167		set __signed_stack_001main, 4
+0	96	170	#line 96 "C:\Github\NXC_Source\+Menu.nxc"
+0	96	170	#line 96 "C:\Github\NXC_Source\+Menu.nxc"
+0	97	170		strcat __strbufmain, __constStr0022
+0	96	174	#line 96 "C:\Github\NXC_Source\+Menu.nxc"
+0	97	174		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	96	179	#line 96 "C:\Github\NXC_Source\+Menu.nxc"
+0	97	179	#line 97 "C:\Github\NXC_Source\+Menu.nxc"
+0	98	179		set __signed_stack_001main, 5
+0	97	182	#line 97 "C:\Github\NXC_Source\+Menu.nxc"
+0	97	182	#line 97 "C:\Github\NXC_Source\+Menu.nxc"
+0	98	182		strcat __strbufmain, __constStr0010
+0	97	186	#line 97 "C:\Github\NXC_Source\+Menu.nxc"
+0	98	186		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	97	191	#line 97 "C:\Github\NXC_Source\+Menu.nxc"
+0	98	191	#line 98 "C:\Github\NXC_Source\+Menu.nxc"
+0	99	191		set __signed_stack_001main, 6
+0	98	194	#line 98 "C:\Github\NXC_Source\+Menu.nxc"
+0	98	194	#line 98 "C:\Github\NXC_Source\+Menu.nxc"
+0	99	194		strcat __strbufmain, __constStr0010
+0	98	198	#line 98 "C:\Github\NXC_Source\+Menu.nxc"
+0	99	198		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	98	203	#line 98 "C:\Github\NXC_Source\+Menu.nxc"
+0	99	203	#line 99 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	203		set __signed_stack_001main, 7
+0	99	206	#line 99 "C:\Github\NXC_Source\+Menu.nxc"
+0	99	206	#line 99 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	206		strcat __strbufmain, __constStr0010
+0	99	210	#line 99 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	210		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	99	215	#line 99 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	215	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	101	215		set __menu_7qG2_numChoices_7qG2_000, 3
+0	100	218	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	218	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	101	218		mov __menu_7qG2_menuDisp_7qG2_000, __main_7qG2_output_7qG2_000
+0	100	220	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	101	220		set __menu_7qG2_titleX_7qG2_000, 30
+0	100	223	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	223	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	101	223		subcall menu, __menu_return
+0	100	225	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	100	225	#line 100 "C:\Github\NXC_Source\+Menu.nxc"
+0	101	225	#line 101 "C:\Github\NXC_Source\+Menu.nxc"
+0	102	225		set __signed_stack_001main, 0
+0	101	228	#line 101 "C:\Github\NXC_Source\+Menu.nxc"
+0	101	228	#line 101 "C:\Github\NXC_Source\+Menu.nxc"
+0	102	228		strcat __strbufmain, __constStr0019
+0	101	232	#line 101 "C:\Github\NXC_Source\+Menu.nxc"
+0	102	232		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	101	237	#line 101 "C:\Github\NXC_Source\+Menu.nxc"
+0	102	237	#line 102 "C:\Github\NXC_Source\+Menu.nxc"
+0	103	237		set __signed_stack_001main, 1
+0	102	240	#line 102 "C:\Github\NXC_Source\+Menu.nxc"
+0	102	240	#line 102 "C:\Github\NXC_Source\+Menu.nxc"
+0	103	240		strcat __strbufmain, __constStr0023
+0	102	244	#line 102 "C:\Github\NXC_Source\+Menu.nxc"
+0	103	244		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	102	249	#line 102 "C:\Github\NXC_Source\+Menu.nxc"
+0	103	249	#line 103 "C:\Github\NXC_Source\+Menu.nxc"
+0	104	249		set __signed_stack_001main, 2
+0	103	252	#line 103 "C:\Github\NXC_Source\+Menu.nxc"
+0	103	252	#line 103 "C:\Github\NXC_Source\+Menu.nxc"
+0	104	252		strcat __strbufmain, __constStr0024
+0	103	256	#line 103 "C:\Github\NXC_Source\+Menu.nxc"
+0	104	256		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	103	261	#line 103 "C:\Github\NXC_Source\+Menu.nxc"
+0	104	261	#line 104 "C:\Github\NXC_Source\+Menu.nxc"
+0	105	261		set __signed_stack_001main, 3
+0	104	264	#line 104 "C:\Github\NXC_Source\+Menu.nxc"
+0	104	264	#line 104 "C:\Github\NXC_Source\+Menu.nxc"
+0	105	264		strcat __strbufmain, __constStr0025
+0	104	268	#line 104 "C:\Github\NXC_Source\+Menu.nxc"
+0	105	268		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	104	273	#line 104 "C:\Github\NXC_Source\+Menu.nxc"
+0	105	273	#line 105 "C:\Github\NXC_Source\+Menu.nxc"
+0	106	273		set __signed_stack_001main, 4
+0	105	276	#line 105 "C:\Github\NXC_Source\+Menu.nxc"
+0	105	276	#line 105 "C:\Github\NXC_Source\+Menu.nxc"
+0	106	276		strcat __strbufmain, __constStr0026
+0	105	280	#line 105 "C:\Github\NXC_Source\+Menu.nxc"
+0	106	280		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	105	285	#line 105 "C:\Github\NXC_Source\+Menu.nxc"
+0	106	285	#line 106 "C:\Github\NXC_Source\+Menu.nxc"
+0	107	285		set __signed_stack_001main, 5
+0	106	288	#line 106 "C:\Github\NXC_Source\+Menu.nxc"
+0	106	288	#line 106 "C:\Github\NXC_Source\+Menu.nxc"
+0	107	288		strcat __strbufmain, __constStr0015
+0	106	292	#line 106 "C:\Github\NXC_Source\+Menu.nxc"
+0	107	292		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	106	297	#line 106 "C:\Github\NXC_Source\+Menu.nxc"
+0	107	297	#line 107 "C:\Github\NXC_Source\+Menu.nxc"
+0	108	297		set __signed_stack_001main, 6
+0	107	300	#line 107 "C:\Github\NXC_Source\+Menu.nxc"
+0	107	300	#line 107 "C:\Github\NXC_Source\+Menu.nxc"
+0	108	300		strcat __strbufmain, __constStr0016
+0	107	304	#line 107 "C:\Github\NXC_Source\+Menu.nxc"
+0	108	304		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	107	309	#line 107 "C:\Github\NXC_Source\+Menu.nxc"
+0	108	309	#line 108 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	309		set __signed_stack_001main, 7
+0	108	312	#line 108 "C:\Github\NXC_Source\+Menu.nxc"
+0	108	312	#line 108 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	312		strcat __strbufmain, __constStr0010
+0	108	316	#line 108 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	316		replace __main_7qG2_output_7qG2_000, __main_7qG2_output_7qG2_000, __signed_stack_001main, __strbufmain
+0	108	321	#line 108 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	321	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	110	321		set __menu_7qG2_numChoices_7qG2_000, 5
+0	109	324	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	324	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	110	324		mov __menu_7qG2_menuDisp_7qG2_000, __main_7qG2_output_7qG2_000
+0	109	326	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	110	326		set __menu_7qG2_titleX_7qG2_000, 30
+0	109	329	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	329	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	110	329		subcall menu, __menu_return
+0	109	331	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	109	331	#line 109 "C:\Github\NXC_Source\+Menu.nxc"
+0	110	331		exit -1, -1
+1	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
+1	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	2		tst 5, __D0senseButton, __DU0senseButton
+1	4	5	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	5		brtst 4, __ASM_Label_606, __D0senseButton
+1	4	8	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	8		set __senseButton_7qG2_lu_7qG2_000, 2
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	5	11		set __senseButton_7qG2_rd_7qG2_000, 1
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	14	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	14		jmp __ASM_Label_611
+1	6	16	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	16		set __senseButton_7qG2_lu_7qG2_000, 3
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	19		set __senseButton_7qG2_rd_7qG2_000, 0
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	22	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22	#pragma macro 7
+1	9	22	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	22		set __D0senseButton, 1
+1	10	25	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	25		tst 5, __D0senseButton, __D0senseButton
+1	10	28	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	28		brtst 4, __ASM_Label_620, __D0senseButton
+1	10	31	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	31	#pragma macro 8
+1	11	31		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	11	33		mov __IOMWBIArgs.Offset, __constVal40
+1	11	35		flatten __IOMWFlattenBuf, __constVal4
+1	11	38		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	11	41		syscall 79, __IOMWBIArgs
+1	6116	44	#line 6116 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	44	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	44	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	44		jmp __ASM_Label_621
+1	12	46	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	46	#pragma macro 8
+1	13	46		mov __IOMWBIArgs.ModuleID, __constVal786433
+1	13	48		mov __IOMWBIArgs.Offset, __constVal40
+1	13	50		flatten __IOMWFlattenBuf, __constVal1
+1	13	53		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+1	13	56		syscall 79, __IOMWBIArgs
+1	6122	59	#line 6122 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	59	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	59	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	59	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	59		set __D0senseButton, 0
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	62		tst 5, __D0senseButton, __D0senseButton
+1	6	65	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	65		brtst 4, __ASM_Label_617, __D0senseButton
+1	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	68		jmp __ASM_Label_616
+1	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	70		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	72		mov __D0senseButton, __constVal0
+1	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	74		acquire __RBtnMutex
+1	7	75	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	75		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	7	77	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	77		mov __RBtnArgs.Reset, __D0senseButton
+1	7	79	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	79		syscall 20, __RBtnArgs
+1	7	82	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	82		mov __D0senseButton, __RBtnArgs.Pressed
+1	7	84	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	84		release __RBtnMutex
+1	7	85	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	85		tst 5, __D0senseButton, __D0senseButton
+1	7	88	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	88		brtst 4, __ASM_Label_628, __D0senseButton
+1	7	91	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	7	91	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	91		sub __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	7	95	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	95		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+1	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	97		mov __D0senseButton, __constVal0
+1	8	99	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	99		acquire __RBtnMutex
+1	8	100	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	100		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	8	102	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	102		mov __RBtnArgs.Reset, __D0senseButton
+1	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	104		syscall 20, __RBtnArgs
+1	8	107	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	107		mov __D0senseButton, __RBtnArgs.Pressed
+1	8	109	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	109		release __RBtnMutex
+1	8	110	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	110		mov __signed_stack_001senseButton, __D0senseButton
+1	8	112	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	112		set __D0senseButton, 0
+1	8	115	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	115		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	8	119	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	119		not __D0senseButton, __D0senseButton
+1	8	122	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	122		tst 5, __D0senseButton, __D0senseButton
+1	8	125	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	125		brtst 4, __ASM_Label_632, __D0senseButton
+1	9	128	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	128		jmp __ASM_Label_631
+1	9	130	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	130	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	130		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	132		mov __D0senseButton, __constVal0
+1	9	134	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	134		acquire __RBtnMutex
+1	9	135	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	135		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	9	137	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	137		mov __RBtnArgs.Reset, __D0senseButton
+1	9	139	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	139		syscall 20, __RBtnArgs
+1	9	142	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	142		mov __D0senseButton, __RBtnArgs.Pressed
+1	9	144	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	144		release __RBtnMutex
+1	9	145	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	145		tst 5, __D0senseButton, __D0senseButton
+1	9	148	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	148		brtst 4, __ASM_Label_643, __D0senseButton
+1	9	151	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	9	151	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	151		add __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+1	9	155	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	155	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	155	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	155		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+1	10	157	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	10	157	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	157		mov __D0senseButton, __constVal0
+1	10	159	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	159		acquire __RBtnMutex
+1	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	160		mov __RBtnArgs.Index, __signed_stack_001senseButton
+1	10	162	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	162		mov __RBtnArgs.Reset, __D0senseButton
+1	10	164	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	164		syscall 20, __RBtnArgs
+1	10	167	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	167		mov __D0senseButton, __RBtnArgs.Pressed
+1	10	169	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	169		release __RBtnMutex
+1	10	170	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	170		mov __signed_stack_001senseButton, __D0senseButton
+1	10	172	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	172		set __D0senseButton, 0
+1	10	175	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	175		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	10	179	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	179		not __D0senseButton, __D0senseButton
+1	10	182	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	182		tst 5, __D0senseButton, __D0senseButton
+1	10	185	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	11	185		brtst 4, __ASM_Label_647, __D0senseButton
+1	11	188	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	188		jmp __ASM_Label_646
+1	11	190	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	12	190	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	190		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
+1	13	192	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	192		tst 5, __D0senseButton, __DU0senseButton
+1	13	195	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	195		brtst 4, __ASM_Label_656, __D0senseButton
+1	13	198	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	198		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	13	200	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	200	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	200		set __D0senseButton, 0
+1	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	203		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	13	207	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	207		brtst 4, __ASM_Label_659, __D0senseButton
+1	13	210	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	210		set __senseButton_7qG2_val_7qG2_000, 0
+1	13	213	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	13	213	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	213	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	213	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	213		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	14	215	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	215	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	215		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	14	217	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	217		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	14	221	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	221		brtst 4, __ASM_Label_664, __D0senseButton
+1	14	224	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	15	224		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	14	226	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	14	226	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	16	226	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	226	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	226		jmp __ASM_Label_667
+1	18	228	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	228		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	18	230	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	230	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	230		set __D0senseButton, 0
+1	18	233	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	233		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	18	237	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	237		brtst 4, __ASM_Label_670, __D0senseButton
+1	18	240	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	240		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+1	18	242	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	18	242	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	242	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	242	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	242		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+1	19	244	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	244	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	244		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+1	19	246	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	246		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+1	19	250	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	250		brtst 4, __ASM_Label_675, __D0senseButton
+1	19	253	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	20	253		set __senseButton_7qG2_val_7qG2_000, 0
+1	19	256	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	19	256	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	21	256	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	21	256	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	21	256	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	22	256		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
+1	21	258	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	22	258		subret __senseButton_return
+1	21	260	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	23	260	#line 23 "C:\Github\NXC_Source\.\+Button+-.nxc"
+1	24	260		subret __senseButton_return
+2	57	0	#line 57 "C:\Github\NXC_Source\+Menu.nxc"
+2	58	0		set __menu_7qG2_currentChoice_7qG2_000, 0
+2	57	3	#line 57 "C:\Github\NXC_Source\+Menu.nxc"
+2	58	3	#line 58 "C:\Github\NXC_Source\+Menu.nxc"
+2	59	3		set __menu_7qG2_tempX_7qG2_000, 0
+2	58	6	#line 58 "C:\Github\NXC_Source\+Menu.nxc"
+2	59	6	#line 59 "C:\Github\NXC_Source\+Menu.nxc"
+2	60	6		sub __menu_7qG2_numChoices_7qG2_000, __menu_7qG2_numChoices_7qG2_000, __constVal1
+2	59	10	#line 59 "C:\Github\NXC_Source\+Menu.nxc"
+2	60	10	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	10		set __signed_stack_001menu, 1
+2	60	13	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	60	13	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	13		mov __D0menu, __constVal0
+2	60	15	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	15		acquire __RBtnMutex
+2	60	16	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	16		mov __RBtnArgs.Index, __signed_stack_001menu
+2	60	18	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	18		mov __RBtnArgs.Reset, __D0menu
+2	60	20	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	20		syscall 20, __RBtnArgs
+2	60	23	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	23		mov __D0menu, __RBtnArgs.Pressed
+2	60	25	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	25		release __RBtnMutex
+2	60	26	#line 60 "C:\Github\NXC_Source\+Menu.nxc"
+2	61	26		mov __signed_stack_001menu, __D0menu
+2	61	28	#line 61 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	28		set __D0menu, 0
+2	61	31	#line 61 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	31		cmp 4, __D0menu, __signed_stack_001menu, __D0menu
+2	62	35	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	35		brtst 4, __ASM_Label_685, __D0menu
+2	62	38	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	38		mov __senseButton_7qG2_val_7qG2_000, __menu_7qG2_currentChoice_7qG2_000
+2	62	40	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	40	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	40		set __senseButton_7qG2_lr_ud_7qG2_000, 0
+2	62	43	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	43	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	43		set __senseButton_7qG2_add_7qG2_000, 1
+2	62	46	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	46	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	46		mov __senseButton_7qG2_high_7qG2_000, __menu_7qG2_numChoices_7qG2_000
+2	62	48	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	48	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	48		set __senseButton_7qG2_cut_7qG2_000, 0
+2	62	51	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	51	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	51		subcall senseButton, __senseButton_return
+2	62	53	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	63	53		mov __menu_7qG2_currentChoice_7qG2_000, __D0senseButton
+2	62	55	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	62	55	#line 62 "C:\Github\NXC_Source\+Menu.nxc"
+2	6896	55	#line 6896 "NXCDefs.h"
+2	6897	55	#pragma macro 6
+2	6897	55		mov __PointOutArgs.Location.X, __constVal200
+2	6897	57		mov __PointOutArgs.Location.Y, __constVal200
+2	6897	59		mov __PointOutArgs.Options, __constVal1
+2	6897	61		syscall 14, __PointOutArgs
+2	6520	64	#line 6520 "NXCDefs.h"
+2	6896	64	#line 6896 "NXCDefs.h"
+2	63	64	#line 63 "C:\Github\NXC_Source\+Menu.nxc"
+2	64	64	#line 64 "C:\Github\NXC_Source\+Menu.nxc"
+2	65	64		set __menu_7qG2_tempX_7qG2_000, 0
+2	64	67	#line 64 "C:\Github\NXC_Source\+Menu.nxc"
+2	64	67	#line 64 "C:\Github\NXC_Source\+Menu.nxc"
+2	65	67	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	66	67		set __menu_7qG2_i_7qG2_002, 0
+2	65	70	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	65	70	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	66	70		mov __signed_stack_001menu, __menu_7qG2_i_7qG2_002
+2	65	72	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	65	72	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	66	72		set __D0menu, 8
+2	65	75	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	66	75		cmp 0, __D0menu, __signed_stack_001menu, __D0menu
+2	65	79	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	66	79		brtst 4, __ASM_Label_705, __D0menu
+2	65	82	#line 65 "C:\Github\NXC_Source\+Menu.nxc"
+2	66	82		jmp __ASM_Label_706
+2	66	84	#line 66 "C:\Github\NXC_Source\+Menu.nxc"
+2	67	84		add __menu_7qG2_i_7qG2_002, __menu_7qG2_i_7qG2_002, __constVal1
+2	67	88	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	88		jmp __ASM_Label_704
+2	67	90	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	90		mov __signed_stack_001menu, __menu_7qG2_i_7qG2_002
+2	67	92	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	67	92	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	92		set __D0menu, 0
+2	67	95	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	95		cmp 4, __D0menu, __signed_stack_001menu, __D0menu
+2	67	99	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	99		brtst 4, __ASM_Label_714, __D0menu
+2	67	102	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	102		mov __menu_7qG2_tempX_7qG2_000, __menu_7qG2_titleX_7qG2_000
+2	67	104	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	67	104	#line 67 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	104	#line 68 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	104		jmp __ASM_Label_717
+2	68	106	#line 68 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	106		set __menu_7qG2_tempX_7qG2_000, 2
+2	68	109	#line 68 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	109	#line 68 "C:\Github\NXC_Source\+Menu.nxc"
+2	68	109	#line 68 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	109	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	109		mov __signed_stack_001menu, __menu_7qG2_tempX_7qG2_000
+2	69	111	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	111	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	111		set __signed_stack_002menu, 56
+2	69	114	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	114	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	114		mov __signed_stack_003menu, __menu_7qG2_i_7qG2_002
+2	69	116	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	116	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	116		set __D0menu, 8
+2	69	119	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	119		mul __D0menu, __signed_stack_003menu, __D0menu
+2	69	123	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	123		sub __signed_stack_002menu, __signed_stack_002menu, __D0menu
+2	69	127	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	127	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	127		mov __signed_stack_003menu, __menu_7qG2_i_7qG2_002
+2	69	129	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	129	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	129		index __ArrHelper__menu_83_0, __menu_7qG2_menuDisp_7qG2_000, __signed_stack_003menu
+2	69	133	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	133		strcat __strretvalmenu, __ArrHelper__menu_83_0
+2	69	137	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	137		strcat __strbufmenu, __strretvalmenu
+2	69	141	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	141		set __D0menu, 0
+2	69	144	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	144	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	144		mov __TextOutArgs.Location.X, __signed_stack_001menu
+2	69	146	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	146		mov __TextOutArgs.Location.Y, __signed_stack_002menu
+2	69	148	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	148		mov __TextOutArgs.Options, __D0menu
+2	69	150	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	150		mov __TextOutArgs.Text, __strbufmenu
+2	69	152	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	152		syscall 13, __TextOutArgs
+2	69	155	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	70	155		mov __D0menu, __TextOutArgs.Result
+2	69	157	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	69	157	#line 69 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	157	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	157		jmp __ASM_Label_707
+2	71	159	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	159	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	159		set __signed_stack_001menu, 88
+2	71	162	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	162	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	162		set __signed_stack_002menu, 0
+2	71	165	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	165	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	165		strcat __strbufmenu, __constStr0009
+2	71	169	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	169		set __D0menu, 0
+2	71	172	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	172	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	172		mov __TextOutArgs.Location.X, __signed_stack_001menu
+2	71	174	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	174		mov __TextOutArgs.Location.Y, __signed_stack_002menu
+2	71	176	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	176		mov __TextOutArgs.Options, __D0menu
+2	71	178	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	178		mov __TextOutArgs.Text, __strbufmenu
+2	71	180	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	180		syscall 13, __TextOutArgs
+2	71	183	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	183	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	71	183	#line 71 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	183	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	183		set __signed_stack_001menu, 0
+2	72	186	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	186	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	186		set __signed_stack_002menu, 40
+2	72	189	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	189	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	189		mov __signed_stack_003menu, __menu_7qG2_currentChoice_7qG2_000
+2	72	191	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	191	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	191		set __D0menu, 8
+2	72	194	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	194		mul __D0menu, __signed_stack_003menu, __D0menu
+2	72	198	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	198		sub __signed_stack_002menu, __signed_stack_002menu, __D0menu
+2	72	202	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	202	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	202		set __signed_stack_003menu, 49
+2	72	205	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	205	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	205		set __signed_stack_004menu, 8
+2	72	208	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	208	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	208		set __D0menu, 0
+2	72	211	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	211	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	211		mov __RectOutArgs.Location.X, __signed_stack_001menu
+2	72	213	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	213		mov __RectOutArgs.Location.Y, __signed_stack_002menu
+2	72	215	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	215		mov __RectOutArgs.Size.Width, __signed_stack_003menu
+2	72	217	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	217		mov __RectOutArgs.Size.Height, __signed_stack_004menu
+2	72	219	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	219		mov __RectOutArgs.Options, __D0menu
+2	72	221	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	221		syscall 17, __RectOutArgs
+2	72	224	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	224	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	72	224	#line 72 "C:\Github\NXC_Source\+Menu.nxc"
+2	73	224	#line 73 "C:\Github\NXC_Source\+Menu.nxc"
+2	74	224		set __Wait_7qG2_ms_7qG2_000_inline_menu, 50
+2	73	227	#line 73 "C:\Github\NXC_Source\+Menu.nxc"
+2	8771	227	#line 8771 "NXCDefs.h"
+2	8772	227		waitv __Wait_7qG2_ms_7qG2_000_inline_menu
+2	8771	229	#line 8771 "NXCDefs.h"
+2	73	229	#line 73 "C:\Github\NXC_Source\+Menu.nxc"
+2	75	229	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	229		jmp __ASM_Label_684
+2	75	231	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	75	231	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	231		set __signed_stack_001menu, 1
+2	75	234	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	75	234	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	234		mov __D0menu, __constVal0
+2	75	236	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	236		acquire __RBtnMutex
+2	75	237	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	237		mov __RBtnArgs.Index, __signed_stack_001menu
+2	75	239	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	239		mov __RBtnArgs.Reset, __D0menu
+2	75	241	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	241		syscall 20, __RBtnArgs
+2	75	244	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	244		mov __D0menu, __RBtnArgs.Pressed
+2	75	246	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	246		release __RBtnMutex
+2	75	247	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	247		mov __signed_stack_001menu, __D0menu
+2	75	249	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	249		set __D0menu, 0
+2	75	252	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	252		cmp 4, __D0menu, __signed_stack_001menu, __D0menu
+2	75	256	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	256		not __D0menu, __D0menu
+2	75	259	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	259		tst 5, __D0menu, __D0menu
+2	75	262	#line 75 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	262		brtst 4, __ASM_Label_751, __D0menu
+2	76	265	#line 76 "C:\Github\NXC_Source\+Menu.nxc"
+2	77	265		jmp __ASM_Label_750
+2	76	267	#line 76 "C:\Github\NXC_Source\+Menu.nxc"
+2	76	267	#line 76 "C:\Github\NXC_Source\+Menu.nxc"
+2	77	267		mov __D0menu, __menu_7qG2_currentChoice_7qG2_000
+2	76	269	#line 76 "C:\Github\NXC_Source\+Menu.nxc"
+2	77	269		subret __menu_return
+2	76	271	#line 76 "C:\Github\NXC_Source\+Menu.nxc"
+2	80	271	#line 80 "C:\Github\NXC_Source\+Menu.nxc"
+2	81	271		subret __menu_return
+3	128	0	#line 128 "C:\Github\NXC_Source\+Menu.nxc"
+3	129	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\+Menu.nxc
+1	senseButton	334	C:\Github\NXC_Source\.\+Button+-.nxc
+2	menu	596	C:\Github\NXC_Source\+Menu.nxc
+3	__initialize_global_data	869	C:\Github\NXC_Source\+Menu.nxc
