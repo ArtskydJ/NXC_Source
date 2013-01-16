@@ -1,0 +1,165 @@
+//Game Of Life
+//Joseph Dykstra
+//01-15-2013
+
+#include "+Menu.nxc"
+#define height  64
+#define width   100
+#define rndm 0
+#define rset 1
+
+bool area[width+2][height+2];
+
+const bool gliderGun[36][9]={
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+{0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+{1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+{1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};
+
+void make(int INchoice)
+  {
+  bool temp[36][10];
+  if (INchoice==0) temp=gliderGun;
+  }
+
+void initArea(bool rsetRndm)
+  {
+  for (int i=0; i<height+2; i++)
+    {
+    for (int j=0; j<width+2; j++)
+      {
+      if (rsetRndm) area[j][i]=0;
+      else  area[j][i]=Random(2);
+      }
+    }
+  }
+
+void draw()
+  {
+  for (int i=1; i<height+1; i++)
+    {
+    for (int j=1; j<width+1; j++)
+      {
+      PointOut(j,i,area[j][i]*4);
+      }
+    }
+  }
+
+void stepForward()
+  {
+  int neighbors;
+  bool writeArea[width+2][height+2];
+  for (int i=1; i<height+1; i++)
+    {
+    for (int j=1; j<width+1; j++)
+      {
+      neighbors=0;
+      for (int k=-1; k<2; k++)
+        {
+        for (int l=-1; l<2; l++)
+          {
+          if (k==0&&l==0) l++;
+          neighbors+=(area[j+l][i+k]);
+          }
+        }
+      /*
+      neighbors+=(area[j-1][i-1]);
+      neighbors+=(area[j-1][i  ]);
+      neighbors+=(area[j-1][i+1]);
+      neighbors+=(area[j  ][i-1]);
+      neighbors+=(area[j  ][i+1]);
+      neighbors+=(area[j+1][i-1]);
+      neighbors+=(area[j+1][i  ]);
+      neighbors+=(area[j+1][i+1]);
+      */
+      if (area[j][i]) //LIVE CELL
+        {
+        if (neighbors<2)  writeArea[j][i]=false; //Under population
+        if (neighbors>3)  writeArea[j][i]=false; //Over crowding
+        }
+      else            //DEAD CELL
+        {
+        if (neighbors==3) writeArea[j][i]=true;  //Reproduction
+        }
+      }
+    }
+  area=writeArea; //Will this work???
+  }
+
+task main()
+  {
+  string output[8]={"","","","","","","",""};
+  int choice1;
+  int choice2;
+  int waitTime;
+  unsigned int ctick;
+  
+  output[0]="GAME OF LIFE";
+  output[1]="Choose:";
+  output[2]="Random";
+  output[3]="Gun";
+  output[4]="Glider";
+  output[5]="LWSS";
+  output[6]="Misc";
+  choice1=menu(5, output, 12);
+  ClearScreen();
+  //output={"","","","","","","",""}; //doesnt work, idk why...
+  output[0]="GAME OF LIFE";
+  output[1]="Choose:";
+  output[2]="Ultra Fast";
+  output[3]="Fast";
+  output[4]="Medium";
+  output[5]="Slow";
+  output[6]="";
+  choice2=menu(4, output, 12);
+  ClearScreen();
+  TextOut(32,20,"Loading",0);
+  if (choice1==0) {initArea(rndm); ctick=CurrentTick(); srand(ctick);}
+  else            {initArea(rset); make(choice1);}
+  waitTime=choice2*100;
+  ClearScreen();
+  while(1)
+    {
+    stepForward();
+    draw();
+    Wait(waitTime);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
