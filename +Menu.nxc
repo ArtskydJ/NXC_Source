@@ -1,56 +1,3 @@
-/*
-//SNAKE
-  while (ButtonPressed(BTNRIGHT)==false)
-    {
-    gametype=senseButton(gametype,false,1,5,false); //changed "addtoz" to "1"
-    ClearScreen();
-    TextOut(SX,LCD_LINE1,"SNAKE",  0);
-    TextOut(2, LCD_LINE2,"Choose:",0);
-    TextOut(2, LCD_LINE3,"Easy",   0);
-    TextOut(2, LCD_LINE4,"Medium", 0);
-    TextOut(2, LCD_LINE5,"Hard",   0);
-    TextOut(2, LCD_LINE6,"Death",  0);
-    TextOut(2, LCD_LINE7,"Random", 0);
-    TextOut(2, LCD_LINE8,"Custom", 0);
-    TextOut(88,LCD_LINE8,"OK", 0);
-    RectOut(0,40-(gametype*8),49,8,0);
-    Wait(50);
-    }
-  until (ButtonPressed(BTNRIGHT)==false) {}
-//TETRIS
-  while (ButtonPressed(BTNRIGHT)==false)
-    {
-    gamespeed=senseButton(gamespeed,false,1,2,false);
-    ClearScreen();
-    TextOut(TX,LCD_LINE1,"TETRIS", 0);
-    TextOut(2, LCD_LINE2,"Speed:", 0);
-    TextOut(2, LCD_LINE3,"Slow",   0);
-    TextOut(2, LCD_LINE4,"Medium", 0);
-    TextOut(2, LCD_LINE5,"Fast",   0);
-    TextOut(88,LCD_LINE8,"OK",     0);
-    RectOut(0,40-(gamespeed*8),49,8,0);
-    Wait(50);
-    }
-  TextOut(TX,LCD_LINE1,"TETRIS",  0);
-  until (ButtonPressed(BTNRIGHT)==false) {}
-  while (ButtonPressed(BTNRIGHT)==false)
-    {
-    gametype=senseButton(gametype,false,1,4,false);
-    ClearScreen();
-    TextOut(TX,LCD_LINE1,"TETRIS",   0);
-    TextOut(2, LCD_LINE2,"Type:",    0);
-    TextOut(2, LCD_LINE3,"Giveaway", 0);
-    TextOut(2, LCD_LINE4,"Simple",   0);
-    TextOut(2, LCD_LINE5,"Normal",   0);
-    TextOut(2, LCD_LINE6,"Hard",     0);
-    TextOut(2, LCD_LINE7,"Death",    0);
-    TextOut(88,LCD_LINE8,"OK", 0);
-    RectOut(0,40-(gametype*8),49,8,0);
-    Wait(50);
-    }
-  until (ButtonPressed(BTNRIGHT)==false) {}
-*/
-
 #include "+Button+-.nxc"
 
 int menu(int numChoices, string menuDisp[], int titleX)
@@ -77,7 +24,7 @@ int menu(int numChoices, string menuDisp[], int titleX)
   return currentChoice;
   }
 
-
+/*
 task main()
   {
   string output[8]={"","","","","","","",""};
@@ -109,18 +56,4 @@ task main()
   output[7]="";
   menu(5, output, 30);
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+*/
