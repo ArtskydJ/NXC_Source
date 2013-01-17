@@ -224,3 +224,22 @@ const bool gliderGun[36][9]={
 {0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};
 */
+
+
+/*
+
+I don't think conways game of life will work on the NXT.
+ It throws OUT OF MEMORY errors (-5) and crashes a few steps into the loop.
+ But hypothetically, it shouldn't ever need more memory than what it starts with.
+ If I'm very careful...
+
+But I foresee an issue with checking the individual bits in the bytes,
+ instead of reading bools (which are declared as the same size as a byte).
+ The issue is:
+  If the currently checked bit is either the   first or last   bit,
+  then the program will have to check the       last or first  bit
+                            in either the   previous or next   byte.
+  This will make the code much more confusing,
+  but is probably what I will need to do.
+
+*/
