@@ -6,41 +6,45 @@
 #include "+Menu.nxc"
 
 #define TX      12
-#define height  64   //64
-#define width   33  //100
-#define rndm 0
-#define rset 1
+#define height  64  //64
+#define width   13  //104
+#define rndm  0
+#define rset  1
+#define mode  0
 
 
 //bool area[width+2][height+2][2];
-bool area[width+2][height+2][2];
-/*const bool gliderGun[36][9]={
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
-{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
-{0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
-{1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-{1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
-{0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
-{0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};*/
+byte area[width][height+2][2];
 
+/*
 const byte gliderGun[5][9]=
- {{0x00000000, 0x00000000, 0x00000000, 0x10000000, 0x00000000,}
-  {0x00000000, 0x00000000, 0x00000010, 0x10000000, 0x00000000,}
-  {0x00000000, 0x00001100, 0x00001100, 0x00000000, 0x00110000,}
-  {0x00000000, 0x00010001, 0x00001100, 0x00000000, 0x00110000,}
-  {0x11000000, 0x00100000, 0x10001100, 0x00000000, 0x00000000,}
-  {0x11000000, 0x00100010, 0x11000010, 0x10000000, 0x00000000,}
-  {0x00000000, 0x00100000, 0x10000000, 0x10000000, 0x00000000,}
-  {0x00000000, 0x00010001, 0x00000000, 0x00000000, 0x00000000,}
-  {0x00000000, 0x00001100, 0x00000000, 0x00000000, 0x00000000,}};
+ {{0x00000000,0x00000000,0x00000000,0x10000000,0x00000000}
+  {0x00000000,0x00000000,0x00000010,0x10000000,0x00000000}
+  {0x00000000,0x00001100,0x00001100,0x00000000,0x00110000}
+  {0x00000000,0x00010001,0x00001100,0x00000000,0x00110000}
+  {0x11000000,0x00100000,0x10001100,0x00000000,0x00000000}
+  {0x11000000,0x00100010,0x11000010,0x10000000,0x00000000}
+  {0x00000000,0x00100000,0x10000000,0x10000000,0x00000000}
+  {0x00000000,0x00010001,0x00000000,0x00000000,0x00000000}
+  {0x00000000,0x00001100,0x00000000,0x00000000,0x00000000}};
 
+const byte glider[3]=
+ {0x00010000,
+  0x00001000,
+  0x00111000};
+  
+const byte lightWeightSpaceShip[4]=
+ {0x00010010,
+  0x00000001,
+  0x00010001,
+  0x00001111};*/
+  
+  
 void make(int INchoice,bool INwhicharea)
   {
   if (INchoice==0)
     {
-    for (int i=0; i<36; i++)
+    for (int i=0; i<5; i++)
       {
       for (int j=0; j<9; j++)
         {
@@ -55,10 +59,10 @@ void initArea(bool rsetRndm, bool INwhicharea)
   {
   for (int i=0; i<height+2; i++)
     {
-    for (int j=0; j<width+2; j++)
+    for (int j=0; j<width; j++)
       {
       if (rsetRndm) area[j][i][INwhicharea]=0;
-      else          area[j][i][INwhicharea]=Random(3)%2;
+      else          area[j][i][INwhicharea]=Random(UCHAR_MAX);
       }
     }
   }
@@ -68,9 +72,10 @@ void draw(bool INcurrarea, int INblksz)
   {
   for (int i=1; i<height+1; i++)
     {
-    for (int j=1; j<width+1; j++)
+    for (int j=1; j<width-1; j++)
       {
-      RectOut(j-1,i-1,INblksz,INblksz,(-area[j][i][INcurrarea])*4+36);
+      //RectOut(j-1,i-1,INblksz,INblksz,(-area[j][i][INcurrarea])*4+36);
+      TextOut(0,0,"lolz",0);
       }
     }
   }
@@ -81,11 +86,12 @@ void stepForward(bool INcurrarea)
   int neighbors;
   for (int i=1; i<height+1; i++)
     {
-    for (int j=1; j<width+1; j++)
+    for (int j=1; j<width-1; j++)
       {
       neighbors=0;
       for (int k=-1; k<2; k++)
         {
+        PlayTone(3000,100);Wait(125);
         for (int l=-1; l<2; l++)
           {
           if (k==0&&l==0) l++;
@@ -105,7 +111,7 @@ void stepForward(bool INcurrarea)
     }
   }
 
-
+/*
 int startupMenu(int INmenu)
   {
   string output[8]={"","","","","","","",""};
@@ -115,9 +121,9 @@ int startupMenu(int INmenu)
     {
     output[1]="Choose:";
     output[2]="Random";
-    output[3]="Gun";
+    output[3]="GlidrGun";
     output[4]="Glider";
-    output[5]="LWSS";
+    output[5]="LtWtSpSh";
     output[6]="Misc";
     choice=menu(5, output, TX);
     }
@@ -141,14 +147,20 @@ int startupMenu(int INmenu)
   ClearScreen();
   return choice;
   }
-
+*/
 
 task main()
   {
   int choice[3];
   int waitTime;
   bool currArea=0;
-  for (int i=0; i<3; i++) choice[i]=startupMenu(i);
+  if (mode) {for (int i=0; i<3; i++) {choice[i]=startupMenu(i);}}
+  else
+    {
+    choice[0]=
+    choice[1]=
+    choice[2]=
+    }
   TextOut(32,20,"Loading",0);
   if (choice[0]==0)                  //If chose random
     {
@@ -156,7 +168,7 @@ task main()
     srand(ctick);                    //Seed randomizer
     //initArea(rndm,currArea);         //Randomize
     }
-  else                               //If chose preset
+  else                               //If chose diff preset
     {
     //initArea(rset,currArea);         //Reset area
     make(choice[0],currArea);        //Create preset
@@ -165,14 +177,18 @@ task main()
   const int blksz=(choice[2]*2+1);
   ClearScreen();
   SetLongAbort(false);
-  while(true)
+  Wait(1000);
+  for (int gens=0; true; gens++)
     {
     draw(currArea,blksz);
+    PlayTone(1000,250);Wait(250);
     currArea=!currArea;
     stepForward(currArea);
+    PlayTone(1500,250);Wait(250);
     //Wait(waitTime);
     }
   }
+
   
 /*
 byte toByte(bool INbools)
@@ -184,7 +200,6 @@ byte toByte(bool INbools)
 */
   
   
-  
 /*
 neighbors+=(area[j-1][i-1]);
 neighbors+=(area[j-1][i  ]);
@@ -194,4 +209,18 @@ neighbors+=(area[j  ][i+1]);
 neighbors+=(area[j+1][i-1]);
 neighbors+=(area[j+1][i  ]);
 neighbors+=(area[j+1][i+1]);
+*/
+
+
+/*
+const bool gliderGun[36][9]={
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+{0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+{1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+{1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};
 */

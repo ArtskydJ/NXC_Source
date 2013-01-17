@@ -1,432 +1,515 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_004draw	6	1	0	4	2
-1	__signed_stack_003draw	6	1	4	4	2
-2	__signed_stack_002draw	6	1	8	4	4
-3	__signed_stack_005draw	6	1	12	4	6
-4	__unsigned_stack_008draw	5	1	16	4	2
-5	__signed_stack_007draw	6	1	20	4	2
-6	__signed_stack_006draw	6	1	24	4	2
-7	__DU0senseButton	5	1	28	4	4
-8	__D0senseButton	6	1	32	4	66
-9	__D0menu	6	1	36	4	49
-10	__D0startupMenu	6	1	40	4	14
-11	__signed_stack_001draw	6	1	44	4	8
-12	__DU0stepForward	5	1	48	4	2
-13	__D0stepForward	6	1	52	4	46
-14	__signed_stack_001stepForward	6	1	56	4	31
-15	__signed_stack_001startupMenu	6	1	60	4	38
-16	__signed_stack_001senseButton	6	1	64	4	20
-17	__signed_stack_002stepForward	6	1	68	4	13
-18	__Wait_7qG2_ms_7qG2_000_inline_menu	5	1	72	4	2
-19	__constVal786433	6	0	76	4	4
-20	__unsigned_stack_003stepForward	5	1	80	4	8
-21	__signed_stack_001make	6	1	84	4	6
-22	__signed_stack_002main	6	1	88	4	2
-23	__signed_stack_001main	6	1	92	4	21
-24	__signed_stack_001menu	6	1	96	4	18
-25	__signed_stack_004menu	6	1	100	4	2
-26	__signed_stack_003menu	6	1	104	4	8
-27	__signed_stack_002menu	6	1	108	4	10
-28	__RBtnMutex	9	0	112	4	12
-29	__IOMWMutex	9	0	116	4	8
-30	__D0draw	6	1	120	4	19
-31	__TextOutMutex	9	0	124	4	6
-32	__PointOutMutex	9	0	128	4	6
-33	__RectOutMutex	9	0	132	4	4
-34	__D0main	6	1	136	4	31
-35	__D0make	6	1	140	4	12
-36	__DU0draw	5	1	144	4	2
-37	__senseButton_7qG2_high_7qG2_000	4	1	148	2	5
-38	__senseButton_7qG2_add_7qG2_000	4	1	150	2	3
-39	__senseButton_7qG2_lu_7qG2_000	4	1	152	2	4
-40	__make_7qG2_j_7qG2_004	4	1	154	2	4
-41	__main_7qG2_blksz_7qG2_000	4	1	156	2	2
-42	__main_7qG2_ctick_7qG2_001	3	1	158	2	2
-43	__draw_7qG2_INblksz_7qG2_000	4	1	160	2	3
-44	__senseButton_7qG2_val_7qG2_000	4	1	162	2	14
-45	__make_7qG2_INchoice_7qG2_000	4	1	164	2	2
-46	__menu_7qG2_titleX_7qG2_000	4	1	166	2	4
-47	__menu_7qG2_tempX_7qG2_000	4	1	168	2	5
-48	__menu_7qG2_currentChoice_7qG2_000	4	1	170	2	5
-49	__senseButton_7qG2_rd_7qG2_000	4	1	172	2	4
-50	__menu_7qG2_i_7qG2_002	4	1	174	2	7
-51	__menu_7qG2_numChoices_7qG2_000	4	1	176	2	6
-52	__make_7qG2_i_7qG2_002	4	1	178	2	4
-53	__main_7qG2_i_7qG2_001	4	1	180	2	6
-54	__constVal200	4	0	182	2	6
-55	__stepForward_7qG2_l_7qG2_007	4	1	184	2	8
-56	__startupMenu_7qG2_INmenu_7qG2_000	4	1	186	2	4
-57	__stepForward_7qG2_k_7qG2_005	4	1	188	2	6
-58	__stepForward_7qG2_neighbors_7qG2_000	4	1	190	2	6
-59	__stepForward_7qG2_i_7qG2_001	4	1	192	2	9
-60	__stepForward_7qG2_j_7qG2_003	4	1	194	2	9
-61	__startupMenu_7qG2_choice_7qG2_000	4	1	196	2	4
-62	__draw_7qG2_i_7qG2_001	4	1	198	2	6
-63	__draw_7qG2_j_7qG2_003	4	1	200	2	6
-64	__main_7qG2_currArea_7qG2_000	1	1	202	1	6
-65	__draw_7qG2_INcurrarea_7qG2_000	1	1	203	1	2
-66	__draw_return	1	1	204	1	3
-67	__constVal35	2	0	205	1	1
-68	__stepForward_return	1	1	206	1	3
-69	____initialize_global_data_return	1	1	207	1	3
-70	__constVal23	2	0	208	1	1
-71	__stepForward_7qG2_INcurrarea_7qG2_000	1	1	209	1	8
-72	__constValNeg1	2	0	210	1	2
-73	__make_return	1	1	211	1	3
-74	__startupMenu_return	1	1	212	1	4
-75	__senseButton_7qG2_lr_ud_7qG2_000	1	1	213	1	2
-76	__senseButton_7qG2_cut_7qG2_000	1	1	214	1	2
-77	__constVal3	2	0	215	1	1
-78	__constVal2	2	0	216	1	1
-79	__constVal4	2	0	217	1	2
-80	__senseButton_return	1	1	218	1	4
-81	__menu_return	1	1	219	1	6
-82	__constVal0	2	1	220	1	8
-83	__constVal1	2	0	221	1	17
-84	__constVal40	2	0	222	1	4
-85	__IOMWBIArgs	8	0	4	16	16
-86	__IOMWBIArgs.Result	2	1	224	1	16
-87	__IOMWBIArgs.ModuleID	5	1	228	4	16
-88	__IOMWBIArgs.Offset	3	1	232	2	16
-89	__IOMWBIArgs.Buffer	7	0	234	4	16
-90	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
-91	__RectOutArgs	8	0	4	16	14
-92	__RectOutArgs.Result	2	1	236	1	14
-93	__RectOutArgs.Location	8	0	2	4	14
-94	__RectOutArgs.Location.X	4	1	240	2	14
-95	__RectOutArgs.Location.Y	4	1	242	2	14
-96	__RectOutArgs.Size	8	0	2	4	14
-97	__RectOutArgs.Size.Width	4	1	244	2	14
-98	__RectOutArgs.Size.Height	4	1	246	2	14
-99	__RectOutArgs.Options	5	1	248	4	14
-100	__RBtnArgs	8	0	5	8	24
-101	__RBtnArgs.Result	2	1	252	1	24
-102	__RBtnArgs.Index	1	1	253	1	24
-103	__RBtnArgs.Pressed	1	1	254	1	24
-104	__RBtnArgs.Count	1	1	255	1	24
-105	__RBtnArgs.Reset	1	1	256	1	24
-106	__RandomExArgs	8	0	2	8	5
-107	__RandomExArgs.Seed	5	1	260	4	5
-108	__RandomExArgs.ReSeed	1	1	264	1	5
-109	__TextOutArgs	8	0	4	16	18
-110	__TextOutArgs.Result	2	1	268	1	18
-111	__TextOutArgs.Location	8	0	2	4	18
-112	__TextOutArgs.Location.X	4	1	272	2	18
-113	__TextOutArgs.Location.Y	4	1	274	2	18
-114	__TextOutArgs.Text	7	0	276	4	18
-115	__TextOutArgs.Text.Text_type	1	0	0	1	0
-116	__TextOutArgs.Options	5	1	280	4	18
-117	__PointOutArgs	8	0	3	12	12
-118	__PointOutArgs.Result	2	1	284	1	12
-119	__PointOutArgs.Location	8	0	2	4	12
-120	__PointOutArgs.Location.X	4	1	288	2	12
-121	__PointOutArgs.Location.Y	4	1	290	2	12
-122	__PointOutArgs.Options	5	1	292	4	12
-123	__constStr0018	7	0	296	4	1
-124	__constStr0018.__constStr0018_type	1	1	0	1	0
-125	__constStr0017	7	0	298	4	1
-126	__constStr0017.__constStr0017_type	1	1	0	1	0
-127	__constStr0022	7	0	300	4	1
-128	__constStr0022.__constStr0022_type	1	1	0	1	0
-129	__constStr0021	7	0	302	4	2
-130	__constStr0021.__constStr0021_type	1	1	0	1	0
-131	__constStr0020	7	0	304	4	1
-132	__constStr0020.__constStr0020_type	1	1	0	1	0
-133	__constStr0019	7	0	306	4	1
-134	__constStr0019.__constStr0019_type	1	1	0	1	0
-135	__constStr0026	7	0	308	4	1
-136	__constStr0026.__constStr0026_type	1	1	0	1	0
-137	__area_3	7	0	310	4	2
-138	__area_3.__area_3_type	7	0	0	4	0
-139	__area_3.__area_3_type.__area_3_type_type	1	0	0	1	0
-140	____area_3_2	7	0	312	4	2
-141	____area_3_2.____area_3_2_type	1	0	0	1	0
-142	__main_7qG2_choice_7qG2_000	7	0	314	4	7
-143	__main_7qG2_choice_7qG2_000.__main_7qG2_choice_7qG2_000_type	4	0	0	2	0
-144	__constStr0023	7	0	316	4	1
-145	__constStr0023.__constStr0023_type	1	1	0	1	0
-146	__constStr0024	7	0	318	4	1
-147	__constStr0024.__constStr0024_type	1	1	0	1	0
-148	__constStr0025	7	0	320	4	1
-149	__constStr0025.__constStr0025_type	1	1	0	1	0
-150	__constStr0016	7	0	322	4	1
-151	__constStr0016.__constStr0016_type	1	1	0	1	0
-152	__strbufmain	7	0	324	4	2
-153	__strbufmain.__strbufmain_type	1	0	0	1	0
-154	__strbufmenu	7	0	326	4	4
-155	__strbufmenu.__strbufmenu_type	1	0	0	1	0
-156	__ArrHelper__stepForward_244_0	7	0	328	4	14
-157	__ArrHelper__stepForward_244_0.__ArrHelper__stepForward_244_0_type	1	0	0	1	0
-158	__ArrHelper__draw_244_0	7	0	330	4	2
-159	__ArrHelper__draw_244_0.__ArrHelper__draw_244_0_type	1	0	0	1	0
-160	__ArrHelper__stepForward_245_0	7	0	332	4	19
-161	__ArrHelper__stepForward_245_0.__ArrHelper__stepForward_245_0_type	7	0	0	4	0
-162	__ArrHelper__stepForward_245_0.__ArrHelper__stepForward_245_0_type.__ArrHelper__stepForward_245_0_type_type	1	0	0	1	0
-163	area	7	0	334	4	13
-164	area.area_type	7	0	0	4	0
-165	area.area_type.area_type_type	7	0	0	4	0
-166	area.area_type.area_type_type.area_type_type_type	1	0	0	1	0
-167	__constStr0009	7	0	336	4	1
-168	__constStr0009.__constStr0009_type	1	1	0	1	0
-169	__menu_7qG2_menuDisp_7qG2_000	7	0	338	4	4
-170	__menu_7qG2_menuDisp_7qG2_000.__menu_7qG2_menuDisp_7qG2_000_type	7	0	0	4	0
-171	__menu_7qG2_menuDisp_7qG2_000.__menu_7qG2_menuDisp_7qG2_000_type.__menu_7qG2_menuDisp_7qG2_000_type_type	1	0	0	1	0
-172	__strretvalmenu	7	0	340	4	2
-173	__strretvalmenu.__strretvalmenu_type	1	0	0	1	0
-174	__strbufstartupMenu	7	0	342	4	32
-175	__strbufstartupMenu.__strbufstartupMenu_type	1	0	0	1	0
-176	__constStr0012	7	0	344	4	1
-177	__constStr0012.__constStr0012_type	1	1	0	1	0
-178	__constStr0011	7	0	346	4	1
-179	__constStr0011.__constStr0011_type	1	1	0	1	0
-180	__constStr0013	7	0	348	4	1
-181	__constStr0013.__constStr0013_type	1	1	0	1	0
-182	__constStr0015	7	0	350	4	1
-183	__constStr0015.__constStr0015_type	1	1	0	1	0
-184	__constStr0014	7	0	352	4	1
-185	__constStr0014.__constStr0014_type	1	1	0	1	0
-186	__ArrHelper__menu_83_0	7	0	354	4	2
-187	__ArrHelper__menu_83_0.__ArrHelper__menu_83_0_type	1	0	0	1	0
-188	__ArrHelper__draw_245_0	7	0	356	4	2
-189	__ArrHelper__draw_245_0.__ArrHelper__draw_245_0_type	7	0	0	4	0
-190	__ArrHelper__draw_245_0.__ArrHelper__draw_245_0_type.__ArrHelper__draw_245_0_type_type	1	0	0	1	0
-191	__IOMWFlattenBuf	7	0	358	4	8
-192	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
-193	__constStr0010	7	0	360	4	8
-194	__constStr0010.__constStr0010_type	1	1	0	1	0
-195	__startupMenu_7qG2_output_7qG2_000	7	0	362	4	36
-196	__startupMenu_7qG2_output_7qG2_000.__startupMenu_7qG2_output_7qG2_000_type	7	0	0	4	0
-197	__startupMenu_7qG2_output_7qG2_000.__startupMenu_7qG2_output_7qG2_000_type.__startupMenu_7qG2_output_7qG2_000_type_type	1	0	0	1	0
+0	__DU0stepForward	5	1	0	4	2
+1	__D0stepForward	6	1	4	4	49
+2	__constVal786433	6	0	8	4	4
+3	__signed_stack_001main	6	1	12	4	24
+4	__signed_stack_002draw	6	1	16	4	2
+5	__signed_stack_001draw	6	1	20	4	6
+6	__D0menu	6	1	24	4	48
+7	__D0make	6	1	28	4	12
+8	__D0main	6	1	32	4	36
+9	__D0startupMenu	6	1	36	4	14
+10	__DU0senseButton	5	1	40	4	4
+11	__D0senseButton	6	1	44	4	66
+12	__signed_stack_002main	6	1	48	4	6
+13	__signed_stack_001stepForward	6	1	52	4	33
+14	__signed_stack_001startupMenu	6	1	56	4	38
+15	__signed_stack_001senseButton	6	1	60	4	20
+16	__unsigned_stack_003stepForward	5	1	64	4	8
+17	__signed_stack_003stepForward	6	1	68	4	2
+18	__signed_stack_002stepForward	6	1	72	4	15
+19	__signed_stack_001menu	6	1	76	4	18
+20	__signed_stack_001make	6	1	80	4	6
+21	__signed_stack_003main	6	1	84	4	4
+22	__signed_stack_004menu	6	1	88	4	2
+23	__signed_stack_003menu	6	1	92	4	8
+24	__signed_stack_002menu	6	1	96	4	10
+25	__RBtnMutex	9	0	100	4	12
+26	__IOMWMutex	9	0	104	4	8
+27	__SPTArgsMutex	9	0	108	4	6
+28	__Wait_7qG2_ms_7qG2_000_inline_stepForward	5	1	112	4	2
+29	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	116	4	6
+30	__TextOutMutex	9	0	120	4	8
+31	__PointOutMutex	9	0	124	4	6
+32	__Wait_7qG2_ms_7qG2_000_inline_menu	5	1	128	4	2
+33	__D0draw	6	1	132	4	11
+34	__startupMenu_7qG2_choice_7qG2_000	4	1	136	2	4
+35	__startupMenu_7qG2_INmenu_7qG2_000	4	1	138	2	4
+36	__stepForward_7qG2_l_7qG2_007	4	1	140	2	8
+37	__menu_7qG2_currentChoice_7qG2_000	4	1	142	2	5
+38	__main_7qG2_i_7qG2_001	4	1	144	2	6
+39	__senseButton_7qG2_rd_7qG2_000	4	1	146	2	4
+40	__senseButton_7qG2_lu_7qG2_000	4	1	148	2	4
+41	__senseButton_7qG2_high_7qG2_000	4	1	150	2	5
+42	__main_7qG2_ctick_7qG2_001	3	1	152	2	2
+43	__menu_7qG2_tempX_7qG2_000	4	1	154	2	5
+44	__main_7qG2_gens_7qG2_001	4	1	156	2	3
+45	__make_7qG2_j_7qG2_004	4	1	158	2	4
+46	__draw_7qG2_i_7qG2_001	4	1	160	2	4
+47	__draw_7qG2_j_7qG2_003	4	1	162	2	4
+48	__make_7qG2_INchoice_7qG2_000	4	1	164	2	2
+49	__menu_7qG2_numChoices_7qG2_000	4	1	166	2	6
+50	__make_7qG2_i_7qG2_002	4	1	168	2	4
+51	__stepForward_7qG2_j_7qG2_003	4	1	170	2	9
+52	__stepForward_7qG2_k_7qG2_005	4	1	172	2	6
+53	__menu_7qG2_i_7qG2_002	4	1	174	2	7
+54	__stepForward_7qG2_neighbors_7qG2_000	4	1	176	2	6
+55	__stepForward_7qG2_i_7qG2_001	4	1	178	2	9
+56	__menu_7qG2_titleX_7qG2_000	4	1	180	2	4
+57	__constVal200	4	0	182	2	6
+58	__senseButton_7qG2_val_7qG2_000	4	1	184	2	14
+59	__senseButton_7qG2_add_7qG2_000	4	1	186	2	3
+60	__stepForward_7qG2_INcurrarea_7qG2_000	1	1	188	1	8
+61	__constValNeg1	2	0	189	1	2
+62	__stepForward_return	1	1	190	1	3
+63	__constVal13	2	0	191	1	1
+64	__make_return	1	1	192	1	3
+65	__draw_return	1	1	193	1	3
+66	__constVal66	2	0	194	1	1
+67	__constVal3	2	0	195	1	1
+68	__constVal4	2	0	196	1	2
+69	__constVal1	2	0	197	1	18
+70	__constVal0	2	1	198	1	8
+71	__startupMenu_return	1	1	199	1	4
+72	__constVal2	2	0	200	1	1
+73	__main_7qG2_currArea_7qG2_000	1	1	201	1	5
+74	____initialize_global_data_return	1	1	202	1	3
+75	__senseButton_7qG2_lr_ud_7qG2_000	1	1	203	1	2
+76	__senseButton_return	1	1	204	1	4
+77	__menu_return	1	1	205	1	6
+78	__constVal40	2	0	206	1	4
+79	__senseButton_7qG2_cut_7qG2_000	1	1	207	1	2
+80	__RBtnArgs	8	0	5	8	24
+81	__RBtnArgs.Result	2	1	208	1	24
+82	__RBtnArgs.Index	1	1	209	1	24
+83	__RBtnArgs.Pressed	1	1	210	1	24
+84	__RBtnArgs.Count	1	1	211	1	24
+85	__RBtnArgs.Reset	1	1	212	1	24
+86	__RandomExArgs	8	0	2	8	5
+87	__RandomExArgs.Seed	5	1	216	4	5
+88	__RandomExArgs.ReSeed	1	1	220	1	5
+89	__RectOutArgs	8	0	4	16	6
+90	__RectOutArgs.Result	2	1	224	1	6
+91	__RectOutArgs.Location	8	0	2	4	6
+92	__RectOutArgs.Location.X	4	1	228	2	6
+93	__RectOutArgs.Location.Y	4	1	230	2	6
+94	__RectOutArgs.Size	8	0	2	4	6
+95	__RectOutArgs.Size.Width	4	1	232	2	6
+96	__RectOutArgs.Size.Height	4	1	234	2	6
+97	__RectOutArgs.Options	5	1	236	4	6
+98	__TextOutArgs	8	0	4	16	24
+99	__TextOutArgs.Result	2	1	240	1	24
+100	__TextOutArgs.Location	8	0	2	4	24
+101	__TextOutArgs.Location.X	4	1	244	2	24
+102	__TextOutArgs.Location.Y	4	1	246	2	24
+103	__TextOutArgs.Text	7	0	248	4	24
+104	__TextOutArgs.Text.Text_type	1	0	0	1	0
+105	__TextOutArgs.Options	5	1	252	4	24
+106	__PointOutArgs	8	0	3	12	12
+107	__PointOutArgs.Result	2	1	256	1	12
+108	__PointOutArgs.Location	8	0	2	4	12
+109	__PointOutArgs.Location.X	4	1	260	2	12
+110	__PointOutArgs.Location.Y	4	1	262	2	12
+111	__PointOutArgs.Options	5	1	264	4	12
+112	__SPTArgs	8	0	5	8	18
+113	__SPTArgs.Result	2	1	268	1	18
+114	__SPTArgs.Frequency	3	1	270	2	18
+115	__SPTArgs.Duration	3	1	272	2	18
+116	__SPTArgs.Loop	1	1	274	1	18
+117	__SPTArgs.Volume	1	1	275	1	18
+118	__IOMWBIArgs	8	0	4	16	16
+119	__IOMWBIArgs.Result	2	1	276	1	16
+120	__IOMWBIArgs.ModuleID	5	1	280	4	16
+121	__IOMWBIArgs.Offset	3	1	284	2	16
+122	__IOMWBIArgs.Buffer	7	0	286	4	16
+123	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+124	__constStr0022	7	0	288	4	2
+125	__constStr0022.__constStr0022_type	1	1	0	1	0
+126	__constStr0023	7	0	290	4	1
+127	__constStr0023.__constStr0023_type	1	1	0	1	0
+128	__area_3	7	0	292	4	2
+129	__area_3.__area_3_type	7	0	0	4	0
+130	__area_3.__area_3_type.__area_3_type_type	1	0	0	1	0
+131	__constStr0021	7	0	294	4	1
+132	__constStr0021.__constStr0021_type	1	1	0	1	0
+133	__constStr0018	7	0	296	4	1
+134	__constStr0018.__constStr0018_type	1	1	0	1	0
+135	__constStr0019	7	0	298	4	1
+136	__constStr0019.__constStr0019_type	1	1	0	1	0
+137	__constStr0020	7	0	300	4	1
+138	__constStr0020.__constStr0020_type	1	1	0	1	0
+139	__constStr0024	7	0	302	4	1
+140	__constStr0024.__constStr0024_type	1	1	0	1	0
+141	__strretvalmenu	7	0	304	4	2
+142	__strretvalmenu.__strretvalmenu_type	1	0	0	1	0
+143	____area_3_2	7	0	306	4	2
+144	____area_3_2.____area_3_2_type	1	0	0	1	0
+145	__main_7qG2_choice_7qG2_000	7	0	308	4	7
+146	__main_7qG2_choice_7qG2_000.__main_7qG2_choice_7qG2_000_type	4	0	0	2	0
+147	__strbufstartupMenu	7	0	310	4	32
+148	__strbufstartupMenu.__strbufstartupMenu_type	1	0	0	1	0
+149	__constStr0025	7	0	312	4	1
+150	__constStr0025.__constStr0025_type	1	1	0	1	0
+151	__constStr0026	7	0	314	4	1
+152	__constStr0026.__constStr0026_type	1	1	0	1	0
+153	__constStr0027	7	0	316	4	1
+154	__constStr0027.__constStr0027_type	1	1	0	1	0
+155	__strbufdraw	7	0	318	4	2
+156	__strbufdraw.__strbufdraw_type	1	0	0	1	0
+157	__constStr0010	7	0	320	4	1
+158	__constStr0010.__constStr0010_type	1	1	0	1	0
+159	__IOMWFlattenBuf	7	0	322	4	8
+160	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+161	__strbufmain	7	0	324	4	2
+162	__strbufmain.__strbufmain_type	1	0	0	1	0
+163	__ArrHelper__stepForward_244_0	7	0	326	4	14
+164	__ArrHelper__stepForward_244_0.__ArrHelper__stepForward_244_0_type	1	0	0	1	0
+165	area	7	0	328	4	12
+166	area.area_type	7	0	0	4	0
+167	area.area_type.area_type_type	7	0	0	4	0
+168	area.area_type.area_type_type.area_type_type_type	1	0	0	1	0
+169	__ArrHelper__menu_83_0	7	0	330	4	2
+170	__ArrHelper__menu_83_0.__ArrHelper__menu_83_0_type	1	0	0	1	0
+171	__constStr0009	7	0	332	4	1
+172	__constStr0009.__constStr0009_type	1	1	0	1	0
+173	__ArrHelper__stepForward_245_0	7	0	334	4	19
+174	__ArrHelper__stepForward_245_0.__ArrHelper__stepForward_245_0_type	7	0	0	4	0
+175	__ArrHelper__stepForward_245_0.__ArrHelper__stepForward_245_0_type.__ArrHelper__stepForward_245_0_type_type	1	0	0	1	0
+176	__strbufmenu	7	0	336	4	4
+177	__strbufmenu.__strbufmenu_type	1	0	0	1	0
+178	__constStr0015	7	0	338	4	1
+179	__constStr0015.__constStr0015_type	1	1	0	1	0
+180	__constStr0014	7	0	340	4	1
+181	__constStr0014.__constStr0014_type	1	1	0	1	0
+182	__constStr0017	7	0	342	4	1
+183	__constStr0017.__constStr0017_type	1	1	0	1	0
+184	__constStr0016	7	0	344	4	1
+185	__constStr0016.__constStr0016_type	1	1	0	1	0
+186	__constStr0013	7	0	346	4	1
+187	__constStr0013.__constStr0013_type	1	1	0	1	0
+188	__startupMenu_7qG2_output_7qG2_000	7	0	348	4	36
+189	__startupMenu_7qG2_output_7qG2_000.__startupMenu_7qG2_output_7qG2_000_type	7	0	0	4	0
+190	__startupMenu_7qG2_output_7qG2_000.__startupMenu_7qG2_output_7qG2_000_type.__startupMenu_7qG2_output_7qG2_000_type_type	1	0	0	1	0
+191	__menu_7qG2_menuDisp_7qG2_000	7	0	350	4	4
+192	__menu_7qG2_menuDisp_7qG2_000.__menu_7qG2_menuDisp_7qG2_000_type	7	0	0	4	0
+193	__menu_7qG2_menuDisp_7qG2_000.__menu_7qG2_menuDisp_7qG2_000_type.__menu_7qG2_menuDisp_7qG2_000_type_type	1	0	0	1	0
+194	__constStr0012	7	0	352	4	1
+195	__constStr0012.__constStr0012_type	1	1	0	1	0
+196	__constStr0011	7	0	354	4	8
+197	__constStr0011.__constStr0011_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	137	0	#line 137 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	138	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	137	2	#line 137 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	137	2	#line 137 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	138	2		arrinit __main_7qG2_choice_7qG2_000, __constVal0, __constVal3
-0	139	6	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	6		set __main_7qG2_currArea_7qG2_000, 0
-0	139	9	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	9	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	9		set __main_7qG2_i_7qG2_001, 0
-0	140	12	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	12	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	12		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
-0	140	14	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	14	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	14		set __D0main, 3
-0	140	17	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	17		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	140	21	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	21		brtst 4, __ASM_Label_1005, __D0main
-0	140	24	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	24		jmp __ASM_Label_1006
-0	140	26	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	26		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
-0	140	30	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	30		jmp __ASM_Label_1004
-0	140	32	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	32		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
-0	140	34	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	34	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	34		mov __startupMenu_7qG2_INmenu_7qG2_000, __main_7qG2_i_7qG2_001
-0	140	36	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	36	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	36		subcall startupMenu, __startupMenu_return
-0	140	38	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	38		mov __D0main, __D0startupMenu
-0	140	40	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	40		replace __main_7qG2_choice_7qG2_000, __main_7qG2_choice_7qG2_000, __signed_stack_001main, __D0main
-0	140	45	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	140	45	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	45		jmp __ASM_Label_1007
-0	140	47	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	47	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	47		set __signed_stack_001main, 32
-0	141	50	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	50	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	50		set __signed_stack_002main, 20
-0	141	53	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	141	53	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	53		strcat __strbufmain, __constStr0026
-0	141	57	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	57		set __D0main, 0
-0	141	60	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	60		acquire __TextOutMutex
-0	141	61	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	61		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	141	63	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	63		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	141	65	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	65		mov __TextOutArgs.Options, __D0main
-0	141	67	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	67		mov __TextOutArgs.Text, __strbufmain
-0	141	69	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	69		syscall 13, __TextOutArgs
-0	141	72	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	72		mov __D0main, __TextOutArgs.Result
-0	141	74	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	74		release __TextOutMutex
-0	141	75	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	75	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	143	75		set __signed_stack_001main, 0
-0	142	78	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	78	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	143	78		index __signed_stack_001main, __main_7qG2_choice_7qG2_000, __signed_stack_001main
-0	142	82	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	142	82	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	143	82	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	144	82		set __D0main, 0
-0	143	85	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	144	85		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	144	89	#line 144 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	145	89		brtst 4, __ASM_Label_1028, __D0main
-0	144	92	#line 144 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	145	92		gettick __main_7qG2_ctick_7qG2_001
-0	144	94	#line 144 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	145	94	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	146	94	#pragma macro 7
-0	146	94		set __RandomExArgs.ReSeed, 1
-0	146	97		mov __RandomExArgs.Seed, __main_7qG2_ctick_7qG2_001
-0	146	99		syscall 99, __RandomExArgs
-0	146	102		set __RandomExArgs.ReSeed, 0
-0	146	105		mov __D0main, __RandomExArgs.Seed
-0	8838	107	#line 8838 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	145	107	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	145	107	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	151	107	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	152	107		jmp __ASM_Label_1031
-0	151	109	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	152	109		set __signed_stack_001main, 0
-0	151	112	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	151	112	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	152	112		index __make_7qG2_INchoice_7qG2_000, __main_7qG2_choice_7qG2_000, __signed_stack_001main
-0	151	116	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	151	116	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	151	116	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	151	116	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	151	116	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	152	116		subcall make, __make_return
-0	151	118	#line 151 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	118	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	118	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	118		set __signed_stack_001main, 1
-0	153	121	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	121	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	121		index __signed_stack_001main, __main_7qG2_choice_7qG2_000, __signed_stack_001main
-0	153	125	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	125	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	125	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	125		set __D0main, 100
-0	153	128	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	128	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	153	128	#line 153 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	128	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	155	128		set __signed_stack_001main, 2
-0	154	131	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	131	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	155	131		index __signed_stack_001main, __main_7qG2_choice_7qG2_000, __signed_stack_001main
-0	154	135	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	135	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	135	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	155	135		set __D0main, 2
-0	154	138	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	155	138		mul __signed_stack_001main, __signed_stack_001main, __D0main
-0	154	142	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	154	142	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	155	142		set __D0main, 1
-0	154	145	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	155	145		add __main_7qG2_blksz_7qG2_000, __signed_stack_001main, __D0main
-0	154	149	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	6896	149	#line 6896 "NXCDefs.h"
-0	6897	149	#pragma macro 6
-0	6897	149		acquire __PointOutMutex
-0	6897	150		mov __PointOutArgs.Location.X, __constVal200
-0	6897	152		mov __PointOutArgs.Location.Y, __constVal200
-0	6897	154		mov __PointOutArgs.Options, __constVal1
-0	6897	156		syscall 14, __PointOutArgs
-0	6897	159		release __PointOutMutex
-0	8935	160	#line 8935 "NXCDefs.h"
-0	6896	160	#line 6896 "NXCDefs.h"
-0	155	160	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	157	160	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	158	160	#pragma macro 7
-0	158	160	#line 158 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	158	160		set __D0main, 0
-0	159	163	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	159	163		tst 5, __D0main, __D0main
-0	159	166	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	159	166		brtst 4, __ASM_Label_1052, __D0main
-0	159	169	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	169	#pragma macro 8
-0	160	169		acquire __IOMWMutex
-0	160	170		mov __IOMWBIArgs.ModuleID, __constVal786433
-0	160	172		mov __IOMWBIArgs.Offset, __constVal40
-0	160	174		flatten __IOMWFlattenBuf, __constVal4
-0	160	177		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-0	160	180		syscall 79, __IOMWBIArgs
-0	160	183		release __IOMWMutex
-0	8948	184	#line 8948 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	184	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	161	184	#line 161 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	162	184		jmp __ASM_Label_1053
-0	161	186	#line 161 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	162	186	#pragma macro 8
-0	162	186		acquire __IOMWMutex
-0	162	187		mov __IOMWBIArgs.ModuleID, __constVal786433
-0	162	189		mov __IOMWBIArgs.Offset, __constVal40
-0	162	191		flatten __IOMWFlattenBuf, __constVal1
-0	162	194		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
-0	162	197		syscall 79, __IOMWBIArgs
-0	162	200		release __IOMWMutex
-0	8954	201	#line 8954 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	162	201	#line 162 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	163	201	#line 163 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	164	201	#line 164 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	165	201		set __D0main, 0
-0	156	204	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	156	204	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	156	204	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	157	204		tst 5, __D0main, __D0main
-0	156	207	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	157	207		brtst 4, __ASM_Label_1049, __D0main
-0	156	210	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	157	210		jmp __ASM_Label_1048
-0	156	212	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	156	212	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	157	212	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	157	212	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	158	212	#line 158 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	159	212		set __D0main, 1
-0	159	215	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	215		tst 5, __D0main, __D0main
-0	159	218	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	218		brtst 4, __ASM_Label_1057, __D0main
-0	159	221	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	221		mov __draw_7qG2_INcurrarea_7qG2_000, __main_7qG2_currArea_7qG2_000
-0	159	223	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	159	223	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	223		mov __draw_7qG2_INblksz_7qG2_000, __main_7qG2_blksz_7qG2_000
-0	159	225	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	159	225	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	225		subcall draw, __draw_return
-0	159	227	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	227	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	227	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	161	227		not __main_7qG2_currArea_7qG2_000, __main_7qG2_currArea_7qG2_000
-0	160	230	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	160	230	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	161	230	#line 161 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	162	230		mov __stepForward_7qG2_INcurrarea_7qG2_000, __main_7qG2_currArea_7qG2_000
-0	161	232	#line 161 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	161	232	#line 161 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	162	232		subcall stepForward, __stepForward_return
-0	161	234	#line 161 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	180	234	#line 180 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	181	234		jmp __ASM_Label_1056
-0	180	236	#line 180 "C:\Github\NXC_Source\#GameOfLife.nxc"
-0	181	236		exit -1, -1
+0	152	0	#line 152 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	153	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	152	2	#line 152 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	152	2	#line 152 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	153	2		arrinit __main_7qG2_choice_7qG2_000, __constVal0, __constVal3
+0	154	6	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	6		set __main_7qG2_currArea_7qG2_000, 0
+0	154	9	#line 154 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	9	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	9		set __main_7qG2_i_7qG2_001, 0
+0	155	12	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	12	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	12		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	155	14	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	14	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	14		set __D0main, 3
+0	155	17	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	17		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	155	21	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	21		brtst 4, __ASM_Label_1003, __D0main
+0	155	24	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	24		jmp __ASM_Label_1004
+0	155	26	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	26		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
+0	155	30	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	30		jmp __ASM_Label_1002
+0	155	32	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	32		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	155	34	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	34	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	34		mov __startupMenu_7qG2_INmenu_7qG2_000, __main_7qG2_i_7qG2_001
+0	155	36	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	36	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	36		subcall startupMenu, __startupMenu_return
+0	155	38	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	38		mov __D0main, __D0startupMenu
+0	155	40	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	40		replace __main_7qG2_choice_7qG2_000, __main_7qG2_choice_7qG2_000, __signed_stack_001main, __D0main
+0	155	45	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	155	45	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	45		jmp __ASM_Label_1005
+0	155	47	#line 155 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	47	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	47		set __signed_stack_001main, 32
+0	156	50	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	50	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	50		set __signed_stack_002main, 20
+0	156	53	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	156	53	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	53		strcat __strbufmain, __constStr0027
+0	156	57	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	57		set __D0main, 0
+0	156	60	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	60		acquire __TextOutMutex
+0	156	61	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	61		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	156	63	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	63		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	156	65	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	65		mov __TextOutArgs.Options, __D0main
+0	156	67	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	67		mov __TextOutArgs.Text, __strbufmain
+0	156	69	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	69		syscall 13, __TextOutArgs
+0	156	72	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	72		mov __D0main, __TextOutArgs.Result
+0	156	74	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	74		release __TextOutMutex
+0	156	75	#line 156 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	75	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	158	75		set __signed_stack_001main, 0
+0	157	78	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	78	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	158	78		index __signed_stack_001main, __main_7qG2_choice_7qG2_000, __signed_stack_001main
+0	157	82	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	157	82	#line 157 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	158	82	#line 158 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	159	82		set __D0main, 0
+0	158	85	#line 158 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	159	85		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	159	89	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	160	89		brtst 4, __ASM_Label_1026, __D0main
+0	159	92	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	160	92		gettick __main_7qG2_ctick_7qG2_001
+0	159	94	#line 159 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	160	94	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	161	94	#pragma macro 7
+0	161	94		set __RandomExArgs.ReSeed, 1
+0	161	97		mov __RandomExArgs.Seed, __main_7qG2_ctick_7qG2_001
+0	161	99		syscall 99, __RandomExArgs
+0	161	102		set __RandomExArgs.ReSeed, 0
+0	161	105		mov __D0main, __RandomExArgs.Seed
+0	8929	107	#line 8929 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	160	107	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	160	107	#line 160 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	166	107	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	167	107		jmp __ASM_Label_1029
+0	166	109	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	167	109		set __signed_stack_001main, 0
+0	166	112	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	166	112	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	167	112		index __make_7qG2_INchoice_7qG2_000, __main_7qG2_choice_7qG2_000, __signed_stack_001main
+0	166	116	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	166	116	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	166	116	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	166	116	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	166	116	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	167	116		subcall make, __make_return
+0	166	118	#line 166 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	118	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	118	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	118		set __signed_stack_001main, 1
+0	168	121	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	121	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	121		index __signed_stack_001main, __main_7qG2_choice_7qG2_000, __signed_stack_001main
+0	168	125	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	125	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	125	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	125		set __D0main, 100
+0	168	128	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	128	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	168	128	#line 168 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	128	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	170	128		set __signed_stack_001main, 2
+0	169	131	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	131	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	170	131		index __signed_stack_001main, __main_7qG2_choice_7qG2_000, __signed_stack_001main
+0	169	135	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	135	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	135	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	170	135		set __D0main, 2
+0	169	138	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	170	138		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	169	142	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	142	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	170	142		set __D0main, 1
+0	169	145	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	169	145	#line 169 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	6896	145	#line 6896 "NXCDefs.h"
+0	6897	145	#pragma macro 6
+0	6897	145		acquire __PointOutMutex
+0	6897	146		mov __PointOutArgs.Location.X, __constVal200
+0	6897	148		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	150		mov __PointOutArgs.Options, __constVal1
+0	6897	152		syscall 14, __PointOutArgs
+0	6897	155		release __PointOutMutex
+0	9026	156	#line 9026 "NXCDefs.h"
+0	6896	156	#line 6896 "NXCDefs.h"
+0	170	156	#line 170 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	156	#line 172 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	173	156	#pragma macro 7
+0	173	156	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	173	156		set __D0main, 0
+0	174	159	#line 174 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	159		tst 5, __D0main, __D0main
+0	174	162	#line 174 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	162		brtst 4, __ASM_Label_1050, __D0main
+0	174	165	#line 174 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	165	#pragma macro 8
+0	175	165		acquire __IOMWMutex
+0	175	166		mov __IOMWBIArgs.ModuleID, __constVal786433
+0	175	168		mov __IOMWBIArgs.Offset, __constVal40
+0	175	170		flatten __IOMWFlattenBuf, __constVal4
+0	175	173		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	175	176		syscall 79, __IOMWBIArgs
+0	175	179		release __IOMWMutex
+0	9039	180	#line 9039 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	180	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	180	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	180		jmp __ASM_Label_1051
+0	176	182	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	182	#pragma macro 8
+0	177	182		acquire __IOMWMutex
+0	177	183		mov __IOMWBIArgs.ModuleID, __constVal786433
+0	177	185		mov __IOMWBIArgs.Offset, __constVal40
+0	177	187		flatten __IOMWFlattenBuf, __constVal1
+0	177	190		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	177	193		syscall 79, __IOMWBIArgs
+0	177	196		release __IOMWMutex
+0	9045	197	#line 9045 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	197	#line 177 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	178	197	#line 178 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	197	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	197		set __D0main, 0
+0	171	200	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	171	200	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	171	200	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	200		tst 5, __D0main, __D0main
+0	171	203	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	203		brtst 4, __ASM_Label_1047, __D0main
+0	171	206	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	206		jmp __ASM_Label_1046
+0	171	208	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	171	208	#line 171 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	208	#line 172 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	208	#line 172 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	172	208	#line 172 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	173	208		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	172	211	#line 172 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	8771	211	#line 8771 "NXCDefs.h"
+0	8772	211		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	213	#line 8771 "NXCDefs.h"
+0	172	213	#line 172 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	173	213	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	213		set __main_7qG2_gens_7qG2_001, 0
+0	173	216	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	173	216	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	216		set __D0main, 1
+0	173	219	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	219		tst 5, __D0main, __D0main
+0	173	222	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	222		brtst 4, __ASM_Label_1057, __D0main
+0	173	225	#line 173 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	174	225		jmp __ASM_Label_1058
+0	174	227	#line 174 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	227		add __main_7qG2_gens_7qG2_001, __main_7qG2_gens_7qG2_001, __constVal1
+0	175	231	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	231		jmp __ASM_Label_1056
+0	175	233	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	233	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	233	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	233	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	175	233	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	233		subcall draw, __draw_return
+0	175	235	#line 175 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	235	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	235		set __signed_stack_001main, 1000
+0	176	238	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	238	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	238		set __signed_stack_002main, 250
+0	176	241	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	241	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	241		set __signed_stack_003main, 4
+0	176	244	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	244	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	244		set __D0main, 0
+0	176	247	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	247		acquire __SPTArgsMutex
+0	176	248	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	248		mov __SPTArgs.Frequency, __signed_stack_001main
+0	176	250	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	250		mov __SPTArgs.Duration, __signed_stack_002main
+0	176	252	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	252		mov __SPTArgs.Volume, __signed_stack_003main
+0	176	254	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	254		mov __SPTArgs.Loop, __D0main
+0	176	256	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	256		syscall 10, __SPTArgs
+0	176	259	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	259		mov __D0main, __SPTArgs.Result
+0	176	261	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	261		release __SPTArgsMutex
+0	176	262	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	176	262	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	262		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	176	265	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	8771	265	#line 8771 "NXCDefs.h"
+0	8772	265		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	267	#line 8771 "NXCDefs.h"
+0	176	267	#line 176 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	267	#line 177 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	267	#line 177 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	178	267		not __main_7qG2_currArea_7qG2_000, __main_7qG2_currArea_7qG2_000
+0	177	270	#line 177 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	177	270	#line 177 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	178	270	#line 178 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	270		mov __stepForward_7qG2_INcurrarea_7qG2_000, __main_7qG2_currArea_7qG2_000
+0	178	272	#line 178 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	178	272	#line 178 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	272		subcall stepForward, __stepForward_return
+0	178	274	#line 178 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	274	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	274		set __signed_stack_001main, 1500
+0	179	277	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	277	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	277		set __signed_stack_002main, 250
+0	179	280	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	280	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	280		set __signed_stack_003main, 4
+0	179	283	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	283	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	283		set __D0main, 0
+0	179	286	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	286		acquire __SPTArgsMutex
+0	179	287	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	287		mov __SPTArgs.Frequency, __signed_stack_001main
+0	179	289	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	289		mov __SPTArgs.Duration, __signed_stack_002main
+0	179	291	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	291		mov __SPTArgs.Volume, __signed_stack_003main
+0	179	293	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	293		mov __SPTArgs.Loop, __D0main
+0	179	295	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	295		syscall 10, __SPTArgs
+0	179	298	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	298		mov __D0main, __SPTArgs.Result
+0	179	300	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	300		release __SPTArgsMutex
+0	179	301	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	179	301	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	180	301		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	179	304	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	8771	304	#line 8771 "NXCDefs.h"
+0	8772	304		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	306	#line 8771 "NXCDefs.h"
+0	179	306	#line 179 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	219	306	#line 219 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	220	306		jmp __ASM_Label_1059
+0	219	308	#line 219 "C:\Github\NXC_Source\#GameOfLife.nxc"
+0	220	308		exit -1, -1
 1	4	0	#line 4 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
 1	4	2	#line 4 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
@@ -468,7 +551,7 @@ Clump	Line	PC	Source
 1	11	39		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
 1	11	42		syscall 79, __IOMWBIArgs
 1	11	45		release __IOMWMutex
-1	6682	46	#line 6682 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
+1	6832	46	#line 6832 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	11	46	#line 11 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	12	46	#line 12 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	13	46		jmp __ASM_Label_621
@@ -481,7 +564,7 @@ Clump	Line	PC	Source
 1	13	56		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
 1	13	59		syscall 79, __IOMWBIArgs
 1	13	62		release __IOMWMutex
-1	6688	63	#line 6688 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
+1	6838	63	#line 6838 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	13	63	#line 13 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	14	63	#line 14 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
 1	15	63	#line 15 "C:\Github\NXC_Source\.\.\+Button+-.nxc"
@@ -750,7 +833,7 @@ Clump	Line	PC	Source
 2	6897	60		mov __PointOutArgs.Options, __constVal1
 2	6897	62		syscall 14, __PointOutArgs
 2	6897	65		release __PointOutMutex
-2	7086	66	#line 7086 "NXCDefs.h"
+2	7236	66	#line 7236 "NXCDefs.h"
 2	6896	66	#line 6896 "NXCDefs.h"
 2	10	66	#line 10 "C:\Github\NXC_Source\.\+Menu.nxc"
 2	11	66	#line 11 "C:\Github\NXC_Source\.\+Menu.nxc"
@@ -894,703 +977,690 @@ Clump	Line	PC	Source
 2	19	216	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
 2	20	216		set __D0menu, 0
 2	19	219	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	219		acquire __RectOutMutex
-2	19	220	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	220		mov __RectOutArgs.Location.X, __signed_stack_001menu
-2	19	222	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	222		mov __RectOutArgs.Location.Y, __signed_stack_002menu
-2	19	224	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	224		mov __RectOutArgs.Size.Width, __signed_stack_003menu
-2	19	226	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	226		mov __RectOutArgs.Size.Height, __signed_stack_004menu
-2	19	228	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	228		mov __RectOutArgs.Options, __D0menu
-2	19	230	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	230		syscall 17, __RectOutArgs
-2	19	233	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	233		mov __D0menu, __RectOutArgs.Result
-2	19	235	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	235		release __RectOutMutex
-2	19	236	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	20	236	#line 20 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	21	236		set __Wait_7qG2_ms_7qG2_000_inline_menu, 50
-2	20	239	#line 20 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	8771	239	#line 8771 "NXCDefs.h"
-2	8772	239		waitv __Wait_7qG2_ms_7qG2_000_inline_menu
-2	8771	241	#line 8771 "NXCDefs.h"
-2	20	241	#line 20 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	22	241	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	241		jmp __ASM_Label_684
-2	22	243	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	22	243	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	243		set __signed_stack_001menu, 1
-2	22	246	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	22	246	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	246		mov __D0menu, __constVal0
-2	22	248	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	248		acquire __RBtnMutex
+2	19	219	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	219		mov __RectOutArgs.Location.X, __signed_stack_001menu
+2	19	221	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	221		mov __RectOutArgs.Location.Y, __signed_stack_002menu
+2	19	223	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	223		mov __RectOutArgs.Size.Width, __signed_stack_003menu
+2	19	225	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	225		mov __RectOutArgs.Size.Height, __signed_stack_004menu
+2	19	227	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	227		mov __RectOutArgs.Options, __D0menu
+2	19	229	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	229		syscall 17, __RectOutArgs
+2	19	232	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	19	232	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	19	232	#line 19 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	20	232	#line 20 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	21	232		set __Wait_7qG2_ms_7qG2_000_inline_menu, 50
+2	20	235	#line 20 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	8771	235	#line 8771 "NXCDefs.h"
+2	8772	235		waitv __Wait_7qG2_ms_7qG2_000_inline_menu
+2	8771	237	#line 8771 "NXCDefs.h"
+2	20	237	#line 20 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	22	237	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	237		jmp __ASM_Label_684
+2	22	239	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	22	239	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	239		set __signed_stack_001menu, 1
+2	22	242	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	22	242	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	242		mov __D0menu, __constVal0
+2	22	244	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	244		acquire __RBtnMutex
+2	22	245	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	245		mov __RBtnArgs.Index, __signed_stack_001menu
+2	22	247	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	247		mov __RBtnArgs.Reset, __D0menu
 2	22	249	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	249		mov __RBtnArgs.Index, __signed_stack_001menu
-2	22	251	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	251		mov __RBtnArgs.Reset, __D0menu
-2	22	253	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	253		syscall 20, __RBtnArgs
-2	22	256	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	256		mov __D0menu, __RBtnArgs.Pressed
-2	22	258	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	258		release __RBtnMutex
-2	22	259	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	259		mov __signed_stack_001menu, __D0menu
-2	22	261	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	261		set __D0menu, 0
+2	23	249		syscall 20, __RBtnArgs
+2	22	252	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	252		mov __D0menu, __RBtnArgs.Pressed
+2	22	254	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	254		release __RBtnMutex
+2	22	255	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	255		mov __signed_stack_001menu, __D0menu
+2	22	257	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	257		set __D0menu, 0
+2	22	260	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	260		cmp 4, __D0menu, __signed_stack_001menu, __D0menu
 2	22	264	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	264		cmp 4, __D0menu, __signed_stack_001menu, __D0menu
-2	22	268	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	268		not __D0menu, __D0menu
-2	22	271	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	271		tst 5, __D0menu, __D0menu
-2	22	274	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	274		brtst 4, __ASM_Label_751, __D0menu
+2	23	264		not __D0menu, __D0menu
+2	22	267	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	267		tst 5, __D0menu, __D0menu
+2	22	270	#line 22 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	270		brtst 4, __ASM_Label_751, __D0menu
+2	23	273	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	24	273		jmp __ASM_Label_750
+2	23	275	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	23	275	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	24	275		mov __D0menu, __menu_7qG2_currentChoice_7qG2_000
 2	23	277	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	24	277		jmp __ASM_Label_750
+2	24	277		subret __menu_return
 2	23	279	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	23	279	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	24	279		mov __D0menu, __menu_7qG2_currentChoice_7qG2_000
-2	23	281	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	24	281		subret __menu_return
-2	23	283	#line 23 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	58	283	#line 58 "C:\Github\NXC_Source\.\+Menu.nxc"
-2	59	283		subret __menu_return
-3	30	0	#line 30 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	31	0		mov __signed_stack_001make, __make_7qG2_INchoice_7qG2_000
-3	30	2	#line 30 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	31	2	#line 31 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	32	2		set __D0make, 0
-3	31	5	#line 31 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	32	5		cmp 4, __D0make, __signed_stack_001make, __D0make
-3	32	9	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	9		brtst 4, __ASM_Label_762, __D0make
-3	32	12	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	12		set __make_7qG2_i_7qG2_002, 0
-3	32	15	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	32	15	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	15		mov __signed_stack_001make, __make_7qG2_i_7qG2_002
-3	32	17	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	32	17	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	17		set __D0make, 36
-3	32	20	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	20		cmp 0, __D0make, __signed_stack_001make, __D0make
-3	32	24	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	24		brtst 4, __ASM_Label_764, __D0make
-3	32	27	#line 32 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	33	27		jmp __ASM_Label_765
-3	33	29	#line 33 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	34	29		add __make_7qG2_i_7qG2_002, __make_7qG2_i_7qG2_002, __constVal1
-3	34	33	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	33		jmp __ASM_Label_763
-3	34	35	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	35		set __make_7qG2_j_7qG2_004, 0
-3	34	38	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	34	38	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	38		mov __signed_stack_001make, __make_7qG2_j_7qG2_004
-3	34	40	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	34	40	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	40		set __D0make, 9
-3	34	43	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	43		cmp 0, __D0make, __signed_stack_001make, __D0make
-3	34	47	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	47		brtst 4, __ASM_Label_772, __D0make
-3	34	50	#line 34 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	35	50		jmp __ASM_Label_773
-3	35	52	#line 35 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	36	52		add __make_7qG2_j_7qG2_004, __make_7qG2_j_7qG2_004, __constVal1
-3	37	56	#line 37 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	38	56		jmp __ASM_Label_771
-3	39	58	#line 39 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	40	58		jmp __ASM_Label_774
-3	39	60	#line 39 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	40	60	#line 40 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	41	60		jmp __ASM_Label_766
-3	40	62	#line 40 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	43	62	#line 43 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	43	62	#line 43 "C:\Github\NXC_Source\#GameOfLife.nxc"
-3	44	62		subret __make_return
-4	58	0	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	59	0		set __draw_7qG2_i_7qG2_001, 1
-4	58	3	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	58	3	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	59	3		mov __signed_stack_001draw, __draw_7qG2_i_7qG2_001
-4	58	5	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	58	5	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	59	5		set __D0draw, 22
-4	58	8	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	59	8		cmp 0, __D0draw, __signed_stack_001draw, __D0draw
-4	58	12	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	59	12		brtst 4, __ASM_Label_818, __D0draw
-4	58	15	#line 58 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	59	15		jmp __ASM_Label_819
-4	59	17	#line 59 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	60	17		add __draw_7qG2_i_7qG2_001, __draw_7qG2_i_7qG2_001, __constVal1
-4	60	21	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	21		jmp __ASM_Label_817
-4	60	23	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	23		set __draw_7qG2_j_7qG2_003, 1
-4	60	26	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	60	26	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	26		mov __signed_stack_001draw, __draw_7qG2_j_7qG2_003
-4	60	28	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	60	28	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	28		set __D0draw, 34
-4	60	31	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	31		cmp 0, __D0draw, __signed_stack_001draw, __D0draw
-4	60	35	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	35		brtst 4, __ASM_Label_826, __D0draw
-4	60	38	#line 60 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	61	38		jmp __ASM_Label_827
-4	61	40	#line 61 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	40		add __draw_7qG2_j_7qG2_003, __draw_7qG2_j_7qG2_003, __constVal1
-4	62	44	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	44		jmp __ASM_Label_825
-4	62	46	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	46		mov __signed_stack_001draw, __draw_7qG2_j_7qG2_003
-4	62	48	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	48	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	48		set __D0draw, 1
-4	62	51	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	51		sub __signed_stack_001draw, __signed_stack_001draw, __D0draw
-4	62	55	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	55	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	55		mov __signed_stack_002draw, __draw_7qG2_i_7qG2_001
-4	62	57	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	57	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	57		set __D0draw, 1
-4	62	60	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	60		sub __signed_stack_002draw, __signed_stack_002draw, __D0draw
-4	62	64	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	64	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	64		mov __signed_stack_003draw, __draw_7qG2_INblksz_7qG2_000
-4	62	66	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	66	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	66		mov __signed_stack_004draw, __draw_7qG2_INblksz_7qG2_000
-4	62	68	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	68	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	68		set __signed_stack_005draw, 0
-4	62	71	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	71	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	71		mov __signed_stack_006draw, __draw_7qG2_j_7qG2_003
-4	62	73	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	73	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	73		index __ArrHelper__draw_245_0, area, __signed_stack_006draw
-4	62	77	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	77		mov __signed_stack_007draw, __draw_7qG2_i_7qG2_001
-4	62	79	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	79	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	79		index __ArrHelper__draw_244_0, __ArrHelper__draw_245_0, __signed_stack_007draw
-4	62	83	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	83		mov __unsigned_stack_008draw, __draw_7qG2_INcurrarea_7qG2_000
-4	62	85	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	85	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	85		index __DU0draw, __ArrHelper__draw_244_0, __unsigned_stack_008draw
-4	62	89	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	89	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	89		sub __signed_stack_005draw, __signed_stack_005draw, __DU0draw
-4	62	93	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	93	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	93		set __D0draw, 4
-4	62	96	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	96		mul __signed_stack_005draw, __signed_stack_005draw, __D0draw
-4	62	100	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	62	100	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	100		set __D0draw, 36
-4	62	103	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	103		add __D0draw, __signed_stack_005draw, __D0draw
-4	62	107	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	107		acquire __RectOutMutex
-4	62	108	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	108		mov __RectOutArgs.Location.X, __signed_stack_001draw
-4	62	110	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	110		mov __RectOutArgs.Location.Y, __signed_stack_002draw
-4	62	112	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	112		mov __RectOutArgs.Size.Width, __signed_stack_003draw
-4	62	114	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	114		mov __RectOutArgs.Size.Height, __signed_stack_004draw
-4	62	116	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	116		mov __RectOutArgs.Options, __D0draw
-4	62	118	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	118		syscall 17, __RectOutArgs
-4	62	121	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	121		mov __D0draw, __RectOutArgs.Result
-4	62	123	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	63	123		release __RectOutMutex
-4	62	124	#line 62 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	65	124	#line 65 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	66	124		jmp __ASM_Label_828
-4	65	126	#line 65 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	68	126	#line 68 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	69	126		jmp __ASM_Label_820
-4	68	128	#line 68 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	68	128	#line 68 "C:\Github\NXC_Source\#GameOfLife.nxc"
-4	69	128		subret __draw_return
-5	71	0	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	72	0		set __stepForward_7qG2_i_7qG2_001, 1
-5	71	3	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	71	3	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	72	3		mov __signed_stack_001stepForward, __stepForward_7qG2_i_7qG2_001
-5	71	5	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	71	5	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	72	5		set __D0stepForward, 22
-5	71	8	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	72	8		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	71	12	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	72	12		brtst 4, __ASM_Label_852, __D0stepForward
-5	71	15	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	72	15		jmp __ASM_Label_853
-5	72	17	#line 72 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	73	17		add __stepForward_7qG2_i_7qG2_001, __stepForward_7qG2_i_7qG2_001, __constVal1
-5	73	21	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	21		jmp __ASM_Label_851
-5	73	23	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	23		set __stepForward_7qG2_j_7qG2_003, 1
-5	73	26	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	73	26	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	26		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
-5	73	28	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	73	28	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	28		set __D0stepForward, 34
-5	73	31	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	31		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	73	35	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	35		brtst 4, __ASM_Label_860, __D0stepForward
-5	73	38	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	74	38		jmp __ASM_Label_861
-5	74	40	#line 74 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	75	40		add __stepForward_7qG2_j_7qG2_003, __stepForward_7qG2_j_7qG2_003, __constVal1
-5	75	44	#line 75 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	76	44		jmp __ASM_Label_859
-5	75	46	#line 75 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	76	46		set __stepForward_7qG2_neighbors_7qG2_000, 0
-5	75	49	#line 75 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	75	49	#line 75 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	76	49	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	77	49		mov __stepForward_7qG2_k_7qG2_005, __constValNeg1
-5	76	51	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	76	51	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	77	51		mov __signed_stack_001stepForward, __stepForward_7qG2_k_7qG2_005
-5	76	53	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	76	53	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	77	53		set __D0stepForward, 2
-5	76	56	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	77	56		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	76	60	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	77	60		brtst 4, __ASM_Label_870, __D0stepForward
-5	76	63	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	77	63		jmp __ASM_Label_871
-5	77	65	#line 77 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	78	65		add __stepForward_7qG2_k_7qG2_005, __stepForward_7qG2_k_7qG2_005, __constVal1
-5	78	69	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	69		jmp __ASM_Label_869
-5	78	71	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	71		mov __stepForward_7qG2_l_7qG2_007, __constValNeg1
-5	78	73	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	78	73	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	73		mov __signed_stack_001stepForward, __stepForward_7qG2_l_7qG2_007
-5	78	75	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	78	75	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	75		set __D0stepForward, 2
-5	78	78	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	78		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	78	82	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	82		brtst 4, __ASM_Label_878, __D0stepForward
-5	78	85	#line 78 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	79	85		jmp __ASM_Label_879
-5	79	87	#line 79 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	80	87		add __stepForward_7qG2_l_7qG2_007, __stepForward_7qG2_l_7qG2_007, __constVal1
-5	80	91	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	91		jmp __ASM_Label_877
-5	80	93	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	93		mov __signed_stack_001stepForward, __stepForward_7qG2_k_7qG2_005
-5	80	95	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	80	95	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	95		set __D0stepForward, 0
-5	80	98	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	98		cmp 4, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	80	102	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	102		brtst 4, __ASM_Label_886, __D0stepForward
-5	80	105	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	105		mov __signed_stack_001stepForward, __stepForward_7qG2_l_7qG2_007
-5	80	107	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	80	107	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	107		set __D0stepForward, 0
-5	80	110	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	110		cmp 4, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	80	114	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	114		brtst 4, __ASM_Label_887, __D0stepForward
-5	80	117	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	117		add __stepForward_7qG2_l_7qG2_007, __stepForward_7qG2_l_7qG2_007, __constVal1
-5	80	121	#line 80 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	121	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	121	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	121	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	121	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	121	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	121		add __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003, __stepForward_7qG2_l_7qG2_007
-5	81	125	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	125	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	125		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
-5	81	129	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	129	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	129	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	129	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	129		add __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001, __stepForward_7qG2_k_7qG2_005
-5	81	133	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	133	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	133		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
-5	81	137	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	137		mov __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
-5	81	139	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	139	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	139		index __DU0stepForward, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward
-5	81	143	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	81	143	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	82	143		add __stepForward_7qG2_neighbors_7qG2_000, __stepForward_7qG2_neighbors_7qG2_000, __DU0stepForward
-5	81	147	#line 81 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	84	147	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	85	147		jmp __ASM_Label_880
-5	84	149	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	84	149	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	85	149		jmp __ASM_Label_872
-5	84	151	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	84	151	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	85	151		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
-5	84	153	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	84	153	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	85	153		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
-5	84	157	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	85	157		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
-5	84	159	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	84	159	#line 84 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	85	159		index __D0stepForward, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
-5	85	163	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	86	163	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	163		tst 5, __D0stepForward, __D0stepForward
-5	86	166	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	166		brtst 4, __ASM_Label_904, __D0stepForward
-5	86	169	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	169		mov __signed_stack_001stepForward, __stepForward_7qG2_neighbors_7qG2_000
-5	86	171	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	86	171	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	171		set __D0stepForward, 2
-5	86	174	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	174		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	86	178	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	178		brtst 4, __ASM_Label_907, __D0stepForward
-5	86	181	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	181		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
-5	86	183	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	86	183	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	183		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
-5	86	187	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	187		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
-5	86	189	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	86	189	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	189		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
-5	86	193	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	86	193	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	193		not __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
-5	86	196	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	86	196	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	196		set __D0stepForward, 0
-5	86	199	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	199		replace __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward, __D0stepForward
-5	86	204	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	204		replace __ArrHelper__stepForward_245_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward, __ArrHelper__stepForward_244_0
-5	86	209	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	209		replace area, area, __signed_stack_001stepForward, __ArrHelper__stepForward_245_0
-5	86	214	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	214	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	214	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	214		mov __signed_stack_001stepForward, __stepForward_7qG2_neighbors_7qG2_000
-5	87	216	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	216	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	216		set __D0stepForward, 3
-5	87	219	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	219		cmp 1, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	87	223	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	223		brtst 4, __ASM_Label_918, __D0stepForward
-5	87	226	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	226		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
-5	87	228	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	228	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	228		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
-5	87	232	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	232		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
-5	87	234	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	234	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	234		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
-5	87	238	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	238	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	238		not __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
-5	87	241	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	87	241	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	241		set __D0stepForward, 0
-5	87	244	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	244		replace __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward, __D0stepForward
-5	87	249	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	249		replace __ArrHelper__stepForward_245_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward, __ArrHelper__stepForward_244_0
-5	87	254	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	88	254		replace area, area, __signed_stack_001stepForward, __ArrHelper__stepForward_245_0
-5	87	259	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	89	259	#line 89 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	91	259	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	259		jmp __ASM_Label_927
-5	91	261	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	261		mov __signed_stack_001stepForward, __stepForward_7qG2_neighbors_7qG2_000
-5	91	263	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	91	263	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	263		set __D0stepForward, 3
-5	91	266	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	266		cmp 4, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
-5	91	270	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	270		brtst 4, __ASM_Label_930, __D0stepForward
-5	91	273	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	273		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
-5	91	275	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	91	275	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	275		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
-5	91	279	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	279		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
-5	91	281	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	91	281	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	281		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
-5	91	285	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	91	285	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	285		not __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
-5	91	288	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	91	288	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	288		set __D0stepForward, 1
-5	91	291	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	291		replace __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward, __D0stepForward
-5	91	296	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	296		replace __ArrHelper__stepForward_245_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward, __ArrHelper__stepForward_244_0
-5	91	301	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	92	301		replace area, area, __signed_stack_001stepForward, __ArrHelper__stepForward_245_0
-5	91	306	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	93	306	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	94	306	#line 94 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	95	306	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	96	306		jmp __ASM_Label_862
-5	95	308	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	98	308	#line 98 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	99	308		jmp __ASM_Label_854
-5	98	310	#line 98 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	98	310	#line 98 "C:\Github\NXC_Source\#GameOfLife.nxc"
-5	99	310		subret __stepForward_return
-6	100	0	#line 100 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	101	0		arrbuild __startupMenu_7qG2_output_7qG2_000, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010, __constStr0010
-6	102	11	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	103	11		set __signed_stack_001startupMenu, 0
-6	102	14	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	102	14	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	103	14		strcat __strbufstartupMenu, __constStr0011
-6	102	18	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	103	18		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	102	23	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	103	23	#line 103 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	104	23		mov __signed_stack_001startupMenu, __startupMenu_7qG2_INmenu_7qG2_000
-6	103	25	#line 103 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	104	25	#line 104 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	105	25		set __D0startupMenu, 0
-6	104	28	#line 104 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	105	28		cmp 4, __D0startupMenu, __signed_stack_001startupMenu, __D0startupMenu
-6	105	32	#line 105 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	106	32		brtst 4, __ASM_Label_943, __D0startupMenu
-6	105	35	#line 105 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	106	35		set __signed_stack_001startupMenu, 1
-6	105	38	#line 105 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	105	38	#line 105 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	106	38		strcat __strbufstartupMenu, __constStr0012
-6	105	42	#line 105 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	106	42		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	105	47	#line 105 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	106	47	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	107	47		set __signed_stack_001startupMenu, 2
-6	106	50	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	106	50	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	107	50		strcat __strbufstartupMenu, __constStr0013
-6	106	54	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	107	54		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	106	59	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	107	59	#line 107 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	108	59		set __signed_stack_001startupMenu, 3
-6	107	62	#line 107 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	107	62	#line 107 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	108	62		strcat __strbufstartupMenu, __constStr0014
-6	107	66	#line 107 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	108	66		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	107	71	#line 107 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	108	71	#line 108 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	109	71		set __signed_stack_001startupMenu, 4
-6	108	74	#line 108 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	108	74	#line 108 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	109	74		strcat __strbufstartupMenu, __constStr0015
-6	108	78	#line 108 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	109	78		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	108	83	#line 108 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	109	83	#line 109 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	110	83		set __signed_stack_001startupMenu, 5
-6	109	86	#line 109 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	109	86	#line 109 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	110	86		strcat __strbufstartupMenu, __constStr0016
-6	109	90	#line 109 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	110	90		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	109	95	#line 109 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	110	95	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	95		set __signed_stack_001startupMenu, 6
-6	110	98	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	110	98	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	98		strcat __strbufstartupMenu, __constStr0017
-6	110	102	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	102		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	110	107	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	107	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	112	107		set __menu_7qG2_numChoices_7qG2_000, 5
-6	111	110	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	110	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	112	110		mov __menu_7qG2_menuDisp_7qG2_000, __startupMenu_7qG2_output_7qG2_000
-6	111	112	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	112	112		set __menu_7qG2_titleX_7qG2_000, 12
-6	111	115	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	115	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	112	115		subcall menu, __menu_return
-6	111	117	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	112	117		mov __startupMenu_7qG2_choice_7qG2_000, __D0menu
-6	111	119	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	111	119	#line 111 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	113	119	#line 113 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	114	119		jmp __ASM_Label_962
-6	113	121	#line 113 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	114	121		mov __signed_stack_001startupMenu, __startupMenu_7qG2_INmenu_7qG2_000
-6	113	123	#line 113 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	114	123	#line 114 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	115	123		set __D0startupMenu, 1
-6	114	126	#line 114 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	115	126		cmp 4, __D0startupMenu, __signed_stack_001startupMenu, __D0startupMenu
-6	115	130	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	116	130		brtst 4, __ASM_Label_965, __D0startupMenu
-6	115	133	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	116	133		set __signed_stack_001startupMenu, 1
-6	115	136	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	115	136	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	116	136		strcat __strbufstartupMenu, __constStr0018
-6	115	140	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	116	140		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	115	145	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	116	145	#line 116 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	117	145		set __signed_stack_001startupMenu, 2
-6	116	148	#line 116 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	116	148	#line 116 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	117	148		strcat __strbufstartupMenu, __constStr0019
-6	116	152	#line 116 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	117	152		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	116	157	#line 116 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	117	157	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	118	157		set __signed_stack_001startupMenu, 3
-6	117	160	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	117	160	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	118	160		strcat __strbufstartupMenu, __constStr0020
-6	117	164	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	118	164		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	117	169	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	118	169	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	119	169		set __signed_stack_001startupMenu, 4
-6	118	172	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	118	172	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	119	172		strcat __strbufstartupMenu, __constStr0021
-6	118	176	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	119	176		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	118	181	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	119	181	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	181		set __signed_stack_001startupMenu, 5
-6	119	184	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	119	184	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	184		strcat __strbufstartupMenu, __constStr0022
-6	119	188	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	188		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	119	193	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	193	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	121	193		set __menu_7qG2_numChoices_7qG2_000, 4
-6	120	196	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	196	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	121	196		mov __menu_7qG2_menuDisp_7qG2_000, __startupMenu_7qG2_output_7qG2_000
-6	120	198	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	121	198		set __menu_7qG2_titleX_7qG2_000, 12
-6	120	201	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	201	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	121	201		subcall menu, __menu_return
-6	120	203	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	121	203		mov __startupMenu_7qG2_choice_7qG2_000, __D0menu
-6	120	205	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	120	205	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	122	205	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	123	205		jmp __ASM_Label_982
-6	122	207	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	123	207		mov __signed_stack_001startupMenu, __startupMenu_7qG2_INmenu_7qG2_000
-6	122	209	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	123	209	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	124	209		set __D0startupMenu, 2
-6	123	212	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	124	212		cmp 4, __D0startupMenu, __signed_stack_001startupMenu, __D0startupMenu
-6	124	216	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	125	216		brtst 4, __ASM_Label_985, __D0startupMenu
-6	124	219	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	125	219		set __signed_stack_001startupMenu, 1
-6	124	222	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	124	222	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	125	222		strcat __strbufstartupMenu, __constStr0023
-6	124	226	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	125	226		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	124	231	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	125	231	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	126	231		set __signed_stack_001startupMenu, 2
-6	125	234	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	125	234	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	126	234		strcat __strbufstartupMenu, __constStr0024
-6	125	238	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	126	238		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	125	243	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	126	243	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	127	243		set __signed_stack_001startupMenu, 3
-6	126	246	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	126	246	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	127	246		strcat __strbufstartupMenu, __constStr0021
-6	126	250	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	127	250		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	126	255	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	127	255	#line 127 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	255		set __signed_stack_001startupMenu, 4
-6	127	258	#line 127 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	127	258	#line 127 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	258		strcat __strbufstartupMenu, __constStr0025
-6	127	262	#line 127 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	262		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
-6	127	267	#line 127 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	267	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	129	267		set __menu_7qG2_numChoices_7qG2_000, 3
-6	128	270	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	270	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	129	270		mov __menu_7qG2_menuDisp_7qG2_000, __startupMenu_7qG2_output_7qG2_000
-6	128	272	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	129	272		set __menu_7qG2_titleX_7qG2_000, 12
-6	128	275	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	275	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	129	275		subcall menu, __menu_return
-6	128	277	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	129	277		mov __startupMenu_7qG2_choice_7qG2_000, __D0menu
-6	128	279	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	128	279	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	130	279	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	130	279	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	130	279	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+2	58	279	#line 58 "C:\Github\NXC_Source\.\+Menu.nxc"
+2	59	279		subret __menu_return
+3	43	0	#line 43 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	44	0		mov __signed_stack_001make, __make_7qG2_INchoice_7qG2_000
+3	43	2	#line 43 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	44	2	#line 44 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	45	2		set __D0make, 0
+3	44	5	#line 44 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	45	5		cmp 4, __D0make, __signed_stack_001make, __D0make
+3	45	9	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	9		brtst 4, __ASM_Label_762, __D0make
+3	45	12	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	12		set __make_7qG2_i_7qG2_002, 0
+3	45	15	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	45	15	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	15		mov __signed_stack_001make, __make_7qG2_i_7qG2_002
+3	45	17	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	45	17	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	17		set __D0make, 5
+3	45	20	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	20		cmp 0, __D0make, __signed_stack_001make, __D0make
+3	45	24	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	24		brtst 4, __ASM_Label_764, __D0make
+3	45	27	#line 45 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	46	27		jmp __ASM_Label_765
+3	46	29	#line 46 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	47	29		add __make_7qG2_i_7qG2_002, __make_7qG2_i_7qG2_002, __constVal1
+3	47	33	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	33		jmp __ASM_Label_763
+3	47	35	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	35		set __make_7qG2_j_7qG2_004, 0
+3	47	38	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	47	38	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	38		mov __signed_stack_001make, __make_7qG2_j_7qG2_004
+3	47	40	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	47	40	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	40		set __D0make, 9
+3	47	43	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	43		cmp 0, __D0make, __signed_stack_001make, __D0make
+3	47	47	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	47		brtst 4, __ASM_Label_772, __D0make
+3	47	50	#line 47 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	48	50		jmp __ASM_Label_773
+3	48	52	#line 48 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	49	52		add __make_7qG2_j_7qG2_004, __make_7qG2_j_7qG2_004, __constVal1
+3	50	56	#line 50 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	51	56		jmp __ASM_Label_771
+3	52	58	#line 52 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	53	58		jmp __ASM_Label_774
+3	52	60	#line 52 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	53	60	#line 53 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	54	60		jmp __ASM_Label_766
+3	53	62	#line 53 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	56	62	#line 56 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	56	62	#line 56 "C:\Github\NXC_Source\#GameOfLife.nxc"
+3	57	62		subret __make_return
+4	71	0	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	72	0		set __draw_7qG2_i_7qG2_001, 1
+4	71	3	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	71	3	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	72	3		mov __signed_stack_001draw, __draw_7qG2_i_7qG2_001
+4	71	5	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	71	5	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	72	5		set __D0draw, 65
+4	71	8	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	72	8		cmp 0, __D0draw, __signed_stack_001draw, __D0draw
+4	71	12	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	72	12		brtst 4, __ASM_Label_818, __D0draw
+4	71	15	#line 71 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	72	15		jmp __ASM_Label_819
+4	72	17	#line 72 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	73	17		add __draw_7qG2_i_7qG2_001, __draw_7qG2_i_7qG2_001, __constVal1
+4	73	21	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	21		jmp __ASM_Label_817
+4	73	23	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	23		set __draw_7qG2_j_7qG2_003, 1
+4	73	26	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	73	26	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	26		mov __signed_stack_001draw, __draw_7qG2_j_7qG2_003
+4	73	28	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	73	28	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	28		set __D0draw, 12
+4	73	31	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	31		cmp 0, __D0draw, __signed_stack_001draw, __D0draw
+4	73	35	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	35		brtst 4, __ASM_Label_826, __D0draw
+4	73	38	#line 73 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	74	38		jmp __ASM_Label_827
+4	74	40	#line 74 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	75	40		add __draw_7qG2_j_7qG2_003, __draw_7qG2_j_7qG2_003, __constVal1
+4	76	44	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	44		jmp __ASM_Label_825
+4	76	46	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	46		set __signed_stack_001draw, 0
+4	76	49	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	76	49	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	49		set __signed_stack_002draw, 0
+4	76	52	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	76	52	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	52		strcat __strbufdraw, __constStr0010
+4	76	56	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	56		set __D0draw, 0
+4	76	59	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	59		acquire __TextOutMutex
+4	76	60	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	60		mov __TextOutArgs.Location.X, __signed_stack_001draw
+4	76	62	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	62		mov __TextOutArgs.Location.Y, __signed_stack_002draw
+4	76	64	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	64		mov __TextOutArgs.Options, __D0draw
+4	76	66	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	66		mov __TextOutArgs.Text, __strbufdraw
+4	76	68	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	68		syscall 13, __TextOutArgs
+4	76	71	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	71		mov __D0draw, __TextOutArgs.Result
+4	76	73	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	77	73		release __TextOutMutex
+4	76	74	#line 76 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	79	74	#line 79 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	80	74		jmp __ASM_Label_828
+4	79	76	#line 79 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	82	76	#line 82 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	83	76		jmp __ASM_Label_820
+4	82	78	#line 82 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	82	78	#line 82 "C:\Github\NXC_Source\#GameOfLife.nxc"
+4	83	78		subret __draw_return
+5	85	0	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	86	0		set __stepForward_7qG2_i_7qG2_001, 1
+5	85	3	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	85	3	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	86	3		mov __signed_stack_001stepForward, __stepForward_7qG2_i_7qG2_001
+5	85	5	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	85	5	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	86	5		set __D0stepForward, 65
+5	85	8	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	86	8		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	85	12	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	86	12		brtst 4, __ASM_Label_840, __D0stepForward
+5	85	15	#line 85 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	86	15		jmp __ASM_Label_841
+5	86	17	#line 86 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	87	17		add __stepForward_7qG2_i_7qG2_001, __stepForward_7qG2_i_7qG2_001, __constVal1
+5	87	21	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	21		jmp __ASM_Label_839
+5	87	23	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	23		set __stepForward_7qG2_j_7qG2_003, 1
+5	87	26	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	87	26	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	26		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
+5	87	28	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	87	28	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	28		set __D0stepForward, 12
+5	87	31	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	31		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	87	35	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	35		brtst 4, __ASM_Label_848, __D0stepForward
+5	87	38	#line 87 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	88	38		jmp __ASM_Label_849
+5	88	40	#line 88 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	89	40		add __stepForward_7qG2_j_7qG2_003, __stepForward_7qG2_j_7qG2_003, __constVal1
+5	89	44	#line 89 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	90	44		jmp __ASM_Label_847
+5	89	46	#line 89 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	90	46		set __stepForward_7qG2_neighbors_7qG2_000, 0
+5	89	49	#line 89 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	89	49	#line 89 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	90	49	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	91	49		mov __stepForward_7qG2_k_7qG2_005, __constValNeg1
+5	90	51	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	90	51	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	91	51		mov __signed_stack_001stepForward, __stepForward_7qG2_k_7qG2_005
+5	90	53	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	90	53	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	91	53		set __D0stepForward, 2
+5	90	56	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	91	56		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	90	60	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	91	60		brtst 4, __ASM_Label_858, __D0stepForward
+5	90	63	#line 90 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	91	63		jmp __ASM_Label_859
+5	91	65	#line 91 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	92	65		add __stepForward_7qG2_k_7qG2_005, __stepForward_7qG2_k_7qG2_005, __constVal1
+5	92	69	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	69		jmp __ASM_Label_857
+5	92	71	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	71		set __signed_stack_001stepForward, 3000
+5	92	74	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	92	74	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	74		set __signed_stack_002stepForward, 100
+5	92	77	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	92	77	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	77		set __signed_stack_003stepForward, 4
+5	92	80	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	92	80	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	80		set __D0stepForward, 0
+5	92	83	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	83		acquire __SPTArgsMutex
+5	92	84	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	84		mov __SPTArgs.Frequency, __signed_stack_001stepForward
+5	92	86	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	86		mov __SPTArgs.Duration, __signed_stack_002stepForward
+5	92	88	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	88		mov __SPTArgs.Volume, __signed_stack_003stepForward
+5	92	90	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	90		mov __SPTArgs.Loop, __D0stepForward
+5	92	92	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	92		syscall 10, __SPTArgs
+5	92	95	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	95		mov __D0stepForward, __SPTArgs.Result
+5	92	97	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	97		release __SPTArgsMutex
+5	92	98	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	92	98	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	98		set __Wait_7qG2_ms_7qG2_000_inline_stepForward, 125
+5	92	101	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	8771	101	#line 8771 "NXCDefs.h"
+5	8772	101		waitv __Wait_7qG2_ms_7qG2_000_inline_stepForward
+5	8771	103	#line 8771 "NXCDefs.h"
+5	92	103	#line 92 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	103	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	94	103		mov __stepForward_7qG2_l_7qG2_007, __constValNeg1
+5	93	105	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	105	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	94	105		mov __signed_stack_001stepForward, __stepForward_7qG2_l_7qG2_007
+5	93	107	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	93	107	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	94	107		set __D0stepForward, 2
+5	93	110	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	94	110		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	93	114	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	94	114		brtst 4, __ASM_Label_876, __D0stepForward
+5	93	117	#line 93 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	94	117		jmp __ASM_Label_877
+5	94	119	#line 94 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	95	119		add __stepForward_7qG2_l_7qG2_007, __stepForward_7qG2_l_7qG2_007, __constVal1
+5	95	123	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	123		jmp __ASM_Label_875
+5	95	125	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	125		mov __signed_stack_001stepForward, __stepForward_7qG2_k_7qG2_005
+5	95	127	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	95	127	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	127		set __D0stepForward, 0
+5	95	130	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	130		cmp 4, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	95	134	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	134		brtst 4, __ASM_Label_884, __D0stepForward
+5	95	137	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	137		mov __signed_stack_001stepForward, __stepForward_7qG2_l_7qG2_007
+5	95	139	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	95	139	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	139		set __D0stepForward, 0
+5	95	142	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	142		cmp 4, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	95	146	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	146		brtst 4, __ASM_Label_885, __D0stepForward
+5	95	149	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	149		add __stepForward_7qG2_l_7qG2_007, __stepForward_7qG2_l_7qG2_007, __constVal1
+5	95	153	#line 95 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	153	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	153	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	153	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	153	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	153	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	153		add __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003, __stepForward_7qG2_l_7qG2_007
+5	96	157	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	157	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	157		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
+5	96	161	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	161	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	161	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	161	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	161		add __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001, __stepForward_7qG2_k_7qG2_005
+5	96	165	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	165	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	165		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
+5	96	169	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	169		mov __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
+5	96	171	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	171	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	171		index __DU0stepForward, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward
+5	96	175	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	96	175	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	97	175		add __stepForward_7qG2_neighbors_7qG2_000, __stepForward_7qG2_neighbors_7qG2_000, __DU0stepForward
+5	96	179	#line 96 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	99	179	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	100	179		jmp __ASM_Label_878
+5	99	181	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	99	181	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	100	181		jmp __ASM_Label_860
+5	99	183	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	99	183	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	100	183		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
+5	99	185	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	99	185	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	100	185		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
+5	99	189	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	100	189		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
+5	99	191	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	99	191	#line 99 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	100	191		index __D0stepForward, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
+5	100	195	#line 100 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	101	195	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	195		tst 5, __D0stepForward, __D0stepForward
+5	101	198	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	198		brtst 4, __ASM_Label_902, __D0stepForward
+5	101	201	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	201		mov __signed_stack_001stepForward, __stepForward_7qG2_neighbors_7qG2_000
+5	101	203	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	101	203	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	203		set __D0stepForward, 2
+5	101	206	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	206		cmp 0, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	101	210	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	210		brtst 4, __ASM_Label_905, __D0stepForward
+5	101	213	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	213		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
+5	101	215	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	101	215	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	215		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
+5	101	219	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	219		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
+5	101	221	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	101	221	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	221		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
+5	101	225	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	101	225	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	225		not __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
+5	101	228	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	101	228	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	228		set __D0stepForward, 0
+5	101	231	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	231		replace __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward, __D0stepForward
+5	101	236	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	236		replace __ArrHelper__stepForward_245_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward, __ArrHelper__stepForward_244_0
+5	101	241	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	241		replace area, area, __signed_stack_001stepForward, __ArrHelper__stepForward_245_0
+5	101	246	#line 101 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	246	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	246	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	246		mov __signed_stack_001stepForward, __stepForward_7qG2_neighbors_7qG2_000
+5	102	248	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	248	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	248		set __D0stepForward, 3
+5	102	251	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	251		cmp 1, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	102	255	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	255		brtst 4, __ASM_Label_916, __D0stepForward
+5	102	258	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	258		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
+5	102	260	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	260	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	260		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
+5	102	264	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	264		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
+5	102	266	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	266	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	266		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
+5	102	270	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	270	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	270		not __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
+5	102	273	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	102	273	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	273		set __D0stepForward, 0
+5	102	276	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	276		replace __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward, __D0stepForward
+5	102	281	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	281		replace __ArrHelper__stepForward_245_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward, __ArrHelper__stepForward_244_0
+5	102	286	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	103	286		replace area, area, __signed_stack_001stepForward, __ArrHelper__stepForward_245_0
+5	102	291	#line 102 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	104	291	#line 104 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	106	291	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	291		jmp __ASM_Label_925
+5	106	293	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	293		mov __signed_stack_001stepForward, __stepForward_7qG2_neighbors_7qG2_000
+5	106	295	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	106	295	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	295		set __D0stepForward, 3
+5	106	298	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	298		cmp 4, __D0stepForward, __signed_stack_001stepForward, __D0stepForward
+5	106	302	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	302		brtst 4, __ASM_Label_928, __D0stepForward
+5	106	305	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	305		mov __signed_stack_001stepForward, __stepForward_7qG2_j_7qG2_003
+5	106	307	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	106	307	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	307		index __ArrHelper__stepForward_245_0, area, __signed_stack_001stepForward
+5	106	311	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	311		mov __signed_stack_002stepForward, __stepForward_7qG2_i_7qG2_001
+5	106	313	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	106	313	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	313		index __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward
+5	106	317	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	106	317	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	317		not __unsigned_stack_003stepForward, __stepForward_7qG2_INcurrarea_7qG2_000
+5	106	320	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	106	320	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	320		set __D0stepForward, 1
+5	106	323	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	323		replace __ArrHelper__stepForward_244_0, __ArrHelper__stepForward_244_0, __unsigned_stack_003stepForward, __D0stepForward
+5	106	328	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	328		replace __ArrHelper__stepForward_245_0, __ArrHelper__stepForward_245_0, __signed_stack_002stepForward, __ArrHelper__stepForward_244_0
+5	106	333	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	107	333		replace area, area, __signed_stack_001stepForward, __ArrHelper__stepForward_245_0
+5	106	338	#line 106 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	108	338	#line 108 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	109	338	#line 109 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	110	338	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	111	338		jmp __ASM_Label_850
+5	110	340	#line 110 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	113	340	#line 113 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	114	340		jmp __ASM_Label_842
+5	113	342	#line 113 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	113	342	#line 113 "C:\Github\NXC_Source\#GameOfLife.nxc"
+5	114	342		subret __stepForward_return
+6	115	0	#line 115 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	116	0		arrbuild __startupMenu_7qG2_output_7qG2_000, __constStr0011, __constStr0011, __constStr0011, __constStr0011, __constStr0011, __constStr0011, __constStr0011, __constStr0011
+6	117	11	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	118	11		set __signed_stack_001startupMenu, 0
+6	117	14	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	117	14	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	118	14		strcat __strbufstartupMenu, __constStr0012
+6	117	18	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	118	18		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	117	23	#line 117 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	118	23	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	119	23		mov __signed_stack_001startupMenu, __startupMenu_7qG2_INmenu_7qG2_000
+6	118	25	#line 118 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	119	25	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	120	25		set __D0startupMenu, 0
+6	119	28	#line 119 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	120	28		cmp 4, __D0startupMenu, __signed_stack_001startupMenu, __D0startupMenu
+6	120	32	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	121	32		brtst 4, __ASM_Label_941, __D0startupMenu
+6	120	35	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	121	35		set __signed_stack_001startupMenu, 1
+6	120	38	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	120	38	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	121	38		strcat __strbufstartupMenu, __constStr0013
+6	120	42	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	121	42		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	120	47	#line 120 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	121	47	#line 121 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	122	47		set __signed_stack_001startupMenu, 2
+6	121	50	#line 121 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	121	50	#line 121 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	122	50		strcat __strbufstartupMenu, __constStr0014
+6	121	54	#line 121 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	122	54		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	121	59	#line 121 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	122	59	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	123	59		set __signed_stack_001startupMenu, 3
+6	122	62	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	122	62	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	123	62		strcat __strbufstartupMenu, __constStr0015
+6	122	66	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	123	66		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	122	71	#line 122 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	123	71	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	124	71		set __signed_stack_001startupMenu, 4
+6	123	74	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	123	74	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	124	74		strcat __strbufstartupMenu, __constStr0016
+6	123	78	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	124	78		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	123	83	#line 123 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	124	83	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	125	83		set __signed_stack_001startupMenu, 5
+6	124	86	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	124	86	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	125	86		strcat __strbufstartupMenu, __constStr0017
+6	124	90	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	125	90		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	124	95	#line 124 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	125	95	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	95		set __signed_stack_001startupMenu, 6
+6	125	98	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	125	98	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	98		strcat __strbufstartupMenu, __constStr0018
+6	125	102	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	102		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	125	107	#line 125 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	107	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	127	107		set __menu_7qG2_numChoices_7qG2_000, 5
+6	126	110	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	110	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	127	110		mov __menu_7qG2_menuDisp_7qG2_000, __startupMenu_7qG2_output_7qG2_000
+6	126	112	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	127	112		set __menu_7qG2_titleX_7qG2_000, 12
+6	126	115	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	115	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	127	115		subcall menu, __menu_return
+6	126	117	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	127	117		mov __startupMenu_7qG2_choice_7qG2_000, __D0menu
+6	126	119	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	126	119	#line 126 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	128	119	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	129	119		jmp __ASM_Label_960
+6	128	121	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	129	121		mov __signed_stack_001startupMenu, __startupMenu_7qG2_INmenu_7qG2_000
+6	128	123	#line 128 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	129	123	#line 129 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	130	123		set __D0startupMenu, 1
+6	129	126	#line 129 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	130	126		cmp 4, __D0startupMenu, __signed_stack_001startupMenu, __D0startupMenu
+6	130	130	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	131	130		brtst 4, __ASM_Label_963, __D0startupMenu
+6	130	133	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	131	133		set __signed_stack_001startupMenu, 1
+6	130	136	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	130	136	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	131	136		strcat __strbufstartupMenu, __constStr0019
+6	130	140	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	131	140		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	130	145	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	131	145	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	132	145		set __signed_stack_001startupMenu, 2
+6	131	148	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	131	148	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	132	148		strcat __strbufstartupMenu, __constStr0020
+6	131	152	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	132	152		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	131	157	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	132	157	#line 132 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	133	157		set __signed_stack_001startupMenu, 3
+6	132	160	#line 132 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	132	160	#line 132 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	133	160		strcat __strbufstartupMenu, __constStr0021
+6	132	164	#line 132 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	133	164		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	132	169	#line 132 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	133	169	#line 133 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	134	169		set __signed_stack_001startupMenu, 4
+6	133	172	#line 133 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	133	172	#line 133 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	134	172		strcat __strbufstartupMenu, __constStr0022
+6	133	176	#line 133 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	134	176		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	133	181	#line 133 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	134	181	#line 134 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	181		set __signed_stack_001startupMenu, 5
+6	134	184	#line 134 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	134	184	#line 134 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	184		strcat __strbufstartupMenu, __constStr0023
+6	134	188	#line 134 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	188		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	134	193	#line 134 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	193	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	136	193		set __menu_7qG2_numChoices_7qG2_000, 4
+6	135	196	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	196	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	136	196		mov __menu_7qG2_menuDisp_7qG2_000, __startupMenu_7qG2_output_7qG2_000
+6	135	198	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	136	198		set __menu_7qG2_titleX_7qG2_000, 12
+6	135	201	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	201	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	136	201		subcall menu, __menu_return
+6	135	203	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	136	203		mov __startupMenu_7qG2_choice_7qG2_000, __D0menu
+6	135	205	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	135	205	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	137	205	#line 137 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	138	205		jmp __ASM_Label_980
+6	137	207	#line 137 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	138	207		mov __signed_stack_001startupMenu, __startupMenu_7qG2_INmenu_7qG2_000
+6	137	209	#line 137 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	138	209	#line 138 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	139	209		set __D0startupMenu, 2
+6	138	212	#line 138 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	139	212		cmp 4, __D0startupMenu, __signed_stack_001startupMenu, __D0startupMenu
+6	139	216	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	140	216		brtst 4, __ASM_Label_983, __D0startupMenu
+6	139	219	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	140	219		set __signed_stack_001startupMenu, 1
+6	139	222	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	139	222	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	140	222		strcat __strbufstartupMenu, __constStr0024
+6	139	226	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	140	226		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	139	231	#line 139 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	140	231	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	141	231		set __signed_stack_001startupMenu, 2
+6	140	234	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	140	234	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	141	234		strcat __strbufstartupMenu, __constStr0025
+6	140	238	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	141	238		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	140	243	#line 140 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	141	243	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	142	243		set __signed_stack_001startupMenu, 3
+6	141	246	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	141	246	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	142	246		strcat __strbufstartupMenu, __constStr0022
+6	141	250	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	142	250		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	141	255	#line 141 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	142	255	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	255		set __signed_stack_001startupMenu, 4
+6	142	258	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	142	258	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	258		strcat __strbufstartupMenu, __constStr0026
+6	142	262	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	262		replace __startupMenu_7qG2_output_7qG2_000, __startupMenu_7qG2_output_7qG2_000, __signed_stack_001startupMenu, __strbufstartupMenu
+6	142	267	#line 142 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	267	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	144	267		set __menu_7qG2_numChoices_7qG2_000, 3
+6	143	270	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	270	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	144	270		mov __menu_7qG2_menuDisp_7qG2_000, __startupMenu_7qG2_output_7qG2_000
+6	143	272	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	144	272		set __menu_7qG2_titleX_7qG2_000, 12
+6	143	275	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	275	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	144	275		subcall menu, __menu_return
+6	143	277	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	144	277		mov __startupMenu_7qG2_choice_7qG2_000, __D0menu
+6	143	279	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	143	279	#line 143 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	145	279	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	145	279	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	145	279	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
 6	6896	279	#line 6896 "NXCDefs.h"
 6	6897	279	#pragma macro 6
 6	6897	279		acquire __PointOutMutex
@@ -1599,33 +1669,33 @@ Clump	Line	PC	Source
 6	6897	284		mov __PointOutArgs.Options, __constVal1
 6	6897	286		syscall 14, __PointOutArgs
 6	6897	289		release __PointOutMutex
-6	8675	290	#line 8675 "NXCDefs.h"
+6	8766	290	#line 8766 "NXCDefs.h"
 6	6896	290	#line 6896 "NXCDefs.h"
-6	130	290	#line 130 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	131	290	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	132	290		mov __D0startupMenu, __startupMenu_7qG2_choice_7qG2_000
-6	131	292	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	132	292		subret __startupMenu_return
-6	131	294	#line 131 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	135	294	#line 135 "C:\Github\NXC_Source\#GameOfLife.nxc"
-6	136	294		subret __startupMenu_return
-7	181	0	#line 181 "C:\Github\NXC_Source\#GameOfLife.nxc"
-7	181	0	#line 181 "C:\Github\NXC_Source\#GameOfLife.nxc"
-7	181	0	#line 181 "C:\Github\NXC_Source\#GameOfLife.nxc"
-7	182	0		arrinit ____area_3_2, __constVal0, __constVal2
-7	181	4	#line 181 "C:\Github\NXC_Source\#GameOfLife.nxc"
-7	182	4		arrinit __area_3, ____area_3_2, __constVal23
-7	181	8	#line 181 "C:\Github\NXC_Source\#GameOfLife.nxc"
-7	182	8		arrinit area, __area_3, __constVal35
-7	181	12	#line 181 "C:\Github\NXC_Source\#GameOfLife.nxc"
-7	182	12		subret ____initialize_global_data_return
+6	145	290	#line 145 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	146	290	#line 146 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	147	290		mov __D0startupMenu, __startupMenu_7qG2_choice_7qG2_000
+6	146	292	#line 146 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	147	292		subret __startupMenu_return
+6	146	294	#line 146 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	150	294	#line 150 "C:\Github\NXC_Source\#GameOfLife.nxc"
+6	151	294		subret __startupMenu_return
+7	220	0	#line 220 "C:\Github\NXC_Source\#GameOfLife.nxc"
+7	220	0	#line 220 "C:\Github\NXC_Source\#GameOfLife.nxc"
+7	220	0	#line 220 "C:\Github\NXC_Source\#GameOfLife.nxc"
+7	221	0		arrinit ____area_3_2, __constVal0, __constVal2
+7	220	4	#line 220 "C:\Github\NXC_Source\#GameOfLife.nxc"
+7	221	4		arrinit __area_3, ____area_3_2, __constVal66
+7	220	8	#line 220 "C:\Github\NXC_Source\#GameOfLife.nxc"
+7	221	8		arrinit area, __area_3, __constVal13
+7	220	12	#line 220 "C:\Github\NXC_Source\#GameOfLife.nxc"
+7	221	12		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Github\NXC_Source\#GameOfLife.nxc
-1	senseButton	239	C:\Github\NXC_Source\.\.\+Button+-.nxc
-2	menu	505	C:\Github\NXC_Source\.\+Menu.nxc
-3	make	790	C:\Github\NXC_Source\#GameOfLife.nxc
-4	draw	854	C:\Github\NXC_Source\#GameOfLife.nxc
-5	stepForward	984	C:\Github\NXC_Source\#GameOfLife.nxc
-6	startupMenu	1296	C:\Github\NXC_Source\#GameOfLife.nxc
-7	__initialize_global_data	1592	C:\Github\NXC_Source\#GameOfLife.nxc
+1	senseButton	311	C:\Github\NXC_Source\.\.\+Button+-.nxc
+2	menu	577	C:\Github\NXC_Source\.\+Menu.nxc
+3	make	858	C:\Github\NXC_Source\#GameOfLife.nxc
+4	draw	922	C:\Github\NXC_Source\#GameOfLife.nxc
+5	stepForward	1002	C:\Github\NXC_Source\#GameOfLife.nxc
+6	startupMenu	1346	C:\Github\NXC_Source\#GameOfLife.nxc
+7	__initialize_global_data	1642	C:\Github\NXC_Source\#GameOfLife.nxc
