@@ -2,15 +2,19 @@
 //Joseph Dykstra
 //01-15-2013
 
+
 #include "+Menu.nxc"
-#define height  64
-#define width   100
+
+#define TX      12
+#define height  64   //64
+#define width   33  //100
 #define rndm 0
 #define rset 1
 
-bool area[width+2][height+2];
 
-const bool gliderGun[36][9]={
+//bool area[width+2][height+2][2];
+bool area[width+2][height+2][2];
+/*const bool gliderGun[36][9]={
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
@@ -19,41 +23,62 @@ const bool gliderGun[36][9]={
 {1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};
+{0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};*/
 
-void make(int INchoice)
+const byte gliderGun[5][9]=
+ {{0x00000000, 0x00000000, 0x00000000, 0x10000000, 0x00000000,}
+  {0x00000000, 0x00000000, 0x00000010, 0x10000000, 0x00000000,}
+  {0x00000000, 0x00001100, 0x00001100, 0x00000000, 0x00110000,}
+  {0x00000000, 0x00010001, 0x00001100, 0x00000000, 0x00110000,}
+  {0x11000000, 0x00100000, 0x10001100, 0x00000000, 0x00000000,}
+  {0x11000000, 0x00100010, 0x11000010, 0x10000000, 0x00000000,}
+  {0x00000000, 0x00100000, 0x10000000, 0x10000000, 0x00000000,}
+  {0x00000000, 0x00010001, 0x00000000, 0x00000000, 0x00000000,}
+  {0x00000000, 0x00001100, 0x00000000, 0x00000000, 0x00000000,}};
+
+void make(int INchoice,bool INwhicharea)
   {
-  bool temp[36][10];
-  if (INchoice==0) temp=gliderGun;
+  if (INchoice==0)
+    {
+    for (int i=0; i<36; i++)
+      {
+      for (int j=0; j<9; j++)
+        {
+        //area[i+1][j+1][INwhicharea]=gliderGun[i][j];
+        }
+      }
+    }
   }
 
-void initArea(bool rsetRndm)
+
+void initArea(bool rsetRndm, bool INwhicharea)
   {
   for (int i=0; i<height+2; i++)
     {
     for (int j=0; j<width+2; j++)
       {
-      if (rsetRndm) area[j][i]=0;
-      else  area[j][i]=Random(2);
+      if (rsetRndm) area[j][i][INwhicharea]=0;
+      else          area[j][i][INwhicharea]=Random(3)%2;
       }
     }
   }
 
-void draw()
+
+void draw(bool INcurrarea, int INblksz)
   {
   for (int i=1; i<height+1; i++)
     {
     for (int j=1; j<width+1; j++)
       {
-      PointOut(j,i,area[j][i]*4);
+      RectOut(j-1,i-1,INblksz,INblksz,(-area[j][i][INcurrarea])*4+36);
       }
     }
   }
 
-void stepForward()
+
+void stepForward(bool INcurrarea)
   {
   int neighbors;
-  bool writeArea[width+2][height+2];
   for (int i=1; i<height+1; i++)
     {
     for (int j=1; j<width+1; j++)
@@ -64,102 +89,109 @@ void stepForward()
         for (int l=-1; l<2; l++)
           {
           if (k==0&&l==0) l++;
-          neighbors+=(area[j+l][i+k]);
+          neighbors+=(area[j+l][i+k][INcurrarea]);
           }
         }
-      /*
-      neighbors+=(area[j-1][i-1]);
-      neighbors+=(area[j-1][i  ]);
-      neighbors+=(area[j-1][i+1]);
-      neighbors+=(area[j  ][i-1]);
-      neighbors+=(area[j  ][i+1]);
-      neighbors+=(area[j+1][i-1]);
-      neighbors+=(area[j+1][i  ]);
-      neighbors+=(area[j+1][i+1]);
-      */
       if (area[j][i]) //LIVE CELL
         {
-        if (neighbors<2)  writeArea[j][i]=false; //Under population
-        if (neighbors>3)  writeArea[j][i]=false; //Over crowding
+        if (neighbors<2)  area[j][i][!INcurrarea]=false; //Under population
+        if (neighbors>3)  area[j][i][!INcurrarea]=false; //Over crowding
         }
       else            //DEAD CELL
         {
-        if (neighbors==3) writeArea[j][i]=true;  //Reproduction
+        if (neighbors==3) area[j][i][!INcurrarea]=true;  //Reproduction
         }
       }
     }
-  area=writeArea; //Will this work???
   }
+
+
+int startupMenu(int INmenu)
+  {
+  string output[8]={"","","","","","","",""};
+  int choice;
+  output[0]="GAME OF LIFE";
+  if (INmenu==0)
+    {
+    output[1]="Choose:";
+    output[2]="Random";
+    output[3]="Gun";
+    output[4]="Glider";
+    output[5]="LWSS";
+    output[6]="Misc";
+    choice=menu(5, output, TX);
+    }
+  else if (INmenu==1)
+    {
+    output[1]="Speed:";
+    output[2]="XtraFast";
+    output[3]="Fast";
+    output[4]="Medium";
+    output[5]="Slow";
+    choice=menu(4, output, TX);
+    }
+  else if (INmenu==2)
+    {
+    output[1]="Size:";
+    output[2]="Small";
+    output[3]="Medium";
+    output[4]="Large";
+    choice=menu(3, output, TX);
+    }
+  ClearScreen();
+  return choice;
+  }
+
 
 task main()
   {
-  string output[8]={"","","","","","","",""};
-  int choice1;
-  int choice2;
+  int choice[3];
   int waitTime;
-  unsigned int ctick;
-  
-  output[0]="GAME OF LIFE";
-  output[1]="Choose:";
-  output[2]="Random";
-  output[3]="Gun";
-  output[4]="Glider";
-  output[5]="LWSS";
-  output[6]="Misc";
-  choice1=menu(5, output, 12);
-  ClearScreen();
-  //output={"","","","","","","",""}; //doesnt work, idk why...
-  output[0]="GAME OF LIFE";
-  output[1]="Choose:";
-  output[2]="Ultra Fast";
-  output[3]="Fast";
-  output[4]="Medium";
-  output[5]="Slow";
-  output[6]="";
-  choice2=menu(4, output, 12);
-  ClearScreen();
+  bool currArea=0;
+  for (int i=0; i<3; i++) choice[i]=startupMenu(i);
   TextOut(32,20,"Loading",0);
-  if (choice1==0) {initArea(rndm); ctick=CurrentTick(); srand(ctick);}
-  else            {initArea(rset); make(choice1);}
-  waitTime=choice2*100;
-  ClearScreen();
-  while(1)
+  if (choice[0]==0)                  //If chose random
     {
-    stepForward();
-    draw();
-    Wait(waitTime);
+    unsigned int ctick=CurrentTick();//Get current tick
+    srand(ctick);                    //Seed randomizer
+    //initArea(rndm,currArea);         //Randomize
+    }
+  else                               //If chose preset
+    {
+    //initArea(rset,currArea);         //Reset area
+    make(choice[0],currArea);        //Create preset
+    }
+  waitTime=choice[1]*100;
+  const int blksz=(choice[2]*2+1);
+  ClearScreen();
+  SetLongAbort(false);
+  while(true)
+    {
+    draw(currArea,blksz);
+    currArea=!currArea;
+    stepForward(currArea);
+    //Wait(waitTime);
     }
   }
   
+/*
+byte toByte(bool INbools)
+{
+  byte OUTbyte = \0;
+  for(int i = 0; i < 8; ++i) OUTbyte|=((unsigned char) INbools[i]) << i;
+  return OUTbyte;
+}
+*/
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+/*
+neighbors+=(area[j-1][i-1]);
+neighbors+=(area[j-1][i  ]);
+neighbors+=(area[j-1][i+1]);
+neighbors+=(area[j  ][i-1]);
+neighbors+=(area[j  ][i+1]);
+neighbors+=(area[j+1][i-1]);
+neighbors+=(area[j+1][i  ]);
+neighbors+=(area[j+1][i+1]);
+*/
