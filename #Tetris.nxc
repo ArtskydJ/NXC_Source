@@ -130,25 +130,25 @@ bool floorKickUsed =0;
 //START  ARRAYS
 bool area[width][height+2]; //Two hidden rows
 char chnc[8];
-char nextPiece[previewPieces];
+int nextPiece[previewPieces];
 // END   ARRAYS
 
-char showDisp      =0;
-char viewDbg       =0;
-char gametype      =0;
-char gamespeed     =0;
-char delaytime     =0;
-char lockDelay     =0;
-char prevRht       =0;
-char prevLft       =0;
-char prevDrp       =0;
-char prevRot       =0;
-char currentPiece  =0;
-char currentRotate =0;
-char tetLR         =0;
-char tetUD         =0;
-char drop          =0;
-char prevWaited    =0;
+int showDisp      =0;
+int viewDbg       =0;
+int gametype      =0;
+int gamespeed     =0;
+int delaytime     =0;
+int lockDelay     =0;
+int prevRht       =0;
+int prevLft       =0;
+int prevDrp       =0;
+int prevRot       =0;
+int currentPiece  =0;
+int currentRotate =0;
+int tetLR         =0;
+int tetUD         =0;
+int drop          =0;
+int prevWaited    =0;
 float speedup     =0;
 long score        =0;
 string msg        ="";
@@ -305,17 +305,17 @@ void selectGame(bool INfastmode)
 //  \\_//    \\_//    \\_//    \\_//    \\_//    \\_//    \\_//    \\_//
 //   \_/      \_/      \_/      \_/      \_/      \_/      \_/      \_/
 
-bool move(char INdir, char INud)
+bool move(int INdir, int INud)
   {
-  char canMove=0;
-  char addLR  =0;
-  char addUD  =0;
-  char tempLR =0;
-  char tempUD =0;
+  int canMove=0;
+  int addLR  =0;
+  int addUD  =0;
+  int tempLR =0;
+  int tempUD =0;
   if      (INdir==dwn) addUD=-1;
   else if (INdir==lft) addLR= 1;
   else if (INdir==rht) addLR=-1;
-  for (char i=0; i<4; i++)
+  for (int i=0; i<4; i++)
     {
     tempLR=tet[currentPiece+currentRotate][i  ]+tetLR+addLR;
     tempUD=tet[currentPiece+currentRotate][i+4]+INud +addUD;
@@ -331,17 +331,17 @@ bool move(char INdir, char INud)
 
 bool rotate()
   {
-  char canRotate=1, addRot=0, tempLR, tempUD, addUD, addLR;
+  int canRotate=1, addRot=0, tempLR, tempUD, addUD, addLR;
   if (currentRotate>=3) addRot=-3;
   else                  addRot=1;
-  for (char i=0; (i<3 && canRotate>0); i++)
+  for (int i=0; (i<3 && canRotate>0); i++)
     {
     if (i==0) addUD= 0;  //1st  Level
     if (i==1) addUD=-1;  //2nd  D
     if (i==2) addUD= 1;  //3rd  U
     if (i==3) addUD=-2*(currentPiece*4==Itet);  //4th D if I tetromino
     if (i==4) addUD= 2*(currentPiece*4==Itet);  //5th U if I tetromino
-    for (char j=0; (j<5 && canRotate>0); j++)
+    for (int j=0; (j<5 && canRotate>0); j++)
       {
       if (j==0) addLR= 0;  //1st  Center
       if (j==1) addLR=-1;  //2nd  L
@@ -349,7 +349,7 @@ bool rotate()
       if (j==3) addLR=-2*(currentPiece*4==Itet);  //4th L if I tetromino
       if (j==4) addLR= 2*(currentPiece*4==Itet);  //5th R if I tetromino
       canRotate=0;
-      for (char k=0; k<4; k++)
+      for (int k=0; k<4; k++)
         {
         tempLR=tet[currentPiece+currentRotate+addRot][k  ]+tetLR+addLR;
         tempUD=tet[currentPiece+currentRotate+addRot][k+4]+tetUD+addUD;
@@ -372,13 +372,13 @@ bool rotate()
   }
 
 
-void displayTetromino(char charet,char INrot, char INlr, char INud, char INdrawMode)
+void displayTetromino(int INtet,int INrot, int INlr, int INud, int INdrawMode)
   {
-  char tempLR,tempUD;
-  for (char i=0; i<4; i++)
+  int tempLR,tempUD;
+  for (int i=0; i<4; i++)
     {
-    tempLR=INlr+(tet[charet+INrot][i  ])*blksz;
-    tempUD=INud+(tet[charet+INrot][i+4])*blksz;
+    tempLR=INlr+(tet[INtet+INrot][i  ])*blksz;
+    tempUD=INud+(tet[INtet+INrot][i+4])*blksz;
     if      (INdrawMode==0) RectOut(tempUD,tempLR,blksz,blksz,32);
     else if (INdrawMode==1) RectOut(tempUD,tempLR,blksz,blksz,0);
     else if (INdrawMode==2) CircleOut(tempUD+blksz/2,tempLR+blksz/2,blksz/2-1,32);
@@ -391,10 +391,10 @@ void displayTetromino(char charet,char INrot, char INlr, char INud, char INdrawM
 //        _|_  /    \__/
 //       ================
 
-bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char INwaited)
+bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, int INwaited)
   {
   bool temppiecemoving=true; //return this
-  char refresh=0; //refresh the screen: 0=no, 1=piece, 2=score+piece, 3=everything
+  int refresh=0; //refresh the screen: 0=no, 1=piece, 2=score+piece, 3=everything
   
 //INPUT
 //INPUT
@@ -519,7 +519,7 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
     if      (refresh==1) RectOut(tetUD*blksz,tetLR*blksz,blksz*5,blksz*4,36); //Fill+Invert
     else if (refresh==2) RectOut(0,0,height*blksz,width*blksz,36); //Fill+Invert
     else if (refresh==3) ClearScreen();
-    char tempUD=tetUD;
+    int tempUD=tetUD;
     bool tempLoop=1;
     //Ghost Piece
     while (tempLoop)
@@ -534,8 +534,8 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
       }
     //AREA
     LineOut(0, width*blksz+1,99,width*blksz+1,0);
-    char i;
-    char j;
+    int i;
+    int j;
     for (i=0; i<height; i++)
       {
       for (j=0; j<width; j++)
@@ -580,19 +580,19 @@ bool inputOutput(bool INallowInput, bool INallowOutput, bool INallowDraw, char I
 
 void initArrays()
   {
-  for (char i=0; i<height; i++)
+  for (int i=0; i<height; i++)
     {
-    for (char j=0; j<width; j++)
+    for (int j=0; j<width; j++)
       {
       area[j][i]=0;
       }
     }
-  for (char i=0; i<3; i++)
+  for (int i=0; i<3; i++)
     {
-    char pieceToCreate=prob;
-    char rndm=Random(chnc[prob]);
-    char add=0;
-    for (char j=0; (j<=Ztet)&&(pieceToCreate==prob); j++)
+    int pieceToCreate=prob;
+    int rndm=Random(chnc[prob]);
+    int add=0;
+    for (int j=0; (j<=Ztet)&&(pieceToCreate==prob); j++)
       {
       add+=chnc[j];
       if (add>rndm) pieceToCreate=j*4;
@@ -630,10 +630,10 @@ void resetVars()
 
 bool pieceCreate()
   {
-  char pieceToCreate=prob;
-  char rndm=Random(chnc[prob]);
-  char add=0;
-  for (char j=0; (j<=Ztet)&&(pieceToCreate==prob); j++)
+  int pieceToCreate=prob;
+  int rndm=Random(chnc[prob]);
+  int add=0;
+  for (int j=0; (j<=Ztet)&&(pieceToCreate==prob); j++)
     {
     add+=chnc[j];
     if (add>rndm) pieceToCreate=j*4;
@@ -647,7 +647,7 @@ bool pieceCreate()
     Wait(1000);
     }
   currentPiece=nextPiece[0];
-  for (char i=1; i<previewPieces; i++)
+  for (int i=1; i<previewPieces; i++)
     {
     //PlayTone(1000,500);Wait(500);
     nextPiece[i-1]=nextPiece[i];
@@ -658,8 +658,8 @@ bool pieceCreate()
 
 void pieceSetInto()
   {
-  char tempLR,tempUD;
-  for (char i=0; i<4; i++)
+  int tempLR,tempUD;
+  for (int i=0; i<4; i++)
     {
     tempLR=tet[currentPiece+currentRotate][i  ]+tetLR;
     tempUD=tet[currentPiece+currentRotate][i+4]+tetUD;
@@ -668,11 +668,11 @@ void pieceSetInto()
   }
   
   
-char clearFullRows()
+int clearFullRows()
   {
-  char blocksInRow=0;
-  char numOfFilledLines=0;
-  char i,j,k;
+  int blocksInRow=0;
+  int numOfFilledLines=0;
+  int i,j,k;
   for (i=0; i<height+2; i++)           //Check All Rows
     {
     blocksInRow=0;
@@ -686,7 +686,7 @@ char clearFullRows()
         {
         for (j=0; j<width; j++)
           {
-          char temp=area[j][k];
+          int temp=area[j][k];
           //SendResponseNumber(9,temp);
           area[j][k]=area[j][k+1];
           }
@@ -741,10 +741,10 @@ bool gameEnd()
 //       |_/  |__  |__)  \__/  \__/
 //      ============================
 /*
-void debugStream(char INchar)
+void debugStream(int INint)
   {
   bool insideLoop=0;
-  for (char i=0;i<5&&!insideLoop;i++) //check if any debugs are allowed
+  for (int i=0;i<5&&!insideLoop;i++) //check if any debugs are allowed
     {
     insideLoop+=allowDbg[i];
     }
@@ -773,7 +773,7 @@ void debugStream(char INchar)
       str1=disp;
       str2=accesshigh;
       str3=NumToStr(speedup);
-      str4=NumToStr(INchar); //  i/wait
+      str4=NumToStr(INint); //  i/wait
       msg1="  dsp ";
       msg2="  ahi ";
       msg3="  sdp ";
@@ -834,7 +834,7 @@ void debugStream(char INchar)
   }
 
 
-void debug(char INmode)
+void debug(int INmode)
   {
   prevQuadClear=false;
   prevLft=0;
@@ -846,9 +846,9 @@ void debug(char INmode)
   
   if (INmode==2) //ClearFullRows()
     {
-    for (char i=0; i<height; i++)
+    for (int i=0; i<height; i++)
       {
-      for (char j=0; j<width; j++)
+      for (int j=0; j<width; j++)
         {
         area[j][i]=(Random(8)!=0);
         }
@@ -856,7 +856,7 @@ void debug(char INmode)
     //PlayTone(1000,800);Wait(1000);
     inputOutput(false,false,true,0);
     Wait(3000);
-    char i=clearFullRows();
+    int i=clearFullRows();
     ClearScreen();
     Wait(250);
     inputOutput(false,false,true,0);
@@ -866,7 +866,7 @@ void debug(char INmode)
     
   else if (INmode==3) //displayTetromino()
     {
-    char tets,angl,k;
+    int tets,angl,k;
     for (tets=0; tets<7; tets++)
       {
       for (angl=0; angl<4; angl++)
@@ -879,7 +879,7 @@ void debug(char INmode)
       }
     }
 
-  else if (INmode==4) //peiceSetcharo()
+  else if (INmode==4) //peiceSetinto()
     {
     pieceCreate();
     tetUD=10;
@@ -936,7 +936,7 @@ void debug(char INmode)
   
 task main()
   {
-  char mode=defaultmode;
+  int mode=defaultmode;
   /*while (!ButtonPressed(3))
     {
     mode=senseButton(mode,true,1,6,false);
@@ -962,7 +962,7 @@ task main()
         piecemoving=move(dwn,tetUD); //If a piece was made where it...
         alive=piecemoving;           //can't move down, end the game.
         if (alive) ClearScreen();
-        for (char i=0; piecemoving; i++) //waiting
+        for (int i=0; piecemoving; i++) //waiting
           {
           piecemoving=inputOutput(true,true,true,i);
           Wait(10);
@@ -983,7 +983,7 @@ task main()
 
 /*
 BUGS
-crashes a few min into the game
+crashes a few min into the game (NOT DUE TO MEMORY)
 cant see piece well while soft dropping
 
 
