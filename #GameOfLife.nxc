@@ -6,82 +6,124 @@
 #include "+Menu.nxc"
 
 #define TX      12
-#define height  64  //64
-#define width   13  //104
+#define height  6  //64
+#define width   10 //100
 #define rndm  0
 #define rset  1
-#define mode  0
+#define modeMenu  0
+#define modeDraw  1
 
 
-//bool area[width+2][height+2][2];
-byte area[width][height+2][2];
+byte area[width+2][height+2];
 
-/*
-const byte gliderGun[5][9]=
- {{0x00000000,0x00000000,0x00000000,0x10000000,0x00000000}
-  {0x00000000,0x00000000,0x00000010,0x10000000,0x00000000}
-  {0x00000000,0x00001100,0x00001100,0x00000000,0x00110000}
-  {0x00000000,0x00010001,0x00001100,0x00000000,0x00110000}
-  {0x11000000,0x00100000,0x10001100,0x00000000,0x00000000}
-  {0x11000000,0x00100010,0x11000010,0x10000000,0x00000000}
-  {0x00000000,0x00100000,0x10000000,0x10000000,0x00000000}
-  {0x00000000,0x00010001,0x00000000,0x00000000,0x00000000}
-  {0x00000000,0x00001100,0x00000000,0x00000000,0x00000000}};
 
-const byte glider[3]=
- {0x00010000,
-  0x00001000,
-  0x00111000};
+const byte gliderGun[36][9]=
+ {{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
+  {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+  {0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+  {1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+  {1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
+  {0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
+  {0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+  {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};
+
+const byte glider[3][5]=
+ {{0,0,0,1,0}
+  {0,0,0,0,1}
+  {0,0,1,1,1}};
   
-const byte lightWeightSpaceShip[4]=
- {0x00010010,
-  0x00000001,
-  0x00010001,
-  0x00001111};*/
+const byte lightWeightSpaceShip[5][4]=
+ {{1,0,0,1,0}
+  {0,0,0,0,1}
+  {1,0,0,0,1}
+  {0,1,1,1,1}};
+
+const byte blinker[3][3]=
+ {{0,1,0}
+  {0,1,0}
+  {0,1,0}};
   
   
-void make(int INchoice,bool INwhicharea)
+void make(int INchoice)
   {
-  if (INchoice==0)
+  if (INchoice==1)
     {
     for (int i=0; i<5; i++)
       {
       for (int j=0; j<9; j++)
         {
-        //area[i+1][j+1][INwhicharea]=gliderGun[i][j];
+        area[i+1][j+1]=gliderGun[i][j];
+        }
+      }
+    }
+  else if (INchoice==2)
+    {
+    for (int i=0; i<3; i++)
+      {
+      for (int j=0; j<5; j++)
+        {
+        area[i+1][j+1]=glider[i][j];
+        }
+      }
+    }
+  else if (INchoice==3)
+    {
+    for (int i=0; i<5; i++)
+      {
+      for (int j=0; j<4; j++)
+        {
+        area[i+1][j+1]=lightWeightSpaceShip[i][j];
+        }
+      }
+    }
+  else if (INchoice==4)
+    {
+    for (int i=0; i<3; i++)
+      {
+      for (int j=0; j<3; j++)
+        {
+        area[i+1][j+1]=blinker[i][j];
         }
       }
     }
   }
 
 
-void initArea(bool rsetRndm, bool INwhicharea)
+void initArea(bool rsetRndm)
   {
   for (int i=0; i<height+2; i++)
     {
     for (int j=0; j<width; j++)
       {
-      if (rsetRndm) area[j][i][INwhicharea]=0;
-      else          area[j][i][INwhicharea]=Random(UCHAR_MAX);
+      if (rsetRndm) area[j][i]=0;
+      else          area[j][i]=Random(2);
       }
     }
   }
 
 
-void draw(bool INcurrarea, int INblksz)
+void draw(int INb)
   {
   for (int i=1; i<height+1; i++)
     {
     for (int j=1; j<width-1; j++)
       {
-      //RectOut(j-1,i-1,INblksz,INblksz,(-area[j][i][INcurrarea])*4+36);
-      TextOut(0,0,"lolz",0);
+      if (modeDraw)
+        {
+        if (area[j][i]) RectOut((j-1)*INb,(i-1)*INb,INb,INb,32); //FILL
+        else            RectOut((j-1)*INb,(i-1)*INb,INb,INb,36); //FILL+INVERT
+        }
+      else
+        {
+        NumOut((j-1)*INb,(i-1)*INb,(area[j][i]),0);
+        }
       }
     }
   }
 
 
-void stepForward(bool INcurrarea)
+void stepForward()
   {
   int neighbors;
   for (int i=1; i<height+1; i++)
@@ -89,116 +131,118 @@ void stepForward(bool INcurrarea)
     for (int j=1; j<width-1; j++)
       {
       neighbors=0;
-      for (int k=-1; k<2; k++)
+      for (int k=-1; k<=1; k++)
         {
-        PlayTone(3000,100);Wait(125);
-        for (int l=-1; l<2; l++)
+        //PlayTone(3000,100);Wait(125);
+        for (int l=-1; l<=1; l++) //Counts itself
           {
-          if (k==0&&l==0) l++;
-          neighbors+=(area[j+l][i+k][INcurrarea]);
+          //if (k==0&&l==0) l++;
+          if ( (area[j+l][i+k]==1) //If existent or going to be destroyed
+            || (area[j+l][i+k]==2) ) neighbors++;
           }
         }
+      /*SendResponseNumber(9,neighbors);
+      Wait(60);*/
       if (area[j][i]) //LIVE CELL
         {
-        if (neighbors<2)  area[j][i][!INcurrarea]=false; //Under population
-        if (neighbors>3)  area[j][i][!INcurrarea]=false; //Over crowding
+        if (neighbors<3)  area[j][i]=2; //Under population
+        if (neighbors>4)  area[j][i]=2; //Over crowding
         }
       else            //DEAD CELL
         {
-        if (neighbors==3) area[j][i][!INcurrarea]=true;  //Reproduction
+        if (neighbors==3) area[j][i]=3;  //Reproduction
         }
+      }
+    }
+  for (int i=0; i<height+1; i++)
+    {
+    for (int j=0; j<width+1; j++)
+      {
+      if (area[j][i]>=2) area[j][i]-=2;
       }
     }
   }
 
-/*
-int startupMenu(int INmenu)
+//*
+int startupMenu(int INmenu, int INmode)
   {
-  string output[8]={"","","","","","","",""};
-  int choice;
-  output[0]="GAME OF LIFE";
-  if (INmenu==0)
+  int mychoice;
+  if (modeMenu)
     {
-    output[1]="Choose:";
-    output[2]="Random";
-    output[3]="GlidrGun";
-    output[4]="Glider";
-    output[5]="LtWtSpSh";
-    output[6]="Misc";
-    choice=menu(5, output, TX);
+    string output[8]={"","","","","","","",""};
+    output[0]="GAME OF LIFE";
+    if (INmenu==0)
+      {
+      output[1]="Choose:";
+      output[2]="Random";
+      output[3]="GlidrGun";
+      output[4]="Glider";
+      output[5]="LtWtSpSh";
+      output[6]="Misc";
+      mychoice=menu(5, output, TX);
+      }
+    else if (INmenu==1)
+      {
+      output[1]="Speed:";
+      output[2]="XtraFast";
+      output[3]="Fast";
+      output[4]="Medium";
+      output[5]="Slow";
+      mychoice=menu(4, output, TX);
+      }
+    else if (INmenu==2)
+      {
+      output[1]="Size:";
+      output[2]="Small";
+      output[3]="Medium";
+      output[4]="Large";
+      mychoice=menu(3, output, TX);
+      }
     }
-  else if (INmenu==1)
+  else
     {
-    output[1]="Speed:";
-    output[2]="XtraFast";
-    output[3]="Fast";
-    output[4]="Medium";
-    output[5]="Slow";
-    choice=menu(4, output, TX);
-    }
-  else if (INmenu==2)
-    {
-    output[1]="Size:";
-    output[2]="Small";
-    output[3]="Medium";
-    output[4]="Large";
-    choice=menu(3, output, TX);
+    if      (INmenu==0) mychoice=4; //Blinker
+    else if (INmenu==1) mychoice=3; //Slow
+    else if (INmenu==2) mychoice=2; //Large
     }
   ClearScreen();
-  return choice;
+  return mychoice;
   }
-*/
+//*/
 
 task main()
   {
   int choice[3];
   int waitTime;
   bool currArea=0;
-  if (mode) {for (int i=0; i<3; i++) {choice[i]=startupMenu(i);}}
-  else
-    {
-    choice[0]=
-    choice[1]=
-    choice[2]=
-    }
+  for (int i=0; i<3; i++) {choice[i]=startupMenu(i,mode);}
   TextOut(32,20,"Loading",0);
   if (choice[0]==0)                  //If chose random
     {
     unsigned int ctick=CurrentTick();//Get current tick
     srand(ctick);                    //Seed randomizer
-    //initArea(rndm,currArea);         //Randomize
+    initArea(rndm);                  //Randomize
     }
-  else                               //If chose diff preset
+  else                         //If chose diff preset
     {
-    //initArea(rset,currArea);         //Reset area
-    make(choice[0],currArea);        //Create preset
+    initArea(rset);            //Reset area
+    make(choice[0]);           //Create preset
     }
-  waitTime=choice[1]*100;
+  waitTime=pow(10,choice[1]);
   const int blksz=(choice[2]*2+1);
   ClearScreen();
   SetLongAbort(false);
   Wait(1000);
   for (int gens=0; true; gens++)
     {
-    draw(currArea,blksz);
-    PlayTone(1000,250);Wait(250);
+    draw(blksz);
     currArea=!currArea;
-    stepForward(currArea);
-    PlayTone(1500,250);Wait(250);
-    //Wait(waitTime);
+    TextOut(0,56,"Loading",0);
+    stepForward();
+    Wait(waitTime);
+    ClearScreen();
     }
   }
-
-  
-/*
-byte toByte(bool INbools)
-{
-  byte OUTbyte = \0;
-  for(int i = 0; i < 8; ++i) OUTbyte|=((unsigned char) INbools[i]) << i;
-  return OUTbyte;
-}
-*/
-  
   
 /*
 neighbors+=(area[j-1][i-1]);
@@ -211,7 +255,6 @@ neighbors+=(area[j+1][i  ]);
 neighbors+=(area[j+1][i+1]);
 */
 
-
 /*
 const bool gliderGun[36][9]={
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
@@ -223,23 +266,4 @@ const bool gliderGun[36][9]={
 {0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}};
-*/
-
-
-/*
-
-I don't think conways game of life will work on the NXT.
- It throws OUT OF MEMORY errors (-5) and crashes a few steps into the loop.
- But hypothetically, it shouldn't ever need more memory than what it starts with.
- If I'm very careful...
-
-But I foresee an issue with checking the individual bits in the bytes,
- instead of reading bools (which are declared as the same size as a byte).
- The issue is:
-  If the currently checked bit is either the   first or last   bit,
-  then the program will have to check the       last or first  bit
-                            in either the   previous or next   byte.
-  This will make the code much more confusing,
-  but is probably what I will need to do.
-
 */
