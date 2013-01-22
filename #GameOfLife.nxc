@@ -164,7 +164,7 @@ void stepForward()
   }
 
 //*
-int startupMenu(int INmenu, int INmode)
+int startupMenu(int INmenu)
   {
   int mychoice;
   if (modeMenu)
@@ -202,7 +202,7 @@ int startupMenu(int INmenu, int INmode)
   else
     {
     if      (INmenu==0) mychoice=4; //Blinker
-    else if (INmenu==1) mychoice=3; //Slow
+    else if (INmenu==1) mychoice=0; //XtraFast
     else if (INmenu==2) mychoice=2; //Large
     }
   ClearScreen();
@@ -215,7 +215,7 @@ task main()
   int choice[3];
   int waitTime;
   bool currArea=0;
-  for (int i=0; i<3; i++) {choice[i]=startupMenu(i,mode);}
+  for (int i=0; i<3; i++) {choice[i]=startupMenu(i);}
   TextOut(32,20,"Loading",0);
   if (choice[0]==0)                  //If chose random
     {
@@ -237,10 +237,8 @@ task main()
     {
     draw(blksz);
     currArea=!currArea;
-    TextOut(0,56,"Loading",0);
     stepForward();
     Wait(waitTime);
-    ClearScreen();
     }
   }
   
