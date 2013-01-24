@@ -93,7 +93,6 @@ void snakeInOut()
     for (x=0;x<width;x++)
       {
       if (board[y*height+x]>0&&dead==false)
-        //{RectOut(x*b,59-y*b,b,b,0);}      //Hollow
         {RectOut(x*b,61-y*b,b-2,b-2,32);} //Filled
       if (board[y*height+x]<0)
         {CircleOut(x*b+1,62-y*b,(b-1)/2,32);}

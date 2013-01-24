@@ -607,7 +607,28 @@ void initArrays()
       }
     nextPiece[i]=pieceToCreate;
     }
-  }
+  showDisp      =0;
+  viewDbg       =0;
+  gametype      =0;
+  gamespeed     =0;
+  delaytime     =0;
+  lockDelay     =0;
+  prevRht       =0;
+  prevLft       =0;
+  prevDrp       =0;
+  prevRot       =0;
+  currentPiece  =0;
+  currentRotate =0;
+  tetLR         =0;
+  tetUD         =0;
+  drop          =0;
+  prevWaited    =0;
+  speedup       =0;
+  score        =0;
+  msg        ="";
+  disp       ="";
+  accesshigh ="";
+}
 
 
 void resetVars()
@@ -946,11 +967,11 @@ task main()
   if (mode==0||mode==1)
     {
     SetLongAbort(true);
-    ClearScreen();
     bool playagain=true;
     bool piecemoving;
     while (playagain)
       {
+      ClearScreen();
       selectGame(1);
       initArrays();
       selectGame(mode);

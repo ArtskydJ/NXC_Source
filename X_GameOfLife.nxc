@@ -6,18 +6,18 @@
 #include "+Menu.nxc"
 
 #define TX      12
-#define height  6  //64
-#define width   10 //100
+#define height  16
+#define width   25
 #define rndm  0
 #define rset  1
-#define modeMenu  0
-#define modeDraw  1
+#define modeMenu  true
+#define modeDraw  true
 
 
 byte area[width+2][height+2];
 
 
-const byte gliderGun[36][9]=
+const byte gliderGun[36][9]=       //TOO LARGE!!!
  {{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0}
   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0}
   {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
