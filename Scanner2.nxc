@@ -3,39 +3,81 @@
 //01-21-2013
 
 #include "+Button+-.nxc"
+#define WAITTIME 19
+#define DONTEXIT 0
+#define EXITSOON 1
+#define EXITNOW  2
+#define LROFFSET 7
+byte btnExitPressed=DONTEXIT;
 
+byte setThreshold(int INthreshold)
+  {
+  while (!ButtonPressed(BTNCENTER) && btnExitPressed!=EXITNOW) //SET THRESHOLD
+    {
+    TextOut(30,56,"SCANNER",0);
+    INthreshold=senseButton(INthreshold,true,5,100,true);
+    TextOut(10,48,StrCat("Threshold: ",NumToStr(INthreshold),"  "),0);
+    TextOut(34,32,"Scan",0);
+    TextOut(10,20,"Direction",0);
+    LineOut(75,15,90,30,0); //       \
+    LineOut(10,30,90,30,0); // -------
+    LineOut(75,45,90,30,0); //       /
+    if (ButtonPressed(BTNEXIT))
+      btnExitPressed=EXITNOW;
+    }
+  ClearScreen();
+  return (INthreshold);
+  }
 
+void calibrate()
+  {
+  PlayTone(500,250);
+  byte light,hi,lo;
+  OnFwd(OUT_A,58); //Go slowly correct direction
+  for (char xPos=99; xPos>=0; xPos--)
+    {
+    light=Sensor(IN_3);
+    if (light<lo) lo=light;
+    if (light>hi) hi=light;
+    Wait(WAITTIME);
+    }
+  Off(OUT_A);
+  //calibrate hi
+  //calibrate lo
+  }
 
 void scanLineFwd(int drawY, int INthreshold)
   {
-  PlayTone(3000,250);
+  //PlayTone(3000,250);
   byte light;
   OnFwd(OUT_A,58); //Go slowly correct direction
   for (char xPos=99; xPos>=0; xPos--)
     {
     //NumOut(0,0,xPos,0x1000);
-    light=Sensor(S3);
+    light=Sensor(IN_3);
     //write light into text file
     PointOut(xPos,drawY,(light>INthreshold)*4);
-    //PlayTone(1000,25);
-    Wait(20);
+    Wait(WAITTIME);
+    if (ButtonPressed(BTNEXIT) || btnExitPressed==EXITSOON)
+      btnExitPressed=EXITNOW;
     }
   Off(OUT_A);
   }
 
 void scanLineRev(int drawY, int INthreshold)
   {
-  PlayTone(2000,250);
+  //PlayTone(2000,250);
   byte light;
   OnRev(OUT_A,58); //Go slowly correct direction
-  for (char xPos=0; xPos<=99; xPos++)
+  for (char xPos=LROFFSET; xPos<=99; xPos++)
     {
     //NumOut(0,0,xPos,0x1000);
-    light=Sensor(S3);
+    light=Sensor(IN_3);
     //write light into text file
     PointOut(xPos,drawY,(light>INthreshold)*4);
-    //PlayTone(1000,25);
-    Wait(20);
+    Wait(WAITTIME);
+    if (ButtonPressed(BTNEXIT))
+      btnExitPressed=EXITSOON;
     }
   Off(OUT_A);
   }
@@ -44,34 +86,31 @@ void moveScanner()
   {
   PlayTone(1000,250);
   while (ButtonPressed(BTNCENTER)){}
-  OnFwd(OUT_BC,30);
-  Wait(200);
+  OnRev(OUT_BC,30);
+  Wait(50);
   Off(OUT_BC);
   while (ButtonPressed(BTNCENTER)){}
+  if (ButtonPressed(BTNEXIT))
+    btnExitPressed=EXITNOW;
   }
 
 task main()
   {
-  SetSensor(SENSOR_3,SENSOR_LIGHT);
+  SetLongAbort(true);
+  SetSensorLight(IN_3);
+  //calibrate();
   byte threshold=50;
-  while (true)
+  while (btnExitPressed!=2) //REPEAT SCAN
     {
-    while (!ButtonPressed(BTNCENTER)) //SET THRESHOLD
+    threshold = setThreshold(threshold);
+    for (byte yPos=63; yPos>0 && btnExitPressed!=EXITNOW; yPos--) //Y POSITION
       {
-      TextOut(30,56,"SCANNER",0);
-      threshold=senseButton(threshold,true,5,100,true);
-      TextOut(8,48,StrCat("Threshold: ",NumToStr(threshold),"  "),0);
-      Wait(10);
+      if ((yPos%2)==0) scanLineFwd(yPos,threshold); //Ending
+      else             scanLineRev(yPos,threshold); //Starting
+      if (btnExitPressed==DONTEXIT) moveScanner();
       }
-    ClearScreen();
-    for (byte yPos=63; yPos>0; yPos--) //Y POSITION
-      {
-      if ((yPos%2)==0) scanLineFwd(yPos,threshold);
-      else             scanLineRev(yPos,threshold);
-      moveScanner();
-      }
-    until (ButtonPressed(BTNCENTER)){}
-    while (ButtonPressed(BTNCENTER)){}
-    until (ButtonPressed(BTNCENTER)){}
+    until (ButtonPressed(BTNCENTER)||ButtonPressed(BTNEXIT)){}
+    while (ButtonPressed(BTNCENTER)||ButtonPressed(BTNEXIT)){}
+    Wait(100);
     }
   }
