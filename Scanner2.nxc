@@ -1,0 +1,77 @@
+//Scanner
+//Joseph Dykstra
+//01-21-2013
+
+#include "+Button+-.nxc"
+
+
+
+void scanLineFwd(int drawY, int INthreshold)
+  {
+  PlayTone(3000,250);
+  byte light;
+  OnFwd(OUT_A,58); //Go slowly correct direction
+  for (char xPos=99; xPos>=0; xPos--)
+    {
+    //NumOut(0,0,xPos,0x1000);
+    light=Sensor(S3);
+    //write light into text file
+    PointOut(xPos,drawY,(light>INthreshold)*4);
+    //PlayTone(1000,25);
+    Wait(20);
+    }
+  Off(OUT_A);
+  }
+
+void scanLineRev(int drawY, int INthreshold)
+  {
+  PlayTone(2000,250);
+  byte light;
+  OnRev(OUT_A,58); //Go slowly correct direction
+  for (char xPos=0; xPos<=99; xPos++)
+    {
+    //NumOut(0,0,xPos,0x1000);
+    light=Sensor(S3);
+    //write light into text file
+    PointOut(xPos,drawY,(light>INthreshold)*4);
+    //PlayTone(1000,25);
+    Wait(20);
+    }
+  Off(OUT_A);
+  }
+  
+void moveScanner()
+  {
+  PlayTone(1000,250);
+  while (ButtonPressed(BTNCENTER)){}
+  OnFwd(OUT_BC,30);
+  Wait(200);
+  Off(OUT_BC);
+  while (ButtonPressed(BTNCENTER)){}
+  }
+
+task main()
+  {
+  SetSensor(SENSOR_3,SENSOR_LIGHT);
+  byte threshold=50;
+  while (true)
+    {
+    while (!ButtonPressed(BTNCENTER)) //SET THRESHOLD
+      {
+      TextOut(30,56,"SCANNER",0);
+      threshold=senseButton(threshold,true,5,100,true);
+      TextOut(8,48,StrCat("Threshold: ",NumToStr(threshold),"  "),0);
+      Wait(10);
+      }
+    ClearScreen();
+    for (byte yPos=63; yPos>0; yPos--) //Y POSITION
+      {
+      if ((yPos%2)==0) scanLineFwd(yPos,threshold);
+      else             scanLineRev(yPos,threshold);
+      moveScanner();
+      }
+    until (ButtonPressed(BTNCENTER)){}
+    while (ButtonPressed(BTNCENTER)){}
+    until (ButtonPressed(BTNCENTER)){}
+    }
+  }

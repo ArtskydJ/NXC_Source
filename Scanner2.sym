@@ -1,0 +1,1070 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001moveScanner	6	1	0	4	6
+1	__unsigned_stack_001main	5	1	4	4	4
+2	__signed_stack_002main	6	1	8	4	4
+3	__signed_stack_001scanLineFwd	6	1	12	4	8
+4	__signed_stack_003moveScanner	6	1	16	4	2
+5	__signed_stack_002moveScanner	6	1	20	4	2
+6	__signed_stack_001main	6	1	24	4	14
+7	__D0scanLineFwd	6	1	28	4	21
+8	__D0moveScanner	6	1	32	4	17
+9	__DU0main	5	1	36	4	2
+10	__DU0senseButton	5	1	40	4	4
+11	__D0senseButton	6	1	44	4	66
+12	__D0scanLineRev	6	1	48	4	21
+13	__Wait_7qG2_ms_7qG2_000_inline_scanLineFwd	5	1	52	4	2
+14	__constVal786433	6	0	56	4	2
+15	__signed_stack_001senseButton	6	1	60	4	20
+16	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	64	4	2
+17	__Wait_7qG2_ms_7qG2_000_inline_moveScanner	5	1	68	4	2
+18	__Wait_7qG2_ms_7qG2_000_inline_scanLineRev	5	1	72	4	2
+19	__unsigned_stack_003scanLineRev	5	1	76	4	2
+20	__unsigned_stack_003scanLineFwd	5	1	80	4	2
+21	__signed_stack_003scanLineFwd	6	1	84	4	6
+22	__signed_stack_002scanLineFwd	6	1	88	4	6
+23	__signed_stack_003scanLineRev	6	1	92	4	6
+24	__signed_stack_002scanLineRev	6	1	96	4	6
+25	__signed_stack_001scanLineRev	6	1	100	4	8
+26	__D0main	6	1	104	4	50
+27	__TextOutMutex	9	0	108	4	8
+28	__SPTArgsMutex	9	0	112	4	6
+29	__RBtnMutex	9	0	116	4	20
+30	__PointOutMutex	9	0	120	4	6
+31	__senseButton_7qG2_val_7qG2_000	4	1	124	2	14
+32	__scanLineRev_7qG2_INthreshold_7qG2_000	4	1	126	2	2
+33	__scanLineRev_7qG2_drawY_7qG2_000	4	1	128	2	2
+34	__scanLineFwd_7qG2_drawY_7qG2_000	4	1	130	2	2
+35	__senseButton_7qG2_lu_7qG2_000	4	1	132	2	4
+36	__senseButton_7qG2_rd_7qG2_000	4	1	134	2	4
+37	__senseButton_7qG2_add_7qG2_000	4	1	136	2	3
+38	__senseButton_7qG2_high_7qG2_000	4	1	138	2	5
+39	__scanLineFwd_7qG2_INthreshold_7qG2_000	4	1	140	2	2
+40	__constVal128	4	0	142	2	1
+41	__constVal200	4	0	144	2	2
+42	__moveScanner_return	1	1	146	1	3
+43	__OnRev_Tmp	2	1	147	1	2
+44	__constVal40	2	0	148	1	2
+45	__scanLineFwd_return	1	1	149	1	3
+46	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	150	1	4
+47	__main_7qG2_threshold_7qG2_000	1	1	151	1	6
+48	____initialize_global_data_return	1	1	152	1	3
+49	__main_7qG2_yPos_7qG2_002	1	1	153	1	7
+50	__scanLineRev_7qG2_xPos_7qG2_001	2	1	154	1	6
+51	__constVal32	2	0	155	1	18
+52	__scanLineRev_return	1	1	156	1	3
+53	__scanLineRev_7qG2_light_7qG2_000	1	1	157	1	2
+54	__constVal1	2	0	158	1	6
+55	__constVal96	2	0	159	1	6
+56	__scanLineFwd_7qG2_light_7qG2_000	1	1	160	1	2
+57	__scanLineFwd_7qG2_xPos_7qG2_001	2	1	161	1	6
+58	__constVal63	2	0	162	1	6
+59	__ResetSensorPort	1	1	163	1	3
+60	__constVal4	2	0	164	1	1
+61	__ResetSensorTmp	1	1	165	1	2
+62	__constVal2	2	0	166	1	3
+63	____ResetSensorSubroutine_return	1	1	167	1	3
+64	__senseButton_return	1	1	168	1	4
+65	__constVal0	2	1	169	1	35
+66	__senseButton_7qG2_cut_7qG2_000	1	1	170	1	2
+67	__constVal3	2	0	171	1	7
+68	__senseButton_7qG2_lr_ud_7qG2_000	1	1	172	1	2
+69	__IOMWBIArgs	8	0	4	16	8
+70	__IOMWBIArgs.Result	2	1	176	1	8
+71	__IOMWBIArgs.ModuleID	5	1	180	4	8
+72	__IOMWBIArgs.Offset	3	1	184	2	8
+73	__IOMWBIArgs.Buffer	7	0	186	4	8
+74	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+75	__SPTArgs	8	0	5	8	18
+76	__SPTArgs.Result	2	1	188	1	18
+77	__SPTArgs.Frequency	3	1	190	2	18
+78	__SPTArgs.Duration	3	1	192	2	18
+79	__SPTArgs.Loop	1	1	194	1	18
+80	__SPTArgs.Volume	1	1	195	1	18
+81	__RBtnArgs	8	0	5	8	40
+82	__RBtnArgs.Result	2	1	196	1	40
+83	__RBtnArgs.Index	1	1	197	1	40
+84	__RBtnArgs.Pressed	1	1	198	1	40
+85	__RBtnArgs.Count	1	1	199	1	40
+86	__RBtnArgs.Reset	1	1	200	1	40
+87	__TextOutArgs	8	0	4	16	24
+88	__TextOutArgs.Result	2	1	204	1	24
+89	__TextOutArgs.Location	8	0	2	4	24
+90	__TextOutArgs.Location.X	4	1	208	2	24
+91	__TextOutArgs.Location.Y	4	1	210	2	24
+92	__TextOutArgs.Text	7	0	212	4	24
+93	__TextOutArgs.Text.Text_type	1	0	0	1	0
+94	__TextOutArgs.Options	5	1	216	4	24
+95	__PointOutArgs	8	0	3	12	14
+96	__PointOutArgs.Result	2	1	220	1	14
+97	__PointOutArgs.Location	8	0	2	4	14
+98	__PointOutArgs.Location.X	4	1	224	2	14
+99	__PointOutArgs.Location.Y	4	1	226	2	14
+100	__PointOutArgs.Options	5	1	228	4	14
+101	__constStr0010	7	0	232	4	1
+102	__constStr0010.__constStr0010_type	1	1	0	1	0
+103	__constStr0009	7	0	234	4	1
+104	__constStr0009.__constStr0009_type	1	1	0	1	0
+105	__constStr0011	7	0	236	4	1
+106	__constStr0011.__constStr0011_type	1	1	0	1	0
+107	__ArrHelper__main_244_2	7	0	238	4	2
+108	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+109	__OUT_BC	7	0	240	4	2
+110	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+111	__ArrHelper__main_244_0	7	0	242	4	2
+112	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+113	__IOMWFlattenBuf	7	0	244	4	4
+114	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+115	__ArrHelper__main_244_1	7	0	246	4	2
+116	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+117	__strbufmain	7	0	248	4	10
+118	__strbufmain.__strbufmain_type	1	0	0	1	0
+119	__strretvalmain	7	0	250	4	4
+120	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	54	0	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	55	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	54	2	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	54	2	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	55	2		getin __SetSensor_7qG2_port_7qG2_000_inline_main, __constVal2, 4
+0	54	6	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	54	6	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	4447	6	#line 4447 "NXCDefs.h"
+0	4448	6		setin __constVal3, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	4449	10		setin __constVal128, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	4450	14	#pragma macro 4
+0	4450	14		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	4450	16		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7459	18	#line 7459 "NXCDefs.h"
+0	4451	18	#line 4451 "NXCDefs.h"
+0	54	18	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	54	18	#line 54 "C:\Github\NXC_Source\Scanner2.nxc"
+0	55	18	#line 55 "C:\Github\NXC_Source\Scanner2.nxc"
+0	56	18		set __main_7qG2_threshold_7qG2_000, 50
+0	55	21	#line 55 "C:\Github\NXC_Source\Scanner2.nxc"
+0	57	21	#line 57 "C:\Github\NXC_Source\Scanner2.nxc"
+0	58	21		set __D0main, 1
+0	58	24	#line 58 "C:\Github\NXC_Source\Scanner2.nxc"
+0	59	24		tst 5, __D0main, __D0main
+0	58	27	#line 58 "C:\Github\NXC_Source\Scanner2.nxc"
+0	59	27		brtst 4, __ASM_Label_785, __D0main
+0	58	30	#line 58 "C:\Github\NXC_Source\Scanner2.nxc"
+0	59	30		set __signed_stack_001main, 3
+0	58	33	#line 58 "C:\Github\NXC_Source\Scanner2.nxc"
+0	58	33	#line 58 "C:\Github\NXC_Source\Scanner2.nxc"
+0	59	33		mov __D0main, __constVal0
+0	59	35	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	35		acquire __RBtnMutex
+0	59	36	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	36		mov __RBtnArgs.Index, __signed_stack_001main
+0	59	38	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	38		mov __RBtnArgs.Reset, __D0main
+0	59	40	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	40		syscall 20, __RBtnArgs
+0	59	43	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	43		mov __D0main, __RBtnArgs.Pressed
+0	59	45	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	45		release __RBtnMutex
+0	59	46	#line 59 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	46		not __D0main, __D0main
+0	60	49	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	49		tst 5, __D0main, __D0main
+0	60	52	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	52		brtst 4, __ASM_Label_789, __D0main
+0	60	55	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	55		set __signed_stack_001main, 30
+0	60	58	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	58	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	58		set __signed_stack_002main, 56
+0	60	61	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	60	61	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	61		strcat __strbufmain, __constStr0009
+0	60	65	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	65		set __D0main, 0
+0	60	68	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	68		acquire __TextOutMutex
+0	60	69	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	69		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	60	71	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	71		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	60	73	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	73		mov __TextOutArgs.Options, __D0main
+0	60	75	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	75		mov __TextOutArgs.Text, __strbufmain
+0	60	77	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	77		syscall 13, __TextOutArgs
+0	60	80	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	80		mov __D0main, __TextOutArgs.Result
+0	60	82	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	82		release __TextOutMutex
+0	60	83	#line 60 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	83	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	83		mov __senseButton_7qG2_val_7qG2_000, __main_7qG2_threshold_7qG2_000
+0	61	85	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	85	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	85		set __senseButton_7qG2_lr_ud_7qG2_000, 1
+0	61	88	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	88	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	88		set __senseButton_7qG2_add_7qG2_000, 5
+0	61	91	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	91	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	91		set __senseButton_7qG2_high_7qG2_000, 100
+0	61	94	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	94	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	94		set __senseButton_7qG2_cut_7qG2_000, 1
+0	61	97	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	97	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	97		subcall senseButton, __senseButton_return
+0	61	99	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	99		mov __main_7qG2_threshold_7qG2_000, __D0senseButton
+0	61	101	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	61	101	#line 61 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	101	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	101		set __signed_stack_001main, 8
+0	62	104	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	104	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	104		set __signed_stack_002main, 48
+0	62	107	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	62	107	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	107		strcat __strbufmain, __constStr0010
+0	62	111	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	111		mov __ArrHelper__main_244_0, __strbufmain
+0	62	113	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	113		mov __DU0main, __main_7qG2_threshold_7qG2_000
+0	62	115	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	115		numtostr __strretvalmain, __DU0main
+0	62	118	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	118		strcat __strbufmain, __strretvalmain
+0	62	122	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	122		mov __ArrHelper__main_244_1, __strbufmain
+0	62	124	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	124		strcat __strbufmain, __constStr0011
+0	62	128	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	128		mov __ArrHelper__main_244_2, __strbufmain
+0	62	130	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	130		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	62	136	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	136		strcat __strbufmain, __strretvalmain
+0	62	140	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	140		set __D0main, 0
+0	62	143	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	143		acquire __TextOutMutex
+0	62	144	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	144		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	62	146	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	146		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	62	148	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	148		mov __TextOutArgs.Options, __D0main
+0	62	150	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	150		mov __TextOutArgs.Text, __strbufmain
+0	62	152	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	152		syscall 13, __TextOutArgs
+0	62	155	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	155		mov __D0main, __TextOutArgs.Result
+0	62	157	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	157		release __TextOutMutex
+0	62	158	#line 62 "C:\Github\NXC_Source\Scanner2.nxc"
+0	63	158	#line 63 "C:\Github\NXC_Source\Scanner2.nxc"
+0	64	158		set __Wait_7qG2_ms_7qG2_000_inline_main, 10
+0	63	161	#line 63 "C:\Github\NXC_Source\Scanner2.nxc"
+0	8771	161	#line 8771 "NXCDefs.h"
+0	8772	161		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8771	163	#line 8771 "NXCDefs.h"
+0	63	163	#line 63 "C:\Github\NXC_Source\Scanner2.nxc"
+0	65	163	#line 65 "C:\Github\NXC_Source\Scanner2.nxc"
+0	66	163		jmp __ASM_Label_788
+0	65	165	#line 65 "C:\Github\NXC_Source\Scanner2.nxc"
+0	6896	165	#line 6896 "NXCDefs.h"
+0	6897	165	#pragma macro 6
+0	6897	165		acquire __PointOutMutex
+0	6897	166		mov __PointOutArgs.Location.X, __constVal200
+0	6897	168		mov __PointOutArgs.Location.Y, __constVal200
+0	6897	170		mov __PointOutArgs.Options, __constVal1
+0	6897	172		syscall 14, __PointOutArgs
+0	6897	175		release __PointOutMutex
+0	7647	176	#line 7647 "NXCDefs.h"
+0	6896	176	#line 6896 "NXCDefs.h"
+0	65	176	#line 65 "C:\Github\NXC_Source\Scanner2.nxc"
+0	66	176	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	67	176		set __main_7qG2_yPos_7qG2_002, 63
+0	66	179	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	66	179	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	67	179		mov __unsigned_stack_001main, __main_7qG2_yPos_7qG2_002
+0	66	181	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	66	181	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	67	181		set __D0main, 0
+0	66	184	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	67	184		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	66	188	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	67	188		brtst 4, __ASM_Label_823, __D0main
+0	66	191	#line 66 "C:\Github\NXC_Source\Scanner2.nxc"
+0	67	191		jmp __ASM_Label_824
+0	67	193	#line 67 "C:\Github\NXC_Source\Scanner2.nxc"
+0	68	193		sub __main_7qG2_yPos_7qG2_002, __main_7qG2_yPos_7qG2_002, __constVal1
+0	68	197	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	197		jmp __ASM_Label_822
+0	68	199	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	199		mov __unsigned_stack_001main, __main_7qG2_yPos_7qG2_002
+0	68	201	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	68	201	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	201		set __D0main, 2
+0	68	204	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	204		mod __signed_stack_001main, __unsigned_stack_001main, __D0main
+0	68	208	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	68	208	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	208		set __D0main, 0
+0	68	211	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	211		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	68	215	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	215		brtst 4, __ASM_Label_834, __D0main
+0	68	218	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	218		mov __scanLineFwd_7qG2_drawY_7qG2_000, __main_7qG2_yPos_7qG2_002
+0	68	220	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	68	220	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	220		mov __scanLineFwd_7qG2_INthreshold_7qG2_000, __main_7qG2_threshold_7qG2_000
+0	68	222	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	68	222	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	222		subcall scanLineFwd, __scanLineFwd_return
+0	68	224	#line 68 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	224	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	70	224		jmp __ASM_Label_839
+0	69	226	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	70	226		mov __scanLineRev_7qG2_drawY_7qG2_000, __main_7qG2_yPos_7qG2_002
+0	69	228	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	228	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	70	228		mov __scanLineRev_7qG2_INthreshold_7qG2_000, __main_7qG2_threshold_7qG2_000
+0	69	230	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	230	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	70	230		subcall scanLineRev, __scanLineRev_return
+0	69	232	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	69	232	#line 69 "C:\Github\NXC_Source\Scanner2.nxc"
+0	70	232	#line 70 "C:\Github\NXC_Source\Scanner2.nxc"
+0	71	232		subcall moveScanner, __moveScanner_return
+0	70	234	#line 70 "C:\Github\NXC_Source\Scanner2.nxc"
+0	72	234	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	234		jmp __ASM_Label_825
+0	72	236	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	72	236	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	236		set __signed_stack_001main, 3
+0	72	239	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	72	239	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	239		mov __D0main, __constVal0
+0	72	241	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	241		acquire __RBtnMutex
+0	72	242	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	242		mov __RBtnArgs.Index, __signed_stack_001main
+0	72	244	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	244		mov __RBtnArgs.Reset, __D0main
+0	72	246	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	246		syscall 20, __RBtnArgs
+0	72	249	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	249		mov __D0main, __RBtnArgs.Pressed
+0	72	251	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	251		release __RBtnMutex
+0	72	252	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	252		not __D0main, __D0main
+0	72	255	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	255		tst 5, __D0main, __D0main
+0	72	258	#line 72 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	258		brtst 4, __ASM_Label_845, __D0main
+0	73	261	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	261		jmp __ASM_Label_844
+0	73	263	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	263	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	263		set __signed_stack_001main, 3
+0	73	266	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	73	266	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	266		mov __D0main, __constVal0
+0	73	268	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	268		acquire __RBtnMutex
+0	73	269	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	269		mov __RBtnArgs.Index, __signed_stack_001main
+0	73	271	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	271		mov __RBtnArgs.Reset, __D0main
+0	73	273	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	273		syscall 20, __RBtnArgs
+0	73	276	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	276		mov __D0main, __RBtnArgs.Pressed
+0	73	278	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	278		release __RBtnMutex
+0	73	279	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	279		tst 5, __D0main, __D0main
+0	73	282	#line 73 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	282		brtst 4, __ASM_Label_853, __D0main
+0	74	285	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	285		jmp __ASM_Label_852
+0	74	287	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	287	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	287		set __signed_stack_001main, 3
+0	74	290	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	74	290	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	290		mov __D0main, __constVal0
+0	74	292	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	292		acquire __RBtnMutex
+0	74	293	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	293		mov __RBtnArgs.Index, __signed_stack_001main
+0	74	295	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	295		mov __RBtnArgs.Reset, __D0main
+0	74	297	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	297		syscall 20, __RBtnArgs
+0	74	300	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	300		mov __D0main, __RBtnArgs.Pressed
+0	74	302	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	302		release __RBtnMutex
+0	74	303	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	303		not __D0main, __D0main
+0	74	306	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	306		tst 5, __D0main, __D0main
+0	74	309	#line 74 "C:\Github\NXC_Source\Scanner2.nxc"
+0	75	309		brtst 4, __ASM_Label_859, __D0main
+0	76	312	#line 76 "C:\Github\NXC_Source\Scanner2.nxc"
+0	77	312		jmp __ASM_Label_858
+0	76	314	#line 76 "C:\Github\NXC_Source\Scanner2.nxc"
+0	78	314	#line 78 "C:\Github\NXC_Source\Scanner2.nxc"
+0	79	314		jmp __ASM_Label_784
+0	78	316	#line 78 "C:\Github\NXC_Source\Scanner2.nxc"
+0	79	316		exit -1, -1
+1	5699	0		setin __constVal1, __ResetSensorPort, 5
+1	5701	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5702	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5703	11		subret ____ResetSensorSubroutine_return
+2	4	0	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	5	0		mov __DU0senseButton, __senseButton_7qG2_lr_ud_7qG2_000
+2	4	2	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	5	2		tst 5, __D0senseButton, __DU0senseButton
+2	4	5	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	5	5		brtst 4, __ASM_Label_606, __D0senseButton
+2	4	8	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	5	8		set __senseButton_7qG2_lu_7qG2_000, 2
+2	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	4	11	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	5	11		set __senseButton_7qG2_rd_7qG2_000, 1
+2	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	4	14	#line 4 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	14	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	14		jmp __ASM_Label_611
+2	6	16	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	16		set __senseButton_7qG2_lu_7qG2_000, 3
+2	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	19	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	19		set __senseButton_7qG2_rd_7qG2_000, 0
+2	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	22	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	22	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	22	#pragma macro 7
+2	9	22	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	22		set __D0senseButton, 1
+2	10	25	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	25		tst 5, __D0senseButton, __D0senseButton
+2	10	28	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	28		brtst 4, __ASM_Label_620, __D0senseButton
+2	10	31	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	31	#pragma macro 8
+2	11	31		mov __IOMWBIArgs.ModuleID, __constVal786433
+2	11	33		mov __IOMWBIArgs.Offset, __constVal40
+2	11	35		flatten __IOMWFlattenBuf, __constVal4
+2	11	38		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+2	11	41		syscall 79, __IOMWBIArgs
+2	6588	44	#line 6588 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	44	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	12	44	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	13	44		jmp __ASM_Label_621
+2	12	46	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	13	46	#pragma macro 8
+2	13	46		mov __IOMWBIArgs.ModuleID, __constVal786433
+2	13	48		mov __IOMWBIArgs.Offset, __constVal40
+2	13	50		flatten __IOMWFlattenBuf, __constVal1
+2	13	53		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+2	13	56		syscall 79, __IOMWBIArgs
+2	6594	59	#line 6594 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	13	59	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	59	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	15	59	#line 15 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	16	59		set __D0senseButton, 0
+2	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	62	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	62		tst 5, __D0senseButton, __D0senseButton
+2	6	65	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	65		brtst 4, __ASM_Label_617, __D0senseButton
+2	6	68	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	68		jmp __ASM_Label_616
+2	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	6	70	#line 6 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	70	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	70		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+2	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	72	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	72		mov __D0senseButton, __constVal0
+2	7	74	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	74		acquire __RBtnMutex
+2	7	75	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	75		mov __RBtnArgs.Index, __signed_stack_001senseButton
+2	7	77	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	77		mov __RBtnArgs.Reset, __D0senseButton
+2	7	79	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	79		syscall 20, __RBtnArgs
+2	7	82	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	82		mov __D0senseButton, __RBtnArgs.Pressed
+2	7	84	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	84		release __RBtnMutex
+2	7	85	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	85		tst 5, __D0senseButton, __D0senseButton
+2	7	88	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	88		brtst 4, __ASM_Label_628, __D0senseButton
+2	7	91	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	7	91	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	91		sub __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+2	7	95	#line 7 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	95	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	95		mov __signed_stack_001senseButton, __senseButton_7qG2_lu_7qG2_000
+2	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	8	97	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	97		mov __D0senseButton, __constVal0
+2	8	99	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	99		acquire __RBtnMutex
+2	8	100	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	100		mov __RBtnArgs.Index, __signed_stack_001senseButton
+2	8	102	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	102		mov __RBtnArgs.Reset, __D0senseButton
+2	8	104	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	104		syscall 20, __RBtnArgs
+2	8	107	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	107		mov __D0senseButton, __RBtnArgs.Pressed
+2	8	109	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	109		release __RBtnMutex
+2	8	110	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	110		mov __signed_stack_001senseButton, __D0senseButton
+2	8	112	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	112		set __D0senseButton, 0
+2	8	115	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	115		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+2	8	119	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	119		not __D0senseButton, __D0senseButton
+2	8	122	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	122		tst 5, __D0senseButton, __D0senseButton
+2	8	125	#line 8 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	125		brtst 4, __ASM_Label_632, __D0senseButton
+2	9	128	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	128		jmp __ASM_Label_631
+2	9	130	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	130	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	130		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+2	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	132	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	132		mov __D0senseButton, __constVal0
+2	9	134	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	134		acquire __RBtnMutex
+2	9	135	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	135		mov __RBtnArgs.Index, __signed_stack_001senseButton
+2	9	137	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	137		mov __RBtnArgs.Reset, __D0senseButton
+2	9	139	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	139		syscall 20, __RBtnArgs
+2	9	142	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	142		mov __D0senseButton, __RBtnArgs.Pressed
+2	9	144	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	144		release __RBtnMutex
+2	9	145	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	145		tst 5, __D0senseButton, __D0senseButton
+2	9	148	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	148		brtst 4, __ASM_Label_643, __D0senseButton
+2	9	151	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	9	151	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	151		add __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_add_7qG2_000
+2	9	155	#line 9 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	155	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	155	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	155		mov __signed_stack_001senseButton, __senseButton_7qG2_rd_7qG2_000
+2	10	157	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	10	157	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	157		mov __D0senseButton, __constVal0
+2	10	159	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	159		acquire __RBtnMutex
+2	10	160	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	160		mov __RBtnArgs.Index, __signed_stack_001senseButton
+2	10	162	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	162		mov __RBtnArgs.Reset, __D0senseButton
+2	10	164	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	164		syscall 20, __RBtnArgs
+2	10	167	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	167		mov __D0senseButton, __RBtnArgs.Pressed
+2	10	169	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	169		release __RBtnMutex
+2	10	170	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	170		mov __signed_stack_001senseButton, __D0senseButton
+2	10	172	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	172		set __D0senseButton, 0
+2	10	175	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	175		cmp 4, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+2	10	179	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	179		not __D0senseButton, __D0senseButton
+2	10	182	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	182		tst 5, __D0senseButton, __D0senseButton
+2	10	185	#line 10 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	11	185		brtst 4, __ASM_Label_647, __D0senseButton
+2	11	188	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	12	188		jmp __ASM_Label_646
+2	11	190	#line 11 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	12	190	#line 12 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	13	190		mov __DU0senseButton, __senseButton_7qG2_cut_7qG2_000
+2	13	192	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	192		tst 5, __D0senseButton, __DU0senseButton
+2	13	195	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	195		brtst 4, __ASM_Label_656, __D0senseButton
+2	13	198	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	198		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+2	13	200	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	13	200	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	200		set __D0senseButton, 0
+2	13	203	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	203		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+2	13	207	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	207		brtst 4, __ASM_Label_659, __D0senseButton
+2	13	210	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	210		set __senseButton_7qG2_val_7qG2_000, 0
+2	13	213	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	13	213	#line 13 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	213	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	213	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	15	213		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+2	14	215	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	215	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	15	215		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+2	14	217	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	15	217		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+2	14	221	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	15	221		brtst 4, __ASM_Label_664, __D0senseButton
+2	14	224	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	15	224		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+2	14	226	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	14	226	#line 14 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	16	226	#line 16 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	18	226	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	226		jmp __ASM_Label_667
+2	18	228	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	228		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+2	18	230	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	18	230	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	230		set __D0senseButton, 0
+2	18	233	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	233		cmp 0, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+2	18	237	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	237		brtst 4, __ASM_Label_670, __D0senseButton
+2	18	240	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	240		mov __senseButton_7qG2_val_7qG2_000, __senseButton_7qG2_high_7qG2_000
+2	18	242	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	18	242	#line 18 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	242	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	242	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	20	242		mov __signed_stack_001senseButton, __senseButton_7qG2_val_7qG2_000
+2	19	244	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	244	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	20	244		mov __D0senseButton, __senseButton_7qG2_high_7qG2_000
+2	19	246	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	20	246		cmp 1, __D0senseButton, __signed_stack_001senseButton, __D0senseButton
+2	19	250	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	20	250		brtst 4, __ASM_Label_675, __D0senseButton
+2	19	253	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	20	253		set __senseButton_7qG2_val_7qG2_000, 0
+2	19	256	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	19	256	#line 19 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	21	256	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	21	256	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	21	256	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	22	256		mov __D0senseButton, __senseButton_7qG2_val_7qG2_000
+2	21	258	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	22	258		subret __senseButton_return
+2	21	260	#line 21 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	23	260	#line 23 "C:\Github\NXC_Source\.\+Button+-.nxc"
+2	24	260		subret __senseButton_return
+3	10	0	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	0		set __signed_stack_001scanLineFwd, 3000
+3	10	3	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	10	3	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	3		set __signed_stack_002scanLineFwd, 250
+3	10	6	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	10	6	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	6		set __signed_stack_003scanLineFwd, 4
+3	10	9	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	10	9	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	9		set __D0scanLineFwd, 0
+3	10	12	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	12		acquire __SPTArgsMutex
+3	10	13	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	13		mov __SPTArgs.Frequency, __signed_stack_001scanLineFwd
+3	10	15	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	15		mov __SPTArgs.Duration, __signed_stack_002scanLineFwd
+3	10	17	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	17		mov __SPTArgs.Volume, __signed_stack_003scanLineFwd
+3	10	19	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	19		mov __SPTArgs.Loop, __D0scanLineFwd
+3	10	21	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	21		syscall 10, __SPTArgs
+3	10	24	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	24		mov __D0scanLineFwd, __SPTArgs.Result
+3	10	26	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	11	26		release __SPTArgsMutex
+3	10	27	#line 10 "C:\Github\NXC_Source\Scanner2.nxc"
+3	12	27	#line 12 "C:\Github\NXC_Source\Scanner2.nxc"
+3	13	27		set __D0scanLineFwd, 58
+3	12	30	#line 12 "C:\Github\NXC_Source\Scanner2.nxc"
+3	13	30	#pragma macro 7
+3	13	30		setout __constVal0, 2, __D0scanLineFwd, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6946	53	#line 6946 "C:\Github\NXC_Source\Scanner2.nxc"
+3	12	53	#line 12 "C:\Github\NXC_Source\Scanner2.nxc"
+3	13	53	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	14	53		set __scanLineFwd_7qG2_xPos_7qG2_001, 99
+3	13	56	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	13	56	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	14	56		mov __signed_stack_001scanLineFwd, __scanLineFwd_7qG2_xPos_7qG2_001
+3	13	58	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	13	58	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	14	58		set __D0scanLineFwd, 0
+3	13	61	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	14	61		cmp 3, __D0scanLineFwd, __signed_stack_001scanLineFwd, __D0scanLineFwd
+3	13	65	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	14	65		brtst 4, __ASM_Label_691, __D0scanLineFwd
+3	13	68	#line 13 "C:\Github\NXC_Source\Scanner2.nxc"
+3	14	68		jmp __ASM_Label_692
+3	14	70	#line 14 "C:\Github\NXC_Source\Scanner2.nxc"
+3	15	70		sub __scanLineFwd_7qG2_xPos_7qG2_001, __scanLineFwd_7qG2_xPos_7qG2_001, __constVal1
+3	15	74	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	74		jmp __ASM_Label_690
+3	15	76	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	76		set __signed_stack_001scanLineFwd, 0
+3	15	79	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	15	79	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	79		set __signed_stack_002scanLineFwd, 0
+3	15	82	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	15	82	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	82		mov __signed_stack_003scanLineFwd, __scanLineFwd_7qG2_xPos_7qG2_001
+3	15	84	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	15	84	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	84		set __D0scanLineFwd, 4096
+3	15	87	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	87		acquire __TextOutMutex
+3	15	88	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	88		mov __TextOutArgs.Location.X, __signed_stack_001scanLineFwd
+3	15	90	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	90		mov __TextOutArgs.Location.Y, __signed_stack_002scanLineFwd
+3	15	92	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	92		mov __TextOutArgs.Options, __D0scanLineFwd
+3	15	94	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	94		numtostr __TextOutArgs.Text, __signed_stack_003scanLineFwd
+3	15	97	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	97		syscall 13, __TextOutArgs
+3	15	100	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	100		mov __D0scanLineFwd, __TextOutArgs.Result
+3	15	102	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	102		release __TextOutMutex
+3	15	103	#line 15 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	103	#line 16 "C:\Github\NXC_Source\Scanner2.nxc"
+3	17	103		getin __scanLineFwd_7qG2_light_7qG2_000, __constVal2, 4
+3	16	107	#line 16 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	107	#line 16 "C:\Github\NXC_Source\Scanner2.nxc"
+3	16	107	#line 16 "C:\Github\NXC_Source\Scanner2.nxc"
+3	18	107	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	107		mov __signed_stack_001scanLineFwd, __scanLineFwd_7qG2_xPos_7qG2_001
+3	18	109	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	18	109	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	109		mov __signed_stack_002scanLineFwd, __scanLineFwd_7qG2_drawY_7qG2_000
+3	18	111	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	18	111	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	111		mov __unsigned_stack_003scanLineFwd, __scanLineFwd_7qG2_light_7qG2_000
+3	18	113	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	18	113	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	113		mov __D0scanLineFwd, __scanLineFwd_7qG2_INthreshold_7qG2_000
+3	18	115	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	115		cmp 1, __D0scanLineFwd, __unsigned_stack_003scanLineFwd, __D0scanLineFwd
+3	18	119	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	119		mov __signed_stack_003scanLineFwd, __D0scanLineFwd
+3	18	121	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	121		set __D0scanLineFwd, 4
+3	18	124	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	124		mul __D0scanLineFwd, __signed_stack_003scanLineFwd, __D0scanLineFwd
+3	18	128	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	128		acquire __PointOutMutex
+3	18	129	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	129		mov __PointOutArgs.Location.X, __signed_stack_001scanLineFwd
+3	18	131	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	131		mov __PointOutArgs.Location.Y, __signed_stack_002scanLineFwd
+3	18	133	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	133		mov __PointOutArgs.Options, __D0scanLineFwd
+3	18	135	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	135		syscall 14, __PointOutArgs
+3	18	138	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	138		mov __D0scanLineFwd, __PointOutArgs.Result
+3	18	140	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	19	140		release __PointOutMutex
+3	18	141	#line 18 "C:\Github\NXC_Source\Scanner2.nxc"
+3	20	141	#line 20 "C:\Github\NXC_Source\Scanner2.nxc"
+3	21	141		set __Wait_7qG2_ms_7qG2_000_inline_scanLineFwd, 20
+3	20	144	#line 20 "C:\Github\NXC_Source\Scanner2.nxc"
+3	8771	144	#line 8771 "NXCDefs.h"
+3	8772	144		waitv __Wait_7qG2_ms_7qG2_000_inline_scanLineFwd
+3	8771	146	#line 8771 "NXCDefs.h"
+3	20	146	#line 20 "C:\Github\NXC_Source\Scanner2.nxc"
+3	22	146	#line 22 "C:\Github\NXC_Source\Scanner2.nxc"
+3	23	146		jmp __ASM_Label_693
+3	22	148	#line 22 "C:\Github\NXC_Source\Scanner2.nxc"
+3	22	148	#line 22 "C:\Github\NXC_Source\Scanner2.nxc"
+3	23	148	#pragma macro 7
+3	23	148		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7096	171	#line 7096 "C:\Github\NXC_Source\Scanner2.nxc"
+3	22	171	#line 22 "C:\Github\NXC_Source\Scanner2.nxc"
+3	25	171	#line 25 "C:\Github\NXC_Source\Scanner2.nxc"
+3	26	171		subret __scanLineFwd_return
+4	27	0	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	0		set __signed_stack_001scanLineRev, 2000
+4	27	3	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	27	3	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	3		set __signed_stack_002scanLineRev, 250
+4	27	6	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	27	6	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	6		set __signed_stack_003scanLineRev, 4
+4	27	9	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	27	9	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	9		set __D0scanLineRev, 0
+4	27	12	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	12		acquire __SPTArgsMutex
+4	27	13	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	13		mov __SPTArgs.Frequency, __signed_stack_001scanLineRev
+4	27	15	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	15		mov __SPTArgs.Duration, __signed_stack_002scanLineRev
+4	27	17	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	17		mov __SPTArgs.Volume, __signed_stack_003scanLineRev
+4	27	19	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	19		mov __SPTArgs.Loop, __D0scanLineRev
+4	27	21	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	21		syscall 10, __SPTArgs
+4	27	24	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	24		mov __D0scanLineRev, __SPTArgs.Result
+4	27	26	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	28	26		release __SPTArgsMutex
+4	27	27	#line 27 "C:\Github\NXC_Source\Scanner2.nxc"
+4	29	27	#line 29 "C:\Github\NXC_Source\Scanner2.nxc"
+4	30	27		set __D0scanLineRev, 58
+4	29	30	#line 29 "C:\Github\NXC_Source\Scanner2.nxc"
+4	30	30	#pragma macro 10
+4	30	30		neg __OnRev_Tmp, __D0scanLineRev
+4	30	33		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7155	56	#line 7155 "C:\Github\NXC_Source\Scanner2.nxc"
+4	29	56	#line 29 "C:\Github\NXC_Source\Scanner2.nxc"
+4	30	56	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	31	56		set __scanLineRev_7qG2_xPos_7qG2_001, 0
+4	30	59	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	30	59	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	31	59		mov __signed_stack_001scanLineRev, __scanLineRev_7qG2_xPos_7qG2_001
+4	30	61	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	30	61	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	31	61		set __D0scanLineRev, 99
+4	30	64	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	31	64		cmp 2, __D0scanLineRev, __signed_stack_001scanLineRev, __D0scanLineRev
+4	30	68	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	31	68		brtst 4, __ASM_Label_729, __D0scanLineRev
+4	30	71	#line 30 "C:\Github\NXC_Source\Scanner2.nxc"
+4	31	71		jmp __ASM_Label_730
+4	31	73	#line 31 "C:\Github\NXC_Source\Scanner2.nxc"
+4	32	73		add __scanLineRev_7qG2_xPos_7qG2_001, __scanLineRev_7qG2_xPos_7qG2_001, __constVal1
+4	32	77	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	77		jmp __ASM_Label_728
+4	32	79	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	79		set __signed_stack_001scanLineRev, 0
+4	32	82	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	32	82	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	82		set __signed_stack_002scanLineRev, 0
+4	32	85	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	32	85	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	85		mov __signed_stack_003scanLineRev, __scanLineRev_7qG2_xPos_7qG2_001
+4	32	87	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	32	87	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	87		set __D0scanLineRev, 4096
+4	32	90	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	90		acquire __TextOutMutex
+4	32	91	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	91		mov __TextOutArgs.Location.X, __signed_stack_001scanLineRev
+4	32	93	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	93		mov __TextOutArgs.Location.Y, __signed_stack_002scanLineRev
+4	32	95	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	95		mov __TextOutArgs.Options, __D0scanLineRev
+4	32	97	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	97		numtostr __TextOutArgs.Text, __signed_stack_003scanLineRev
+4	32	100	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	100		syscall 13, __TextOutArgs
+4	32	103	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	103		mov __D0scanLineRev, __TextOutArgs.Result
+4	32	105	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	105		release __TextOutMutex
+4	32	106	#line 32 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	106	#line 33 "C:\Github\NXC_Source\Scanner2.nxc"
+4	34	106		getin __scanLineRev_7qG2_light_7qG2_000, __constVal2, 4
+4	33	110	#line 33 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	110	#line 33 "C:\Github\NXC_Source\Scanner2.nxc"
+4	33	110	#line 33 "C:\Github\NXC_Source\Scanner2.nxc"
+4	35	110	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	110		mov __signed_stack_001scanLineRev, __scanLineRev_7qG2_xPos_7qG2_001
+4	35	112	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	35	112	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	112		mov __signed_stack_002scanLineRev, __scanLineRev_7qG2_drawY_7qG2_000
+4	35	114	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	35	114	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	114		mov __unsigned_stack_003scanLineRev, __scanLineRev_7qG2_light_7qG2_000
+4	35	116	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	35	116	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	116		mov __D0scanLineRev, __scanLineRev_7qG2_INthreshold_7qG2_000
+4	35	118	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	118		cmp 1, __D0scanLineRev, __unsigned_stack_003scanLineRev, __D0scanLineRev
+4	35	122	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	122		mov __signed_stack_003scanLineRev, __D0scanLineRev
+4	35	124	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	124		set __D0scanLineRev, 4
+4	35	127	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	127		mul __D0scanLineRev, __signed_stack_003scanLineRev, __D0scanLineRev
+4	35	131	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	131		acquire __PointOutMutex
+4	35	132	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	132		mov __PointOutArgs.Location.X, __signed_stack_001scanLineRev
+4	35	134	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	134		mov __PointOutArgs.Location.Y, __signed_stack_002scanLineRev
+4	35	136	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	136		mov __PointOutArgs.Options, __D0scanLineRev
+4	35	138	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	138		syscall 14, __PointOutArgs
+4	35	141	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	141		mov __D0scanLineRev, __PointOutArgs.Result
+4	35	143	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	36	143		release __PointOutMutex
+4	35	144	#line 35 "C:\Github\NXC_Source\Scanner2.nxc"
+4	37	144	#line 37 "C:\Github\NXC_Source\Scanner2.nxc"
+4	38	144		set __Wait_7qG2_ms_7qG2_000_inline_scanLineRev, 20
+4	37	147	#line 37 "C:\Github\NXC_Source\Scanner2.nxc"
+4	8771	147	#line 8771 "NXCDefs.h"
+4	8772	147		waitv __Wait_7qG2_ms_7qG2_000_inline_scanLineRev
+4	8771	149	#line 8771 "NXCDefs.h"
+4	37	149	#line 37 "C:\Github\NXC_Source\Scanner2.nxc"
+4	39	149	#line 39 "C:\Github\NXC_Source\Scanner2.nxc"
+4	40	149		jmp __ASM_Label_731
+4	39	151	#line 39 "C:\Github\NXC_Source\Scanner2.nxc"
+4	39	151	#line 39 "C:\Github\NXC_Source\Scanner2.nxc"
+4	40	151	#pragma macro 7
+4	40	151		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7305	174	#line 7305 "C:\Github\NXC_Source\Scanner2.nxc"
+4	39	174	#line 39 "C:\Github\NXC_Source\Scanner2.nxc"
+4	42	174	#line 42 "C:\Github\NXC_Source\Scanner2.nxc"
+4	43	174		subret __scanLineRev_return
+5	44	0	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	0		set __signed_stack_001moveScanner, 1000
+5	44	3	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	44	3	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	3		set __signed_stack_002moveScanner, 250
+5	44	6	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	44	6	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	6		set __signed_stack_003moveScanner, 4
+5	44	9	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	44	9	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	9		set __D0moveScanner, 0
+5	44	12	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	12		acquire __SPTArgsMutex
+5	44	13	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	13		mov __SPTArgs.Frequency, __signed_stack_001moveScanner
+5	44	15	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	15		mov __SPTArgs.Duration, __signed_stack_002moveScanner
+5	44	17	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	17		mov __SPTArgs.Volume, __signed_stack_003moveScanner
+5	44	19	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	19		mov __SPTArgs.Loop, __D0moveScanner
+5	44	21	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	21		syscall 10, __SPTArgs
+5	44	24	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	24		mov __D0moveScanner, __SPTArgs.Result
+5	44	26	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	26		release __SPTArgsMutex
+5	44	27	#line 44 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	27	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	27		set __signed_stack_001moveScanner, 3
+5	45	30	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	45	30	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	30		mov __D0moveScanner, __constVal0
+5	45	32	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	32		acquire __RBtnMutex
+5	45	33	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	33		mov __RBtnArgs.Index, __signed_stack_001moveScanner
+5	45	35	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	35		mov __RBtnArgs.Reset, __D0moveScanner
+5	45	37	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	37		syscall 20, __RBtnArgs
+5	45	40	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	40		mov __D0moveScanner, __RBtnArgs.Pressed
+5	45	42	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	42		release __RBtnMutex
+5	45	43	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	43		tst 5, __D0moveScanner, __D0moveScanner
+5	45	46	#line 45 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	46		brtst 4, __ASM_Label_765, __D0moveScanner
+5	46	49	#line 46 "C:\Github\NXC_Source\Scanner2.nxc"
+5	47	49		jmp __ASM_Label_764
+5	46	51	#line 46 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	51	#line 46 "C:\Github\NXC_Source\Scanner2.nxc"
+5	47	51		set __D0moveScanner, 30
+5	46	54	#line 46 "C:\Github\NXC_Source\Scanner2.nxc"
+5	47	54	#pragma macro 7
+5	47	54		setout __OUT_BC, 2, __D0moveScanner, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	7383	77	#line 7383 "C:\Github\NXC_Source\Scanner2.nxc"
+5	46	77	#line 46 "C:\Github\NXC_Source\Scanner2.nxc"
+5	47	77	#line 47 "C:\Github\NXC_Source\Scanner2.nxc"
+5	48	77		set __Wait_7qG2_ms_7qG2_000_inline_moveScanner, 200
+5	47	80	#line 47 "C:\Github\NXC_Source\Scanner2.nxc"
+5	8771	80	#line 8771 "NXCDefs.h"
+5	8772	80		waitv __Wait_7qG2_ms_7qG2_000_inline_moveScanner
+5	8771	82	#line 8771 "NXCDefs.h"
+5	47	82	#line 47 "C:\Github\NXC_Source\Scanner2.nxc"
+5	48	82	#line 48 "C:\Github\NXC_Source\Scanner2.nxc"
+5	49	82	#pragma macro 7
+5	49	82		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	7398	105	#line 7398 "C:\Github\NXC_Source\Scanner2.nxc"
+5	48	105	#line 48 "C:\Github\NXC_Source\Scanner2.nxc"
+5	49	105	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	105		set __signed_stack_001moveScanner, 3
+5	49	108	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	49	108	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	108		mov __D0moveScanner, __constVal0
+5	49	110	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	110		acquire __RBtnMutex
+5	49	111	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	111		mov __RBtnArgs.Index, __signed_stack_001moveScanner
+5	49	113	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	113		mov __RBtnArgs.Reset, __D0moveScanner
+5	49	115	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	115		syscall 20, __RBtnArgs
+5	49	118	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	118		mov __D0moveScanner, __RBtnArgs.Pressed
+5	49	120	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	120		release __RBtnMutex
+5	49	121	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	121		tst 5, __D0moveScanner, __D0moveScanner
+5	49	124	#line 49 "C:\Github\NXC_Source\Scanner2.nxc"
+5	50	124		brtst 4, __ASM_Label_775, __D0moveScanner
+5	52	127	#line 52 "C:\Github\NXC_Source\Scanner2.nxc"
+5	53	127		jmp __ASM_Label_774
+5	52	129	#line 52 "C:\Github\NXC_Source\Scanner2.nxc"
+5	52	129	#line 52 "C:\Github\NXC_Source\Scanner2.nxc"
+5	53	129		subret __moveScanner_return
+6	79	0	#line 79 "C:\Github\NXC_Source\Scanner2.nxc"
+6	80	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Github\NXC_Source\Scanner2.nxc
+1	__ResetSensorSubroutine	319	NXTDefs.h
+2	senseButton	332	C:\Github\NXC_Source\.\+Button+-.nxc
+3	scanLineFwd	594	C:\Github\NXC_Source\Scanner2.nxc
+4	scanLineRev	767	C:\Github\NXC_Source\Scanner2.nxc
+5	moveScanner	943	C:\Github\NXC_Source\Scanner2.nxc
+6	__initialize_global_data	1074	C:\Github\NXC_Source\Scanner2.nxc
