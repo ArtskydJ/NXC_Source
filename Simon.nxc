@@ -1,4 +1,7 @@
-//Simon
+//Simon.nxc
+//Simon Clone
+//Joseph Dykstra
+//
 #include "+HighScore.nxc"
 #include "+Button+-.nxc"
 
@@ -7,45 +10,35 @@ const int initnum=50;
 int highscore;
 
 
-bool correctbutton(int b)
+bool correctbutton(int INbutton)
     {
-    int l, c, r, hit=-1;
-    while (hit==-1)
+    int tButtonHit = -1, tCorrectButton = -1;
+    while (tButtonHit == -1)
         {
-        l=ButtonState(BTNLEFT);
-        c=ButtonState(BTNCENTER);
-        r=ButtonState(BTNRIGHT);
-        if (b==0)
+        if (ButtonState(BTNLEFT))   tButtonHit = 0;
+        if (ButtonState(BTNCENTER)) tButtonHit = 1;
+        if (ButtonState(BTNRIGHT))  tButtonHit = 2;
+        if (tButtonHit != -1)
             {
-            if (l)    {hit=1;}
-            if (c||r) {hit=0;}
+            if (tButtonHit == INbutton)    tCorrectButton = true;
+            else                           tCorrectButton = false;
+            RectOut(0,0,99,16,36); //Fill+Invert
+            CircleOut(tButtonHit*40+10,8,8,32); //Fill
+            PlayTone((tButtonHit+1)*1000,250); Wait(250);
             }
-        if (b==1)
-            {
-            if (c)    {hit=1;}
-            if (l||r) {hit=0;}
-            }
-        if (b==2)
-            {
-            if (r)    {hit=1;}
-            if (l||c) {hit=0;}
-            }
-        if (l) {PlayTone(1000,250); Wait(250);}
-        if (c) {PlayTone(2000,250); Wait(250);}
-        if (r) {PlayTone(3000,250); Wait(250);}
         }
     until (ButtonState(BTNLEFT)==false
     &&ButtonState(BTNCENTER)==false
     &&ButtonState(BTNRIGHT)==false) {}
-    return hit;
+    return tCorrectButton;
     }
 
 bool endofgame(int lev)
     {
     ClearLine(LCD_LINE2); ClearLine(LCD_LINE8);
     TextOut(25,LCD_LINE2,"Failure!",0);
-    TextOut(32,LCD_LINE7,"Again?",0);
-    TextOut(2, LCD_LINE8, "Yes           No",0);
+    TextOut(32,LCD_LINE7,"",0);
+    TextOut(2, LCD_LINE8, "Yes   Again?  No",0);
     PlayTone(2960,500); Wait(500);
     PlayTone(2794,550); Wait(550);
     PlayTone(2637,950); Wait(950);
@@ -57,7 +50,7 @@ bool endofgame(int lev)
 task main()
     {
     bool playagain=true;
-    while(playagain)
+    while (playagain)
         {
         ClearScreen();
         int blink[initnum], level=0, i=0;
@@ -70,17 +63,18 @@ task main()
             ClearScreen();
             TextOut(32,LCD_LINE1,"SIMON",0);
             TextOut(10,LCD_LINE2,"Watch Close...",0);
-            TextOut(0, LCD_LINE4,StrCat("Score=",NumToStr(level)),0);
-            TextOut(0, LCD_LINE5,StrCat("Highscore=",NumToStr( readHigh("Simon.dat") )),0);
+            TextOut(0, LCD_LINE4,StrCat("Score     ",NumToStr(level)),0);
+            TextOut(0, LCD_LINE5,StrCat("Highscore ",NumToStr( readHigh("Simon.dat") )),0);
             level+=1;
             Wait(500);
             for (i=0;i<level; i++)
                 {
-                ClearLine(LCD_LINE8);
-                TextOut(blink[i]*45,LCD_LINE8,"X",0);
+                RectOut(0,0,99,16,36); //Fill+Invert
+                CircleOut(blink[i]*40+10,8,8,32); //Fill
                 PlayTone(1000+(blink[i]*1000),250); Wait(500);
                 }
-            ClearLine(LCD_LINE2); ClearLine(LCD_LINE8);
+            ClearLine(LCD_LINE2);
+            RectOut(0,0,99,16,36); //Fill+Invert
             TextOut(20,LCD_LINE2,"Repeat...",0);
             for (i=0;i<level&&alive; i++)
                 {

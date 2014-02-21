@@ -3,11 +3,18 @@
 //01-21-2013
 
 #include "+Button+-.nxc"
+//#define BEEP
+#define OFFSET 9
+#define DELTAOFFSET 0.95 //(0.97)
 #define WAITTIME 19
+
 #define DONTEXIT 0
 #define EXITSOON 1
 #define EXITNOW  2
-#define LROFFSET 7
+
+#ifndef OFFSET
+char OFFSET=2;
+#endif
 byte btnExitPressed=DONTEXIT;
 
 byte setThreshold(int INthreshold)
@@ -31,7 +38,9 @@ byte setThreshold(int INthreshold)
 
 void calibrate()
   {
+#ifdef BEEP
   PlayTone(500,250);
+#endif
   byte light,hi,lo;
   OnFwd(OUT_A,58); //Go slowly correct direction
   for (char xPos=99; xPos>=0; xPos--)
@@ -46,45 +55,53 @@ void calibrate()
   //calibrate lo
   }
 
+void midScan(int INx, int INy, int INthreshold)
+  {
+  //NumOut(0,0,xPos,0x1000);
+  byte light=Sensor(IN_3);
+  //write light into text file
+  //light=((INx+INy)%2)*100; //TEST
+  PointOut(INx,INy,(light>INthreshold)*4);
+  Wait(WAITTIME);
+  if (ButtonPressed(BTNEXIT))
+    btnExitPressed=EXITSOON;
+#ifndef OFFSET
+  OFFSET=senseButton(OFFSET,true,1,15,true);
+#endif
+  }
+
 void scanLineFwd(int drawY, int INthreshold)
   {
-  //PlayTone(3000,250);
-  byte light;
+#ifdef BEEP
+  PlayTone(3000,250);
+#endif
   OnFwd(OUT_A,58); //Go slowly correct direction
+  float tempX;
   for (char xPos=99; xPos>=0; xPos--)
     {
-    //NumOut(0,0,xPos,0x1000);
-    light=Sensor(IN_3);
-    //write light into text file
-    PointOut(xPos,drawY,(light>INthreshold)*4);
-    Wait(WAITTIME);
-    if (ButtonPressed(BTNEXIT) || btnExitPressed==EXITSOON)
-      btnExitPressed=EXITNOW;
+    tempX = (xPos+OFFSET)*DELTAOFFSET;
+    midScan(tempX,drawY,INthreshold);
     }
+  if (btnExitPressed==EXITSOON) btnExitPressed=EXITNOW;
   Off(OUT_A);
   }
 
 void scanLineRev(int drawY, int INthreshold)
   {
+#ifdef BEEP
   //PlayTone(2000,250);
-  byte light;
+#endif
   OnRev(OUT_A,58); //Go slowly correct direction
-  for (char xPos=LROFFSET; xPos<=99; xPos++)
-    {
-    //NumOut(0,0,xPos,0x1000);
-    light=Sensor(IN_3);
-    //write light into text file
-    PointOut(xPos,drawY,(light>INthreshold)*4);
-    Wait(WAITTIME);
-    if (ButtonPressed(BTNEXIT))
-      btnExitPressed=EXITSOON;
-    }
+  for (char xPos=0; xPos<=99; xPos++)
+    midScan(xPos,drawY,INthreshold);
   Off(OUT_A);
   }
   
 void moveScanner()
   {
+#ifdef BEEP
   PlayTone(1000,250);
+#endif
   while (ButtonPressed(BTNCENTER)){}
   OnRev(OUT_BC,30);
   Wait(50);
@@ -108,6 +125,9 @@ task main()
       if ((yPos%2)==0) scanLineFwd(yPos,threshold); //Ending
       else             scanLineRev(yPos,threshold); //Starting
       if (btnExitPressed==DONTEXIT) moveScanner();
+#ifndef OFFSET
+      TextOut(0,0,StrCat("offset: ",NumToStr(OFFSET),"  "),0);
+#endif
       }
     until (ButtonPressed(BTNCENTER)||ButtonPressed(BTNEXIT)){}
     while (ButtonPressed(BTNCENTER)||ButtonPressed(BTNEXIT)){}

@@ -1,0 +1,68 @@
+//BlueTooth Reciever
+//Use with "BTController.nxc"
+
+#define LCD_LINE(n)  56-(n*8) //0-7, not 1-8
+#define WAIT_TIME    10
+
+
+task main()
+	{
+	//Check for connection
+	char i, btStat=-1;
+	for (i=0; btStat!=NO_ERR; i=(i+1)%4)
+		{
+		btStat = BluetoothStatus(i);
+		ClearScreen();
+		NumOut(0, LCD_LINE1, i, DRAW_OPT_NORMAL);
+		TextOut(10, LCD_LINE1, "BT Error:", DRAW_OPT_NORMAL);
+		NumOut(65, LCD_LINE1, btStat, DRAW_OPT_NORMAL);
+		Wait(500);
+		}
+	ClearLine(LCD_LINE1);
+
+	string tempString="";
+	int tempInt=0;
+	string rec[3]={"","",""};
+
+	//Receive loop
+	while (true)
+		{
+		ClearScreen();
+		TextOut(0,LCD_LINE1,"A:", DRAW_OPT_NORMAL);
+		TextOut(0,LCD_LINE2,"B:", DRAW_OPT_NORMAL);
+		TextOut(0,LCD_LINE3,"C:", DRAW_OPT_NORMAL);
+		TextOut(12,LCD_LINE1, rec[0], DRAW_OPT_NORMAL);
+		TextOut(12,LCD_LINE2, rec[1], DRAW_OPT_NORMAL);
+		TextOut(12,LCD_LINE3, rec[2], DRAW_OPT_NORMAL);
+		
+		string temp = "";
+    	while (temp == "")
+			{
+			ReceiveRemoteString(0, false, temp);
+			}
+		ReceiveRemoteString(0, true, temp);
+
+		int xPos[2] = {-1, -1};
+		int i;
+		for (i=0; i<StrLen(temp)-1; i++)
+			{
+			if (StrIndex(temp, i) == 'x')
+				{
+				xPos[(xPos[0] != -1)] = i;
+				}
+			}
+
+		rec[0] = LeftStr(temp, xPos[0]);
+		rec[1] = MidStr(temp, xPos[0]+1, xPos[1]-xPos[0]-1);
+		rec[2] = RightStr(temp, StrLen(temp)-xPos[1]-1);
+
+		string t = StrCat(temp, "     p: ", rec[0], "|", rec[1], "|", rec[2]);
+		SendResponseString(0, t);
+		Wait(WAIT_TIME);
+		
+		for (i=0; i<3; i++)
+			{
+			OnFwd(i, StrToNum(rec[i]));
+			}
+		}
+	}

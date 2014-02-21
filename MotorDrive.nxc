@@ -1,27 +1,27 @@
 //Motor Drive
 #include "+Button+-.nxc"
 task main()
-  {
-  TextOut(16,LCD_LINE1,"Motor Drive",0);
-  int speed=50;
-  bool fwd=true;
-  string disp="";
-  while (true)
-    {
-    disp=NumToStr(speed);
-    TextOut(0,LCD_LINE3,StrCat("Speed: ",disp," "),0);
-    if (fwd) disp="Forward"; else disp="Reverse";
-    TextOut(0,LCD_LINE4,StrCat("Dir: ",disp," "),0);
-    speed=senseButton(speed, true,5, 100, true);
-    if (speed!=0)
-      {
-      if (fwd) OnFwd(OUT_BC,speed);
-      else     OnRev(OUT_BC,speed);
-      }
-    if (ButtonState(BTNCENTER))
-      {
-      fwd=!fwd;
-      until (!ButtonState(BTNCENTER))
-      }
-    }
-  }
+	 {
+	 TextOut(16,LCD_LINE1,"Motor Drive",0);
+	 int speed=50;
+	 bool fwd=true;
+	 string disp="";
+	 while (true)
+	 	 {
+	 	 disp=NumToStr(speed);
+	 	 TextOut(0,LCD_LINE3,StrCat("Speed: ",disp," "),0);
+	 	 if (fwd) disp="Forward"; else disp="Reverse";
+	 	 TextOut(0,LCD_LINE4,StrCat("Dir: ",disp," "),0);
+	 	 speed=senseButton(speed, true,10, 100, true);
+	 	 if (speed!=0)
+	 	 	 {
+	 	 	 if (fwd) OnFwd(OUT_BC,speed);
+	 	 	 else     OnRev(OUT_BC,speed);
+	 	 	 }
+	 	 if (ButtonState(BTNCENTER))
+	 	 	 {
+	 	 	 fwd=!fwd;
+	 	 	 until (!ButtonState(BTNCENTER))
+	 	 	 }
+	 	 }
+	 }

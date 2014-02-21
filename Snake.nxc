@@ -332,6 +332,7 @@ void gameOver()
     newsettings=ButtonPressed(BTNRIGHT);
     until (ButtonPressed(BTNLEFT)==0&&ButtonPressed(BTNRIGHT)==0) {}
     if (newsettings) selectGame();
+    else ClearScreen();
     }
   }
 

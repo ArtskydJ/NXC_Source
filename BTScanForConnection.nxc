@@ -1,0 +1,20 @@
+﻿//Joseph Dykstra
+//2013-12-09
+
+#define EXIT_LOOP_NO_ERR  1 //When no error is found, allow exiting of loop?
+
+task main()
+	{
+	char i, btStat=-1;
+	for (i=0; btStat!=NO_ERR && EXIT_LOOP_NO_ERR; i=(i+1)%4)
+		{
+		btStat = BluetoothStatus(i);
+		ClearScreen();
+		NumOut(0, LCD_LINE1, i, DRAW_OPT_NORMAL);
+		TextOut(10, LCD_LINE1, "BT Error:", DRAW_OPT_NORMAL);
+		NumOut(65, LCD_LINE1, btStat, DRAW_OPT_NORMAL);
+		Wait(1000);
+		}
+	ClearScreen();
+	TextOut(20, LCD_LINE1, "Connected!!!", DRAW_OPT_NORMAL);
+	}

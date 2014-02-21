@@ -1,0 +1,52 @@
+//BlueTooth Controller
+//Use with "BTReceiver.nxc"
+
+#define LCD_LINE(n)  56-(n*8) //0-7, not 1-8
+#define WAIT_TIME    10
+
+task main()
+	{
+	//Check for connection
+	char i, btStat=-1, connection;
+	for (i=0; btStat!=NO_ERR; i=(i+1)%4)
+		{
+		btStat = BluetoothStatus(i);
+		if (btStat==NO_ERR) connection = i;
+		ClearScreen();
+		NumOut(0, LCD_LINE1, i, DRAW_OPT_NORMAL);
+		TextOut(10, LCD_LINE1, "BT Error:", DRAW_OPT_NORMAL);
+		NumOut(65, LCD_LINE1, btStat, DRAW_OPT_NORMAL);
+		Wait(500);
+		}
+	ClearLine(LCD_LINE1);
+	
+	long send[3]={0,0,0};
+
+	//Send loop
+	while (true)
+		{
+		ClearScreen();
+		TextOut(0, LCD_LINE1, "A:", DRAW_OPT_NORMAL);
+		TextOut(0, LCD_LINE2, "B:", DRAW_OPT_NORMAL);
+		TextOut(0, LCD_LINE3, "C:", DRAW_OPT_NORMAL);
+		NumOut(12, LCD_LINE1, send[0], DRAW_OPT_NORMAL);
+		NumOut(12, LCD_LINE2, send[1], DRAW_OPT_NORMAL);
+		NumOut(12, LCD_LINE3, send[2], DRAW_OPT_NORMAL);
+		
+		TextOut(35,LCD_LINE8,"Clear", DRAW_OPT_NORMAL);
+		if (ButtonPressed(BTNCENTER))
+			ResetTachoCount(OUT_ABC);
+
+		for (int i=0; i<3; i++)
+			{
+			long temp = GetOutput(i, TachoCountField)*4;
+			if (temp < -100) temp = -100;
+			if (temp > 100)  temp =  100;
+			send[i] = temp;
+			}
+		string out = StrCat(NumToStr(send[0]), "x", NumToStr(send[1]), "x", NumToStr(send[2]));
+		SendResponseString(0, out);
+		SendRemoteString(connection, 0, out);
+		Wait(WAIT_TIME);
+		}
+	}

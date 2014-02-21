@@ -248,7 +248,7 @@ Clump	Line	PC	Source
 0	15	180		set __senseButton_7qG2_lr_ud_7qG2_000, 1
 0	14	183	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
 0	14	183	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
-0	15	183		set __senseButton_7qG2_add_7qG2_000, 5
+0	15	183		set __senseButton_7qG2_add_7qG2_000, 10
 0	14	186	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
 0	14	186	#line 14 "C:\Github\NXC_Source\MotorDrive.nxc"
 0	15	186		set __senseButton_7qG2_high_7qG2_000, 100
