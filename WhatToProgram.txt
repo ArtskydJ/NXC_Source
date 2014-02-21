@@ -1,6 +1,9 @@
+1 player:
 space invaders
-pong
 pinball
 helicopter
 asteroids
+
+2 player:
+pong
 tron
