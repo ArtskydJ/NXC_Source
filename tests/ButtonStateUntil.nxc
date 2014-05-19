@@ -1,0 +1,4 @@
+task main() {
+until (ButtonState(BTNLEFT)) {}
+until (ButtonState(BTNLEFT)==false) {PlayTone(2000,1);}
+}

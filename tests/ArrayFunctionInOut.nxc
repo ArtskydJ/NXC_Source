@@ -1,0 +1,27 @@
+int function(int IN[])
+  {
+  int OUT[]={0,0,0,0};
+
+  for (int i=0; i<4; i++)
+    {
+    OUT[i]=IN[i];
+    }
+  for (int j=0; j<4; j++)
+    {
+    NumOut(0,56-j*8,OUT[j],0);
+    }
+  Wait(1000);
+  return OUT;
+  }
+  
+task main()
+  {
+  int begin[4]={10,19,19,96};
+  int end[4]={7,3,17,435};
+  end=function(begin);
+  for (int j=0; j<4; j++)
+    {
+    NumOut(0,56-j*8,end[j],0);
+    }
+  Wait(1000);
+  }

@@ -1,0 +1,14 @@
+task main()
+    {
+    while(1)
+        {
+        SendResponseString(MAILBOX10, "1");
+        Wait(60);
+        SendResponseString(MAILBOX10, "2");
+        Wait(60);
+        SendResponseString(MAILBOX10, "3");
+        Wait(60);
+        SendResponseString(MAILBOX10, " ");
+        Wait(60);
+        }
+    }

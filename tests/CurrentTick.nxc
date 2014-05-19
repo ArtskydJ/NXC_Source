@@ -1,0 +1,7 @@
+unsigned long num;
+task main()
+  {
+  num=CurrentTick();
+  SendResponseNumber(MAILBOX10,num);
+  Wait(100);
+  }

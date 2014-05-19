@@ -1,0 +1,81 @@
+//Read/Write String Test
+
+task main()
+  {
+  int what=0;
+  unsigned int handle,fsize=1024,result;
+  string outstring;
+  TextOut(2,0,"make|delete|open",0);
+  until (ButtonPressed(BTNLEFT)||ButtonPressed(BTNCENTER)||ButtonPressed(BTNRIGHT)) {}
+  if (ButtonPressed(BTNLEFT))   {what=0;}
+  if (ButtonPressed(BTNCENTER)) {what=1;}
+  if (ButtonPressed(BTNRIGHT))  {what=2;}
+  if (what==0)
+    {
+    TextOut(0,48,"Writing",0);
+    result=CreateFile("monkey.txt",1024,handle); //change to .dat later
+    if (result==LDR_SUCCESS)
+      {
+      TextOut(0,40,"Written!",0);
+      Write(handle,"Joe is not a monkey...");
+      Write(handle,"Joe is a human.");
+      CloseFile(handle);
+      PlayTone(500,500);
+      Wait(500);
+      }
+    else if (result==LDR_FILEEXISTS)
+      {
+      TextOut(0,56,"FILE EXISTS",0);
+      SendResponseNumber(MAILBOX10,result);
+      }
+    else
+      {
+      TextOut(0,56,"UNKNOWN ERROR",0);
+      SendResponseNumber(MAILBOX10,result);
+      }
+    }
+  else if (what==1)
+    {
+    Wait(100);
+    TextOut(0,48,"Deleting",0);
+    result=DeleteFile("monkey.txt");
+    if (result==LDR_SUCCESS)
+      {TextOut(0,40,"Deleted!",0);}
+    else if (result=LDR_FILEISBUSY)
+      {
+      TextOut(0,56,"FILE IS BUSY",0);
+      SendResponseNumber(MAILBOX10,result);
+      }
+    else
+      {
+      TextOut(0,56,"UNKNOWN ERROR",0);
+      SendResponseNumber(MAILBOX10,result);
+      }
+    }
+  else if (what==2)
+    {
+    TextOut(0,48,"Reading",0);
+    result=OpenFileRead("monkey.txt",fsize,handle);
+    if (result==LDR_SUCCESS)
+      {
+      TextOut(0,40,"Read!",0);
+      Read(handle,outstring);
+      CloseFile(handle);
+      SendResponseString(MAILBOX10,outstring);
+      TextOut(0,24,outstring,0);
+      PlayTone(2000,500);
+      Wait(500);
+      }
+    else if (result==LDR_FILENOTFOUND)
+      {
+      TextOut(0,56,"FILE NOT FOUND",0);
+      SendResponseNumber(MAILBOX10,result);
+      }
+    else
+      {
+      TextOut(0,56,"UNKNOWN ERROR",0);
+      SendResponseNumber(MAILBOX10,result);
+      }
+    }
+  Wait(1000);
+  }

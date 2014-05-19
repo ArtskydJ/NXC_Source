@@ -1,0 +1,110 @@
+#include "C:\Github\NXC_Source\+TextInput.nxc"
+unsigned int fsize=10000,handle;
+int readHigh(string readme)
+  {
+  int ARead = 0;
+  int result = OpenFileRead(readme, fsize, handle);
+  if (result == LDR_SUCCESS)
+    {
+    Read(handle, ARead);
+    CloseFile(handle);
+    }
+  else
+    {ARead = -1;}
+  return ARead;
+  }
+
+string readHighName(string readme)
+  {
+  string ARead = "";
+  int result = OpenFileRead(readme, fsize, handle);
+  if (result == LDR_SUCCESS)
+    {
+    ReadLnString(handle,ARead);
+    ReadLnString(handle,ARead);
+    CloseFile(handle);
+    }
+  else
+    {ARead = "";}
+  return ARead;
+  }
+/*
+void writeHighNameModded(string readme, int NewHighscore)
+  {
+  DeleteFile(readme); //Good
+  CreateFile(readme, 40, handle);
+
+  //Write(handle,NewHighscore); //OK?
+  //WRITE EOL CHAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  //string temp=keyboard();
+  //Write(handle, temp);
+
+  string temp2=keyboard(),temp1; //OK?
+  //temp1=StrCat(NumToStr(NewHighscore),Flatten(13));
+  //Write(handle, temp1);
+  Write(handle, temp2)
+
+  CloseFile(handle); //Good
+  }
+  
+void endGameModded(string readme, int myscore)
+  {
+  TextOut(25,LCD_LINE4,"GAME OVER", 1);
+  Wait(1000);
+  if (myscore>readHigh(readme)) {}
+  if (1) {writeHighNameModded(readme,myscore);}
+  ClearScreen();
+  TextOut(0,LCD_LINE6,StrCat("S:",NumToStr(myscore)),0);
+  //TextOut(0,LCD_LINE7,StrCat("HS:",NumToStr( readHigh(readme) )),0);
+  TextOut(0,LCD_LINE8,StrCat("N:",readHighName(readme)),0);
+  while(1){}
+  }
+*/
+string readawesome(string readme)
+  {
+  string readstring="",outstring="";
+  //int result = OpenFileRead(readme, fsize, handle);
+  //if (result == LDR_SUCCESS)
+  //  {
+Read(handle,readstring);
+CloseFile(handle);
+outstring=StrCat("boss:",readstring);
+  //  }
+  //else
+  //  {readstring = "failface";}
+  Wait(500);
+  PlayTone(2000,500);
+  outstring=StrCat(outstring,readstring,"!");
+  SendResponseString(MAILBOX10,outstring);
+  Wait(500);
+  outstring="0123456789";
+  SendResponseString(MAILBOX10,outstring);
+  return readstring;
+  }
+  
+void endawesome(string readme)
+  {
+DeleteFile(readme);
+CreateFile(readme, fsize, handle);
+  //string temp=keyboard();
+  string temp="joe";
+  string temp2=StrCat("...",temp,"...");
+  SendResponseString(MAILBOX10,temp);
+Write(handle, temp);
+CloseFile(handle);
+  TextOut(0,LCD_LINE8,StrCat("N:",readawesome(readme)),0);
+  while(1){}
+  }
+  
+task main()
+  {
+  int score=0;
+  bool playing=true;
+  while (playing)
+    {
+    score=Random(100);
+    playing=false;
+    }
+  endawesome("TestHigh.dat");
+  //endGameModded("TestHigh.dat",score);
+  }

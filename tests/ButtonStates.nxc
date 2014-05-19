@@ -1,0 +1,21 @@
+task main(){
+while (true){
+if (ButtonState(BTNLEFT))
+{TextOut(0,LCD_LINE8,"+",DRAW_OPT_NORMAL);}
+else {TextOut(0,LCD_LINE8,"-",DRAW_OPT_NORMAL);}
+
+if (ButtonState(BTNRIGHT))
+TextOut(90,LCD_LINE8,"+",DRAW_OPT_NORMAL);
+else {TextOut(90,LCD_LINE8,"-",DRAW_OPT_NORMAL);}
+}}
+
+/*
+until (!ButtonState(BTNLEFT))
+TextOut(0,LCD_LINE8,"+",DRAW_OPT_NORMAL);
+until (ButtonState(BTNLEFT))
+TextOut(0,LCD_LINE8,"-",DRAW_OPT_NORMAL);
+until (!ButtonState(BTNRIGHT))
+TextOut(90,LCD_LINE8,"+",DRAW_OPT_NORMAL);
+until (ButtonState(BTNRIGHT))
+TextOut(90,LCD_LINE8,"-",DRAW_OPT_NORMAL);
+*/

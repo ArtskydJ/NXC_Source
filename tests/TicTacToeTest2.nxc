@@ -1,0 +1,12 @@
+task main() {
+int select=10, board[9], i;
+for (i=0; i<9; i++)
+    {
+    board[i]=0;
+    }
+PlayTone(500,500);
+Wait(1000);
+for (i=8; i>-1; i--) {if (board[i]==0) {PlayTone(1000,500);Wait(1000);}} //select=i;}}
+PlayTone(2000,500);
+Wait(1000);
+}

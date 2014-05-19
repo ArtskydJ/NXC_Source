@@ -1,0 +1,22 @@
+//02-05-2013
+//Joseph D
+
+
+void helloworld()
+{
+    TextOut(50,0,"Hello World!",0);
+}
+
+void waitforme()
+{
+    Wait(1000);  //MilliSeconds
+}
+
+task main()  {
+  while(true)
+    {
+    helloworld();
+    waitforme();
+    }
+}//quits here
+

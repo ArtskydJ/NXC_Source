@@ -1,0 +1,10 @@
+task main()
+  {
+  float x;
+  while (1)
+    {
+    x=Random(10);
+    TextOut(0,LCD_LINE1,NumToStr(x),DRAW_OPT_NORMAL);
+    Wait(200);
+    }
+  }

@@ -1,0 +1,13 @@
+#download "RotatedNumbers.ric"
+task main()
+  {
+  ClearScreen();
+  int i=0;
+  byte j[1];
+  for (int i=0; i<10; i++)
+    {             //10+(10*i)
+    j[0]=i*5;
+    GraphicOutEx(94,60-(5*i),"RotatedNumbers.ric",j,0);
+    }
+  while(1){}
+  }

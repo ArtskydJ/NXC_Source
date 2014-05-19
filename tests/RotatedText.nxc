@@ -1,0 +1,2 @@
+#download "RotatedNumbers.ric"
+GraphicOutEx(50,50,"RotatedNumbers.ric",score,0);

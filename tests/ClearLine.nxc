@@ -1,0 +1,45 @@
+void main1()
+  {
+  PlayTone(500,500);
+  
+  TextOut(9,LCD_LINE1,"TESTING TESTING",0); //DRAW OPT NORMAL
+  Wait(1000);
+
+  ClearLine(LCD_LINE1);
+  Wait(1000);
+
+  LineOut(99,63,99,56,0);
+  Wait(1000);
+
+  ClearLine(LCD_LINE1);
+  Wait(1000);
+  }
+
+/////////////////////////////////////////////////
+
+void main2()
+  {
+  PlayTone(2000,500);
+  
+  TextOut(9,LCD_LINE1,"TESTING TESTING",4096); //DRAW_OPT_CLEAR_EOL
+  Wait(1000);
+
+  TextOut(0,LCD_LINE1," ",4096);
+  Wait(1000);
+
+  LineOut(99,63,99,56,4096);
+  Wait(1000);
+
+  TextOut(0,LCD_LINE1," ",4096);
+  Wait(1000);
+  }
+  
+/////////////////////////////////////////////////
+
+task main()
+  {
+  main1(); //bad,  bad
+  ClearScreen();
+  main2(); //good, good
+  ClearScreen();
+  }

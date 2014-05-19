@@ -1,0 +1,8 @@
+task main()
+{
+bool a=true,b=true,c=false,d=true,e=true;
+bool z=a+b+c+d+e;
+while (z>1) {z-=1;}
+TextOut(0,0,NumToStr(z),0);
+Wait(1000);
+}

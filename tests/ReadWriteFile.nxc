@@ -1,0 +1,63 @@
+// Open the data file for writing.
+void open_for_write()
+{
+    unsigned int file_size = FILE_SIZE;
+    handle = 0;
+    // Start with the assumptions the file doesn't exist and needs to be created.
+    unsigned int rtn_code = CreateFile(FILE_NAME, file_size, handle);
+    // If the file already exists, open it with the intent of adding to the data
+    // that is already there.
+    if (rtn_code == LDR_FILEEXISTS)
+    rtn_code = OpenFileAppend(FILE_NAME, file_size, handle);
+    // Return code handling
+    switch (rtn_code)
+    {
+        case LDR_SUCCESS:
+            return;
+        case LDR_FILEISFULL:
+            TextOut(0, LCD_LINE1, "file is full    ");
+            break;
+        default:
+            // Unanticipated exception.
+            TextOut(0, LCD_LINE1, "write open      ");
+            rtn_code_out(rtn_code);
+            break;
+    }
+    shutdown(SEC_8);
+}
+
+// Open the data file for reading.
+void open_for_read()
+    {
+        unsigned int file_size = FILE_SIZE;
+        handle = 0;
+        unsigned int rtn_code = OpenFileRead(FILE_NAME, file_size, handle);
+        // Return code handling
+        if (rtn_code != LDR_SUCCESS)
+        {
+        // Unanticipated exception.
+            TextOut(0, LCD_LINE1, "read open       ");
+            rtn_code_out(rtn_code);
+            shutdown(SEC_8);
+        }
+    }// Write one circle record to the data file.
+void write_recd(const circle recd)
+{
+    unsigned int rtn_code = Write(handle, recd);
+    // Return code handling
+    if (rtn_code != LDR_SUCCESS)
+    {
+        switch (rtn_code)
+        {
+        case LDR_EOFEXPECTED:
+            TextOut(0, LCD_LINE1, "no more space   ");
+            break;
+        default:
+        // Unanticipated exception.
+        TextOut(0, LCD_LINE1, "write failed    ");
+        rtn_code_out(rtn_code);
+        break;
+        }
+    shutdown(SEC_8);
+    }
+}

@@ -1,0 +1,6 @@
+task main() {while(true) {
+TextOut(0,LCD_LINE1,NumToStr(ButtonState(BTNLEFT)),DRAW_OPT_NORMAL);
+TextOut(0,LCD_LINE2,NumToStr(ButtonState(BTNCENTER)),DRAW_OPT_NORMAL);
+TextOut(0,LCD_LINE3,NumToStr(ButtonState(BTNRIGHT)),DRAW_OPT_NORMAL);
+TextOut(0,LCD_LINE4,NumToStr(ButtonState(BTNEXIT)),DRAW_OPT_NORMAL);
+Wait(MS_50);ClearScreen();}}

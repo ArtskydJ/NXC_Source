@@ -1,0 +1,12 @@
+task main()
+  {                        //can't see 7
+  TextOut(0,LCD_LINE1,"12345678901234567",0);
+  TextOut(0,LCD_LINE2,"2\0      1",0);
+  TextOut(0,LCD_LINE3,"3",0);
+  TextOut(0,LCD_LINE4,"4",0);
+  TextOut(0,LCD_LINE5,"5",0);
+  TextOut(0,LCD_LINE6,"6",0);
+  TextOut(0,LCD_LINE7,"7",0);
+  TextOut(0,LCD_LINE8,"8",0);
+  Wait(1000);
+  }

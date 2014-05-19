@@ -1,0 +1,25 @@
+float n=0;
+int m=0;
+string msg="";
+task main()
+  {
+  while(1)
+    {
+    n=Random(90);
+    n/=100;
+    n+=9;
+    n/=10;
+    m=n*1000;
+    if (n<=1)
+      {
+      msg=NumToStr(n);
+      SendResponseString(MAILBOX10,msg);
+      Wait(100);
+      msg=StrCat("0.",NumToStr(m));
+      SendResponseString(MAILBOX10,msg);
+      Wait(100);
+      SendResponseString(MAILBOX10,"  ");
+      Wait(100);
+      }
+    }
+  }

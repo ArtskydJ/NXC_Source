@@ -1,0 +1,5 @@
+#download "FGB-Sack.ric"
+task main()
+  {
+  GraphicOut(50,30,"FGB-Sack.ric",0);
+  }

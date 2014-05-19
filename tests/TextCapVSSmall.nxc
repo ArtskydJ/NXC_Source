@@ -1,0 +1,16 @@
+const int lengtharray=12;
+const byte chararray[lengtharray]={'a', 'b', 'c', 'x', 'y', 'z', 'A', 'B', 'C', 'X', 'Y', 'Z'};
+
+task main()
+  {
+  byte chari;
+  int a;
+  TextOut(0,8,"AZ       az",0);
+  for (int i=0;i<lengtharray;i++)
+    {
+    a=i%(lengtharray/2);
+    chari=chararray[i];
+    NumOut((i<lengtharray/2)*50,56-a*8,chari,0);
+    }
+  while(1){}
+  }
