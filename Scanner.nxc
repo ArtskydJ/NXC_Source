@@ -2,7 +2,7 @@
 //Joseph Dykstra
 //01-21-2013
 
-#include "+Button+-.nxc"
+#include "Button+-.nxc"
 
 task main()
   {

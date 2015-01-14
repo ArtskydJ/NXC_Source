@@ -2,7 +2,7 @@
 //Joseph Dykstra
 //01-21-2013
 
-#include "+Button+-.nxc"
+#include "Button+-.nxc"
 //#define BEEP
 #define OFFSET 9
 #define DELTAOFFSET 0.95 //(0.97)

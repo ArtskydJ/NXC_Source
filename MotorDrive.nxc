@@ -1,5 +1,5 @@
 //Motor Drive
-#include "+Button+-.nxc"
+#include "Button+-.nxc"
 task main()
 	 {
 	 TextOut(16,LCD_LINE1,"Motor Drive",0);

@@ -3,7 +3,7 @@
 //10-25-2012 to 12-01-2012
 
 ///////////////---PREPROCESSOR---///////////////
-#include   "+SoundEnd.nxc"
+#include   "SoundEnd.nxc"
 #define    fox             0 //Objects
 #define    goose           1
 #define    beans           2

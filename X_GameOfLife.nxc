@@ -2,8 +2,7 @@
 //Joseph Dykstra
 //01-15-2013
 
-
-#include "+Menu.nxc"
+#include "Menu.nxc"
 
 #define TX      12
 #define height  16

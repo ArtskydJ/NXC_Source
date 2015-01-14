@@ -2,8 +2,7 @@
 //Joseph Dykstra
 //9-25-2012
 
-
-#include "+SoundEnd.nxc"
+#include "SoundEnd.nxc"
 
 
 byte board[9], lastplayed, select, winner, a, b, i, aimove=0, xwins=0, owins=0, dwins=0;

@@ -1,7 +1,7 @@
 //Whack a mole
 int level=1, result;
 
-#include "+Highscore.nxc"
+#include "Highscore.nxc"
 
 bool correctbutton(int b)
     {
