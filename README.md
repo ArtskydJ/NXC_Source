@@ -1,28 +1,10 @@
-#Naming Scheme
+#NXC_Source
 
-###Header Files
-`+[Name].[ext]`
+##Missing Files
+Trying to compile and can't find an included file? Create an issue!
 
-- Finished.
-- Reusable.
-- Functionality to be #Include'd as a plugin.
+I split my modules into a different repository; see [ArtskydJ/nxc-modules](https://github.com/ArtskydJ/nxt-modules).
 
-###Finished Files
-`[Name].[ext]`
+##License
 
-- No large bugs that I know of.
-- Very usable.
-
-###Almost Finished Files
-`#[Name].[ext]`
-
-- Planning on finishing soon, or
-- Wanting to get finished soon.
-
-###Unfinished
-`X_[Name].[ext]`
-
-- Not planning on finishing anytime soon.
-- Large bug(s)
-- Unfinished framework
-- No easy way to test.
+[VOL](http://veryopenlicense.com)
