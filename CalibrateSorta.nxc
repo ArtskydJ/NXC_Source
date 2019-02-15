@@ -1,0 +1,21 @@
+// Output the highest and lowest sensor values
+task main() {
+	SetSensorLight(S4, 1);
+	const int targetSpeed = 50;
+	int current;
+	int low = 100;
+	int high = 0;
+
+	OnFwd(OUT_AB, targetSpeed);
+	for (int i = 0; i < 100; i++) {
+		current = SensorValue(S4);
+		if (current < low) low = current;
+		if (current > high) high = current;
+		Wait(10);
+	}
+	Off(OUT_AB);
+
+	TextOut(0, 20, StrCat("Light Low  ", NumToStr(low)));
+	TextOut(0, 30, StrCat("Light High ", NumToStr(high)));
+	Wait(5000);
+}

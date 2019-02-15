@@ -1,0 +1,100 @@
+// Follow a line
+#define CLEAR_LINE (0x0800)
+
+int clampMotor(int x) {
+	return x > 100 ? 100 : (x < -100 ? -100 : x);
+}
+
+task main() {
+	SetSensorLight(S4, 1);
+
+	// p=1.6, l=67, s=60 works really well
+
+	// Constants, unless I make them modifyable via the UI
+	float kp = 1.5;
+	float ki = 0.12; //0.03;
+	float kd = 4;//8;
+	float kiDamp = 0.8;
+	float targetSpeed = 70;
+	int targetLight = 60; // 45=black 75=white 60=half
+
+	// Variables
+	int error = 0;
+	int prevError = 0;
+	int integral = 0;
+	int derivative = 0;
+	int turn = 0;
+	int menuIndex = 0;
+	float menuItemChange = 0;
+	string prefix = " ";
+
+	// Button Variables
+	bool leftState = false;
+	bool centerState = false;
+	bool rightState = false;
+	bool leftLastState = false;
+	bool centerLastState = false;
+	bool rightLastState = false;
+
+
+	while(true) {
+		// ------------ Proportional ------------
+		prevError = error;
+		error = (SensorValue(S4) - targetLight);
+
+		// -------------- Integral --------------
+		// Reset the integral when you cross the target
+		//if ((error > 0) != (prevError > 0)) { // avoid wind-up
+		//	integral /= 3;
+		//}
+		integral = integral * kiDamp + error;
+
+		// ------------- Derivative -------------
+		derivative = error - prevError;
+
+		// ------------ Motor Output ------------
+		turn = kp * error + ki * integral + kd * derivative;
+		OnFwd(OUT_A, clampMotor(targetSpeed - turn));
+		OnFwd(OUT_B, clampMotor(targetSpeed + turn));
+
+		// -------------- Buttons ---------------
+		leftLastState = leftState;
+		centerLastState = centerState;
+		rightLastState = rightState;
+		leftState = ButtonState(BTNLEFT);
+		centerState = ButtonState(BTNCENTER);
+		rightState = ButtonState(BTNRIGHT);
+		if (centerState && !centerLastState) {
+			menuIndex = (menuIndex + 1) % 5;
+		}
+		menuItemChange = 0;
+		if (leftState && !leftLastState) menuItemChange = -1;
+		if (rightState && !rightLastState) menuItemChange = 1;
+		if (menuItemChange != 0) {
+			if (menuIndex == 0) kp += menuItemChange / 10;
+			if (menuIndex == 1) ki += menuItemChange / 50;
+			if (menuIndex == 2) kd += menuItemChange;
+			if (menuIndex == 3) kiDamp += menuItemChange / 10;
+			if (menuIndex == 4) targetSpeed += menuItemChange * 5;
+		}
+
+		// -------------- Display ---------------
+		// TextOut(0, LCD_LINE1, StrCat("p=", NumToStr(kp), " i=", NumToStr(ki)," d=", NumToStr(kd)), CLEAR_LINE);
+		prefix = " "; if (menuIndex == 0) prefix = ">";
+		TextOut(0, LCD_LINE1, StrCat(prefix, "P   ", NumToStr(kp)), CLEAR_LINE);
+		prefix = " "; if (menuIndex == 1) prefix = ">";
+		TextOut(0, LCD_LINE2, StrCat(prefix, "I   ", NumToStr(ki)), CLEAR_LINE);
+		prefix = " "; if (menuIndex == 2) prefix = ">";
+		TextOut(0, LCD_LINE3, StrCat(prefix, "D   ", NumToStr(kd)), CLEAR_LINE);
+		prefix = " "; if (menuIndex == 3) prefix = ">";
+		TextOut(0, LCD_LINE4, StrCat(prefix, "Idp ", NumToStr(kiDamp)), CLEAR_LINE);
+		prefix = " "; if (menuIndex == 4) prefix = ">";
+		TextOut(0, LCD_LINE5, StrCat(prefix, "S   ", NumToStr(targetSpeed)), CLEAR_LINE);
+
+		TextOut(0, LCD_LINE6, StrCat("Left Send   ", NumToStr(targetSpeed - error)), CLEAR_LINE);
+		TextOut(0, LCD_LINE7, StrCat("Right Send  ", NumToStr(targetSpeed + error)), CLEAR_LINE);
+		TextOut(0, LCD_LINE8, StrCat("Light Sensor ", NumToStr(SensorValue(S4))), CLEAR_LINE);
+
+		Wait(10);
+	}
+}
