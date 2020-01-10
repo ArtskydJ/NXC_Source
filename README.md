@@ -1,12 +1,13 @@
-#NXC_Source
+# NXC_Source
 
 If you like what you see here, try:
 - [nxc-tetris](https://github.com/ArtskydJ/nxc-tetris)
+- [nxc-tic-tac-toe](https://github.com/ArtskydJ/nxc-tic-tac-toe)
 - [nxc-simon](https://github.com/ArtskydJ/nxc-simon)
 - [nxc-snake](https://github.com/ArtskydJ/nxc-snake)
 - [nxc-breakout](https://github.com/ArtskydJ/nxc-breakout)
 
-#Modules
+# Modules
 
 I split my modules into a different repository; see [nxc-modules](https://github.com/ArtskydJ/nxt-modules).
 
@@ -17,10 +18,9 @@ Files that include a module:
 - MotorDrive.nxc
 - Scanner.nxc
 - Scanner2.nxc
-- TicTacToe.nxc
 - WhackAMole.nxc
 - X_GameOfLife.nxc
 
-##License
+## License
 
 [VOL](http://veryopenlicense.com)
